@@ -2,7 +2,6 @@
 Scraper Manager - Coordinates all auction website scrapers.
 """
 import logging
-import asyncio
 import gc
 import hashlib
 import uuid
@@ -94,7 +93,7 @@ def get_scraper_manager() -> ScraperManager:
     return scraper_manager
 
 
-async def run_all_scrapers() -> Dict[str, Any]:
+def run_all_scrapers() -> Dict[str, Any]:
     """
     Executa todos os scrapers automaticamente sem limitadores.
     
