@@ -329,7 +329,7 @@ class LeilaoVipScraper:
             logger.error(f"Failed to scrape property detail from {url}: {e}")
             return None
             
-    def scrape_properties(self, max_properties: int = 10, verify_urls: bool = True) -> ScrapingResult:
+    def scrape_properties(self, max_properties: int = None, verify_urls: bool = True) -> ScrapingResult:
         """
         Scrape properties from Leilão VIP.
         
@@ -434,7 +434,7 @@ class LeilaoVipScraper:
         return result
 
 
-def scrape_leilaovip_properties(max_properties: int = 10) -> ScrapingResult:
+def scrape_leilaovip_properties(max_properties: int = None) -> ScrapingResult:
     """Scrape properties from Leilão VIP."""
     scraper = LeilaoVipScraper()
     return scraper.scrape_properties(max_properties=max_properties)

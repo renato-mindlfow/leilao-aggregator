@@ -163,7 +163,7 @@ class PortalZukScraper:
         'pi', 'ro', 'to', 'es', 'rr'
     ]
     
-    def scrape_listings(self, max_properties: int = 50, state: str = "all") -> List[Property]:
+    def scrape_listings(self, max_properties: int = None, state: str = "all") -> List[Property]:
         """
         Scrape property listings from Portal Zuk across multiple states.
         
@@ -189,10 +189,7 @@ class PortalZukScraper:
         
         try:
             for current_state in states_to_scrape:
-                if len(properties) >= max_properties:
-                    logger.info(f"Reached max_properties limit: {max_properties}")
-                    break
-                
+                if 
                 # Fetch listing page for this state
                 url = self.get_property_listings_url(state=current_state)
                 logger.info(f"Scraping Portal Zuk {current_state.upper()} from: {url}")
@@ -681,7 +678,7 @@ class PortalZukScraper:
         return dates
 
 
-def scrape_portal_zuk(max_properties: int = 500, state: str = "all") -> List[Property]:
+def scrape_portal_zuk(max_properties: int = None, state: str = "all") -> List[Property]:
     """
     Convenience function to scrape Portal Zuk properties.
     

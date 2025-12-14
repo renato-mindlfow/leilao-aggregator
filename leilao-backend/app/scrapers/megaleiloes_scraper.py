@@ -298,7 +298,7 @@ class MegaleiloesScraper:
             logger.error(f"Failed to scrape property from {url}: {e}")
             return None
             
-    def scrape_properties(self, max_properties: int = 10, verify_urls: bool = True) -> ScrapingResult:
+    def scrape_properties(self, max_properties: int = None, verify_urls: bool = True) -> ScrapingResult:
         """
         Scrape properties from Mega Leiloes.
         
@@ -399,7 +399,7 @@ class MegaleiloesScraper:
         return result
 
 
-def scrape_megaleiloes_properties(max_properties: int = 10) -> ScrapingResult:
+def scrape_megaleiloes_properties(max_properties: int = None) -> ScrapingResult:
     """Scrape properties from Mega Leiloes."""
     scraper = MegaleiloesScraper()
     return scraper.scrape_properties(max_properties=max_properties)

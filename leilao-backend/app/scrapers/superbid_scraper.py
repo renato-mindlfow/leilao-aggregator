@@ -320,7 +320,7 @@ class SuperbidScraper:
             logger.error(f"Failed to parse property from __NEXT_DATA__: {e}")
             return None
             
-    def scrape_properties(self, max_properties: int = 10, verify_urls: bool = True) -> ScrapingResult:
+    def scrape_properties(self, max_properties: int = None, verify_urls: bool = True) -> ScrapingResult:
         """
         Scrape properties from Superbid.
         
@@ -422,7 +422,7 @@ class SuperbidScraper:
         return result
 
 
-def scrape_superbid_properties(max_properties: int = 10) -> ScrapingResult:
+def scrape_superbid_properties(max_properties: int = None) -> ScrapingResult:
     """Scrape properties from Superbid."""
     scraper = SuperbidScraper()
     return scraper.scrape_properties(max_properties=max_properties)

@@ -89,7 +89,7 @@ class PestanaScraper:
             return 'Terreno'
         return 'Comercial'
     
-    def scrape_properties(self, max_properties: int = 10) -> List[Dict]:
+    def scrape_properties(self, max_properties: int = None) -> List[Dict]:
         """Scrape properties from Pestana Leilões."""
         print(f"Starting Pestana Leilões scraper (max {max_properties} properties)...")
         
