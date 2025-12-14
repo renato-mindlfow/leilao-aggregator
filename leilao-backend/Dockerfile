@@ -11,5 +11,5 @@ RUN poetry install
 FROM python:3.12-slim
 WORKDIR /app
 COPY --from=builder /app/.venv .venv/
-COPY . .
+COPY pyproject.toml ./
 CMD ["/app/.venv/bin/fastapi", "run"]
