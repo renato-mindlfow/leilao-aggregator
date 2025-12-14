@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, List
 from datetime import datetime
@@ -336,6 +336,40 @@ async def run_deduplication():
     return {
         "message": f"Deduplicação concluída. {duplicate_count} duplicatas identificadas.",
         "duplicates_found": duplicate_count
+    }
+
+
+# ==================== Scraper Execution Endpoints ====================
+
+@app.post("/scrape/all")
+async def scrape_all(background_tasks: BackgroundTasks):
+    """
+    Executa todos os scrapers automaticamente em background.
+    Retorna imediatamente - scraping acontece em background.
+    """
+    from app.scrapers.scraper_manager import run_all_scrapers
+    
+    # Add task to background
+    background_tasks.add_task(run_all_scrapers)
+    
+    return {
+        "message": "Scraping iniciado em background",
+        "status": "running",
+        "note": "Use GET /scrape/status para verificar o progresso"
+    }
+
+
+@app.get("/scrape/status")
+async def get_scrape_status():
+    """
+    Retorna estatísticas atuais do banco de dados.
+    Inclui total de imóveis, por leiloeiro, por estado, etc.
+    """
+    stats = db.get_stats()
+    return {
+        "status": "ok",
+        "database_stats": stats,
+        "timestamp": datetime.now().isoformat()
     }
 
 
