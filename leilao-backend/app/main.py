@@ -1109,34 +1109,7 @@ async def get_stats_by_source():
     }
 
 
-@app.post("/scrape/all")
-async def scrape_all_properties(background_tasks: BackgroundTasks):
-    """
-    Executa todos os scrapers em background
-    """
-    from app.scrapers.scraper_manager import run_all_scrapers
-    
-    # Roda em background para não travar
-    background_tasks.add_task(run_all_scrapers)
-    
-    return {
-        "status": "started",
-        "message": "Scraping iniciado! Os dados serão coletados em background.",
-        "check_progress": "/stats"
-    }
 
-
-@app.get("/scrape/status")
-async def get_scrape_status():
-    """
-    Verifica status atual da coleta
-    """
-    stats = await get_stats()
-    return {
-        "total_properties": stats["total_properties"],
-        "unique_properties": stats["unique_properties"],
-        "sources": stats["sources"]
-    }
 
 def _count_by_field(properties: list, field: str) -> dict:
     """Helper to count properties by a field."""
