@@ -4,6 +4,8 @@ Scraper Manager - Coordinates all auction website scrapers.
 import logging
 import asyncio
 import gc
+import hashlib
+import uuid
 from typing import Optional, Dict, Any
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -11,6 +13,7 @@ from datetime import datetime
 from app.models.property import Property, PropertyCategory, AuctionType
 from app.scrapers.base_scraper import BaseScraper
 from app.services import db
+from app.services.postgres_database import PostgresDatabase, normalize_url
 
 logger = logging.getLogger(__name__)
 
@@ -171,11 +174,10 @@ async def run_all_scrapers() -> Dict[str, Any]:
                             if not prop_id:
                                 source_url = prop_dict.get('source_url', '')
                                 if source_url:
-                                    import hashlib
-                                    prop_id = f"pestana-{hashlib.md5(source_url.encode()).hexdigest()[:8]}"
+                                    normalized_url = normalize_url(source_url)
+                                    prop_id = f"pestana-{hashlib.md5(normalized_url.encode()).hexdigest()[:16]}"
                                 else:
-                                    import uuid
-                                    prop_id = f"pestana-{uuid.uuid4().hex[:8]}"
+                                    prop_id = f"pestana-{uuid.uuid4().hex[:16]}"
                             
                             prop = Property(
                                 id=prop_id,
@@ -211,14 +213,59 @@ async def run_all_scrapers() -> Dict[str, Any]:
             else:
                 properties = []
             
-            # Add properties to database
-            for prop in properties:
-                db.add_property(prop)
+            # Add properties to PostgreSQL database
+            # Verify we're using PostgreSQL, not SQLite or in-memory
+            if not isinstance(db, PostgresDatabase):
+                logger.warning(f"Database is not PostgreSQL! Type: {type(db)}. Properties may not be saved to Supabase.")
             
-            results["properties_by_scraper"][config["name"]] = len(properties)
-            results["total_properties_collected"] += len(properties)
+            saved_count = 0
+            error_count = 0
+            
+            for prop in properties:
+                try:
+                    # Ensure property has a valid ID (use MD5 hash of source_url if needed)
+                    if not prop.id or prop.id.strip() == "":
+                        if prop.source_url:
+                            normalized_url = normalize_url(prop.source_url)
+                            prop.id = f"{config['name'].lower().replace(' ', '_')}-{hashlib.md5(normalized_url.encode()).hexdigest()[:16]}"
+                            logger.debug(f"Generated ID for property: {prop.id} from URL: {prop.source_url[:50]}")
+                        else:
+                            prop.id = f"{config['name'].lower().replace(' ', '_')}-{uuid.uuid4().hex[:16]}"
+                            logger.warning(f"Property without source_url, generated random ID: {prop.id}")
+                    
+                    # Ensure source_url is set for deduplication
+                    if not prop.source_url:
+                        prop.source_url = prop.property_url or prop.auctioneer_url or ""
+                    
+                    # Set dedup_key for better deduplication
+                    if prop.source_url:
+                        prop.dedup_key = normalize_url(prop.source_url)
+                    
+                    # Set timestamps if not set
+                    if not prop.created_at:
+                        prop.created_at = datetime.utcnow()
+                    if not prop.updated_at:
+                        prop.updated_at = datetime.utcnow()
+                    
+                    # Save to PostgreSQL using db.add_property (which uses psycopg)
+                    db.add_property(prop, upsert=True)
+                    saved_count += 1
+                    logger.debug(f"Saved property to PostgreSQL: {prop.id} - {prop.title[:50]}")
+                    
+                except Exception as e:
+                    error_count += 1
+                    logger.error(f"Error saving property {prop.id if prop.id else 'unknown'} to PostgreSQL: {str(e)}")
+                    logger.debug(f"Property details: title={prop.title[:50]}, source_url={prop.source_url[:100] if prop.source_url else 'N/A'}")
+                    continue
+            
+            results["properties_by_scraper"][config["name"]] = saved_count
+            results["total_properties_collected"] += saved_count
             results["scrapers_processed"] += 1
-            logger.info(f"Completed {config['name']}: {len(properties)} properties")
+            
+            if error_count > 0:
+                results["errors"].append(f"{config['name']}: {error_count} properties failed to save")
+            
+            logger.info(f"Completed {config['name']}: {saved_count} properties saved to PostgreSQL, {error_count} errors")
             
             # Clean up to free memory
             del scraper
@@ -235,7 +282,17 @@ async def run_all_scrapers() -> Dict[str, Any]:
     results["completed_at"] = datetime.now().isoformat()
     results["duration_seconds"] = (datetime.fromisoformat(results["completed_at"]) - datetime.fromisoformat(results["started_at"])).total_seconds()
     
-    # Save to disk after all scrapers complete
-    db.save_to_disk()
+    # Verify database type and log final status
+    if isinstance(db, PostgresDatabase):
+        logger.info("All properties saved to PostgreSQL Supabase database")
+        # PostgreSQL doesn't need save_to_disk() - it's already persisted
+    else:
+        logger.warning(f"Database is not PostgreSQL! Type: {type(db)}. Calling save_to_disk() as fallback.")
+        try:
+            db.save_to_disk()
+        except AttributeError:
+            logger.warning("Database does not have save_to_disk() method")
+    
+    logger.info(f"Scraping completed: {results['total_properties_collected']} total properties collected across {results['scrapers_processed']} scrapers")
     
     return results
