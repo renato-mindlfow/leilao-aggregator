@@ -270,7 +270,7 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
                       startAngle={90}
                       endAngle={-270}
                     >
-                      {chartData.map((entry, index) => (
+                      {chartData.map((_entry, index) => (
                         <Cell 
                           key={`cell-${index}`} 
                           fill={`url(#gradient-${index})`}
