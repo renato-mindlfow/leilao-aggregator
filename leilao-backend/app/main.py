@@ -55,6 +55,8 @@ async def list_properties(
     auctioneer_id: Optional[str] = Query(None, description="Filtrar por leiloeiro"),
     search: Optional[str] = Query(None, description="Termo de busca"),
     include_duplicates: bool = Query(False, description="Incluir duplicatas"),
+    sort_by: Optional[str] = Query("created_at", description="Ordenar por: created_at, second_auction_value, discount_percentage"),
+    sort_order: Optional[str] = Query("desc", description="Ordem: asc ou desc"),
 ):
     """Lista imóveis com filtros e paginação."""
     filters = PropertyFilter(
@@ -72,7 +74,7 @@ async def list_properties(
     )
     
     skip = (page - 1) * limit
-    properties, total = db.get_properties(filters=filters, skip=skip, limit=limit)
+    properties, total = db.get_properties(filters=filters, skip=skip, limit=limit, sort_by=sort_by, sort_order=sort_order)
     
     total_pages = (total + limit - 1) // limit
     
