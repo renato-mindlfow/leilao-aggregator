@@ -132,6 +132,9 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
 
   const totalCategories = Object.values(normalizedCounts).reduce((a, b) => a + b, 0);
 
+  // Ordenar categorias do maior para menor
+  const sortedCategories = Object.entries(normalizedCounts).sort((a, b) => b[1] - a[1]);
+
   // Preparar dados do gráfico de modalidades (ordenados do maior para menor)
   const chartData = modalityData 
     ? Object.entries(modalityData)
@@ -190,29 +193,28 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
           <CardTitle className="text-lg">Imóveis por Categoria</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-wrap gap-3">
-            {Object.entries(normalizedCounts)
-              .sort((a, b) => b[1] - a[1])
-              .map(([category, count]) => (
-                <div
-                  key={category}
-                  className="flex items-center gap-2 px-3 py-2 bg-muted rounded-lg"
-                >
-                  <div 
-                    className="w-3 h-3 rounded-full" 
-                    style={{ backgroundColor: categoryColors[category] || '#64748B' }}
-                  />
-                  <span className="font-medium">{category}</span>
-                  <span className="text-muted-foreground">
-                    {count.toLocaleString('pt-BR')} ({((count / totalCategories) * 100).toFixed(1)}%)
-                  </span>
-                </div>
-              ))}
+          {/* Grid de 2 colunas para as categorias */}
+          <div className="grid grid-cols-2 gap-3">
+            {sortedCategories.map(([category, count]) => (
+              <div
+                key={category}
+                className="flex items-center gap-2"
+              >
+                <div 
+                  className="w-3 h-3 rounded-full flex-shrink-0" 
+                  style={{ backgroundColor: categoryColors[category] || '#64748B' }}
+                />
+                <span className="font-medium text-sm">{category}</span>
+                <span className="text-muted-foreground text-sm">
+                  {count.toLocaleString('pt-BR')} ({((count / totalCategories) * 100).toFixed(1)}%)
+                </span>
+              </div>
+            ))}
           </div>
         </CardContent>
       </Card>
 
-      {/* Coluna Direita: Imóveis por Modalidade (Gráfico Pizza) */}
+      {/* Coluna Direita: Imóveis por Modalidade (Gráfico Pizza 3D) */}
       <Card>
         <CardHeader>
           <CardTitle className="text-lg">Imóveis por Modalidade</CardTitle>
@@ -230,10 +232,28 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
             </div>
           ) : (
             <div className="flex flex-col lg:flex-row items-center gap-4">
-              {/* Gráfico */}
-              <div className="w-full lg:w-1/2">
+              {/* Gráfico 3D */}
+              <div className="w-full lg:w-1/2 relative">
+                {/* Sombra para efeito 3D */}
+                <div 
+                  className="absolute left-1/2 top-1/2 w-40 h-40 -translate-x-1/2 -translate-y-1/2 rounded-full"
+                  style={{
+                    background: 'rgba(0,0,0,0.1)',
+                    transform: 'translate(-50%, -45%) scale(1, 0.3)',
+                    filter: 'blur(8px)',
+                  }}
+                />
                 <ResponsiveContainer width="100%" height={200}>
                   <PieChart>
+                    <defs>
+                      {/* Gradientes para efeito 3D */}
+                      {chartData.map((entry, index) => (
+                        <linearGradient key={`gradient-${index}`} id={`gradient-${index}`} x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stopColor={entry.color} stopOpacity={1} />
+                          <stop offset="100%" stopColor={entry.color} stopOpacity={0.7} />
+                        </linearGradient>
+                      ))}
+                    </defs>
                     <Pie
                       data={chartData}
                       cx="50%"
@@ -247,9 +267,17 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
                       paddingAngle={2}
                       stroke="#fff"
                       strokeWidth={2}
+                      startAngle={90}
+                      endAngle={-270}
                     >
                       {chartData.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={entry.color} />
+                        <Cell 
+                          key={`cell-${index}`} 
+                          fill={`url(#gradient-${index})`}
+                          style={{
+                            filter: 'drop-shadow(2px 4px 3px rgba(0,0,0,0.2))',
+                          }}
+                        />
                       ))}
                     </Pie>
                     <Tooltip content={<CustomTooltip />} />
