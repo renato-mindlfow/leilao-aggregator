@@ -55,6 +55,7 @@ async def list_properties(
     auctioneer_id: Optional[str] = Query(None, description="Filtrar por leiloeiro"),
     search: Optional[str] = Query(None, description="Termo de busca"),
     include_duplicates: bool = Query(False, description="Incluir duplicatas"),
+    sort: Optional[str] = Query(None, description="Ordenação: price_asc, price_desc, discount, recent"),
     sort_by: Optional[str] = Query("created_at", description="Ordenar por: created_at, second_auction_value, discount_percentage"),
     sort_order: Optional[str] = Query("desc", description="Ordem: asc ou desc"),
 ):
@@ -74,6 +75,18 @@ async def list_properties(
     )
     
     skip = (page - 1) * limit
+    
+    # Mapear parâmetro sort do frontend para sort_by e sort_order
+    if sort:
+        sort_mapping = {
+            "price_asc": ("second_auction_value", "asc"),
+            "price_desc": ("second_auction_value", "desc"),
+            "discount": ("discount_percentage", "desc"),
+            "recent": ("created_at", "desc"),
+        }
+        if sort in sort_mapping:
+            sort_by, sort_order = sort_mapping[sort]
+    
     properties, total = db.get_properties(filters=filters, skip=skip, limit=limit, sort_by=sort_by, sort_order=sort_order)
     
     total_pages = (total + limit - 1) // limit
