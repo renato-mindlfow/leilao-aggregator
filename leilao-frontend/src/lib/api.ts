@@ -5,6 +5,14 @@ const API_AUTH = import.meta.env.VITE_API_AUTH || '';
 import * as CaixaAPI from './caixaApiService';
 import * as CaixaAdapter from './caixaAdapter';
 
+export type SortOption = 
+  | 'recent'
+  | 'price_desc' 
+  | 'price_asc' 
+  | 'date_asc' 
+  | 'date_desc' 
+  | 'discount_desc';
+
 // Flag para alternar entre APIs
 // false = usar backend unificado (recomendado - dados deduplicados)
 // true = usar API Caixa diretamente (sem deduplicação)
@@ -85,6 +93,7 @@ export interface PropertyFilters {
   auctioneer_id?: string;
   search?: string;
   include_duplicates?: boolean;
+  sort?: SortOption;
 }
 
 async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> {
@@ -123,8 +132,10 @@ export async function getProperties(filters: PropertyFilters = {}): Promise<Prop
   // Código original (mantido como fallback)
   const params = new URLSearchParams();
   
+  if (filters.sort) params.append('sort', filters.sort);
+  
   Object.entries(filters).forEach(([key, value]) => {
-    if (value !== undefined && value !== null && value !== '') {
+    if (value !== undefined && value !== null && value !== '' && key !== 'sort') {
       params.append(key, String(value));
     }
   });

@@ -14,6 +14,7 @@ import { PropertyDetails } from '@/components/PropertyDetails';
 import { PropertyPagination } from '@/components/PropertyPagination';
 import { StatsCard, CategoryStats } from '@/components/StatsCard';
 import { PropertyMap } from '@/components/PropertyMap';
+import { PropertySort, SortOption } from '@/components/PropertySort';
 import { Toaster } from '@/components/ui/sonner';
 import { toast } from 'sonner';
 import { RefreshCw, List, Map, Home } from 'lucide-react';
@@ -26,6 +27,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [statsLoading, setStatsLoading] = useState(true);
   const [modalityLoading, setModalityLoading] = useState(true);
+  const [sortOption, setSortOption] = useState<SortOption>('recent');
   const [filters, setFilters] = useState<Filters>({
     page: 1,
     limit: 18,
@@ -68,7 +70,7 @@ function App() {
   const loadProperties = useCallback(async () => {
     try {
       setLoading(true);
-      const data = await getProperties(filters);
+      const data = await getProperties({ ...filters, sort: sortOption });
       setProperties(data.items);
       setPagination({
         total: data.total,
@@ -82,7 +84,7 @@ function App() {
     } finally {
       setLoading(false);
     }
-  }, [filters]);
+  }, [filters, sortOption]);
 
   useEffect(() => {
     loadStats();
@@ -105,6 +107,11 @@ function App() {
   const handlePageChange = (page: number) => {
     setFilters({ ...filters, page });
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSortChange = (sort: SortOption) => {
+    setSortOption(sort);
+    setFilters({ ...filters, page: 1 });
   };
 
   const handleViewDetails = (property: Property) => {
@@ -174,28 +181,31 @@ function App() {
           onSearch={handleSearch}
         />
 
-        {/* Contador e botões de visualização */}
-        <div className="flex items-center justify-between mb-4">
+        {/* Contador, ordenação e botões de visualização */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-4">
           <p className="text-muted-foreground">
             {pagination.total.toLocaleString('pt-BR')} imóveis encontrados
           </p>
-          <div className="flex gap-2">
-            <Button
-              variant={viewMode === 'list' ? 'default' : 'outline'}
-              size="sm"
-              onClick={() => setViewMode('list')}
-            >
-              <List className="w-4 h-4 mr-2" />
-              Lista
-            </Button>
-            <Button
-              variant={viewMode === 'map' ? 'default' : 'outline'}
-              size="sm"
-              onClick={() => setViewMode('map')}
-            >
-              <Map className="w-4 h-4 mr-2" />
-              Mapa
-            </Button>
+          <div className="flex flex-wrap items-center gap-4">
+            <PropertySort value={sortOption} onChange={handleSortChange} />
+            <div className="flex gap-2">
+              <Button
+                variant={viewMode === 'list' ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setViewMode('list')}
+              >
+                <List className="w-4 h-4 mr-2" />
+                Lista
+              </Button>
+              <Button
+                variant={viewMode === 'map' ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setViewMode('map')}
+              >
+                <Map className="w-4 h-4 mr-2" />
+                Mapa
+              </Button>
+            </div>
           </div>
         </div>
 
