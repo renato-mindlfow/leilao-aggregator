@@ -1,6 +1,7 @@
 import { Stats } from '@/lib/api';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Building2, Users, Copy, TrendingUp } from 'lucide-react';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 interface StatsCardProps {
   stats: Stats | null;
@@ -88,27 +89,39 @@ const normalizeCategory = (category: string): string => {
   return mappings[category] || category;
 };
 
+// Cores das categorias
+const categoryColors: Record<string, string> = {
+  'Apartamento': '#2563EB',    // Azul
+  'Casa': '#16A34A',           // Verde
+  'Terreno': '#CA8A04',        // Amarelo/Mostarda
+  'Comercial': '#9333EA',      // Roxo
+  'Garagem': '#475569',        // Cinza escuro
+  'Rural': '#059669',          // Verde escuro
+  'Área': '#DC2626',           // Vermelho
+  'Outro': '#EA580C',          // Laranja
+  'Outros': '#EA580C',
+  'Estacionamento': '#475569',
+  'Galpão': '#9333EA',
+  'Prédio': '#9333EA',
+};
+
+// Paleta para modalidades - Opção C Vibrante Equilibrada
+const MODALITY_COLORS: Record<string, string> = {
+  'Extrajudicial': '#2563EB',  // Azul
+  'Judicial': '#10B981',        // Verde
+  'Venda Direta': '#F97316',    // Laranja
+  'Leilão SFI': '#8B5CF6',      // Roxo
+  'Outros': '#6B7280',          // Cinza
+};
+
 interface CategoryStatsProps {
   stats: Stats | null;
+  modalityData?: Record<string, number>;
+  modalityLoading?: boolean;
 }
 
-export function CategoryStats({ stats }: CategoryStatsProps) {
+export function CategoryStats({ stats, modalityData, modalityLoading }: CategoryStatsProps) {
   if (!stats || Object.keys(stats.category_counts).length === 0) return null;
-
-  const categoryColors: Record<string, string> = {
-    'Apartamento': 'bg-blue-600',
-    'Casa': 'bg-green-600',
-    'Terreno': 'bg-yellow-600',
-    'Comercial': 'bg-purple-600',
-    'Garagem': 'bg-slate-600',
-    'Rural': 'bg-emerald-600',
-    'Área': 'bg-red-600',
-    'Outro': 'bg-orange-600',
-    'Outros': 'bg-orange-600',
-    'Estacionamento': 'bg-slate-600',
-    'Galpão': 'bg-purple-600',
-    'Prédio': 'bg-purple-600',
-  };
 
   // Agrupar categorias normalizadas
   const normalizedCounts: Record<string, number> = {};
@@ -117,29 +130,157 @@ export function CategoryStats({ stats }: CategoryStatsProps) {
     normalizedCounts[normalized] = (normalizedCounts[normalized] || 0) + count;
   });
 
-  const total = Object.values(normalizedCounts).reduce((a, b) => a + b, 0);
+  const totalCategories = Object.values(normalizedCounts).reduce((a, b) => a + b, 0);
+
+  // Preparar dados do gráfico de modalidades (ordenados do maior para menor)
+  const chartData = modalityData 
+    ? Object.entries(modalityData)
+        .map(([name, value]) => ({
+          name,
+          value,
+          color: MODALITY_COLORS[name] || '#6B7280',
+        }))
+        .sort((a, b) => b.value - a.value)
+    : [];
+
+  const totalModality = chartData.reduce((sum, item) => sum + item.value, 0);
+
+  const CustomTooltip = ({ active, payload }: any) => {
+    if (active && payload && payload.length) {
+      const item = payload[0].payload;
+      const percentage = ((item.value / totalModality) * 100).toFixed(1);
+      return (
+        <div className="bg-white p-3 rounded-lg shadow-lg border">
+          <p className="font-semibold">{item.name}</p>
+          <p className="text-sm text-gray-600">
+            {item.value.toLocaleString('pt-BR')} imóveis ({percentage}%)
+          </p>
+        </div>
+      );
+    }
+    return null;
+  };
+
+  const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }: any) => {
+    if (percent < 0.05) return null;
+    const RADIAN = Math.PI / 180;
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+    return (
+      <text
+        x={x}
+        y={y}
+        fill="white"
+        textAnchor="middle"
+        dominantBaseline="central"
+        className="text-sm font-bold"
+      >
+        {`${(percent * 100).toFixed(1)}%`}
+      </text>
+    );
+  };
 
   return (
-    <Card className="mb-6">
-      <CardHeader>
-        <CardTitle className="text-lg">Imóveis por Categoria</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <div className="flex flex-wrap gap-3">
-          {Object.entries(normalizedCounts).map(([category, count]) => (
-            <div
-              key={category}
-              className="flex items-center gap-2 px-3 py-2 bg-muted rounded-lg"
-            >
-              <div className={`w-3 h-3 rounded-full ${categoryColors[category] || 'bg-slate-500'}`} />
-              <span className="font-medium">{category}</span>
-              <span className="text-muted-foreground">
-                {count.toLocaleString('pt-BR')} ({((count / total) * 100).toFixed(1)}%)
-              </span>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+      {/* Coluna Esquerda: Imóveis por Categoria */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-lg">Imóveis por Categoria</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-wrap gap-3">
+            {Object.entries(normalizedCounts)
+              .sort((a, b) => b[1] - a[1])
+              .map(([category, count]) => (
+                <div
+                  key={category}
+                  className="flex items-center gap-2 px-3 py-2 bg-muted rounded-lg"
+                >
+                  <div 
+                    className="w-3 h-3 rounded-full" 
+                    style={{ backgroundColor: categoryColors[category] || '#64748B' }}
+                  />
+                  <span className="font-medium">{category}</span>
+                  <span className="text-muted-foreground">
+                    {count.toLocaleString('pt-BR')} ({((count / totalCategories) * 100).toFixed(1)}%)
+                  </span>
+                </div>
+              ))}
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Coluna Direita: Imóveis por Modalidade (Gráfico Pizza) */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-lg">Imóveis por Modalidade</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {modalityLoading ? (
+            <div className="flex items-center justify-center h-64">
+              <div className="animate-pulse">
+                <div className="w-40 h-40 bg-muted rounded-full" />
+              </div>
             </div>
-          ))}
-        </div>
-      </CardContent>
-    </Card>
+          ) : chartData.length === 0 ? (
+            <div className="flex items-center justify-center h-64">
+              <p className="text-muted-foreground">Sem dados disponíveis</p>
+            </div>
+          ) : (
+            <div className="flex flex-col lg:flex-row items-center gap-4">
+              {/* Gráfico */}
+              <div className="w-full lg:w-1/2">
+                <ResponsiveContainer width="100%" height={200}>
+                  <PieChart>
+                    <Pie
+                      data={chartData}
+                      cx="50%"
+                      cy="50%"
+                      labelLine={false}
+                      label={renderCustomLabel}
+                      outerRadius={80}
+                      innerRadius={0}
+                      fill="#8884d8"
+                      dataKey="value"
+                      paddingAngle={2}
+                      stroke="#fff"
+                      strokeWidth={2}
+                    >
+                      {chartData.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={entry.color} />
+                      ))}
+                    </Pie>
+                    <Tooltip content={<CustomTooltip />} />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+
+              {/* Legenda */}
+              <div className="w-full lg:w-1/2 space-y-2">
+                {chartData.map((item) => {
+                  const percentage = ((item.value / totalModality) * 100).toFixed(1);
+                  return (
+                    <div key={item.name} className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div 
+                          className="w-3 h-3 rounded-full" 
+                          style={{ backgroundColor: item.color }}
+                        />
+                        <span className="text-sm text-gray-700">{item.name}</span>
+                      </div>
+                      <span className="text-sm text-gray-600">
+                        {item.value.toLocaleString('pt-BR')} ({percentage}%)
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    </div>
   );
 }

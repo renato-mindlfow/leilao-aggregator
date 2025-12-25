@@ -14,7 +14,6 @@ import { PropertyDetails } from '@/components/PropertyDetails';
 import { PropertyPagination } from '@/components/PropertyPagination';
 import { StatsCard, CategoryStats } from '@/components/StatsCard';
 import { PropertyMap } from '@/components/PropertyMap';
-import { ModalityPieChart } from '@/components/ModalityPieChart';
 import { Toaster } from '@/components/ui/sonner';
 import { toast } from 'sonner';
 import { RefreshCw, List, Map, Home } from 'lucide-react';
@@ -158,16 +157,24 @@ function App() {
       </header>
 
       <main className="container mx-auto px-4 py-6">
+        {/* Cards de estatísticas */}
         <StatsCard stats={stats} loading={statsLoading} />
 
-        <CategoryStats stats={stats} />
+        {/* Categorias (esquerda) + Gráfico Modalidades (direita) */}
+        <CategoryStats 
+          stats={stats} 
+          modalityData={modalityData}
+          modalityLoading={modalityLoading}
+        />
 
+        {/* Filtros */}
         <PropertyFilters
           filters={filters}
           onFiltersChange={handleFiltersChange}
           onSearch={handleSearch}
         />
 
+        {/* Contador e botões de visualização */}
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground">
             {pagination.total.toLocaleString('pt-BR')} imóveis encontrados
@@ -192,6 +199,7 @@ function App() {
           </div>
         </div>
 
+        {/* Lista de imóveis ou Mapa */}
         {viewMode === 'map' ? (
           <PropertyMap
             onPropertySelect={handleMapPropertySelect}
@@ -201,58 +209,48 @@ function App() {
               category: filters.category,
             }}
           />
-        ) : (
-          /* LAYOUT 50/50: Lista à esquerda, Gráfico à direita */
-          <div className="flex flex-col lg:flex-row gap-6">
-            {/* Coluna Esquerda: Lista de Imóveis (50%) */}
-            <div className="w-full lg:w-1/2">
-              {loading ? (
-                <div className="space-y-4">
-                  {Array.from({ length: 4 }).map((_, i) => (
-                    <div key={i} className="animate-pulse">
-                      <div className="bg-muted h-48 rounded-lg" />
-                    </div>
-                  ))}
+        ) : loading ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="animate-pulse">
+                <div className="bg-muted h-48 rounded-t-lg" />
+                <div className="p-4 space-y-3">
+                  <div className="h-6 bg-muted rounded w-3/4" />
+                  <div className="h-4 bg-muted rounded w-1/2" />
+                  <div className="h-4 bg-muted rounded w-full" />
+                  <div className="h-10 bg-muted rounded" />
                 </div>
-              ) : properties.length === 0 ? (
-                <div className="text-center py-12">
-                  <Home className="w-16 h-16 mx-auto text-muted-foreground mb-4" />
-                  <h2 className="text-xl font-semibold mb-2">Nenhum imóvel encontrado</h2>
-                  <p className="text-muted-foreground">
-                    Tente ajustar os filtros de busca para encontrar mais resultados.
-                  </p>
-                </div>
-              ) : (
-                <div className="space-y-4 max-h-[800px] overflow-y-auto pr-2">
-                  {properties.map((property) => (
-                    <PropertyCard
-                      key={property.id}
-                      property={property}
-                      onViewDetails={handleViewDetails}
-                    />
-                  ))}
-                </div>
-              )}
-              
-              <div className="mt-4">
-                <PropertyPagination
-                  currentPage={filters.page || 1}
-                  totalPages={pagination.totalPages}
-                  total={pagination.total}
-                  limit={filters.limit || 18}
-                  onPageChange={handlePageChange}
-                />
               </div>
+            ))}
+          </div>
+        ) : properties.length === 0 ? (
+          <div className="text-center py-12">
+            <Home className="w-16 h-16 mx-auto text-muted-foreground mb-4" />
+            <h2 className="text-xl font-semibold mb-2">Nenhum imóvel encontrado</h2>
+            <p className="text-muted-foreground">
+              Tente ajustar os filtros de busca para encontrar mais resultados.
+            </p>
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {properties.map((property) => (
+                <PropertyCard
+                  key={property.id}
+                  property={property}
+                  onViewDetails={handleViewDetails}
+                />
+              ))}
             </div>
 
-            {/* Coluna Direita: Gráfico de Modalidades (50%) */}
-            <div className="w-full lg:w-1/2 lg:sticky lg:top-4 lg:self-start">
-              <ModalityPieChart 
-                data={modalityData} 
-                loading={modalityLoading} 
-              />
-            </div>
-          </div>
+            <PropertyPagination
+              currentPage={filters.page || 1}
+              totalPages={pagination.totalPages}
+              total={pagination.total}
+              limit={filters.limit || 18}
+              onPageChange={handlePageChange}
+            />
+          </>
         )}
       </main>
 
