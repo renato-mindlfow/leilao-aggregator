@@ -9,6 +9,24 @@ interface PropertyCardProps {
   onViewDetails?: (property: Property) => void;
 }
 
+// Placeholders fixos por categoria (imagens do Unsplash em grayscale)
+const CATEGORY_PLACEHOLDERS: Record<string, string> = {
+  'Apartamento': 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400&h=300&fit=crop&sat=-100',
+  'Casa': 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=400&h=300&fit=crop&sat=-100',
+  'Terreno': 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop&sat=-100',
+  'Comercial': 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop&sat=-100',
+  'Rural': 'https://images.unsplash.com/photo-1500076656116-558758c991c1?w=400&h=300&fit=crop&sat=-100',
+  'Garagem': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&sat=-100',
+  'Área': 'https://images.unsplash.com/photo-1628624747186-a941c476b7ef?w=400&h=300&fit=crop&sat=-100',
+  'Galpão': 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=300&fit=crop&sat=-100',
+  'Prédio': 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop&sat=-100',
+  'Outro': 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop&sat=-100',
+  'Outros': 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop&sat=-100',
+};
+
+// Placeholder padrão caso categoria não encontrada
+const DEFAULT_PLACEHOLDER = 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop&sat=-100';
+
 const normalizeCategory = (category: string): string => {
   const mappings: Record<string, string> = {
     'Estacionamento': 'Garagem',
@@ -27,6 +45,18 @@ const normalizeCategory = (category: string): string => {
     'OUTROS': 'Outros',
   };
   return mappings[category] || category;
+};
+
+// Função para obter imagem (real ou placeholder)
+const getPropertyImage = (property: Property): string => {
+  // Se tem imagem válida, usa ela
+  if (property.image_url && property.image_url.trim() !== '') {
+    return property.image_url;
+  }
+  
+  // Senão, usa placeholder baseado na categoria
+  const normalizedCategory = normalizeCategory(property.category);
+  return CATEGORY_PLACEHOLDERS[normalizedCategory] || DEFAULT_PLACEHOLDER;
 };
 
 export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
@@ -58,18 +88,34 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
   };
 
   const displayCategory = normalizeCategory(property.category);
+  const imageUrl = getPropertyImage(property);
+  const isPlaceholder = !property.image_url || property.image_url.trim() === '';
 
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
       <div className="relative">
         <img
-          src={property.image_url || 'https://picsum.photos/400/300?grayscale'}
+          src={imageUrl}
           alt={property.title}
-          className="w-full h-48 object-cover"
+          className={`w-full h-48 object-cover ${isPlaceholder ? 'grayscale' : ''}`}
           onError={(e) => {
-            (e.target as HTMLImageElement).src = 'https://picsum.photos/400/300?grayscale';
+            // Fallback para placeholder da categoria se imagem falhar
+            const target = e.target as HTMLImageElement;
+            const fallback = CATEGORY_PLACEHOLDERS[displayCategory] || DEFAULT_PLACEHOLDER;
+            if (target.src !== fallback) {
+              target.src = fallback;
+              target.classList.add('grayscale');
+            }
           }}
         />
+        {/* Overlay indicando que é placeholder */}
+        {isPlaceholder && (
+          <div className="absolute bottom-2 right-2">
+            <Badge variant="secondary" className="bg-black/50 text-white text-xs">
+              Imagem ilustrativa
+            </Badge>
+          </div>
+        )}
         <div className="absolute top-2 left-2 flex gap-1">
           <Badge className={`${getCategoryColor(property.category)} text-white`}>
             {displayCategory}
