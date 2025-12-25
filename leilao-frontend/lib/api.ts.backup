@@ -1,15 +1,6 @@
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 const API_AUTH = import.meta.env.VITE_API_AUTH || '';
 
-// Importar serviços da API Caixa
-import * as CaixaAPI from './caixaApiService';
-import * as CaixaAdapter from './caixaAdapter';
-
-// Flag para alternar entre APIs
-// false = usar backend unificado (recomendado - dados deduplicados)
-// true = usar API Caixa diretamente (sem deduplicação)
-const USE_CAIXA_API = false;
-
 export interface Property {
   id: string;
   title: string;
@@ -113,14 +104,6 @@ async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> 
 }
 
 export async function getProperties(filters: PropertyFilters = {}): Promise<PropertiesResponse> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    const caixaParams = CaixaAdapter.adaptFiltersToKaixaParams(filters);
-    const caixaResponse = await CaixaAPI.buscarImoveis(caixaParams);
-    return CaixaAdapter.adaptCaixaListToPropertiesResponse(caixaResponse);
-  }
-  
-  // Código original (mantido como fallback)
   const params = new URLSearchParams();
   
   Object.entries(filters).forEach(([key, value]) => {
@@ -134,13 +117,6 @@ export async function getProperties(filters: PropertyFilters = {}): Promise<Prop
 }
 
 export async function getProperty(id: string): Promise<Property> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    const caixaImovel = await CaixaAPI.buscarImovelDetalhes(id);
-    return CaixaAdapter.adaptCaixaImovelToProperty(caixaImovel);
-  }
-  
-  // Código original (mantido como fallback)
   return fetchApi<Property>(`/api/properties/${id}`);
 }
 
@@ -149,40 +125,14 @@ export async function getAuctioneers(): Promise<Auctioneer[]> {
 }
 
 export async function getStats(): Promise<Stats> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    const caixaStats = await CaixaAPI.buscarEstatisticas();
-    return CaixaAdapter.adaptCaixaStatsToStats(caixaStats);
-  }
-  
-  // Código original (mantido como fallback)
   return fetchApi<Stats>('/api/stats');
 }
 
 export async function getStates(): Promise<string[]> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    const caixaEstados = await CaixaAPI.listarEstados();
-    return CaixaAdapter.adaptCaixaEstadosToStrings(caixaEstados);
-  }
-  
-  // Código original (mantido como fallback)
   return fetchApi<string[]>('/api/filters/states');
 }
 
 export async function getCities(state?: string): Promise<string[]> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    if (!state) {
-      // API Caixa precisa de estado para listar cidades
-      // Retornar array vazio se não houver estado
-      return [];
-    }
-    const caixaCidades = await CaixaAPI.listarCidades(state);
-    return CaixaAdapter.adaptCaixaCidadesToStrings(caixaCidades);
-  }
-  
-  // Código original (mantido como fallback)
   const params = state ? `?state=${encodeURIComponent(state)}` : '';
   return fetchApi<string[]>(`/api/filters/cities${params}`);
 }
@@ -196,29 +146,15 @@ export async function getNeighborhoods(state?: string, city?: string): Promise<s
 }
 
 export async function getCategories(): Promise<string[]> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    // Categorias fixas da Caixa
-    return ['Apartamento', 'Casa', 'Terreno', 'Comercial'];
-  }
-  
-  // Código original (mantido como fallback)
   return fetchApi<string[]>('/api/filters/categories');
 }
 
 export async function getAuctionTypes(): Promise<string[]> {
-  // Se usar API Caixa
-  if (USE_CAIXA_API) {
-    // Tipos de leilão fixos da Caixa
-    return ['Venda Direta Online', 'Leilão SFI', 'Venda Online'];
-  }
-  
-  // Código original (mantido como fallback)
   return fetchApi<string[]>('/api/filters/auction-types');
 }
 
-export function formatCurrency(value: number | null | undefined): string {
-  if (value === null || value === undefined) return 'N/A';
+export function formatCurrency(value: number | null): string {
+  if (value === null) return 'N/A';
   return new Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL',
@@ -234,25 +170,9 @@ export function formatDate(dateString: string | null): string {
   });
 }
 
-export function formatArea(area: number | null | undefined): string {
-  if (area === null || area === undefined) return 'N/A';
+export function formatArea(area: number | null): string {
+  if (area === null) return 'N/A';
   return `${area.toLocaleString('pt-BR')} m²`;
-}
-
-export async function getModalityStats(): Promise<Record<string, number>> {
-  try {
-    const response = await fetchApi<Record<string, number>>('/api/stats/modality');
-    return response;
-  } catch (error) {
-    console.warn('Endpoint /api/stats/modality não disponível, calculando do stats');
-    const stats = await fetchApi<Stats>('/api/stats');
-    return {
-      'Judicial': Math.floor(stats.unique_properties * 0.04),
-      'Extrajudicial': Math.floor(stats.unique_properties * 0.95),
-      'Venda Direta': Math.floor(stats.unique_properties * 0.005),
-      'Outros': Math.ceil(stats.unique_properties * 0.005),
-    };
-  }
 }
 
 // Export api object for direct axios-like usage
