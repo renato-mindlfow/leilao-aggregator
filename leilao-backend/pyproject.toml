@@ -17,6 +17,8 @@ apscheduler = "^3.11.1"
 beautifulsoup4 = "^4.14.3"
 lxml = "^6.0.2"
 psycopg2-binary = "^2.9.11"
+openai = "^1.51.0"
+requests = "^2.31.0"
 
 
 [build-system]

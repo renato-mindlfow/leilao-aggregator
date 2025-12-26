@@ -250,13 +250,8 @@ class GenericScraper(BaseScraper):
             if not url or url == self.base_url:
                 return None
                 
-            # Extract image
-            img_elem = card.select_one(self.config.image_selector)
-            image_url = ""
-            if img_elem:
-                image_url = img_elem.get('src') or img_elem.get('data-src') or img_elem.get('data-lazy-src') or ""
-                if image_url and not image_url.startswith('http'):
-                    image_url = f"{self.base_url}{image_url}"
+            # Extract image (improved detection - ignore logos, small images)
+            image_url = self._extract_valid_image(card)
                     
             # Extract location
             location_elem = card.select_one(self.config.location_selector)
@@ -282,6 +277,10 @@ class GenericScraper(BaseScraper):
             area_elem = card.select_one(self.config.area_selector)
             area_text = area_elem.get_text(strip=True) if area_elem else card.get_text()
             area = self.extract_area(area_text)
+            
+            # Extract auction dates from card text
+            card_text = card.get_text()
+            first_auction_date, second_auction_date = self._extract_auction_dates(card_text)
             
             # Check for payment options in card text
             card_text = card.get_text().lower()
@@ -334,6 +333,8 @@ class GenericScraper(BaseScraper):
                 first_auction_value=price,
                 second_auction_value=price * 0.7 if price else None,
                 discount_percentage=discount,
+                first_auction_date=first_auction_date,
+                second_auction_date=second_auction_date,
                 image_url=image_url,
                 auctioneer_url=url,
                 auctioneer_name=self.name,
@@ -395,6 +396,114 @@ class GenericScraper(BaseScraper):
                 
         return state, city, neighborhood, address
         
+    def _extract_valid_image(self, card) -> Optional[str]:
+        """
+        Extract a valid property image, ignoring logos and small images.
+        
+        Args:
+            card: BeautifulSoup element containing property card
+            
+        Returns:
+            Image URL or None
+        """
+        # Try to find images
+        img_elements = card.select('img')
+        
+        best_image = None
+        best_size = 0
+        
+        for img in img_elements:
+            # Get image URL
+            image_url = img.get('src') or img.get('data-src') or img.get('data-lazy-src') or ""
+            if not image_url:
+                continue
+            
+            # Make URL absolute
+            if not image_url.startswith('http'):
+                image_url = f"{self.base_url}{image_url}"
+            
+            # Skip if URL contains logo-related keywords
+            image_url_lower = image_url.lower()
+            if any(keyword in image_url_lower for keyword in ['logo', 'icon', 'banner', 'header', 'footer', 'avatar']):
+                continue
+            
+            # Get image dimensions if available
+            width = None
+            height = None
+            try:
+                width_attr = img.get('width') or img.get('data-width')
+                height_attr = img.get('height') or img.get('data-height')
+                if width_attr:
+                    width = int(str(width_attr).replace('px', ''))
+                if height_attr:
+                    height = int(str(height_attr).replace('px', ''))
+            except (ValueError, TypeError):
+                pass
+            
+            # Skip if image is too small (likely icon/logo) - less than 200px
+            if width and width < 200:
+                continue
+            if height and height < 200:
+                continue
+            
+            # Prefer larger images
+            image_size = (width or 0) * (height or 0)
+            if image_size > best_size:
+                best_size = image_size
+                best_image = image_url
+        
+        return best_image
+    
+    def _extract_auction_dates(self, text: str) -> tuple[Optional[datetime], Optional[datetime]]:
+        """
+        Extract auction dates from text.
+        
+        Common patterns:
+        - "1ª Praça: 15/01/2025"
+        - "Data do Leilão: 20/01/2025"
+        - "Encerramento: 25/01/2025 às 14h"
+        - "1ª Praça 15/01/2025"
+        - "2ª Praça: 20/01/2025"
+        
+        Returns:
+            (first_auction_date, second_auction_date) tuple
+        """
+        first_date = None
+        second_date = None
+        
+        # Patterns for first auction date
+        first_patterns = [
+            r'1[ªa]\s*pra[çc]a[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+            r'primeira\s*pra[çc]a[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+            r'data\s*do\s*leil[ãa]o[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+            r'leil[ãa]o[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+        ]
+        
+        for pattern in first_patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                date_str = match.group(1)
+                first_date = self.parse_date(date_str)
+                if first_date:
+                    break
+        
+        # Patterns for second auction date
+        second_patterns = [
+            r'2[ªa]\s*pra[çc]a[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+            r'segunda\s*pra[çc]a[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+            r'encerramento[:\s]+(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+        ]
+        
+        for pattern in second_patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                date_str = match.group(1)
+                second_date = self.parse_date(date_str)
+                if second_date:
+                    break
+        
+        return first_date, second_date
+    
     def scrape_property_details(self, url: str) -> Optional[Property]:
         """Scrape detailed information for a single property."""
         # For now, return None - detailed scraping can be implemented per-site

@@ -669,6 +669,71 @@ class PostgresDatabase:
     def auctioneers(self) -> Dict[str, Auctioneer]:
         """Auctioneer dict interface for compatibility."""
         return self._auctioneers_cache
+    
+    def get_auctioneer_by_website(self, website: str) -> Optional[Auctioneer]:
+        """Get an auctioneer by website URL."""
+        for auctioneer in self._auctioneers_cache.values():
+            if auctioneer.website and website.lower() in auctioneer.website.lower():
+                return auctioneer
+        return None
+    
+    def update_auctioneer_scrape_status(
+        self,
+        auctioneer_id: str,
+        status: str,
+        error: Optional[str] = None,
+        property_count: Optional[int] = None
+    ) -> None:
+        """Update auctioneer scrape status and optionally property count."""
+        try:
+            with self._get_connection() as conn:
+                with conn.cursor() as cur:
+                    update_fields = ["scrape_status = %s", "updated_at = CURRENT_TIMESTAMP"]
+                    params = [status]
+                    
+                    if error is not None:
+                        update_fields.append("scrape_error = %s")
+                        params.append(error)
+                    
+                    if property_count is not None:
+                        update_fields.append("property_count = %s")
+                        params.append(property_count)
+                    
+                    update_fields.append("last_scrape = CURRENT_TIMESTAMP")
+                    params.append(auctioneer_id)
+                    
+                    cur.execute(
+                        f"UPDATE auctioneers SET {', '.join(update_fields)} WHERE id = %s",
+                        params
+                    )
+                conn.commit()
+            
+            # Update cache
+            if auctioneer_id in self._auctioneers_cache:
+                self._auctioneers_cache[auctioneer_id].scrape_status = status
+                if error is not None:
+                    self._auctioneers_cache[auctioneer_id].scrape_error = error
+                if property_count is not None:
+                    self._auctioneers_cache[auctioneer_id].property_count = property_count
+                self._auctioneers_cache[auctioneer_id].last_scrape = datetime.utcnow()
+        except Exception as e:
+            logger.error(f"Error updating auctioneer scrape status {auctioneer_id}: {e}")
+            raise
+    
+    def get_auctioneer_property_count(self, auctioneer_id: str) -> int:
+        """Get the count of properties for an auctioneer."""
+        try:
+            with self._get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "SELECT COUNT(*) as count FROM properties WHERE auctioneer_id = %s AND is_duplicate = FALSE",
+                        (auctioneer_id,)
+                    )
+                    row = cur.fetchone()
+                    return row['count'] if row else 0
+        except Exception as e:
+            logger.error(f"Error getting property count for auctioneer {auctioneer_id}: {e}")
+            return 0
 
 
 # Singleton instance

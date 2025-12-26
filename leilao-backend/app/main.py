@@ -252,15 +252,19 @@ async def run_scraper(auctioneer_id: str):
 
 @app.post("/api/scrapers/run-all")
 async def run_all_scrapers():
-    """Inicia scrapers para todos os leiloeiros ativos."""
-    active_auctioneers = [a for a in db.get_auctioneers() if a.is_active]
+    """
+    Inicia scrapers para TODOS os leiloeiros ativos do banco de dados.
+    Usa scrapers específicos quando disponível, caso contrário usa scraper genérico.
+    Garante que TODAS as páginas sejam raspadas (sem limite artificial).
+    """
+    from app.services.universal_scraper_service import get_universal_scraper_service
     
-    for auctioneer in active_auctioneers:
-        db.update_auctioneer_scrape_status(auctioneer.id, "queued")
+    scraper_service = get_universal_scraper_service()
+    results = scraper_service.scrape_all_auctioneers(max_retries=3)
     
     return {
-        "message": f"Scrapers enfileirados para {len(active_auctioneers)} leiloeiros",
-        "count": len(active_auctioneers)
+        "message": f"Scraping concluído para {results['auctioneers_processed']} leiloeiros",
+        "results": results
     }
 
 
@@ -476,6 +480,23 @@ async def check_scraper_website(scraper_name: str):
     
     result = monitor.check_scraper_health(scraper_name, base_url)
     return result
+
+
+@app.get("/api/admin/quality-report")
+async def get_quality_report(auctioneer_name: Optional[str] = None):
+    """
+    Obtém relatório de qualidade dos imóveis.
+    
+    Args:
+        auctioneer_name: Nome opcional do leiloeiro para filtrar
+        
+    Returns:
+        Relatório com métricas de qualidade
+    """
+    from app.services.quality_report import get_quality_report_service
+    
+    report_service = get_quality_report_service()
+    return report_service.generate_report(auctioneer_name=auctioneer_name)
 
 
 @app.get("/api/scrapers/summary")
@@ -854,6 +875,83 @@ async def geocode_missing_properties():
         "failed": failed,
         "total_properties": len(db.properties),
     }
+
+
+@app.post("/api/admin/geocode-batch")
+async def geocode_batch(limit: int = 100):
+    """
+    Geocode properties without coordinates in batch using Nominatim.
+    
+    Args:
+        limit: Maximum number of properties to geocode (default: 100)
+    
+    Returns:
+        Dictionary with updated count and total processed
+    """
+    from app.services.geocoding import get_geocoding_service
+    from app.services.postgres_database import PostgresDatabase
+    
+    if not isinstance(db, PostgresDatabase):
+        raise HTTPException(status_code=400, detail="Geocoding batch only works with PostgreSQL database")
+    
+    geocoding = get_geocoding_service(use_nominatim=True)
+    updated = 0
+    failed = 0
+    
+    # Get properties without coordinates from database
+    try:
+        # Query properties without coordinates
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT id, city, state, address FROM properties WHERE (latitude IS NULL OR longitude IS NULL) AND is_duplicate = FALSE LIMIT %s",
+                    (limit,)
+                )
+                rows = cur.fetchall()
+        
+        for row in rows:
+            prop_id = row['id']
+            city = row.get('city')
+            state = row.get('state')
+            address = row.get('address')
+            
+            if not city or not state:
+                failed += 1
+                continue
+            
+            # Try geocoding with full address first, then fallback to city only
+            coords = geocoding.geocode(city=city, state=state, address=address, add_offset=False)
+            
+            if not coords:
+                # Fallback: geocode by city only
+                coords = geocoding.geocode_by_city(city, state)
+            
+            if coords:
+                lat, lon = coords
+                # Update property coordinates
+                with db._get_connection() as conn:
+                    with conn.cursor() as cur:
+                        cur.execute(
+                            "UPDATE properties SET latitude = %s, longitude = %s WHERE id = %s",
+                            (lat, lon, prop_id)
+                        )
+                    conn.commit()
+                updated += 1
+                logger.info(f"Geocoded property {prop_id}: {city}, {state} -> ({lat}, {lon})")
+            else:
+                failed += 1
+                logger.warning(f"Failed to geocode property {prop_id}: {city}, {state}")
+        
+        return {
+            "success": True,
+            "updated": updated,
+            "failed": failed,
+            "total_processed": len(rows),
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in geocode_batch: {e}")
+        raise HTTPException(status_code=500, detail=f"Error geocoding properties: {str(e)}")
 
 
 @app.post("/api/admin/import-properties")

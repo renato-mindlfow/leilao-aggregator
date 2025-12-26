@@ -1,9 +1,10 @@
 """
 Geocoding service for converting addresses to coordinates.
-Uses a simple approach with Brazilian city coordinates for MVP.
-For production, integrate with Google Maps Geocoding API.
+Uses Nominatim (OpenStreetMap) API for geocoding with fallback to city coordinates.
 """
 import logging
+import time
+import requests
 from typing import Optional, Tuple
 
 logger = logging.getLogger(__name__)
@@ -207,29 +208,55 @@ def add_random_offset(lat: float, lon: float, max_offset: float = 0.01) -> Tuple
 
 
 class GeocodingService:
-    """Service for geocoding addresses."""
+    """
+    Service for geocoding addresses using Nominatim (OpenStreetMap).
+    Falls back to city lookup table if Nominatim fails.
+    """
     
-    def __init__(self):
+    BASE_URL = "https://nominatim.openstreetmap.org/search"
+    RATE_LIMIT_DELAY = 1.0  # Nominatim requires 1 request per second
+    
+    def __init__(self, use_nominatim: bool = True):
         self.cache: dict[str, Tuple[float, float]] = {}
+        self.use_nominatim = use_nominatim
+        self.last_request_time = 0.0
     
-    def geocode(self, city: str, state: str, add_offset: bool = True) -> Optional[Tuple[float, float]]:
+    def _rate_limit(self):
+        """Enforce rate limiting for Nominatim API (1 req/sec)."""
+        current_time = time.time()
+        time_since_last = current_time - self.last_request_time
+        if time_since_last < self.RATE_LIMIT_DELAY:
+            time.sleep(self.RATE_LIMIT_DELAY - time_since_last)
+        self.last_request_time = time.time()
+    
+    def geocode(self, city: str, state: str, address: Optional[str] = None, add_offset: bool = True) -> Optional[Tuple[float, float]]:
         """
-        Geocode a city/state to coordinates.
+        Geocode a city/state (and optionally address) to coordinates using Nominatim.
         
         Args:
             city: City name
             state: State code (e.g., "SP", "RJ")
+            address: Optional full address
             add_offset: Whether to add a small random offset (useful for multiple properties in same city)
             
         Returns:
             (latitude, longitude) tuple or None if not found
         """
         cache_key = f"{city.lower()}_{state.lower()}"
+        if address:
+            cache_key = f"{address.lower()}_{cache_key}"
         
         if cache_key in self.cache:
             coords = self.cache[cache_key]
         else:
-            coords = get_coordinates(city, state)
+            # Try Nominatim first if enabled
+            if self.use_nominatim:
+                coords = self._geocode_nominatim(address, city, state)
+            
+            # Fallback to city lookup table
+            if not coords:
+                coords = get_coordinates(city, state)
+            
             if coords:
                 self.cache[cache_key] = coords
         
@@ -238,23 +265,91 @@ class GeocodingService:
         
         return coords
     
+    def _geocode_nominatim(self, address: Optional[str], city: str, state: str) -> Optional[Tuple[float, float]]:
+        """
+        Geocode using Nominatim API.
+        
+        Args:
+            address: Optional full address
+            city: City name
+            state: State code
+            
+        Returns:
+            (latitude, longitude) tuple or None if not found
+        """
+        try:
+            self._rate_limit()
+            
+            # Build query
+            if address:
+                query = f"{address}, {city}, {state}, Brasil"
+            else:
+                query = f"{city}, {state}, Brasil"
+            
+            params = {
+                "q": query,
+                "format": "json",
+                "limit": 1,
+                "countrycodes": "br",  # Limit to Brazil
+                "addressdetails": 1
+            }
+            
+            headers = {
+                "User-Agent": "LeiloHub/1.0 (contact: renato@leilohub.com.br)"
+            }
+            
+            response = requests.get(self.BASE_URL, params=params, headers=headers, timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            if data and len(data) > 0:
+                result = data[0]
+                lat = float(result["lat"])
+                lon = float(result["lon"])
+                logger.debug(f"Geocoded '{query}' to ({lat}, {lon})")
+                return (lat, lon)
+            else:
+                logger.warning(f"No results from Nominatim for '{query}'")
+                return None
+                
+        except requests.exceptions.RequestException as e:
+            logger.warning(f"Error geocoding with Nominatim: {e}")
+            return None
+        except (KeyError, ValueError, IndexError) as e:
+            logger.warning(f"Error parsing Nominatim response: {e}")
+            return None
+    
+    def geocode_by_city(self, city: str, state: str) -> Optional[Tuple[float, float]]:
+        """
+        Geocode using only city and state (fallback when full address fails).
+        
+        Args:
+            city: City name
+            state: State code
+            
+        Returns:
+            (latitude, longitude) tuple or None if not found
+        """
+        return self.geocode(city=city, state=state, address=None, add_offset=False)
+    
     def geocode_property(self, property_data: dict) -> Optional[Tuple[float, float]]:
         """
         Geocode a property based on its address information.
         
         Args:
-            property_data: Dictionary with 'city' and 'state' keys
+            property_data: Dictionary with 'city', 'state', and optionally 'address' keys
             
         Returns:
             (latitude, longitude) tuple or None if not found
         """
         city = property_data.get('city', '')
         state = property_data.get('state', '')
+        address = property_data.get('address')
         
         if not city or not state:
             return None
         
-        return self.geocode(city, state)
+        return self.geocode(city=city, state=state, address=address, add_offset=True)
 
 
 # Global instance
