@@ -1,0 +1,44 @@
+name: Daily Sync
+
+on:
+  schedule:
+    # Roda às 6h BRT (9h UTC)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger sync via API
+        run: |
+          curl -X POST "${{ secrets.API_URL }}/api/sync/start" \
+            -H "Content-Type: application/json" \
+            --fail
+        env:
+          API_URL: ${{ secrets.API_URL }}
+      
+      - name: Wait and check status
+        run: |
+          sleep 300  # Espera 5 minutos
+          
+          for i in {1..12}; do
+            STATUS=$(curl -s "${{ secrets.API_URL }}/api/sync/status")
+            IS_RUNNING=$(echo $STATUS | jq -r '.is_running')
+            
+            if [ "$IS_RUNNING" = "false" ]; then
+              echo "Sync completed!"
+              echo $STATUS | jq
+              exit 0
+            fi
+            
+            echo "Still running... (attempt $i/12)"
+            sleep 300  # Espera mais 5 minutos
+          done
+          
+          echo "Sync timeout after 1 hour"
+          exit 1
+        env:
+          API_URL: ${{ secrets.API_URL }}
+

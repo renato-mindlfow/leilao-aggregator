@@ -1,14 +1,17 @@
 import os
+from dotenv import load_dotenv
+
+# Carregar .env ANTES de qualquer outra coisa
+load_dotenv()
 
 # Database selection priority:
 # 1. PostgreSQL if DATABASE_URL is set (Supabase)
 # 2. SQLite if USE_SQLITE is true
 # 3. In-memory database as fallback
 
-# Default to Supabase PostgreSQL if DATABASE_URL is not set
-DEFAULT_DATABASE_URL = "postgresql://postgres.nawbptwbmdgrkbpbwxzl:Ri%25Fu!y$N!56ckC@aws-1-sa-east-1.pooler.supabase.com:6543/postgres"
-DATABASE_URL = os.environ.get("DATABASE_URL", DEFAULT_DATABASE_URL)
-USE_SQLITE = os.environ.get("USE_SQLITE", "false").lower() == "true"
+# NO FALLBACK - DATABASE_URL must be in .env
+DATABASE_URL = os.getenv("DATABASE_URL")
+USE_SQLITE = os.getenv("USE_SQLITE", "false").lower() == "true"
 
 if DATABASE_URL:
     # Use PostgreSQL (Supabase)

@@ -12,15 +12,21 @@ from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
 import psycopg
 from psycopg.rows import dict_row
+from dotenv import load_dotenv
 
 from app.models.property import Property, PropertyCreate, PropertyFilter, PropertyCategory, AuctionType
 from app.models.auctioneer import Auctioneer, AuctioneerCreate
 
+# Carregar .env ANTES de qualquer outra coisa
+load_dotenv()
+
 logger = logging.getLogger(__name__)
 
-# Database URL from environment with default for Supabase
-DEFAULT_DATABASE_URL = "postgresql://postgres.nawbptwbmdgrkbpbwxzl:Ri%25Fu!y$N!56ckC@aws-1-sa-east-1.pooler.supabase.com:6543/postgres"
-DATABASE_URL = os.environ.get("DATABASE_URL", DEFAULT_DATABASE_URL)
+# Database URL from environment - NO FALLBACK, must be in .env
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL não configurada no .env")
 
 # SQL to create tables
 CREATE_PROPERTIES_TABLE = """
@@ -222,6 +228,12 @@ class PostgresDatabase:
     # Property methods
     def add_property(self, prop: Property, upsert: bool = True) -> Property:
         """Add or update a property."""
+        # TODO: Implementar Layer de Auditoria de Qualidade IA antes do commit final
+        # Ver documentação: ESTRATEGIA_AUDITORIA_QUALIDADE_IA.md
+        # Validações necessárias:
+        # - Datas de leilão lógicas e cronológicas
+        # - Valores de 1ª e 2ª praça respeitando regra de desconto
+        # - Campo 'Estado' não pode ser 'XX' ou inválido
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
@@ -395,6 +407,12 @@ class PostgresDatabase:
                     search = f"%{filters.search_term}%"
                     params.extend([search, search, search])
             
+            # If sorting by discount_percentage, filter out NULLs and invalid values
+            if sort_by == "discount_percentage":
+                conditions.append("discount_percentage IS NOT NULL")
+                conditions.append("discount_percentage > 0")
+                conditions.append("discount_percentage <= 100")
+            
             where_clause = " AND ".join(conditions) if conditions else "1=1"
             
             # Validate sort_by to prevent SQL injection
@@ -403,15 +421,18 @@ class PostgresDatabase:
                 sort_by = "created_at"
             sort_order = "DESC" if sort_order.lower() == "desc" else "ASC"
             
+            # Add NULLS LAST for DESC, NULLS FIRST for ASC
+            nulls_position = "NULLS LAST" if sort_order == "DESC" else "NULLS FIRST"
+            
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
                     # Get total count
                     cur.execute(f"SELECT COUNT(*) as count FROM properties WHERE {where_clause}", params)
                     total = cur.fetchone()['count']
                     
-                    # Get paginated results
+                    # Get paginated results with NULLS positioning
                     cur.execute(
-                        f"SELECT * FROM properties WHERE {where_clause} ORDER BY {sort_by} {sort_order} LIMIT %s OFFSET %s",
+                        f"SELECT * FROM properties WHERE {where_clause} ORDER BY {sort_by} {sort_order} {nulls_position} LIMIT %s OFFSET %s",
                         params + [limit, skip]
                     )
                     rows = cur.fetchall()

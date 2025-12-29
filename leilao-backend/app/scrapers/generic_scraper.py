@@ -5,13 +5,24 @@ Uses configurable CSS selectors to extract data.
 import logging
 import re
 import uuid
-from typing import Optional
+from typing import Optional, List, Dict, Any
 from datetime import datetime
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
 
 from app.scrapers.base_scraper import BaseScraper
 from app.models.property import Property, PropertyCategory, AuctionType
+from app.utils.image_extractor import extract_images
+from app.utils.date_parser import parse_brazilian_date, find_auction_dates
+from app.utils.normalizer import (
+    normalize_category as normalize_category_util,
+    normalize_state as normalize_state_util,
+    normalize_city as normalize_city_util,
+    normalize_money as normalize_money_util,
+)
+from app.utils.paginator import GenericPaginator, paginate_and_extract
+from app.utils.rate_limiter import RateLimiter, get_rate_limiter
+from app.utils.fetcher import MultiLayerFetcher
 
 logger = logging.getLogger(__name__)
 
@@ -171,9 +182,17 @@ SCRAPER_CONFIGS = {
 class GenericScraper(BaseScraper):
     """Generic scraper that uses configurable selectors."""
     
-    def __init__(self, config: ScraperConfig, headless: bool = True):
+    def __init__(self, config: ScraperConfig = None, headless: bool = True):
         super().__init__(headless=headless)
+        if config is None:
+            # Default config for generic scraping
+            config = ScraperConfig(
+                name="Generic",
+                base_url="",
+                listings_url_template=""
+            )
         self.config = config
+        self.fetcher = MultiLayerFetcher()
         
     @property
     def name(self) -> str:
@@ -250,23 +269,27 @@ class GenericScraper(BaseScraper):
             if not url or url == self.base_url:
                 return None
                 
-            # Extract image (improved detection - ignore logos, small images)
-            image_url = self._extract_valid_image(card)
+            # Extract image using robust image extractor
+            card_html = str(card)
+            images = extract_images(card_html, url if url else self.base_url)
+            image_url = images[0] if images else None
                     
-            # Extract location
+            # Extract location using robust normalizers
             location_elem = card.select_one(self.config.location_selector)
             location_text = location_elem.get_text(strip=True) if location_elem else ""
-            state, city, neighborhood, address = self._parse_location(location_text)
+            state_raw, city_raw, neighborhood, address = self._parse_location(location_text)
+            state = normalize_state_util(state_raw) if state_raw else ""
+            city = normalize_city_util(city_raw) if city_raw else ""
             
-            # Extract price
+            # Extract price using robust money normalizer
             price_elem = card.select_one(self.config.price_selector)
             price_text = price_elem.get_text(strip=True) if price_elem else ""
-            price = self.parse_currency(price_text)
+            price = normalize_money_util(price_text) or self.parse_currency(price_text)
             
-            # Extract category
+            # Extract category using robust normalizer
             category_elem = card.select_one(self.config.category_selector)
             category_text = category_elem.get_text(strip=True) if category_elem else ""
-            category = self.normalize_category(category_text or title)
+            category = normalize_category_util(category_text or title)
             
             # Extract auction type
             type_elem = card.select_one(self.config.auction_type_selector)
@@ -278,9 +301,12 @@ class GenericScraper(BaseScraper):
             area_text = area_elem.get_text(strip=True) if area_elem else card.get_text()
             area = self.extract_area(area_text)
             
-            # Extract auction dates from card text
+            # Extract auction dates using robust date parser
             card_text = card.get_text()
-            first_auction_date, second_auction_date = self._extract_auction_dates(card_text)
+            first_auction_date, second_auction_date = find_auction_dates(card_text)
+            # Fallback to old method if new parser didn't find dates
+            if not first_auction_date and not second_auction_date:
+                first_auction_date, second_auction_date = self._extract_auction_dates(card_text)
             
             # Check for payment options in card text
             card_text = card.get_text().lower()
@@ -422,9 +448,9 @@ class GenericScraper(BaseScraper):
             if not image_url.startswith('http'):
                 image_url = f"{self.base_url}{image_url}"
             
-            # Skip if URL contains logo-related keywords
-            image_url_lower = image_url.lower()
-            if any(keyword in image_url_lower for keyword in ['logo', 'icon', 'banner', 'header', 'footer', 'avatar']):
+            # Usar blacklist centralizada para filtrar imagens inválidas
+            from app.utils.image_blacklist import is_valid_property_image
+            if not is_valid_property_image(image_url):
                 continue
             
             # Get image dimensions if available
@@ -503,6 +529,160 @@ class GenericScraper(BaseScraper):
                     break
         
         return first_date, second_date
+    
+    def _extract_properties_from_html(self, html: str, url: str) -> List[Dict[str, Any]]:
+        """
+        Extrai propriedades do HTML e retorna como lista de dicionários.
+        
+        Args:
+            html: HTML da página
+            url: URL da página
+            
+        Returns:
+            Lista de dicionários com dados das propriedades
+        """
+        properties = []
+        soup = BeautifulSoup(html, 'lxml')
+        
+        # Encontra cards usando o seletor configurado
+        cards = soup.select(self.config.card_selector)
+        
+        if not cards:
+            # Tenta seletores mais amplos
+            cards = soup.find_all(['div', 'article'], class_=re.compile(r'.*card.*|.*item.*|.*lote.*', re.I))
+        
+        for card in cards:
+            try:
+                prop = self._parse_card(card)
+                if prop:
+                    # Converte Property para Dict
+                    prop_dict = {
+                        'id': prop.id,
+                        'title': prop.title,
+                        'description': prop.description,
+                        'category': prop.category.value if isinstance(prop.category, PropertyCategory) else str(prop.category),
+                        'auction_type': prop.auction_type.value if isinstance(prop.auction_type, AuctionType) else str(prop.auction_type),
+                        'state': prop.state,
+                        'city': prop.city,
+                        'neighborhood': prop.neighborhood,
+                        'address': prop.address,
+                        'area_total': prop.area_total,
+                        'evaluation_value': prop.evaluation_value,
+                        'first_auction_value': prop.first_auction_value,
+                        'second_auction_value': prop.second_auction_value,
+                        'discount_percentage': prop.discount_percentage,
+                        'first_auction_date': prop.first_auction_date.isoformat() if prop.first_auction_date else None,
+                        'second_auction_date': prop.second_auction_date.isoformat() if prop.second_auction_date else None,
+                        'image_url': prop.image_url,
+                        'auctioneer_url': prop.auctioneer_url,
+                        'auctioneer_name': prop.auctioneer_name,
+                        'auctioneer_id': prop.auctioneer_id,
+                        'source_url': prop.source_url,
+                        'accepts_financing': prop.accepts_financing,
+                        'accepts_fgts': prop.accepts_fgts,
+                        'accepts_installments': prop.accepts_installments,
+                    }
+                    properties.append(prop_dict)
+            except Exception as e:
+                logger.error(f"Error parsing card: {e}")
+                continue
+        
+        return properties
+    
+    async def scrape_all_pages(
+        self,
+        base_url: str,
+        max_pages: int = 50,
+        delay: float = 1.5
+    ) -> List[Dict[str, Any]]:
+        """
+        Faz scraping de todas as páginas de um leiloeiro.
+        
+        Args:
+            base_url: URL inicial do leiloeiro
+            max_pages: Máximo de páginas a processar
+            delay: Delay entre páginas em segundos
+            
+        Returns:
+            Lista de todos os imóveis extraídos
+        """
+        logger.info(f"Starting paginated scrape of {base_url}")
+        
+        # Rate limiter
+        rate_limiter = get_rate_limiter()
+        
+        # Função de fetch com rate limiting
+        async def fetch_with_limit(url: str) -> str:
+            if not await rate_limiter.acquire(url):
+                raise Exception(f"Rate limited: {url}")
+            
+            result = await self.fetcher.fetch(url)
+            
+            if result.success:
+                rate_limiter.record_success(url)
+                return result.content
+            else:
+                rate_limiter.record_error(url)
+                raise Exception(result.error or "Fetch failed")
+        
+        # Função de extração
+        def extract_items(html: str, url: str) -> List[Dict[str, Any]]:
+            return self._extract_properties_from_html(html, url)
+        
+        # Executa paginação
+        try:
+            all_properties = await paginate_and_extract(
+                start_url=base_url,
+                fetch_func=fetch_with_limit,
+                extract_func=extract_items,
+                max_pages=max_pages,
+                delay=delay
+            )
+            
+            logger.info(f"Paginated scrape complete: {len(all_properties)} properties from {base_url}")
+            return all_properties
+            
+        except Exception as e:
+            logger.error(f"Paginated scrape failed for {base_url}: {e}")
+            # Fallback: tenta pelo menos a primeira página
+            result = await self.fetcher.fetch(base_url)
+            if result.success:
+                return self._extract_properties_from_html(result.content, base_url)
+            return []
+    
+    async def scrape(
+        self,
+        url: str,
+        limit: Optional[int] = None,
+        use_pagination: bool = True
+    ) -> List[Dict[str, Any]]:
+        """
+        Faz scraping de um leiloeiro.
+        
+        Args:
+            url: URL do leiloeiro
+            limit: Limite de imóveis (None = sem limite)
+            use_pagination: Se True, usa paginação automática
+            
+        Returns:
+            Lista de imóveis extraídos
+        """
+        if use_pagination and not limit:
+            # Usa paginação completa
+            properties = await self.scrape_all_pages(url)
+        else:
+            # Scrape simples (apenas primeira página)
+            result = await self.fetcher.fetch(url)
+            if not result.success:
+                logger.error(f"Failed to fetch {url}: {result.error}")
+                return []
+            properties = self._extract_properties_from_html(result.content, url)
+        
+        # Aplica limite se especificado
+        if limit and len(properties) > limit:
+            properties = properties[:limit]
+        
+        return properties
     
     def scrape_property_details(self, url: str) -> Optional[Property]:
         """Scrape detailed information for a single property."""
