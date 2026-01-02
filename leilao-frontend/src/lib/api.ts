@@ -149,7 +149,23 @@ export async function getProperties(filters: PropertyFilters = {}): Promise<Prop
   });
   
   const queryString = params.toString();
-  return fetchApi<PropertiesResponse>(`/api/properties${queryString ? `?${queryString}` : ''}`);
+  const response = await fetchApi<any>(`/api/properties${queryString ? `?${queryString}` : ''}`);
+  
+  // Normalizar resposta: API pode retornar { data: [...] } ou { items: [...] }
+  if (response.data && Array.isArray(response.data)) {
+    return {
+      items: response.data,
+      total: response.total || 0,
+      page: response.page || filters.page || 1,
+      limit: response.limit || filters.limit || 18,
+      total_pages: response.total_pages || Math.ceil((response.total || 0) / (response.limit || filters.limit || 18)),
+      has_next: response.has_next || false,
+      has_prev: response.has_prev || false,
+    };
+  }
+  
+  // Se já está no formato esperado, retornar como está
+  return response as PropertiesResponse;
 }
 
 export async function getProperty(id: string): Promise<Property> {
