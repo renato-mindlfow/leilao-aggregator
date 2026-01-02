@@ -134,6 +134,14 @@ export async function getProperties(filters: PropertyFilters = {}): Promise<Prop
   
   if (filters.sort) params.append('sort', filters.sort);
   
+  // Se ordenar por desconto, adicionar filtro mínimo para ignorar NULLs e descontos zerados
+  if (filters.sort === 'discount_desc') {
+    // Se não tiver min_discount já definido, adicionar 1 para filtrar descontos nulos ou zerados
+    if (filters.min_discount === undefined || filters.min_discount === null) {
+      params.append('min_discount', '1');
+    }
+  }
+  
   Object.entries(filters).forEach(([key, value]) => {
     if (value !== undefined && value !== null && value !== '' && key !== 'sort') {
       params.append(key, String(value));
@@ -251,17 +259,24 @@ export function formatArea(area: number | null | undefined): string {
 }
 
 export async function getModalityStats(): Promise<Record<string, number>> {
+  // Endpoint /api/stats/modality não existe no backend
+  // Usando cálculo aproximado baseado nas estatísticas gerais
   try {
-    const response = await fetchApi<Record<string, number>>('/api/stats/modality');
-    return response;
-  } catch (error) {
-    console.warn('Endpoint /api/stats/modality não disponível, calculando do stats');
     const stats = await fetchApi<Stats>('/api/stats');
     return {
       'Judicial': Math.floor(stats.unique_properties * 0.04),
       'Extrajudicial': Math.floor(stats.unique_properties * 0.95),
       'Venda Direta': Math.floor(stats.unique_properties * 0.005),
       'Outros': Math.ceil(stats.unique_properties * 0.005),
+    };
+  } catch (error) {
+    console.warn('Erro ao calcular estatísticas de modalidade:', error);
+    // Retornar valores padrão em caso de erro
+    return {
+      'Judicial': 0,
+      'Extrajudicial': 0,
+      'Venda Direta': 0,
+      'Outros': 0,
     };
   }
 }

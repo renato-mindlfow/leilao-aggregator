@@ -353,3 +353,4 @@ Responda APENAS com uma das categorias acima."""
             logger.error(f"Error in AI category inference: {e}")
             return None
 
+

@@ -73,7 +73,7 @@ export function PropertyMap({ onPropertySelect, filters }: PropertyMapProps) {
         params.append('limit', '500');
 
         const response = await api.get<{ properties: MapProperty[]; total: number }>(`/api/map/properties?${params.toString()}`);
-        setProperties(response.data.properties);
+        setProperties(response.data?.properties || []);
       } catch (err) {
         console.error('Error fetching map properties:', err);
         setError('Erro ao carregar propriedades do mapa');

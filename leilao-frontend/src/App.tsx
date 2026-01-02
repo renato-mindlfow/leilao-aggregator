@@ -17,10 +17,15 @@ import { PropertyMap } from '@/components/PropertyMap';
 import { PropertySort, SortOption } from '@/components/PropertySort';
 import { Toaster } from '@/components/ui/sonner';
 import { toast } from 'sonner';
-import { RefreshCw, List, Map, Home } from 'lucide-react';
+import { RefreshCw, List, Map, Home, User, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { LoginModal } from './components/auth/LoginModal';
+import { PricingModal } from './components/auth/PricingModal';
+import { TrialBanner } from './components/auth/TrialBanner';
+import { AdminPanel } from './components/admin/AdminPanel';
 
-function App() {
+function AppContent() {
   const [properties, setProperties] = useState<Property[]>([]);
   const [stats, setStats] = useState<Stats | null>(null);
   const [modalityData, setModalityData] = useState<Record<string, number>>({});
@@ -41,6 +46,17 @@ function App() {
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
+  const [showAdminPanel, setShowAdminPanel] = useState(false);
+
+  const { 
+    user, 
+    canViewProperty, 
+    setShowLoginModal, 
+    setShowPricingModal, 
+    incrementView,
+    isAdmin,
+    signOut 
+  } = useAuth();
 
   const loadStats = useCallback(async () => {
     try {
@@ -71,16 +87,17 @@ function App() {
     try {
       setLoading(true);
       const data = await getProperties({ ...filters, sort: sortOption });
-      setProperties(data.items);
+      setProperties(data?.items || []);
       setPagination({
-        total: data.total,
-        totalPages: data.total_pages,
-        hasNext: data.has_next,
-        hasPrev: data.has_prev,
+        total: data?.total || 0,
+        totalPages: data?.total_pages || 0,
+        hasNext: data?.has_next || false,
+        hasPrev: data?.has_prev || false,
       });
     } catch (error) {
       console.error('Error loading properties:', error);
       toast.error('Erro ao carregar imóveis');
+      setProperties([]);
     } finally {
       setLoading(false);
     }
@@ -114,7 +131,21 @@ function App() {
     setFilters({ ...filters, page: 1 });
   };
 
-  const handleViewDetails = (property: Property) => {
+  const handleViewDetails = async (property: Property) => {
+    // Se não está logado, mostrar modal de login
+    if (!user) {
+      setShowLoginModal(true);
+      return;
+    }
+
+    // Se não pode ver (trial expirado), mostrar modal de preços
+    if (!canViewProperty()) {
+      setShowPricingModal(true);
+      return;
+    }
+
+    // Incrementar view e abrir detalhes
+    await incrementView(property.id);
     setSelectedProperty(property);
     setDetailsOpen(true);
   };
@@ -128,7 +159,19 @@ function App() {
 
   const handleMapPropertySelect = async (propertyId: string) => {
     try {
+      // Verificar acesso antes de carregar
+      if (!user) {
+        setShowLoginModal(true);
+        return;
+      }
+      
+      if (!canViewProperty()) {
+        setShowPricingModal(true);
+        return;
+      }
+
       const property = await getProperty(propertyId);
+      await incrementView(propertyId);
       setSelectedProperty(property);
       setDetailsOpen(true);
     } catch (error) {
@@ -137,8 +180,29 @@ function App() {
     }
   };
 
+  // Se é admin e quer ver o painel
+  if (showAdminPanel && isAdmin()) {
+    return (
+      <>
+        <div className="min-h-screen bg-gray-100">
+          <div className="bg-white border-b px-4 py-3 flex items-center justify-between">
+            <h1 className="text-xl font-bold">Painel Admin</h1>
+            <Button onClick={() => setShowAdminPanel(false)} variant="outline">
+              Voltar ao Site
+            </Button>
+          </div>
+          <AdminPanel />
+        </div>
+        <LoginModal />
+        <PricingModal />
+      </>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background">
+      <TrialBanner />
+      
       <header className="w-full shadow-sm" style={{ background: 'linear-gradient(135deg, #1a4a7a 0%, #2d6aa0 50%, #1a4a7a 100%)' }}>
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
@@ -150,15 +214,59 @@ function App() {
                 style={{ height: '160px', width: 'auto' }}
               />
             </div>
-            <Button
-              variant="outline"
-              size="default"
-              onClick={handleRefresh}
-              className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white font-medium"
-            >
-              <RefreshCw className="w-4 h-4 mr-2" />
-              Atualizar
-            </Button>
+            <div className="flex items-center gap-2">
+              {user ? (
+                <>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    disabled
+                    className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white font-medium cursor-default"
+                  >
+                    <User className="w-4 h-4 mr-2" />
+                    {user.email}
+                  </Button>
+                  {isAdmin() && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setShowAdminPanel(true)}
+                      className="bg-purple-600 border-purple-600 text-white hover:bg-purple-700 hover:border-purple-700 font-medium"
+                    >
+                      Admin
+                    </Button>
+                  )}
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={signOut}
+                    className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white font-medium"
+                  >
+                    <LogOut className="w-4 h-4 mr-2" />
+                    Sair
+                  </Button>
+                </>
+              ) : (
+                <Button
+                  variant="outline"
+                  size="default"
+                  onClick={() => setShowLoginModal(true)}
+                  className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white font-medium"
+                >
+                  <User className="w-4 h-4 mr-2" />
+                  Entrar
+                </Button>
+              )}
+              <Button
+                variant="outline"
+                size="default"
+                onClick={handleRefresh}
+                className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white font-medium"
+              >
+                <RefreshCw className="w-4 h-4 mr-2" />
+                Atualizar
+              </Button>
+            </div>
           </div>
         </div>
       </header>
@@ -286,8 +394,19 @@ function App() {
         onClose={() => setDetailsOpen(false)}
       />
 
+      <LoginModal />
+      <PricingModal />
+
       <Toaster position="top-right" />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
   );
 }
 

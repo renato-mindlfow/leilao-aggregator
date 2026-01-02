@@ -1,7 +1,15 @@
 from fastapi import FastAPI, HTTPException, Query, BackgroundTasks
+from fastapi import Request
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, List
 from datetime import datetime
+import json
+import logging
+import traceback
+from dotenv import load_dotenv
+
+# Carregar .env ANTES de qualquer outra coisa
+load_dotenv()
 
 from app.models import (
     Property,
@@ -14,6 +22,23 @@ from app.models.property import PropertyCategory, AuctionType
 from app.services import db, DeduplicationService
 from app.services.scraper_monitor import get_scraper_monitor, ScraperStatus
 from app.services.autonomous_scheduler import get_autonomous_scheduler
+from app.services.asaas_service import asaas_service
+from app.services.scraper_pipeline import scraper_pipeline
+from app.services.ai_normalizer import ai_normalizer
+from app.services.geocoding_service import geocoding_service
+from app.services.scraper_orchestrator import scraper_orchestrator
+from app.api.properties import router as properties_router
+from app.api.sync import router as sync_router
+from app.api.geocoding import router as geocoding_router
+from app.services.background_geocoding import (
+    init_geocoding_service,
+    get_geocoding_service,
+    BackgroundGeocodingService
+)
+from app.utils.quality_auditor import get_quality_auditor
+from app.utils.image_blacklist import get_image_blacklist
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Leilão Aggregator API",
@@ -32,83 +57,107 @@ app.add_middleware(
 
 dedup_service = DeduplicationService()
 
+# Inicializar serviço de geocoding em background
+init_geocoding_service(db)
+
+# Registrar router de properties (Sprint 3 - API melhorada)
+app.include_router(properties_router)
+
+# Registrar router de sync (Sprint 4 - Sincronização)
+app.include_router(sync_router)
+
+# Registrar router de geocoding (Geocoding assíncrono)
+app.include_router(geocoding_router)
 
 @app.get("/healthz")
 async def healthz():
     return {"status": "ok"}
 
-
-# ==================== Properties Endpoints ====================
-
-@app.get("/api/properties", response_model=dict)
-async def list_properties(
-    page: int = Query(1, ge=1, description="Número da página"),
-    limit: int = Query(18, ge=1, le=100, description="Itens por página"),
-    state: Optional[str] = Query(None, description="Filtrar por estado (UF)"),
-    city: Optional[str] = Query(None, description="Filtrar por cidade"),
-    neighborhood: Optional[str] = Query(None, description="Filtrar por bairro"),
-    category: Optional[PropertyCategory] = Query(None, description="Filtrar por categoria"),
-    auction_type: Optional[AuctionType] = Query(None, description="Filtrar por tipo de leilão"),
-    min_value: Optional[float] = Query(None, description="Valor mínimo"),
-    max_value: Optional[float] = Query(None, description="Valor máximo"),
-    min_discount: Optional[float] = Query(None, description="Desconto mínimo (%)"),
-    auctioneer_id: Optional[str] = Query(None, description="Filtrar por leiloeiro"),
-    search: Optional[str] = Query(None, description="Termo de busca"),
-    include_duplicates: bool = Query(False, description="Incluir duplicatas"),
-    sort: Optional[str] = Query(None, description="Ordenação: price_asc, price_desc, discount, recent"),
-    sort_by: Optional[str] = Query("created_at", description="Ordenar por: created_at, second_auction_value, discount_percentage"),
-    sort_order: Optional[str] = Query("desc", description="Ordem: asc ou desc"),
-):
-    """Lista imóveis com filtros e paginação."""
-    filters = PropertyFilter(
-        state=state,
-        city=city,
-        neighborhood=neighborhood,
-        category=category,
-        auction_type=auction_type,
-        min_value=min_value,
-        max_value=max_value,
-        min_discount=min_discount,
-        auctioneer_id=auctioneer_id,
-        search_term=search,
-        include_duplicates=include_duplicates,
-    )
-    
-    skip = (page - 1) * limit
-    
-    # Mapear parâmetro sort do frontend para sort_by e sort_order
-    if sort:
-        sort_mapping = {
-            "price_asc": ("second_auction_value", "asc"),
-            "price_desc": ("second_auction_value", "desc"),
-            "discount": ("discount_percentage", "desc"),
-            "recent": ("created_at", "desc"),
-        }
-        if sort in sort_mapping:
-            sort_by, sort_order = sort_mapping[sort]
-    
-    properties, total = db.get_properties(filters=filters, skip=skip, limit=limit, sort_by=sort_by, sort_order=sort_order)
-    
-    total_pages = (total + limit - 1) // limit
-    
+@app.get("/health")
+async def health_check():
+    """Health check endpoint para monitoramento."""
     return {
-        "items": [p.model_dump() for p in properties],
-        "total": total,
-        "page": page,
-        "limit": limit,
-        "total_pages": total_pages,
-        "has_next": page < total_pages,
-        "has_prev": page > 1,
+        "status": "healthy",
+        "timestamp": datetime.utcnow().isoformat(),
+        "version": "1.0.0"
     }
 
 
-@app.get("/api/properties/{property_id}", response_model=Property)
-async def get_property(property_id: str):
-    """Obtém detalhes de um imóvel específico."""
-    property_obj = db.get_property(property_id)
-    if not property_obj:
-        raise HTTPException(status_code=404, detail="Imóvel não encontrado")
-    return property_obj
+# ==================== Properties Endpoints ====================
+# NOTA: Os endpoints GET abaixo foram substituídos pelo router em app/api/properties.py
+# que oferece funcionalidades aprimoradas (ordenação, filtros, estatísticas)
+# Mantidos temporariamente para compatibilidade - podem ser removidos após validação
+
+# @app.get("/api/properties", response_model=dict)
+# async def list_properties(
+#     page: int = Query(1, ge=1, description="Número da página"),
+#     limit: int = Query(18, ge=1, le=100, description="Itens por página"),
+#     state: Optional[str] = Query(None, description="Filtrar por estado (UF)"),
+#     city: Optional[str] = Query(None, description="Filtrar por cidade"),
+#     neighborhood: Optional[str] = Query(None, description="Filtrar por bairro"),
+#     category: Optional[PropertyCategory] = Query(None, description="Filtrar por categoria"),
+#     auction_type: Optional[AuctionType] = Query(None, description="Filtrar por tipo de leilão"),
+#     min_value: Optional[float] = Query(None, description="Valor mínimo"),
+#     max_value: Optional[float] = Query(None, description="Valor máximo"),
+#     min_discount: Optional[float] = Query(None, description="Desconto mínimo (%)"),
+#     auctioneer_id: Optional[str] = Query(None, description="Filtrar por leiloeiro"),
+#     search: Optional[str] = Query(None, description="Termo de busca"),
+#     include_duplicates: bool = Query(False, description="Incluir duplicatas"),
+#     sort: Optional[str] = Query(None, description="Ordenação: price_asc, price_desc, discount, recent"),
+#     sort_by: Optional[str] = Query("created_at", description="Ordenar por: created_at, second_auction_value, discount_percentage"),
+#     sort_order: Optional[str] = Query("desc", description="Ordem: asc ou desc"),
+# ):
+#     """Lista imóveis com filtros e paginação."""
+#     filters = PropertyFilter(
+#         state=state,
+#         city=city,
+#         neighborhood=neighborhood,
+#         category=category,
+#         auction_type=auction_type,
+#         min_value=min_value,
+#         max_value=max_value,
+#         min_discount=min_discount,
+#         auctioneer_id=auctioneer_id,
+#         search_term=search,
+#         include_duplicates=include_duplicates,
+#     )
+#     
+#     skip = (page - 1) * limit
+#     
+#     # Mapear parâmetro sort do frontend para sort_by e sort_order
+#     if sort:
+#         sort_mapping = {
+#             "price_asc": ("second_auction_value", "asc"),
+#             "price_desc": ("second_auction_value", "desc"),
+#             "discount": ("discount_percentage", "desc"),
+#             "discount_desc": ("discount_percentage", "desc"),
+#             "recent": ("created_at", "desc"),
+#         }
+#         if sort in sort_mapping:
+#             sort_by, sort_order = sort_mapping[sort]
+#     
+#     properties, total = db.get_properties(filters=filters, skip=skip, limit=limit, sort_by=sort_by, sort_order=sort_order)
+#     
+#     total_pages = (total + limit - 1) // limit
+#     
+#     return {
+#         "items": [p.model_dump() for p in properties],
+#         "total": total,
+#         "page": page,
+#         "limit": limit,
+#         "total_pages": total_pages,
+#         "has_next": page < total_pages,
+#         "has_prev": page > 1,
+#     }
+
+
+# @app.get("/api/properties/{property_id}", response_model=Property)
+# async def get_property(property_id: str):
+#     """Obtém detalhes de um imóvel específico."""
+#     property_obj = db.get_property(property_id)
+#     if not property_obj:
+#         raise HTTPException(status_code=404, detail="Imóvel não encontrado")
+#     return property_obj
 
 
 @app.post("/api/properties", response_model=Property)
@@ -1072,7 +1121,7 @@ async def import_properties_from_json(properties: List[dict]):
 # ==================== Caixa Sync Endpoints ====================
 
 @app.post("/api/sync/caixa")
-async def sync_caixa_properties(properties: List[dict]):
+async def sync_caixa_properties(properties: List[dict], background_tasks: BackgroundTasks):
     """
     Endpoint OTIMIZADO para receber dados da API Caixa.
     
@@ -1090,23 +1139,9 @@ async def sync_caixa_properties(properties: List[dict]):
     updated = 0
     skipped = 0
     
-    # Coordenadas aproximadas por estado (geocoding rápido)
-    STATE_COORDS = {
-        "AC": (-9.97499, -67.8243), "AL": (-9.66599, -35.735),
-        "AP": (0.034934, -51.0694), "AM": (-3.11903, -60.0217),
-        "BA": (-12.9714, -38.5014), "CE": (-3.71722, -38.5434),
-        "DF": (-15.7801, -47.9292), "ES": (-20.2976, -40.2958),
-        "GO": (-16.6869, -49.2648), "MA": (-2.52972, -44.3028),
-        "MT": (-15.601, -56.0974), "MS": (-20.4697, -54.6201),
-        "MG": (-19.9167, -43.9345), "PA": (-1.45502, -48.4902),
-        "PB": (-7.11509, -34.8641), "PR": (-25.4284, -49.2733),
-        "PE": (-8.04756, -34.877), "PI": (-5.08921, -42.8016),
-        "RJ": (-22.9068, -43.1729), "RN": (-5.79448, -35.211),
-        "RS": (-30.0346, -51.2177), "RO": (-8.76077, -63.8999),
-        "RR": (2.81954, -60.6714), "SC": (-27.5954, -48.548),
-        "SP": (-23.5505, -46.6333), "SE": (-10.9472, -37.0731),
-        "TO": (-10.1689, -48.3317),
-    }
+    # Geocoding agora é feito em background (assíncrono)
+    # Imóveis são salvos com geocoding_status='pending' e serão processados posteriormente
+    # via POST /api/geocoding/start
     
     for caixa_data in properties:
         try:
@@ -1160,17 +1195,15 @@ async def sync_caixa_properties(properties: List[dict]):
                     parts.append(caixa_data['complemento'])
                 endereco = ', '.join(parts) if parts else 'Endereço não informado'
             
-            # Get coordinates from state (FAST - no API call)
+            # Get location info
             city = caixa_data.get('cidade', 'Não informado')
             state = caixa_data.get('estado', 'SP')
-            coords = STATE_COORDS.get(state, (-15.7801, -47.9292))
-            latitude, longitude = coords
             
             # Create unique ID based on numero_imovel
             numero_imovel = caixa_data.get('numero_imovel', str(uuid.uuid4()))
             prop_id = f"caixa-{numero_imovel}"
             
-            # Create Property object
+            # Create Property object (sem coordenadas - geocoding será feito em background)
             prop = Property(
                 id=prop_id,
                 title=endereco[:100] if endereco else 'Imóvel Caixa',
@@ -1192,15 +1225,15 @@ async def sync_caixa_properties(properties: List[dict]):
                 auctioneer_name=caixa_data.get('leiloeiro_nome', 'Caixa Econômica Federal'),
                 auctioneer_url=caixa_data.get('url', ''),
                 source='caixa',
-                latitude=latitude,
-                longitude=longitude,
+                latitude=None,  # Será preenchido pelo geocoding assíncrono
+                longitude=None,  # Será preenchido pelo geocoding assíncrono
                 accepts_financing=True,
                 accepts_fgts=True,
                 created_at=datetime.utcnow(),
                 updated_at=datetime.utcnow(),
             )
             
-            # Use add_property method (works with both in-memory and SQLite)
+            # Salva o imóvel usando o método padrão
             existing = db.get_property(prop_id)
             if existing:
                 db.add_property(prop, upsert=True)
@@ -1208,6 +1241,32 @@ async def sync_caixa_properties(properties: List[dict]):
             else:
                 db.add_property(prop, upsert=False)
                 imported += 1
+            
+            # Marca como pendente de geocoding usando Supabase diretamente (se disponível)
+            # Isso permite adicionar campos que não estão no modelo Property
+            # Nota: Isso só funciona com PostgreSQL/Supabase. Para SQLite/in-memory, 
+            # os campos de geocoding não serão salvos (mas isso é aceitável).
+            try:
+                from app.services.postgres_database import PostgresDatabase
+                # Só tenta atualizar se for PostgresDatabase (Supabase)
+                if isinstance(db, PostgresDatabase):
+                    import os
+                    from supabase import create_client, Client
+                    SUPABASE_URL = os.getenv("SUPABASE_URL")
+                    SUPABASE_KEY = os.getenv("SUPABASE_KEY") or os.getenv("SUPABASE_SERVICE_KEY")
+                    
+                    if SUPABASE_URL and SUPABASE_KEY:
+                        supabase_client: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+                        supabase_client.table("properties").update({
+                            "geocoding_status": "pending",
+                            "geocoding_attempts": 0,
+                            "latitude": None,
+                            "longitude": None,
+                        }).eq("id", prop_id).execute()
+            except Exception as e:
+                # Se não conseguir usar Supabase diretamente, continua normalmente
+                # O SQL script add_geocoding_columns.sql deve ser executado primeiro
+                logger.debug(f"Não foi possível atualizar geocoding_status (normal se SQL ainda não foi executado ou se não for Supabase): {e}")
                 
         except Exception as e:
             skipped += 1
@@ -1215,18 +1274,102 @@ async def sync_caixa_properties(properties: List[dict]):
     # Save to disk (no-op for SQLite, saves JSON for in-memory)
     db.save_to_disk()
     
-    # NOTE: Geocoding e deduplicação rodam em background jobs separados
-    # Use POST /api/admin/geocode-missing para geocoding
-    # Use POST /api/deduplication/run para deduplicação
+    # Agendar geocoding em background
+    try:
+        geocoding_service = get_geocoding_service()
+        background_tasks.add_task(geocoding_service.process_batch, batch_size=100, delay=1.1)
+    except Exception as e:
+        logger.warning(f"Não foi possível agendar geocoding em background: {e}")
     
     return {
         "success": True,
         "imported": imported,
         "updated": updated,
         "skipped": skipped,
-        "total_properties_now": len(db.properties),
-        "message": "Sync rápido concluído. Geocoding e deduplicação rodam em background.",
+        "total_properties_now": len(db.properties) if hasattr(db, 'properties') else 0,
+        "message": "Sync rápido concluído. Imóveis salvos. Geocoding em processamento em background.",
+        "geocoding_status": "scheduled"
     }
+
+
+@app.get("/api/admin/geocoding/status")
+async def geocoding_status():
+    """
+    Retorna o status do processamento de geocoding em background.
+    """
+    try:
+        service = get_geocoding_service()
+        return service.get_status()
+    except Exception as e:
+        return {"error": str(e), "is_running": False}
+
+
+@app.post("/api/admin/geocoding/start")
+async def start_geocoding(
+    background_tasks: BackgroundTasks,
+    batch_size: int = 100
+):
+    """
+    Inicia manualmente o processamento de geocoding em background.
+    Útil para processar imóveis pendentes.
+    """
+    try:
+        service = get_geocoding_service()
+        
+        if service.is_running:
+            return {
+                "status": "already_running",
+                "message": "Geocoding já está em execução"
+            }
+        
+        background_tasks.add_task(service.process_batch, batch_size=batch_size, delay=1.1)
+        
+        return {
+            "status": "started",
+            "message": f"Geocoding iniciado para {batch_size} imóveis",
+            "batch_size": batch_size
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/admin/audit/stats")
+async def audit_stats():
+    """
+    Retorna estatísticas da auditoria de qualidade.
+    """
+    auditor = get_quality_auditor()
+    return auditor.get_stats()
+
+
+@app.post("/api/admin/audit/reset")
+async def reset_audit_stats():
+    """
+    Reseta as estatísticas de auditoria.
+    """
+    auditor = get_quality_auditor()
+    auditor.reset_stats()
+    return {"status": "ok", "message": "Estatísticas resetadas"}
+
+
+@app.get("/api/admin/images/stats")
+async def image_filter_stats():
+    """
+    Retorna estatísticas do filtro de imagens.
+    """
+    blacklist = get_image_blacklist()
+    return blacklist.get_stats()
+
+
+@app.post("/api/admin/images/blacklist/add")
+async def add_to_image_blacklist(url: str, is_pattern: bool = False):
+    """
+    Adiciona uma URL ou padrão à blacklist de imagens.
+    """
+    blacklist = get_image_blacklist()
+    blacklist.add_to_blacklist(url, is_pattern)
+    return {"status": "ok", "message": f"Adicionado à blacklist: {url}"}
 
 
 @app.get("/api/stats/sources")
@@ -1268,3 +1411,436 @@ def _count_by_field(properties: list, field: str) -> dict:
                 value = value.value
             counts[value] = counts.get(value, 0) + 1
     return dict(sorted(counts.items(), key=lambda x: -x[1]))
+
+
+# ==================== ASAAS ENDPOINTS ====================
+
+@app.post("/api/asaas/create-checkout")
+async def create_asaas_checkout(
+    user_id: str = Query(...),
+    user_name: str = Query(...), 
+    user_email: str = Query(...),
+    plan: str = Query("monthly")
+):
+    """Cria link de checkout para assinatura"""
+    result = await asaas_service.create_payment_link(user_id, user_name, user_email, plan)
+    if result["success"]:
+        return result
+    raise HTTPException(status_code=400, detail=result.get("error"))
+
+@app.post("/api/asaas/webhook")
+async def asaas_webhook(request: Request):
+    """Webhook do Asaas para processar pagamentos"""
+    try:
+        payload = await request.json()
+        result = asaas_service.handle_webhook(payload, db)
+        return {"status": "ok", **result}
+    except Exception as e:
+        logger.error(f"Erro no webhook Asaas: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
+
+# ==================== USER PROFILE ENDPOINTS ====================
+
+@app.get("/api/user/profile/{user_id}")
+async def get_user_profile(user_id: str):
+    """Retorna perfil do usuário"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id, email, name, role, subscription_status, subscription_plan,
+                           trial_end_date, trial_views_used, trial_views_limit,
+                           subscription_end_date
+                    FROM user_profiles WHERE id = %s::uuid
+                """, (user_id,))
+                result = cur.fetchone()
+        
+        if not result:
+            raise HTTPException(status_code=404, detail="Usuário não encontrado")
+        
+        return dict(result)
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Erro ao buscar perfil: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/user/check-access/{user_id}")
+async def check_user_access(user_id: str):
+    """Verifica se usuário pode visualizar imóveis"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT can_view_property(%s::uuid)", (user_id,))
+                can_view = cur.fetchone()[0]
+                
+                cur.execute("""
+                    SELECT subscription_status, trial_views_used, trial_views_limit,
+                           trial_end_date, subscription_end_date
+                    FROM user_profiles WHERE id = %s::uuid
+                """, (user_id,))
+                profile = cur.fetchone()
+        
+        if not profile:
+            return {"can_view": False, "reason": "user_not_found"}
+        
+        return {
+            "can_view": can_view,
+            "status": profile["subscription_status"],
+            "trial_views_used": profile["trial_views_used"],
+            "trial_views_limit": profile["trial_views_limit"],
+            "trial_end_date": profile["trial_end_date"].isoformat() if profile["trial_end_date"] else None,
+            "subscription_end_date": profile["subscription_end_date"].isoformat() if profile["subscription_end_date"] else None
+        }
+    except Exception as e:
+        logger.error(f"Erro ao verificar acesso: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/user/increment-view/{user_id}")
+async def increment_user_view(user_id: str, property_id: str = Query(...)):
+    """Incrementa contador de views e registra visualização"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                # Incrementar trial view
+                cur.execute("SELECT increment_trial_view(%s::uuid)", (user_id,))
+                
+                # Registrar visualização
+                cur.execute("""
+                    INSERT INTO property_views (user_id, property_id, source)
+                    VALUES (%s::uuid, %s, 'detail')
+                """, (user_id, property_id))
+            conn.commit()
+        
+        return {"success": True}
+    except Exception as e:
+        logger.error(f"Erro ao incrementar view: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ==================== ANALYTICS ENDPOINTS ====================
+
+@app.post("/api/analytics/search")
+async def log_search(
+    user_id: Optional[str] = Query(None),
+    session_id: Optional[str] = Query(None),
+    filters: Optional[str] = Query(None),  # JSON string
+    results_count: int = Query(0)
+):
+    """Registra busca para analytics"""
+    try:
+        filters_dict = json.loads(filters) if filters else None
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    INSERT INTO search_logs (user_id, session_id, search_filters, results_count)
+                    VALUES (%s, %s, %s::jsonb, %s)
+                """, (user_id, session_id, json.dumps(filters_dict) if filters_dict else None, results_count))
+            conn.commit()
+        return {"status": "logged"}
+    except Exception as e:
+        logger.error(f"Erro ao registrar busca: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/admin/users")
+async def get_all_users(limit: int = Query(100), offset: int = Query(0)):
+    """Lista todos os usuários (admin)"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id, email, name, role, subscription_status, subscription_plan,
+                           trial_views_used, trial_views_limit, created_at, last_login
+                    FROM user_profiles
+                    ORDER BY created_at DESC
+                    LIMIT %s OFFSET %s
+                """, (limit, offset))
+                users = cur.fetchall()
+                
+                cur.execute("SELECT COUNT(*) FROM user_profiles")
+                total = cur.fetchone()[0]
+        
+        return {"users": [dict(u) for u in users], "total": total}
+    except Exception as e:
+        logger.error(f"Erro ao buscar usuários: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/admin/stats")
+async def get_admin_stats():
+    """Estatísticas gerais para admin"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                # Total usuários
+                cur.execute("SELECT COUNT(*) FROM user_profiles")
+                total_users = cur.fetchone()[0]
+                
+                # Por status
+                cur.execute("""
+                    SELECT subscription_status, COUNT(*) 
+                    FROM user_profiles 
+                    GROUP BY subscription_status
+                """)
+                by_status = {row[0]: row[1] for row in cur.fetchall()}
+                
+                # Buscas hoje
+                cur.execute("""
+                    SELECT COUNT(*) FROM search_logs 
+                    WHERE created_at >= CURRENT_DATE
+                """)
+                searches_today = cur.fetchone()[0]
+                
+                # Views hoje
+                cur.execute("""
+                    SELECT COUNT(*) FROM property_views 
+                    WHERE created_at >= CURRENT_DATE
+                """)
+                views_today = cur.fetchone()[0]
+        
+        return {
+            "total_users": total_users,
+            "by_status": by_status,
+            "searches_today": searches_today,
+            "views_today": views_today
+        }
+    except Exception as e:
+        logger.error(f"Erro ao buscar estatísticas admin: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/admin/search-analytics")
+async def get_search_analytics(days: int = Query(30), limit: int = Query(100)):
+    """Analytics de buscas"""
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                # Top estados
+                cur.execute("""
+                    SELECT search_filters->>'state' as state, COUNT(*) as count
+                    FROM search_logs
+                    WHERE search_filters->>'state' IS NOT NULL
+                    AND created_at >= NOW() - INTERVAL '%s days'
+                    GROUP BY search_filters->>'state'
+                    ORDER BY count DESC
+                    LIMIT 10
+                """, (days,))
+                top_states = [{"state": r[0], "count": r[1]} for r in cur.fetchall()]
+                
+                # Top categorias
+                cur.execute("""
+                    SELECT search_filters->>'category' as category, COUNT(*) as count
+                    FROM search_logs
+                    WHERE search_filters->>'category' IS NOT NULL
+                    AND created_at >= NOW() - INTERVAL '%s days'
+                    GROUP BY search_filters->>'category'
+                    ORDER BY count DESC
+                    LIMIT 10
+                """, (days,))
+                top_categories = [{"category": r[0], "count": r[1]} for r in cur.fetchall()]
+                
+                # Faixas de preço
+                cur.execute("""
+                    SELECT 
+                        CASE 
+                            WHEN (search_filters->>'max_value')::numeric <= 100000 THEN 'Até R$ 100k'
+                            WHEN (search_filters->>'max_value')::numeric <= 300000 THEN 'R$ 100k - 300k'
+                            WHEN (search_filters->>'max_value')::numeric <= 500000 THEN 'R$ 300k - 500k'
+                            WHEN (search_filters->>'max_value')::numeric <= 1000000 THEN 'R$ 500k - 1M'
+                            ELSE 'Acima de R$ 1M'
+                        END as price_range,
+                        COUNT(*) as count
+                    FROM search_logs
+                    WHERE search_filters->>'max_value' IS NOT NULL
+                    AND created_at >= NOW() - INTERVAL '%s days'
+                    GROUP BY price_range
+                    ORDER BY count DESC
+                """, (days,))
+                price_ranges = [{"range": r[0], "count": r[1]} for r in cur.fetchall()]
+        
+        return {
+            "top_states": top_states,
+            "top_categories": top_categories,
+            "price_ranges": price_ranges
+        }
+    except Exception as e:
+        logger.error(f"Erro ao buscar analytics: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==================== PIPELINE ENDPOINTS ====================
+
+@app.post("/api/pipeline/run")
+async def run_pipeline(
+    source: str = Query("manual"),
+    skip_geocoding: bool = Query(False)
+):
+    """Executa pipeline completo para todos os leiloeiros"""
+    stats = await scraper_pipeline.run_all_auctioneers()
+    return stats
+
+@app.post("/api/pipeline/run-auctioneer/{slug}")
+async def run_pipeline_for_auctioneer(slug: str, skip_geocoding: bool = Query(False)):
+    """Executa pipeline para um leiloeiro específico"""
+    stats = await scraper_pipeline.run_for_auctioneer(slug)
+    return stats
+
+@app.post("/api/pipeline/normalize")
+async def normalize_properties(properties: List[dict]):
+    """Normaliza uma lista de imóveis (teste)"""
+    normalized = await ai_normalizer.normalize_batch(properties)
+    return {"normalized": normalized}
+
+@app.post("/api/pipeline/geocode")
+async def geocode_properties(properties: List[dict]):
+    """Geocodifica uma lista de imóveis (teste)"""
+    geocoded = await geocoding_service.geocode_batch(properties)
+    return {"geocoded": geocoded}
+
+@app.post("/api/pipeline/normalize-existing")
+async def normalize_existing_properties(limit: int = Query(100)):
+    """Normaliza imóveis existentes no banco que têm categoria 'Outro'"""
+    
+    with db._get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                SELECT id, title, description, address, city, state, category
+                FROM properties
+                WHERE category = 'Outro' OR category IS NULL OR city IS NULL
+                LIMIT %s
+            """, (limit,))
+            
+            rows = cur.fetchall()
+            properties = [dict(row) for row in rows]
+    
+    if not properties:
+        return {"message": "Nenhum imóvel para normalizar"}
+    
+    normalized = await ai_normalizer.normalize_batch(properties)
+    
+    # Atualizar no banco
+    updated = 0
+    with db._get_connection() as conn:
+        with conn.cursor() as cur:
+            for prop in normalized:
+                cur.execute("""
+                    UPDATE properties SET
+                        category = %s,
+                        city = %s,
+                        state = %s,
+                        updated_at = NOW()
+                    WHERE id = %s
+                """, (prop.get('category'), prop.get('city'), prop.get('state'), prop['id']))
+                updated += 1
+            conn.commit()
+    
+    return {"normalized": updated, "total": len(properties)}
+
+@app.post("/api/pipeline/geocode-existing")
+async def geocode_existing_properties(limit: int = Query(50)):
+    """Geocodifica imóveis existentes que não têm coordenadas"""
+    
+    with db._get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                SELECT id, address, city, state
+                FROM properties
+                WHERE (latitude IS NULL OR longitude IS NULL)
+                AND (city IS NOT NULL OR address IS NOT NULL)
+                LIMIT %s
+            """, (limit,))
+            
+            rows = cur.fetchall()
+            properties = [dict(row) for row in rows]
+    
+    if not properties:
+        return {"message": "Nenhum imóvel para geocodificar"}
+    
+    geocoded = await geocoding_service.geocode_batch(properties)
+    
+    # Atualizar no banco
+    updated = 0
+    with db._get_connection() as conn:
+        with conn.cursor() as cur:
+            for prop in geocoded:
+                if prop.get('latitude') and prop.get('longitude'):
+                    cur.execute("""
+                        UPDATE properties SET
+                            latitude = %s,
+                            longitude = %s,
+                            updated_at = NOW()
+                        WHERE id = %s
+                    """, (prop['latitude'], prop['longitude'], prop['id']))
+                    updated += 1
+            conn.commit()
+    
+    return {"geocoded": updated, "total": len(properties)}
+
+# ==================== SCRAPER ENDPOINTS ====================
+
+@app.post("/api/scraper/run-all")
+async def run_all_scrapers(
+    skip_geocoding: bool = False,
+    limit: Optional[int] = None,
+    background_tasks: BackgroundTasks = None
+):
+    """Executa scraping de todos os leiloeiros (pode demorar horas)"""
+    
+    if background_tasks:
+        # Executar em background
+        background_tasks.add_task(scraper_orchestrator.run_all, skip_geocoding, limit)
+        return {"status": "started", "message": "Scraping iniciado em background"}
+    
+    # Executar sincrono (para testes com limit pequeno)
+    stats = await scraper_orchestrator.run_all(skip_geocoding, limit)
+    return stats
+
+
+@app.post("/api/scraper/run-single/{auctioneer_id}")
+async def run_single_scraper(auctioneer_id: str, skip_geocoding: bool = False):
+    """Executa scraping de um único leiloeiro"""
+    
+    try:
+        logger.info(f"Iniciando scraping do leiloeiro {auctioneer_id}")
+        
+        result = await scraper_orchestrator.run_single(auctioneer_id, skip_geocoding)
+        
+        logger.info(f"Resultado do scraping: {result}")
+        return result
+        
+    except Exception as e:
+        logger.error(f"Erro no scraping do leiloeiro {auctioneer_id}: {e}")
+        logger.error(traceback.format_exc())
+        return {"error": str(e), "auctioneer_id": auctioneer_id}
+
+
+@app.get("/api/scraper/status")
+async def get_scraper_status():
+    """Retorna status atual do scraper"""
+    
+    return scraper_orchestrator.stats
+
+
+@app.get("/api/scraper/auctioneers")
+async def list_auctioneers(status: Optional[str] = None, limit: int = 100):
+    """Lista leiloeiros e seus status"""
+    
+    query = """
+        SELECT id, name, website, is_active, property_count, 
+               scrape_status, scrape_error, last_scrape
+        FROM auctioneers
+        WHERE 1=1
+    """
+    params = []
+    
+    if status:
+        query += " AND scrape_status = %s"
+        params.append(status)
+    
+    query += " ORDER BY property_count DESC LIMIT %s"
+    params.append(limit)
+    
+    with db._get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(query, params)
+            # Rows are already dicts due to dict_row factory, so return directly
+            auctioneers = list(cur.fetchall())
+    
+    return {"auctioneers": auctioneers, "total": len(auctioneers)}
