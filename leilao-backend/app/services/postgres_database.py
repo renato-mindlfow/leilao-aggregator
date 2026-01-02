@@ -16,6 +16,8 @@ from dotenv import load_dotenv
 
 from app.models.property import Property, PropertyCreate, PropertyFilter, PropertyCategory, AuctionType
 from app.models.auctioneer import Auctioneer, AuctioneerCreate
+from app.utils.image_blacklist import clean_image_url, get_source_url_or_fallback
+from app.utils.text_normalizer import normalize_city_name, normalize_neighborhood
 
 # Carregar .env ANTES de qualquer outra coisa
 load_dotenv()
@@ -234,6 +236,17 @@ class PostgresDatabase:
         # - Datas de leilão lógicas e cronológicas
         # - Valores de 1ª e 2ª praça respeitando regra de desconto
         # - Campo 'Estado' não pode ser 'XX' ou inválido
+        
+        # Limpar e validar image_url
+        prop.image_url = clean_image_url(prop.image_url)
+        
+        # Validar e limpar source_url
+        prop.source_url = get_source_url_or_fallback(prop.source_url, prop.auctioneer_url)
+        
+        # Normalizar cidade e bairro
+        prop.city = normalize_city_name(prop.city)
+        prop.neighborhood = normalize_neighborhood(prop.neighborhood)
+        
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:

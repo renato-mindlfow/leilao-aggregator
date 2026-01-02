@@ -389,3 +389,173 @@ def get_image_blacklist() -> ImageBlacklist:
     """Retorna a instância singleton da blacklist."""
     return _blacklist
 
+
+# ============================================================================
+# Funções simplificadas para validação e limpeza de URLs (conforme tarefa)
+# ============================================================================
+
+# Padrões de URL que devem ser rejeitados (lista simplificada)
+BLACKLIST_URL_PATTERNS = [
+    # Redes sociais (tracking pixels, logos)
+    "connect.facebook.net",
+    "facebook.com/tr",
+    "pixel.facebook",
+    "platform.twitter",
+    "ads.linkedin",
+    
+    # Logos de bancos
+    "logo-caixa",
+    "logo-bradesco",
+    "logo-itau",
+    "logo-santander",
+    "logo-bb",
+    "bank_icons",
+    "banco-logo",
+    
+    # Placeholders genéricos
+    "placeholder",
+    "no-image",
+    "sem-foto",
+    "sem-imagem",
+    "default-image",
+    "image-not-found",
+    "foto-indisponivel",
+    
+    # Ícones e assets genéricos
+    "/icon",
+    "/icons/",
+    "/assets/logo",
+    "/img/logo",
+    "/images/logo",
+    "favicon",
+    "spinner",
+    "loading",
+    
+    # CDNs de tracking
+    "googletagmanager",
+    "google-analytics",
+    "hotjar",
+    "clarity.ms",
+]
+
+# Extensões válidas de imagem
+VALID_IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".gif"]
+
+# Tamanho mínimo de URL (URLs muito curtas geralmente são inválidas)
+MIN_URL_LENGTH = 20
+
+
+def is_valid_image_url(url: str | None) -> bool:
+    """
+    Verifica se uma URL de imagem é válida.
+    
+    Args:
+        url: URL da imagem a ser validada
+        
+    Returns:
+        True se a URL é válida, False caso contrário
+    """
+    if not url:
+        return False
+    
+    url_lower = url.lower()
+    
+    # Verificar tamanho mínimo
+    if len(url) < MIN_URL_LENGTH:
+        return False
+    
+    # Verificar se contém padrão da blacklist
+    for pattern in BLACKLIST_URL_PATTERNS:
+        if pattern.lower() in url_lower:
+            return False
+    
+    # Verificar se tem extensão válida (opcional, alguns CDNs não usam extensão)
+    has_valid_extension = any(ext in url_lower for ext in VALID_IMAGE_EXTENSIONS)
+    
+    # Se não tem extensão válida, verificar se parece ser uma URL de imagem
+    if not has_valid_extension:
+        # Aceitar URLs de CDNs conhecidos mesmo sem extensão
+        known_image_cdns = ["cloudinary", "imgix", "cloudfront", "amazonaws", "blob.core"]
+        is_from_cdn = any(cdn in url_lower for cdn in known_image_cdns)
+        if not is_from_cdn:
+            return False
+    
+    return True
+
+
+def clean_image_url(url: str | None) -> str | None:
+    """
+    Limpa e valida uma URL de imagem.
+    Retorna None se a URL for inválida.
+    
+    Args:
+        url: URL da imagem
+        
+    Returns:
+        URL limpa ou None se inválida
+    """
+    if not is_valid_image_url(url):
+        return None
+    
+    # Remover espaços em branco
+    url = url.strip()
+    
+    # Garantir que começa com http
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+    
+    return url
+
+
+def is_valid_source_url(url: str | None) -> bool:
+    """
+    Verifica se uma URL de origem (link para o leiloeiro) é válida.
+    
+    Args:
+        url: URL do imóvel no site do leiloeiro
+        
+    Returns:
+        True se a URL é válida, False caso contrário
+    """
+    if not url:
+        return False
+    
+    url = url.strip()
+    
+    # Deve ter tamanho mínimo
+    if len(url) < 10:
+        return False
+    
+    # Deve começar com http
+    if not url.startswith(("http://", "https://")):
+        return False
+    
+    # Não pode ser o próprio LeiloHub
+    if "leilohub.com" in url.lower():
+        return False
+    
+    # Não pode ser apenas domínio sem path
+    # Ex: "https://www.leiloeiro.com.br" sem "/imovel/123"
+    # Isso é válido para alguns casos, então vamos aceitar
+    
+    return True
+
+
+def get_source_url_or_fallback(source_url: str | None, auctioneer_website: str | None) -> str:
+    """
+    Retorna a URL de origem válida ou um fallback para o site do leiloeiro.
+    
+    Args:
+        source_url: URL específica do imóvel
+        auctioneer_website: URL do site do leiloeiro
+        
+    Returns:
+        URL válida ou string vazia
+    """
+    if is_valid_source_url(source_url):
+        return source_url
+    
+    if auctioneer_website and len(auctioneer_website) > 10:
+        return auctioneer_website
+    
+    return ""

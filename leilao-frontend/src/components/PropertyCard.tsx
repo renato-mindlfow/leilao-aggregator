@@ -15,10 +15,49 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
     evaluation_value,
     first_auction_value,
     second_auction_value,
+    first_auction_date,
+    second_auction_date,
     discount_percentage,
     image_url,
     source_url,
   } = property;
+
+  // Verificar se o leilão já passou
+  const isAuctionPast = (dateString: string | null): boolean => {
+    if (!dateString) return false;
+    const auctionDate = new Date(dateString);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return auctionDate < today;
+  };
+
+  const formatAuctionDate = (dateString: string | null, isPast: boolean): JSX.Element => {
+    if (!dateString) return <span className="text-muted-foreground">N/A</span>;
+    
+    const formattedDate = new Date(dateString).toLocaleDateString('pt-BR');
+    
+    if (isPast) {
+      return (
+        <span className="line-through text-muted-foreground" title="Leilão encerrado">
+          {formattedDate}
+        </span>
+      );
+    }
+    
+    return <span>{formattedDate}</span>;
+  };
+
+  // Validar source_url
+  const isValidSourceUrl = (url: string | null | undefined): boolean => {
+    if (!url) return false;
+    const urlStr = url.trim();
+    if (urlStr.length < 10) return false;
+    if (!urlStr.startsWith('http://') && !urlStr.startsWith('https://')) return false;
+    if (urlStr.toLowerCase().includes('leilohub.com')) return false;
+    return true;
+  };
+
+  const validSourceUrl = isValidSourceUrl(source_url);
 
   // Calcular desconto se não existir
   const discount = discount_percentage && discount_percentage > 0 
@@ -64,6 +103,13 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
             {auction_type}
           </span>
         )}
+
+        {/* Badge de status do leilão */}
+        {(isAuctionPast(second_auction_date || first_auction_date)) && (
+          <span className="absolute top-2 left-2 bg-gray-500 text-white text-xs px-2 py-1 rounded">
+            Encerrado
+          </span>
+        )}
       </div>
 
       {/* ===== CONTEÚDO ===== */}
@@ -98,6 +144,14 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
             )}
           </div>
 
+          {/* Data do 1º Leilão */}
+          {first_auction_date && (
+            <div className="flex justify-between items-center text-xs">
+              <span className="text-gray-500">Data 1º Leilão:</span>
+              {formatAuctionDate(first_auction_date, isAuctionPast(first_auction_date))}
+            </div>
+          )}
+
           {/* 2º Leilão */}
           <div className="flex justify-between items-center">
             <span className="text-emerald-600 font-medium">2º Leilão:</span>
@@ -107,6 +161,14 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
               <span className="text-gray-400 text-xs">Informação indisponível</span>
             )}
           </div>
+
+          {/* Data do 2º Leilão */}
+          {second_auction_date && (
+            <div className="flex justify-between items-center text-xs">
+              <span className="text-gray-500">Data 2º Leilão:</span>
+              {formatAuctionDate(second_auction_date, isAuctionPast(second_auction_date))}
+            </div>
+          )}
         </div>
       </div>
 
@@ -119,15 +181,21 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
           <Home className="w-4 h-4" />
           Detalhes
         </button>
-        <a
-          href={source_url || '#'}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="py-3 text-emerald-600 font-medium text-sm hover:bg-emerald-50 transition flex items-center justify-center gap-1.5"
-        >
-          <ExternalLink className="w-4 h-4" />
-          Ver Leilão
-        </a>
+        {validSourceUrl ? (
+          <a
+            href={source_url!}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-3 text-emerald-600 font-medium text-sm hover:bg-emerald-50 transition flex items-center justify-center gap-1.5"
+          >
+            <ExternalLink className="w-4 h-4" />
+            Ver Leilão
+          </a>
+        ) : (
+          <span className="py-3 text-muted-foreground cursor-not-allowed text-sm flex items-center justify-center gap-1.5">
+            Link indisponível
+          </span>
+        )}
       </div>
     </div>
   );
