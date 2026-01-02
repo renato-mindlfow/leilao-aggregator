@@ -151,3 +151,4 @@ UPDATE user_profiles SET role = 'admin' WHERE email = 'seu-email@exemplo.com';
 Consulte o arquivo `TAREFA_CURSOR_SISTEMA_COMPLETO_LEILOHUB.md` para detalhes completos de cada fase.
 
 
+
