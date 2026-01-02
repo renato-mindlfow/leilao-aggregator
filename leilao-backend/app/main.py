@@ -1353,6 +1353,143 @@ async def reset_audit_stats():
     return {"status": "ok", "message": "Estatísticas resetadas"}
 
 
+@app.post("/api/admin/audit-data")
+async def audit_and_fix_data(fix: bool = False):
+    """
+    Audita qualidade dos dados e opcionalmente corrige problemas.
+    
+    Args:
+        fix: Se True, corrige os problemas encontrados
+    """
+    import psycopg2
+    
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    conn = psycopg2.connect(DATABASE_URL)
+    cur = conn.cursor()
+    
+    report = {
+        "timestamp": datetime.now().isoformat(),
+        "issues": {},
+        "fixed": {} if fix else None
+    }
+    
+    # 1. Cidades em maiúsculas
+    cur.execute('''
+        SELECT COUNT(*) FROM properties 
+        WHERE city = UPPER(city) AND city IS NOT NULL AND LENGTH(city) > 2
+    ''')
+    uppercase_cities = cur.fetchone()[0]
+    report["issues"]["uppercase_cities"] = uppercase_cities
+    
+    if fix and uppercase_cities > 0:
+        cur.execute('''
+            UPDATE properties SET city = INITCAP(city)
+            WHERE city = UPPER(city) AND city IS NOT NULL
+        ''')
+        report["fixed"]["uppercase_cities"] = cur.rowcount
+    
+    # 2. Bairros em maiúsculas
+    cur.execute('''
+        SELECT COUNT(*) FROM properties 
+        WHERE neighborhood = UPPER(neighborhood) AND neighborhood IS NOT NULL AND LENGTH(neighborhood) > 2
+    ''')
+    uppercase_neighborhoods = cur.fetchone()[0]
+    report["issues"]["uppercase_neighborhoods"] = uppercase_neighborhoods
+    
+    if fix and uppercase_neighborhoods > 0:
+        cur.execute('''
+            UPDATE properties SET neighborhood = INITCAP(neighborhood)
+            WHERE neighborhood = UPPER(neighborhood) AND neighborhood IS NOT NULL
+        ''')
+        report["fixed"]["uppercase_neighborhoods"] = cur.rowcount
+    
+    # 3. Imagens inválidas
+    cur.execute('''
+        SELECT COUNT(*) FROM properties 
+        WHERE image_url LIKE '%%facebook%%'
+           OR image_url LIKE '%%logo%%'
+           OR image_url LIKE '%%placeholder%%'
+           OR image_url LIKE '%%no-image%%'
+    ''')
+    invalid_images = cur.fetchone()[0]
+    report["issues"]["invalid_images"] = invalid_images
+    
+    if fix and invalid_images > 0:
+        cur.execute('''
+            UPDATE properties SET image_url = NULL
+            WHERE image_url LIKE '%%facebook%%'
+               OR image_url LIKE '%%logo%%'
+               OR image_url LIKE '%%placeholder%%'
+               OR image_url LIKE '%%no-image%%'
+        ''')
+        report["fixed"]["invalid_images"] = cur.rowcount
+    
+    # 4. URLs vazias da Caixa
+    cur.execute('''
+        SELECT COUNT(*) FROM properties 
+        WHERE id LIKE 'caixa-%%'
+          AND (source_url IS NULL OR source_url = '')
+    ''')
+    missing_caixa_urls = cur.fetchone()[0]
+    report["issues"]["missing_caixa_urls"] = missing_caixa_urls
+    
+    if fix and missing_caixa_urls > 0:
+        cur.execute('''
+            UPDATE properties 
+            SET source_url = CONCAT('https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=', REPLACE(id, 'caixa-', ''))
+            WHERE id LIKE 'caixa-%%'
+              AND (source_url IS NULL OR source_url = '')
+        ''')
+        report["fixed"]["missing_caixa_urls"] = cur.rowcount
+    
+    # 5. Imóveis sem source_url (exceto Caixa já tratada)
+    cur.execute('''
+        SELECT COUNT(*) FROM properties 
+        WHERE (source_url IS NULL OR source_url = '')
+          AND id NOT LIKE 'caixa-%%'
+    ''')
+    report["issues"]["missing_source_urls_other"] = cur.fetchone()[0]
+    
+    # 6. Estatísticas gerais
+    cur.execute('SELECT COUNT(*) FROM properties')
+    report["total_properties"] = cur.fetchone()[0]
+    
+    cur.execute('SELECT COUNT(*) FROM properties WHERE image_url IS NOT NULL AND image_url != \'\'')
+    report["properties_with_image"] = cur.fetchone()[0]
+    
+    cur.execute('SELECT COUNT(*) FROM properties WHERE source_url IS NOT NULL AND source_url != \'\'')
+    report["properties_with_url"] = cur.fetchone()[0]
+    
+    if fix:
+        conn.commit()
+    
+    cur.close()
+    conn.close()
+    
+    return report
+
+
+@app.post("/api/admin/run-maintenance")
+async def run_maintenance(background_tasks: BackgroundTasks):
+    """
+    Executa manutenção em background.
+    """
+    from scripts.audit_data_quality import audit_data_quality
+    
+    def run_task():
+        audit_data_quality(fix=True)
+        # Tentar buscar imagens da Caixa também
+        try:
+            from scripts.fetch_caixa_images import fetch_and_update_images
+            fetch_and_update_images(limit=50)
+        except ImportError:
+            pass
+    
+    background_tasks.add_task(run_task)
+    
+    return {"status": "started", "message": "Manutenção iniciada em background"}
+
+
 @app.get("/api/admin/images/stats")
 async def image_filter_stats():
     """

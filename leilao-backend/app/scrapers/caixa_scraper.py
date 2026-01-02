@@ -152,6 +152,7 @@ class CaixaScraper:
     def _parse_csv(self, csv_content: str) -> List[Dict[str, Any]]:
         """
         Parseia o conteúdo do CSV.
+        Suporta CSV com cabeçalhos (DictReader) e sem cabeçalhos (posicional).
         """
         properties = []
         
@@ -159,6 +160,7 @@ class CaixaScraper:
             # Tenta diferentes delimitadores
             for delimiter in [';', ',', '\t']:
                 try:
+                    # Primeiro tenta com cabeçalhos (DictReader)
                     reader = csv.DictReader(
                         io.StringIO(csv_content),
                         delimiter=delimiter
@@ -168,7 +170,7 @@ class CaixaScraper:
                     rows = list(reader)
                     
                     if rows and len(rows[0]) > 3:
-                        logger.info(f"CSV parseado com delimitador '{delimiter}': {len(rows)} linhas")
+                        logger.info(f"CSV parseado com delimitador '{delimiter}' (com cabeçalhos): {len(rows)} linhas")
                         
                         for row in rows:
                             prop = self._parse_row(row)
@@ -178,7 +180,32 @@ class CaixaScraper:
                         break
                         
                 except Exception as e:
-                    continue
+                    # Se falhar, tenta parsing posicional (sem cabeçalhos)
+                    try:
+                        reader = csv.reader(
+                            io.StringIO(csv_content),
+                            delimiter=delimiter
+                        )
+                        
+                        rows = list(reader)
+                        
+                        # Verifica se tem pelo menos 11 colunas (formato esperado da Caixa)
+                        if rows and len(rows) > 0 and len(rows[0]) >= 11:
+                            logger.info(f"CSV parseado com delimitador '{delimiter}' (posicional): {len(rows)} linhas")
+                            
+                            # Pula primeira linha se parecer cabeçalho
+                            start_idx = 0
+                            if rows[0][0] and not rows[0][0].isdigit():
+                                start_idx = 1
+                            
+                            for row in rows[start_idx:]:
+                                prop = self._parse_row_positional(row)
+                                if prop:
+                                    properties.append(prop)
+                            
+                            break
+                    except Exception as e2:
+                        continue
             
             if not properties:
                 logger.warning("Nenhum imóvel extraído do CSV")
@@ -211,7 +238,7 @@ class CaixaScraper:
                 # Gera ID a partir da URL
                 external_id = hashlib.md5(source_url.encode()).hexdigest()[:12]
             
-            prop_id = f"caixa_{external_id}"
+            prop_id = f"caixa-{external_id}"
             
             # Normaliza estado
             state = normalize_state(mapped.get('state', ''))
@@ -269,6 +296,114 @@ class CaixaScraper:
             
         except Exception as e:
             logger.warning(f"Erro ao parsear linha: {e}")
+            return None
+    
+    def _parse_row_positional(self, row: List[str]) -> Optional[Dict[str, Any]]:
+        """
+        Parseia uma linha do CSV usando posições fixas (quando não há cabeçalhos).
+        
+        Formato esperado (11 colunas):
+        0: N° do imóvel
+        1: UF
+        2: Cidade
+        3: Bairro
+        4: Endereço
+        5: Preço
+        6: Valor de avaliação
+        7: Desconto
+        8: Descrição
+        9: Modalidade de venda
+        10: Link de acesso
+        """
+        try:
+            # Limpar valores (remover espaços extras)
+            row = [col.strip() if isinstance(col, str) else str(col).strip() if col else '' for col in row]
+            
+            # Garantir que temos pelo menos 11 colunas
+            while len(row) < 11:
+                row.append('')
+            
+            # Mapear colunas posicionais
+            external_id = row[0] if len(row) > 0 else ''
+            state = row[1] if len(row) > 1 else ''
+            city = row[2] if len(row) > 2 else ''
+            neighborhood = row[3] if len(row) > 3 else ''
+            address = row[4] if len(row) > 4 else ''
+            first_auction_value_str = row[5] if len(row) > 5 else ''
+            evaluation_value_str = row[6] if len(row) > 6 else ''
+            discount_str = row[7] if len(row) > 7 else ''
+            description = row[8] if len(row) > 8 else ''
+            auction_type = row[9] if len(row) > 9 else ''
+            source_url = row[10] if len(row) > 10 else ''  # <-- IMPORTANTE: Link de acesso
+            
+            # Validação mínima
+            if not external_id and not source_url:
+                return None
+            
+            # Gera ID único
+            if not external_id:
+                # Gera ID a partir da URL
+                external_id = hashlib.md5(source_url.encode()).hexdigest()[:12]
+            
+            prop_id = f"caixa-{external_id}"
+            
+            # Normaliza estado
+            state = normalize_state(state)
+            
+            # Normaliza cidade
+            city = normalize_city(city)
+            
+            # Detecta categoria a partir da descrição
+            category = self._detect_category(description)
+            
+            # Normaliza valores monetários
+            evaluation_value = normalize_money(evaluation_value_str)
+            first_auction_value = normalize_money(first_auction_value_str)
+            
+            # Calcula desconto se não vier no CSV
+            discount = None
+            if discount_str:
+                discount = self._parse_discount(discount_str)
+            elif evaluation_value and first_auction_value and evaluation_value > 0:
+                discount = round((1 - first_auction_value / evaluation_value) * 100, 2)
+            
+            # Mapeia modalidade
+            auction_type = MODALIDADE_MAP.get(auction_type, auction_type)
+            
+            # Gera título
+            title = self._generate_title(category, city, state, neighborhood)
+            
+            # Garante source_url (gera se não vier)
+            if not source_url:
+                source_url = f"https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel={external_id}"
+            
+            # Monta dicionário final
+            return {
+                'id': prop_id,
+                'external_id': external_id,
+                'title': title,
+                'category': category,
+                'auction_type': auction_type,
+                'state': state,
+                'city': city,
+                'neighborhood': neighborhood,
+                'address': address,
+                'description': description,
+                'evaluation_value': evaluation_value,
+                'first_auction_value': first_auction_value,
+                'discount_percentage': discount,
+                'source_url': source_url,  # <-- Garantido
+                'source': 'caixa',
+                'auctioneer_id': 'caixa',
+                'auctioneer_name': 'Caixa Econômica Federal',
+                'auctioneer_url': 'https://venda-imoveis.caixa.gov.br',
+                'is_active': True,
+                'created_at': datetime.utcnow().isoformat(),
+                'updated_at': datetime.utcnow().isoformat(),
+            }
+            
+        except Exception as e:
+            logger.warning(f"Erro ao parsear linha posicional: {e}")
             return None
     
     def _detect_category(self, description: str) -> str:
