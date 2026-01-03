@@ -73,36 +73,39 @@ class AINormalizer:
     def _rule_based_normalization(self, data: Dict) -> Dict:
         """Normalização baseada em regras (sem IA)"""
         
+        if not data:
+            return {}
+        
         normalized = data.copy()
         
-        # Normalizar categoria
-        if 'category' in normalized and normalized['category']:
-            normalized['category'] = self._normalize_category(normalized['category'])
+        # Normalizar categoria (pode ser None ou string vazia)
+        if 'category' in normalized:
+            normalized['category'] = self._normalize_category(normalized.get('category'))
         
-        # Normalizar estado
-        if 'state' in normalized and normalized['state']:
-            normalized['state'] = self._normalize_state(normalized['state'])
+        # Normalizar estado (pode ser None ou string vazia)
+        if 'state' in normalized:
+            normalized['state'] = self._normalize_state(normalized.get('state'))
         
-        # Normalizar cidade (capitalização)
-        if 'city' in normalized and normalized['city']:
-            normalized['city'] = self._normalize_city(normalized['city'])
+        # Normalizar cidade (pode ser None ou string vazia)
+        if 'city' in normalized:
+            normalized['city'] = self._normalize_city(normalized.get('city'))
         
-        # Limpar valores numéricos
+        # Limpar valores numéricos (sempre chamar, método trata None)
         if 'price' in normalized:
-            normalized['price'] = self._clean_price(normalized['price'])
+            normalized['price'] = self._clean_price(normalized.get('price'))
         
         if 'area' in normalized:
-            normalized['area'] = self._clean_area(normalized['area'])
+            normalized['area'] = self._clean_area(normalized.get('area'))
         
         if 'discount' in normalized:
-            normalized['discount'] = self._clean_discount(normalized['discount'])
+            normalized['discount'] = self._clean_discount(normalized.get('discount'))
         
         return normalized
     
     def _normalize_category(self, category: str) -> str:
         """Normaliza categoria para uma das categorias válidas"""
         
-        if not category:
+        if not category or not isinstance(category, str):
             return "Outro"
         
         category_lower = category.lower().strip()
@@ -222,7 +225,7 @@ class AINormalizer:
     def _normalize_state(self, state: str) -> str:
         """Normaliza estado para sigla de 2 letras"""
         
-        if not state:
+        if not state or not isinstance(state, str):
             return ""
         
         state = state.strip().upper()
@@ -247,7 +250,7 @@ class AINormalizer:
     def _normalize_city(self, city: str) -> str:
         """Normaliza nome da cidade"""
         
-        if not city:
+        if not city or not isinstance(city, str):
             return ""
         
         # Remove espaços extras e capitaliza
@@ -276,8 +279,16 @@ class AINormalizer:
             return float(price) if price > 0 else None
         
         if isinstance(price, str):
+            # Verificar se string não está vazia
+            if not price.strip():
+                return None
+            
             # Remove caracteres não numéricos exceto ponto e vírgula
             cleaned = ''.join(c for c in price if c.isdigit() or c in '.,')
+            
+            # Se não sobrou nada após limpeza, retornar None
+            if not cleaned:
+                return None
             
             # Trata formato brasileiro (1.234.567,89)
             if ',' in cleaned and '.' in cleaned:
@@ -303,9 +314,18 @@ class AINormalizer:
             return float(area) if area > 0 else None
         
         if isinstance(area, str):
+            # Verificar se string não está vazia
+            if not area.strip():
+                return None
+            
             # Remove unidades e caracteres especiais
-            cleaned = area.lower().replace('m²', '').replace('m2', '').replace('ha', '')
+            area_lower = area.lower()
+            cleaned = area_lower.replace('m²', '').replace('m2', '').replace('ha', '')
             cleaned = ''.join(c for c in cleaned if c.isdigit() or c in '.,')
+            
+            # Se não sobrou nada após limpeza, retornar None
+            if not cleaned:
+                return None
             
             # Trata formato brasileiro
             if ',' in cleaned and '.' in cleaned:
@@ -317,7 +337,7 @@ class AINormalizer:
                 value = float(cleaned)
                 
                 # Se tinha 'ha', converte para m²
-                if 'ha' in area.lower():
+                if 'ha' in area_lower:
                     value = value * 10000
                 
                 return value if value > 0 else None
@@ -340,7 +360,15 @@ class AINormalizer:
                 return float(discount) * 100 if 0 < discount <= 1 else None
         
         if isinstance(discount, str):
+            # Verificar se string não está vazia
+            if not discount.strip():
+                return None
+            
             cleaned = ''.join(c for c in discount if c.isdigit() or c in '.,')
+            
+            # Se não sobrou nada após limpeza, retornar None
+            if not cleaned:
+                return None
             
             if ',' in cleaned:
                 cleaned = cleaned.replace(',', '.')
@@ -423,8 +451,8 @@ Se não conseguir determinar algum campo, use null."""
                     
                     message = result['choices'][0].get('message', {})
                     content = message.get('content', '')
-                    if not content:
-                        logger.warning(f"Content vazio na resposta da OpenAI")
+                    if not content or not isinstance(content, str):
+                        logger.warning(f"Content vazio ou inválido na resposta da OpenAI")
                         return data  # Retorna dados originais sem normalização
                     
                     # Extrair JSON da resposta
@@ -514,8 +542,8 @@ Retorne APENAS um JSON array com objetos no formato:
                     
                     message = result['choices'][0].get('message', {})
                     content = message.get('content', '')
-                    if not content:
-                        logger.warning(f"Content vazio na resposta da OpenAI no batch")
+                    if not content or not isinstance(content, str):
+                        logger.warning(f"Content vazio ou inválido na resposta da OpenAI no batch")
                         return batch  # Retorna dados originais sem normalização
                     
                     content = content.replace('```json', '').replace('```', '').strip()

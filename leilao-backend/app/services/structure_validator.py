@@ -203,14 +203,17 @@ class StructureValidator:
                 )
                 row = cur.fetchone()
                 
-                metrics = row[0] if row and row[0] else {
-                    "consecutive_failures": 0,
-                    "total_extractions": 0,
-                    "successful_extractions": 0,
-                    "avg_properties_per_extraction": 0
-                }
+                # row é um dict devido ao dict_row factory
+                metrics = row.get('validation_metrics') if row else None
+                if not metrics:
+                    metrics = {
+                        "consecutive_failures": 0,
+                        "total_extractions": 0,
+                        "successful_extractions": 0,
+                        "avg_properties_per_extraction": 0
+                    }
                 
-                config = row[1] if row and row[1] else {}
+                config = row.get('scrape_config') if row else {}
                 
                 # Parsear JSON se necessário
                 if isinstance(metrics, str):
