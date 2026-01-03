@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -218,12 +219,23 @@ class ScraperOrchestrator:
             conn.commit()
     
     def _save_properties(self, properties: List[Dict], auctioneer_id: str, source: str) -> tuple:
-        """Salva imóveis no banco com upsert"""
+        """Salva imóveis no banco com conexão isolada para evitar conflitos de prepared statements"""
+        import psycopg
+        from psycopg.rows import dict_row
         
         new_count = 0
         updated_count = 0
         
-        with db._get_connection() as conn:
+        # Conexão isolada para esta operação (evita conflitos em execuções paralelas)
+        database_url = os.environ.get('DATABASE_URL')
+        if not database_url:
+            logger.error("DATABASE_URL não configurada")
+            return 0, 0
+        
+        conn = psycopg.connect(database_url, row_factory=dict_row)
+        conn.autocommit = True  # Evitar transações longas e problemas com prepared statements
+        
+        try:
             with conn.cursor() as cur:
                 for prop in properties:
                     # Usar external_id como id do banco, ou gerar um
@@ -365,8 +377,8 @@ class ScraperOrchestrator:
                             second_auction_date
                         ))
                         new_count += 1
-                
-                conn.commit()
+        finally:
+            conn.close()
         
         return new_count, updated_count
 

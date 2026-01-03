@@ -101,15 +101,22 @@ class UniversalScraper:
             properties = []
             working_url = None  # URL que funcionou
             
-            # Tentar encontrar página de imóveis
+            # Tentar encontrar página de imóveis (paths específicos primeiro)
             possible_paths = [
+                # Paths específicos para imóveis (prioridade)
+                '/lotes/imovel',
+                '/lotes/imoveis', 
+                '/lotes?tipo=imovel',
+                '/lotes?categoria=imovel',
                 '/imoveis',
-                '/leiloes',
-                '/leiloes/imoveis',
+                '/imoveis/todos',
                 '/busca?tipo=imovel',
-                '/busca/imoveis',
-                '/catalogo',
+                '/busca?categoria=imovel',
                 '/catalogo/imoveis',
+                '/leiloes/imoveis',
+                '/leiloes',
+                # Paths genéricos (última opção)
+                '/catalogo',
                 '/',
             ]
             
@@ -262,6 +269,45 @@ class UniversalScraper:
         
         return matches >= 3
     
+    def _filter_properties_by_category(self, properties: List[Dict], source: str) -> List[Dict]:
+        """Filtra propriedades para incluir APENAS imóveis (exclui veículos, máquinas, etc)"""
+        
+        CATEGORIAS_IMOVEIS = [
+            'imovel', 'imóvel', 'imóveis', 'imoveis',
+            'apartamento', 'casa', 'terreno', 'comercial',
+            'rural', 'galpão', 'galpao', 'sala', 'loja',
+            'fazenda', 'sítio', 'sitio', 'chácara', 'chacara',
+            'prédio', 'predio', 'edificio', 'edifício',
+        ]
+        
+        NAO_IMOVEL = [
+            'veículo', 'veiculo', 'carro', 'moto', 'caminhão', 'caminhao',
+            'máquina', 'maquina', 'equipamento', 'móvel', 'movel',
+            'eletrônico', 'eletronico', 'jóia', 'joia', 'joia', 'jóias',
+            'animal', 'trator', 'colheitadeira'
+        ]
+        
+        filtered = []
+        for prop in properties:
+            cat = (prop.get('category', '') or '').lower()
+            titulo = (prop.get('title', '') or '').lower()
+            
+            # Verificar se é imóvel
+            is_imovel = any(c in cat for c in CATEGORIAS_IMOVEIS) or \
+                        any(c in titulo for c in CATEGORIAS_IMOVEIS)
+            
+            # Rejeitar se claramente NÃO é imóvel
+            is_not_imovel = any(n in cat for n in NAO_IMOVEL) or \
+                            any(n in titulo for n in NAO_IMOVEL)
+            
+            if is_imovel or (not is_not_imovel and not cat):
+                # Se não tem categoria definida e não parece ser NÃO-imóvel, incluir
+                filtered.append(prop)
+            else:
+                logger.debug(f"Filtrado (não é imóvel): {prop.get('title', 'N/A')[:50]}")
+        
+        return filtered
+    
     def _parse_json_response(self, data: Any, source: str, url: str) -> List[Dict]:
         """Parseia resposta JSON de APIs"""
         
@@ -295,7 +341,11 @@ class UniversalScraper:
             if prop:
                 properties.append(prop)
         
-        return properties
+        # Filtrar apenas imóveis
+        filtered = self._filter_properties_by_category(properties, source)
+        logger.info(f"Filtro de categoria (JSON): {len(properties)} -> {len(filtered)} imóveis")
+        
+        return filtered
     
     def _normalize_json_item(self, item: Dict, source: str, base_url: str) -> Optional[Dict]:
         """Normaliza um item JSON para o formato padrão"""
@@ -457,7 +507,11 @@ Exemplo: [{{"title": "...", "price": 100000, ...}}]"""
                         
                         properties.append(item)
                 
-                return properties
+                # Filtrar apenas imóveis (evitar veículos, máquinas, etc)
+                filtered = self._filter_properties_by_category(properties, source)
+                logger.info(f"Filtro de categoria: {len(properties)} -> {len(filtered)} imóveis")
+                
+                return filtered
                 
         except json.JSONDecodeError as e:
             logger.warning(f"Erro ao parsear JSON da IA: {e}")
@@ -472,6 +526,7 @@ Exemplo: [{{"title": "...", "price": 100000, ...}}]"""
         """Tenta buscar páginas adicionais a partir da URL que funcionou"""
         
         additional = []
+        seen_urls = set()  # Evitar loop infinito
         
         # Padrões comuns de paginação
         pagination_patterns = [
@@ -493,34 +548,52 @@ Exemplo: [{{"title": "...", "price": 100000, ...}}]"""
             if has_query and pattern.startswith('?'):
                 pattern = pattern.replace('?', '&')
             
-            found_pages = False
+            consecutive_empty = 0  # Contador de páginas vazias consecutivas
             
-            for page in range(2, 51):  # Aumentado para 50 páginas
+            for page in range(2, 51):
                 url = working_url.rstrip('/') + pattern.format(page=page)
+                
+                # Evitar URLs já visitadas
+                if url in seen_urls:
+                    logger.info(f"URL já visitada, parando: {url}")
+                    break
+                seen_urls.add(url)
                 
                 logger.debug(f"Tentando página {page}: {url}")
                 
                 try:
                     result = await self._try_direct_request(url, source)
                     
-                    if result and len(result) > 0:
-                        found_pages = True
-                        additional.extend(result)
-                        logger.info(f"Página {page} de {source}: +{len(result)} imóveis (total acumulado: {initial_count + len(additional)})")
-                        
-                        # Pequeno delay para não sobrecarregar
-                        await asyncio.sleep(0.5)
-                    else:
-                        # Sem mais resultados, parar de tentar este padrão
-                        logger.info(f"Página {page} vazia para {source}, parando paginação com padrão {pattern}")
+                    if not result or len(result) == 0:
+                        consecutive_empty += 1
+                        if consecutive_empty >= 2:  # 2 páginas vazias = parar
+                            logger.info(f"2 páginas vazias consecutivas, parando paginação")
+                            break
+                        continue
+                    
+                    consecutive_empty = 0  # Reset contador
+                    
+                    # Verificar se são os mesmos itens da página anterior (loop)
+                    new_titles = set(p.get('title', '') for p in result)
+                    existing_titles = set(p.get('title', '') for p in additional[-20:] if additional)
+                    
+                    overlap = len(new_titles & existing_titles)
+                    if overlap > len(new_titles) * 0.8:  # 80% repetidos = loop
+                        logger.warning(f"Detectado loop de conteúdo na página {page}, parando")
                         break
+                    
+                    additional.extend(result)
+                    logger.info(f"Página {page} de {source}: +{len(result)} imóveis (total acumulado: {initial_count + len(additional)})")
+                    
+                    # Pequeno delay para não sobrecarregar
+                    await asyncio.sleep(0.5)
                         
                 except Exception as e:
                     logger.warning(f"Erro na página {page} de {source}: {e}")
                     break
             
             # Se encontrou resultados com este padrão, não tentar outros
-            if found_pages:
+            if additional:
                 logger.info(f"Paginação de {source} completa: +{len(additional)} imóveis adicionais")
                 break
         

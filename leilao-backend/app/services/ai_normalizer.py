@@ -415,7 +415,17 @@ Se não conseguir determinar algum campo, use null."""
                 
                 if response.status_code == 200:
                     result = response.json()
-                    content = result['choices'][0]['message']['content']
+                    
+                    # Validar resposta da API antes de acessar campos
+                    if not result or 'choices' not in result or len(result['choices']) == 0:
+                        logger.warning(f"Resposta vazia ou inválida da OpenAI")
+                        return data  # Retorna dados originais sem normalização
+                    
+                    message = result['choices'][0].get('message', {})
+                    content = message.get('content', '')
+                    if not content:
+                        logger.warning(f"Content vazio na resposta da OpenAI")
+                        return data  # Retorna dados originais sem normalização
                     
                     # Extrair JSON da resposta
                     try:
@@ -496,7 +506,18 @@ Retorne APENAS um JSON array com objetos no formato:
                 
                 if response.status_code == 200:
                     result = response.json()
-                    content = result['choices'][0]['message']['content']
+                    
+                    # Validar resposta da API antes de acessar campos
+                    if not result or 'choices' not in result or len(result['choices']) == 0:
+                        logger.warning(f"Resposta vazia ou inválida da OpenAI no batch")
+                        return batch  # Retorna dados originais sem normalização
+                    
+                    message = result['choices'][0].get('message', {})
+                    content = message.get('content', '')
+                    if not content:
+                        logger.warning(f"Content vazio na resposta da OpenAI no batch")
+                        return batch  # Retorna dados originais sem normalização
+                    
                     content = content.replace('```json', '').replace('```', '').strip()
                     
                     ai_results = json.loads(content)
