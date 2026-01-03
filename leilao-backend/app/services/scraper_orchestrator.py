@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import os
+import json
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -8,6 +9,7 @@ from app.services.universal_scraper import universal_scraper, parse_brazilian_da
 from app.services.ai_normalizer import ai_normalizer
 from app.services.geocoding_service import geocoding_service
 from app.services.postgres_database import get_postgres_database
+from app.services.structure_validator import structure_validator
 
 logger = logging.getLogger(__name__)
 db = get_postgres_database()
@@ -381,6 +383,145 @@ class ScraperOrchestrator:
             conn.close()
         
         return new_count, updated_count
+    
+    async def run_all_smart(self, skip_geocoding: bool = False, limit: Optional[int] = None) -> Dict:
+        """
+        Executa scraping usando configurações descobertas quando disponíveis.
+        """
+        self.stats = {
+            "started_at": datetime.now().isoformat(),
+            "finished_at": None,
+            "total_auctioneers": 0,
+            "successful": 0,
+            "failed": 0,
+            "total_properties": 0,
+            "new_properties": 0,
+            "updated_properties": 0,
+            "used_config": 0,
+            "used_fallback": 0,
+            "errors": []
+        }
+        
+        # Buscar leiloeiros ativos com configurações
+        auctioneers = self._get_active_auctioneers_with_config(limit)
+        self.stats["total_auctioneers"] = len(auctioneers)
+        
+        logger.info(f"🚀 Iniciando scraping SMART de {len(auctioneers)} leiloeiros")
+        
+        for i, auctioneer in enumerate(auctioneers, 1):
+            auc_id = auctioneer["id"]
+            auc_name = auctioneer["name"]
+            config = auctioneer.get("scrape_config")
+            
+            logger.info(f"[{i}/{len(auctioneers)}] Processando {auc_name}...")
+            
+            self._update_auctioneer_status(auc_id, "running")
+            
+            try:
+                # Usar configuração se disponível
+                if config and isinstance(config, dict):
+                    logger.info(f"  → Usando configuração descoberta ({config.get('site_type')})")
+                    properties = await universal_scraper.scrape_with_config(auctioneer, config)
+                    self.stats["used_config"] += 1
+                else:
+                    logger.info(f"  → Usando método tradicional (sem config)")
+                    properties = await universal_scraper.scrape_auctioneer(auctioneer)
+                    self.stats["used_fallback"] += 1
+                
+                if properties:
+                    # Normalizar
+                    normalized = await ai_normalizer.normalize_batch(properties)
+                    
+                    # Geocoding (opcional)
+                    if not skip_geocoding:
+                        logger.info(f"Geocodificando {len(normalized)} imóveis de {auc_name}...")
+                        normalized = await geocoding_service.geocode_batch(normalized, delay=0.5)
+                    
+                    # Salvar
+                    new_count, updated_count = self._save_properties(normalized, auc_id, auc_name)
+                    
+                    self._update_auctioneer_status(auc_id, "success", None, len(normalized))
+                    self.stats["successful"] += 1
+                    self.stats["total_properties"] += len(normalized)
+                    self.stats["new_properties"] += new_count
+                    self.stats["updated_properties"] += updated_count
+                    
+                    # Atualizar métricas de validação
+                    structure_validator.update_validation_metrics(
+                        auctioneer_id=auc_id,
+                        success=True,
+                        properties_count=len(normalized)
+                    )
+                    
+                    logger.info(f"✅ {auc_name}: {new_count} novos, {updated_count} atualizados")
+                else:
+                    self._update_auctioneer_status(auc_id, "error", "Nenhum imóvel encontrado")
+                    self.stats["failed"] += 1
+                    
+                    # Atualizar métricas de falha
+                    structure_validator.update_validation_metrics(
+                        auctioneer_id=auc_id,
+                        success=False,
+                        properties_count=0
+                    )
+                    
+            except Exception as e:
+                error_msg = str(e)
+                self._update_auctioneer_status(auc_id, "error", error_msg)
+                self.stats["failed"] += 1
+                self.stats["errors"].append({"name": auc_name, "error": error_msg})
+                
+                # Atualizar métricas de falha
+                structure_validator.update_validation_metrics(
+                    auctioneer_id=auc_id,
+                    success=False,
+                    properties_count=0
+                )
+                
+                logger.error(f"❌ {auc_name}: {e}")
+            
+            # Pequena pausa entre leiloeiros
+            await asyncio.sleep(2)
+        
+        self.stats["finished_at"] = datetime.now().isoformat()
+        
+        logger.info(f"🏁 Scraping SMART finalizado: {self.stats['successful']} sucesso, {self.stats['failed']} falhas")
+        logger.info(f"   Config usado: {self.stats['used_config']}, Fallback: {self.stats['used_fallback']}")
+        
+        return self.stats
+    
+    def _get_active_auctioneers_with_config(self, limit: Optional[int] = None) -> List[Dict]:
+        """Busca leiloeiros ativos com suas configurações"""
+        
+        query = """
+            SELECT id, name, website, scrape_config, scrape_status, property_count
+            FROM auctioneers 
+            WHERE is_active = true 
+            AND website IS NOT NULL
+            ORDER BY 
+                CASE WHEN scrape_config IS NOT NULL THEN 0 ELSE 1 END,
+                property_count DESC NULLS LAST
+        """
+        
+        if limit:
+            query += f" LIMIT {limit}"
+        
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(query)
+                
+                results = []
+                for row in cur.fetchall():
+                    auc = dict(row)
+                    # Parsear JSON se necessário
+                    if auc.get("scrape_config") and isinstance(auc["scrape_config"], str):
+                        try:
+                            auc["scrape_config"] = json.loads(auc["scrape_config"])
+                        except:
+                            auc["scrape_config"] = None
+                    results.append(auc)
+                
+                return results
 
 
 # Instância global

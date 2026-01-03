@@ -6,6 +6,7 @@ from datetime import datetime
 import json
 import logging
 import traceback
+import os
 from dotenv import load_dotenv
 
 # Carregar .env ANTES de qualquer outra coisa
@@ -27,6 +28,8 @@ from app.services.scraper_pipeline import scraper_pipeline
 from app.services.ai_normalizer import ai_normalizer
 from app.services.geocoding_service import geocoding_service
 from app.services.scraper_orchestrator import scraper_orchestrator
+from app.services.discovery_orchestrator import discovery_orchestrator
+from app.services.structure_validator import structure_validator
 from app.api.properties import router as properties_router
 from app.api.sync import router as sync_router
 from app.api.geocoding import router as geocoding_router
@@ -1981,3 +1984,173 @@ async def list_auctioneers(status: Optional[str] = None, limit: int = 100):
             auctioneers = list(cur.fetchall())
     
     return {"auctioneers": auctioneers, "total": len(auctioneers)}
+
+
+# ==================== DISCOVERY ENDPOINTS ====================
+
+@app.post("/api/discovery/run")
+async def run_discovery(
+    limit: Optional[int] = Query(None, description="Limite de leiloeiros"),
+    force: bool = Query(False, description="Forçar redescoberta")
+):
+    """Executa descoberta de estrutura para leiloeiros pendentes"""
+    try:
+        result = await discovery_orchestrator.run_discovery(limit=limit, force=force)
+        return result
+    except Exception as e:
+        logger.error(f"Erro na descoberta: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/discovery/single/{auctioneer_id}")
+async def run_single_discovery(auctioneer_id: str):
+    """Executa descoberta para um leiloeiro específico"""
+    try:
+        result = await discovery_orchestrator.run_single_discovery(auctioneer_id)
+        return result
+    except Exception as e:
+        logger.error(f"Erro na descoberta única: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/discovery/stats")
+async def get_discovery_stats():
+    """Retorna estatísticas de descoberta"""
+    try:
+        return discovery_orchestrator.get_discovery_stats()
+    except Exception as e:
+        logger.error(f"Erro ao obter stats de descoberta: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/scraper/run-smart")
+async def run_smart_scraper(
+    limit: Optional[int] = Query(None),
+    skip_geocoding: bool = Query(True)
+):
+    """Executa scraping inteligente usando configurações descobertas"""
+    try:
+        result = await scraper_orchestrator.run_all_smart(
+            skip_geocoding=skip_geocoding,
+            limit=limit
+        )
+        return result
+    except Exception as e:
+        logger.error(f"Erro no scraping inteligente: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/discovery/rediscovery")
+async def run_rediscovery(
+    limit: Optional[int] = Query(None, description="Limite de leiloeiros")
+):
+    """Executa re-descoberta para leiloeiros que precisam atualização"""
+    try:
+        result = await discovery_orchestrator.run_rediscovery(limit=limit)
+        return result
+    except Exception as e:
+        logger.error(f"Erro na re-descoberta: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/discovery/needs-rediscovery")
+async def get_needs_rediscovery():
+    """Lista leiloeiros que precisam de re-descoberta"""
+    try:
+        import psycopg
+        from psycopg.rows import dict_row
+        
+        database_url = os.environ.get("DATABASE_URL")
+        if not database_url:
+            raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+        
+        conn = psycopg.connect(database_url, row_factory=dict_row)
+        conn.autocommit = True
+        
+        with conn.cursor() as cur:
+            cur.execute("""
+                SELECT id, name, website, property_count, 
+                       last_discovery_at, discovery_status,
+                       validation_metrics->>'consecutive_failures' as failures
+                FROM auctioneers 
+                WHERE website IS NOT NULL
+                ORDER BY property_count DESC NULLS LAST
+            """)
+            
+            results = []
+            for row in cur.fetchall():
+                auc = dict(row)
+                needs, reason = structure_validator.needs_rediscovery(auc)
+                if needs:
+                    results.append({
+                        "id": auc["id"],
+                        "name": auc["name"],
+                        "property_count": auc["property_count"],
+                        "reason": reason,
+                        "last_discovery": auc["last_discovery_at"]
+                    })
+        
+        conn.close()
+        return {"total": len(results), "auctioneers": results}
+        
+    except Exception as e:
+        logger.error(f"Erro ao verificar re-descoberta: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/discovery/check-structure/{auctioneer_id}")
+async def check_structure_changed(auctioneer_id: str):
+    """Verifica se a estrutura de um site mudou"""
+    try:
+        import psycopg
+        from psycopg.rows import dict_row
+        
+        database_url = os.environ.get("DATABASE_URL")
+        if not database_url:
+            raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+        
+        conn = psycopg.connect(database_url, row_factory=dict_row)
+        conn.autocommit = True
+        
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT website, structure_hash, scrape_config FROM auctioneers WHERE id = %s",
+                (auctioneer_id,)
+            )
+            row = cur.fetchone()
+        
+        conn.close()
+        
+        if not row:
+            raise HTTPException(status_code=404, detail="Leiloeiro não encontrado")
+        
+        stored_hash = row["structure_hash"]
+        if not stored_hash and row["scrape_config"]:
+            config = row["scrape_config"]
+            if isinstance(config, str):
+                try:
+                    config = json.loads(config)
+                except:
+                    config = {}
+            if config.get("validation") and config["validation"].get("structure_hash"):
+                stored_hash = config["validation"]["structure_hash"]
+        
+        changed, new_hash = await structure_validator.check_structure_changed(
+            row["website"], stored_hash
+        )
+        
+        return {
+            "changed": changed,
+            "old_hash": stored_hash[:8] + "..." if stored_hash else None,
+            "new_hash": new_hash[:8] + "..." if new_hash else None
+        }
+        
+    except Exception as e:
+        logger.error(f"Erro ao verificar estrutura: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))

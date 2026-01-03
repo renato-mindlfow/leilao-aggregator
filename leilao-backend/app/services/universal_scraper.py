@@ -598,6 +598,166 @@ Exemplo: [{{"title": "...", "price": 100000, ...}}]"""
                 break
         
         return additional
+    
+    async def scrape_with_config(self, auctioneer: Dict, config: Dict) -> List[Dict]:
+        """
+        Executa scraping usando configuração descoberta.
+        
+        Args:
+            auctioneer: Dict com dados do leiloeiro
+            config: Dict com configuração descoberta (scrape_config)
+            
+        Returns:
+            Lista de imóveis extraídos
+        """
+        website = auctioneer.get("website", "").rstrip("/")
+        name = auctioneer.get("name", "Unknown")
+        site_type = config.get("site_type", "unknown")
+        
+        logger.info(f"🎯 Scraping {name} usando configuração ({site_type})")
+        
+        all_properties = []
+        
+        # ESTRATÉGIA 1: Site com filtros
+        if site_type == "filter_based" and config.get("property_filters"):
+            logger.info(f"Usando {len(config['property_filters'])} filtros de imóveis")
+            
+            for filter_info in config["property_filters"]:
+                filter_name = filter_info.get("name", "Unknown")
+                filter_url = filter_info.get("url")
+                
+                if not filter_url:
+                    continue
+                
+                logger.info(f"  → Filtro: {filter_name} ({filter_url})")
+                
+                # Extrair imóveis deste filtro
+                properties = await self._extract_from_url(filter_url, name)
+                
+                if properties:
+                    # Adicionar categoria baseada no filtro
+                    for prop in properties:
+                        if not prop.get("category"):
+                            prop["category"] = filter_name
+                    
+                    all_properties.extend(properties)
+                    logger.info(f"    ✓ {len(properties)} imóveis de {filter_name}")
+                
+                # Paginação para este filtro
+                if config.get("pagination") and len(properties) >= 10:
+                    pagination_props = await self._paginate_with_config(
+                        filter_url, name, config["pagination"]
+                    )
+                    all_properties.extend(pagination_props)
+        
+        # ESTRATÉGIA 2: Site com lista única
+        elif site_type == "list_based" or config.get("fallback_url"):
+            fallback_url = config.get("fallback_url", website)
+            logger.info(f"Usando URL direta: {fallback_url}")
+            
+            properties = await self._extract_from_url(fallback_url, name)
+            
+            if properties:
+                all_properties.extend(properties)
+                
+                # Paginação
+                if config.get("pagination"):
+                    pagination_props = await self._paginate_with_config(
+                        fallback_url, name, config["pagination"]
+                    )
+                    all_properties.extend(pagination_props)
+        
+        # ESTRATÉGIA 3: Fallback para método antigo
+        else:
+            logger.warning(f"Configuração incompleta, usando método tradicional")
+            return await self.scrape_auctioneer(auctioneer)
+        
+        # Deduplicar por URL
+        seen_urls = set()
+        unique_properties = []
+        for prop in all_properties:
+            url = prop.get("source_url") or prop.get("url")
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                unique_properties.append(prop)
+        
+        logger.info(f"✅ {name}: {len(unique_properties)} imóveis únicos extraídos")
+        
+        return unique_properties
+    
+    async def _extract_from_url(self, url: str, source: str) -> List[Dict]:
+        """Extrai imóveis de uma URL específica"""
+        
+        try:
+            # Tentar fetch direto
+            html = None
+            async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
+                response = await client.get(url, headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                })
+                if response.status_code == 200 and len(response.text) > 1000:
+                    html = response.text
+            
+            # Fallback para Jina
+            if not html:
+                async with httpx.AsyncClient(timeout=60.0) as client:
+                    jina_url = f"https://r.jina.ai/{url}"
+                    response = await client.get(jina_url, headers={"X-Return-Format": "html"})
+                    if response.status_code == 200:
+                        html = response.text
+            
+            if not html:
+                return []
+            
+            # Extrair com IA
+            properties = await self._extract_with_ai(html, source, url)
+            
+            # Aplicar filtro de categoria
+            properties = self._filter_properties_by_category(properties, source)
+            
+            return properties
+            
+        except Exception as e:
+            logger.error(f"Erro ao extrair de {url}: {e}")
+            return []
+    
+    async def _paginate_with_config(self, base_url: str, source: str, pagination_config: Dict) -> List[Dict]:
+        """Pagina usando configuração descoberta"""
+        
+        additional = []
+        pagination_type = pagination_config.get("type", "query_param")
+        param = pagination_config.get("param", "page")
+        pattern = pagination_config.get("pattern", f"?{param}={{n}}")
+        start = pagination_config.get("start", 1)
+        
+        consecutive_empty = 0
+        
+        for page in range(start + 1, 51):  # Máximo 50 páginas
+            # Construir URL da página
+            if pagination_type == "query_param":
+                if "?" in base_url:
+                    page_url = f"{base_url}&{param}={page}"
+                else:
+                    page_url = f"{base_url}?{param}={page}"
+            elif pagination_type == "path_segment":
+                page_url = f"{base_url.rstrip('/')}/page/{page}"
+            else:
+                page_url = base_url + pattern.replace("{n}", str(page))
+            
+            properties = await self._extract_from_url(page_url, source)
+            
+            if not properties:
+                consecutive_empty += 1
+                if consecutive_empty >= 2:
+                    logger.info(f"2 páginas vazias, parando paginação")
+                    break
+                continue
+            
+            consecutive_empty = 0
+            additional.extend(properties)
+            logger.info(f"Página {page}: +{len(properties)} imóveis")
+        
+        return additional
 
 
 # Instância global
