@@ -2,6 +2,7 @@ import asyncio
 import logging
 import os
 import json
+import traceback
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -418,7 +419,7 @@ class ScraperOrchestrator:
             self._update_auctioneer_status(auc_id, "running")
             
             try:
-                # Usar configuração se disponível
+                # Extração
                 if config and isinstance(config, dict):
                     logger.info(f"  → Usando configuração descoberta ({config.get('site_type')})")
                     properties = await universal_scraper.scrape_with_config(auctioneer, config)
@@ -428,57 +429,80 @@ class ScraperOrchestrator:
                     properties = await universal_scraper.scrape_auctioneer(auctioneer)
                     self.stats["used_fallback"] += 1
                 
-                if properties:
-                    # Normalizar
+                if not properties:
+                    self._update_auctioneer_status(auc_id, "error", "Nenhum imóvel encontrado")
+                    self.stats["failed"] += 1
+                    # Atualizar métricas em bloco try separado
+                    try:
+                        structure_validator.update_validation_metrics(auc_id, False, 0)
+                    except Exception as metric_err:
+                        logger.warning(f"Erro ao atualizar métricas: {metric_err}")
+                    continue
+                
+                # Normalização
+                try:
                     normalized = await ai_normalizer.normalize_batch(properties)
-                    
-                    # Geocoding (opcional)
-                    if not skip_geocoding:
+                    logger.info(f"Normalizados {len(normalized)}/{len(properties)} imóveis")
+                except Exception as norm_err:
+                    logger.error(f"Erro na normalização: {norm_err}")
+                    normalized = properties  # Usar dados não normalizados
+                
+                # Geocoding (opcional)
+                if not skip_geocoding:
+                    try:
                         logger.info(f"Geocodificando {len(normalized)} imóveis de {auc_name}...")
                         normalized = await geocoding_service.geocode_batch(normalized, delay=0.5)
-                    
-                    # Salvar
+                    except Exception as geo_err:
+                        logger.warning(f"Erro no geocoding: {geo_err}, continuando sem geocoding")
+                
+                # Salvamento
+                try:
                     new_count, updated_count = self._save_properties(normalized, auc_id, auc_name)
-                    
                     self._update_auctioneer_status(auc_id, "success", None, len(normalized))
                     self.stats["successful"] += 1
                     self.stats["total_properties"] += len(normalized)
                     self.stats["new_properties"] += new_count
                     self.stats["updated_properties"] += updated_count
-                    
-                    # Atualizar métricas de validação
+                except Exception as save_err:
+                    logger.error(f"Erro ao salvar: {save_err}")
+                    self._update_auctioneer_status(auc_id, "error", str(save_err))
+                    self.stats["failed"] += 1
+                    # Não atualizar métricas de sucesso se salvamento falhou
+                    try:
+                        structure_validator.update_validation_metrics(auc_id, False, 0)
+                    except Exception as metric_err:
+                        logger.warning(f"Erro ao atualizar métricas: {metric_err}")
+                    continue
+                
+                # Métricas (em bloco separado para não afetar fluxo principal)
+                try:
                     structure_validator.update_validation_metrics(
                         auctioneer_id=auc_id,
                         success=True,
                         properties_count=len(normalized)
                     )
-                    
-                    logger.info(f"✅ {auc_name}: {new_count} novos, {updated_count} atualizados")
-                else:
-                    self._update_auctioneer_status(auc_id, "error", "Nenhum imóvel encontrado")
-                    self.stats["failed"] += 1
-                    
-                    # Atualizar métricas de falha
+                except Exception as metric_err:
+                    logger.warning(f"Erro ao atualizar métricas: {metric_err}")
+                
+                logger.info(f"✅ {auc_name}: {new_count} novos, {updated_count} atualizados")
+                
+            except Exception as e:
+                error_msg = str(e)
+                logger.error(f"❌ {auc_name}: {error_msg}")
+                logger.debug(traceback.format_exc())
+                self._update_auctioneer_status(auc_id, "error", error_msg)
+                self.stats["failed"] += 1
+                self.stats["errors"].append({"name": auc_name, "error": error_msg})
+                
+                # Atualizar métricas de falha (em bloco separado)
+                try:
                     structure_validator.update_validation_metrics(
                         auctioneer_id=auc_id,
                         success=False,
                         properties_count=0
                     )
-                    
-            except Exception as e:
-                error_msg = str(e)
-                self._update_auctioneer_status(auc_id, "error", error_msg)
-                self.stats["failed"] += 1
-                self.stats["errors"].append({"name": auc_name, "error": error_msg})
-                
-                # Atualizar métricas de falha
-                structure_validator.update_validation_metrics(
-                    auctioneer_id=auc_id,
-                    success=False,
-                    properties_count=0
-                )
-                
-                logger.error(f"❌ {auc_name}: {e}")
+                except Exception as metric_err:
+                    logger.warning(f"Erro ao atualizar métricas de falha: {metric_err}")
             
             # Pequena pausa entre leiloeiros
             await asyncio.sleep(2)

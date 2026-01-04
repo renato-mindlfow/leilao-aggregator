@@ -8,11 +8,10 @@ import logging
 import os
 import json
 import re
+import traceback
 from datetime import datetime, timedelta
 from typing import Dict, Optional, Tuple
 import httpx
-import psycopg
-from psycopg.rows import dict_row
 
 logger = logging.getLogger(__name__)
 
@@ -180,22 +179,31 @@ class StructureValidator:
     def update_validation_metrics(self, auctioneer_id: str, success: bool, properties_count: int):
         """
         Atualiza métricas de validação após uma extração.
+        Usa psycopg2 com timeout e conexão isolada para evitar deadlocks.
         
         Args:
             auctioneer_id: ID do leiloeiro
             success: Se a extração foi bem-sucedida
             properties_count: Número de imóveis extraídos
         """
+        import psycopg2
+        from psycopg2.extras import RealDictCursor, Json
+        
         database_url = os.environ.get("DATABASE_URL")
         if not database_url:
             logger.error("DATABASE_URL não configurada")
             return
         
-        conn = psycopg.connect(database_url, row_factory=dict_row)
-        conn.autocommit = True
-        
+        conn = None
         try:
-            with conn.cursor() as cur:
+            # Conexão com timeout
+            conn = psycopg2.connect(
+                database_url,
+                connect_timeout=10
+            )
+            conn.autocommit = True
+            
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
                 # Buscar métricas atuais
                 cur.execute(
                     "SELECT validation_metrics, scrape_config FROM auctioneers WHERE id = %s",
@@ -203,17 +211,18 @@ class StructureValidator:
                 )
                 row = cur.fetchone()
                 
-                # row é um dict devido ao dict_row factory
-                metrics = row.get('validation_metrics') if row else None
-                if not metrics:
-                    metrics = {
-                        "consecutive_failures": 0,
-                        "total_extractions": 0,
-                        "successful_extractions": 0,
-                        "avg_properties_per_extraction": 0
-                    }
+                if not row:
+                    logger.warning(f"Leiloeiro {auctioneer_id} não encontrado")
+                    return
                 
-                config = row.get('scrape_config') if row else {}
+                metrics = row.get('validation_metrics') or {
+                    "consecutive_failures": 0,
+                    "total_extractions": 0,
+                    "successful_extractions": 0,
+                    "avg_properties_per_extraction": 0
+                }
+                
+                config = row.get('scrape_config') or {}
                 
                 # Parsear JSON se necessário
                 if isinstance(metrics, str):
@@ -261,10 +270,7 @@ class StructureValidator:
                     config["validation"]["successful_extractions"] = metrics["successful_extractions"]
                 
                 # Verificar se precisa marcar para re-descoberta
-                needs_rediscovery = False
-                if metrics["consecutive_failures"] >= self.MAX_CONSECUTIVE_FAILURES:
-                    needs_rediscovery = True
-                    logger.warning(f"Leiloeiro {auctioneer_id} marcado para re-descoberta (falhas consecutivas)")
+                needs_rediscovery = metrics["consecutive_failures"] >= self.MAX_CONSECUTIVE_FAILURES
                 
                 # Salvar
                 cur.execute("""
@@ -274,10 +280,17 @@ class StructureValidator:
                         discovery_status = CASE WHEN %s THEN 'needs_rediscovery' ELSE discovery_status END,
                         updated_at = NOW()
                     WHERE id = %s
-                """, (json.dumps(metrics), json.dumps(config) if config else None, needs_rediscovery, auctioneer_id))
+                """, (Json(metrics), Json(config) if config else None, needs_rediscovery, auctioneer_id))
                 
+                if needs_rediscovery:
+                    logger.warning(f"Leiloeiro {auctioneer_id} marcado para re-descoberta")
+                
+        except Exception as e:
+            logger.error(f"Erro ao atualizar métricas: {e}")
+            logger.debug(traceback.format_exc())
         finally:
-            conn.close()
+            if conn:
+                conn.close()
     
     def calculate_config_expiry(self, property_count: int) -> str:
         """Calcula data de expiração baseada no tamanho do leiloeiro"""
