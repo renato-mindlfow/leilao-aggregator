@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://leilao-backend-solitary-haze-9882.fly.dev';
 const API_AUTH = import.meta.env.VITE_API_AUTH || '';
 
 // Importar serviços da API Caixa
