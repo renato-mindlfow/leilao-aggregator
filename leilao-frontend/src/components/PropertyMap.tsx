@@ -56,6 +56,56 @@ function MapBoundsUpdater({ properties }: { properties: MapProperty[] }) {
   return null;
 }
 
+function PopupContent({ 
+  property, 
+  onPropertySelect 
+}: { 
+  property: MapProperty; 
+  onPropertySelect?: (propertyId: string) => void;
+}) {
+  const map = useMap();
+
+  const handleViewDetails = () => {
+    // Fechar todos os popups do mapa
+    map.closePopup();
+    if (onPropertySelect) {
+      onPropertySelect(property.id);
+    }
+  };
+
+  return (
+    <div className="min-w-48">
+      {property.image_url && (
+        <img
+          src={property.image_url}
+          alt={property.title}
+          className="w-full h-24 object-cover rounded mb-2"
+        />
+      )}
+      <h3 className="font-semibold text-sm mb-1">{property.title}</h3>
+      <p className="text-xs text-gray-600 mb-1">
+        {property.city}, {property.state}
+      </p>
+      <p className="text-sm font-bold text-green-600">
+        {formatCurrency(property.second_auction_value)}
+      </p>
+      {property.discount_percentage && (
+        <span className="inline-block bg-red-100 text-red-800 text-xs px-2 py-0.5 rounded mt-1">
+          -{property.discount_percentage.toFixed(0)}%
+        </span>
+      )}
+      {onPropertySelect && (
+        <button
+          onClick={handleViewDetails}
+          className="mt-2 w-full bg-blue-600 text-white text-xs py-1 px-2 rounded hover:bg-blue-700"
+        >
+          Ver detalhes
+        </button>
+      )}
+    </div>
+  );
+}
+
 export function PropertyMap({ onPropertySelect, filters }: PropertyMapProps) {
   const [properties, setProperties] = useState<MapProperty[]>([]);
   const [loading, setLoading] = useState(true);
@@ -140,35 +190,7 @@ export function PropertyMap({ onPropertySelect, filters }: PropertyMapProps) {
             }}
           >
             <Popup>
-              <div className="min-w-48">
-                {property.image_url && (
-                  <img
-                    src={property.image_url}
-                    alt={property.title}
-                    className="w-full h-24 object-cover rounded mb-2"
-                  />
-                )}
-                <h3 className="font-semibold text-sm mb-1">{property.title}</h3>
-                <p className="text-xs text-gray-600 mb-1">
-                  {property.city}, {property.state}
-                </p>
-                <p className="text-sm font-bold text-green-600">
-                  {formatCurrency(property.second_auction_value)}
-                </p>
-                {property.discount_percentage && (
-                  <span className="inline-block bg-red-100 text-red-800 text-xs px-2 py-0.5 rounded mt-1">
-                    -{property.discount_percentage.toFixed(0)}%
-                  </span>
-                )}
-                {onPropertySelect && (
-                  <button
-                    onClick={() => onPropertySelect(property.id)}
-                    className="mt-2 w-full bg-blue-600 text-white text-xs py-1 px-2 rounded hover:bg-blue-700"
-                  >
-                    Ver detalhes
-                  </button>
-                )}
-              </div>
+              <PopupContent property={property} onPropertySelect={onPropertySelect} />
             </Popup>
           </Marker>
         ))}
