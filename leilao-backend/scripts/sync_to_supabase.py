@@ -13,6 +13,14 @@ load_dotenv()
 
 from supabase import create_client, Client
 
+# Importar função de normalização reutilizável
+try:
+    from app.utils.normalize_property_data import normalize_property_data
+except ImportError:
+    # Fallback se não conseguir importar
+    def normalize_property_data(prop: dict) -> dict:
+        return prop
+
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
@@ -85,7 +93,20 @@ def normalize_property(prop: dict, source: str) -> dict:
     elif any(word in title.lower() for word in ["sala", "comercial", "loja"]):
         category = "Comercial"
     
-    return {
+    # NORMALIZAÇÃO: Title Case para categoria
+    if category:
+        category = category.strip().title()
+    
+    # NORMALIZAÇÃO: Title Case para cidade
+    if city:
+        city = city.strip().title()
+    
+    # NORMALIZAÇÃO: Uppercase para estado (máximo 2 caracteres)
+    if state:
+        state = state.strip().upper()[:2]
+    
+    # Criar dicionário normalizado
+    normalized = {
         "id": generate_id(source_url),
         "title": title[:500] if title else "",
         "category": category,
@@ -105,6 +126,11 @@ def normalize_property(prop: dict, source: str) -> dict:
         "is_active": True,
         "updated_at": datetime.now().isoformat()
     }
+    
+    # Aplicar normalização adicional usando função reutilizável
+    normalize_property_data(normalized)
+    
+    return normalized
 
 def sync_file(filepath: str, source: str) -> dict:
     """Sincronizar arquivo de resultado para Supabase."""

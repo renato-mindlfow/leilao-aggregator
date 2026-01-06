@@ -615,7 +615,65 @@ async def get_map_properties(
     """
     Retorna propriedades com coordenadas para exibição no mapa.
     Retorna apenas propriedades únicas (não duplicatas) com coordenadas válidas.
+    
+    Otimizado: Consulta diretamente o Supabase quando disponível para melhor performance.
     """
+    # Tentar usar Supabase diretamente se disponível (mais eficiente)
+    try:
+        from supabase import create_client, Client
+        import os
+        
+        SUPABASE_URL = os.getenv("SUPABASE_URL")
+        SUPABASE_KEY = os.getenv("SUPABASE_KEY") or os.getenv("SUPABASE_SERVICE_KEY")
+        
+        if SUPABASE_URL and SUPABASE_KEY:
+            supabase_client: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+            
+            # Construir query
+            query = supabase_client.table("properties").select(
+                "id, title, category, city, state, latitude, longitude, second_auction_value, discount_percentage, image_url"
+            ).eq("is_active", True).eq("is_duplicate", False).not_.is_("latitude", "null").not_.is_("longitude", "null")
+            
+            # Aplicar filtros
+            if state:
+                query = query.eq("state", state.upper()[:2])
+            if city:
+                query = query.ilike("city", f"%{city}%")
+            if category:
+                query = query.eq("category", category.value)
+            if min_value is not None:
+                query = query.gte("second_auction_value", min_value)
+            if max_value is not None:
+                query = query.lte("second_auction_value", max_value)
+            if min_discount is not None:
+                query = query.gte("discount_percentage", min_discount)
+            
+            # Executar query com limite
+            response = query.limit(limit).execute()
+            
+            map_properties = []
+            for prop in response.data or []:
+                map_properties.append({
+                    "id": prop.get("id"),
+                    "title": prop.get("title"),
+                    "category": prop.get("category"),
+                    "city": prop.get("city"),
+                    "state": prop.get("state"),
+                    "latitude": prop.get("latitude"),
+                    "longitude": prop.get("longitude"),
+                    "second_auction_value": prop.get("second_auction_value"),
+                    "discount_percentage": prop.get("discount_percentage"),
+                    "image_url": prop.get("image_url"),
+                })
+            
+            return {
+                "properties": map_properties,
+                "total": len(map_properties),
+            }
+    except Exception as e:
+        logger.warning(f"Erro ao consultar Supabase diretamente, usando db.get_properties: {e}")
+    
+    # Fallback: usar db.get_properties (pode ser in-memory ou Postgres)
     filters = PropertyFilter(
         state=state,
         city=city,
