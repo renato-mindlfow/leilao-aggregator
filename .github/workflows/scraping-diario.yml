@@ -1,0 +1,77 @@
+name: Scraping Diário LeiloHub
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # 4 AM Brasília (7 UTC)
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  scraping:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libnspr4 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libdbus-1-3 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2
+      
+      - name: Install Python dependencies
+        run: |
+          cd leilao-backend
+          pip install --upgrade pip
+          pip install -r requirements.txt || pip install httpx playwright asyncio
+          playwright install chromium
+          playwright install-deps chromium
+      
+      - name: Run scrapers
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          cd leilao-backend
+          python scripts/run_all_scrapers.py
+      
+      - name: Consolidate results
+        run: |
+          cd leilao-backend
+          python scripts/consolidate_and_update_configs.py
+      
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraping-results
+          path: |
+            leilao-backend/results/*.json
+            leilao-backend/results/*.md
+          retention-days: 30
+      
+      - name: Commit results (if changes)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add leilao-backend/results/ leilao-backend/app/configs/sites/*.json
+          git diff --staged --quiet || git commit -m "Auto-update: Scraping results $(date +'%Y-%m-%d')"
+          git push || echo "No changes to commit"
+
