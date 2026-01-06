@@ -1,0 +1,7 @@
+{
+  "id": "propleiles",
+  "name": "Prop Leilões",
+  "website": "https://www.propleiloes.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

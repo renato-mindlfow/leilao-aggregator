@@ -1,0 +1,5010 @@
+{
+  "id": "portalzuk",
+  "name": "Portal Zukerman",
+  "method": "playwright",
+  "success": true,
+  "total_extracted": 500,
+  "properties": [
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-basileia/rua-george-chahestian-11/34928-215311",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/praia-grande/vila-itaipus/avenida-rio-branco-591/35025-215935",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Praia Grande",
+      "location": "Praia Grande/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pi/brasileira/centro/avenida-candido-mendes-841/35084-216302",
+      "title": "",
+      "price": "",
+      "state": "PI",
+      "city": "Brasileira",
+      "location": "Brasileira/PI",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/serra-talhada/varzea/rua-santa-barbara-653/35018-215830",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Serra Talhada",
+      "location": "Serra Talhada/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/guapimirim/granja-cadetes-fabres/rua-eduardo-francisco-muniz-25/35084-216277",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Guapimirim",
+      "location": "Guapimirim/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/parque-novo-mundo/avenida-serafim-goncalves-pereira-622/35084-216310",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/cabula/rua-tenente-valmir-alcantara-83d/35025-215979",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/mongagua/balneario-itaoca/rua-fernandes-onofre-trizzini-280/35025-215992",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Mongagua",
+      "location": "Mongagua/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/conceicao-das-alagoas/centro/rua-gregorio-lacerda-52/35084-216279",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Conceicao Das Alagoas",
+      "location": "Conceicao Das Alagoas/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-bernardo-do-campo/assuncao/rua-dos-cravos-50/35018-215839",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Bernardo Do Campo",
+      "location": "Sao Bernardo Do Campo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/republica/rua-rego-freitas-306/35034-216117",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/taboao-da-serra/arraial-paulista/avenida-campinas-891/35025-216394",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Taboao Da Serra",
+      "location": "Taboao Da Serra/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/lagoa-do-carro/bosque-de-santana/rua-sete-s-n/35025-215871",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Lagoa Do Carro",
+      "location": "Lagoa Do Carro/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-monumento/rua-maranjai-380/35007-215808",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/aguas-de-santa-barbara/thermas-de-santa-barbara/rua-523-s-n/35084-216367",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Aguas De Santa Barbara",
+      "location": "Aguas De Santa Barbara/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/pereira-barreto/quadra-fiat/avenida-doutor-benedito-jorge-coelho-4029/35025-215995",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Pereira Barreto",
+      "location": "Pereira Barreto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santo-andre/vila-humaita/rua-dom-aquino-40/35129-216480",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santo Andre",
+      "location": "Santo Andre/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/roseira/villa-roma/avenida-joao-caltabiano-914/35034-216164",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Roseira",
+      "location": "Roseira/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/roma/avenida-caminho-de-areia-19/35025-215912",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/to/campos-lindos/zona-rural/estrada-vicinal-s-nº/35018-215840",
+      "title": "",
+      "price": "",
+      "state": "TO",
+      "city": "Campos Lindos",
+      "location": "Campos Lindos/TO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/piracicaba/castelinho/rua-mem-de-sa-68/35025-216006",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Piracicaba",
+      "location": "Piracicaba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/patrocinio/morada-do-sol/rua-edson-brasiel-436/34946-215346",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Patrocinio",
+      "location": "Patrocinio/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/santa-maria-da-vitoria/parque-de-exposicao/emilio-marques-200/35025-216107",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Santa Maria Da Vitoria",
+      "location": "Santa Maria Da Vitoria/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-lageado/avenida-corifeu-de-azevedo-marques-4947/35025-215951",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/ponta-grossa/orfas/rua-cruz-e-souza-7/35025-215956",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Ponta Grossa",
+      "location": "Ponta Grossa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/maringa/zona-01/rua-arthur-thomas-999/34941-215629",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Maringa",
+      "location": "Maringa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/campo-grande/estrada-iaraqua-620/35084-216259",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/tijucas/joaia/rua-irma-laura-ramos-faial-(antiga-rua-02)-71/35084-216363",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Tijucas",
+      "location": "Tijucas/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/augusto-correa/lirios-do-vale/avenida-das-margaridas-s-n/35084-216281",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Augusto Correa",
+      "location": "Augusto Correa/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/paranagua/parque-sao-joao/rua-rodolpho-schwarzabach-1208/35025-215965",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Paranagua",
+      "location": "Paranagua/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/torres/praia-da-cal/rua-sao-paulo-43/35084-216314",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Torres",
+      "location": "Torres/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/limeira/jardim-residencial-vitoria/rua-jose-modesto-de-abreu-287/35025-215946",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Limeira",
+      "location": "Limeira/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/baiao/centro/rua-da-brasilia-52/35084-216352",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Baiao",
+      "location": "Baiao/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ribeirao-preto/jardim-heitor-rigon/rua-jose-de-alcantara-1115/35084-216372",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ribeirao Preto",
+      "location": "Ribeirao Preto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/avenida-rio-branco-70/35034-216123",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/santo-angelo/paraiso/rua-linha-paraiso-1775/35025-215996",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Santo Angelo",
+      "location": "Santo Angelo/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/hipica/rua-corticeira-551/35025-215975",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-regente-feijo/rua-analia-franco-275/35068-216229",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/frutal/ipe-amarelo/r.-pirajuba-1627/35025-215907",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Frutal",
+      "location": "Frutal/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santo-andre/parque-marajoara/rua-igino-scarpelli-460/35084-216356",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santo Andre",
+      "location": "Santo Andre/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/niteroi/engenho-do-mato/rua-hilton-alexandre-dos-santos-136/35084-216283",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Niteroi",
+      "location": "Niteroi/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/pechincha/rua-retiro-dos-artistas-909/35084-216376",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/recife/boa-viagem/rua-visconde-de-jequitinhonha-1828/35025-216031",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Recife",
+      "location": "Recife/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ro/vilhena/imperial-park/avenida-jo-sato-2500/35025-216038",
+      "title": "",
+      "price": "",
+      "state": "RO",
+      "city": "Vilhena",
+      "location": "Vilhena/RO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/bras-de-pina/rua-umanapia-49/35084-216355",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/petropolis/rua-alvares-machado-278/35000-215654",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ribeirao-preto/ipiranga/travessa-jose-gomes-de-souza-55/35025-215873",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ribeirao Preto",
+      "location": "Ribeirao Preto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/planaltina/brasilinha-sudoeste/rua-48-s-nº/35084-216260",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Planaltina",
+      "location": "Planaltina/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/menino-deus/rua-dona-augusta-486/35025-215932",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-das-ostras/terra-firme/rua-adolfo-frejat-516/35025-215944",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio Das Ostras",
+      "location": "Rio Das Ostras/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sumare/jardim-minesota-_-nova-veneza/rua-lino-de-paula-91/34880-215363",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sumare",
+      "location": "Sumare/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/assis/centro/rua-tiradentes-25/35025-215983",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Assis",
+      "location": "Assis/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/centro-industrial-caxias/rua-02-s-nº/34880-215257",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Caxias Do Sul",
+      "location": "Caxias Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/lagoa-santa/moradas-da-lapinha/r-brasileirinha-210/35025-216046",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Lagoa Santa",
+      "location": "Lagoa Santa/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/serra-talhada/tancredo-neves/rua-11-356/35025-215914",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Serra Talhada",
+      "location": "Serra Talhada/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/planalto-nova-aldeota/rua-alfeu-aboim-401/35025-216076",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/aquidauana/nova-aquidauana/rua-fillinto-muller-470/35084-216327",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Aquidauana",
+      "location": "Aquidauana/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/freguesia-do-engenho-novo/rua-piaui-400/35025-216398",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/angra-dos-reis/frade/rua-do-campo-s-n/34924-215307",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Angra Dos Reis",
+      "location": "Angra Dos Reis/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-sebastiao/barequecaba/rua-evaristo-da-veiga-370/34880-215213",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Sebastiao",
+      "location": "Sao Sebastiao/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/paranapanema/terras-de-santa-cristina-vi/rua-106-823/35025-216033",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Paranapanema",
+      "location": "Paranapanema/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/praia-do-futuro/avenida-santos-dumont-7879/35084-216386",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/caldas-novas/estancia-itaguai/rua-5-110/35025-215940",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Caldas Novas",
+      "location": "Caldas Novas/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/ituiutaba/lagoa-azul-ii/rua-alarico-novais-187/35025-216078",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Ituiutaba",
+      "location": "Ituiutaba/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/eldorado-do-sul/parque-eldorado/avenida-das-palmeiras-551/35025-216391",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Eldorado Do Sul",
+      "location": "Eldorado Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/itanhaem/umuarama-parque-itanhaem/rua-ana-dias-60/34883-215222",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Itanhaem",
+      "location": "Itanhaem/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/guarulhos/vila-augusta/rua-santa-izabel-555/34681-213668",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Guarulhos",
+      "location": "Guarulhos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/volta-redonda/retiro/rua-santa-isabel-573/35084-216316",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Volta Redonda",
+      "location": "Volta Redonda/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/itapema/meia-praia/rua-226-360/35084-216315",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Itapema",
+      "location": "Itapema/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/am/manaus/alvorada-ii/rua-doutor-hermenegildo-campos-145/35084-216298",
+      "title": "",
+      "price": "",
+      "state": "AM",
+      "city": "Manaus",
+      "location": "Manaus/AM",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/olinda/rio-doce/rua-jose-pereira-morais-198/34905-215266",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Olinda",
+      "location": "Olinda/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/gravata/ebenezer/rua-jose-antonio-vieira-224/35025-215919",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Gravata",
+      "location": "Gravata/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rn/mossoro/santa-julia/rua-ferrari-200/35084-216252",
+      "title": "",
+      "price": "",
+      "state": "RN",
+      "city": "Mossoro",
+      "location": "Mossoro/RN",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/bage/estrela-dalva/rua-onofre-pires-80/35025-215943",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Bage",
+      "location": "Bage/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ribeirao-preto/independencia/rua-luiz-pedro-bom-100/35084-216256",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ribeirao Preto",
+      "location": "Ribeirao Preto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/quirinopolis/residencial-jardim-vitoria/rua-jairo-cabral-60/35084-216257",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Quirinopolis",
+      "location": "Quirinopolis/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/confresa/loteamento-imperial-eco-park/rua-projetada-07-s-n/35084-216330",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Confresa",
+      "location": "Confresa/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-bernardo-do-campo/centro/rua-americo-brasiliense-700/34633-213123",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Bernardo Do Campo",
+      "location": "Sao Bernardo Do Campo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/santa-maria-das-barreiras/zona-rural/estrada-para-nova-esperanca-_-rodovia-federal-(pa_327)-s-n/35106-216426",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Santa Maria Das Barreiras",
+      "location": "Santa Maria Das Barreiras/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/copacabana/avenida-nossa-senhora-de-copacabana-195/35034-216137",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/niquelandia/residencial-colina-park/rua-anel-viario-109/34883-215383",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Niquelandia",
+      "location": "Niquelandia/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-joao-de-meriti/vilar-dos-teles/rua-clemente-pereira-leandro-254/35025-215909",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Joao De Meriti",
+      "location": "Sao Joao De Meriti/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/esteio/santo-inacio/rua-roque-gonzales-207/35025-215939",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Esteio",
+      "location": "Esteio/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/cidade-mae-do-ceu/rua-bom-sucesso-366/35018-215831",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-bernardo-do-campo/rudge-ramos/avenida-doutor-rudge-ramos-1174/34586-215633",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Bernardo Do Campo",
+      "location": "Sao Bernardo Do Campo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/barra-da-tijuca/avenida-ayrton-senna-2600/35084-216357",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/residencial-solar-ville/rua-agronomo-joaquim-batista-s-nº/35064-216216",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/jales/conjunto-habitacional-jardim-arapua/rua-tocantins-4383/35025-216017",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Jales",
+      "location": "Jales/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/niteroi/fonseca/travessa-gloria-20/35084-216248",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Niteroi",
+      "location": "Niteroi/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/rio-comprido/avenida-paulo-de-frontin-751/35025-216015",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/ilha-do-governador/avenida-paranapua-2110/35084-216272",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/gravatai/residencial-ibiza/rua-carlos-augusto-522/34963-215413",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Gravatai",
+      "location": "Gravatai/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/marica/mumbuca/rua-das-dalias-192/35025-215920",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Marica",
+      "location": "Marica/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-formosa/avenida-dedo-de-deus-151/35025-215970",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/campo-grande/rua-moranga-125/35084-216255",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/sao-goncalo-do-amarante/croata/rua-02-127/35025-215959",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Sao Goncalo Do Amarante",
+      "location": "Sao Goncalo Do Amarante/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/piracicaba/loteamento-santa-rosa/rua-pedro-manoel-de-mattos-46/35084-216251",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Piracicaba",
+      "location": "Piracicaba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ribeirao-preto/campos-eliseos/rua-capitao-salomao-705/35025-216397",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ribeirao Preto",
+      "location": "Ribeirao Preto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/jose-bonifacio/vila-da-saudade/rua-tereza-brassalote-orsi-20/35025-215973",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Jose Bonifacio",
+      "location": "Jose Bonifacio/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/realeza/centro/rua-arnaldo-busato-3454/35034-216127",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Realeza",
+      "location": "Realeza/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/feira-de-santana/jardim-cruzeiro/rua-petrolina-71/35025-216065",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Feira De Santana",
+      "location": "Feira De Santana/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/recreio-dos-bandeirantes/avenida-genaro-de-carvalho-3495/35025-215874",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/rua-visconde-de-inhauma-134/35034-216136",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/cascata/rua-professor-carvalho-freitas-737/35084-216383",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/igarassu/tabatinga/rua-manoel-rozendo-de-lima-49/35025-215916",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Igarassu",
+      "location": "Igarassu/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/juazeiro-do-norte/jardim-gonzaga/rua-francisco-martins-de-souza-2893/35068-216225",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Juazeiro Do Norte",
+      "location": "Juazeiro Do Norte/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/itapua/rua-da-ilha-49_a/35025-216056",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/conjunto-habitacional-brigadeiro-faria-lima/rua-varzea-paulista-48/35008-216407",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/apucarana/nucleo-habitacional-dom-romeu-alberti/rua-sao-jeremias-80/34905-215412",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Apucarana",
+      "location": "Apucarana/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pi/barro-duro/centro/rua-jaime-mendes-leal-s-nº/35084-216254",
+      "title": "",
+      "price": "",
+      "state": "PI",
+      "city": "Barro Duro",
+      "location": "Barro Duro/PI",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/ribeira-do-pombal/zona-norte/2º-travessa-da-estrada-velha-fazenda-aracaju-143/35084-216350",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Ribeira Do Pombal",
+      "location": "Ribeira Do Pombal/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/sapucaia-do-sul/pasqualini/rua-palmares-157/35025-216067",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Sapucaia Do Sul",
+      "location": "Sapucaia Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/ivoti/vista-alegre/rua-henrique-aloisio-bockorny-136/35025-216045",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Ivoti",
+      "location": "Ivoti/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/cacapava/parque-residencial-alvorada/rua-jose-dutra-de-faria-200-/35063-216214",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Cacapava",
+      "location": "Cacapava/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/jardim-noroeste/rua-panama-241/35084-216268",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/esplanada/rua-valdemira-raymundi-320/35084-216331",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Caxias Do Sul",
+      "location": "Caxias Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/fazenda-morumbi/rua-silveira-sampaio-954/35025-216390",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/nilopolis/centro/rua-vereador-jose-fortes-315/35008-215810",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Nilopolis",
+      "location": "Nilopolis/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/iguatu/vila-santo-antonio/rua-coronel-jose-adolfo-202/35084-216382",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Iguatu",
+      "location": "Iguatu/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/pindamonhangaba/loteamento-alfredo-abilio-flores/rua-sao-bento-do-sapucai-594/34586-212736",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Pindamonhangaba",
+      "location": "Pindamonhangaba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/mooca/rua-dias-leme-11/35025-215988",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/porangatu/residencial-cidade-jardim/rua-32-s-nº/35025-215908",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Porangatu",
+      "location": "Porangatu/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-gomes-cardim/rua-serra-de-botucatu-1477/35025-215991",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/santa-helena-de-goias/centro/rua-luzia-arantes-de-freitas-76/35025-215890",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Santa Helena De Goias",
+      "location": "Santa Helena De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/luziania/parque-sol-nascente/rua-14-s-n/35084-216265",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Luziania",
+      "location": "Luziania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-vicente/vila-margarida/rua-monte-plano-677/35096-216406",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Vicente",
+      "location": "Sao Vicente/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/caceres/junco/rua-jangada-(acesso)-s-n/35105-216425",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Caceres",
+      "location": "Caceres/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/aramina/santo-antonio/rua-aurelia-salvatori-ienny-1280/35025-216018",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Aramina",
+      "location": "Aramina/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/cuiaba/pico-do-amor/rua-sao-judas-tadeu-(lot.-jd-kennedy)-72/35084-216293",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Cuiaba",
+      "location": "Cuiaba/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/marica/jardim-atlantico/rua-cinquenta-2034/35025-216025",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Marica",
+      "location": "Marica/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/am/manaus/dom-pedro/rua-duarte-da-costa-335/35084-216274",
+      "title": "",
+      "price": "",
+      "state": "AM",
+      "city": "Manaus",
+      "location": "Manaus/AM",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/jardim-gonzaga/rua-planalto-de-araxa-307/35084-216343",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/pavuna/rua-daniel-machado-netto-266b/35084-216318",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/santa-helena-de-goias/centro/rua-getulio-pereira-de-almeida-118/35084-216371",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Santa Helena De Goias",
+      "location": "Santa Helena De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/maringa/jardim-dias/rua-joao-fregadolli-1028/35025-215980",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Maringa",
+      "location": "Maringa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/uberlandia/jardim-das-palmeiras/rua-das-rolinhas-50/35025-215924",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Uberlandia",
+      "location": "Uberlandia/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/engenheiro-leal/rua-francisco-vale-5/35025-215921",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/colider/jardim-americas/rua-manoel-antonio-bales-filho-278/35084-216291",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Colider",
+      "location": "Colider/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/matao/residencial-maria-candida/avenida-angelin-re-978/35025-216069",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Matao",
+      "location": "Matao/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/to/araguaina/vila-norte/rua-30-867/35025-215952",
+      "title": "",
+      "price": "",
+      "state": "TO",
+      "city": "Araguaina",
+      "location": "Araguaina/TO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/palmeira-das-missoes/centro/rua-sete-de-setembro-375/35025-216077",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Palmeira Das Missoes",
+      "location": "Palmeira Das Missoes/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-joao-de-meriti/eden/rua-domingos-alves-de-oliveira-139/35084-216351",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Joao De Meriti",
+      "location": "Sao Joao De Meriti/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/santa-cruz/rua-felipe-cardoso-2262/35084-216374",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/franca/jardim-tropical/rua-professora-analia-alves-teixeira-2561/35068-216221",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Franca",
+      "location": "Franca/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araras/parque-das-arvores/avenida-leme-291/34693-213708",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araras",
+      "location": "Araras/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/independencia/liberdade/rua-do-planalto-235/35084-216323",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Independencia",
+      "location": "Independencia/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/jardim-america/rua-general-magalhaes-barata-206/35025-215895",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/assis-chateaubriand/jardim-progresso/avenida-tupassi-5507/35034-216128",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Assis Chateaubriand",
+      "location": "Assis Chateaubriand/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/jaragua-do-sul/tres-rios-do-norte/rua-leopoldo-behling-503/35025-215893",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Jaragua Do Sul",
+      "location": "Jaragua Do Sul/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/conjunto-residencial-jose-bonifacio/rua-inacio-jacometti-141/35025-215948",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/uberaba/residencial-ilha-de-marajo-i/rua-geraldo-dos-reis-teles-16/34880-215345",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Uberaba",
+      "location": "Uberaba/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/chapada/santa-lucia/rua-ivo-rene-catto-126/35064-216215",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Chapada",
+      "location": "Chapada/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/vargem-grande-paulista/san-diego/rua-hollywood-990/35025-216063",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Vargem Grande Paulista",
+      "location": "Vargem Grande Paulista/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/carlopolis/centro/rua-antonio-jonas-ferreira-pinto-546/35084-216297",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Carlopolis",
+      "location": "Carlopolis/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/rocha/avenida-marechal-rondon-1239/35084-216284",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/ponta-pora/centro/rua-lucila-benites-centuriao-691/35025-216055",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Ponta Pora",
+      "location": "Ponta Pora/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/jardim-carvalho/rua-irmao-norberto-francisco-rauch-755/35018-215827",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/urucuia/centro/avenida-oscar-caetano-gomes-75/35025-216039",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Urucuia",
+      "location": "Urucuia/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/santiago/gaspar-dutra/avenida-padre-assis-174/35034-216163",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Santiago",
+      "location": "Santiago/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-regente-feijo/rua-jabaete-216/34883-216335",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/df/brasilia/ceilandia/qnn-11-_-via-cnn-1,-lote-02-s-nº/35084-216280",
+      "title": "",
+      "price": "",
+      "state": "DF",
+      "city": "Brasilia",
+      "location": "Brasilia/DF",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/santa-maria-da-vitoria/centro-_-antigo-aabb/jose-leopoldo-lima-782/35025-215987",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Santa Maria Da Vitoria",
+      "location": "Santa Maria Da Vitoria/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/cotia/jardim-rio-das-pedras/rua-pirajussara-50/35084-216347",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Cotia",
+      "location": "Cotia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/lins-de-vasconcelos/rua-vilela-tavares-366/35025-216010",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araras/centro/rua-cesario-coimbra-274-280/34693-213707",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araras",
+      "location": "Araras/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-maria/avenida-das-cerejeiras-211/34855-215085",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/df/brasilia/taguatinga/quadra-csg-3-s-nº/35011-215814",
+      "title": "",
+      "price": "",
+      "state": "DF",
+      "city": "Brasilia",
+      "location": "Brasilia/DF",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/vila-marli/rua-generoso-leite-823/35025-215986",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araraquara/parque-arpoador/rua-maria-marcelina-de-campos-500/35025-215967",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araraquara",
+      "location": "Araraquara/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/dom-eliseu/planalto/rua-rio-grande-do-norte-241/35084-216304",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Dom Eliseu",
+      "location": "Dom Eliseu/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/sao-geraldo/avenida-polonia-375/35084-216326",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/volta-redonda/jardim-belvedere/rua-professora-maria-wanda-padilha-218/35037-216145",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Volta Redonda",
+      "location": "Volta Redonda/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/teresopolis/rua-otavio-faria-53/35025-215938",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/itaborai/centro/avenida-raimundo-de-farias-87/35034-216116",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Itaborai",
+      "location": "Itaborai/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/juquia/floresta/rua-victor-gustavo-kuno-hase-16/35025-216002",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Juquia",
+      "location": "Juquia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/sao-joao-do-paraiso/centro/rua-ceara-s-n°/35018-215825",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Sao Joao Do Paraiso",
+      "location": "Sao Joao Do Paraiso/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/agudos/centro/avenida-fernando-machado-530/35018-215843",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Agudos",
+      "location": "Agudos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/londrina/santa-rita-3/rua-mauricio-coelho-lima-244/35025-215950",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Londrina",
+      "location": "Londrina/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/dourados/vila-planalto/rua-joaquim-alves-taveira-2716/35025-215962",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Dourados",
+      "location": "Dourados/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/tijuca/praca-saenz-pena-45/35034-216121",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-jose-dos-campos/jardim-mariana-ii/avenida-mariana-andrade-771-773/35025-215898",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Jose Dos Campos",
+      "location": "Sao Jose Dos Campos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/campo-novo/rua-hortencio-rodrigues-barbosa-54/35025-215877",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/corumba/popular-nova/rua-ciriaco-de-toledo-2368/35025-215998",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Corumba",
+      "location": "Corumba/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/jardim-europa/rua-genova-s-nº/35084-216282",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araraquara/vila-harmonia/avenida-luiza-helena-de-barros-219/35025-215880",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araraquara",
+      "location": "Araraquara/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/senador-vasconcelos/rua-mario-mendes-98/35084-216261",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/buritama/lago-azul/rua-jose-nogueira-gomes-378/35025-215906",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Buritama",
+      "location": "Buritama/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/paulista/janga/rua-amara-severina-de-lima-398/35025-215891",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Paulista",
+      "location": "Paulista/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-guilherme/rua-maria-candida-822/35084-216368",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/bage/petropolis/rua-ney-ribeiro-flores-752/35025-216011",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Bage",
+      "location": "Bage/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/indianopolis/alameda-dos-maracatins-508/35034-216166",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/pacaembu/vila-esplanada/rua-holanda-354/35068-216226",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Pacaembu",
+      "location": "Pacaembu/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/rondonopolis/vila-birigui/rua-fernando-correa-da-costa-2079/35025-216042",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Rondonopolis",
+      "location": "Rondonopolis/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/freguesia-do-espirito-santo/rua-haddock-lobo-96/35084-216360",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/cuiaba/santa-ines/av-dante-martins-de-oliveira-07/35025-215930",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Cuiaba",
+      "location": "Cuiaba/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/lapao/teotonio-rodrigues/rua-castro-alves-44/35084-216385",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Lapao",
+      "location": "Lapao/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-vicente/centro/travessa-22-de-janeiro-37/35025-215923",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Vicente",
+      "location": "Sao Vicente/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/belo-horizonte/centro/rua-espirito-santo-1580/35084-216317",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Belo Horizonte",
+      "location": "Belo Horizonte/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/paulista/maria-farinha/rua-jaraqui-276/35025-215969",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Paulista",
+      "location": "Paulista/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/frutal/ipe-amarelo/rua-pirajuba-1641/35025-215993",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Frutal",
+      "location": "Frutal/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/juiz-de-fora/parque-residencial-independencia-iii/rua-raymundo-cravo-700/35084-216370",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Juiz De Fora",
+      "location": "Juiz De Fora/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/aparecida-de-goiania/vila-sao-tomaz/rua-campos-belos-s-nº/34880-215314",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Aparecida De Goiania",
+      "location": "Aparecida De Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/cuiaba/jardim-das-americas/avenida-brasilia-286/35018-215828",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Cuiaba",
+      "location": "Cuiaba/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/guaratiba/rua-joao-cruz-costa-34/35025-215876",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/presidente-prudente/parque-imperial/rua-jose-angelo-dos-santos-96/35025-215957",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Presidente Prudente",
+      "location": "Presidente Prudente/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/marica/jardim-atlantico/rua-quarenta-e-hum-940/35025-215904",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Marica",
+      "location": "Marica/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/bauru/jardim-terra-branca/rua-alaska-12_10/35018-215841",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Bauru",
+      "location": "Bauru/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/santa-helena-de-goias/brasil/rua-antenor-pires-de-oliveira-623/35025-216040",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Santa Helena De Goias",
+      "location": "Santa Helena De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/trindade/jardim-primavera/rua-6-93/35025-216060",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Trindade",
+      "location": "Trindade/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/jatai/centro/rua-general-osorio-59/34941-215340",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Jatai",
+      "location": "Jatai/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/rua-azevedo-junio-185/34683-213670",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/gravatai/morada-do-vale-i/r.-antenor-lemos-359/35025-215911",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Gravatai",
+      "location": "Gravatai/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/santiago/gaspar-dutra/avenida-padre-assis-174/35034-216139",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Santiago",
+      "location": "Santiago/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/recife/afogados/rua-daniel-antonio-rodrigues-370/35025-215879",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Recife",
+      "location": "Recife/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/penha-circular/avenida-braz-de-pina-756/35025-215883",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/barra-da-tijuca/avenida-luiz-aranha-890/35084-216377",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-vicente/bitaru/rua-joao-serrano-602/35084-216266",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Vicente",
+      "location": "Sao Vicente/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/praia-grande/caicara/rua-sao-domingos-1396/35018-215834",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Praia Grande",
+      "location": "Praia Grande/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santos/boqueirao/avenida-washington-luis-556/35084-216325",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santos",
+      "location": "Santos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/cachoeira-paulista/aguada/avenida-jonas-jardim-filho-30/35025-216019",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Cachoeira Paulista",
+      "location": "Cachoeira Paulista/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/cotia/chacaras-roselandia/alameda-das-bromelias-572/35025-216395",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Cotia",
+      "location": "Cotia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/al/rio-largo/prefeito-antonio-l-de-souza/rodovia-br-104-07/35025-215887",
+      "title": "",
+      "price": "",
+      "state": "AL",
+      "city": "Rio Largo",
+      "location": "Rio Largo/AL",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/biguacu/palmas/rua-das-paineiras-1132/35116-216462",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Biguacu",
+      "location": "Biguacu/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/valparaiso-de-goias/loteamento-pacaembu/rua-119-s-n/35084-216258",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Valparaiso De Goias",
+      "location": "Valparaiso De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/urucuia/rutilante/rua-joana-goncalves-lisboa-60/35025-216024",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Urucuia",
+      "location": "Urucuia/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/sao-leopoldo/feitoria/rua-suriname-9_a/35025-215963",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Sao Leopoldo",
+      "location": "Sao Leopoldo/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/canoas/igara/rua-tibagi-573/35025-215953",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Canoas",
+      "location": "Canoas/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/fatima/rua-dom-sebastiao-leme-711/35084-216303",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-elze/rua-arnaldo-pedroso-d'horta-344/35025-216108",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/grajau/frei-alberto-beretta/rua-madeira-s-nº/35025-216041",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Grajau",
+      "location": "Grajau/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/humaita/avenida-palmira-gobbi-1115/35096-216405",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/nova-petropolis/linha-brasil/rua-julio-carlos-feldens-s-nº/35084-216253",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Nova Petropolis",
+      "location": "Nova Petropolis/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/residencial-eli-forte/rua-diva-fortes-s-nº/35025-216012",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/jardim-santo-antoninho/rua-joao-noel-sonnleithner-38/35084-216322",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/novo-oriente-de-minas/nacional/avenida-joao-gomes-da-fonseca-416/35084-216250",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Novo Oriente De Minas",
+      "location": "Novo Oriente De Minas/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/pato-branco/centro/rua-iguacu-1402/35084-216262",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Pato Branco",
+      "location": "Pato Branco/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-vicente/parque-continental/avenida-cellula-matter-98/35018-215838",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Vicente",
+      "location": "Sao Vicente/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-goncalo/coelho/rua-pinheiro-chagas-725/35084-216294",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Goncalo",
+      "location": "Sao Goncalo/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/jardim-mangalot/rua-jose-santos-de-oliveira-64/34586-215635",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/olinda/jardim-atlantico/r.-castro-alves-120/35025-215889",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Olinda",
+      "location": "Olinda/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/hortolandia/loteamento-adventista-campineiro/estrada-geraldo-costa-camargo-491/35068-216220",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Hortolandia",
+      "location": "Hortolandia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/paulista/janga/rua-humberto-pimentel-da-costa-710/35025-216029",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Paulista",
+      "location": "Paulista/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/sao-luiz/rua-geci-lautert-prates-1198/35084-216373",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Caxias Do Sul",
+      "location": "Caxias Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/valparaiso-de-goias/anhanguera/rua-alagoas-s-n/35084-216349",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Valparaiso De Goias",
+      "location": "Valparaiso De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/itaborai/pachecos/via-interna-h-s-n/35084-216388",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Itaborai",
+      "location": "Itaborai/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/menino-deus/rua-marcilio-dias-358/35025-215936",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/indaiatuba/jardim-regente/rua-joao-camilo-bueno-108/35025-215918",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Indaiatuba",
+      "location": "Indaiatuba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/perus/avenida-raimundo-pereira-de-magalhaes-12.011/34963-215655",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/araruama/ponta-do-capim/rua-oito-242/35025-215899",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Araruama",
+      "location": "Araruama/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pb/joao-pessoa/manaira/avenida-joao-mauricio-581/35034-216133",
+      "title": "",
+      "price": "",
+      "state": "PB",
+      "city": "Joao Pessoa",
+      "location": "Joao Pessoa/PB",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/corumba/popular-nova/rua-marechal-deodoro-2668/35025-216400",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Corumba",
+      "location": "Corumba/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/nova-friburgo/sao-geraldo/rua-emilia-de-jesus-dos-santos-1015/35025-215917",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Nova Friburgo",
+      "location": "Nova Friburgo/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/campo-grande/rua-fontanilhas-190/35084-216321",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/planaltina/parque-itapua-i/rua-dois-s-nº/35084-216276",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Planaltina",
+      "location": "Planaltina/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/recife/cordeiro/rua-gomes-taborda-1708/35025-216072",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Recife",
+      "location": "Recife/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/tatui/jardim-palmira/rua-prefeita-chiquinha-rodrigues-924/35025-216020",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Tatui",
+      "location": "Tatui/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goianira/loteamento-villaggio-baiocchi/alameda-florenca-s-nº/34880-215256",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goianira",
+      "location": "Goianira/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/mooca/rua-guaimbe-183/34855-215084",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/sao-jose-de-ribamar/parque-vitoria/rua-11-25/35025-215958",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Sao Jose De Ribamar",
+      "location": "Sao Jose De Ribamar/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ac/rodrigues-alves/centro/rua-rio-branco-s-n/35025-216052",
+      "title": "",
+      "price": "",
+      "state": "AC",
+      "city": "Rodrigues Alves",
+      "location": "Rodrigues Alves/AC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/santa-maria/centro/rua-tiradentes-23/35025-216028",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Santa Maria",
+      "location": "Santa Maria/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/fortaleza-dos-valos/centro/avenida-geronimo-stefanello-1826/35025-215927",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Fortaleza Dos Valos",
+      "location": "Fortaleza Dos Valos/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/aberta-dos-morros/avenida-altos-do-santa-rita-480/35025-215884",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/sao-jose-de-ribamar/laranjal/rua-boa-vista-1_2_b/34983-215591",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Sao Jose De Ribamar",
+      "location": "Sao Jose De Ribamar/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/jardim-sarah/rua-octavio-de-moraes-lopes-71/35025-215945",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/pelotas/centro/rua-goncalves-chaves-453/35034-216129",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Pelotas",
+      "location": "Pelotas/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/ananindeua/aguas-brancas/travessa-maracana-70/35018-215824",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Ananindeua",
+      "location": "Ananindeua/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ribeirao-preto/planalto-verde/rua-ferdinando-mancioppi-155/35018-215836",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ribeirao Preto",
+      "location": "Ribeirao Preto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/cascadura/rua-padre-telemaco-113/35084-216278",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-buarque/rua-marques-de-itu-1000-1008/34699-213715",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/ananindeua/aguas-lindas/rodovia-br_316,-km-05-5010/34681-213688",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Ananindeua",
+      "location": "Ananindeua/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/casimiro-de-abreu/praia-sul-_-barra-de-sao-joao/rua-carlos-honorio-berbet-162/35084-216379",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Casimiro De Abreu",
+      "location": "Casimiro De Abreu/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/cuiaba/morada-da-serra/rua-cinquenta-e-cinco-s-nº/35025-215900",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Cuiaba",
+      "location": "Cuiaba/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/campo-grande/rua-rosada-85/35084-216307",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/santa-tereza/rua-dona-malvina-246/35084-216300",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/encantado/santa-clara/-rua-padre-anchieta-680/35096-216404",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Encantado",
+      "location": "Encantado/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-carlos/parque-santa-felicia-jardim/rua-pedro-fernandes-alonso-164/34928-215374",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Carlos",
+      "location": "Sao Carlos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/bela-vista/avenida-paulista-2073/35034-216110",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/campinas-de-piraja/alameda-campinas-de-piraja-1632/35084-216305",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-constanca/rua-vicente-pereira-de-assuncao-55/35084-216380",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/df/brasilia/taguatinga/quadra-c-7-s-n/35108-216428",
+      "title": "",
+      "price": "",
+      "state": "DF",
+      "city": "Brasilia",
+      "location": "Brasilia/DF",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/campos-dos-goytacazes/parque-aurora/rua-maria-do-carmo-r-barreto-20/35025-216070",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Campos Dos Goytacazes",
+      "location": "Campos Dos Goytacazes/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/xinguara/nova-xinguara/rua-manganes-s-n/35025-216064",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Xinguara",
+      "location": "Xinguara/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/madureira/rua-sanatorio-271/35084-216296",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/itaquaquecetuba/jardim-luana/rua-dos-farmaceuticos-454/35025-216000",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Itaquaquecetuba",
+      "location": "Itaquaquecetuba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/belo-horizonte/mangabeiras/rua-americo-werneck-43/35084-216387",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Belo Horizonte",
+      "location": "Belo Horizonte/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/cidade-dos-funcionarios/avenida-jose-leon-1256/35025-215989",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/aquiraz/praia-do-presidio/-rua-lucila-pereira-studart-132/35068-216223",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Aquiraz",
+      "location": "Aquiraz/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/taquara/estrada-meringuava-1951/35025-216071",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santo-andre/jardim-alvorada/rua-antonio-seixas-leite-ribeiro-161/35116-216438",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santo Andre",
+      "location": "Santo Andre/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-celso-garcia-528/35034-216159",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/parque-residencial-uniao-ii/rua-rufino-de-souza-60/35025-215913",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/to/paraiso-do-tocantins/paraiso-dos-ipes/rua-21-s-n/35025-215972",
+      "title": "",
+      "price": "",
+      "state": "TO",
+      "city": "Paraiso Do Tocantins",
+      "location": "Paraiso Do Tocantins/TO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rn/natal/ponta-negra/rua-areia-dourada-137/35025-216030",
+      "title": "",
+      "price": "",
+      "state": "RN",
+      "city": "Natal",
+      "location": "Natal/RN",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/salgado-filho/rua-luizina-bonatto-bertoni-55/35025-216044",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Caxias Do Sul",
+      "location": "Caxias Do Sul/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/campos-dos-goytacazes/parque-turf-club/avenida-senador-tarcisio-miranda-563/35084-216288",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Campos Dos Goytacazes",
+      "location": "Campos Dos Goytacazes/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/nova-iguacu/luz/rua-das-papoulas-19/35084-216320",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Nova Iguacu",
+      "location": "Nova Iguacu/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/itanhanga/avenida-sao-josemaria-escriva-560/35084-216289",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/ipojuca/porto-coqueiral/alameda-alamandas-s-nº/35025-215929",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Ipojuca",
+      "location": "Ipojuca/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/itaperuna/centro/avenida-cardoso-moreira-897/35034-216122",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Itaperuna",
+      "location": "Itaperuna/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santos/areia-branca/rua-remo-petrarchi-33/35084-216324",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santos",
+      "location": "Santos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/assis-chateaubriand/jardim-america/rua-estados-unidos-1295/35025-215968",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Assis Chateaubriand",
+      "location": "Assis Chateaubriand/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/ponte-nova/vila-oliveira/rua-nair-augusta-pires-205/35025-215928",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Ponte Nova",
+      "location": "Ponte Nova/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/cidelandia/centro/avenida-senador-henrique-de-la-roque-s-n/35025-216001",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Cidelandia",
+      "location": "Cidelandia/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/residencial-buena-vista-iv/rua-porto-gomes-s-n/35025-215985",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/conjunto-residencial-butanta/rua-desembargador-teodomiro-dias-209/35025-215922",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/centro-historico/rua-dos-andradas-1560/35084-216286",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/guaruja/balneario-cidade-atlantica/avenida-miguel-estefno-2883/34586-215631",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Guaruja",
+      "location": "Guaruja/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/am/manaus/flores/avenida-professor-nilton-lins-2401/35018-215832",
+      "title": "",
+      "price": "",
+      "state": "AM",
+      "city": "Manaus",
+      "location": "Manaus/AM",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/canoas/harmonia/rua-republica-2119/34880-215408",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Canoas",
+      "location": "Canoas/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/bacabal/centro/travessa-teixeira-de-freitas-51/35025-216007",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Bacabal",
+      "location": "Bacabal/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/barra-da-tijuca/avenida-embaixador-abelardo-bueno-1111/35034-216161",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/jardim-seminario/rua-tenente-lira-569/35025-215976",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/marilia/professor-antonio-da-silva-penteado/rua-tenente-doraci-marques-912/35025-215896",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Marilia",
+      "location": "Marilia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/setor-tres-marias/rua-dos-moros-s-n/35025-216399",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/moreira-sales/jardim-bela-vista/avenida-elza-dos-santos-pereira-s-n/35084-216353",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Moreira Sales",
+      "location": "Moreira Sales/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/votuporanga/pozzobon/rua-rio-solimoes-3426/35025-215961",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Votuporanga",
+      "location": "Votuporanga/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/tramandai/centro/avenida-beira-rio-1049/34586-215636",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Tramandai",
+      "location": "Tramandai/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/inhumas/jardim-raio-de-sol/rua-das-acucenas-s-n/35025-216049",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Inhumas",
+      "location": "Inhumas/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/florianopolis/centro/rua-almirante-lamego-830/34880-216157",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Florianopolis",
+      "location": "Florianopolis/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araras/jardim-anhanguera/rua-paul-harris-716-724/34693-213706",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araras",
+      "location": "Araras/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/valparaiso-de-goias/chacaras-anhanguera/rua-maranhao-s-n°/35018-215829",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Valparaiso De Goias",
+      "location": "Valparaiso De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/panama/rua-itapeva-202/34880-215407",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/sirinhaem/barra-do-sirinhaem/rua-projetada-s-n/35025-216016",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Sirinhaem",
+      "location": "Sirinhaem/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/botucatu/vida-nova-botucatu/rua-nuncio-barbin-(antiga-rua-14)-s-n/34975-215406",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Botucatu",
+      "location": "Botucatu/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rn/extremoz/loteamento-deolindo-lima/rua-barra-do-rio-1132/35084-216384",
+      "title": "",
+      "price": "",
+      "state": "RN",
+      "city": "Extremoz",
+      "location": "Extremoz/RN",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/marica/cordeirinho/avenida-maysa-4491/35025-216059",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Marica",
+      "location": "Marica/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/viamao/pro_morar/rua-q-61/35025-215960",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Viamao",
+      "location": "Viamao/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/santo-afonso/vila-alta/rua-marechal-deodoro-s-nº/35025-215882",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Santo Afonso",
+      "location": "Santo Afonso/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/canoas/parque-residencial-harmonia/rua-marcilio-dias-161/34963-215381",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Canoas",
+      "location": "Canoas/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/recife/varzea/rua-cassilandia-331/35018-215835",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Recife",
+      "location": "Recife/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/avenida-rio-branco-70/35034-216124",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/pereira-barreto/hossoi/r-emilio-chiesa-842/35025-215902",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Pereira Barreto",
+      "location": "Pereira Barreto/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-goncalo/alcantara/rua-manuel-joao-goncalves-204/35034-216142",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Goncalo",
+      "location": "Sao Goncalo/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/morrinhos/setor-cristo-redentor/av.-firmo-antonio-de-freitas-989/35025-216034",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Morrinhos",
+      "location": "Morrinhos/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/caranda-bosque-iii/rua-olavo-pereira-da-silva-212/34586-213558",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/resende/elite/rua-professor-artur-batista-filho-s-n/35025-215872",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Resende",
+      "location": "Resende/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/santa-teresinha/rua-benta-pereira-403/35084-216358",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/independencia/avenida-alberto-bins-807/35034-216113",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/engenho-novo/rua-vaz-de-toledo-651/35084-216295",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/cuiaba/dom-aquino/rua-desembargador-costa-ribeiro-207/35084-216329",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Cuiaba",
+      "location": "Cuiaba/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/mooca/avenida-paes-de-barros-701/34963-215382",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/boituva/nova-rheata/rua-topazio-406/35025-216003",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Boituva",
+      "location": "Boituva/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/rio-comprido/rua-brinco-da-princesa-16/35025-215881",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/se/cristinapolis/cristinapolis/rua-josefa-francisca-da-coroa-106/35025-216054",
+      "title": "",
+      "price": "",
+      "state": "SE",
+      "city": "Cristinapolis",
+      "location": "Cristinapolis/SE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/cassilandia/vila-pernambuco/rua-martiano-jose-de-moura-130/35025-215966",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Cassilandia",
+      "location": "Cassilandia/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/nova-iguacu/jardim-da-viga/rua-eugenio-kahn-416/35025-216014",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Nova Iguacu",
+      "location": "Nova Iguacu/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/avenida-rio-branco-70/35034-216125",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/nortelandia/centro/rua-jose-bonifacio-448/35084-216328",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Nortelandia",
+      "location": "Nortelandia/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/anapolis/loteamento-parque-brasilia-2ª-etapa/rua-pb-36-s-n/35084-216369",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Anapolis",
+      "location": "Anapolis/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/cerqueira-cesar/alameda-santos-211/35034-216138",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/ponta-grossa/centro/rua-quinze-de-novembro-439/35034-216160",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Ponta Grossa",
+      "location": "Ponta Grossa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pi/parnaiba/sao-judas-tadeu/avenida-padre-raimundo-jose-vieira-860/35025-215942",
+      "title": "",
+      "price": "",
+      "state": "PI",
+      "city": "Parnaiba",
+      "location": "Parnaiba/PI",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/campo-grande/jardim-marcos-roberto/rua-bom-sucesso-479/35084-216301",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Campo Grande",
+      "location": "Campo Grande/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/centro/rua-conselheiro-crispiano-398/35034-216130",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/valenca/carambita/avenida-duque-costa-436/35034-216162",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Valenca",
+      "location": "Valenca/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/joinville/anita-garibaldi/rua-pernambuco-200/35026-216079",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Joinville",
+      "location": "Joinville/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/blumenau/parque-residencial-elisa/rua-mondai-50/35008-215809",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Blumenau",
+      "location": "Blumenau/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-california/avenida-aricanduva-3252/35025-216057",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/tres-coracoes/jardim-america/rua-paraguai-444/34586-215632",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Tres Coracoes",
+      "location": "Tres Coracoes/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/recife/boa-viagem/avenida-engenheiro-domingos-ferreira-3965/35034-216120",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Recife",
+      "location": "Recife/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/belo-horizonte/cruzeiro/rua-ouro-fino-395/35034-216111",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Belo Horizonte",
+      "location": "Belo Horizonte/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/itaborai/jardim-imperial/avenida-vinte-e-dois-de-maio-6331/35034-216134",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Itaborai",
+      "location": "Itaborai/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/bela-vista/avenida-nove-de-julho-343/35034-216118",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/niteroi/fonseca/rua-leite-ribeiro-57/35084-216270",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Niteroi",
+      "location": "Niteroi/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/catalao/setor-aeroporto/rua-119-330/35025-215971",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Catalao",
+      "location": "Catalao/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/itaborai/joaquim-de-oliveira/rua-15-01/35025-216392",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Itaborai",
+      "location": "Itaborai/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/barueri/bethaville-i/avenida-trindade-254/35034-216158",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Barueri",
+      "location": "Barueri/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/al/rio-largo/prefeito-antonio-l-de-souza/rodovia-br-104-07/35025-215888",
+      "title": "",
+      "price": "",
+      "state": "AL",
+      "city": "Rio Largo",
+      "location": "Rio Largo/AL",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mt/nortelandia/cohab-santo-antonio/rua-alberto-coelho-ormond-s-nº/35025-215925",
+      "title": "",
+      "price": "",
+      "state": "MT",
+      "city": "Nortelandia",
+      "location": "Nortelandia/MT",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/palhoca/bela-vista/rua-terras-altas-93/35025-216009",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Palhoca",
+      "location": "Palhoca/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/estreito/vila-delfina/rua-01-95/35068-216232",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Estreito",
+      "location": "Estreito/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/marica/inoa/estrada-dos-cajueiros-111/35084-216290",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Marica",
+      "location": "Marica/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/leme/jardim-do-bosque/rua-manoel-luiz-amaral-552/34923-215301",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Leme",
+      "location": "Leme/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/taquara/estrada-do-cafunda-3220/35034-216131",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/bauru/jardim-terra-branca/rua-alaska-12_10/35018-215842",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Bauru",
+      "location": "Bauru/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-pedro-da-aldeia/sao-matheus/rodovia-amaral-peixoto-s-n/35025-216004",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Pedro Da Aldeia",
+      "location": "Sao Pedro Da Aldeia/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/gravata/santana/rua-justiniano-da-silva-71/35025-216043",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Gravata",
+      "location": "Gravata/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/morro-santana/rua-ney-da-gama-ahrends-295/35018-215844",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/guarulhos/sitio-cocaia/rua-joao-artoni-3/35025-216048",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Guarulhos",
+      "location": "Guarulhos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/jardinopolis/jardim-niagara/rua-getulio-vargas-1450/35025-216066",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Jardinopolis",
+      "location": "Jardinopolis/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/guaianases/rua-moreira-neto-456/35084-216287",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/df/brasilia/taguatinga-centro-_taguatinga./quadra-c-5-8/34586-212737",
+      "title": "",
+      "price": "",
+      "state": "DF",
+      "city": "Brasilia",
+      "location": "Brasilia/DF",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/es/ibatiba/centro/avenida-cambraia-50/35084-216269",
+      "title": "",
+      "price": "",
+      "state": "ES",
+      "city": "Ibatiba",
+      "location": "Ibatiba/ES",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/se/aracaju/jardins/avenida-jorge-amado-1500/35025-216053",
+      "title": "",
+      "price": "",
+      "state": "SE",
+      "city": "Aracaju",
+      "location": "Aracaju/SE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/pelotas/laranjal/rua-esteio-1864/35025-215954",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Pelotas",
+      "location": "Pelotas/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/vargem-pequena/estrada-dos-bandeirantes-15.501/35068-216222",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/piracaia/cachoeira-abaixo/rua-turim-290/35025-215933",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Piracaia",
+      "location": "Piracaia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/amparo/jardim-silvestre-iv/rua-lyndia-bellix-de-britto-61/34880-215376",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Amparo",
+      "location": "Amparo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/brotas/travessa-santa-euridice-144/35084-216361",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/centro/rua-sao-paulo-32/35084-216311",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/jau/jardim-joao-ballan-ii/rua-manoel-gusto-161/34941-215379",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Jau",
+      "location": "Jau/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/ipira/monte-belo/2º-travessa-aloisio-silva-117/35025-215955",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Ipira",
+      "location": "Ipira/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/es/serra/jardim-guanabara/rua-monte-libano-61/35084-216313",
+      "title": "",
+      "price": "",
+      "state": "ES",
+      "city": "Serra",
+      "location": "Serra/ES",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/betim/duque-de-caxias/rua-de-sofia-28/35084-216364",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Betim",
+      "location": "Betim/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-joao-de-meriti/sao-matheus/avenida-presidente-tancredo-neves-489/35084-216264",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Joao De Meriti",
+      "location": "Sao Joao De Meriti/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/curitiba/sao-francisco/rua-nilo-pecanha-36/35068-216230",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Curitiba",
+      "location": "Curitiba/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/petrolina/cohab-sao-francisco/rua-niteroi-111/35025-216037",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Petrolina",
+      "location": "Petrolina/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/guaracai/centro/rua-nossa-senhora-aparecida-1515/35025-216050",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Guaracai",
+      "location": "Guaracai/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/paulo-afonso/cleriston-andrade/rua-olavo-bilac-196/35025-216013",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Paulo Afonso",
+      "location": "Paulo Afonso/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/parque-iracema/avenida-ministro-jose-americo-326/35034-216141",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/fernandopolis/jardim-santa-helena/avenida-milton-terra-verdi-301/35025-215915",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Fernandopolis",
+      "location": "Fernandopolis/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/maragogipe/rua-do-rio/ladeira-da-passagem-s-n/35084-216275",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Maragogipe",
+      "location": "Maragogipe/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/duque-de-caxias/parque-paulista/rua-dinamarca-792/35025-215886",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Duque De Caxias",
+      "location": "Duque De Caxias/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/vargem-grande-paulista/tanque-velho/rua-jose-manoel-de-oliveira-1350/35013-215816",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Vargem Grande Paulista",
+      "location": "Vargem Grande Paulista/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/camacari/alto-da-bela-vista/avenida-sul-342/34586-215634",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Camacari",
+      "location": "Camacari/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/praia-grande/balneario-alvorada/rua-martins-fontes-1062/35068-216231",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Praia Grande",
+      "location": "Praia Grande/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/pitangueiras/jardim-veneza/rua-antonio-mazzer-93/35025-215949",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Pitangueiras",
+      "location": "Pitangueiras/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/ponta-grossa/contorno/rua-darcyr-wambier-70/35025-216036",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Ponta Grossa",
+      "location": "Ponta Grossa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/conjunto-habitacional-castro-alves/rua-comitiva-esperanca-135/35097-216409",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/avenida-rio-branco-70/35034-216126",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/timbauba/loteamento-araruna-ii/rua-projetada-04-s-n/35084-216366",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Timbauba",
+      "location": "Timbauba/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/mogi-das-cruzes/vila-mogilar/rua-jose-malozze-210/34880-216147",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Mogi Das Cruzes",
+      "location": "Mogi Das Cruzes/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/cambuci/avenida-lacerda-franco-271/35025-215878",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/joao-monlevade/vila-tanque/avenida-contorno-2578/35018-215826",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Joao Monlevade",
+      "location": "Joao Monlevade/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/caiaponia/nova-caiaponia/rua-major-evaristo-de-barros-40/35025-216068",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Caiaponia",
+      "location": "Caiaponia/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/curitiba/centro/travessa-frei-caneca-105/34880-215315",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Curitiba",
+      "location": "Curitiba/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/praia-grande/canto-do-forte/avenida-marechal-hermes-260/35025-215990",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Praia Grande",
+      "location": "Praia Grande/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/cambuci/rua-professor-demostenes-batista-figueira-marques-14/35018-215837",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/campo-mourao/jardim-modelo/rua-porfirio-querino-pereira-187/35025-216022",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Campo Mourao",
+      "location": "Campo Mourao/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/taubate/quiririm/rua-didimo-gadioli-263/35025-216074",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Taubate",
+      "location": "Taubate/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/freguesia-jacarepagua/rua-araguaia-759/35034-216112",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-jose-dos-campos/vila-jaci/rua-tibirica-195/35068-216228",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Jose Dos Campos",
+      "location": "Sao Jose Dos Campos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/recreio-dos-bandeirantes/estrada-do-pontal-585/35084-216344",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/vila-jacui/rua-tarapitinga-443/34786-214328",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/avenida-passos-115/35084-216354",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/federacao/avenida-vasco-da-gama-477/35034-216140",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/caxias/bairro-joao-viana/1ª-travessa-santo-antonio-1740/34880-215259",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Caxias",
+      "location": "Caxias/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/alenquer/aningal/rua-paes-de-carvalho-1355/35084-216306",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Alenquer",
+      "location": "Alenquer/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/mafra/centro-ii-alto-de-mafra/rua-felipe-schmidt-1301/35024-215870",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Mafra",
+      "location": "Mafra/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/capao-bonito/centro/rua-coronel-frederico-martins-67/35107-216427",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Capao Bonito",
+      "location": "Capao Bonito/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/sao-gabriel-do-oeste/jardim-gramado/rua-das-curruiras-485/35025-216035",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Sao Gabriel Do Oeste",
+      "location": "Sao Gabriel Do Oeste/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/piata/rua-doutor-arnaldo-sant'anna-7/35025-215977",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/osasco/centro/rua-alfredo-sturlini-42/34756-214200",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Osasco",
+      "location": "Osasco/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/marilia/pedro-matheus/rua-amelia-frigerio-69/35025-215997",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Marilia",
+      "location": "Marilia/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/passo-fundo/lucas-araujo/rua-alfredo-chaves-379/35025-215892",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Passo Fundo",
+      "location": "Passo Fundo/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/petrolina/dom-avelar/avenida-da-esperanca-400/35025-215981",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Petrolina",
+      "location": "Petrolina/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sc/lages/santa-helena/rua-vicente-feola-252/35025-215941",
+      "title": "",
+      "price": "",
+      "state": "SC",
+      "city": "Lages",
+      "location": "Lages/SC",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/campo-limpo-paulista/jardim-vera-regina/rua-ramiro-goncalves-cardoso-184/35097-216408",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Campo Limpo Paulista",
+      "location": "Campo Limpo Paulista/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/engenho-da-rainha/estrada-adhemar-bebiano-4595/35025-215885",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/campo-limpo-paulista/estancia-sao-paulo/estrada-santa-clara-2001/35084-216365",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Campo Limpo Paulista",
+      "location": "Campo Limpo Paulista/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/timon/sao-benedito/travessa-firmino-goncalves-pedreira-2551/35025-215875",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Timon",
+      "location": "Timon/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/guaira/residencial-marina/avenida-jose-flores-909/35025-216396",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Guaira",
+      "location": "Guaira/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/campinas/jardim-itayu/rua-itaparica-99/34681-213689",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Campinas",
+      "location": "Campinas/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/santiago/gaspar-dutra/avenida-padre-assis-174/35034-216165",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Santiago",
+      "location": "Santiago/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/teresopolis/sao-pedro/rua-raimundo-brito-70/35025-216027",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Teresopolis",
+      "location": "Teresopolis/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/ipanema/rua-visconde-de-piraja-330/35034-216135",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/ramos/estrada-do-engenho-da-pedra-178/35034-216132",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/teofilo-otoni/sao-jacinto/rua-jose-alves-de-oliveira-155/35025-215974",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Teofilo Otoni",
+      "location": "Teofilo Otoni/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/cascadura/rua-inhare-174/35084-216292",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rn/natal/pitimbu/rua-das-perdizes-7979/35025-215901",
+      "title": "",
+      "price": "",
+      "state": "RN",
+      "city": "Natal",
+      "location": "Natal/RN",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/santa-helena-de-goias/parque-residencial-isaura/rua-joao-batista-de-paiva-186/35025-215910",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Santa Helena De Goias",
+      "location": "Santa Helena De Goias/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/uberlandia/pampulha/rua-bernardo-de-vasconcelos-46/34928-215366",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Uberlandia",
+      "location": "Uberlandia/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/barra-da-tijuca/avenida-das-americas-3555/35034-216115",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/timon/boa-esperanca/rua-12-1395/35025-216051",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Timon",
+      "location": "Timon/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/parada-lucas/rua-ministro-pinto-da-luz-75/35084-216267",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/tangua/chacaras-pinhao/rua-euclides-da-silva-s-nº/35084-216309",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Tangua",
+      "location": "Tangua/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/camacari/renascer-_-phoc-ii/rua-bom-jardim-s-nº/35025-216061",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Camacari",
+      "location": "Camacari/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sumare/jardim-macarenko/rua-primo-favaro-438/35025-216106",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sumare",
+      "location": "Sumare/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/araras/jardim-belvedere/rua-vicente-de-carvalho-328-320-312/34693-213709",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Araras",
+      "location": "Araras/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/pacatuba/pavuna/rua-oscar-araripe-1128/35084-216299",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Pacatuba",
+      "location": "Pacatuba/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/frutal/jardim-brasil/av.-campo-grande-460/35025-215905",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Frutal",
+      "location": "Frutal/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/bauru/vila-souto/rua-nilo-pecanha-4_86/35084-216285",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Bauru",
+      "location": "Bauru/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/pio-xii/vila-esperanca/rua-airton-sena-40/34880-215377",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Pio Xii",
+      "location": "Pio Xii/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/promissao/condominio-kadu/rua-nama-360/35025-216075",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Promissao",
+      "location": "Promissao/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/pocos-de-caldas/chacara-alvorada/rua-manoel-de-freitas-765/35025-216062",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Pocos De Caldas",
+      "location": "Pocos De Caldas/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/padre-bernardo/ouro-verde/rua-13-s-nº/35084-216249",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Padre Bernardo",
+      "location": "Padre Bernardo/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pr/ponta-grossa/piriquitos/rua-professora-zila-de-lemos-inglez-270/35025-216008",
+      "title": "",
+      "price": "",
+      "state": "PR",
+      "city": "Ponta Grossa",
+      "location": "Ponta Grossa/PR",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/votuporanga/park-residencial-colinas/rua-jair-domingos-teodoro-3022/35025-216021",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Votuporanga",
+      "location": "Votuporanga/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sorocaba/lopes-de-oliveira/rua-ozias-de-oliveira-dias-182/35025-215894",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sorocaba",
+      "location": "Sorocaba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/uberlandia/vila-presidente-roosevelt/rua-promotor-oswaldo-afonso-borges-620/35025-215984",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Uberlandia",
+      "location": "Uberlandia/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/sao-gabriel-do-oeste/fenix/rua-dos-canarios-1698/35018-215833",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Sao Gabriel Do Oeste",
+      "location": "Sao Gabriel Do Oeste/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/dourados/sitiocas-campina-verde/rua-ramona-loveira-renovato-1215/35025-215926",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Dourados",
+      "location": "Dourados/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/senador-canedo/das-industrias-vi/avenida-b-s-n/35025-215999",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Senador Canedo",
+      "location": "Senador Canedo/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/planaltina/residencial-sao-francisco/rua-sf-04-s-n/35025-216073",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Planaltina",
+      "location": "Planaltina/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/gravatai/sao-jeronimo/rua-taruma-1058/35025-216393",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Gravatai",
+      "location": "Gravatai/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/sao-goncalo/vista-alegre/rua-novo-mexico-120/35084-216348",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Sao Goncalo",
+      "location": "Sao Goncalo/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santos/centro/rua-frei-gaspar-20,-22/35034-216114",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santos",
+      "location": "Santos/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/fortaleza/centro/rua-sao-paulo-32/35084-216312",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Fortaleza",
+      "location": "Fortaleza/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/senador-pompeu/conjunto-cohab/rua-i-13/35025-215931",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Senador Pompeu",
+      "location": "Senador Pompeu/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/go/goiania/setor-sul/rua-110-213/35025-215978",
+      "title": "",
+      "price": "",
+      "state": "GO",
+      "city": "Goiania",
+      "location": "Goiania/GO",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/sao-francisco-xavier/rua-sao-francisco-xavier-864/35025-215982",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/mg/extrema/pessegueiros/rodovia-fernao-dias-s-n/34715-213763",
+      "title": "",
+      "price": "",
+      "state": "MG",
+      "city": "Extrema",
+      "location": "Extrema/MG",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/catumbi/rua-evaristo-da-veiga-54/35068-216224",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/centro/rua-joaquim-silva-56/35034-216119",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/indaiatuba/jardim-bela-vista/rua-elza-villanova-schulz-230/35084-216345",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Indaiatuba",
+      "location": "Indaiatuba/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/curuca/rodoviario/rua-jose-luiz-mendes-32/35084-216308",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Curuca",
+      "location": "Curuca/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ma/apicum_acu/tabatinga/rua-do-aeroporto-28/35084-216273",
+      "title": "",
+      "price": "",
+      "state": "MA",
+      "city": "Apicum_Acu",
+      "location": "Apicum_Acu/MA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/santo-andre/jardim-utinga/avenida-sapopemba-100/35025-215947",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Santo Andre",
+      "location": "Santo Andre/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ce/aquiraz/arroz-bravo/rodovia-ce-040,-s-n/35025-215934",
+      "title": "",
+      "price": "",
+      "state": "CE",
+      "city": "Aquiraz",
+      "location": "Aquiraz/CE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-celso-garcia-2101/35025-216023",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Sao Paulo",
+      "location": "Sao Paulo/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pe/jaboatao-dos-guararapes/candeias/rua-professora-eneida-rabelo-35/35025-216026",
+      "title": "",
+      "price": "",
+      "state": "PE",
+      "city": "Jaboatao Dos Guararapes",
+      "location": "Jaboatao Dos Guararapes/PE",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ba/salvador/itapua/rua-do-bispo-14/35084-216346",
+      "title": "",
+      "price": "",
+      "state": "BA",
+      "city": "Salvador",
+      "location": "Salvador/BA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/suzano/parque-residencial-casa-branca/rua-alvino-sutero-ramos-380/35036-216144",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Suzano",
+      "location": "Suzano/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/rio-de-janeiro/freguesia/estrada-do-bananal-986/35084-216359",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Rio De Janeiro",
+      "location": "Rio De Janeiro/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/pa/ananindeua/coqueiro/rodovia-do-mario-covas-1835/35025-215994",
+      "title": "",
+      "price": "",
+      "state": "PA",
+      "city": "Ananindeua",
+      "location": "Ananindeua/PA",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/sp/ipaussu/andorinhas/r-virgilio-maistro-400/35025-215903",
+      "title": "",
+      "price": "",
+      "state": "SP",
+      "city": "Ipaussu",
+      "location": "Ipaussu/SP",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rj/niteroi/maravista/rua-doutor-manoel-gomes-xavier-98/35084-216271",
+      "title": "",
+      "price": "",
+      "state": "RJ",
+      "city": "Niteroi",
+      "location": "Niteroi/RJ",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/rs/porto-alegre/floresta/rua-pelotas-410/34880-215316",
+      "title": "",
+      "price": "",
+      "state": "RS",
+      "city": "Porto Alegre",
+      "location": "Porto Alegre/RS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    },
+    {
+      "url": "https://www.portalzuk.com.br/imovel/ms/tres-lagoas/alto-da-boa-vista/rua-urias-ribeiro-2746/35025-215964",
+      "title": "",
+      "price": "",
+      "state": "MS",
+      "city": "Tres Lagoas",
+      "location": "Tres Lagoas/MS",
+      "auctioneer_id": "portalzuk",
+      "auctioneer_name": "Portal Zukerman"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-01-04T21:55:11.662173",
+  "objetivo": "Corrigir URLs para categoria RAIZ de imóveis",
+  "results": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "url_subcategoria": "/imoveis/casas",
+      "url_raiz": "/imoveis",
+      "total_imoveis_estimado": 743,
+      "subcategorias_encontradas": [
+        "https://www.megaleiloes.com.br/imoveis/terrenos-e-lotes",
+        "https://www.megaleiloes.com.br/imoveis/apartamentos",
+        "https://www.megaleiloes.com.br/imoveis/terrenos-para-incorporacao",
+        "https://www.megaleiloes.com.br/imoveis/casas"
+      ],
+      "success": true
+    },
+    {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "url_subcategoria": "/h/imoveis?searchType=opened&pageNumber=1&pageSize=15&orderBy=price:desc",
+      "url_raiz": "/h/imoveis",
+      "total_imoveis_estimado": 0,
+      "subcategorias_encontradas": [],
+      "success": true
+    },
+    {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.lancejudicial.com.br",
+      "url_subcategoria": "/imoveis/apartamentos",
+      "url_raiz": "/imoveis",
+      "total_imoveis_estimado": 312,
+      "subcategorias_encontradas": [
+        "/imoveis/terrenos-e-lotes",
+        "/imoveis/casas",
+        "/imoveis/apartamentos"
+      ],
+      "success": true
+    },
+    {
+      "id": "portalzuk",
+      "name": "Portal Zukerman",
+      "website": "https://www.portalzuk.com.br",
+      "url_subcategoria": "/leilao-de-imoveis/t/todos-imoveis/terrenos",
+      "url_raiz": "/leilao-de-imoveis",
+      "total_imoveis_estimado": 0,
+      "subcategorias_encontradas": [],
+      "success": true
+    },
+    {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "website": "https://www.sodresantoro.com.br",
+      "url_subcategoria": "/imoveis",
+      "url_raiz": "/imoveis",
+      "total_imoveis_estimado": 2,
+      "subcategorias_encontradas": [
+        "/imoveis/lotes?lot_category=apartamento",
+        "/imoveis/lotes?lot_category=casa&amp;lot_state=são+paulo",
+        "/imoveis/lotes?lot_category=terreno",
+        "/imoveis/lotes?lot_category=predio+comercial",
+        "https://www.sodresantoro.com.br/imoveis/i_categoria/casa"
+      ],
+      "success": true
+    }
+  ]
+}

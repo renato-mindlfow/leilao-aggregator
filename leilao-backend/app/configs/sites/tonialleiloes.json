@@ -1,0 +1,25 @@
+{
+  "id": "tonialleiloes",
+  "name": "Tonial Leilões",
+  "website": "https://www.tonialleiloes.com.br",
+  "enabled": false,
+  "method": "api_rest",
+  "listing_url": "",
+  "selectors": {},
+  "pagination": {},
+  "notes": [
+    "API Superbid - Portal ID 2 - 46898 imoveis",
+    "Desabilitado - coberto por superbid_agregado (store.id: 1161)"
+  ],
+  "api": {
+    "base_url": "https://offer-query.superbid.net/offers/",
+    "params": {
+      "portalId": "2",
+      "filter": "product.productType.description:imoveis",
+      "pageSize": "50"
+    },
+    "pagination_param": "pageNumber",
+    "total_field": "total",
+    "items_field": "offers"
+  }
+}

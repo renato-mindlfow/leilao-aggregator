@@ -1,0 +1,7 @@
+{
+  "id": "leilesgo",
+  "name": "Leilões GO",
+  "website": "https://www.leiloesgo.com.br",
+  "enabled": false,
+  "reason": "URL de listagem encontrada mas sem cards detectados"
+}

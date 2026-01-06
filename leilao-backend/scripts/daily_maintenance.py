@@ -52,10 +52,28 @@ def main():
     print(f"MANUTENÇÃO DIÁRIA - {datetime.now().isoformat()}")
     print(f"{'='*60}\n")
     
-    # 1. Auditoria com correção
-    print("ETAPA 1: Auditoria de dados")
-    print("-" * 40)
-    audit_data_quality(fix=True)
+    # Verificar variáveis de ambiente críticas
+    database_url = os.getenv("DATABASE_URL")
+    if not database_url:
+        print("❌ ERRO: DATABASE_URL não configurado!")
+        print("Configure a variável de ambiente DATABASE_URL")
+        return 1
+    
+    print("✅ Variáveis de ambiente OK")
+    print(f"   DATABASE_URL: {'*' * 20}...{database_url[-10:] if len(database_url) > 10 else ''}")
+    print()
+    
+    try:
+        # 1. Auditoria com correção
+        print("ETAPA 1: Auditoria de dados")
+        print("-" * 40)
+        audit_data_quality(fix=True)
+        print("✅ Auditoria concluída\n")
+    except Exception as e:
+        print(f"❌ Erro na auditoria: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
     
     # 2. Buscar imagens da Caixa (se o script existir)
     try:
@@ -63,16 +81,29 @@ def main():
         print("\nETAPA 2: Buscar imagens da Caixa")
         print("-" * 40)
         fetch_and_update_images(limit=50)
+        print("✅ Busca de imagens concluída\n")
     except ImportError:
         print("\n⏭️ Script de imagens da Caixa não disponível")
+    except Exception as e:
+        print(f"❌ Erro ao buscar imagens: {e}")
+        import traceback
+        traceback.print_exc()
     
     # 3. Manutenção de descoberta
-    asyncio.run(run_discovery_maintenance())
+    try:
+        asyncio.run(run_discovery_maintenance())
+        print("✅ Manutenção de descoberta concluída\n")
+    except Exception as e:
+        print(f"❌ Erro na manutenção de descoberta: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
     
     print(f"\n{'='*60}")
-    print("MANUTENÇÃO CONCLUÍDA")
+    print("MANUTENÇÃO CONCLUÍDA COM SUCESSO")
     print(f"{'='*60}\n")
+    return 0
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
 

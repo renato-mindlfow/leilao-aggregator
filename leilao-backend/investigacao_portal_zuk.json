@@ -1,0 +1,63 @@
+{
+  "url": "https://www.portalzuk.com.br/leilao-de-imoveis",
+  "buttons_found": [
+    {
+      "tag": "a",
+      "text": "Mais",
+      "classes": "menu-link",
+      "id": "",
+      "href": "#",
+      "onclick": "",
+      "selector_suggestion": "a:contains('Mais')",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "text": "Mais",
+      "classes": "menu-mobile-link",
+      "id": "",
+      "href": "#",
+      "onclick": "",
+      "selector_suggestion": "a:contains('Mais')",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Carregar mais",
+      "classes": "btn btn-outline btn-xl",
+      "id": "btn_carregarMais",
+      "href": "",
+      "onclick": "",
+      "selector_suggestion": "button:contains('Carregar mais')",
+      "visible": true
+    }
+  ],
+  "scroll_infinite": false,
+  "pagination_urls": {
+    "https://www.portalzuk.com.br/leilao-de-imoveis?page=2": {
+      "final_url": "https://www.portalzuk.com.br/leilao-de-imoveis?page=2",
+      "links_found": 30,
+      "works": true,
+      "redirected": false
+    },
+    "https://www.portalzuk.com.br/leilao-de-imoveis/2": {
+      "final_url": "https://www.portalzuk.com.br/leilao-de-imoveis/2",
+      "links_found": 0,
+      "works": true,
+      "redirected": false
+    },
+    "https://www.portalzuk.com.br/leilao-de-imoveis?pagina=2": {
+      "final_url": "https://www.portalzuk.com.br/leilao-de-imoveis?pagina=2",
+      "links_found": 30,
+      "works": true,
+      "redirected": false
+    },
+    "https://www.portalzuk.com.br/leilao-de-imoveis?p=2": {
+      "final_url": "https://www.portalzuk.com.br/leilao-de-imoveis?p=2",
+      "links_found": 30,
+      "works": true,
+      "redirected": false
+    }
+  },
+  "recommendations": []
+}

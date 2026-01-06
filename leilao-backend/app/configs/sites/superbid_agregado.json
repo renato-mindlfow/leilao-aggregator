@@ -1,0 +1,50 @@
+{
+  "id": "superbid_agregado",
+  "name": "Superbid Agregado (Múltiplos Leiloeiros)",
+  "website": "https://www.superbid.net",
+  "enabled": true,
+  "method": "api_rest",
+  "listing_url": "",
+  "selectors": {},
+  "pagination": {},
+  "api": {
+    "base_url": "https://offer-query.superbid.net/offers/",
+    "params": {
+      "portalId": "2",
+      "filter": "product.productType.description:imoveis;stores.id:[1161]",
+      "requestOrigin": "store",
+      "pageSize": "50"
+    },
+    "pagination_param": "pageNumber",
+    "total_field": "total",
+    "items_field": "offers"
+  },
+  "max_items": 12000,
+  "notes": [
+    "Catálogo agregado Superbid que inclui múltiplos leiloeiros",
+    "Sites cobertos: Superbid, Lance no Leilão, LUT, Big Leilão, Via Leilões, Frazão, Franco, Freire, BFR, e outros",
+    "Total estimado: ~11.475 imóveis",
+    "Criado para evitar duplicação - sites individuais devem ser desabilitados se cobertos por este"
+  ],
+  "sites_cobertos": [
+    "superbid",
+    "lancenoleilao",
+    "lut",
+    "bigleilao",
+    "vialeiloes",
+    "frazaoleiloes",
+    "francoleiloes",
+    "leiloesfreire",
+    "bfrcontabil"
+  ],
+  "last_scrape": {
+    "date": "2026-01-05T14:02:23.919357",
+    "success": true,
+    "properties_found": 7812,
+    "errors_count": 1,
+    "errors": [
+      "Página 201: Server error '503 Service Unavailable' for url 'https://offer-query.superbid.net/offers/?portalId=2&filter=product.productType.description%3Aimoveis%3Bstores.id%3A%5B1161%5D&requestOrigin=store&pageSize=50&pageNumber=201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    ]
+  },
+  "status": "success"
+}

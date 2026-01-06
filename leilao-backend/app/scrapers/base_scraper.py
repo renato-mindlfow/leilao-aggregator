@@ -6,21 +6,23 @@ import logging
 import time
 import re
 from abc import ABC, abstractmethod
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 from app.models.property import Property, PropertyCategory, AuctionType
 
 logger = logging.getLogger(__name__)
+
+# Lazy imports para Selenium - só importa quando necessário
+if TYPE_CHECKING:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 
 class BaseScraper(ABC):
@@ -28,11 +30,45 @@ class BaseScraper(ABC):
     
     def __init__(self, headless: bool = True):
         self.headless = headless
-        self.driver: Optional[webdriver.Chrome] = None
-        self.wait: Optional[WebDriverWait] = None
+        self.driver: Optional['webdriver.Chrome'] = None
+        self.wait: Optional['WebDriverWait'] = None
+    
+    def _ensure_selenium(self):
+        """Lazy import of Selenium - only import when needed."""
+        try:
+            from selenium import webdriver
+            from selenium.webdriver.chrome.service import Service
+            from selenium.webdriver.chrome.options import Options
+            from selenium.webdriver.common.by import By
+            from selenium.webdriver.support.ui import WebDriverWait
+            from selenium.webdriver.support import expected_conditions as EC
+            from selenium.common.exceptions import TimeoutException, NoSuchElementException
+            from webdriver_manager.chrome import ChromeDriverManager
+            
+            # Store in class for reuse
+            BaseScraper._selenium_imported = True
+            BaseScraper._webdriver = webdriver
+            BaseScraper._Service = Service
+            BaseScraper._Options = Options
+            BaseScraper._By = By
+            BaseScraper._WebDriverWait = WebDriverWait
+            BaseScraper._EC = EC
+            BaseScraper._TimeoutException = TimeoutException
+            BaseScraper._NoSuchElementException = NoSuchElementException
+            BaseScraper._ChromeDriverManager = ChromeDriverManager
+        except ImportError as e:
+            raise ImportError(
+                "Selenium is required for BaseScraper. Install it with: pip install selenium webdriver-manager"
+            ) from e
         
     def setup_driver(self) -> None:
         """Setup Chrome WebDriver with headless options."""
+        self._ensure_selenium()
+        Options = BaseScraper._Options
+        Service = BaseScraper._Service
+        ChromeDriverManager = BaseScraper._ChromeDriverManager
+        webdriver = BaseScraper._webdriver
+        
         options = Options()
         if self.headless:
             options.add_argument('--headless=new')
@@ -48,6 +84,7 @@ class BaseScraper(ABC):
         service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=options)
         self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        WebDriverWait = BaseScraper._WebDriverWait
         self.wait = WebDriverWait(self.driver, 10)
         
     def close_driver(self) -> None:
@@ -80,8 +117,14 @@ class BaseScraper(ABC):
                 break
             last_height = new_height
             
-    def wait_for_element(self, by: By, value: str, timeout: int = 10) -> bool:
+    def wait_for_element(self, by: str, value: str, timeout: int = 10) -> bool:
         """Wait for an element to be present on the page."""
+        self._ensure_selenium()
+        By = BaseScraper._By
+        WebDriverWait = BaseScraper._WebDriverWait
+        EC = BaseScraper._EC
+        TimeoutException = BaseScraper._TimeoutException
+        
         try:
             WebDriverWait(self.driver, timeout).until(
                 EC.presence_of_element_located((by, value))

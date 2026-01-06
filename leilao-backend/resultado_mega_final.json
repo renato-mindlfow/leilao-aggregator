@@ -1,0 +1,4810 @@
+{
+  "id": "megaleiloes",
+  "name": "Mega Leilões",
+  "method": "playwright",
+  "success": true,
+  "total_extracted": 600,
+  "properties": [
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119336/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119511/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119425/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119539/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119723/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119325/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119279/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119394/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119543/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119062/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119704/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119439/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119573/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32696/118222/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119634/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119482/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32746/118326/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119359/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32840/119050/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119373/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119725/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32784/118453/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119312/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119481/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119495/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118464/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119367/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119712/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119670/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119451/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119154/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119470/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119574/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119699/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32794/118468/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119625/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119392/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119413/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32897/119220/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117807/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32664/117813/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119358/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119556/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119597/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119690/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119735/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32850/119060/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119707/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119487/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119463/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32825/118990/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32653/117794/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119632/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119477/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119621/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118368/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32661/117806/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119612/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119696/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32224/115683/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119726/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119396/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119328/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119742/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119545/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116725/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117808/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118226/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118254/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119526/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32799/118490/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119226/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119510/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32690/118216/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119537/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32977/119661/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119160/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119403/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119546/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119137/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119512/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119718/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119449/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119379/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119404/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32783/118452/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119731/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119185/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32944/119303/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119452/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32675/117879/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119362/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119613/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119677/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119450/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119468/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119177/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119611/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119167/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119429/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119557/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32843/119053/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119140/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119476/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32926/119265/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119329/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119593/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119727/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119506/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118225/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32936/119280/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119489/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119739/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119152/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119376/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32789/118458/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32707/118243/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118256/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119706/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119388/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32664/117812/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117707/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32698/118223/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119414/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119377/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32765/118351/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32710/118246/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32695/118221/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32817/118971/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32663/117810/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32702/118238/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119471/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32667/117819/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119064/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119432/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119592/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119183/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119174/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119346/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119435/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119331/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116721/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32723/118275/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119469/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119641/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119138/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119161/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118369/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119275/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118466/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119624/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119714/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119228/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32825/118991/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119745/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119694/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119474/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119494/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119609/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119703/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119434/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117809/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119333/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119710/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32709/118245/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119508/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119186/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32718/118271/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32716/118269/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32841/119051/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119594/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119151/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119653/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119698/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119603/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119338/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32545/117337/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119378/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119423/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119533/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119503/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32832/119011/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119629/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119652/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119523/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119689/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119340/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119398/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119136/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118259/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119619/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119657/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119663/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119427/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119322/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119332/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32821/118983/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119356/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119063/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119730/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119734/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119334/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119444/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32801/118492/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119607/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119456/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119538/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119353/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119472/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119473/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119339/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32708/118244/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119337/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119318/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119445/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119176/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118367/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119671/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119351/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119695/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119460/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119650/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119685/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119638/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119400/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119617/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119504/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119316/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119608/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119415/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32654/117795/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119583/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32630/117731/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119335/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119642/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119645/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119467/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119522/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119323/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119627/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119711/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32631/117732/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119654/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119702/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32678/117887/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119686/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32795/118480/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119389/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32971/119585/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32628/117729/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32770/118373/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119047/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119407/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118959/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32711/118247/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119321/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119509/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119324/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119390/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32831/119010/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119168/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119424/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119465/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119366/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119688/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119277/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119630/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32775/118380/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119374/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119623/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32519/117005/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119693/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32798/118489/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119173/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119720/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119426/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119442/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119668/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119443/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119155/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119674/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119375/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32959/119553/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119529/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32812/118610/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119547/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32668/117821/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119448/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119536/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32819/118973/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119387/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119578/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119673/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119675/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119600/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119492/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119628/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32942/119300/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119348/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32869/119132/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32860/119115/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119454/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119636/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119672/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119544/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119681/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32688/118214/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119171/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119622/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119384/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119579/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119595/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32774/118378/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119431/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119417/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119319/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119575/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32664/117814/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119542/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119371/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119555/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32802/118493/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119527/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32797/118488/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119156/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119307/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32777/118398/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119146/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119178/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119411/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119364/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119399/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119709/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119669/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32629/117730/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119618/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119738/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119602/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119733/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32766/118352/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32612/117654/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118257/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119496/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119372/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119639/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119345/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119142/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119514/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119667/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119406/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119505/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119736/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119462/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119576/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119744/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119728/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119490/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32845/119055/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119347/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32786/118455/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118255/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32706/118242/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118960/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119491/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119532/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119459/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119369/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119274/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119166/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32792/118461/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118260/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119313/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119615/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119717/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119497/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119697/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119502/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119363/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119530/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118224/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119380/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32675/117877/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32674/117860/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119648/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119643/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119577/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117708/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/assets/9413b54b/themes/smoothness/jquery-ui.css",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32779/118444/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32658/117801/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32667/117820/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119479/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119157/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119162/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32703/118239/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119455/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119640/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117709/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119528/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119610/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119478/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119518/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119700/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119230/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32822/118984/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119651/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119682/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119314/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119327/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119584/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119571/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119175/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32633/117734/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119605/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119493/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119519/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119122/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32876/119189/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119164/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119501/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119548/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32498/116819/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119354/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119229/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119311/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119278/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119433/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119587/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119461/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119144/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32619/117660/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32670/117823/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119515/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118465/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32705/118241/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119246/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32944/119304/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119591/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119599/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119656/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119408/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119466/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32745/118325/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119743/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32770/118374/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119349/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32849/119059/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119382/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119409/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119598/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119457/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119722/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119181/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119691/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32617/117658/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119676/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119446/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32829/119008/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119320/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/assets/3b8f2bf0/css/font-awesome.min.css",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119719/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119606/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119368/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119740/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119705/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119614/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119516/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119644/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32791/118460/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119741/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119655/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32602/117625/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119441/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119485/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119568/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119464/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32807/118498/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119746/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119659/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116723/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118958/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119402/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119418/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119170/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119330/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119715/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119386/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119391/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119721/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119684/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119149/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119616/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119344/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32880/119193/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119436/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119428/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119484/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32792/118463/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32649/117769/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119620/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32854/119124/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119580/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119361/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119416/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119453/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119458/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119488/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119480/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119581/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119637/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32665/117815/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119420/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119713/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119365/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119395/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119393/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32833/119012/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32785/118454/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119475/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119135/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119421/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119180/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32830/119009/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119499/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119716/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119534/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32827/119004/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119341/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32828/119007/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119065/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32744/118324/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32828/119005/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32692/118218/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32805/118497/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32854/119125/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119500/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119169/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119159/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119687/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119139/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119227/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119646/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119172/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119647/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119179/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119150/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119438/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32959/119662/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119692/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119633/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119724/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119540/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119631/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119683/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32743/118323/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117706/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119601/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32809/118502/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32740/118320/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119447/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119301/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119596/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32839/119049/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119360/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119737/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119440/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119558/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119343/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119326/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118467/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119701/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119535/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119317/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32657/117800/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119626/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119315/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119385/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32689/118215/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119549/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119158/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119370/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119165/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32854/119184/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119405/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119483/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119401/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119419/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119046/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119729/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119357/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119350/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119572/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119732/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118251/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118252/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119517/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119498/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119352/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119531/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32713/118249/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "auctioneer_id": "megaleiloes",
+      "auctioneer_name": "Mega Leilões"
+    }
+  ],
+  "errors": []
+}

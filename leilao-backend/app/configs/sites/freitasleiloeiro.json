@@ -1,0 +1,33 @@
+{
+  "id": "freitasleiloeiro",
+  "name": "Freitas Leiloeiro",
+  "website": "https://www.freitasleiloeiro.com.br",
+  "enabled": true,
+  "method": "playwright",
+  "listing_url": "/Leiloes",
+  "selectors": {
+    "card": ".card, .lote-item, [class*='lote']",
+    "link": "a[href*='/Leilao/'], a[href*='/Lote/']",
+    "title": "h1, h2, .titulo",
+    "price": ".valor, .preco, .lance",
+    "location": ".endereco, .local"
+  },
+  "pagination": {
+    "type": "query_param",
+    "param": "PageNumber"
+  },
+  "api": {
+    "base_url": "https://www.freitasleiloeiro.com.br",
+    "endpoints": {
+      "listar": "/Leiloes/ListarLeiloes",
+      "destaques": "/Leiloes/ListarLeiloesDestaques",
+      "pesquisar": "/Leiloes/PesquisarDestaques"
+    }
+  },
+  "notes": [
+    "Sistema próprio (ASP.NET MVC)",
+    "API própria descoberta: /Leiloes/ListarLeiloes",
+    "Requer investigação adicional para filtrar imóveis",
+    "Config básico - será refinado após análise completa"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-01-04T20:31:26.103568",
+  "total_sites": 3,
+  "successful": 0,
+  "total_properties": 0,
+  "total_apis_discovered": 12,
+  "investigations": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "investigation_time": "2026-01-04T20:27:21.339413",
+      "success": false,
+      "working_url": null,
+      "properties_found": 0,
+      "property_links": [],
+      "apis_discovered": [
+        "https://disclaimer-api.goadopt.io/api/tag/get-consent",
+        "https://bcp.crwdcntrl.net/6/map"
+      ],
+      "network_requests": [
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-megaleiloes.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-mega-ms-1.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-sicoob.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-trisul.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-itau.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-santander-card-new.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-itau-card.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-bradesco-card.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-mega-ms-card-1.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-sc-card.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-banco-sicoob-card.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-trisul-card.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://cdn1.megaleiloes.com.br/bank_icons/leilao-tsj.png",
+          "method": "GET",
+          "resource_type": "image"
+        },
+        {
+          "url": "https://disclaimer-api.goadopt.io/api/tag/get-consent",
+          "method": "POST",
+          "resource_type": "xhr"
+        }
+      ],
+      "html_analysis": {
+        "total_links": 590,
+        "total_divs": 2045,
+        "has_react": true,
+        "has_vue": true,
+        "has_angular": false,
+        "has_jquery": true,
+        "has_cloudflare": true,
+        "frameworks_detected": [
+          "React/Next.js",
+          "Vue.js"
+        ],
+        "potential_selectors": [
+          "cards banks",
+          "card-bank",
+          "cards-container properties",
+          "card-instance-progress",
+          "card card-auction waiting",
+          "card-gavet-link",
+          "card-price",
+          "card-locality",
+          "card card-auction card-auction-bradesco open",
+          "two-line full-width nav-search-categories-menu-item dropdown"
+        ]
+      },
+      "recommendations": [
+        "Site usa SPA (React/Vue) - aguardar mais tempo para renderização",
+        "Tentar esperar por seletores específicos antes de extrair",
+        "APIs internas descobertas - tentar acessar diretamente",
+        "APIs: ['https://www.megaleiloes.com.br/api/imoveis', 'https://disclaimer-api.goadopt.io/api/tag/get-consent', 'https://www.megaleiloes.com.br/api/buscar']",
+        "Seletores potenciais: ['cards banks', 'card-bank', 'cards-container properties']"
+      ],
+      "errors": []
+    },
+    {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "investigation_time": "2026-01-04T20:28:57.064423",
+      "success": false,
+      "working_url": null,
+      "properties_found": 0,
+      "property_links": [],
+      "apis_discovered": [
+        "https://offer-query.superbid.net/offers/?portalId=[2,15]&requestOrigin=store&locale=pt_BR&timeZoneId=America%2FSao_Paulo&searchType=opened&filter=stores.id:[1161];product.productType.description:imoveis;auction.subMarketplaces.subMarketplaceDesc:corporativo;isShopping:false;auction.modalityId:[1,4,5,7]&pageNumber=1&pageSize=24&orderBy=price:desc;visits:desc&fieldList=id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested&preOrderBy=orderByFirstOpenedOffers",
+        "https://event-query.superbid.net/submarketplaces/?portalId=[2,15]",
+        "https://banner-api.sbwebservices.net/banner?storeId=1161",
+        "https://event-query.superbid.net/events/v2/?portalId=[2,15]&locale=pt_BR&timeZoneId=America%2FSao_Paulo&filter=subMarketplaces.id:1;storeIds:1161;modalityId:[1,4,5,7]&pageNumber=1&pageSize=45&byPage=marketPlacePage",
+        "https://offer-query.superbid.net/categories/?portalId=[2,15]&storeId=[1161,1741]&requestOrigin=store&locale=pt_BR",
+        "https://offer-query.superbid.net/offers/?portalId=[2,15]&requestOrigin=store&locale=pt_BR&timeZoneId=America%2FSao_Paulo&searchType=opened&filter=stores.id:[1161];auction.subMarketplaces.subMarketplaceDesc:pme;isShopping:false;auction.modalityId:[1,4,5,7]&pageNumber=1&pageSize=24&orderBy=price:desc;visits:desc&fieldList=id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested&preOrderBy=orderByFirstOpenedOffers",
+        "https://offer-query.superbid.net/offers/?portalId=[2,15]&requestOrigin=store&locale=pt_BR&timeZoneId=America%2FSao_Paulo&searchType=opened&filter=stores.id:[1741];isShopping:false;auction.modalityId:[1,4,5,7]&pageNumber=1&pageSize=24&orderBy=price:desc;visits:desc&fieldList=id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested&preOrderBy=orderByFirstOpenedOffers",
+        "https://event-query.superbid.net/events/v2/?portalId=[2,15]&locale=pt_BR&timeZoneId=America%2FSao_Paulo&filter=subMarketplaces.id:4;storeIds:1161;modalityId:[1,4,5,7]&pageNumber=1&pageSize=45&byPage=marketPlacePage",
+        "https://offer-query.superbid.net/offers/?portalId=[2,15]&requestOrigin=store&locale=pt_BR&timeZoneId=America%2FSao_Paulo&searchType=opened&filter=stores.id:[1161,1741];auction.modalityId:[1,4,5,7]&pageNumber=1&pageSize=24&orderBy=price:desc;visits:desc;endDate:asc&fieldList=id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested&preOrderBy=orderByFirstOpenedOffers",
+        "https://siteconfigprod.superbid.net/www.sold.com.br/style.config.json"
+      ],
+      "network_requests": [
+        {
+          "url": "https://siteconfigprod.superbid.net/www.sold.com.br/style.config.json",
+          "method": "GET",
+          "resource_type": "xhr"
+        }
+      ],
+      "html_analysis": {
+        "total_links": 277,
+        "total_divs": 3219,
+        "has_react": true,
+        "has_vue": false,
+        "has_angular": true,
+        "has_jquery": true,
+        "has_cloudflare": false,
+        "frameworks_detected": [
+          "React/Next.js",
+          "Angular"
+        ],
+        "potential_selectors": [
+          "MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-1dpjdze",
+          "MuiCardActionArea-focusHighlight css-jo3ec3",
+          "MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent jss601 css-1rcbby2",
+          "MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent jss774 css-1rcbby2",
+          "MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 jss118 css-1yq0y6",
+          "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 jss2 css-1wxaqej",
+          "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1gd6ahq",
+          "MuiListItemIcon-root jss952 css-1f8bwsm",
+          "MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent jss657 css-1rcbby2",
+          "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 jss318 css-1ojex0"
+        ]
+      },
+      "recommendations": [
+        "Site usa SPA (React/Vue) - aguardar mais tempo para renderização",
+        "Tentar esperar por seletores específicos antes de extrair",
+        "APIs internas descobertas - tentar acessar diretamente",
+        "APIs: ['https://offer-query.superbid.net/offers/?portalId=[2,15]&requestOrigin=store&locale=pt_BR&timeZoneId=America%2FSao_Paulo&searchType=opened&filter=stores.id:[1161];product.productType.description:imoveis;auction.subMarketplaces.subMarketplaceDesc:corporativo;isShopping:false;auction.modalityId:[1,4,5,7]&pageNumber=1&pageSize=24&orderBy=price:desc;visits:desc&fieldList=id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested&preOrderBy=orderByFirstOpenedOffers', 'https://www.sold.com.br/api/v1/leiloes', 'https://bam.nr-data.net/events/1/NRJS-33f29f8a3c00e1938de?a=1835087883&sa=1&v=1.281.0&t=Unnamed%20Transaction&rst=1311&ck=0&s=93934c229818d357&ref=https://www.sold.com.br/api/v1/leiloes&ptid=040fdd96cb76c177']",
+        "Seletores potenciais: ['MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-1dpjdze', 'MuiCardActionArea-focusHighlight css-jo3ec3', 'MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent jss601 css-1rcbby2']"
+      ],
+      "errors": []
+    },
+    {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.lancejudicial.com.br",
+      "investigation_time": "2026-01-04T20:30:46.843402",
+      "success": false,
+      "working_url": null,
+      "properties_found": 0,
+      "property_links": [],
+      "apis_discovered": [],
+      "network_requests": [],
+      "html_analysis": {
+        "total_links": 458,
+        "total_divs": 1400,
+        "has_react": false,
+        "has_vue": false,
+        "has_angular": false,
+        "has_jquery": true,
+        "has_cloudflare": true,
+        "frameworks_detected": [],
+        "potential_selectors": [
+          "d-none d-sm-block nav-item",
+          " card-instance-info",
+          "card-date-row",
+          "page-item active disabled",
+          "card-progress",
+          "card mb-4",
+          "card-image d-block",
+          "nav-item",
+          "card-price",
+          "card-gavel-card"
+        ]
+      },
+      "recommendations": [
+        "APIs internas descobertas - tentar acessar diretamente",
+        "APIs: ['https://www.grupolance.com.br/api/leiloes', 'https://www.lancejudicial.com.br/api/leiloes']",
+        "Seletores potenciais: ['d-none d-sm-block nav-item', ' card-instance-info', 'card-date-row']"
+      ],
+      "errors": []
+    }
+  ]
+}

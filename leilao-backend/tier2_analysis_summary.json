@@ -1,0 +1,186 @@
+{
+  "total": 30,
+  "enabled": 30,
+  "sites": [
+    {
+      "site": "Superbid",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Lance no Leilão",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "LUT",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Big Leilão",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Via Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Freitas Leiloeiro",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Frazão Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Franco Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Lance Judicial",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Leilões Freire",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "BFR Contábil",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Kronberg Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "LeiloMaster",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Nossos Leilão",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Líder Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Leilões Judiciais RS",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Santa Maria Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "MG Leilões RS",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Rocha Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Rigolon Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Hasta Legal",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Hasta Pública",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Escritório de Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Grandes Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Tonial Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Trevisan Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Vidal Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Web Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Zuccalmaglio Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    },
+    {
+      "site": "Zago Leilões",
+      "url": "",
+      "method": "api_rest",
+      "status": "✅"
+    }
+  ]
+}

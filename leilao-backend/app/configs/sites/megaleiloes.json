@@ -1,0 +1,21 @@
+{
+  "id": "megaleiloes",
+  "name": "Mega Leilões",
+  "website": "https://www.megaleiloes.com.br",
+  "enabled": false,
+  "method": "playwright",
+  "listing_url": "/imoveis",
+  "selectors": {
+    "card": "[class*='card'], [class*='item'], article",
+    "link": "a[href*='/leilao/'], a[href*='/imovel/']",
+    "pagination": ".text-center"
+  },
+  "api": {},
+  "last_scrape": {
+    "date": "2026-01-05T14:02:23.945759",
+    "success": false,
+    "properties_found": 0,
+    "errors_count": 0
+  },
+  "status": "failed"
+}

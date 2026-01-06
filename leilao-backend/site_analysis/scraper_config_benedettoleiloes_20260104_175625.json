@@ -1,0 +1,13 @@
+{
+  "name": "Benedettoleiloes",
+  "website": "https://www.benedettoleiloes.com.br",
+  "selectors": {
+    "card": "div.leilao-item",
+    "card_alternatives": [],
+    "title": "h4.media-heading",
+    "price": ".text-primary",
+    "link": "a[href]",
+    "image": "img.projectImg"
+  },
+  "working_url": "https://www.benedettoleiloes.com.br/"
+}

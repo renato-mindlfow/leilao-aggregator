@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-01-04T20:43:03.338233",
+  "total_sites": 3,
+  "successful": 1,
+  "total_properties": 50,
+  "results": [
+    {
+      "site": "Sold Leilões",
+      "method": "api_rest",
+      "success": true,
+      "properties": [
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 1,
+          "url": "https://www.sold.com.br/leilao/2474042"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 419485.3,
+          "url": "https://www.sold.com.br/leilao/2504932"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 7899,
+          "url": "https://www.sold.com.br/leilao/2477555"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 150426.95,
+          "url": "https://www.sold.com.br/leilao/2505788"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 26074.4,
+          "url": "https://www.sold.com.br/leilao/2506861"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 572235.84,
+          "url": "https://www.sold.com.br/leilao/2281980"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 25900,
+          "url": "https://www.sold.com.br/leilao/2515292"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 199500,
+          "url": "https://www.sold.com.br/leilao/2517502"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 13499,
+          "url": "https://www.sold.com.br/leilao/2514574"
+        },
+        {
+          "source": "api",
+          "auctioneer_id": "sold",
+          "auctioneer_name": "Sold Leilões",
+          "price": 64900,
+          "url": "https://www.sold.com.br/leilao/2511000"
+        }
+      ],
+      "total_found": 50,
+      "api_url": "https://offer-query.superbid.net/offers/?portalId=2&filter=product.productType.description:imoveis&pageNumber=1&pageSize=50",
+      "errors": []
+    },
+    {
+      "site": "Mega Leilões",
+      "method": "playwright_stealth_improved",
+      "success": false,
+      "properties": [],
+      "total_found": 0,
+      "errors": []
+    },
+    {
+      "site": "Lance Judicial",
+      "method": "playwright_stealth_robust",
+      "success": false,
+      "properties": [],
+      "total_found": 0,
+      "errors": []
+    }
+  ]
+}

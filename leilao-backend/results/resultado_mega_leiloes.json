@@ -1,0 +1,4912 @@
+{
+  "id": "mega_leiloes",
+  "name": "Mega Leilões",
+  "method": "playwright",
+  "started_at": "2026-01-05T15:09:16.293471",
+  "finished_at": "2026-01-05T15:12:19.897583",
+  "success": true,
+  "total_properties": 700,
+  "properties": [
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119507/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033313"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119627/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033333"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119368/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033336"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32829/119008/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033339"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119167/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033341"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119699/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033343"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118265/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033353"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119497/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033356"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119540/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033358"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32943/119302/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033360"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118368/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033362"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119178/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033364"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32962/119560/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033366"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119311/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033368"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32664/117814/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033371"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119153/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033373"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119415/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033375"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/assets/3b8f2bf0/css/font-awesome.min.css",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033378"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32799/118490/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033380"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119711/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033382"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119555/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033384"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119514/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033386"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119595/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033388"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119398/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033390"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119675/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033392"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32670/117823/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033395"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118224/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033397"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118464/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033399"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119347/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033401"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119173/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033403"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119499/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033405"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119516/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033407"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119715/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033409"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32876/119189/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033412"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32894/119211/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033413"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32810/118663/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033417"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119541/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033419"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32745/118325/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033425"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32870/119133/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033428"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119492/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033430"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119466/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033432"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119401/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033435"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32665/117815/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033437"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119330/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033439"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119591/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033441"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119716/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033443"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118225/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033445"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119150/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033447"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119654/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033449"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32772/118381/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033451"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32878/119191/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033453"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119733/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033455"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119152/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033457"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32825/118991/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033460"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119395/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033462"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119684/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033464"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119648/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033466"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119707/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033468"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32961/119559/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033470"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119462/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033472"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119312/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033474"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119704/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033476"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119376/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033478"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119334/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033480"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118268/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033482"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119584/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033486"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119616/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033488"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119169/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033490"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32851/119061/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033492"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32887/119200/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033494"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119745/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033498"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119046/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033500"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32821/118983/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033502"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119137/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033504"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119610/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033506"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119522/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033508"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119322/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033510"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119527/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033514"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119526/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033516"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119328/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033518"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119177/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033520"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119439/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033522"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119459/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033524"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119063/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033526"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119533/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033528"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32690/118216/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033530"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32846/119056/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033532"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119319/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033534"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32706/118242/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033536"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119469/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033540"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119538/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033542"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119445/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033544"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118262/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033546"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119344/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033549"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119503/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033551"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32783/118452/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033553"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119186/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033555"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119274/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033557"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119546/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033559"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119382/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033562"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119739/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033564"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119438/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033568"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119580/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033570"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119337/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033572"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119432/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033574"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119494/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033576"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32657/117800/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033578"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119683/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033580"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118369/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033582"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119631/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033585"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119744/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033587"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32631/117732/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033589"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119500/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033591"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119448/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033593"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119530/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033595"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119731/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033597"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32861/119123/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033599"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32828/119005/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033601"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118251/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033604"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119159/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033606"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32936/119280/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033608"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119628/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033610"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119568/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033612"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119316/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033614"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119695/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033616"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119727/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033618"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32729/118287/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033620"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32697/118226/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033622"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119326/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033624"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119746/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033627"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32952/119310/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033629"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32633/117734/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033631"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119149/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033633"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119549/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033636"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119246/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033638"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32979/119679/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033641"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119453/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033643"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119618/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033645"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119607/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033647"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119657/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033650"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119355/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033652"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119575/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033654"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119313/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033656"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32695/118221/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033658"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32861/119121/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033660"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119321/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033662"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119442/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033664"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119475/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033666"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119603/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033668"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32747/118327/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033671"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119434/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033674"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119694/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033676"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119419/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033678"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119342/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033680"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32742/118322/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033682"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119335/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033684"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119604/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033686"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32928/119267/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033688"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119621/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033690"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119374/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033692"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119362/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033694"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119359/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033696"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32537/117110/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033698"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32959/119662/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033702"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119332/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033704"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119229/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033707"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32707/118243/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033710"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32694/118220/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033712"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119671/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033714"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32944/119303/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033716"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32900/119223/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033718"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119624/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033720"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32819/118973/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033722"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119615/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033724"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119472/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033727"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32862/119116/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033729"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119652/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033731"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119653/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033733"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32926/119265/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033735"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119383/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033737"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119360/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033739"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32831/119010/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033741"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119047/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033743"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32807/118498/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033745"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119422/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033747"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119349/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033749"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32777/118398/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033751"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32942/119300/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033753"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119713/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033755"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119345/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033757"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119658/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033760"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119665/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033762"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119606/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033764"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32658/117801/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033766"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119477/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033768"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32602/117625/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033770"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119510/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033772"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119122/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033776"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32944/119304/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033778"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119404/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033780"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119719/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033782"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119467/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033786"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119413/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033788"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119144/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033790"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32630/117731/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033792"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32708/118244/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033794"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32976/119649/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033796"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119498/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033798"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119433/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033800"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32667/117819/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033802"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32224/115683/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033804"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119535/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033806"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119647/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033808"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32628/117729/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033810"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119170/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033812"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32886/119199/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033814"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119592/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033816"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119692/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033818"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119712/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033820"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119390/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033822"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119203/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033824"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119596/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033826"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32847/119057/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033829"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119578/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033831"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32663/117810/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033833"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119718/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033835"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119677/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033838"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32649/117769/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033840"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32843/119053/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033844"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32950/119309/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033846"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118257/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033848"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32784/118453/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033850"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119572/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033852"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119682/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033855"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119696/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033857"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119558/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033859"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32869/119132/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033861"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119449/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033863"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119160/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033865"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119537/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033867"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118259/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033869"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119165/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033873"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32709/118245/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033875"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32975/119646/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033877"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119418/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033879"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32801/118492/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033881"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119724/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033883"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119446/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033885"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32828/119006/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033887"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32792/118461/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033889"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119726/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033891"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119617/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033893"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119729/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033895"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119484/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033897"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119531/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033900"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119357/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033902"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/assets/9413b54b/themes/smoothness/jquery-ui.css",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033904"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32805/118497/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033906"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119651/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033908"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119700/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033910"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119465/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033913"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117707/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033915"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32845/119055/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033917"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119663/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033919"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119369/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033921"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117807/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033923"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117708/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033926"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119721/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033928"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119667/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033930"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32889/119202/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033932"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119633/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033934"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118960/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033936"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119065/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033939"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119614/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033941"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32716/118269/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033943"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118261/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033945"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119458/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033947"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32971/119585/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033949"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119367/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033951"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32856/119072/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033953"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32668/117821/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033955"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119339/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033957"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119393/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033959"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32723/118275/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033961"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32893/119206/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033963"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32519/117005/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033965"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32983/119749/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033967"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119351/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033969"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117808/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033971"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119384/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033973"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119402/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033977"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119324/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033979"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32688/118214/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033982"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118958/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033986"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119639/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033988"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119175/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033990"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119635/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033992"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119161/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033994"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119176/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033996"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119668/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.033998"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119689/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034000"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32873/119143/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034002"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119673/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034004"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32871/119134/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034006"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32802/118493/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034008"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119656/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034010"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119385/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034012"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119158/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034014"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119489/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034016"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119181/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034020"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119688/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034022"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119623/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034024"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32792/118463/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034026"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119370/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034029"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119482/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034031"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119539/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034033"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119698/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034035"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119451/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034037"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119723/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034039"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32880/119193/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034041"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119139/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034043"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119441/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034045"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119597/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034047"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119741/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034049"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119391/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034052"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119601/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034054"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32765/118351/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034057"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119431/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034059"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32881/119194/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034061"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32957/119550/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034063"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119361/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034065"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32929/119268/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034067"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32861/119119/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034069"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119659/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034071"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119317/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034073"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119388/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034075"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119314/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034077"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32718/118271/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034079"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32832/119011/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034081"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32892/119205/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034083"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119407/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034085"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119735/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034087"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119226/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034089"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119534/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034092"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119423/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034095"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119544/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034097"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32934/119273/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034099"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119386/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034101"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119525/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034103"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32982/119748/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034105"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119405/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034107"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119346/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034109"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118466/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034111"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119637/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034115"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119183/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034118"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119468/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034121"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119612/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034124"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118264/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034126"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119444/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034128"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32746/118326/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034130"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119358/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034132"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119406/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034134"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32702/118238/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034136"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119697/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034138"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119429/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034140"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119399/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034142"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32972/119586/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034144"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119511/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034146"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32888/119201/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034148"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119414/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034150"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32884/119196/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034152"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119456/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034154"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119353/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034156"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32965/119563/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034159"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119519/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034161"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32875/119188/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034163"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119672/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034165"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119151/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034167"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32910/119244/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034169"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119323/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034171"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32896/119210/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034173"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32710/118246/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034175"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119364/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034177"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119440/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034179"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119435/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034181"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119396/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034183"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119501/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034185"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119666/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034188"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119742/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034190"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119583/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034192"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119450/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034194"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119493/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034196"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119528/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034198"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119171/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034200"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119685/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034204"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119329/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034206"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118256/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034208"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119702/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034210"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119275/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034212"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119380/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034214"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119476/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034216"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119650/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034220"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119676/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034222"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119706/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034224"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32667/117820/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034226"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119062/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034228"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119529/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034230"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32795/118480/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034232"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119581/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034234"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32494/116796/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034236"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119350/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034238"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32629/117730/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034241"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119536/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034243"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118465/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034245"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119602/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034247"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119634/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034249"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32775/118380/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034251"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119690/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034253"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119437/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034257"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32861/119118/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034260"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116723/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034262"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119164/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034264"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32675/117879/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034266"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119681/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034268"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119523/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034270"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119574/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034273"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119425/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034277"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32779/118444/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034280"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32835/119019/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034283"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119506/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034301"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119644/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034305"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119655/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034308"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32703/118239/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034310"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119722/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034313"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119341/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034315"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119686/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034317"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119373/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034319"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119664/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034321"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119408/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034323"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32833/119012/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034325"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119403/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034327"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119598/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034329"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119556/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034331"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32654/117795/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034333"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118260/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034336"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32751/118331/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034339"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118367/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034342"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32977/119660/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034344"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119155/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034346"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119473/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034348"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32904/119232/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034350"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119488/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034353"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32797/118488/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034356"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32964/119562/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034358"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119670/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034360"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119709/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034362"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119464/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034364"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119427/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034368"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32822/118984/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034370"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119365/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034372"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32786/118455/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034374"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119230/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034376"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119168/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034378"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119645/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034380"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119487/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034382"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119327/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034384"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119736/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034386"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119417/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034388"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119461/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034391"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119504/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034393"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32744/118324/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034395"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119455/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034397"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119340/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034399"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32945/119305/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034401"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118255/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034403"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119605/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034405"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119228/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034407"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119517/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034409"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119502/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034411"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119136/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034413"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32830/119009/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034415"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119426/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034418"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119643/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034422"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119454/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034424"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32935/119276/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034426"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119470/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034428"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119717/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034430"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119172/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034432"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119720/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034434"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32740/118320/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034436"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119577/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034439"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118254/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034441"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119691/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034443"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119379/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034445"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32895/119207/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034447"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119447/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034449"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119436/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034451"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32932/119271/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034455"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119632/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034457"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32653/117794/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034459"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119394/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034461"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32810/118898/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034463"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119135/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034465"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32696/118222/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034468"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32850/119060/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034470"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119354/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034472"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119625/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034474"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32766/118352/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034476"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32852/119064/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034478"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32617/117658/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034480"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32545/117337/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034482"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119343/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034484"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119532/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034486"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119421/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034488"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119156/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034492"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32664/117812/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034494"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32711/118247/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034496"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119162/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034498"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119140/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034500"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119496/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034502"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32874/119187/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034504"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32810/118562/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034508"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119443/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034510"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119179/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034512"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119145/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034514"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119600/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034517"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119743/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034519"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119491/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034521"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119182/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034523"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119352/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034525"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32810/118561/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034527"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119138/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034529"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32854/119124/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034531"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119336/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034533"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119640/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034535"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32980/119680/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034537"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32698/118223/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034539"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32854/119125/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034541"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119154/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034543"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119641/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034545"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118252/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034547"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119471/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034549"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32713/118249/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034551"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32675/117877/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034553"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118263/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034555"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32794/118468/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034559"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32920/119255/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034562"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119460/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034566"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32793/118467/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034568"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32839/119049/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034570"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32627/117728/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034572"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119730/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034574"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32827/119004/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034576"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119400/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034578"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117709/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034580"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119512/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034582"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119626/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034584"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119543/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034586"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32770/118373/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034588"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32812/118610/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034590"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119338/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034592"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119481/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034595"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119593/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034597"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119740/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034599"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119387/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034601"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119375/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034603"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119509/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034605"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32785/118454/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034607"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32661/117806/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034609"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119545/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034611"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32973/119588/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034613"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119622/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034615"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119371/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034617"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119325/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034619"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32897/119220/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034621"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32828/119007/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034623"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32816/118959/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034625"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119620/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034627"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119166/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034631"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32662/117809/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034633"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119411/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034635"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119629/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034637"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32967/119565/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034639"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119693/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034641"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119479/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034643"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119301/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034645"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32701/118231/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034647"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32619/117660/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034649"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119146/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034651"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119174/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034653"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119483/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034655"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119279/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034657"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32973/119590/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034659"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32789/118458/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034664"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119452/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034666"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119366/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034668"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119710/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034670"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32849/119059/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034672"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32624/117706/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034675"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32769/118370/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034677"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119547/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034679"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32937/119281/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034682"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32774/118378/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034684"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119674/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034686"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32678/117887/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034688"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119378/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034690"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119613/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034692"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119377/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034694"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32770/118374/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034696"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119703/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034701"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32772/118379/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034703"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119478/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034712"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119642/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034715"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119315/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034719"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32902/119225/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034722"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119318/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034725"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119638/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034728"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119430/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034731"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32879/119192/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034734"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119576/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034738"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32705/118241/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034741"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119579/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034745"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32973/119589/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034747"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32798/118489/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034749"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119737/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034751"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32882/119195/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034753"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32960/119557/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034755"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32978/119678/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034757"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119363/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034759"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32877/119190/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034761"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32873/119141/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034763"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119320/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034765"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119630/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034767"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119636/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034769"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119732/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034771"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32498/116819/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034774"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119372/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034776"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119307/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034778"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32927/119266/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034780"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116725/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034782"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119687/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034784"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32853/119185/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034788"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119725/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034791"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32692/118218/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034793"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119333/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034795"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32857/119104/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034797"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32837/119227/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034799"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32860/119115/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034802"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32864/119278/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034804"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119619/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034809"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32891/119204/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034811"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32894/119209/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034813"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32894/119208/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034815"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32890/119277/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034817"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32714/118250/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034819"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32930/119269/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034821"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119420/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034823"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119608/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034825"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32955/119542/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034827"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32861/119120/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034829"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32809/118502/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034831"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118266/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034833"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32689/118215/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034835"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119428/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034837"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119505/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034839"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119157/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034841"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32959/119553/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034843"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119728/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034845"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32732/118290/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034847"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119490/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034850"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32954/119518/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034852"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119331/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034854"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32969/119571/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034856"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119424/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034863"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119714/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034865"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119669/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034867"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32835/119020/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034869"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119495/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034872"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32949/119587/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034874"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119163/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034876"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32956/119548/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034878"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32840/119050/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034880"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32715/118267/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034882"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119594/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034884"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119389/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034886"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119515/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034888"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119508/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034890"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32469/116721/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034892"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119599/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034895"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119738/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034897"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32743/118323/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034899"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119457/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034901"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32872/119142/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034903"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32825/118990/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034905"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32974/119611/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034907"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119480/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034909"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119416/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034911"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119463/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034913"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32981/119708/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034915"
+    },
+    {
+      "url": "https://www.megaleiloes.com.br/auditorio/32953/119392/batch",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:12:19.034917"
+    }
+  ],
+  "errors": []
+}

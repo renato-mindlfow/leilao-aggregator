@@ -1,0 +1,13 @@
+{
+  "id": "sold",
+  "name": "Sold Leilões",
+  "website": "https://www.sold.com.br",
+  "listing_url": "/h/imoveis",
+  "success": false,
+  "total_properties": 0,
+  "pages_scraped": 1,
+  "properties": [],
+  "errors": [],
+  "started_at": "2026-01-04T22:13:45.353511",
+  "finished_at": "2026-01-04T22:14:07.130507"
+}

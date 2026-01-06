@@ -1,0 +1,12 @@
+{
+  "name": "Hastapublica",
+  "website": "https://www.hastapublica.com.br",
+  "selectors": {
+    "card": "li.item",
+    "card_alternatives": [],
+    "title": "h3",
+    "link": "a[href]",
+    "image": "img.banner_responsivo6"
+  },
+  "working_url": "https://www.hastapublica.com.br/"
+}

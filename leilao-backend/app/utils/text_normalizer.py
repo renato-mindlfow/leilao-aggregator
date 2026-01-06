@@ -146,3 +146,7 @@ def normalize_address(address: str | None) -> str | None:
     # Title Case básico
     return address.title()
 
+
+
+
+

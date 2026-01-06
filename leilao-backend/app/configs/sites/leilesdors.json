@@ -1,0 +1,7 @@
+{
+  "id": "leilesdors",
+  "name": "Leilões do RS",
+  "website": "https://www.leiloesdors.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

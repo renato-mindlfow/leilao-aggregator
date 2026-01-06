@@ -1,0 +1,26 @@
+{
+  "id": "leilomaster",
+  "name": "Leilo Master",
+  "website": "https://www.leilomaster.com.br",
+  "listing_url": "/imoveis",
+  "success": true,
+  "total_properties": 1,
+  "pages_scraped": 1,
+  "properties": [
+    {
+      "url": "https://www.leilomaster.com.br/leilao",
+      "title": "Oportunidades em Leilão",
+      "price": "R$ 0",
+      "location": "os\nclose\nCidade\nremove\nGoiânia/GO",
+      "category": "",
+      "area": "",
+      "image_url": "",
+      "auctioneer_id": "leilomaster",
+      "auctioneer_name": "Leilo Master",
+      "extracted_at": "2026-01-05T20:22:11.324855"
+    }
+  ],
+  "errors": [],
+  "started_at": "2026-01-05T20:21:56.800184",
+  "finished_at": "2026-01-05T20:22:21.539396"
+}

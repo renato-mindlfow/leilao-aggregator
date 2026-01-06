@@ -1,0 +1,7 @@
+{
+  "id": "leilesbrasil",
+  "name": "Leilões Brasil",
+  "website": "https://www.leiloesbrasil.com.br",
+  "enabled": false,
+  "reason": "HTTP 403"
+}

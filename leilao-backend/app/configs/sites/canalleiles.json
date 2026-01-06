@@ -1,0 +1,7 @@
+{
+  "id": "canalleiles",
+  "name": "Canal Leilões",
+  "website": "https://www.canalleiloes.com.br",
+  "enabled": false,
+  "reason": "URL de listagem retornou 404"
+}

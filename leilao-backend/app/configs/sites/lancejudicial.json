@@ -1,0 +1,31 @@
+{
+  "id": "lancejudicial",
+  "name": "Lance Judicial",
+  "website": "https://www.lancejudicial.com.br",
+  "enabled": true,
+  "method": "api_rest",
+  "listing_url": "",
+  "selectors": {},
+  "pagination": {},
+  "notes": [
+    "API Superbid - Portal ID 2 - 46898 imoveis"
+  ],
+  "api": {
+    "base_url": "https://offer-query.superbid.net/offers/",
+    "params": {
+      "portalId": "2",
+      "filter": "product.productType.description:imoveis",
+      "pageSize": "50"
+    },
+    "pagination_param": "pageNumber",
+    "total_field": "total",
+    "items_field": "offers"
+  },
+  "last_scrape": {
+    "date": "2026-01-05T14:02:24.009649",
+    "success": true,
+    "properties_found": 312,
+    "errors_count": 0
+  },
+  "status": "success"
+}

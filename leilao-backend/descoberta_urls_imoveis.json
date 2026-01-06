@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-01-04T21:30:25.157155",
+  "objective": "Descobrir URL específica de IMÓVEIS em cada site",
+  "total_sites": 5,
+  "successful": 5,
+  "results": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "success": true,
+      "imoveis_url": "https://www.megaleiloes.com.br/imoveis/casas",
+      "imoveis_count": 425,
+      "url_type": "direct_path",
+      "all_category_links": [
+        {
+          "url": "https://www.megaleiloes.com.br/#",
+          "text": "explore por\ncategorias"
+        },
+        {
+          "url": "https://www.megaleiloes.com.br/imoveis/imoveis-rurais?tov=igbr&valor_max=5000000&tipo%5B0%5D=1?utm_source=banner_site&utm_medium=link&utm_campain=August-2025",
+          "text": ""
+        },
+        {
+          "url": "https://www.megaleiloes.com.br/categorias",
+          "text": "ver todos as categorias disponíveis"
+        }
+      ],
+      "analysis": {},
+      "errors": []
+    },
+    {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "success": true,
+      "imoveis_url": "https://www.sold.com.br/h/imoveis?searchType=opened&pageNumber=1&pageSize=15&orderBy=price:desc",
+      "imoveis_count": 265,
+      "url_type": "query_param",
+      "all_category_links": [
+        {
+          "url": "https://accounts.superbid.net/signin?response_type=token&client_id=dzqC3VodSoXukD45BQKg3NQU6-faststore&redirect_uri=https%253A%252F%252Fwww.sold.com.br%252F&authorization_uri=https://www.sold.com.br/authorization/&language=pt-BR&portal_id=2&store_id=1161&hostName=Sold",
+          "text": "entrar"
+        },
+        {
+          "url": "https://www.sold.com.br/h/imoveis?searchType=opened&pageNumber=1&pageSize=15&orderBy=price:desc",
+          "text": "142\n\nimóveis"
+        },
+        {
+          "url": "https://www.sold.com.br/h/carros-motos?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "90\n\ncarros & motos"
+        },
+        {
+          "url": "https://www.sold.com.br/h/caminhoes-onibus?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "164\n\ncaminhões & ônibus"
+        },
+        {
+          "url": "https://www.sold.com.br/h/maquinas-pesadas-agricolas?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "381\n\nmáquinas pesadas & agrícolas"
+        },
+        {
+          "url": "https://www.sold.com.br/h/movimentacao-transporte?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "662\n\nmovimentação & transporte"
+        },
+        {
+          "url": "https://www.sold.com.br/h/industrial-maquinas-equipamentos?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "998\n\nindustrial, máquinas & equipamentos"
+        },
+        {
+          "url": "https://www.sold.com.br/h/tecnologia?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "132\n\ntecnologia"
+        },
+        {
+          "url": "https://www.sold.com.br/h/moveis-e-decoracao?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "733\n\nmóveis e decoração"
+        },
+        {
+          "url": "https://www.sold.com.br/h/bolsas-canetas-joias-e-relogios?searchType=opened&pageNumber=1&pageSize=30&orderBy=price:desc",
+          "text": "2\n\nbolsas, canetas, joias e relógios"
+        }
+      ],
+      "analysis": {},
+      "errors": []
+    },
+    {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.lancejudicial.com.br",
+      "success": true,
+      "imoveis_url": "https://www.lancejudicial.com.br/imoveis/apartamentos",
+      "imoveis_count": 413,
+      "url_type": "direct_path",
+      "all_category_links": [
+        {
+          "url": "https://www.lancejudicial.com.br#",
+          "text": "categorias"
+        },
+        {
+          "url": "https://www.lancejudicial.com.br/categorias",
+          "text": "categorias"
+        }
+      ],
+      "analysis": {},
+      "errors": []
+    },
+    {
+      "id": "portalzuk",
+      "name": "Portal Zukerman",
+      "website": "https://www.portalzuk.com.br",
+      "success": true,
+      "imoveis_url": "https://www.portalzuk.com.br/leilao-de-imoveis/t/todos-imoveis/terrenos",
+      "imoveis_count": 1251,
+      "url_type": "menu_link",
+      "all_category_links": [
+        {
+          "url": "https://www.portalzuk.com.br/blog/categoria/lugares",
+          "text": "ver todos"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/blog/categoria/lugares",
+          "text": "ver todos"
+        }
+      ],
+      "analysis": {},
+      "errors": []
+    },
+    {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "website": "https://www.sodresantoro.com.br",
+      "success": true,
+      "imoveis_url": "https://www.sodresantoro.com.br/imoveis",
+      "imoveis_count": 204,
+      "url_type": "direct_path",
+      "all_category_links": [
+        {
+          "url": "https://www.sodresantoro.com.br/veiculos/lotes?lot_category=carros",
+          "text": "carros"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/veiculos/lotes?lot_category=motos",
+          "text": "motos"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/veiculos/lotes?lot_category=utilitarios+leves",
+          "text": "utilitarios leves"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/veiculos/lotes?lot_category=caminhões",
+          "text": "caminhões"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/materiais/lotes?lot_category=eletrodomesticos",
+          "text": "eletrodomesticos"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/materiais/lotes?lot_category=equip.+e+mat.+industriais",
+          "text": "equip. e mat. industriais"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/materiais/lotes?lot_category=diversos",
+          "text": "diversos"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/materiais/lotes?lot_category=informatica",
+          "text": "informatica"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/imoveis/lotes?lot_category=imóvel+residencial",
+          "text": "imóvel residencial"
+        },
+        {
+          "url": "https://www.sodresantoro.com.br/imoveis/lotes?lot_category=apartamento",
+          "text": "apartamento"
+        }
+      ],
+      "analysis": {},
+      "errors": []
+    }
+  ]
+}

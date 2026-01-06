@@ -1,0 +1,15 @@
+{
+  "id": "leilesonline",
+  "name": "Leilões Online",
+  "website": "https://www.leiloesonline.com.br",
+  "listing_url": "/imoveis",
+  "success": false,
+  "total_properties": 0,
+  "pages_scraped": 0,
+  "properties": [],
+  "errors": [
+    "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.leiloesonline.com.br/imoveis\", waiting until \"domcontentloaded\"\n"
+  ],
+  "started_at": "2026-01-05T20:19:59.007025",
+  "finished_at": null
+}

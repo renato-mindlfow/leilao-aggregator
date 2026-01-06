@@ -1,0 +1,7 @@
+{
+  "id": "alfredimveis",
+  "name": "Alfred Imóveis",
+  "website": "https://www.alfredimoveis.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

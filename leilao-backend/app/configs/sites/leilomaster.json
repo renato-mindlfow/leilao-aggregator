@@ -1,0 +1,28 @@
+{
+  "id": "leilomaster",
+  "name": "Leilo Master",
+  "website": "https://www.leilomaster.com.br",
+  "enabled": true,
+  "method": "playwright",
+  "listing_url": "/imoveis",
+  "selectors": {
+    "card": "[class*='card'], [class*='item'], article",
+    "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+  },
+  "pagination": {
+    "type": "none",
+    "param": "page"
+  },
+  "estimated_count": 1,
+  "last_checked": "2026-01-05",
+  "notes": "Config criado automaticamente em 2026-01-05",
+  "last_scrape": {
+    "date": "2026-01-05T20:22:26.615287",
+    "success": true,
+    "properties_found": 1,
+    "pages_scraped": 1,
+    "errors_count": 0
+  },
+  "last_count": 1,
+  "status": "success"
+}

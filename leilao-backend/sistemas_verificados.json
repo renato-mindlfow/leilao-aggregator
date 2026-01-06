@@ -1,0 +1,149 @@
+{
+  "superbid_sites": [
+    "superbid"
+  ],
+  "proprio_sites": [
+    "francoleiloes"
+  ],
+  "details": [
+    {
+      "site": "Superbid",
+      "url": "https://www.superbid.net",
+      "system_type": "superbid",
+      "indicators": [
+        "Superbid: offer-query.superbid.net",
+        "Superbid: superbid",
+        "Superbid: storeid",
+        "Superbid: portalid"
+      ],
+      "api_endpoints": [
+        "/leilao/todos"
+      ]
+    },
+    {
+      "site": "Lance no Leilão",
+      "url": "https://www.lancenoleilao.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": []
+    },
+    {
+      "site": "LUT",
+      "url": "https://www.lut.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/api/indique"
+      ]
+    },
+    {
+      "site": "Big Leilão",
+      "url": "https://www.bigleilao.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leiloes/logos"
+      ]
+    },
+    {
+      "site": "Via Leilões",
+      "url": "https://www.vialeiloes.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leilao/comissao",
+        "/leilao/juizado",
+        "/leilao/vara"
+      ]
+    },
+    {
+      "site": "Freitas Leiloeiro",
+      "url": "https://www.freitasleiloeiro.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": []
+    },
+    {
+      "site": "Frazão Leilões",
+      "url": "https://www.frazaoleiloes.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": []
+    },
+    {
+      "site": "Franco Leilões",
+      "url": "https://www.francoleiloes.com.br",
+      "system_type": "proprio",
+      "indicators": [
+        "Proprio: mvc"
+      ],
+      "api_endpoints": []
+    },
+    {
+      "site": "Lance Judicial",
+      "url": "https://www.lancejudicial.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leiloes/extrajudiciais",
+        "/leiloes/trt",
+        "/leiloes/judiciais"
+      ]
+    },
+    {
+      "site": "Leilões Freire",
+      "url": "https://www.leiloesfreire.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leiloes/december"
+      ]
+    },
+    {
+      "site": "BFR Contábil",
+      "url": "https://www.bfrcontabil.com.br",
+      "system_type": "error",
+      "indicators": [],
+      "api_endpoints": [],
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    {
+      "site": "Kronberg Leilões",
+      "url": "https://www.kronbergleiloes.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": []
+    },
+    {
+      "site": "LeiloMaster",
+      "url": "https://www.leilomaster.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leilao/moto",
+        "/leilao/carros",
+        "/leilao/pesados",
+        "/leilao/imoveis",
+        "/leilao/equipamentos"
+      ]
+    },
+    {
+      "site": "Nossos Leilão",
+      "url": "https://www.nossoleilao.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": []
+    },
+    {
+      "site": "Líder Leilões",
+      "url": "https://www.liderleiloes.com.br",
+      "system_type": "unknown",
+      "indicators": [],
+      "api_endpoints": [
+        "/leilao/imoveis",
+        "/leilao/diversos",
+        "/leilao/eletros"
+      ]
+    }
+  ]
+}

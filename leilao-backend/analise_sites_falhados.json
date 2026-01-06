@@ -1,0 +1,41 @@
+{
+  "megaleiloes": {
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.megaleiloes.com.br/imoveis\", waiting until \"networkidle\"\n"
+  },
+  "lancejudicial": {
+    "url": "https://www.grupolance.com.br/imoveis",
+    "cloudflare": false,
+    "cards": [
+      {
+        "tag": "LI",
+        "classes": "position-static dropdown nav-item"
+      },
+      {
+        "tag": "LI",
+        "classes": "nav-item"
+      },
+      {
+        "tag": "LI",
+        "classes": "nav-item"
+      }
+    ],
+    "links": [],
+    "pagination": {
+      "found": true,
+      "has_next": true
+    }
+  },
+  "portalzuk": {
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.portalzuk.com.br/leilao-de-imoveis\", waiting until \"networkidle\"\n"
+  },
+  "sold": {
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.sold.com.br/h/imoveis\", waiting until \"networkidle\"\n",
+    "api": {
+      "status_code": 200,
+      "total": 46885,
+      "items_returned": 10,
+      "filter": "product.productType.description:imoveis",
+      "working": true
+    }
+  }
+}

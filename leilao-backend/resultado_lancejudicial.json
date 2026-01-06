@@ -1,0 +1,13 @@
+{
+  "id": "lancejudicial",
+  "name": "Lance Judicial",
+  "website": "https://www.lancejudicial.com.br",
+  "listing_url": "/imoveis",
+  "success": false,
+  "total_properties": 0,
+  "pages_scraped": 1,
+  "properties": [],
+  "errors": [],
+  "started_at": "2026-01-04T22:13:01.991156",
+  "finished_at": "2026-01-04T22:13:20.608459"
+}

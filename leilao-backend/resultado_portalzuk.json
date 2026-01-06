@@ -1,0 +1,13 @@
+{
+  "id": "portalzuk",
+  "name": "Portal Zukerman",
+  "website": "https://www.portalzuk.com.br",
+  "listing_url": "/leilao-de-imoveis",
+  "success": false,
+  "total_properties": 0,
+  "pages_scraped": 1,
+  "properties": [],
+  "errors": [],
+  "started_at": "2026-01-04T22:13:25.646626",
+  "finished_at": "2026-01-04T22:13:40.305798"
+}

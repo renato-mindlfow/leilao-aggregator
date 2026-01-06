@@ -1,0 +1,9 @@
+{
+  "id": "lancejudicial",
+  "name": "Lance Judicial",
+  "method": "playwright",
+  "success": false,
+  "total_extracted": 0,
+  "properties": [],
+  "errors": []
+}

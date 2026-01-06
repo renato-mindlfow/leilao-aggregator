@@ -1,0 +1,28 @@
+{
+  "id": "zukerman",
+  "name": "Zukerman",
+  "website": "https://www.zukerman.com.br",
+  "enabled": true,
+  "method": "playwright",
+  "listing_url": "/imoveis",
+  "selectors": {
+    "card": "[class*='card'], [class*='item'], article",
+    "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+  },
+  "pagination": {
+    "type": "query_param",
+    "param": "p"
+  },
+  "estimated_count": 127,
+  "last_checked": "2026-01-05",
+  "notes": "Config criado automaticamente em 2026-01-05",
+  "last_scrape": {
+    "date": "2026-01-05T20:22:26.613816",
+    "success": true,
+    "properties_found": 36,
+    "pages_scraped": 1,
+    "errors_count": 0
+  },
+  "last_count": 36,
+  "status": "success"
+}

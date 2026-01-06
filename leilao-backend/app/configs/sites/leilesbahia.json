@@ -1,0 +1,7 @@
+{
+  "id": "leilesbahia",
+  "name": "Leilões Bahia",
+  "website": "https://www.leiloesbahia.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

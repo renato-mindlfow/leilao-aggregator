@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-01-04T20:10:09.515508",
+  "method": "playwright_stealth",
+  "total_sites": 5,
+  "successful": 2,
+  "total_properties": 90,
+  "results": [
+    {
+      "site_id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "success": false,
+      "properties_found": 0,
+      "property_links": [],
+      "sample_data": [],
+      "working_url": null,
+      "errors": [],
+      "method_used": "playwright_stealth"
+    },
+    {
+      "site_id": "portalzuk",
+      "name": "Portal Zukerman",
+      "website": "https://www.portalzuk.com.br",
+      "success": true,
+      "properties_found": 42,
+      "property_links": [
+        "https://www.portalzuk.com.br/imovel/rs/pelotas/centro/rua-goncalves-chaves-453/35034-216129",
+        "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/salgado-filho/rua-luizina-bonatto-bertoni-55/35025-216044",
+        "https://www.portalzuk.com.br/imovel/sp/sao-paulo/tatuape/rua-santa-catarina-707/35126-216477",
+        "https://www.portalzuk.com.br/imovel/rs/santa-maria/centro/rua-tiradentes-23/35025-216028",
+        "https://www.portalzuk.com.br/imovel/pr/sao-mateus-do-sul/loteamento-vila-faty/rua-eng.-joaquim-pereira-de-lima-960/35135-216505",
+        "https://www.portalzuk.com.br/imovel/sp/santa-cruz-do-rio-pardo/area-rural/rodovia-joao-baptista-cabral-renno-s-n/35132-216502",
+        "https://www.portalzuk.com.br/imovel/rs/sao-leopoldo/feitoria/rua-suriname-9_a/35025-215963",
+        "https://www.portalzuk.com.br/imovel/rs/ivoti/vista-alegre/rua-henrique-aloisio-bockorny-136/35025-216045",
+        "https://www.portalzuk.com.br/imovel/rs/pelotas/laranjal/rua-esteio-1864/35025-215954",
+        "https://www.portalzuk.com.br/imovel/rs/santiago/gaspar-dutra/avenida-padre-assis-174/35034-216163",
+        "https://www.portalzuk.com.br/imovel/sp/santos/ponta-da-praia/rua-adolfo-lutz-204-206/35121-216472",
+        "https://www.portalzuk.com.br/imovel/rs/bage/petropolis/rua-ney-ribeiro-flores-752/35025-216011",
+        "https://www.portalzuk.com.br/imovel/rs/gravatai/morada-do-vale-i/r.-antenor-lemos-359/35025-215911",
+        "https://www.portalzuk.com.br/imovel/sp/sao-paulo/saude/avenida-padre-arlindo-vieira-520/35123-216474",
+        "https://www.portalzuk.com.br/imovel/rs/fortaleza-dos-valos/centro/avenida-geronimo-stefanello-1826/35025-215927",
+        "https://www.portalzuk.com.br/imovel/rs/passo-fundo/lucas-araujo/rua-alfredo-chaves-379/35025-215892",
+        "https://www.portalzuk.com.br/imovel/sp/sao-jose-dos-campos/urbanova/avenida-shishina-hifumi-3150/35137-216507",
+        "https://www.portalzuk.com.br/imovel/rs/nova-petropolis/linha-brasil/rua-julio-carlos-feldens-s-n%C2%BA/35084-216253",
+        "https://www.portalzuk.com.br/imovel/pe/floresta/centro/avenida-governador-paulo-pessoa-guerra-s-n/35120-216471",
+        "https://www.portalzuk.com.br/imovel/sp/adamantina/residencial-vista-verde/avenida-maria-angela-freire-marin-s-n/35125-216476"
+      ],
+      "sample_data": [
+        {
+          "url": "https://www.portalzuk.com.br/imovel/rs/pelotas/centro/rua-goncalves-chaves-453/35034-216129",
+          "title": "Sala Comercial à venda em leilão",
+          "price": "R$ 165.000,00",
+          "location": "Pelotas/RS"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/imovel/rs/caxias-do-sul/salgado-filho/rua-luizina-bonatto-bertoni-55/35025-216044",
+          "title": "Casa à venda em leilão",
+          "price": "R$ 597.600,00",
+          "location": "Caxias do Sul/RS"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/imovel/sp/sao-paulo/tatuape/rua-santa-catarina-707/35126-216477",
+          "title": "Apartamento à venda em leilão",
+          "price": "R$ 110.142,46",
+          "location": "São Paulo/SP"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/imovel/rs/santa-maria/centro/rua-tiradentes-23/35025-216028",
+          "title": "Apartamento à venda em leilão",
+          "price": "R$ 530.400,00",
+          "location": "Santa Maria/RS"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/imovel/pr/sao-mateus-do-sul/loteamento-vila-faty/rua-eng.-joaquim-pereira-de-lima-960/35135-216505",
+          "title": "Casa à venda em leilão",
+          "price": "R$ 280.000,00",
+          "location": "São Mateus do Sul/PR"
+        }
+      ],
+      "working_url": "https://www.portalzuk.com.br/",
+      "errors": [],
+      "method_used": "playwright_stealth"
+    },
+    {
+      "site_id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "success": false,
+      "properties_found": 0,
+      "property_links": [],
+      "sample_data": [],
+      "working_url": null,
+      "errors": [],
+      "method_used": "playwright_stealth"
+    },
+    {
+      "site_id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "website": "https://www.sodresantoro.com.br",
+      "success": true,
+      "properties_found": 48,
+      "property_links": [
+        "https://leilao.sodresantoro.com.br/leilao/27980/lote/2706779/",
+        "https://leilao.sodresantoro.com.br/leilao/28013/lote/2710938/",
+        "https://leilao.sodresantoro.com.br/leilao/27879/lote/2698975/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710617/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710587/",
+        "https://leilao.sodresantoro.com.br/leilao/28018/lote/2713798/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710621/",
+        "https://leilao.sodresantoro.com.br/leilao/28025/lote/2712977/",
+        "https://leilao.sodresantoro.com.br/leilao/28025/lote/2713490/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710626/",
+        "https://leilao.sodresantoro.com.br/leilao/27881/lote/2699070/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710578/",
+        "https://leilao.sodresantoro.com.br/leilao/28025/lote/2713504/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710602/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710574/",
+        "https://leilao.sodresantoro.com.br/leilao/27881/lote/2699110/",
+        "https://leilao.sodresantoro.com.br/leilao/27984/lote/2707283/",
+        "https://leilao.sodresantoro.com.br/leilao/28025/lote/2713470/",
+        "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710588/",
+        "https://leilao.sodresantoro.com.br/leilao/27881/lote/2699100/"
+      ],
+      "sample_data": [
+        {
+          "url": "https://leilao.sodresantoro.com.br/leilao/27980/lote/2706779/",
+          "title": "Lotes em leilão",
+          "price": "R$ 10.500.000",
+          "location": "org/TR"
+        },
+        {
+          "url": "https://leilao.sodresantoro.com.br/leilao/28013/lote/2710938/",
+          "title": "Lotes em leilão",
+          "price": "R$ 2.205.000,00",
+          "location": "org/TR"
+        },
+        {
+          "url": "https://leilao.sodresantoro.com.br/leilao/27879/lote/2698975/",
+          "title": "Lotes em leilão",
+          "price": "R$ 8.964.156,60",
+          "location": "org/TR"
+        },
+        {
+          "url": "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710617/",
+          "title": "Lotes em leilão",
+          "price": "R$ 15.000",
+          "location": "org/TR"
+        },
+        {
+          "url": "https://leilao.sodresantoro.com.br/leilao/28008/lote/2710587/",
+          "title": "Lotes em leilão",
+          "price": "R$ 170.000",
+          "location": "org/TR"
+        }
+      ],
+      "working_url": "https://www.sodresantoro.com.br/",
+      "errors": [],
+      "method_used": "playwright_stealth"
+    },
+    {
+      "site_id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.lancejudicial.com.br",
+      "success": false,
+      "properties_found": 0,
+      "property_links": [],
+      "sample_data": [],
+      "working_url": null,
+      "errors": [],
+      "method_used": "playwright_stealth"
+    }
+  ]
+}

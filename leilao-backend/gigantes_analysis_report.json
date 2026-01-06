@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-01-04T19:34:35.043428",
+  "total_sites": 5,
+  "active": 0,
+  "needs_investigation": 5,
+  "total_properties_found": 0,
+  "results": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "status": "needs_investigation",
+      "working_url": null,
+      "requires_js": false,
+      "has_cloudflare": true,
+      "properties_found": 0,
+      "property_links": [],
+      "selectors": {},
+      "sample_data": {},
+      "errors": [],
+      "analysis_notes": [
+        "[WARN] Cloudflare detectado",
+        "Nenhuma página de listagem encontrada"
+      ]
+    },
+    {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "website": "https://www.sodresantoro.com.br",
+      "status": "needs_investigation",
+      "working_url": null,
+      "requires_js": false,
+      "has_cloudflare": false,
+      "properties_found": 0,
+      "property_links": [],
+      "selectors": {},
+      "sample_data": {},
+      "errors": [],
+      "analysis_notes": [
+        "Nenhuma página de listagem encontrada"
+      ]
+    },
+    {
+      "id": "portalzuk",
+      "name": "Portal Zukerman",
+      "website": "https://www.portalzuk.com.br",
+      "status": "needs_investigation",
+      "working_url": null,
+      "requires_js": false,
+      "has_cloudflare": true,
+      "properties_found": 0,
+      "property_links": [],
+      "selectors": {},
+      "sample_data": {},
+      "errors": [],
+      "analysis_notes": [
+        "[WARN] Cloudflare detectado",
+        "Nenhuma página de listagem encontrada"
+      ]
+    },
+    {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "status": "needs_investigation",
+      "working_url": null,
+      "requires_js": false,
+      "has_cloudflare": true,
+      "properties_found": 0,
+      "property_links": [],
+      "selectors": {},
+      "sample_data": {},
+      "errors": [],
+      "analysis_notes": [
+        "[WARN] Cloudflare detectado",
+        "Nenhuma página de listagem encontrada"
+      ]
+    },
+    {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.lancejudicial.com.br",
+      "status": "needs_investigation",
+      "working_url": null,
+      "requires_js": false,
+      "has_cloudflare": false,
+      "properties_found": 0,
+      "property_links": [],
+      "selectors": {},
+      "sample_data": {},
+      "errors": [],
+      "analysis_notes": [
+        "Nenhuma página de listagem encontrada"
+      ]
+    }
+  ]
+}

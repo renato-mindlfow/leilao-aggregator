@@ -7,7 +7,7 @@ import os
 import logging
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
-from contextlib import contextmanager
+from contextlib import contextmanager, nullcontext
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
 import psycopg
@@ -24,10 +24,10 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-# Database URL from environment - NO FALLBACK, must be in .env
+# Database URL from environment - NO FALLBACK, must be in .env (unless SKIP_DB_INIT is set)
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-if not DATABASE_URL:
+if not DATABASE_URL and os.getenv("SKIP_DB_INIT") != "true":
     raise ValueError("DATABASE_URL não configurada no .env")
 
 # SQL to create tables
@@ -122,8 +122,56 @@ def normalize_url(url: str) -> str:
         return url.lower().strip()
 
 
+class _OfflineConnectionMock:
+    """Mock connection object for offline mode."""
+    
+    class _OfflineCursorMock:
+        """Mock cursor object for offline mode."""
+        def execute(self, *args, **kwargs):
+            logger.debug("Modo Offline: execute() ignorado")
+            return None
+        
+        def fetchone(self):
+            # Retornar dict vazio para evitar KeyError quando acessar chaves
+            # Métodos devem lidar com dict vazio ou None retornando valores padrão
+            return {}
+        
+        def fetchall(self):
+            return []
+        
+        def commit(self):
+            logger.debug("Modo Offline: commit() ignorado")
+        
+        def __enter__(self):
+            return self
+        
+        def __exit__(self, *args):
+            return False
+    
+    def cursor(self):
+        return self._OfflineCursorMock()
+    
+    def commit(self):
+        logger.debug("Modo Offline: commit() ignorado")
+    
+    def __enter__(self):
+        return self
+    
+    def __exit__(self, *args):
+        return False
+
+
 class PostgresDatabase:
     def __init__(self):
+        # Verificar se modo offline está ativado
+        self._offline_mode = os.getenv('SKIP_DB_INIT') == 'true'
+        
+        if self._offline_mode:
+            logger.info("Modo Offline Ativado - Conexão com banco de dados desabilitada")
+            # Cache for auctioneers vazio em modo offline
+            self._auctioneers_cache: Dict[str, Auctioneer] = {}
+            return
+        
         if not DATABASE_URL:
             raise ValueError("DATABASE_URL environment variable is not set")
         
@@ -137,10 +185,17 @@ class PostgresDatabase:
     
     def _get_connection(self):
         """Get a database connection."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: Retornando conexão mock")
+            return _OfflineConnectionMock()
         return psycopg.connect(DATABASE_URL, row_factory=dict_row)
     
     def _init_db(self):
         """Initialize database tables."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: Inicialização de tabelas ignorada")
+            return
+        
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
@@ -154,6 +209,10 @@ class PostgresDatabase:
     
     def _load_auctioneers_cache(self):
         """Load auctioneers into memory cache."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: Carregamento de cache ignorado")
+            return
+        
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
@@ -246,6 +305,10 @@ class PostgresDatabase:
         # Normalizar cidade e bairro
         prop.city = normalize_city_name(prop.city)
         prop.neighborhood = normalize_neighborhood(prop.neighborhood)
+        
+        if self._offline_mode:
+            logger.debug(f"Modo Offline: add_property({prop.id}) ignorado - propriedade não salva")
+            return prop
         
         try:
             with self._get_connection() as conn:
@@ -379,6 +442,9 @@ class PostgresDatabase:
         sort_order: str = "desc"
     ) -> Tuple[List[Property], int]:
         """Get properties with filtering and pagination."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: get_properties() retornando lista vazia")
+            return [], 0
         try:
             conditions = []
             params = []
@@ -441,7 +507,8 @@ class PostgresDatabase:
                 with conn.cursor() as cur:
                     # Get total count
                     cur.execute(f"SELECT COUNT(*) as count FROM properties WHERE {where_clause}", params)
-                    total = cur.fetchone()['count']
+                    row = cur.fetchone()
+                    total = row['count'] if row and 'count' in row else 0
                     
                     # Get paginated results with NULLS positioning
                     cur.execute(
@@ -458,22 +525,30 @@ class PostgresDatabase:
     
     def get_property_count(self) -> int:
         """Get total property count."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: get_property_count() retornando 0")
+            return 0
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
                     cur.execute("SELECT COUNT(*) as count FROM properties")
-                    return cur.fetchone()['count']
+                    row = cur.fetchone()
+                    return row['count'] if row and 'count' in row else 0
         except Exception as e:
             logger.error(f"Error getting property count: {e}")
             return 0
     
     def get_unique_property_count(self) -> int:
         """Get count of non-duplicate properties."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: get_unique_property_count() retornando 0")
+            return 0
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
                     cur.execute("SELECT COUNT(*) as count FROM properties WHERE is_duplicate = FALSE")
-                    return cur.fetchone()['count']
+                    row = cur.fetchone()
+                    return row['count'] if row and 'count' in row else 0
         except Exception as e:
             logger.error(f"Error getting unique property count: {e}")
             return 0
@@ -515,16 +590,28 @@ class PostgresDatabase:
     
     def get_stats(self) -> dict:
         """Get database statistics."""
+        if self._offline_mode:
+            logger.debug("Modo Offline: get_stats() retornando dict vazio")
+            return {
+                'total': 0,
+                'unique': 0,
+                'duplicates': 0,
+                'category_counts': {},
+                'state_counts': {},
+                'auctioneer_counts': {}
+            }
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
                     # Total properties
                     cur.execute("SELECT COUNT(*) as count FROM properties")
-                    total = cur.fetchone()['count']
+                    row = cur.fetchone()
+                    total = row['count'] if row and 'count' in row else 0
                     
                     # Unique properties (non-duplicates)
                     cur.execute("SELECT COUNT(*) as count FROM properties WHERE is_duplicate = FALSE")
-                    unique = cur.fetchone()['count']
+                    row = cur.fetchone()
+                    unique = row['count'] if row and 'count' in row else 0
                     
                     # Duplicates
                     duplicates = total - unique
@@ -679,6 +766,9 @@ class PostgresDatabase:
     
     def get_properties_by_source(self, source: str, include_duplicates: bool = False) -> Tuple[List[Property], int]:
         """Get properties filtered by source."""
+        if self._offline_mode:
+            logger.debug(f"Modo Offline: get_properties_by_source({source}) retornando lista vazia")
+            return [], 0
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
@@ -687,7 +777,8 @@ class PostgresDatabase:
                         conditions.append("is_duplicate = FALSE")
                     where_clause = " AND ".join(conditions)
                     cur.execute(f"SELECT COUNT(*) as count FROM properties WHERE {where_clause}", (source,))
-                    count = cur.fetchone()['count']
+                    row = cur.fetchone()
+                    count = row['count'] if row and 'count' in row else 0
                     return [], count
         except Exception as e:
             logger.error(f"Error getting properties by source: {e}")

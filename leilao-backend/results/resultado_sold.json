@@ -1,0 +1,1362 @@
+{
+  "id": "sold",
+  "name": "Sold Leilões",
+  "method": "api",
+  "started_at": "2026-01-05T15:14:26.852523",
+  "finished_at": "2026-01-05T15:14:32.000934",
+  "success": true,
+  "total_properties": 150,
+  "properties": [
+    {
+      "id": 2504932,
+      "url": "https://www.sold.com.br/produto/2504932",
+      "title": "Apto 99,22m², 1 Vaga, Ocupado - no Bairro Figueira em Gaspar/SC",
+      "price": "R$ 419.485,30",
+      "location": "Gaspar - SC, Santa Catarina",
+      "image_url": "https://ms.sbwebservices.net/photos/7a4c9cc6-5e68-4bd9-a7f3-018c4b18f719.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132056"
+    },
+    {
+      "id": 2477555,
+      "url": "https://www.sold.com.br/produto/2477555",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 620 do Grupo nº 743, administrada pelo Bradesco Administradora de Consórcios Ltda., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. ",
+      "price": "R$ 7.899,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/82abea86-4c45-49a4-b92e-74a465142b85.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132122"
+    },
+    {
+      "id": 2505788,
+      "url": "https://www.sold.com.br/produto/2505788",
+      "title": "Apto. 71m² no Rio do Ouro, São Gonçalo/RJ",
+      "price": "R$ 150.426,95",
+      "location": "São Gonçalo - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/f8211c6c-8593-4614-821b-92becff41101.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132138"
+    },
+    {
+      "id": 2281980,
+      "url": "https://www.sold.com.br/produto/2281980",
+      "title": "Sala Comercial 43m² no Alphaville em Barueri/SP",
+      "price": "R$ 572.235,84",
+      "location": "Barueri - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/bbd55c5e-e164-4a9c-bf5d-329a7443df24.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132149"
+    },
+    {
+      "id": 2517502,
+      "url": "https://www.sold.com.br/produto/2517502",
+      "title": "Sala Comercial 57m² DESOCUPADA, no Centro no Rio de Janeiro/RJ",
+      "price": "R$ 199.500,00",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/2a2971fa-67c9-4fa7-af25-536e7d3f6fac.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132160"
+    },
+    {
+      "id": 2514574,
+      "url": "https://www.sold.com.br/produto/2514574",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 798 do Grupo nº 360, administrada pelo Bradesco Administradora de Consórcios Ltda., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento.\n",
+      "price": "R$ 13.499,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e43be835-2b62-42e4-9f8a-aa798ca3f982.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132169"
+    },
+    {
+      "id": 2492454,
+      "url": "https://www.sold.com.br/produto/2492454",
+      "title": "Casa 67m² no Parque dos Ipês em Fartura/SP",
+      "price": "R$ 156.527,08",
+      "location": "Fartura - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/2fa2e2ee-38f6-41e7-bcc5-35d71ddd1443.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132178"
+    },
+    {
+      "id": 2492903,
+      "url": "https://www.sold.com.br/produto/2492903",
+      "title": "Apto 76m² c/ 01 Vaga na Freguesia de Jacarepaguá, Rio de Janeiro/RJ",
+      "price": "R$ 334.172,65",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/72252c3a-087b-4611-8d96-6c9b561e1de3.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132188"
+    },
+    {
+      "id": 2300361,
+      "url": "https://www.sold.com.br/produto/2300361",
+      "title": "Apto 54m² no Dom Joaquim em Brusque/SC - 37% abaixo da avaliação",
+      "price": "R$ 164.297,24",
+      "location": "Brusque - SC, Santa Catarina",
+      "image_url": "https://ms.sbwebservices.net/photos/349fb8fe-41a9-4605-b7e8-0131767480f1.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132196"
+    },
+    {
+      "id": 2279489,
+      "url": "https://www.sold.com.br/produto/2279489",
+      "title": "Apto 100m² na Vila da Penha no Rio de Janeiro/RJ",
+      "price": "R$ 346.436,84",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/fb26e4c7-1b98-497f-9b65-8312e30d3911.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132205"
+    },
+    {
+      "id": 2302240,
+      "url": "https://www.sold.com.br/produto/2302240",
+      "title": "Casa em Cond. 49m² no Caguassu, Sorocaba/SP",
+      "price": "R$ 155.282,20",
+      "location": "Sorocaba - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/84c8138d-d65e-433a-9a9f-9d24c17f36bd.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132216"
+    },
+    {
+      "id": 2463160,
+      "url": "https://www.sold.com.br/produto/2463160",
+      "title": "Apto. 56m², 1 vaga dupla no Res. Puerto Madero em São Bernardo do Campo/SP",
+      "price": "R$ 512.272,18",
+      "location": "São Bernardo do Campo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/b0cf55f4-2e31-4367-9874-2ec333f3fbea.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132226"
+    },
+    {
+      "id": 2461141,
+      "url": "https://www.sold.com.br/produto/2461141",
+      "title": "PRÉDIO COMERCIAL (ex-agência) - DESOCUPADO - BAIRRO: CENTRO - Vitória/ES",
+      "price": "R$ 6.224.000,00",
+      "location": "Vitória - ES, Espírito Santo",
+      "image_url": "",
+      "extracted_at": "2026-01-05T15:14:27.132236"
+    },
+    {
+      "id": 2468634,
+      "url": "https://www.sold.com.br/produto/2468634",
+      "title": "Casa 244m² em Leme/SP",
+      "price": "R$ 1.683.127,95",
+      "location": "Leme - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/7d3be15f-96f0-4949-ac87-c184d1ba542e.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132244"
+    },
+    {
+      "id": 2473414,
+      "url": "https://www.sold.com.br/produto/2473414",
+      "title": "Apto 73m² na Vila Mariana em São Paulo/SP",
+      "price": "R$ 892.881,46",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e7d29917-f3e3-4722-a6ee-5a73b056fb9f.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132252"
+    },
+    {
+      "id": 2472223,
+      "url": "https://www.sold.com.br/produto/2472223",
+      "title": "Apto. 133m², 1 vaga no Jardim Nena, Suzano/SP",
+      "price": "R$ 640.241,07",
+      "location": "Suzano - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/7a0e6130-2aae-4d19-bb3a-f611faf1255e.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132260"
+    },
+    {
+      "id": 2457364,
+      "url": "https://www.sold.com.br/produto/2457364",
+      "title": "Casa 143m² c/ 02 Vagas em Patos de Minas/MG",
+      "price": "R$ 70.820,74",
+      "location": "Patos de Minas - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/2d220de7-f4a9-44cc-9cf8-97e9314a8dcc.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132269"
+    },
+    {
+      "id": 2419585,
+      "url": "https://www.sold.com.br/produto/2419585",
+      "title": "Sala Comercial 29m² no Ibirapuera em São Paulo/SP",
+      "price": "R$ 613.194,41",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "",
+      "extracted_at": "2026-01-05T15:14:27.132279"
+    },
+    {
+      "id": 2456563,
+      "url": "https://www.sold.com.br/produto/2456563",
+      "title": "Terreno 460m² Desocupado em Vazante/MG - Lote nº 07, da Quadra nº I",
+      "price": "R$ 70.262,50",
+      "location": "Vazante - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/43397edb-fe66-4239-971b-9f628bc94064.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132290"
+    },
+    {
+      "id": 2456570,
+      "url": "https://www.sold.com.br/produto/2456570",
+      "title": "Terreno 375m² Desocupado em Vazante/MG - Lote nº 07, da Quadra nº J",
+      "price": "R$ 57.122,80",
+      "location": "Vazante - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/fb45d0a9-4ae4-4ac6-842d-8ccbdced6788.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132300"
+    },
+    {
+      "id": 2456575,
+      "url": "https://www.sold.com.br/produto/2456575",
+      "title": "Terreno 375m² Desocupado em Vazante/MG - Lote nº 13, da Quadra nº J",
+      "price": "R$ 57.122,80",
+      "location": "Vazante - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/eb6a5df9-5e11-4f73-80aa-5a8dd45184e7.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132309"
+    },
+    {
+      "id": 2456564,
+      "url": "https://www.sold.com.br/produto/2456564",
+      "title": "Terreno 375m² Desocupado em Vazante/MG - Lote nº 01, da Quadra nº J",
+      "price": "R$ 57.122,80",
+      "location": "Vazante - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/fbc694f5-2a5f-4da4-96e7-0f9de5b92c0c.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132318"
+    },
+    {
+      "id": 2456565,
+      "url": "https://www.sold.com.br/produto/2456565",
+      "title": "Terreno 375m² Desocupado em Vazante/MG - Lote nº 02, da Quadra nº J",
+      "price": "R$ 57.122,80",
+      "location": "Vazante - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/d961da04-78e7-4e84-a9df-4fed24c3a7c3.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132325"
+    },
+    {
+      "id": 2450508,
+      "url": "https://www.sold.com.br/produto/2450508",
+      "title": "Apartamento, Ocupado, Cuiaba / MT (34% abaixo da avaliação)",
+      "price": "R$ 421.400,00",
+      "location": "Cuiabá - MT, Mato Grosso",
+      "image_url": "https://ms.sbwebservices.net/photos/79d55c04-cefc-41cc-bf23-afcd6a6ab226.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132335"
+    },
+    {
+      "id": 2448141,
+      "url": "https://www.sold.com.br/produto/2448141",
+      "title": "Casa 75m² no Bairro Serrinha em Fortaleza/CE",
+      "price": "R$ 261.821,60",
+      "location": "Fortaleza - CE, Ceará",
+      "image_url": "https://ms.sbwebservices.net/photos/ff377f49-3985-48ea-afed-e14814108ab7.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132345"
+    },
+    {
+      "id": 2445611,
+      "url": "https://www.sold.com.br/produto/2445611",
+      "title": "Sala 25m² no Bairro Pechincha, Rio de Janeiro/RJ",
+      "price": "R$ 355.066,41",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/c9107eb1-1dfb-4901-8af5-6eb84d962dc8.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132355"
+    },
+    {
+      "id": 2301067,
+      "url": "https://www.sold.com.br/produto/2301067",
+      "title": "Casa 450m² Jd. Vila Romana em Indaiatuba/SP",
+      "price": "R$ 1.625.547,23",
+      "location": "Indaiatuba - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/d100e73c-1138-4022-a05d-9263d2c6c4b8.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132361"
+    },
+    {
+      "id": 2497002,
+      "url": "https://www.sold.com.br/produto/2497002",
+      "title": "Apto 75m² na Chácara Capuava em Vinhedo/SP",
+      "price": "R$ 315.586,80",
+      "location": "Vinhedo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/a8795b79-6c4d-43a7-bc96-d84483a2c609.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132367"
+    },
+    {
+      "id": 2477520,
+      "url": "https://www.sold.com.br/produto/2477520",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 499 do Grupo nº CA02, administrada pela Porto Seguro, para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. Crédito no valor de R$ 436.811",
+      "price": "R$ 61.999,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/d78d476c-36b7-4308-9d94-f2bac66aa6c6.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132389"
+    },
+    {
+      "id": 2477528,
+      "url": "https://www.sold.com.br/produto/2477528",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 552, do Grupo nº 3066, administrada pelo Santander., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. Crédito no valor de R$ 159.957,",
+      "price": "R$ 22.999,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e8924a08-b9da-4959-96ca-d8c7cb6509a6.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132395"
+    },
+    {
+      "id": 2481492,
+      "url": "https://www.sold.com.br/produto/2481492",
+      "title": "Apto. DESOCUPADO 99m², 3 dorms., 1 vaga na Vila Florida, Guarulhos/SP",
+      "price": "R$ 195.222,90",
+      "location": "Guarulhos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e65a12a5-1bda-420b-813b-6708e9b957c4.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132401"
+    },
+    {
+      "id": 2488235,
+      "url": "https://www.sold.com.br/produto/2488235",
+      "title": "Apto. 140m², 1 vaga no Canto do Forte, Praia Grande - SP",
+      "price": "R$ 581.646,29",
+      "location": "Praia Grande - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/4e6b74c0-4cc7-46e9-9825-155d775b9ccd.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132407"
+    },
+    {
+      "id": 2483381,
+      "url": "https://www.sold.com.br/produto/2483381",
+      "title": "Apto 108m², 1 Vaga Ocupada no Gama em Brasília/DF",
+      "price": "R$ 226.872,43",
+      "location": "Brasília - DF, Distrito Federal",
+      "image_url": "https://ms.sbwebservices.net/photos/a74c0a51-0f87-4e7f-a313-e48d10cca10c.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132413"
+    },
+    {
+      "id": 2556777,
+      "url": "https://www.sold.com.br/produto/2556777",
+      "title": "Cota de Consórcio CONTEMPLADA nº 620 do Grupo nº 743, administrada pelo Bradesco Administradora de Consórcios Ltda., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. Créd",
+      "price": "R$ 24.499,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/fe5d3aa5-8f14-4777-89e6-a1a9c40ae3fb.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132420"
+    },
+    {
+      "id": 2560342,
+      "url": "https://www.sold.com.br/produto/2560342",
+      "title": "Apartamento nº 202, 1 Vaga,  em Freguesia de N.S.D Ajuda, Rio de Janeiro/RJ",
+      "price": "R$ 397.207,66",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/408bdcfb-1903-474e-a1a4-5cddad24feeb.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132426"
+    },
+    {
+      "id": 2551461,
+      "url": "https://www.sold.com.br/produto/2551461",
+      "title": "Casa 360m² no Bairro Centro, São Vicente de Minas/MG",
+      "price": "R$ 526.964,28",
+      "location": "São Vicente de Minas - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/165a7834-0b3d-4e00-84b5-25b8cb605755.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132431"
+    },
+    {
+      "id": 2544003,
+      "url": "https://www.sold.com.br/produto/2544003",
+      "title": "Apto 76m² c/ 01 Vaga em Campo Grande/MS",
+      "price": "R$ 150.500,00",
+      "location": "Campo Grande - MS, Mato Grosso do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/0797739c-391d-4fb0-8e5e-49ce0f0c05e0.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132437"
+    },
+    {
+      "id": 2604574,
+      "url": "https://www.sold.com.br/produto/2604574",
+      "title": "Apartamento 63m², 1 Vaga,  Ocupado, em  Guarulhos/SP",
+      "price": "R$ 405.303,70",
+      "location": "Guarulhos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/bc27a6b1-0b16-4a1b-a2b9-878eadaca011.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132443"
+    },
+    {
+      "id": 2642548,
+      "url": "https://www.sold.com.br/produto/2642548",
+      "title": "Casa 144m² em Porto Alegre/RS - Ocupada",
+      "price": "R$ 779.963,53",
+      "location": "Porto Alegre - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/2c7c0a98-7bef-4c72-bf1d-33a689f051ed.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132449"
+    },
+    {
+      "id": 2574743,
+      "url": "https://www.sold.com.br/produto/2574743",
+      "title": "Casa 144m² em Uberlândia/MG",
+      "price": "R$ 100.814,94",
+      "location": "Uberlândia - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/d998c484-60b6-44c8-a73d-f963192c1d32.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132455"
+    },
+    {
+      "id": 2689945,
+      "url": "https://www.sold.com.br/produto/2689945",
+      "title": "Apartamento 54m², Ocupado, Porto Alegre/RS",
+      "price": "R$ 93.000,00",
+      "location": "Porto Alegre - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/bfaa3cd1-b9e0-4e42-b084-52c6faafeb79.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132461"
+    },
+    {
+      "id": 2556784,
+      "url": "https://www.sold.com.br/produto/2556784",
+      "title": "Cota de Consórcio CONTEMPLADA nº 624 do Grupo nº 750, administrada pelo Bradesco Administradora de Consórcios Ltda., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. Créd",
+      "price": "R$ 24.999,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/3bcb405a-9d9d-447f-8ce8-6c6dfa70d1fc.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132467"
+    },
+    {
+      "id": 2556786,
+      "url": "https://www.sold.com.br/produto/2556786",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 651 do Grupo nº 729, administrada pelo Bradesco Administradora de Consórcios Ltda., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. ",
+      "price": "R$ 10.499,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/f1d60262-511d-41a8-8ffd-2968dedad238.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132473"
+    },
+    {
+      "id": 2688661,
+      "url": "https://www.sold.com.br/produto/2688661",
+      "title": "Casa 203m² na Vila Monumento, São Paulo/SP",
+      "price": "R$ 310.000,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/bffd2412-304e-4182-922b-74677513f0ce.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132479"
+    },
+    {
+      "id": 2598320,
+      "url": "https://www.sold.com.br/produto/2598320",
+      "title": "Apto. 115m² OCUPADO, 2 dorms., 1 vaga na Chácara Agrindus, Taboão da Serra/SP",
+      "price": "R$ 216.632,90",
+      "location": "Taboão da Serra - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/00b6ddb3-6872-48c2-8858-4de982c37e7c.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132485"
+    },
+    {
+      "id": 2710246,
+      "url": "https://www.sold.com.br/produto/2710246",
+      "title": "Apto 186m², Ocupado, 1 Vaga no Batel em Curitiba/PR",
+      "price": "R$ 417.218,17",
+      "location": "Curitiba - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/ed7666cb-5b74-4bbb-9eeb-340724c47899.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132491"
+    },
+    {
+      "id": 2710220,
+      "url": "https://www.sold.com.br/produto/2710220",
+      "title": "Casa 02, 57m², Ocupada,  em Itanhaém/SP",
+      "price": "R$ 239.133,85",
+      "location": "Itanhaém - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/ddfcf7dc-0fe8-4aa3-85f2-ce442520ceac.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132498"
+    },
+    {
+      "id": 2711256,
+      "url": "https://www.sold.com.br/produto/2711256",
+      "title": "Casa 150m² Cond. Res. Lázaro A.J. VII, Goiânia/GO",
+      "price": "R$ 276.674,89",
+      "location": "Goiânia - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/26f97225-aba1-4b95-ab29-ba46a2628e69.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132504"
+    },
+    {
+      "id": 2710499,
+      "url": "https://www.sold.com.br/produto/2710499",
+      "title": "Apto 65m² no Rio de Janeiro/RJ - Ocupado",
+      "price": "R$ 231.051,32",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/e9492435-39ff-497e-9bf6-40142848b327.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132510"
+    },
+    {
+      "id": 2615765,
+      "url": "https://www.sold.com.br/produto/2615765",
+      "title": "Casa 62m², Ocupada, em Uberlândia/MG",
+      "price": "R$ 237.146,22",
+      "location": "Uberlândia - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/d8bb1893-1300-457b-b50e-97cd20c1d8d1.jpg",
+      "extracted_at": "2026-01-05T15:14:27.132516"
+    },
+    {
+      "id": 2615766,
+      "url": "https://www.sold.com.br/produto/2615766",
+      "title": "Casa 62m², Ocupada, em Uberlândia/MG",
+      "price": "R$ 220.731,02",
+      "location": "Uberlândia - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/d8bb1893-1300-457b-b50e-97cd20c1d8d1.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794440"
+    },
+    {
+      "id": 2829088,
+      "url": "https://www.sold.com.br/produto/2829088",
+      "title": "Apto 62m² 1 vaga em Pirituba em São Paulo/SP - Ocupado",
+      "price": "R$ 611.474,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/d55f209f-9d9f-4c71-848a-cfb8aa40f1d6.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794467"
+    },
+    {
+      "id": 2837140,
+      "url": "https://www.sold.com.br/produto/2837140",
+      "title": "Casa 203m² na Vila Monumento, São Paulo/SP",
+      "price": "R$ 1.071.218,43",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/f4f1f9de-4106-45ec-a295-1d49e082ce22.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794474"
+    },
+    {
+      "id": 2618415,
+      "url": "https://www.sold.com.br/produto/2618415",
+      "title": "Casa 140m² no Parque Guarus em Campos dos Goytacazes/RJ",
+      "price": "R$ 412.330,93",
+      "location": "Campos dos Goytacazes - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/e5981c19-3c5d-436a-9919-c1b8f123abac.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794480"
+    },
+    {
+      "id": 2661342,
+      "url": "https://www.sold.com.br/produto/2661342",
+      "title": "Casa 250m² no Jardim Leonor em Campinas/SP - Ocupada",
+      "price": "R$ 330.720,59",
+      "location": "Campinas - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/795ad9ba-c7c3-4089-b4dd-4b48b6771f48.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794486"
+    },
+    {
+      "id": 2759750,
+      "url": "https://www.sold.com.br/produto/2759750",
+      "title": "Casa 96m² no Grande Horizonte em Barretos/SP - Ocupado",
+      "price": "R$ 276.479,84",
+      "location": "Barretos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/5dbc13e1-f36b-4a04-947a-b8e5b47285a8.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794491"
+    },
+    {
+      "id": 2661266,
+      "url": "https://www.sold.com.br/produto/2661266",
+      "title": "Apartamento 61m², 1 Vaga,  Ocupado, São Bernardo do Campo/SP",
+      "price": "R$ 304.473,30",
+      "location": "São Bernardo do Campo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/546ea79a-0163-4b83-9d87-37c69577b69e.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794498"
+    },
+    {
+      "id": 2713444,
+      "url": "https://www.sold.com.br/produto/2713444",
+      "title": "Casa 132m² na Calmon Viana, Poá/SP",
+      "price": "R$ 169.171,42",
+      "location": "Poá - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/2bd8358e-e1a5-4715-8b77-dd0f3fafad84.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794506"
+    },
+    {
+      "id": 2754963,
+      "url": "https://www.sold.com.br/produto/2754963",
+      "title": "Casa 240m²,  Ocupado, em Rio Verde/GO",
+      "price": "R$ 535.057,67",
+      "location": "Rio Verde - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/abee5fc3-68b8-4c16-aeff-e992680c9157.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794511"
+    },
+    {
+      "id": 2727508,
+      "url": "https://www.sold.com.br/produto/2727508",
+      "title": "Apto. 75m², 1 vaga na Vila Augusta, Guarulhos/SP",
+      "price": "R$ 164.531,56",
+      "location": "Guarulhos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/164e4b01-eb57-49cf-98c1-7e4c7c7e833c.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794517"
+    },
+    {
+      "id": 2786908,
+      "url": "https://www.sold.com.br/produto/2786908",
+      "title": "Casa, 97m², Ocupada,  Vila Califórnia, São Paulo/SP",
+      "price": "R$ 896.324,67",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/775d0114-fa2b-4b3c-9e4a-001acf5d51b6.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794522"
+    },
+    {
+      "id": 2778380,
+      "url": "https://www.sold.com.br/produto/2778380",
+      "title": "Prédio Residencial 43m², Ocupado, no Jardim do Sol, Itápolis/SP",
+      "price": "R$ 203.725,00",
+      "location": "Itápolis - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/3d59cf9f-15ba-4536-9362-8568b618e31d.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794526"
+    },
+    {
+      "id": 2662701,
+      "url": "https://www.sold.com.br/produto/2662701",
+      "title": "Casa 53m² no Terrenos do Campo em Praia Grande/SP - Ocupado",
+      "price": "R$ 255.312,71",
+      "location": "Praia Grande - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/b8999edd-0621-44e4-9b78-7b42ce4bb152.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794530"
+    },
+    {
+      "id": 2662280,
+      "url": "https://www.sold.com.br/produto/2662280",
+      "title": "Terreno Urbano 514,85m² DESOCUPADO, Loteamento Parque Primavera, Aparecida de Goiânia/GO",
+      "price": "R$ 204.000,00",
+      "location": "Aparecida de Goiânia - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/860da6bf-644b-4c44-8b90-b6022fa2b2e3.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794534"
+    },
+    {
+      "id": 2662281,
+      "url": "https://www.sold.com.br/produto/2662281",
+      "title": "Terreno Urbano 514,85m² DESOCUPADO, Loteamento Parque Primavera, Aparecida de Goiânia/GO",
+      "price": "R$ 204.000,00",
+      "location": "Aparecida de Goiânia - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/ff1ff731-5482-4afe-8eba-1ed455ad6184.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794538"
+    },
+    {
+      "id": 2673561,
+      "url": "https://www.sold.com.br/produto/2673561",
+      "title": "Parte ideal de 1% Casa, Ocupado, 125.0 m2, Sao Paulo / SP (37% abaixo da avaliação)",
+      "price": "R$ 5.065,60",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/8d5d2297-fe88-4f4c-87c8-ae4a5efd19f1.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794544"
+    },
+    {
+      "id": 2685195,
+      "url": "https://www.sold.com.br/produto/2685195",
+      "title": "Casa, Ocupado, 1000.0 m2, Aracoiaba Da Serra / SP (39% abaixo da avaliação)",
+      "price": "R$ 335.040,00",
+      "location": "Araçoiaba da Serra - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/18d1e931-ddc4-4027-9dd3-243cba13ddfe.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794549"
+    },
+    {
+      "id": 2685235,
+      "url": "https://www.sold.com.br/produto/2685235",
+      "title": "Casa, Ocupado, Itaborai / RJ (33% abaixo da avaliação)",
+      "price": "R$ 228.480,00",
+      "location": "Itaboraí - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/e11dd5ff-a788-470b-8cff-30b80856a901.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794553"
+    },
+    {
+      "id": 2703933,
+      "url": "https://www.sold.com.br/produto/2703933",
+      "title": "Apto. 234m² no Vera Cruz, Passo Fundo/RS",
+      "price": "R$ 1.097.949,56",
+      "location": "Passo Fundo - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/e843f39a-bf7b-4b52-ba60-7d09a1aec966.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794557"
+    },
+    {
+      "id": 2740981,
+      "url": "https://www.sold.com.br/produto/2740981",
+      "title": "Casa 125m² no Jardim Prestes de Barros, Sorocaba/SP",
+      "price": "R$ 78.652,75",
+      "location": "Sorocaba - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/9fe2db87-f4bc-4072-8452-fdc5a23bc8f2.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794562"
+    },
+    {
+      "id": 2923286,
+      "url": "https://www.sold.com.br/produto/2923286",
+      "title": "Casa, Ocupado, Paulista / PE (33% abaixo da avaliação)",
+      "price": "R$ 131.520,00",
+      "location": "Paulista - PE, Pernambuco",
+      "image_url": "https://ms.sbwebservices.net/photos/0fd72642-ff3b-4c87-8e7a-21baea1e6fc3.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794567"
+    },
+    {
+      "id": 2779230,
+      "url": "https://www.sold.com.br/produto/2779230",
+      "title": "Apto 61m² Ocupado, 1 vaga no Cajazeiras em Fortaleza/CE",
+      "price": "R$ 151.305,55",
+      "location": "Fortaleza - CE, Ceará",
+      "image_url": "https://ms.sbwebservices.net/photos/af6ca3fb-631d-4851-9603-95d93f28aa47.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794572"
+    },
+    {
+      "id": 2667073,
+      "url": "https://www.sold.com.br/produto/2667073",
+      "title": "Apto. 187m², 2 vagas em Itacoatiara, Niterói/RJ",
+      "price": "R$ 1.222.160,86",
+      "location": "Niterói - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/f42d8693-350d-49c4-b448-e44cb7954eff.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794581"
+    },
+    {
+      "id": 2666347,
+      "url": "https://www.sold.com.br/produto/2666347",
+      "title": "Casa 300m² no Jardim JK, Pires do Rio/GO",
+      "price": "R$ 180.715,19",
+      "location": "Pires do Rio - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/61b6cf67-bb64-47f3-9f5a-fdc21002a540.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794594"
+    },
+    {
+      "id": 2694921,
+      "url": "https://www.sold.com.br/produto/2694921",
+      "title": "Casa 132m², Ocupada no Jardim Godoy em Bauru/SP",
+      "price": "R$ 251.829,81",
+      "location": "Bauru - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/476ff028-d4c8-4f0e-a4fb-0279656c8a61.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794604"
+    },
+    {
+      "id": 2693700,
+      "url": "https://www.sold.com.br/produto/2693700",
+      "title": "Apartamento 49m², 1 Vaga,  Ocupado, Limão, São Paulo/SP Loc.: São Paulo/SP",
+      "price": "R$ 133.012,10",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/6cb5a746-2bf0-4b31-bf5c-dba2fdc8aacc.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794614"
+    },
+    {
+      "id": 2674448,
+      "url": "https://www.sold.com.br/produto/2674448",
+      "title": "Apto. 155m2, 3 vagas no Batista Campos, Belém/PA",
+      "price": "R$ 1.795.765,24",
+      "location": "Belém - PA, Pará",
+      "image_url": "https://ms.sbwebservices.net/photos/05e093bc-c490-4a56-84df-2ae4a7fb34da.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794640"
+    },
+    {
+      "id": 2668549,
+      "url": "https://www.sold.com.br/produto/2668549",
+      "title": "Casa 319m² Vila Tibério, Ribeirão Preto/SP",
+      "price": "R$ 452.374,20",
+      "location": "Ribeirão Preto - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/96d55fca-72b8-4769-9ce3-579f7e6ab660.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794660"
+    },
+    {
+      "id": 2682546,
+      "url": "https://www.sold.com.br/produto/2682546",
+      "title": "Casa 530m² no Rasa, Armação dos Búzios/RJ",
+      "price": "R$ 1.606.668,91",
+      "location": "Armação dos Búzios - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/16b9e15f-9f05-4132-a5e4-2e65a2d7e82e.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794671"
+    },
+    {
+      "id": 2650000,
+      "url": "https://www.sold.com.br/produto/2650000",
+      "title": "Casa, Ocupado, 300.0 m2, Queimados / RJ (28% abaixo da avaliação)",
+      "price": "R$ 580.800,00",
+      "location": "Queimados - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/45528a05-233a-40b3-952b-50517f192654.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794683"
+    },
+    {
+      "id": 2650001,
+      "url": "https://www.sold.com.br/produto/2650001",
+      "title": "Casa, Ocupado, 178.5 m2, Campos Dos Goytacazes / RJ (30% abaixo da avaliação)",
+      "price": "R$ 326.400,00",
+      "location": "Campos dos Goytacazes - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/0880b3cc-b6bb-4ede-ba4a-87c2eff0fa00.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794693"
+    },
+    {
+      "id": 2653976,
+      "url": "https://www.sold.com.br/produto/2653976",
+      "title": "Apartamento, Ocupado, Petropolis / RJ (33% abaixo da avaliação)",
+      "price": "R$ 241.500,00",
+      "location": "Petrópolis - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/ddf1cf26-8dfe-4dca-a830-d2288518c220.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794701"
+    },
+    {
+      "id": 2650142,
+      "url": "https://www.sold.com.br/produto/2650142",
+      "title": "Apto. 46m² no Guadalupe, Rio de Janeiro/RJ",
+      "price": "R$ 293.523,53",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/f47f9282-add2-42f7-92ec-c159acd3333c.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794722"
+    },
+    {
+      "id": 2637521,
+      "url": "https://www.sold.com.br/produto/2637521",
+      "title": "Apartamento, Ocupado, Jaboatao Dos Guararapes / PE (35% abaixo da avaliação)",
+      "price": "R$ 122.880,00",
+      "location": "Jaboatão dos Guararapes - PE, Pernambuco",
+      "image_url": "https://ms.sbwebservices.net/photos/9818bdc5-a378-4739-a169-af8e4d249a35.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794731"
+    },
+    {
+      "id": 2649681,
+      "url": "https://www.sold.com.br/produto/2649681",
+      "title": "2 Prédios Residenciais, Ocupados, em Guaiçara/SP",
+      "price": "R$ 622.929,05",
+      "location": "Guaiçara - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/45a08934-ffff-47f0-9be2-0563b926cae7.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794740"
+    },
+    {
+      "id": 2644317,
+      "url": "https://www.sold.com.br/produto/2644317",
+      "title": "Casa 83m² no Central Park em Cachoeirinha/RS - Imóvel Ocupado",
+      "price": "R$ 420.525,15",
+      "location": "Cachoeirinha - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/246f92f5-d015-4c5a-82ae-ede30177e082.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794748"
+    },
+    {
+      "id": 2639094,
+      "url": "https://www.sold.com.br/produto/2639094",
+      "title": "Prédio Residencial 82m², Ocupado, em Vila Zat, São Paulo/SP",
+      "price": "R$ 808.793,86",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/c49ee628-da7b-4166-9f01-d17b06a1b3b6.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794756"
+    },
+    {
+      "id": 2639095,
+      "url": "https://www.sold.com.br/produto/2639095",
+      "title": "Prédio Residencial 82m², Ocupado, em Vila Zat, São Paulo/SP",
+      "price": "R$ 409.436,32",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/c49ee628-da7b-4166-9f01-d17b06a1b3b6.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794766"
+    },
+    {
+      "id": 2642882,
+      "url": "https://www.sold.com.br/produto/2642882",
+      "title": "Apto 77m², 2 Vagas, Ocupado - Petrópolis/RJ",
+      "price": "R$ 259.144,37",
+      "location": "Petrópolis - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/182fc505-06a7-4546-a91d-a6684f001d7a.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794776"
+    },
+    {
+      "id": 2619108,
+      "url": "https://www.sold.com.br/produto/2619108",
+      "title": "Apto. 118m², 1 vaga no Lídia Duarte, Camboriú/SC",
+      "price": "R$ 260.375,17",
+      "location": "Camboriú - SC, Santa Catarina",
+      "image_url": "https://ms.sbwebservices.net/photos/0c359599-90b3-41ca-9cf4-8cf03a97c544.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794787"
+    },
+    {
+      "id": 2637540,
+      "url": "https://www.sold.com.br/produto/2637540",
+      "title": "Apartamento, Ocupado, Torres / RS (33% abaixo da avaliação)",
+      "price": "R$ 315.072,00",
+      "location": "Torres - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/e64cd7e2-53ff-42e2-9d0f-5b7b58739855.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794796"
+    },
+    {
+      "id": 2632655,
+      "url": "https://www.sold.com.br/produto/2632655",
+      "title": "Apto 29m², Bairro Universitário, Lajeado/RS",
+      "price": "R$ 94.997,78",
+      "location": "Lajeado - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/69c27b3e-b201-4f3e-907d-3c655d0914be.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794805"
+    },
+    {
+      "id": 2680761,
+      "url": "https://www.sold.com.br/produto/2680761",
+      "title": "Sala comercial, Ocupado, 300.0 m2, Pelotas / RS (33% abaixo da avaliação)",
+      "price": "R$ 142.176,00",
+      "location": "Pelotas - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/30baee79-3b4b-4c41-8385-33589eb296ea.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794818"
+    },
+    {
+      "id": 2675960,
+      "url": "https://www.sold.com.br/produto/2675960",
+      "title": "Casa 210m² Centro, Monte Carmelo/MG",
+      "price": "R$ 311.167,42",
+      "location": "Monte Carmelo - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/a8fe2ba1-4f83-455e-b2c6-24b7ee366026.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794832"
+    },
+    {
+      "id": 2889050,
+      "url": "https://www.sold.com.br/produto/2889050",
+      "title": "Casa 460m², Ocupada, 1 Vaga no Jaguary em São José dos Campos/SP",
+      "price": "R$ 1.350.990,91",
+      "location": "São José dos Campos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/8f29946b-76e8-4f90-8383-b4758202bf26.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794844"
+    },
+    {
+      "id": 2911080,
+      "url": "https://www.sold.com.br/produto/2911080",
+      "title": "Casa 97m², Ocupado na Brasilândia em São Paulo/SP",
+      "price": "R$ 649.897,10",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/23d1d461-f377-4b01-aff9-5cf4f278c8f4.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794854"
+    },
+    {
+      "id": 2931118,
+      "url": "https://www.sold.com.br/produto/2931118",
+      "title": "Casa 151m², Ocupada, Gasparinho, em Gaspar/SC",
+      "price": "R$ 210.000,00",
+      "location": "Gaspar - SC, Santa Catarina",
+      "image_url": "https://ms.sbwebservices.net/photos/4e3f8b5d-b423-4cb4-82ce-2522ddd79797.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794867"
+    },
+    {
+      "id": 2935312,
+      "url": "https://www.sold.com.br/produto/2935312",
+      "title": "Terreno 10.074m² DESOCUPADO em Valinhos/SP",
+      "price": "R$ 530.841,00",
+      "location": "Valinhos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/f17715cf-e6c4-41df-9313-c2a79e727ca5.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794878"
+    },
+    {
+      "id": 2927452,
+      "url": "https://www.sold.com.br/produto/2927452",
+      "title": "Apto 69m², Ocupado, 1 Vaga No Jardim Do Lago Em Jundiaí/SP",
+      "price": "R$ 145.596,57",
+      "location": "",
+      "image_url": "https://ms.sbwebservices.net/photos/c37c31ef-e87c-4e2c-8fc6-c622261bcbaa.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794895"
+    },
+    {
+      "id": 2813571,
+      "url": "https://www.sold.com.br/produto/2813571",
+      "title": "Casa 222m² no Progresso em Montenegro/RS - Ocupado",
+      "price": "R$ 584.730,00",
+      "location": "Montenegro - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/996ef62f-2e90-4e16-be9a-94871a613e03.jpg",
+      "extracted_at": "2026-01-05T15:14:28.794979"
+    },
+    {
+      "id": 2836017,
+      "url": "https://www.sold.com.br/produto/2836017",
+      "title": "Casa 272m² no Aeroporto, Juazeiro do Norte/CE",
+      "price": "R$ 568.032,90",
+      "location": "Juazeiro do Norte - CE, Ceará",
+      "image_url": "",
+      "extracted_at": "2026-01-05T15:14:30.486748"
+    },
+    {
+      "id": 2801575,
+      "url": "https://www.sold.com.br/produto/2801575",
+      "title": "Apto Duplex 108m², 2 Vagas, Ocupado, Barueri/SP",
+      "price": "R$ 636.549,84",
+      "location": "Barueri - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/028c7afd-17db-4ddd-82c0-e89e34a70c83.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486765"
+    },
+    {
+      "id": 2813766,
+      "url": "https://www.sold.com.br/produto/2813766",
+      "title": "Apto 138m² no Umarizal em Belém/PA - Ocupado",
+      "price": "R$ 560.841,04",
+      "location": "Belém - PA, Pará",
+      "image_url": "https://ms.sbwebservices.net/photos/f49b5ee4-220c-4b5a-86db-eb9477adb3d7.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486770"
+    },
+    {
+      "id": 2714051,
+      "url": "https://www.sold.com.br/produto/2714051",
+      "title": "Casa 272m² no Jardim Petrópolis em Betim/MG - Ocupado",
+      "price": "R$ 289.137,16",
+      "location": "Betim - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/308aa59a-9c39-4cb1-9467-1a96b775a02c.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486774"
+    },
+    {
+      "id": 2759550,
+      "url": "https://www.sold.com.br/produto/2759550",
+      "title": "Apto 43m² no Jardim Aeroporto em Várzea Grande/MT - Ocupado",
+      "price": "R$ 128.702,39",
+      "location": "Várzea Grande - MT, Mato Grosso",
+      "image_url": "https://ms.sbwebservices.net/photos/e7fbf8f1-1c54-46ed-b2d0-fc3979a69cfb.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486778"
+    },
+    {
+      "id": 2556763,
+      "url": "https://www.sold.com.br/produto/2556763",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 3767, pertencente ao Grupo nº 1032 administrada pela CNP (Antiga Caixa Consórcios S.A.), para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiame",
+      "price": "R$ 15.999,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e43cdeb5-a456-4941-bfc6-662cf62b11d6.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486782"
+    },
+    {
+      "id": 2556764,
+      "url": "https://www.sold.com.br/produto/2556764",
+      "title": "Cota de Consórcio NÃO CONTEMPLADA nº 551, do Grupo nº 3066, administrada pelo Santander., para aquisição de IMÓVEL, Construção e/ou Reforma e quitação de financiamento. Crédito no valor de R$ 159.957,",
+      "price": "R$ 24.999,00",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e42c1807-a46e-4e29-9bdf-ea68a396c0bb.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486786"
+    },
+    {
+      "id": 2557842,
+      "url": "https://www.sold.com.br/produto/2557842",
+      "title": "Casa, Ocupada, em condomínio Terra Nova Uberlândia I, Uberlândia/MG",
+      "price": "R$ 85.000,00",
+      "location": "Uberlândia - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/22f21404-acfa-4217-b760-85bb2d99015d.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486790"
+    },
+    {
+      "id": 2885960,
+      "url": "https://www.sold.com.br/produto/2885960",
+      "title": "Apto 73m², Ocupado no Dytz em Santo Ângelo/RS",
+      "price": "R$ 100.000,00",
+      "location": "Santo Ângelo - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/8009e2c4-3a85-4519-bbe8-44b061c6a46d.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486793"
+    },
+    {
+      "id": 2958525,
+      "url": "https://www.sold.com.br/produto/2958525",
+      "title": "Casa 64m² na Vila São Paulo em Mogi das Cruzes/SP - Ocupado",
+      "price": "R$ 283.914,07",
+      "location": "Mogi das Cruzes - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/04a5c819-93c3-427a-b684-075ef3a3358e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486799"
+    },
+    {
+      "id": 3096669,
+      "url": "https://www.sold.com.br/produto/3096669",
+      "title": "Apto 85m², Ocupado, 02 vagas, Vila Mogilar, Mogi das Cruzes/SP",
+      "price": "R$ 544.902,55",
+      "location": "Mogi das Cruzes - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/d1fdc868-1753-4a5d-a47d-ea073da4c664.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486803"
+    },
+    {
+      "id": 3122763,
+      "url": "https://www.sold.com.br/produto/3122763",
+      "title": "Casa 213m², Ocupado na Vila Monlevade, Bauru/SP",
+      "price": "R$ 180.456,34",
+      "location": "Bauru - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/783947e1-c6ff-4d39-bffb-bc789f420d2f.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486806"
+    },
+    {
+      "id": 3183397,
+      "url": "https://www.sold.com.br/produto/3183397",
+      "title": "Casa 174m² no Norma Gibaldi em Itumbiara/GO - Ocupado",
+      "price": "R$ 181.764,48",
+      "location": "Itumbiara - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/7c557864-bcca-4d22-8493-1dc706bee257.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486810"
+    },
+    {
+      "id": 3122017,
+      "url": "https://www.sold.com.br/produto/3122017",
+      "title": "Casa 128m², Ocupado,  em Caldas Novas/GO",
+      "price": "R$ 445.032,12",
+      "location": "Caldas Novas - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/79adf1b5-d0b7-4c68-8748-d88902576f65.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486814"
+    },
+    {
+      "id": 3114341,
+      "url": "https://www.sold.com.br/produto/3114341",
+      "title": "Apto c/ 1 Vaga, Ocupado, no Rio de Janeiro/RJ",
+      "price": "R$ 309.170,22",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/48b9239e-95e8-40c9-9a66-48aff9e4bb45.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486817"
+    },
+    {
+      "id": 3177103,
+      "url": "https://www.sold.com.br/produto/3177103",
+      "title": "Apto 54m², Desocupado no Santo Antônio em Porto Alegre/RS",
+      "price": "R$ 140.368,37",
+      "location": "Porto Alegre - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/f6137387-eb94-4f80-9217-e1a6ad32117e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486821"
+    },
+    {
+      "id": 3150743,
+      "url": "https://www.sold.com.br/produto/3150743",
+      "title": "Casa 155m², no Varzea, Monteiro/PB",
+      "price": "R$ 150.000,00",
+      "location": "Monteiro - PB, Paraíba",
+      "image_url": "https://ms.sbwebservices.net/photos/c6004f40-26cd-4b17-8500-e5cb69b43f8f.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486824"
+    },
+    {
+      "id": 3145711,
+      "url": "https://www.sold.com.br/produto/3145711",
+      "title": "Casa 69m², Ocupado,  em Aparecida de Goiânia/GO",
+      "price": "R$ 320.238,24",
+      "location": "Aparecida de Goiânia - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/d85b4bca-0cb7-4a6e-981d-31afb4f46d53.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486828"
+    },
+    {
+      "id": 3089273,
+      "url": "https://www.sold.com.br/produto/3089273",
+      "title": "Casa 69m² na Três Bandeira em Foz do Iguaçu/PR - Ocupado",
+      "price": "R$ 412.017,30",
+      "location": "Foz do Iguaçu - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/55aec5ef-9a08-4477-8dfa-362815867cc0.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486831"
+    },
+    {
+      "id": 3200286,
+      "url": "https://www.sold.com.br/produto/3200286",
+      "title": "Casa 212m², Jardim Irene, Merianeira/PR",
+      "price": "R$ 364.238,79",
+      "location": "Medianeira - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/6b243d53-0f40-4f9e-9803-c310b2790281.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486835"
+    },
+    {
+      "id": 3213350,
+      "url": "https://www.sold.com.br/produto/3213350",
+      "title": "Apto 75m² na Vila Andrade em São Paulo/SP - Ocupado",
+      "price": "R$ 545.650,27",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/516e8fdc-0220-4590-87ce-660d03158b1e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486840"
+    },
+    {
+      "id": 3089140,
+      "url": "https://www.sold.com.br/produto/3089140",
+      "title": "Apto c/ 1 Vaga, Ocupado, no Rio de Janeiro/RJ",
+      "price": "R$ 1.194.216,76",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/8cc092c5-a5ca-4730-884c-b16fd298deb7.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486844"
+    },
+    {
+      "id": 3225983,
+      "url": "https://www.sold.com.br/produto/3225983",
+      "title": "Casa 75m² no Ecovalley em Sarandi/PR - Ocupado",
+      "price": "R$ 254.687,54",
+      "location": "Sarandi - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/e101b1eb-45eb-4c51-b38a-48e79d56d30e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486848"
+    },
+    {
+      "id": 3225984,
+      "url": "https://www.sold.com.br/produto/3225984",
+      "title": "Casa 75m² no Ecovalley em Sarandi/PR - Ocupado",
+      "price": "R$ 233.231,50",
+      "location": "Sarandi - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/e101b1eb-45eb-4c51-b38a-48e79d56d30e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486851"
+    },
+    {
+      "id": 3213351,
+      "url": "https://www.sold.com.br/produto/3213351",
+      "title": "Apto 75m² na Vila Andrade em São Paulo/SP - Ocupado",
+      "price": "R$ 469.039,62",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/516e8fdc-0220-4590-87ce-660d03158b1e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486855"
+    },
+    {
+      "id": 3219344,
+      "url": "https://www.sold.com.br/produto/3219344",
+      "title": "Casa 849m², Jardim Imperador, Peruíbe/SP",
+      "price": "R$ 1.056.000,00",
+      "location": "Peruíbe - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/96413d15-e1b5-4fd7-b4fe-a050d579243e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486858"
+    },
+    {
+      "id": 3221376,
+      "url": "https://www.sold.com.br/produto/3221376",
+      "title": "Apto 110m² no Centro em Novo Hamburgo/RS - Ocupado",
+      "price": "R$ 450.862,13",
+      "location": "Novo Hamburgo - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/65c3af64-0565-44f7-a3a1-6cf09100164e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486862"
+    },
+    {
+      "id": 3230255,
+      "url": "https://www.sold.com.br/produto/3230255",
+      "title": "Casa 108m² no Jardim Belo Horizonte em Rondonópolis/MT - Ocupado",
+      "price": "R$ 312.240,24",
+      "location": "Rondonópolis - MT, Mato Grosso",
+      "image_url": "https://ms.sbwebservices.net/photos/6ffe7424-8088-46db-8fc7-676ed80895e7.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486866"
+    },
+    {
+      "id": 3202758,
+      "url": "https://www.sold.com.br/produto/3202758",
+      "title": "Sala Comercial 34m², Ocupado, em Taquara/RS",
+      "price": "R$ 97.750,27",
+      "location": "Taquara - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/0d3c2de7-5db6-40da-91d9-04fa65a220ec.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486869"
+    },
+    {
+      "id": 3213028,
+      "url": "https://www.sold.com.br/produto/3213028",
+      "title": "Casa 160m² no Jacaroa em Maricá/RJ - Ocupado",
+      "price": "R$ 645.399,83",
+      "location": "Maricá - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/ffce6913-96ac-4a63-9791-c8efbaea4854.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486874"
+    },
+    {
+      "id": 3202326,
+      "url": "https://www.sold.com.br/produto/3202326",
+      "title": "Casa 150m² no Centro em Córrego do Bom Jesus/MG - Ocupado",
+      "price": "R$ 542.583,02",
+      "location": "Córrego do Bom Jesus - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/f1c933f5-f35f-4c58-b73b-7d297f5797ba.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486878"
+    },
+    {
+      "id": 3209980,
+      "url": "https://www.sold.com.br/produto/3209980",
+      "title": "Casa 282m² no Centro em Correntes/PE - Ocupado",
+      "price": "R$ 617.384,08",
+      "location": "Correntes - PE, Pernambuco",
+      "image_url": "https://ms.sbwebservices.net/photos/b7064305-9d08-4dfb-bd84-bbac9119f410.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486882"
+    },
+    {
+      "id": 3219510,
+      "url": "https://www.sold.com.br/produto/3219510",
+      "title": "Casa 73m² no Recanto de Caldas em Caldas Novas/GO - Ocupado",
+      "price": "R$ 208.964,25",
+      "location": "Caldas Novas - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/11bbc5e0-79bc-471b-8f52-415c5454b629.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486886"
+    },
+    {
+      "id": 3185941,
+      "url": "https://www.sold.com.br/produto/3185941",
+      "title": "Apto. 63m², 1 vaga no Santa Paula I, Vilha Velha/ES",
+      "price": "R$ 280.789,76",
+      "location": "Vila Velha - ES, Espírito Santo",
+      "image_url": "https://ms.sbwebservices.net/photos/5f28025c-57de-4bb4-8c1d-8156d13e46ce.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486889"
+    },
+    {
+      "id": 3163607,
+      "url": "https://www.sold.com.br/produto/3163607",
+      "title": "Casa 151m² no Jardim Ocara em Santo André/SP",
+      "price": "R$ 583.403,15",
+      "location": "Santo André - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/291f2808-066a-4fff-a6cd-99c9acfac84a.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486893"
+    },
+    {
+      "id": 3257195,
+      "url": "https://www.sold.com.br/produto/3257195",
+      "title": "Terreno 1.685m², Distrito Industrial II, Sananduva/RS",
+      "price": "R$ 657.140,85",
+      "location": "Sananduva - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/42693e0f-4eb5-4f14-80b2-fd3c343a80c3.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486896"
+    },
+    {
+      "id": 3119964,
+      "url": "https://www.sold.com.br/produto/3119964",
+      "title": "Casa 250m² no Butantã em São Paulo/SP - Ocupado",
+      "price": "R$ 198.202,07",
+      "location": "São Paulo - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/e4aaf928-261f-4290-96b1-271f4575692c.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486900"
+    },
+    {
+      "id": 3221316,
+      "url": "https://www.sold.com.br/produto/3221316",
+      "title": "Casa 181m² no Jardim Maggiore em Araraquara/SP - Ocupado",
+      "price": "R$ 783.390,60",
+      "location": "Araraquara - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/b2b5bcc7-3161-4488-b219-d37e95137fbc.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486903"
+    },
+    {
+      "id": 3132193,
+      "url": "https://www.sold.com.br/produto/3132193",
+      "title": "Apto 51m² 1 vaga no Jd Belo Horizonte em Aparecida de Goiania/GO - Ocupado",
+      "price": "R$ 96.633,89",
+      "location": "Aparecida de Goiânia - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/2c708d93-b851-41c0-98dc-d895c3a7e511.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486907"
+    },
+    {
+      "id": 3132525,
+      "url": "https://www.sold.com.br/produto/3132525",
+      "title": "Casa residencial 97m², Ocupado, Bairro Centenário, em Sete Lagoas/MG",
+      "price": "R$ 308.537,13",
+      "location": "Sete Lagoas - MG, Minas Gerais",
+      "image_url": "https://ms.sbwebservices.net/photos/608e34dc-06c7-474c-b71a-d7437f2a8bc0.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486911"
+    },
+    {
+      "id": 3131926,
+      "url": "https://www.sold.com.br/produto/3131926",
+      "title": "Casa 142m², Ocupada, no Jardim Pacaembu em São Carlos/SP",
+      "price": "R$ 124.718,97",
+      "location": "São Carlos - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/1a3fc825-0d3b-4cfd-999e-b7ad83f3d673.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486917"
+    },
+    {
+      "id": 3132027,
+      "url": "https://www.sold.com.br/produto/3132027",
+      "title": "Apto 62m² 1 vaga no Recreio dos Bandeirantes no Rio de Janeiro/RJ - Ocupado",
+      "price": "R$ 521.827,31",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/9f10212d-dcbb-49e3-96ce-5ae49e3fd1a9.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486922"
+    },
+    {
+      "id": 3132028,
+      "url": "https://www.sold.com.br/produto/3132028",
+      "title": "Apto 62m² 1 vaga no Recreio dos Bandeirantes no Rio de Janeiro/RJ - Ocupado",
+      "price": "R$ 425.098,63",
+      "location": "Rio de Janeiro - RJ, Rio de Janeiro",
+      "image_url": "https://ms.sbwebservices.net/photos/9f10212d-dcbb-49e3-96ce-5ae49e3fd1a9.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486928"
+    },
+    {
+      "id": 3123008,
+      "url": "https://www.sold.com.br/produto/3123008",
+      "title": "Casa 39m², Ocupada, em Sidrolândia/MS",
+      "price": "R$ 67.258,31",
+      "location": "Sidrolândia - MS, Mato Grosso do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/9af3c4c3-697f-44f2-a4ec-a0cca0af9cda.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486932"
+    },
+    {
+      "id": 3134940,
+      "url": "https://www.sold.com.br/produto/3134940",
+      "title": "Casa 255m², Ocupada no Jardim Suzano, Suzano/SP",
+      "price": "R$ 156.773,39",
+      "location": "Suzano - SP, São Paulo",
+      "image_url": "https://ms.sbwebservices.net/photos/d6b3105b-3d4c-4e04-a9a5-8547d8d3ec1e.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486936"
+    },
+    {
+      "id": 3142421,
+      "url": "https://www.sold.com.br/produto/3142421",
+      "title": "Lote de terreno urbano 3.891m², Ocupado,  em Campo Largo/PR",
+      "price": "R$ 702.218,77",
+      "location": "Campo Largo - PR, Paraná",
+      "image_url": "https://ms.sbwebservices.net/photos/6b429fa2-bffa-456a-aae1-52e24fb4d451.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486939"
+    },
+    {
+      "id": 3142423,
+      "url": "https://www.sold.com.br/produto/3142423",
+      "title": "Sobrado 79m², Ocupado, em Porto Alegre/RS",
+      "price": "R$ 295.740,70",
+      "location": "Porto Alegre - RS, Rio Grande do Sul",
+      "image_url": "https://ms.sbwebservices.net/photos/d8a86bc0-caf7-44e1-9cf3-1e0e21a203e8.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486943"
+    },
+    {
+      "id": 3194210,
+      "url": "https://www.sold.com.br/produto/3194210",
+      "title": "Apto. 111m², 2 vagas no Centro de Criciúma/SC",
+      "price": "R$ 839.516,11",
+      "location": "Criciúma - SC, Santa Catarina",
+      "image_url": "https://ms.sbwebservices.net/photos/cc239c0b-9dfd-47b1-bdda-e2ee1e4edd70.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486947"
+    },
+    {
+      "id": 3191003,
+      "url": "https://www.sold.com.br/produto/3191003",
+      "title": "Apto 247m² no São José em Recife/PE - Ocupado Loc.: Recife/PE",
+      "price": "R$ 1.352.500,00",
+      "location": "Recife - PE, Pernambuco",
+      "image_url": "https://ms.sbwebservices.net/photos/80ada67e-bf62-4673-a951-1f0d2d7ed6b3.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486951"
+    },
+    {
+      "id": 3199032,
+      "url": "https://www.sold.com.br/produto/3199032",
+      "title": "Casa 106m² no Parque Primavera em Quirinópolis/GO - Ocupado",
+      "price": "R$ 289.215,99",
+      "location": "Quirinópolis - GO, Goiás",
+      "image_url": "https://ms.sbwebservices.net/photos/022fac08-1916-4638-8de9-13e9f0b56b4b.jpg",
+      "extracted_at": "2026-01-05T15:14:30.486955"
+    }
+  ],
+  "errors": []
+}

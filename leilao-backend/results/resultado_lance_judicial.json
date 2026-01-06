@@ -1,0 +1,2196 @@
+{
+  "id": "lance_judicial",
+  "name": "Lance Judicial",
+  "method": "playwright",
+  "started_at": "2026-01-05T15:12:22.919287",
+  "finished_at": "2026-01-05T15:14:23.843888",
+  "success": true,
+  "total_properties": 312,
+  "properties": [
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/rio-de-janeiro/casa-ac-150m2-santa-teresa-rio-de-janeiro-rj-26950",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959405"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rs/candiota/terreno-4374m2-margens-br-293-vila-operaria-candiota-rs-26472",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959424"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/barra-bonita/lote-de-terreno-130000m2-parque-industrial-sao-domingos-barra-bonita-sp-26778",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959430"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26634",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959433"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/santos/direitos-sobre-um-apartamento-54m2-residencial-fortaleza-santos-sp-23021",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959436"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/pe/araripina/imovel-rural-30000m2-sitio-alagoinha-arapirina-pe-26484",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959439"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santana-de-parnaiba/lote-de-terreno-at-56000m2-santana-de-parnaiba-sp-26466",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959441"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sumare/apartamento-77m2-condominio-residecial-sumare-iv-nova-veneza-sumare-sp-26903",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959443"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/guaruja/lote-de-terreno-81448m2-condominio-park-lane-guaruja-sp-27046",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959445"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/niteroi/casa-at-382m2-ac-168m2-piratininga-niteroi-rj-26915",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959447"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/mg/uberlandia/casa-300m2-santa-rosa-uberlandia-mg-27040",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959449"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/campos-dos-goytacazes/terreno-618m2-parque-flamboyant-ii-campos-dos-goytacazes-rj-27016",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959451"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/pe/recife/imovel-comercial-250m2-imbiribeira-recife-pe-26938",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959454"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/mg/matozinhos/imovel-comercial-at-360m2-floresta-matozinhos-mg-26945",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959456"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/cerquilho/lote-de-terreno-com-area-total-de-970m2-cerquilho-sp-25332",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959458"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/casa-branca/lote-de-terreno-at-19500m2-casa-branca-sp-27028",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959460"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/tiete/imovel-residencial-at-18725m2-tiete-sp-20253",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959462"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/riolandia/casa-3-quartos-garagem-at-363m2-centro-riolandia-sp-26996",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959464"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/hortolandia/casa-at-12040m2-ac-10670m2-jardim-nova-america-hortolandia-sp-26994",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959466"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/predios/rj/rio-de-janeiro/predio-1036m2-centro-rio-de-janeiro-rj-26981",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959468"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/atibaia/chacara-21544m2-itapetinga-atibaia-sp-24207",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959471"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rs/porto-alegre/apartamento-106m2-menino-deus-porto-alegre-rs-26810",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959473"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/chacara-300m2-chacara-peixe-santa-cruz-do-rio-pardo-sp-26819",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959475"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rs/veranopolis/apartamento-95m2-centro-veranopolis-rs-26917",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959477"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sala-comercial-30m2-taquara-rio-de-janeiro-rj-26691",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959479"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/barra-bonita/lote-de-terreno-250m2-jardim-da-barra-barra-bonita-sp-23670",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959481"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/sao-paulo/lote-de-terreno-com-construcao-at-481491m2-jd-apura-santo-amaro-sp-26174",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959483"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-at-13175m2-ac-10267m2-santa-cruz-do-rio-pardo-sp-26993",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959485"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/mg/sete-lagoas/imovel-comercial-at-10990m2-ac-1197m2-progresso-sete-lagoas-mg-27008",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959487"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/glebas/sp/campo-limpo-paulista/gleba-de-terras-839402m2-campo-limpo-paulista-sp-24797",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959489"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/imovel-res-at-18000m2-ac-8662m2-vila-madre-carmem-santa-cruz-do-rio-pardo-sp-26872",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959491"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/imovel-residencial-125m2-vila-leopoldina-sao-paulo-sp-26364",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959493"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rs/caxias-do-sul/terreno-at-5174m2-forqueta-caxias-do-sul-rs-27021",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959496"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26632",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959498"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/casa-8620m2-nossa-senhora-do-o-sao-paulo-sp-26132",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959500"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/campo-belo/imovel-industrial-at-1082000m2-bom-jardim-campo-belo-mg-26340",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959502"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/mg/coqueiral/lote-de-terreno-690m2-coqueiral-mg-27042",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959504"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/paulinia/imovel-comercial-214750m2-jardim-vista-alegre-paulinia-sp-26854",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959506"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-66m2-edificio-residencial-max-iv-aviacao-praia-grande-sp-19549",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959508"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/rj/macae/imovel-industrial-at-5250m2-lagomar-macae-rj-26942",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959511"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santana-de-parnaiba/lote-de-terreno-56059m2-santana-de-parnaiba-sp-26646",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959513"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/pb/sape/imovel-rural-100ha-sape-pb-26512",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959515"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/mg/uberlandia/mansao-194m2-tibery-uberlandia-mg-27045",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959517"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/imovel-residencial-137m2-sao-paulo-sp-25865",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959520"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/cabo-frio/apartamento-2-quartos-80m2-algodoal-cabo-frio-rj-26832",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959522"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/mg/belo-horizonte/casa-at-396m2-esplanada-belo-horizonte-mg-26947",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959524"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-paulo/direitos-do-apartamento-239150m2-3-dormitorios-campo-belo-sao-paulo-sp-26124",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959526"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/apartamento-517m2-sem-debitos-edificio-vale-dos-sonhos-enseada-guaruja-sp-23514",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959528"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/al/canapi/imovel-rural-aprox-4151520m2-barro-branco-canapi-al-26448",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959530"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26642",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959532"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/peruibe/predio-com-3-imoveis-comercial-e-residenciais-440m2-jardim-ribamar-peruibe-sp-19123",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959534"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/vagas-de-garagem/rs/veranopolis/vaga-de-garagem-centro-veranopolis-rs-26918",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959536"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/rn/natal/predio-comercial-at-429m2-ac-731m2-ribeira-natal-rn-26480",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959539"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/agudos/lote-de-terreno-at-2500m2-chacara-nova-california-agudos-sp-25602",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959541"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/santos/imovel-comercial-208m2-centro-santos-sp-27006",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959543"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/tiete/casa-2-quartos-vaga-de-garagem-at-71m2-jardim-dos-ypes-tiete-sp-27003",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959545"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/armacao-dos-buzios/unidade-autonoma-no-133-condominio-caravela-nina-armacao-dos-buzios-rj-27034",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959547"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/florianopolis/terreno-at-22759m2-corrego-grande-florianopolis-sc-27007",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959549"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/peruibe/sobrado-residencial-125m2-jardim-peruibe-peruibe-sp-26229",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959552"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-vicente/veiculo-gm-meriva-maxx-cor-prata-ano-modelo-2009-2010-26955",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959554"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/casa-192m2-ac-173m2-vila-marieta-sao-paulo-sp-26851",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959556"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26631",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959558"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/piracicaba/imovel-comercial-202m2-tupi-piracicaba-sp-20948",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959560"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/imovel-rural-com-casas-1612446m2-fazenda-haras-vale-verde-laranjal-paulista-sp-27026",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959562"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/sao-pedro-do-turvo/gleba-de-terras-2178-hectares-fazenda-ribeirao-bonito-sao-pedro-do-turvo-sp-26328",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959564"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/descalvado/imovel-comercial-250m2-jardim-sao-cristovao-descalvado-sp-24404",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959568"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/barra-bonita/lote-de-terreno-2137m2-vila-sao-benedito-barra-bonita-sp-26755",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959570"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/ce/fortaleza/apartamento-176m2-praia-do-futuro-fortaleza-ce-26948",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959572"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26622",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959574"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/ba/ituacu/imovel-industrial-ac-1130m2-at-9756m2-ituacu-ba-26349",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959576"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/ribeirao-branco/fazenda-cultivo-e-pasto-3-nascentes-20-alqueires-ribeirao-branco-sp-26904",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959578"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/sao-paulo/loja-49m2-galeria-do-rock-republica-sao-paulo-sp-26866",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959580"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/praia-grande/direitos-do-apartamento-83m2-2-quartos-vaga-de-garagem-cond-ed-monica-praia-grande-sp-25809",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959582"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santana-de-parnaiba/imovel-residencial-e-comercial-392m2-jardim-silvio-santana-de-parnaiba-sp-24187",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959584"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/bauru/imovel-comercial-382m2-parque-hipodromo-bauru-sp-26655",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959586"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/mirim-doce/terreno-6183m2-mirim-doce-sc-25903",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959588"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/campinas/direitos-sobre-um-apartamento-2-dormitorios-41m2-jardim-bassoli-campinas-sp-26220",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959590"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/jau/imovel-residencial-2-quartos-at-10500m2-vila-nova-jau-sp-26932",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959594"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/marica/terreno-2734-m2-rincao-mimoso-marica-rj-25675",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959596"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-1-vaga-barra-olimpica-rio-de-janeiro-rj-26914",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959598"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/rio-de-janeiro/casa-280m2-iraja-rio-de-janeiro-rj-26888",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959600"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/ibiuna/fazenda-para-cultivo-12195100m2-sorocabussu-ibiuna-sp-26896",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959602"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/hospitais/al/arapiraca/imovel-comercial-obras-de-um-hospital-at-2720m2-centro-arapiraca-al-26956",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959604"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/al/branquinha/imovel-rural-at-190ha-branquinha-al-27018",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959607"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/vinhedo/casa-800m2-alto-padrao-condominio-vista-alegre-vinhedo-sp-26765",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959609"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/rj/campos-dos-goytacazes/conjunto-de-fazendas-cana-2950ha-campos-dos-goytacazes-rj-26868",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959611"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/lagoa-grande/imovel-industrial-ceramica-40000m2-lagoa-grande-mg-26064",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959613"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/pe/agua-preta/imovel-rural-757ha-agua-preta-pe-26510",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959615"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/taubate/direitos-do-apartamento-4996m2-condominio-residencial-jatoba-taubate-sp-26207",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959618"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/marilia/apartamento-44m2-jardim-california-marilia-sp-26881",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959620"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/monte-aprazivel/casa-2-quartos-12507m2-jardim-copacabana-monte-aprazivel-sp-26722",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959622"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/rj/nova-friburgo/sala-comercial-31m2-centro-nova-friburgo-rj-27019",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959624"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rn/acu/terreno-2200m2-acu-rn-26474",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959626"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/mirassol/casa-2-quartos-20000m2-residencial-regissol-i-mirassol-sp-26931",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959629"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/caraguatatuba/casa-at-400m2-sumare-caraguatatuba-sp-26944",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959631"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/angatuba/fazenda-214599-hectares-fazenda-cachoeira-angatuba-sp-26951",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959633"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/direitos-do-apartamento-119m2-edificio-nice-pitangueiras-guaruja-sp-24299",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959635"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-50m2-2-quartos-campo-grande-rio-de-janeiro-rj-26887",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959637"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/igaracu-do-tiete/casa-at-200m2-ac-76m2-igaracu-do-tiete-sp-26867",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959639"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/igaracu-do-tiete/imovel-residencial-at-35040m2-jardim-novo-estilo-igaracu-do-tiete-sp-26930",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959642"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/vagas-de-garagem/sp/sao-jose-dos-campos/vaga-de-garagem-26m2-esplanada-life-club-vila-higienopolis-sao-jose-dos-campos-sp-19555",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959644"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/promissao/imovel-residencial-at-34000m2-centro-promissao-sp-26713",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959646"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/al/arapiraca/galpao-at-19234m2-ac-1152m2-guaribas-arapiraca-al-25911",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959648"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26636",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959650"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santana-de-parnaiba/imovel-residencial-14078m2-bairro-cidade-pedro-santana-do-parnaiba-sp-26314",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959652"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/apartamento-74m2-edificio-ecifar-bela-vista-sao-paulo-sp-27024",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959654"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/sao-jose-do-rio-preto/lote-de-terreno-405m2-parque-residencial-buona-vita-sao-jose-do-rio-preto-sp-24233",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959656"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santana-de-parnaiba/lote-de-terreno-57256m2-condominio-altavis-aldeia-santada-de-parnaiba-sp-26645",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959658"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/praia-grande/direitos-sobre-um-apartamento-66m2-residencial-costa-verde-praia-grande-sp-25771",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959661"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-320m2-vila-popular-santa-cruz-do-rio-pardo-sp-26827",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959663"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/sao-manuel/fazenda-45-alqueires-paulistas-sitio-do-lageado-sao-manuel-sp-26897",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959666"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/cobertura--300m2-1-vaga-em-frente-ao-barra-shopping-barra-da-tijuca-rio-de-janeiro-rj-26840",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959668"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/predios/rj/rio-de-janeiro/predio-3-andares-at-510m2-ac-919m2-ilha-do-governador-rio-de-janeiro-rj-26354",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959670"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-vaga-de-garagem-48m2-aviacao-praia-grande-sp-26523",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959672"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/apartamento-252m2-edificio-gaivota-ii-guaruja-sp-25361",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959674"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26633",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959676"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/araxa/imovel-industrial-at-5655m2-ac-900m2-distrito-industrial-araxa-mg-26913",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959678"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-gertrudes/casa-3-quartos-14000m2-jardim-residencial-indaia-iii-santa-gertrudes-sp-26820",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959680"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/marilia/imovel-rural-at-599944m2-fazenda-santa-gertrudes-marilia-sp-26990",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959682"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/angra-dos-reis/terreno-19144m2-cond-porto-marina-bracuhy-bracui-angra-dos-reis-rj-26989",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959684"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/al/canapi/imovel-rural-1159200m2-barro-branco-canapi-al-26447",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959686"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/imovel-residencial-at-41880m2-ac-21923m2-centro-santa-cruz-do-rio-pardo-sp-26875",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959689"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-1-vaga-jardim-guanabara-rio-de-janeiro-rj-25910",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959691"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/araraquara/lote-de-terreno-243m2-loteamento-jardim-alvorada-araraquara-sp-23262",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959693"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/mg/iguatama/imovel-comercial-escola-at-4972m2-iguatama-mg-26959",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959695"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/sao-paulo/imovel-comercial-at-5153m2-capao-redondo-sao-paulo-sp-26864",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959697"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/casa-branca/lote-de-terreno-at-30000m2-jardim-macaubas-casa-branca-sp-27029",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959699"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/apartamento-cobertura-80m2-2-dormitorios-enseada-guaruja-sp-22986",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959701"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/apartamento-7404m2-2-quartos-garagem-piscina-enseada-guaruja-sp-26855",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959703"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/pr/almirante-tamandare/imovel-industrial-at-8968m2-ac-1315m2-morro-azul-almirante-tamandare-pr-26351",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959706"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-cruz-do-rio-pardo/terreno-at-408m2-ac-12670m2-santa-cruz-do-rio-pardo-sp-26674",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959708"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/se/itabaianinha/galpoes-ceramica-at-18483m2-itabaianinha-se-26352",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959711"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/imovel-residencial-19641m2-vila-prudente-sp-26985",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959713"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/santos/direitos-do-apartamento-108m2-ed-sao-miguel-santos-sp-18610",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959715"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/praia-grande/casa-12750m2-cidade-ocian-praia-grande-sp-26782",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959717"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26624",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959719"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-cruz-do-rio-pardo/terreno-338m2-vila-fabiano-santa-cruz-do-rio-pardo-sp-26826",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959721"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/ac/rio-branco/terreno-4222m2-floresta-sul-rio-branco-ac-26483",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959723"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-at-41880m2-ac-21923m2-centro-santa-cruz-do-rio-pardo-sp-26991",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959725"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-1-vaga-centro-rio-de-janeiro-rj-26789",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959727"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/glebas/sp/guaruja/oportunidade-de-terreno-para-incorporacao-residencial-comercial-e-industrial-131431m2-sendo-101000m2-plano-asturias-cing-23508",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959729"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/tupi-paulista/lote-de-terreno-150m2-tupi-paulista-sp-25899",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959731"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/predios/pb/guarabira/predio-3-andares-centro-guarabira-pb-26963",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959734"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/ilhabela/direitos-do-lote-de-terreno-178500m2-barra-velha-ilhabela-sp-25776",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959736"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26623",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959738"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/sp/cerquilho/galpao-970m2-ac-1500m2-sao-francisco-tiete-sp-26960",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959740"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/marilia/direitos-do-apartamento-4185m2-condominio-parque-marfim-marilia-sp-26650",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959742"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-30000m2-vila-saul-santa-cruz-do-rio-pardo-sp-26822",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959744"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/ba/palmas-de-monte-alto/imovel-rural-at-35ha-fazenda-morro-grande-palmas-de-monte-alto-ba-26455",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959746"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/vargem-grande-do-sul/casa-330m2-ac-3000m2-jardim-sao-jose-vargem-grande-do-sul-sp-27005",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959749"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/mg/belo-horizonte/imovel-comercial-cachoerinha-belo-horizonte-mg-26807",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959751"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/praia-grande/lote-de-terreno-25850m2-ribeiropolis-praia-grande-sp-17661",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959754"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/barra-bonita/lote-de-terreno-186000m2-distrito-industrial-barra-bonita-sp-27000",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959756"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-jose-dos-campos/apartamento-garagem-43405m2-vila-iracema-sao-jose-dos-campos-sp-27014",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959758"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26629",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959760"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26621",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959762"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/rj/rio-de-janeiro/imovel-industrial-at-4100m2-tomas-coelho-rio-de-janeiro-rj-26916",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959765"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santana-de-parnaiba/lote-de-terreno-76375m2-santana-de-parnaiba-sp-26647",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959767"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/barra-bonita/imovel-comercial-3720m2-distrito-industrial-barra-bonita-sp-21797",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959769"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/porto-real/terreno-3491m2-village-porto-real-porto-real-rj-26412",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959771"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/se/aracaju/imovel-comercial-industrial-aracaju-se-26703",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959774"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/imovel-residencial-at-17300m2-ac-9696m2-distrito-de-maristela-laranjal-paulista-sp-26714",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959776"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/armacao-dos-buzios/casa-189m2-cond-villa-buena-vista-praia-de-manguinhos-buzios-rj-26476",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959778"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26641",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959780"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rs/pelotas/terreno-569000m2-possibilidade-de-lotear-1170-lotes-de-250m2-laranjal-pelotas-rs-26070",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959782"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/casa-500m2-guarau-peruibe-sp-27047",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959784"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-215m2-residencial-eleodoro-santa-cruz-do-rio-pardo-sp-26823",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959787"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/sao-francisco-do-sul/terreno-9999m2-sao-jose-do-acarai-sao-francisco-do-sul-sc-26353",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959789"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/al/maceio/terreno-192m2-centro-maceio-al-26939",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959791"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/sp/sao-paulo/imovel-comercial-1072m2-vila-romana-lapa-sao-paulo-sp-25913",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959793"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26640",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959795"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/mg/coronel-fabriciano/casa-249m2-coronel-fabriciano-mg-27044",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959797"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/jau/casa-2-quartos-at-36000m2-jd-sao-caetano-jau-sp-26933",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959800"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-vaga-de-garagem-6233m2-aviacao-praia-grande-sp-26657",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959802"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/ce/mauriti/imovel-rural-at-318ha-mauriti-ce-27009",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959804"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/sp/quintana/imovel-industrial-at-6721m2-ac-1236m2-margens-rod-sp-294-dist-industrial-quintana-pompeia-sp-25902",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959807"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/mg/montes-claros/terreno-510m2-ibituruna-montes-claros-mg-26919",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959809"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/atibaia/chacara-1056m2-estancia-santa-maria-atibaia-sp-23518",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959811"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/sp/campinas/imovel-industrial-3600m2-106398m2-campinas-sp-26902",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959813"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/lote-de-terreno-at-36000m2-bougainville-residencial-peruibe-sp-26717",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959815"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/imovel-residencial-155m2-3-quartos-garagem-vila-palmeiras-sao-paulo-sp-26365",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959817"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/belo-horizonte/imovel-industrial-aprox-5000m2-olhos-dagua-belo-horizonte-mg-26449",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959819"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/capitao-eneas/imovel-industrial-at-9025m2-capitao-eneas-mg-26475",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959821"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/imovel-residencial-at-300m2-santa-cruz-do-rio-pardo-sp-26874",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959823"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/embu-guacu/imovel-rural-26655000m2-otarare-embu-guacu-sp-27050",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959826"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/buritama/direitos-de-50-do-imovel-residencial-ac-40000m2-buritama-sp-27038",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959828"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26635",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959830"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/buritama/50-do-imovel-com-8524-hectares-estancia-santa-ana-buritama-sp-26294",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959832"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/mg/pouso-alegre/imoveis-comerciais-405m2-centro-pouso-alegre-mg-26805",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959834"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-cruz-do-rio-prado/lote-de-terreno-338m2-santa-cruz-do-rio-prado-sp-26899",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959836"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/sp/barra-bonita/imovel-industrial-10000m2-barra-bonita-sp-24380",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959838"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/ribeirao-preto/casa-at-9630m2-condominio-residencial-serra-da-canastra-ribeirao-preto-sp-26958",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959840"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/rio-de-janeiro/1-monitor-dell-modelo-p2422h-26954",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959842"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/tiete/casa-492787m2-granja-sao-joao-batista-tiete-sp-24724",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959845"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-carlos/imovel-residencial-138m2-jardim-medeiros-sao-carlos-sp-26878",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959847"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/angra-dos-reis/terreno-1178m2-cond-porto-marina-bracuhy-bracui-angra-dos-reis-rj-26988",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959849"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/cotia/imovel-residencial-8108m2-granja-carolina-cotia-sp-19119",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959851"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/al/maceio/apartamento-81m2-3-quartos-1-vaga-pinheiro-maceio-al-26059",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959853"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-branca/casa-262m2-chacaras-vale-do-sol-santa-branca-sp-26901",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959855"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/lote-de-terreno-34000m2-balneario-caraguava-peruibe-sp-26907",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959857"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/vagas-de-garagem/sp/santos/vaga-de-garagem-12m2-cond-trend-home-e-office-santos-sp-26721",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959859"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/jaguaruna/terreno-300m2-balneario-do-farol-ii-jaguaruna-sc-26815",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959863"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/mg/nova-ponte/terreno-47414m2-nova-ponte-mg-26806",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959865"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-13175m2-conjunto-habitacional-joao-batista-piccin-santa-cruz-do-rio-pardo-sp-26825",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959867"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/al/arapiraca/imovel-comercial-at-95m2-primavera-arapiraca-al-26074",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959870"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/bauru/direitos-sobre-um-apartamento-46m2-condominio-parque-bogota-bauru-sp-24473",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959872"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/al/maceio/sala-comercial-393m2-farol-maceio-al-26061",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959874"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-paulo/apartamento-216m2-7o-andar-jardim-santo-amaro-sao-paulo-sp-26413",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959877"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/campo-limpo-paulista/lote-de-terreno-25000m2-jardim-santo-antonio-campo-limpo-paulista-sp-26998",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959879"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/pr/curitiba/casa-at-515m2-mossungue-curitiba-pr-26922",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959881"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/hoteis/rj/armacao-dos-buzios/imovel-de-luxo-praia-de-joao-fernandes-at-9143m2-20-suites-buzios-rj-26458",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959883"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sc/florianopolis/casa-36249m2-carianos-florianopolis-sc-26809",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959885"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/itajai/terreno-14814m2-cordeiro-itajai-sc-26072",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959887"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/paulinia/lote-de-terreno-at-39000m2-residencial-terras-do-cancioneiro-paulinia-sp-26999",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959890"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/al/maceio/terreno-at-732m2-santa-amelia-maceio-al-26060",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959892"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/lote-de-terreno-at-42000m2-manaca-dos-itatins-peruibe-sp-27001",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959894"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/jaguaruna/2-lotes-de-terreno-300m2-cada-balneario-do-farol-ii-jaguaruna-sc-25265",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959897"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/jambeiro/casa-2-quartos-31496m2-condominio-bom-jardim-serra-jambeiro-sp-26781",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959899"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26628",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959902"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26637",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959904"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-cruz-do-rio-pardo/terreno-at-333100m2-centro-santa-cruz-do-rio-pardo-sp-26884",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959906"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/pe/recife/galpoes-at-21750m2-ac--12000m2-ibura-recife-pe-26804",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959908"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/ce/mauriti/imovel-rural-at-1405ha-mauriti-ce-27010",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959910"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/adamantina/imovel-rural-450-hectares-adamantina-sp-26908",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959912"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/mg/belo-horizonte/apartamento-78m2-edificio-capibaribe-belo-horizonte-mg-27041",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959915"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/guaira/direitos-do-imovel-residencial-400m2-jardim-paulista-guaira-sp-26665",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959917"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/bauru/imovel-comercial-244m2-parque-hipodromo-bauru-sp-26656",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959919"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/lote-de-terreno-500m2-garca-vermelha-peruibe-sp-27049",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959921"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/mg/pocos-de-caldas/casa-at-180m2-ac-36m2-jardim-kennedy-pocos-de-caldas-mg-26949",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959924"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/rj/rio-de-janeiro/galpao-at-6000m2-ac-3442m2-margens-da-av-brasil-campo-grande-rio-de-janeiro-rj-25900",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959926"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/praia-grande/casa-38140m2-canto-do-forte-praia-grande-sp-27004",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959928"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/botucatu/veiculo-fiat-uno-attractive-10-cor-azul-ano-modelo-2014-2015-27013",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959930"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-paulo/direitos-sobre-um-apartamento-92m2-residencial-club-tuiuti-sao-paulo-sp-25249",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959932"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/imovel-residencial-at-250m2-santa-cruz-do-rio-pardo-sp-26877",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959935"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/mg/uberaba/imovel-industrial-at-31530m2-distrito-industrial-i-uberaba-mg-25904",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959937"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rn/natal/apartamento-3-quartos-tirol-natal-rn-25676",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959939"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/armacao-dos-buzios/terreno-1000m2-rasa-armacao-dos-buzios-rj-26767",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959941"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/al/arapiraca/galpoes-at-770m2-ac-770m2-primavera-arapiraca-al-25906",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959943"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/ilhabela/direitos-sobre-um-lote-de-terreno-2911310m2-toca-ilhabela-sp-24935",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.959946"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/marilia/direitos-sobre-um-apartamento-41m2-condominio-marrocos-residencial-sale-marilia-sp-24492",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965179"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/hospitais/pe/recife/imovel-comercial-hospital-at-378m2-madalena-recife-pe-26972",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965196"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/itajai/terreno-14814m2-cordeiro-itajai-sc-26265",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965199"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/es/cachoeiro-de-itapemirim/terreno-22237m2-margens-br-101-safra-cachoeiro-do-itaperimirim-es-26964",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965201"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/ce/juazeiro-do-norte/condominio-com-4-casas-2-quartos-cada-betolandia-juazeiro-do-norte-ce-25905",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965204"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26626",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965206"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-vicente/apartamento-4635m2-vila-matias-sao-vicente-sp-26997",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965209"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/monte-aprazivel/imovel-residencial-360m2-recanto-das-aguas-monte-aprazivel-sp-24539",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965211"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/al/arapiraca/terreno-at-1029m2-baixao-arapiraca-al-27036",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965215"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/sao-paulo/imovel-comercial-antigo-cinema-7-pavimentos-6481m2-centro-historico-sao-paulo-sp-27017",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965218"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/casa-154m2-2-quartos-garagem-vila-carrao-sao-paulo-sp-26857",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965220"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/campos-dos-goytacazes/apartamento-46m2-condominio-residencial-lagoa-dourada-parque-tamandare-campos-dos-goytacazes-rj-26879",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965222"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lotes-de-terrenos-ate-300m2-23-lotes-residencial-nene-garpelli-laranjal-paulista-sp-26619",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965224"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-cruz-do-rio-pardo/terreno-a-venda-com-180-m2-na-avenida-maria-de-lourdes-cidade-jardim-santa-cruz-do-rio-pardo-27037",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965227"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/pr/jaguariaiva/casa-at-200m2-ac-130m2-matadouro-jaguariaiva-pr-26067",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965231"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/casa-branca/casa-32400m2-ac-21200m2-casa-branca-sp-27027",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965239"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/sp/pirassununga/imovel-rural-10486667m2-sitio-gameleira-pirassununga-sp-26883",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965242"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/pa/santarem/terreno-at-17520m2-margens-br-163-matinha-santarem-pa-26073",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965244"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/guaruja/imovel-residencial-alto-padrao-7-dormitorios-condominio-jardim-acapulco-guaruja-sp-26356",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965246"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/jaguaruna/terreno-300m2-balneario-do-farol-ii-jaguaruna-sc-26814",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965249"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/ac/rio-branco/galpao-at-9200m2-ac-1570m2-distrito-industrial-rio-branco-ac-26066",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965251"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-rurais/pb/sape/imovel-rural-233ha-sape-pb-26511",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965253"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/agudos/lote-de-terreno-at-2500m2-chacara-nova-california-agudos-sp-25601",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965256"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/avare/lote-de-terreno-200000m2-loteamento-royal-park-avare-sp-26784",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965258"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/santa-cruz-do-rio-pardo/imovel-comercial-18704m2-centro-santa-cruz-do-rio-pardo-sp-26780",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965260"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/ribeirao-preto/apartamento-46m2-condominio-juscelino-kubitschek-ii-ribeirao-preto-sp-25871",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965262"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/jose-bonifacio/casa-at-1452m2-ac-258m2-jose-bonifacio-sp-26957",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965265"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/es/cachoeiro-de-itapemirim/terreno-20000m2-distrito-industrial-de-sao-joaquim-cachoeiro-de-itapemirim-es-26699",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965267"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/casa-branca/lote-de-terreno-at-30000m2-jardim-macaubas-casa-branca-sp-27031",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965269"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/guaruja/apartamento-288m2-condominio-costa-smeralda-guaruja-sp-25253",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965271"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/bauru/casa-49500m2-vila-aimores-bauru-sp-26649",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965277"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santa-branca/galpao-e-casa-996m2-chacaras-vale-do-sol-santa-branca-sp-26900",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965279"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/angra-dos-reis/terreno-2561m2-cond-porto-marina-bracuhy-bracui-angra-dos-reis-rj-26987",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965281"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/estacionamento-at-457m2-centro-rio-de-janeiro-rj-26450",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965283"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santos/imovel-industrial-996490m2-alemoa-santos-sp-26895",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965285"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/sp/cerquilho/galpao-200m2-sao-francisco-cerquilho-sp-26004",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965288"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/mg/careacu/imovel-comercial-162m2-centro-careacu-mg-27043",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965290"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/taubate/direitos-sobre-um-apartamento-146m2-edificio-wide-taubate-taubate-sp-25093",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965292"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-2-quartos-57m2-vila-tupi-praia-grande-sp-26163",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965294"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/casa-123860m2-vila-oitenta-santa-cruz-do-rio-pardo-sp-26756",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965296"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/santana-de-parnaiba/lote-de-terreno-46900m2-santana-de-parnaiba-sp-26468",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965299"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/vargem-grande-do-sul/casa-119m2-jardim-bela-vista-vargem-grande-do-sul-sp-26824",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965301"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26630",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965303"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26625",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965306"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/salto/imovel-comercial-desocupado-1773m2-condominio-palmeiras-imperiais-salto-sp-20930",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965308"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/matao/semi-reboque-marca-reb-aguerra-1995-cor-branca-26935",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965310"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/imovel-residencial-300m2-bairro-bela-vista-laranjal-paulista-sp-25955",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965313"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26627",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965315"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/predios/rj/rio-de-janeiro/predio-ac-4000m2-cachambi-rio-de-janeiro-rj-27020",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965317"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/rj/rio-de-janeiro/2-cadeiras-diretor-com-encosto-em-tela-e-regulagem-26953",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965320"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26639",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965322"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/araraquara/casa-at-182m2-ac-350m2-jardim-esplanada-araraquara-sp-26801",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965324"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/sao-carlos/apartamento-4715m2-condominio-dr-romeu-santini-ii-sao-carlos-sp-26885",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965326"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/sao-paulo/casa-3637m2-espaco-gourmet-piscina-jardim-guaripocaba-santo-andre-sp-26798",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965329"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/sp/presidente-venceslau/imovel-comercial-400m2-jardim-arantes-presidente-venceslau-sp-26811",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965331"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/peruibe/lote-de-terreno-500m2-garca-vermelha-peruibe-sp-27048",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965333"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/tres-rios/terreno-at-55957m2-proximo-br-040-vila-isabel-tres-rios-rj-26479",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965335"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/ms/chapadao-do-sul/casa-at-260m2-chapadao-do-sul-ms-26833",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965337"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/santos/direitos-do-apartamento-101m2-ed-sao-miguel-santos-sp-18609",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965340"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/galpoes/rs/caxias-do-sul/galpoes-at-2200m2-forqueta-caxias-do-sul-rs-27022",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965342"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/rj/porto-real/terreno-at-3729m2-porto-real-rj-26056",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965345"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/tiete/casa-293m2-ac-198m2-centro-tiete-sp-19377",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965349"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-industriais/es/fundao/imovel-industrial-at-20000m2-ac-5121m2-prox-br-101-sao-jose-fundao-es-26802",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965352"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/capivari/casa-piscina-365m2-vila-cardoso-capivari-sp-26443",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965355"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/sp/santa-cruz-do-rio-pardo/imovel-residencial-at-240m2-ac13380m2-santa-cruz-do-rio-pardo-sp-26873",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965359"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/sp/cotia/apartamento-com-3-quartos-e-vaga-de-garagem-residencial-costa-verde-cotia-sp-17659",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965362"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26620",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965365"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-madureira-rio-de-janeiro-rj-27011",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965368"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/casas/mg/santana-do-paraiso/casa-de-veraneio-at-3855m2-santana-do-paraiso-mg-26923",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965371"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/apartamentos/ma/sao-luis/apartamento-41m2-residencial-torres-dos-holandeses-olho-dagua-sao-luis-ma-26757",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965374"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sp/laranjal-paulista/lote-de-terreno-300m2-residencial-nene-garpelli-laranjal-paulista-sp-26638",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965379"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/terrenos-e-lotes/sc/corupa/terreno-at-25840m2-margens-br-280-corupa-sc-27035",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965382"
+    },
+    {
+      "url": "https://www.grupolance.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sobreloja-29m2-ed-lumina-offices-barra-olimpica-rio-de-janeiro-rj-26451",
+      "title": "",
+      "price": "",
+      "location": "",
+      "extracted_at": "2026-01-05T15:14:22.965385"
+    }
+  ],
+  "errors": []
+}

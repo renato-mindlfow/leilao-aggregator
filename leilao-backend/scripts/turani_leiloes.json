@@ -1,0 +1,50 @@
+{
+  "source": "Turanileiloes",
+  "source_url": "https://www.turanileiloes.com.br/imoveis",
+  "extracted_at": "2026-01-04T10:07:22.628753",
+  "total_leiloes": 7,
+  "leiloes": [
+    {
+      "title": "LOTE RURAL - 1.875M², Travessa São João 2ª Légua - CAXIAS DO SUL/RS",
+      "price": 140000.0,
+      "closing_date": "2026-01-04",
+      "url": "https://www.turanileiloes.com.br/imoveis/4589-lote-rural-1875m2-travessa-sao-joao-2a-legua-caxias-do-sulrs"
+    },
+    {
+      "title": "APARTAMENTO N° 504, VERANÓPOLIS/RS. ÁREA TOTAL PRIVATIVA DE 95,56 m²",
+      "price": 242000.0,
+      "closing_date": "2026-01-11",
+      "url": "https://www.turanileiloes.com.br/imoveis/4590-apartamento-n-504-veranopolisrs-area-total-privativa-de-9556-m2"
+    },
+    {
+      "title": "TERRENO DE APROXIMADAMENTE 700m² E CASA NO JARDIM KRAHE EM VIAMÃO/RS",
+      "price": 200000.0,
+      "closing_date": "2026-01-11",
+      "url": "https://www.turanileiloes.com.br/imoveis/4592-terreno-de-aproximadamente-700m2-e-casa-no-jardim-krahe-em-viamaors"
+    },
+    {
+      "title": "Wyndham Gramado Termas Resort & Spa - APARTAMENTO Nº 201 BLOCO B CLASSIC DIAMANTE - COTA 1 A 13",
+      "price": 35000.0,
+      "closing_date": "2026-01-20",
+      "url": "https://www.turanileiloes.com.br/imoveis/3082-wyndham-gramado-termas-resort-spa-apartamento-no-201-bloco-b-classic-diamante-cota-1-a-13"
+    },
+    {
+      "title": "UM TERRENO COM ÁREA DE 1.388.781,00m² EM CAMBARÁ DO SUL/RS",
+      "price": 4483203.0,
+      "closing_date": "2026-01-20",
+      "url": "https://www.turanileiloes.com.br/imoveis/4521-um-terreno-com-area-de-138878100m2-em-cambara-do-sulrs"
+    },
+    {
+      "title": "WYNDHAM GRAMADO TERMAS RESORT & SPA - COTA B - CLASSIC DIAMANTE DO APARTAMENTO 110 BLOCO B",
+      "price": 36500.0,
+      "closing_date": "2026-01-20",
+      "url": "https://www.turanileiloes.com.br/imoveis/2813-wyndham-gramado-termas-resort-spa-cota-b-classic-diamante-do-apartamento-110-bloco-b"
+    },
+    {
+      "title": "Wyndham Gramado Termas Resort & Spa - COTA DE 1/13 DO APARTAMENTO 209 DO BLOCO C - CLASSIC DIAMANTE, PRIORIDADE A",
+      "price": null,
+      "closing_date": "2026-01-20",
+      "url": "https://www.turanileiloes.com.br/imoveis/4443-wyndham-gramado-termas-resort-spa-cota-de-113-do-apartamento-209-do-bloco-c-classic-diamante-prioridade-a"
+    }
+  ]
+}

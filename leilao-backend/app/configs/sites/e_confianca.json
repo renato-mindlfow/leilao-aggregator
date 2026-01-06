@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "tier": "tier1",
+  "name": "E-Confianca",
+  "website": "https://www.e-confianca.com.br",
+  "working_url": "https://www.e-confianca.com.br/lotes",
+  "selectors": {
+    "card": "div.item",
+    "card_alternatives": [
+      "article.leilao__card",
+      "li.social-footer-list-item"
+    ],
+    "title": "h2.titleDefault",
+    "link": "a[href]",
+    "image": "img"
+  },
+  "status": "active",
+  "properties_count": 10,
+  "last_tested_at": "2026-01-04T19:15:55.602236",
+  "created_at": "2026-01-04T19:16:09.535801"
+}

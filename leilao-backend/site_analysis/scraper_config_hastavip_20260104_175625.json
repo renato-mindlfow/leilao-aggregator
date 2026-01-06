@@ -1,0 +1,13 @@
+{
+  "name": "Hastavip",
+  "website": "https://www.hastavip.com.br",
+  "selectors": {
+    "card": "div.carousel-item",
+    "card_alternatives": [],
+    "title": "h2",
+    "price": ".valor-atual",
+    "link": "a.d-block",
+    "image": "img.d-block"
+  },
+  "working_url": "https://www.hastavip.com.br/imoveis"
+}

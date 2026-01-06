@@ -1,0 +1,28 @@
+{
+  "id": "superleiles",
+  "name": "Super Leilões",
+  "website": "https://www.superleiloes.com.br",
+  "enabled": true,
+  "method": "playwright",
+  "listing_url": "/imovel",
+  "selectors": {
+    "card": "[class*='card'], [class*='item'], article",
+    "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+  },
+  "pagination": {
+    "type": "query_param",
+    "param": "p"
+  },
+  "estimated_count": 527,
+  "last_checked": "2026-01-05",
+  "notes": "Config criado automaticamente em 2026-01-05",
+  "last_scrape": {
+    "date": "2026-01-05T20:22:26.595352",
+    "success": true,
+    "properties_found": 40,
+    "pages_scraped": 1,
+    "errors_count": 0
+  },
+  "last_count": 40,
+  "status": "success"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "leilesmg",
+  "name": "Leilões MG",
+  "website": "https://www.leiloesmg.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

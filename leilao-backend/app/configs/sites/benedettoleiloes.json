@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "tier": "tier1",
+  "name": "Benedettoleiloes",
+  "website": "https://www.benedettoleiloes.com.br",
+  "working_url": "https://www.benedettoleiloes.com.br/",
+  "selectors": {
+    "card": "div.leilao-item",
+    "card_alternatives": [],
+    "title": "h4.media-heading",
+    "price": ".text-primary",
+    "link": "a[href]",
+    "image": "img.projectImg"
+  },
+  "status": "active",
+  "properties_count": 10,
+  "last_tested_at": "2026-01-04T19:15:52.360520",
+  "created_at": "2026-01-04T19:16:09.533480"
+}

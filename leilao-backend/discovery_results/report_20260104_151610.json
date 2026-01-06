@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "total_analyzed": 60,
+    "online": 60,
+    "offline": 0,
+    "online_rate": "100.0%"
+  },
+  "by_method": {
+    "httpx_stealth": 37,
+    "needs_investigation": 11,
+    "playwright_simple": 5,
+    "httpx_simple": 5,
+    "playwright_stealth": 2
+  },
+  "by_difficulty": {
+    "medium": 42,
+    "unknown": 11,
+    "low": 5,
+    "high": 2
+  },
+  "cloudflare_protected": 39,
+  "javascript_required": 7
+}

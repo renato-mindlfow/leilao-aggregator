@@ -1,0 +1,445 @@
+{
+  "timestamp": "2026-01-05T20:01:32.399415",
+  "total_sites": 29,
+  "sites_with_properties": 5,
+  "sites_without_properties": 24,
+  "total_properties_estimated": 1092,
+  "results": [
+    {
+      "site": {
+        "url": "https://www.leiloesdodf.com.br",
+        "name": "Leilões do DF"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesdors.com.br",
+        "name": "Leilões do RS"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloessc.com.br",
+        "name": "Leilões SC"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "URL de listagem retornou 404",
+      "status": "failed"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloespr.com.br",
+        "name": "Leilões PR"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Sem conteúdo de imóveis detectado",
+      "status": "no_properties"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesbahia.com.br",
+        "name": "Leilões Bahia"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesmg.com.br",
+        "name": "Leilões MG"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesrj.com.br",
+        "name": "Leilões RJ"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloessp.com.br",
+        "name": "Leilões SP"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro ao acessar listagem: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesgo.com.br",
+        "name": "Leilões GO"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "URL de listagem encontrada mas sem cards detectados",
+      "status": "no_properties"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloespe.com.br",
+        "name": "Leilões PE"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.zukerman.com.br",
+        "name": "Zukerman"
+      },
+      "has_properties": true,
+      "count": 127,
+      "listing_url": "/imoveis",
+      "selectors": {
+        "card": "[class*='card'], [class*='item'], article",
+        "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+      },
+      "pagination": {
+        "type": "query_param",
+        "param": "p"
+      },
+      "method": "playwright",
+      "reason": "",
+      "status": "success"
+    },
+    {
+      "site": {
+        "url": "https://www.pestanaleiloes.com.br",
+        "name": "Pestana Leilões"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "URL de listagem encontrada mas sem cards detectados",
+      "status": "no_properties"
+    },
+    {
+      "site": {
+        "url": "https://www.canalleiloes.com.br",
+        "name": "Canal Leilões"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "URL de listagem retornou 404",
+      "status": "failed"
+    },
+    {
+      "site": {
+        "url": "https://www.leilomaster.com.br",
+        "name": "Leilo Master"
+      },
+      "has_properties": true,
+      "count": 1,
+      "listing_url": "/imoveis",
+      "selectors": {
+        "card": "[class*='card'], [class*='item'], article",
+        "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+      },
+      "pagination": {
+        "type": "none",
+        "param": "page"
+      },
+      "method": "playwright",
+      "reason": "",
+      "status": "success"
+    },
+    {
+      "site": {
+        "url": "https://www.leilaoimovel.com.br",
+        "name": "Leilão Imóvel"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "HTTP 403",
+      "status": "failed"
+    },
+    {
+      "site": {
+        "url": "https://www.superleiloes.com.br",
+        "name": "Super Leilões"
+      },
+      "has_properties": true,
+      "count": 527,
+      "listing_url": "/imovel",
+      "selectors": {
+        "card": "[class*='card'], [class*='item'], article",
+        "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+      },
+      "pagination": {
+        "type": "query_param",
+        "param": "p"
+      },
+      "method": "playwright",
+      "reason": "",
+      "status": "success"
+    },
+    {
+      "site": {
+        "url": "https://www.propleiloes.com.br",
+        "name": "Prop Leilões"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.alfredimoveis.com.br",
+        "name": "Alfred Imóveis"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.norteleiloes.com.br",
+        "name": "Norte Leilões"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "HTTP 403",
+      "status": "failed"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesonline.com.br",
+        "name": "Leilões Online"
+      },
+      "has_properties": true,
+      "count": 167,
+      "listing_url": "/imoveis",
+      "selectors": {
+        "card": "[class*='card'], [class*='item'], article",
+        "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+      },
+      "pagination": {
+        "type": "query_param",
+        "param": "p"
+      },
+      "method": "playwright",
+      "reason": "",
+      "status": "success"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesbrasil.com.br",
+        "name": "Leilões Brasil"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "HTTP 403",
+      "status": "failed"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloeiro.com.br",
+        "name": "Leiloeiro"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Sem conteúdo de imóveis detectado",
+      "status": "no_properties"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesjudiciais.com.br",
+        "name": "Leilões Judiciais"
+      },
+      "has_properties": true,
+      "count": 270,
+      "listing_url": "/imoveis",
+      "selectors": {
+        "card": "[class*='card'], [class*='item'], article",
+        "link": "a[href*='/leilao/'], a[href*='/imovel/']"
+      },
+      "pagination": {
+        "type": "query_param",
+        "param": "page"
+      },
+      "method": "playwright",
+      "reason": "",
+      "status": "success"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesnacionais.com.br",
+        "name": "Leilões Nacionais"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "URL de listagem encontrada mas sem cards detectados",
+      "status": "no_properties"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesexpress.com.br",
+        "name": "Leilões Express"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesrapidos.com.br",
+        "name": "Leilões Rápidos"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesfacil.com.br",
+        "name": "Leilões Fácil"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: ",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesdigital.com.br",
+        "name": "Leilões Digital"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Erro: [Errno 11001] getaddrinfo failed",
+      "status": "error"
+    },
+    {
+      "site": {
+        "url": "https://www.leiloesvirtual.com.br",
+        "name": "Leilões Virtual"
+      },
+      "has_properties": false,
+      "count": 0,
+      "listing_url": "",
+      "selectors": {},
+      "pagination": {},
+      "method": "playwright",
+      "reason": "Sem conteúdo de imóveis detectado",
+      "status": "no_properties"
+    }
+  ]
+}

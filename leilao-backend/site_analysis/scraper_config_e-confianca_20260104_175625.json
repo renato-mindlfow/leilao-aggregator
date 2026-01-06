@@ -1,0 +1,15 @@
+{
+  "name": "E-Confianca",
+  "website": "https://www.e-confianca.com.br",
+  "selectors": {
+    "card": "div.item",
+    "card_alternatives": [
+      "article.leilao__card",
+      "li.social-footer-list-item"
+    ],
+    "title": "h2.titleDefault",
+    "link": "a[href]",
+    "image": "img"
+  },
+  "working_url": "https://www.e-confianca.com.br/lotes"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "portalzuk",
+  "name": "Portal Zukerman",
+  "website": "https://www.portalzuk.com.br",
+  "enabled": true,
+  "method": "playwright",
+  "listing_url": "/leilao-de-imoveis",
+  "selectors": {
+    "card": ".card-property",
+    "link": "a[href*='/imovel/']",
+    "load_more": "#btn_carregarMais, button.btn.btn-outline.btn-xl, button:has-text('Carregar mais')"
+  },
+  "api": {},
+  "last_scrape": {
+    "date": "2026-01-05T14:02:23.941818",
+    "success": true,
+    "properties_found": 947,
+    "errors_count": 0
+  },
+  "status": "success"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "norteleiles",
+  "name": "Norte Leilões",
+  "website": "https://www.norteleiloes.com.br",
+  "enabled": false,
+  "reason": "HTTP 403"
+}

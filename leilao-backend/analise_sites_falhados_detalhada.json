@@ -1,0 +1,48 @@
+{
+  "megaleiloes": {
+    "url": "https://www.megaleiloes.com.br/imoveis",
+    "method": "playwright_domcontentloaded",
+    "cards_found": 1016,
+    "card_selector": ".two-line",
+    "links_found": 0,
+    "pagination_found": true
+  },
+  "lancejudicial": {
+    "url": "https://www.lancejudicial.com.br/imoveis",
+    "cloudflare": false,
+    "cards_found": 695,
+    "card_selector": ".card-item",
+    "links_found": 0,
+    "pagination_found": true
+  },
+  "portalzuk": {
+    "url": "https://www.portalzuk.com.br/leilao-de-imoveis",
+    "url_pattern": "/imovel/{estado}/{cidade}/{bairro}/{id}",
+    "cards_found": 687,
+    "card_selector": ".card-property",
+    "links_found": 30,
+    "link_selector": "a[href*=\"/imovel/\"]",
+    "link_pattern": "https://www.portalzuk.com.br/imovel/mg/patrocinio/morada-do-sol/rua-edson-brasiel-436/34946-215346",
+    "pagination_found": false
+  },
+  "sold": {
+    "api_url": "https://offer-query.superbid.net/offers/",
+    "tests": [
+      {
+        "url": "portalId=2&filter=product.productType.description:imoveis",
+        "status": 200,
+        "total": 46885,
+        "items_returned": 10,
+        "working": true
+      },
+      {
+        "url": "portalId=2&filter=stores.id:1161",
+        "status": 200,
+        "total": 373278,
+        "items_returned": 10,
+        "working": true
+      }
+    ],
+    "recommendation": "Usar API REST - filtro: product.productType.description:imoveis"
+  }
+}

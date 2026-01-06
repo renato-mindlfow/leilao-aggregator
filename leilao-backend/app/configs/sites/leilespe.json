@@ -1,0 +1,7 @@
+{
+  "id": "leilespe",
+  "name": "Leilões PE",
+  "website": "https://www.leiloespe.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

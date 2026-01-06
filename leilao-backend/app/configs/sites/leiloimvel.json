@@ -1,0 +1,7 @@
+{
+  "id": "leiloimvel",
+  "name": "Leilão Imóvel",
+  "website": "https://www.leilaoimovel.com.br",
+  "enabled": false,
+  "reason": "HTTP 403"
+}

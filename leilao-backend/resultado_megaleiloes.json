@@ -1,0 +1,13 @@
+{
+  "id": "megaleiloes",
+  "name": "Mega Leilões",
+  "website": "https://www.megaleiloes.com.br",
+  "listing_url": "/imoveis",
+  "success": false,
+  "total_properties": 0,
+  "pages_scraped": 1,
+  "properties": [],
+  "errors": [],
+  "started_at": "2026-01-04T22:12:33.499105",
+  "finished_at": "2026-01-04T22:12:56.961211"
+}

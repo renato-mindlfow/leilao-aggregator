@@ -1,0 +1,532 @@
+{
+  "timestamp": "2026-01-04T18:42:49.731946",
+  "total_properties": 83,
+  "properties": [
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.375044",
+      "title": "Processo:5001731-37.2017.8.21.001811/12 09:00 a  11/02 de 2026 15:00ABERTO",
+      "price_text": "Lance Inicial:R$ 1.000,00",
+      "price": 1000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1963",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1233/FPAtx1OYWaHSGWMUXowgTHiYDPY1EJTVv8kvWK3S.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.376650",
+      "title": "Processo:5000112-04.2019.8.21.001822/01 09:00 a  22/01 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 771.995,05",
+      "price": 771995.05,
+      "link": "https://www.benedettoleiloes.com.br/lance/1198",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1198/SxQ6k62rWWteele1sG3KDfB9ADGfMt0MYg8HrixB.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.377284",
+      "title": "Processo:5002891-29.2019.8.21.00183/03 09:00 a  3/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 640.496,00",
+      "price": 640496.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1194",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1194/e5cuxvrY6nvE7P43O4pbwapqF5zt0PXfznfWhEJ9.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.377800",
+      "title": "Processo:5000855-58.2012.8.21.00183/03 09:00 a  3/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 3.700.000,00",
+      "price": 3700000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1800",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/956/pWdW5wbf8QwS24JP8h4KASxCF2gYBWc5qk7baIaZ.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.378309",
+      "title": "Processo:5000515-70.2019.8.21.001819/03 09:00 a  19/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 262.638,00",
+      "price": 262638.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1886",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1861/1PFMFufCeAaIfUi9n6pZlVCJXDuYzpFxpAJSUlMM.png"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.378798",
+      "title": "Processo:5002238-34.2013.8.21.001911/12 09:00 a  11/02 de 2026 15:00ABERTO",
+      "price_text": "Lance Inicial:R$ 50,00",
+      "price": 50.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1965",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1965/KJu9fo19IYuTKRpYNVQnRyRxVWwssv6BuWQycSBV.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.379324",
+      "title": "Processo:5014998-05.2019.8.21.001922/01 09:00 a  22/01 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 58.415,00",
+      "price": 58415.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1792",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1792/AnwKhVopcD6wrHlXxHpomQCXu0iAA2HjGMhvmX3S.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.379821",
+      "title": "Processo:5013261-88.2024.8.21.001924/03 09:00 a  24/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 329.918,00",
+      "price": 329918.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1920",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1873/kvTfyed6j24DJVxv66pSksFKRdORhi5hPBH3WjGD.png"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.380306",
+      "title": "Processo:5001283-92.2012.8.21.0033 (1)18/12 09:00 a  18/03 de 2026 15:00ABERTO",
+      "price_text": "Lance Inicial:R$ 12.000,00",
+      "price": 12000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/2016",
+      "image_url": "https://www.benedettoleiloes.com.br/assets/img/sem_imagem.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.380810",
+      "title": "Processo:5001283-92.2012.8.21.0033 (2)18/12 09:00 a  18/03 de 2026 15:00ABERTO",
+      "price_text": "Lance Inicial:R$ 12.000,00",
+      "price": 12000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/2017",
+      "image_url": "https://www.benedettoleiloes.com.br/assets/img/sem_imagem.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.381307",
+      "title": "Processo:5001283-92.2012.8.21.0033 (3)18/12 09:00 a  18/03 de 2026 15:00ABERTO",
+      "price_text": "Lance Inicial:R$ 9.000,00",
+      "price": 9000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/2018",
+      "image_url": "https://www.benedettoleiloes.com.br/assets/img/sem_imagem.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.381796",
+      "title": "Processo:5001988-56.2013.8.21.003320/01 09:00 a  20/01 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 9.504,00",
+      "price": 9504.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1989",
+      "image_url": "https://www.benedettoleiloes.com.br/assets/img/sem_imagem.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.382273",
+      "title": "Processo:5006153-10.2017.8.21.003322/01 09:00 a  22/01 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 200.000,00",
+      "price": 200000.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1760",
+      "image_url": "https://www.benedettoleiloes.com.br/assets/img/sem_imagem.jpg"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.382752",
+      "title": "Processo:5000387-78.2014.8.21.003311/03 09:00 a  11/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 345.082,00",
+      "price": 345082.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1745",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1727/joo4jfH7blkewjpXDFPs5Umed8nFKdw2Dy1oftE7.png"
+    },
+    {
+      "source": "Benedettoleiloes",
+      "extracted_at": "2026-01-04T18:42:30.383240",
+      "title": "Processo:5001334-06.2012.8.21.003319/03 09:00 a  19/03 de 2026 15:00EM BREVE",
+      "price_text": "Lance Inicial:R$ 90.622,00",
+      "price": 90622.0,
+      "link": "https://www.benedettoleiloes.com.br/lance/1877",
+      "image_url": "https://www.benedettoleiloes.com.br/storage/lote/1862/wzm3W9K0gfy3TrUS25x7fZd6A8156I4eDcgj8JUB.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.960574",
+      "link": "https://whatsapp.e-leiloes.com.br/",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/banners/sl-banner-101-663d09fcb2fa3-663d09fcc0528.png"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.961215",
+      "link": "https://www.e-leiloes.com.br/login",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/banners/sl-banner-179-67aa508a9c801-67aa508aa1d3f.png"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.961569",
+      "link": "https://whatsapp.e-leiloes.com.br/",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/banners/sl-banner-109-6672cda67dc7a-6672cda68ec9a.png"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.961890",
+      "link": "https://www.e-leiloes.com.br/login",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/banners/sl-banner-167-67ab3c550e295-67ab3c5517787.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.962193",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/2148/instituto-chico-mendes-de-conservacao-da-biodiversidade-icmbio-edital-01-2026-02-2025",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/leiloes/2148/69406f510f8bf-69406f511542d.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.964260",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/2149/instituto-chico-mendes-de-conservacao-da-biodiversidade-icmbio-edital-02-2026",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/leiloes/2149/69407157c7b41-69407157ccd6a.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.964970",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/2111/operacoes-e-shoppings-em-leilao",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/leiloes/2111/68e50ba006245-68e50ba01727c.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.965290",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/vara-de-execucao-de-titulos-extrajudiciais-e-conflitos-arbitrais-de-taguatinga-df/lote/34460/vaga-de-garagem-condominio-do-edificio-rio-araguaria-taguatinga-df",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/bens/31096/arquivos/69309c80ec07b-69309c8101536.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.966330",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/instituto-chico-mendes-de-conservacao-da-biodiversidade-icmbio-edital-01-2026-02-2025/lote/34488/mitsubishi-l200-4x4-gl-2009",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/bens/30959/arquivos/69249b1aa8e10-69249b1aaf1d4.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.970790",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/1a-vara-civel-de-leme-sp/lote/34630/escrivaninha-em-l-e-computador-completo",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/bens/31256/arquivos/69455715ead74-69455715f0b76.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.972663",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/1a-vara-civel-de-fernandopolis-sp/lote/34387/gerador-de-energia-solar-fotovoltaico",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/bens/30047/arquivos/68653ab2d7551-68653ab2de631.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.973823",
+      "link": "https://www.e-confianca.com.br/eventos/leilao/instituto-chico-mendes-de-conservacao-da-biodiversidade-icmbio-edital-01-2026-02-2025/lote/34486/mercury-potencia-90",
+      "image_url": "https://static.e-leiloes.com.br/eleiloescombr/bens/30990/arquivos/6924cced38033-6924cced4c859.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.975598",
+      "link": "https://diario.e-leiloes.com.br/?p=66761",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2025/03/produtos-novos-leilao.descontos.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.976156",
+      "link": "https://diario.e-leiloes.com.br/?p=66716",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/12/leiloes-online-maquinas-agricolas-como-garantir-bom-negocio.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.976531",
+      "link": "https://diario.e-leiloes.com.br/?p=66701",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/12/dicas-avaliar-estado-itens-antes-dar-lance-leiloes-online.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.976865",
+      "link": "https://diario.e-leiloes.com.br/?p=66697",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/12/como-determinados-valores-iniciais-leiloes-online.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.977201",
+      "link": "https://diario.e-leiloes.com.br/?p=66680",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/12/leiloes-imoveis-online-como-comecar-investir_.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.977515",
+      "link": "https://diario.e-leiloes.com.br/?p=66664",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/10/seguro-comprar-imoveis-veiculos-leiloes-online.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.977841",
+      "link": "https://diario.e-leiloes.com.br/?p=66647",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/09/quais-documentos-necessarios-participar-leilao-online.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.978153",
+      "link": "https://diario.e-leiloes.com.br/?p=66633",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/08/plataforma-leiloes-online-eleiloes-quem-quer-comprar-vender.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.978480",
+      "link": "https://diario.e-leiloes.com.br/?p=66630",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/08/como-eleiloes-inova-mercado-online-leilao-agricola.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.978795",
+      "link": "https://diario.e-leiloes.com.br/?p=66625",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/08/eleiloes-oferece-mil-oportunidades-imoveis-todo-brasil.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.979119",
+      "link": "https://diario.e-leiloes.com.br/?p=66620",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/08/diferencas-entre-leilao-judicial-leilao-extrajudicial.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.979471",
+      "link": "https://diario.e-leiloes.com.br/?p=66613",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/07/caixa-promove-leilao-online-imoveis-precos-abaixo-valor-mercado-veja-condicoes.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.979809",
+      "link": "https://diario.e-leiloes.com.br/?p=66596",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/07/como-usar-fgts-financiar-imovel-caixa.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.980117",
+      "link": "https://diario.e-leiloes.com.br/?p=66537",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/06/casa-propria-ainda-maior-desejo-brasileiro_.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.980456",
+      "link": "https://diario.e-leiloes.com.br/?p=66533",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/06/leilao-caixa.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.980775",
+      "link": "https://diario.e-leiloes.com.br/?p=66501",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/05/senad-governo-federal-realizara-leilao-online-veiculos-proximos-dias-plataforma-eleiloes-1.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.981093",
+      "link": "https://diario.e-leiloes.com.br/?p=66497",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/05/realizar-leilao-imoveis-caixa-financiamento-facilitado.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.981419",
+      "link": "https://diario.e-leiloes.com.br/?p=66484",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/05/eleiloes-marcou-presenca-agrishow-maior-feira-agronegocio-america-latina.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.981931",
+      "link": "https://diario.e-leiloes.com.br/?p=66436",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/04/leilao-justica-trabalho-campinas-sp-imoveis-automoveis-desconto.jpg"
+    },
+    {
+      "source": "E-Confianca",
+      "extracted_at": "2026-01-04T18:42:34.982439",
+      "link": "https://diario.e-leiloes.com.br/?p=66432",
+      "image_url": "https://diario.e-leiloes.com.br/wp-content/uploads/2024/04/leilao-justica-trabalho-sorocaba-sp-imoveis-automoveis-desconto.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.805843",
+      "link": "https://www.hastapublica.com.br/leilao/17473/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17473",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17473.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.807298",
+      "link": "https://www.hastapublica.com.br/leilao/17458/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17458",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17458.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.807684",
+      "link": "https://www.hastapublica.com.br/leilao/17412/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17412",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17412.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.807978",
+      "link": "https://www.hastapublica.com.br#",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_sicoob26.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.808201",
+      "link": "https://www.hastapublica.com.br/leilao/17573/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17573",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17573.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.808498",
+      "link": "https://www.hastapublica.com.br/leilao/17442/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17442",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17442.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.808838",
+      "link": "https://www.hastapublica.com.br/leilao/17584/ver-leilao/?utm_source=site&utm_medium=banner&utm_campaign=banner_17584",
+      "image_url": "https://www.hastapublica.com.br/util/content/banner_17584.jpg"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.809162",
+      "link": "https://www.silviabarros.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.809442",
+      "link": "https://www.lancenow.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.809741",
+      "link": "https://www.hastaceara.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.810014",
+      "link": "https://www.123maquinas.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.810497",
+      "link": "https://www.valland.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.810996",
+      "link": "https://www.fclance.com.br"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.811297",
+      "link": "https://www.hastapublica.com.br/grupos/10?TJ-SP"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.811687",
+      "link": "https://www.hastapublica.com.br/comprei"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.812023",
+      "link": "https://www.hastapublica.com.br/grupos/9?TJ-DF"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.812326",
+      "link": "https://www.hastapublica.com.br/grupos/26?SENAD-Ministério-da-Justiça"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.812559",
+      "link": "https://www.hastapublica.com.br/grupos/21?Empresarial"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.812776",
+      "link": "https://www.hastapublica.com.br/grupos/11?TJ-CE"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.812990",
+      "link": "https://www.hastapublica.com.br/grupos/28?FHE-POUPEX"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.813207",
+      "link": "https://www.hastapublica.com.br/grupos/18?Falências"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.813425",
+      "link": "https://www.hastapublica.com.br/grupos/33?TJ-RS"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.813635",
+      "link": "https://www.hastapublica.com.br/grupos/16?Mapfre"
+    },
+    {
+      "source": "Hastapublica",
+      "extracted_at": "2026-01-04T18:42:37.813854",
+      "link": "https://www.hastapublica.com.br/grupos/27?TRT-7"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.712527",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/050126af1sofisa",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/416d1c71-8a18-49a6-9ee3-34a777da8786.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.713136",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/050126af1bra",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/09ecfd42-5b2c-4a05-8d25-a35cfb36ab83.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.713675",
+      "link": "https://www.leilaovip.com.br/evento/anuncio/casa-com-24856m-jardim-america-ii-02-14953",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/ad598d01-fa53-4fd7-b829-47095947802b.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.714227",
+      "link": "https://www.leilaovip.com.br/evento/anuncio/terreno-urbano-com-239017m-parque-da-hipica-02-15018",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/3cad8fa0-f696-4dc2-b23b-7a971c7d8c39.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.714967",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/120126bra",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/460d7358-e6b0-45ea-bd4b-6bbd1671a959.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.715344",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/310126mlv",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/e29404b8-2458-48d6-a56d-fa0314c5fcaa.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.716415",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/050126af1sofisa",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/106b9a56-5ccb-435d-b55b-d59a6f0ffb95.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.717013",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/050126af1bra",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/bfd442b8-0693-4f73-805f-87f453e77842.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.717593",
+      "link": "https://www.leilaovip.com.br/evento/anuncio/casa-com-24856m-jardim-america-ii-02-14953",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/96d8a75e-70df-473c-850c-8f6768552aea.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.718089",
+      "link": "https://www.leilaovip.com.br/evento/anuncio/terreno-urbano-com-239017m-parque-da-hipica-02-15018",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/c335ef8c-aeac-493a-ae6d-164f8391f280.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.718579",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/120126bra",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/18b0fcae-0d5f-4825-883e-21ed696e86ae.webp"
+    },
+    {
+      "source": "Hastavip",
+      "extracted_at": "2026-01-04T18:42:47.719068",
+      "link": "https://www.leilaovip.com.br/evento/detalhes/310126mlv",
+      "image_url": "https://armazupleilaovipprd.blob.core.windows.net/uploads/dda8a836-968e-4902-87f1-8bd253f553f6.webp"
+    }
+  ]
+}

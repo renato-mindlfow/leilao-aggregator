@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-01-04T19:16:09.552591",
+  "total_sites_analyzed": 4,
+  "successful_sites": 4,
+  "failed_sites": 0,
+  "total_properties_found": 38,
+  "configs_created": 4,
+  "sites": [
+    {
+      "name": "Benedettoleiloes",
+      "website": "https://www.benedettoleiloes.com.br",
+      "success": true,
+      "properties_found": 10,
+      "sample_count": 5
+    },
+    {
+      "name": "E-Confianca",
+      "website": "https://www.e-confianca.com.br",
+      "success": true,
+      "properties_found": 10,
+      "sample_count": 5
+    },
+    {
+      "name": "Hastapublica",
+      "website": "https://www.hastapublica.com.br",
+      "success": true,
+      "properties_found": 10,
+      "sample_count": 5
+    },
+    {
+      "name": "Hastavip",
+      "website": "https://www.hastavip.com.br",
+      "success": true,
+      "properties_found": 8,
+      "sample_count": 5
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "leilessp",
+  "name": "Leilões SP",
+  "website": "https://www.leiloessp.com.br",
+  "enabled": false,
+  "reason": "Erro ao acessar listagem: [Errno 11001] getaddrinfo failed"
+}

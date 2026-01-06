@@ -1,0 +1,427 @@
+{
+  "id": 2504932,
+  "indexationDate": "2025-05-15 12:54:14",
+  "lotNumber": 1,
+  "quantityInLot": 1,
+  "quantitySold": 0,
+  "quantityReserved": 0,
+  "totalReceivedProposals": 0,
+  "hasReceivedProposals": false,
+  "quantityUnit": 1,
+  "visits": 506,
+  "totalBidders": 0,
+  "totalBids": 0,
+  "totalReceivedBidsOrProposals": 0,
+  "hasBids": false,
+  "hasReceivedBidsOrProposals": false,
+  "hidePrices": true,
+  "endDate": "2022-09-16 12:22:58",
+  "endDateTime": 1663341778000,
+  "offerTypeId": 1,
+  "createAt": "2022-09-09 18:12:37",
+  "updateAt": "2024-05-30 12:01:08",
+  "publishedAt": "2022-09-09 18:29:38",
+  "statusId": 6,
+  "price": 419485.3,
+  "priceFormatted": "R$ 419.485,30",
+  "offerStatus": {
+    "statusCode": 6,
+    "removed": true,
+    "stabbed": false,
+    "subjudice": false,
+    "giveYourBid": false,
+    "wantToKnowThePrice": false,
+    "makeYourProposal": false,
+    "closedToBids": false,
+    "sold": false,
+    "reserved": false,
+    "available": false,
+    "closed": false
+  },
+  "store": {
+    "id": 1161,
+    "name": "SOLD",
+    "highlight": true,
+    "storeVisibleOnPortal": true,
+    "logoUri": "https://s.superbid.net/image/6a/67/6a670d93-0619-4cf2-9418-777f52aa84f5.png"
+  },
+  "stores": [
+    {
+      "id": 1161,
+      "name": "SOLD",
+      "highlight": true,
+      "storeVisibleOnPortal": true,
+      "logoUri": "https://s.superbid.net/image/6a/67/6a670d93-0619-4cf2-9418-777f52aa84f5.png"
+    }
+  ],
+  "offerDetail": {
+    "id": 2504932,
+    "initialBidValue": 419485.3,
+    "initialBidValueFormatted": "R$ 419.485,30",
+    "currentMinBid": 419485.3,
+    "currentMinBidFormatted": "R$ 419.485,30",
+    "currentMaxBid": 419485.3,
+    "currentMaxBidFormatted": "R$ 419.485,30",
+    "reservedPrice": 9999999,
+    "reservedPriceFormatted": "R$ 9.999.999,00"
+  },
+  "manager": {
+    "id": 9,
+    "name": "Sold Maisativo"
+  },
+  "currentTimestamp": "2026-01-05 12:56:04",
+  "auction": {
+    "id": 221532,
+    "desc": "Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20",
+    "slugDesc": null,
+    "localeId": "pt_BR",
+    "currencyIso": null,
+    "statusId": 2,
+    "permissionTypeId": 1,
+    "portalId": 2,
+    "modalityId": 1,
+    "modalityDesc": "Leilão",
+    "businessAreaId": 1,
+    "allOffersOfThisAuctionIsClosed": true,
+    "beginDate": "2022-09-09 10:00:00",
+    "endDate": "2022-09-26 10:20:00",
+    "maxEnddateOffer": "2022-09-26 10:20:00",
+    "subMarketplaces": [
+      {
+        "subMarketplaceId": 1,
+        "subMarketplaceDesc": "Corporativo"
+      }
+    ],
+    "judicialPraca": null,
+    "judicialPracaDescription": "Praça Única",
+    "judicialControlNumber": null,
+    "auctioneer": "Alexandre Travassos",
+    "registry": "000000",
+    "address": {
+      "id": 27029,
+      "streetType": "Alameda",
+      "street": "Alameda Lorena",
+      "number": "800",
+      "complement": "2º andar",
+      "district": "Jardins",
+      "city": "São Paulo",
+      "stateCode": "SP",
+      "countryName": "Brasil",
+      "regionName": "Sul",
+      "type": 5
+    },
+    "crier": false,
+    "eventPipeline": {
+      "id": 14041,
+      "description": "Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20 2",
+      "currentStage": 1,
+      "stages": [
+        {
+          "eventId": 221532,
+          "eventDesc": "Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20",
+          "beginDate": "2022-09-09 10:00:00",
+          "endDate": "2022-09-26 10:20:00",
+          "statusId": 2,
+          "isActive": true,
+          "initialBidValue": 419485.3,
+          "formattedInitialBidValue": null
+        },
+        {
+          "eventId": 221533,
+          "eventDesc": "Sold Imóveis - Santander AF 2ª Praça - 28.09.2022 - 13h20 ",
+          "beginDate": "2022-09-26 10:21:00",
+          "endDate": "2022-09-28 13:20:00",
+          "statusId": 3,
+          "isActive": false,
+          "initialBidValue": 341695,
+          "formattedInitialBidValue": null
+        }
+      ]
+    },
+    "lotAuctionTypeId": null,
+    "internalParameters": null
+  },
+  "winnerBid": {},
+  "currentBidIncrement": {
+    "currentBidIncrement": 5000,
+    "currentBidIncrementFormatted": "R$ 5.000,00"
+  },
+  "offerDescription": {
+    "offerDescription": "Apto 99,22m², 1 Vaga, Ocupado - no Bairro Figueira em Gaspar/SC Apto 99,22m², 1 Vaga, Ocupado - no Bairro Figueira em Gaspar/SC<br><br>Localização: Estrada Geral Águas Negras, nº 131, Apto nº 201-B e Vaga 02-B, Bloco B, Residencial Profº Mário Nuhs, Bairro Figueira, , Gaspar/SC   CEP 89110-526<br><br>Área privativa apto: 99,22m²<br>Área vaga: 12,00m²<br>Área privativa total: 111,22m²<br>Área comum: 30,8038m²<br>Área Total: 142,0238m²<br><br>Matrícula: 26.757<br>RGI: do Cartório de Registro de Imóveis de Gaspar/SC<br>Inscrição Prefeitura:  44389<br><br>DOSSIÊ: 18241<br><br>Imóvel ocupado, a desocupação correrá por conta do adquirente, nos termos do artigo 30 da Lei nº 9.514/97.<br><br>================================<br><br>O leilão deverá ser realizado em duas praças, sendo que a 2ª só deverá ocorrer caso não haja arrematantes na 1ª.<br><br>1ª Praça:<br>Fechamento: 26/Setembro/2022 a partir das 10h20 com Valor Mínimo de Venda de R$ 419.485,30.<br><br>2ª Praça:<br>Abertura: 26/Setembro/2022 a partir das 10h21<br>Fechamento: 28/Setembro/2022 a partir das 13h20 com Valor Mínimo de Venda de R$ 341.695,00.<br>                                                                             <br>Informações Relevantes: <br>1 - Bens no estado que se encontram (imóveis vendidos em caráter \"Ad Corpus\");<br>2 - FORMA DE PAGAMENTO: À vista.<br>3 - Venda condicionada ao não exercício do direito de preferência do Fiduciante.     <br><br>Para maiores informações, dúvidas relativas ao edital, por gentileza entre em contato pelo e-mail imoveis.sac@superbid.net ou telefone: (11) 4950-9602.<br><br>Percentual de desconto: 19% de deságio sobre o valor de avaliação. Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20"
+  },
+  "groupOffer": {
+    "acceptProposal": true,
+    "commissionPercent": 5,
+    "id": 235234
+  },
+  "product": {
+    "productId": 2291141,
+    "shortDesc": "Apto 99,22m², 1 Vaga, Ocupado - no Bairro Figueira em Gaspar/SC",
+    "attachments": [
+      {
+        "originalFileName": "matricula consolidada.pdf",
+        "fileName": "d0a77d3b-a27b-49bf-8b3c-7a30eff646ca.pdf",
+        "link": "https://s.superbid.net/attachment/d0/a7/d0a77d3b-a27b-49bf-8b3c-7a30eff646ca.pdf",
+        "type": "attachment",
+        "contentType": "application/pdf"
+      }
+    ],
+    "galleryJson": [
+      {
+        "originalFileName": "capturar2.jpg",
+        "highlight": true,
+        "fileName": "7a4c9cc6-5e68-4bd9-a7f3-018c4b18f719.jpg",
+        "link": "https://ms.sbwebservices.net/photos/7a4c9cc6-5e68-4bd9-a7f3-018c4b18f719.jpg",
+        "type": "photo",
+        "contentType": "image/jpeg"
+      },
+      {
+        "originalFileName": "capturar1.jpg",
+        "fileName": "42066d39-773f-4cdc-9bb5-62da249cc599.jpg",
+        "link": "https://ms.sbwebservices.net/photos/42066d39-773f-4cdc-9bb5-62da249cc599.jpg",
+        "type": "photo",
+        "contentType": "image/jpeg"
+      },
+      {
+        "originalFileName": "capturar.jpg",
+        "fileName": "fbc69b36-a3e1-41cb-bfe1-1d6a4159fed7.jpg",
+        "link": "https://ms.sbwebservices.net/photos/fbc69b36-a3e1-41cb-bfe1-1d6a4159fed7.jpg",
+        "type": "photo",
+        "contentType": "image/jpeg"
+      }
+    ],
+    "photoCount": 3,
+    "videoUrlCount": 0,
+    "thumbnailUrl": "https://ms.sbwebservices.net/photos/7a4c9cc6-5e68-4bd9-a7f3-018c4b18f719.jpg",
+    "detailedDescription": "Apto 99,22m², 1 Vaga, Ocupado - no Bairro Figueira em Gaspar/SC<br><br>Localização: Estrada Geral Águas Negras, nº 131, Apto nº 201-B e Vaga 02-B, Bloco B, Residencial Profº Mário Nuhs, Bairro Figueira, , Gaspar/SC   CEP 89110-526<br><br>Área privativa apto: 99,22m²<br>Área vaga: 12,00m²<br>Área privativa total: 111,22m²<br>Área comum: 30,8038m²<br>Área Total: 142,0238m²<br><br>Matrícula: 26.757<br>RGI: do Cartório de Registro de Imóveis de Gaspar/SC<br>Inscrição Prefeitura:  44389<br><br>DOSSIÊ: 18241<br><br>Imóvel ocupado, a desocupação correrá por conta do adquirente, nos termos do artigo 30 da Lei nº 9.514/97.<br><br>================================<br><br>O leilão deverá ser realizado em duas praças, sendo que a 2ª só deverá ocorrer caso não haja arrematantes na 1ª.<br><br>1ª Praça:<br>Fechamento: 26/Setembro/2022 a partir das 10h20 com Valor Mínimo de Venda de R$ 419.485,30.<br><br>2ª Praça:<br>Abertura: 26/Setembro/2022 a partir das 10h21<br>Fechamento: 28/Setembro/2022 a partir das 13h20 com Valor Mínimo de Venda de R$ 341.695,00.<br>                                                                             <br>Informações Relevantes: <br>1 - Bens no estado que se encontram (imóveis vendidos em caráter \"Ad Corpus\");<br>2 - FORMA DE PAGAMENTO: À vista.<br>3 - Venda condicionada ao não exercício do direito de preferência do Fiduciante.     <br><br>Para maiores informações, dúvidas relativas ao edital, por gentileza entre em contato pelo e-mail imoveis.sac@superbid.net ou telefone: (11) 4950-9602.<br><br>Percentual de desconto: 19% de deságio sobre o valor de avaliação.",
+    "template": {
+      "groups": [
+        {
+          "title": "Características do Imóvel",
+          "properties": [
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "areatotal",
+              "title": "Área Total",
+              "type": "number",
+              "value": "142"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "areaprivativa",
+              "title": "Área Privativa",
+              "type": "number",
+              "value": "99"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "tipodevenda",
+              "title": "Tipo de Venda",
+              "type": "string",
+              "value": "leilaoalienacaofiduciaria"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "ocupacao",
+              "title": null,
+              "type": "string",
+              "value": "ocupado"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "endereco",
+              "title": "Endereço",
+              "type": "string",
+              "value": "Estrada Geral Águas Negras, nº 131, Apto nº 201-B e Vaga 02-B, Bloco B, Residencial Profº Mário Nuhs, Bairro Figueira, , Gaspar/SC   CEP 89110-526"
+            }
+          ],
+          "id": "caracteristicasdoimovel"
+        },
+        {
+          "title": "Valores",
+          "properties": [
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "condicoesdepagamento",
+              "title": "Condições de Pagamento",
+              "type": "string",
+              "value": "Somente à vista"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "responsabilidadedopagamentodosdebitos",
+              "title": "Responsabilidade do Pagamento dos Débitos",
+              "type": "string",
+              "value": "vendedor"
+            }
+          ],
+          "id": "valores"
+        },
+        {
+          "title": "Documentos",
+          "properties": [
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "matricula",
+              "title": "Número da Matrícula",
+              "type": "string",
+              "value": "26.757 do Cartório de Registro de Imóveis de Gaspar/SC"
+            },
+            {
+              "titlesByLocale": null,
+              "valuesByLocale": null,
+              "id": "numerodocontribuinte",
+              "title": "Número do Contribuinte",
+              "type": "string",
+              "value": "44389"
+            }
+          ],
+          "id": "documentos"
+        }
+      ]
+    },
+    "subCategory": {
+      "id": 10110,
+      "description": "Apartamentos",
+      "translation": {
+        "map": {
+          "es_PE": "Pisos",
+          "en_US": "Apartments",
+          "es_AR": "Departamentos",
+          "es_MX": "Pisos",
+          "es_CO": "Apartamentos",
+          "pt_BR": "Apartamentos",
+          "en_UK": "Apartments",
+          "es_CL": "Apartamentos"
+        }
+      },
+      "evidence": "F",
+      "subGrupo": 0,
+      "grupo": 0,
+      "position": 1,
+      "category": {
+        "id": 10109,
+        "description": "Imóveis Residenciais",
+        "translation": {
+          "map": {
+            "es_PE": "Residenciales",
+            "es_AR": "Residenciales",
+            "en_US": "Residentials",
+            "es_MX": "Residenciales",
+            "es_CO": "Residenciales",
+            "pt_BR": "Imóveis Residenciais",
+            "es_CL": "Residenciales",
+            "en_UK": "Residentials"
+          }
+        },
+        "evidence": "F",
+        "subGrupo": 0,
+        "grupo": 0,
+        "position": 1
+      }
+    },
+    "model": {},
+    "brand": {},
+    "location": {
+      "displayOnMap": false,
+      "city": "Gaspar - SC",
+      "state": "Santa Catarina",
+      "country": "Brasil",
+      "locationGeo": {
+        "lat": -26.934096,
+        "lon": -48.953907
+      }
+    },
+    "productType": {
+      "id": 13,
+      "description": "Imóveis",
+      "translation": {
+        "map": {
+          "es_PE": "Inmuebles",
+          "es_AR": "Inmuebles",
+          "en_US": "Real Estate",
+          "es_MX": "Inmuebles",
+          "es_CO": "Inmuebles",
+          "pt_BR": "Imóveis",
+          "es_CL": "Inmuebles",
+          "en_UK": "Real Estate"
+        }
+      },
+      "showBrand": false,
+      "showModel": false
+    },
+    "judicial": {}
+  },
+  "seller": {
+    "id": 501101,
+    "name": "Banco Santander Brasil SA",
+    "city": "São Paulo",
+    "phone": [
+      {
+        "ddi": "55",
+        "ddd": "11",
+        "number": "21175660"
+      },
+      {
+        "ddi": "55",
+        "ddd": "11",
+        "number": "21175650"
+      }
+    ],
+    "company": [
+      {
+        "fantasyName": "Banco Santander Brasil SA"
+      }
+    ]
+  },
+  "systemMetric": "un",
+  "commercialCondition": {
+    "auctioneerCommissionPercent": null,
+    "minAdvanceRate": null,
+    "maxInstallments": null,
+    "allowsCreditCard": false,
+    "scheduleType": null,
+    "allowCreditCardCommission": false,
+    "allowCreditCardTotalValue": false,
+    "transactionLimit": null
+  },
+  "installmentPaymentTerms": {},
+  "eventPipeline": {
+    "id": 14041,
+    "description": "Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20 2",
+    "currentStage": 1,
+    "stages": [
+      {
+        "eventId": 221532,
+        "eventDesc": "Sold Imóveis - Santander AF 1ª Praça - 26.09.2022 - 10h20",
+        "beginDate": "2022-09-09 10:00:00",
+        "endDate": "2022-09-26 10:20:00",
+        "statusId": 2,
+        "isActive": true,
+        "initialBidValue": 419485.3,
+        "formattedInitialBidValue": null
+      },
+      {
+        "eventId": 221533,
+        "eventDesc": "Sold Imóveis - Santander AF 2ª Praça - 28.09.2022 - 13h20 ",
+        "beginDate": "2022-09-26 10:21:00",
+        "endDate": "2022-09-28 13:20:00",
+        "statusId": 3,
+        "isActive": false,
+        "initialBidValue": 341695,
+        "formattedInitialBidValue": null
+      }
+    ]
+  },
+  "isFavorite": false,
+  "isShopping": false,
+  "shoppingOfferType": false
+}

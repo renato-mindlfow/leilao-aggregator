@@ -1,0 +1,7 @@
+{
+  "id": "leilesnacionais",
+  "name": "Leilões Nacionais",
+  "website": "https://www.leiloesnacionais.com.br",
+  "enabled": false,
+  "reason": "URL de listagem encontrada mas sem cards detectados"
+}

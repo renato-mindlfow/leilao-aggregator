@@ -1,0 +1,7 @@
+{
+  "id": "leilessc",
+  "name": "Leilões SC",
+  "website": "https://www.leiloessc.com.br",
+  "enabled": false,
+  "reason": "URL de listagem retornou 404"
+}

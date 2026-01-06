@@ -1,0 +1,69 @@
+{
+  "id": "sodresantoro",
+  "name": "Sodré Santoro",
+  "website": "https://www.sodresantoro.com.br",
+  "enabled": false,
+  "scraping": {
+    "method": "playwright_stealth",
+    "listing_url": "/imoveis",
+    "rate_limit_seconds": 2.0,
+    "max_pages": 100,
+    "timeout_seconds": 30,
+    "imoveis_url_full": "https://www.sodresantoro.com.br/imoveis",
+    "url_type": "direct_path",
+    "is_root_category": true
+  },
+  "selectors": {
+    "property_card": ".card, .item, article",
+    "property_link": "a[href*='/imovel/']",
+    "title": "h1, h2",
+    "price": ".valor, .preco, .lance, [class*='price'], [class*='valor']",
+    "location": ".endereco, .local, .cidade, [class*='location']",
+    "area": ".area, [class*='m2'], [class*='area']",
+    "image": "img",
+    "pagination": {
+      "type": "query",
+      "param": "page",
+      "next_selector": ".pagination .next, a[rel='next'], .next"
+    }
+  },
+  "schedule": {
+    "frequency": "daily",
+    "preferred_time": "03:00",
+    "timezone": "America/Sao_Paulo"
+  },
+  "health": {
+    "min_properties_expected": 50,
+    "max_consecutive_failures": 3,
+    "alert_on_decrease_percent": 30
+  },
+  "metadata": {
+    "created_at": "2026-01-04T19:34:14.245769",
+    "last_updated": "2026-01-04T19:34:14.245785",
+    "tier": 1,
+    "has_cloudflare": false,
+    "requires_js": false,
+    "properties_at_discovery": 48,
+    "sample_data": {
+      "url": "https://leilao.sodresantoro.com.br/leilao/27980/lote/2706779/",
+      "title": "Lotes em leilão",
+      "price": "R$ 10.500.000",
+      "location": "org/TR"
+    },
+    "analysis_notes": [
+      "Nenhuma página de listagem encontrada"
+    ],
+    "last_tested_at": "2026-01-04T20:09:36.925296",
+    "playwright_tested": true,
+    "imoveis_url_discovered_at": "2026-01-04T21:30:22.152736",
+    "imoveis_total_estimado": 2,
+    "url_corrigida_at": "2026-01-04T21:55:09.649664"
+  },
+  "last_scrape": {
+    "date": "2026-01-05T14:02:24.181564",
+    "success": false,
+    "properties_found": 0,
+    "errors_count": 0
+  },
+  "status": "failed"
+}

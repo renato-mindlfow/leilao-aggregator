@@ -1,0 +1,11 @@
+{
+  "id": "sodre_santoro",
+  "name": "Sodré Santoro",
+  "method": "playwright",
+  "started_at": "2026-01-05T15:14:35.025800",
+  "finished_at": "2026-01-05T15:14:45.566202",
+  "success": false,
+  "total_properties": 0,
+  "properties": [],
+  "errors": []
+}

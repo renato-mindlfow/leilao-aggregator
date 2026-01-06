@@ -1,0 +1,27 @@
+{
+  "id": "sold",
+  "name": "Sold Leilões",
+  "website": "https://www.sold.com.br",
+  "enabled": true,
+  "method": "api_rest",
+  "listing_url": "",
+  "selectors": {},
+  "api": {
+    "base_url": "https://offer-query.superbid.net/offers/",
+    "params": {
+      "portalId": "2",
+      "filter": "product.productType.description:imoveis",
+      "pageSize": "50"
+    },
+    "pagination_param": "pageNumber",
+    "total_field": "total",
+    "items_field": "offers"
+  },
+  "last_scrape": {
+    "date": "2026-01-05T14:02:24.137754",
+    "success": true,
+    "properties_found": 150,
+    "errors_count": 0
+  },
+  "status": "success"
+}

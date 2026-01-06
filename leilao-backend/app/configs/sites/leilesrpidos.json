@@ -1,0 +1,7 @@
+{
+  "id": "leilesrpidos",
+  "name": "Leilões Rápidos",
+  "website": "https://www.leiloesrapidos.com.br",
+  "enabled": false,
+  "reason": "Erro: [Errno 11001] getaddrinfo failed"
+}

@@ -1,0 +1,121 @@
+{
+  "source": "Pestana Leilões",
+  "source_url": "https://www.pestanaleiloes.com.br",
+  "extracted_at": "2026-01-04T10:20:34.515467",
+  "total_leiloes": 0,
+  "leiloes": [],
+  "diagnostico": {
+    "status": "bloqueado",
+    "motivo": "Site requer JavaScript para renderizar conteúdo (SPA - Single Page Application)",
+    "verificacao_navegador": true,
+    "mensagem_erro": "Navegador incompatível - Seu navegador está desatualizado ou não é compatível",
+    "tecnologia": "React/Angular/Vue (SPA com renderização client-side)"
+  },
+  "estrategias_tentadas": [
+    {
+      "nome": "HTTP direto com headers de navegador",
+      "resultado": "bloqueado - retorna página de erro de navegador"
+    },
+    {
+      "nome": "Jina Reader API",
+      "resultado": "bloqueado - conteúdo não renderizado (JavaScript necessário)"
+    },
+    {
+      "nome": "API REST direta",
+      "resultado": "404 - endpoints de API não encontrados ou requerem autenticação"
+    },
+    {
+      "nome": "URLs específicas de imóveis",
+      "resultado": "200 OK mas conteúdo vazio (requer JavaScript para carregar)"
+    }
+  ],
+  "sugestoes_bypass": [
+    {
+      "prioridade": 1,
+      "metodo": "Usar Selenium com Chrome/Firefox real",
+      "descricao": "O projeto já possui PestanaScraper em app/scrapers/pestana_scraper.py que usa Selenium",
+      "comando": "python -c \"from app.scrapers.pestana_scraper import PestanaScraper; scraper = PestanaScraper(); scraper._setup_driver(); html = scraper.get_page('https://www.pestanaleiloes.com.br/procurar-bens?tipoBem=462'); print(html)\"",
+      "vantagens": [
+        "Renderiza JavaScript completamente",
+        "Bypassa verificação de navegador",
+        "Já implementado no projeto"
+      ]
+    },
+    {
+      "prioridade": 2,
+      "metodo": "Usar Playwright",
+      "descricao": "Alternativa moderna ao Selenium, mais rápida e confiável",
+      "exemplo": "from playwright.async_api import async_playwright; async with async_playwright() as p: browser = await p.chromium.launch(); page = await browser.new_page(); await page.goto('https://www.pestanaleiloes.com.br/procurar-bens?tipoBem=462'); content = await page.content()",
+      "vantagens": [
+        "Mais rápido que Selenium",
+        "Melhor suporte a SPAs",
+        "API async nativa"
+      ]
+    },
+    {
+      "prioridade": 3,
+      "metodo": "Analisar requisições XHR/Fetch",
+      "descricao": "Inspecionar Network tab do DevTools para encontrar endpoints de API reais",
+      "passos": [
+        "1. Abrir site no navegador",
+        "2. Abrir DevTools (F12) > Network tab",
+        "3. Filtrar por XHR/Fetch",
+        "4. Navegar pelo site e observar requisições",
+        "5. Identificar endpoint que retorna dados de leilões",
+        "6. Replicar requisição com headers/cookies corretos"
+      ],
+      "vantagens": [
+        "Acesso direto aos dados (mais rápido)",
+        "Não requer renderização de JavaScript",
+        "Pode funcionar com httpx/requests"
+      ]
+    },
+    {
+      "prioridade": 4,
+      "metodo": "Usar serviço de scraping profissional",
+      "descricao": "Serviços como ScrapingBee, Bright Data, ou ScraperAPI",
+      "exemplo": "https://app.scrapingbee.com/api/v1/?api_key=YOUR_KEY&url=https://www.pestanaleiloes.com.br/procurar-bens?tipoBem=462&render_js=true",
+      "vantagens": [
+        "Gerencia proxies e bypasses automaticamente",
+        "Suporte a JavaScript rendering",
+        "Alta taxa de sucesso"
+      ],
+      "desvantagens": [
+        "Custo (geralmente pago)",
+        "Dependência de serviço externo"
+      ]
+    },
+    {
+      "prioridade": 5,
+      "metodo": "Usar proxy rotativo com headers avançados",
+      "descricao": "Rotacionar IPs e usar fingerprinting de navegador real",
+      "ferramentas": [
+        "undetected-chromedriver (bypass Cloudflare)",
+        "selenium-stealth (oculta automação)",
+        "fake-useragent (rotação de User-Agents)"
+      ],
+      "vantagens": [
+        "Pode bypassar alguns sistemas de detecção",
+        "Mantém uso de Selenium/Playwright"
+      ]
+    }
+  ],
+  "informacoes_tecnicas": {
+    "tipo_aplicacao": "SPA (Single Page Application)",
+    "framework_frontend": "React/Angular/Vue (detectado por estrutura HTML)",
+    "api_detectada": "api.pestanaleiloes.com.br (preconnect no HTML)",
+    "url_imoveis": "https://www.pestanaleiloes.com.br/procurar-bens?tipoBem=462&lotePage=1&loteQty=12",
+    "verificacao_navegador": "ieValidation.js detectado no HTML",
+    "compatibilidade": "Requer navegadores modernos com JavaScript habilitado"
+  },
+  "recomendacao_final": {
+    "metodo_recomendado": "Usar PestanaScraper existente (app/scrapers/pestana_scraper.py)",
+    "razao": "Já implementado no projeto, usa Selenium que renderiza JavaScript",
+    "proximos_passos": [
+      "1. Verificar se PestanaScraper está funcionando corretamente",
+      "2. Se não, atualizar para usar URL correta: /procurar-bens?tipoBem=462",
+      "3. Adicionar wait para elementos carregarem via JavaScript",
+      "4. Extrair dados dos elementos renderizados"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "data_execucao": "2026-01-05",
+  "total_imoveis": 10560,
+  "por_fonte": {
+    "superbid_agregado": {
+      "total": 8451,
+      "arquivo": "resultado_superbid_agregado.json",
+      "success": true,
+      "errors": [
+        "Página 201: Server error '503 Service Unavailable' for url 'https://offer-query.superbid.net/offers/?portalId=2&filter=product.productType.description%3Aimoveis%3Bstores.id%3A%5B1161%5D&requestOrigin=store&pageSize=50&pageNumber=201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
+    },
+    "portal_zuk": {
+      "total": 947,
+      "arquivo": "resultado_portal_zuk.json",
+      "success": true,
+      "errors": []
+    },
+    "mega_leiloes": {
+      "total": 700,
+      "arquivo": "resultado_mega_leiloes.json",
+      "success": true,
+      "errors": []
+    },
+    "lance_judicial": {
+      "total": 312,
+      "arquivo": "resultado_lance_judicial.json",
+      "success": true,
+      "errors": []
+    },
+    "sold": {
+      "total": 150,
+      "arquivo": "resultado_sold.json",
+      "success": true,
+      "errors": []
+    },
+    "sodre_santoro": {
+      "total": 0,
+      "arquivo": "resultado_sodre_santoro.json",
+      "success": false,
+      "errors": []
+    }
+  },
+  "resumo": {
+    "fontes_ativas": 5,
+    "taxa_sucesso": "83.3%",
+    "erros": [
+      "superbid_agregado: Página 201: Server error '503 Service Unavailable' for url 'https://offer-query.superbid.net/offers/?portalId=2&filter=product.productType.description%3Aimoveis%3Bstores.id%3A%5B1161%5D&requestOrigin=store&pageSize=50&pageNumber=201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    ]
+  }
+}
