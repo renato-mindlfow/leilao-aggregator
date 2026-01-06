@@ -116,7 +116,7 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">Todos os estados</SelectItem>
-                {states.map((state) => (
+                {states.filter(s => s && s.trim() !== "").map((state) => (
                   <SelectItem key={state} value={state}>
                     {state}
                   </SelectItem>
@@ -136,7 +136,7 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">Todas as cidades</SelectItem>
-                {cities.map((city) => (
+                {cities.filter(s => s && s.trim() !== "").map((city) => (
                   <SelectItem key={city} value={city}>
                     {city}
                   </SelectItem>
@@ -156,7 +156,7 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">Todas as categorias</SelectItem>
-                {categories.map((category) => (
+                {categories.filter(s => s && s.trim() !== "").map((category) => (
                   <SelectItem key={category} value={category}>
                     {category}
                   </SelectItem>
@@ -176,7 +176,7 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">Todos os tipos</SelectItem>
-                {auctionTypes.map((type) => (
+                {auctionTypes.filter(s => s && s.trim() !== "").map((type) => (
                   <SelectItem key={type} value={type}>
                     {type}
                   </SelectItem>
