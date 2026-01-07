@@ -1,0 +1,32 @@
+{
+  "execution_date": "2026-01-07T16:52:07.371883",
+  "results": [
+    {
+      "auctioneer_id": "megaleiloes",
+      "name": "Mega Leilões",
+      "status": "success",
+      "scraped": 756,
+      "saved": 756,
+      "errors": 0
+    },
+    {
+      "auctioneer_id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "scraped": 93,
+      "saved": 93,
+      "status": "success"
+    },
+    {
+      "auctioneer_id": "flexleiloes",
+      "name": "Flex Leilões",
+      "status": "success",
+      "scraped": 14,
+      "saved": 14,
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "scraped": 863,
+    "saved": 863
+  }
+}

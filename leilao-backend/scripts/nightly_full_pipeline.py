@@ -10,6 +10,7 @@ import sys
 import logging
 import hashlib
 import httpx
+import subprocess
 from datetime import datetime
 from dotenv import load_dotenv
 from typing import Dict, Any
@@ -54,6 +55,48 @@ def run_step(step_name: str, func) -> Dict[str, Any]:
         import traceback
         traceback.print_exc()
         return {"status": "error", "error": str(e), "elapsed": elapsed}
+
+# ═══════════════════════════════════════════════════════════
+# ETAPA 0: EXECUTAR SCRAPERS VERIFICADOS
+# ═══════════════════════════════════════════════════════════
+
+def step_run_verified_scrapers():
+    """Executa scrapers verificados (Mega Leilões, Sodré Santoro, Flex)."""
+    logger.info("  Executando scrapers verificados...")
+    
+    try:
+        # Executar script de scrapers
+        script_path = os.path.join(os.path.dirname(__file__), "run_verified_scrapers.py")
+        
+        if os.path.exists(script_path):
+            result = subprocess.run(
+                ["python", script_path],
+                capture_output=True,
+                text=True,
+                timeout=3600  # 1 hora de timeout
+            )
+            
+            if result.returncode == 0:
+                logger.info("  ✅ Scrapers verificados executados com sucesso")
+                # Log últimas linhas do output
+                output_lines = result.stdout.strip().split('\n')[-10:]
+                for line in output_lines:
+                    if line.strip():
+                        logger.info(f"     {line}")
+                return {"status": "success", "output": result.stdout}
+            else:
+                logger.error(f"  ❌ Erro nos scrapers: {result.stderr}")
+                return {"status": "error", "error": result.stderr}
+        else:
+            logger.warning(f"  ⚠️ Script não encontrado: {script_path}")
+            return {"status": "error", "error": "Script não encontrado"}
+            
+    except subprocess.TimeoutExpired:
+        logger.error("  ❌ Timeout na execução dos scrapers")
+        return {"status": "error", "error": "Timeout"}
+    except Exception as e:
+        logger.error(f"  ❌ Erro ao executar scrapers: {e}")
+        return {"status": "error", "error": str(e)}
 
 # ═══════════════════════════════════════════════════════════
 # ETAPA 1: GERAR DEDUP_KEY PARA NOVOS IMÓVEIS
@@ -352,6 +395,7 @@ def main():
     
     results = {}
     
+    results["0_Scrapers"] = run_step("Executar Scrapers Verificados", step_run_verified_scrapers)
     results["1_Dedup_Keys"] = run_step("Gerar Dedup Keys", step_generate_dedup_keys)
     results["2_Auditoria"] = run_step("Auditoria de Qualidade", step_audit_quality)
     results["3_Limpeza"] = run_step("Limpeza de Dados Ruins", step_cleanup_bad_data)

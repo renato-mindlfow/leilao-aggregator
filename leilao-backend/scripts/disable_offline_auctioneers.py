@@ -33,21 +33,21 @@ def main():
             }).eq("id", auc_id).execute()
             
             if result.data:
-                print(f"✅ Desativado: {auc_id}")
+                print(f"[OK] Desativado: {auc_id}")
             else:
                 # Tentar por nome
                 result = supabase.table("auctioneers").update({
                     "is_active": False,
                     "scrape_status": "disabled",
-                    "scrape_error": "Site offline - domínio não resolve"
+                    "scrape_error": "Site offline - dominio nao resolve"
                 }).ilike("name", f"%{auc_id}%").execute()
                 
                 if result.data:
-                    print(f"✅ Desativado: {auc_id}")
+                    print(f"[OK] Desativado: {auc_id}")
                 else:
-                    print(f"⚠️ Não encontrado: {auc_id}")
+                    print(f"[AVISO] Nao encontrado: {auc_id}")
         except Exception as e:
-            print(f"❌ Erro ao desativar {auc_id}: {e}")
+            print(f"[ERRO] Erro ao desativar {auc_id}: {e}")
 
 if __name__ == "__main__":
     main()

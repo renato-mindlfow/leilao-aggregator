@@ -2,7 +2,7 @@
 """
 SCRAPER PARA SODRÉ SANTORO
 Validado visualmente em 2026-01-07.
-Não requer Playwright - HTTP simples funciona.
+URL /imoveis já filtra apenas imóveis.
 """
 
 import httpx
@@ -14,9 +14,6 @@ from datetime import datetime
 from urllib.parse import urljoin
 
 logger = logging.getLogger(__name__)
-
-IMOVEIS_KEYWORDS = ['apartamento', 'casa', 'terreno', 'sala', 'galpão', 'fazenda', 'sítio', 'chácara', 'imóvel']
-REJEITAR_KEYWORDS = ['veículo', 'carro', 'moto', 'caminhão', 'máquina', 'trator']
 
 class SodreSantoroScraper:
     """Scraper para Sodré Santoro."""
@@ -33,20 +30,16 @@ class SodreSantoroScraper:
             'Accept-Language': 'pt-BR,pt;q=0.9',
         }
     
-    def _is_imovel(self, text: str) -> bool:
-        text_lower = text.lower()
-        for kw in REJEITAR_KEYWORDS:
-            if kw in text_lower:
-                return False
-        for kw in IMOVEIS_KEYWORDS:
-            if kw in text_lower:
-                return True
-        return False
-    
     def _parse_price(self, price_str: str) -> Optional[float]:
         if not price_str:
             return None
         try:
+            # Encontrar valor no texto
+            match = re.search(r'R\$\s*([\d.,]+)', price_str)
+            if match:
+                clean = match.group(1).replace('.', '').replace(',', '.')
+                return float(clean)
+            # Tentar parse direto
             clean = re.sub(r'[R$\s.]', '', price_str)
             clean = clean.replace(',', '.')
             return float(clean)
@@ -56,23 +49,46 @@ class SodreSantoroScraper:
     def _extract_state_city(self, location: str) -> tuple:
         if not location:
             return None, None
-        match = re.match(r'^(.+?)\s*[-/,]\s*([A-Z]{2})$', location.strip())
-        if match:
-            return match.group(2), match.group(1).strip()
-        return None, location.strip()
+        
+        location = location.strip()
+        
+        # Padrões comuns
+        patterns = [
+            r'^(.+?)\s*[-/,]\s*([A-Z]{2})$',  # Cidade - UF
+            r'^([A-Z]{2})\s*[-/,]\s*(.+)$',   # UF - Cidade
+            r'([A-Z]{2})$',                    # Só UF no final
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, location)
+            if match:
+                groups = match.groups()
+                if len(groups) == 2:
+                    if len(groups[0]) == 2:
+                        return groups[0], groups[1].strip()
+                    return groups[1], groups[0].strip()
+                elif len(groups) == 1 and len(groups[0]) == 2:
+                    return groups[0], location.replace(groups[0], '').strip(' -/')
+        
+        return None, location
     
     def _determine_category(self, text: str) -> str:
-        text_lower = text.lower() if text else ""
-        if any(x in text_lower for x in ['apartamento', 'apto']):
+        if not text:
+            return "Outro"
+        
+        text_lower = text.lower()
+        
+        if any(x in text_lower for x in ['apartamento', 'apto', 'cobertura', 'flat', 'kitnet']):
             return "Apartamento"
-        if any(x in text_lower for x in ['casa', 'sobrado']):
+        if any(x in text_lower for x in ['casa', 'sobrado', 'residência', 'residencia']):
             return "Casa"
-        if any(x in text_lower for x in ['terreno', 'lote']):
+        if any(x in text_lower for x in ['terreno', 'lote', 'área', 'gleba']):
             return "Terreno"
-        if any(x in text_lower for x in ['sala', 'galpão', 'comercial']):
+        if any(x in text_lower for x in ['sala', 'loja', 'galpão', 'galpao', 'prédio', 'comercial', 'escritório']):
             return "Comercial"
-        if any(x in text_lower for x in ['fazenda', 'sítio', 'chácara']):
+        if any(x in text_lower for x in ['fazenda', 'sítio', 'sitio', 'chácara', 'chacara', 'rural', 'haras']):
             return "Rural"
+        
         return "Outro"
     
     def scrape(self, max_properties: int = None, max_pages: int = 10) -> List[Dict]:
@@ -89,36 +105,59 @@ class SodreSantoroScraper:
                     if current_page > 1:
                         url = f"{self.IMOVEIS_URL}?page={current_page}"
                     
-                    logger.info(f"  📄 Página {current_page}")
+                    logger.info(f"  📄 Página {current_page}: {url}")
                     
                     response = client.get(url)
                     if response.status_code != 200:
+                        logger.warning(f"  ⚠️ HTTP {response.status_code}")
                         break
                     
                     soup = BeautifulSoup(response.text, 'html.parser')
                     
-                    # Seletores verificados visualmente
-                    # Tentar múltiplos seletores
-                    cards = soup.select(".item, [class*='item'], article, .card, [class*='card'], [class*='lote']")
+                    # Tentar múltiplos seletores - priorizar links de lote
+                    cards = []
+                    selectors_to_try = [
+                        "a[href*='/lote']",  # Prioridade: links de lote
+                        "a[href*='/leilao']",
+                        "a[href*='/imovel']",
+                        "div.card",
+                        "div.item",
+                        "article",
+                        "div[class*='lote']",
+                        "div[class*='leilao']",
+                    ]
+                    
+                    for selector in selectors_to_try:
+                        cards = soup.select(selector)
+                        if cards:
+                            logger.info(f"  📦 Seletor '{selector}': {len(cards)} cards")
+                            break
                     
                     if not cards:
-                        break
+                        # Última tentativa: encontrar todos os links de leilão/lote
+                        links = soup.find_all('a', href=re.compile(r'/(leilao|lote|imovel)'))
+                        if links:
+                            logger.info(f"  📦 Links encontrados: {len(links)}")
+                            cards = links
                     
-                    logger.info(f"  📦 {len(cards)} cards encontrados")
+                    if not cards:
+                        logger.info(f"  ℹ️ Nenhum card na página {current_page}")
+                        break
                     
                     page_count = 0
                     for card in cards:
-                        card_text = card.get_text()
+                        # Como estamos em /imoveis, TODOS são imóveis
+                        # Não precisa filtrar por palavra-chave
                         
-                        # Filtrar apenas imóveis
-                        if not self._is_imovel(card_text):
-                            continue
-                        
-                        prop = self._extract_property(card)
+                        prop = self._extract_property(card, soup)
                         if prop and prop.get("source_url"):
+                            # Evitar duplicatas
                             if not any(p.get("source_url") == prop["source_url"] for p in properties):
                                 properties.append(prop)
                                 page_count += 1
+                                
+                                if page_count <= 3:
+                                    logger.debug(f"    ✓ {prop.get('title', 'N/A')[:40]}")
                     
                     logger.info(f"  ✅ {page_count} imóveis extraídos")
                     
@@ -132,62 +171,108 @@ class SodreSantoroScraper:
         
         except Exception as e:
             logger.error(f"❌ Erro: {e}")
+            import traceback
+            traceback.print_exc()
         
         logger.info(f"✅ Total: {len(properties)} imóveis de Sodré Santoro")
         return properties[:max_properties] if max_properties else properties
     
-    def _extract_property(self, card) -> Optional[Dict]:
-        """Extrai dados de um card."""
+    def _extract_property(self, card, soup=None) -> Optional[Dict]:
+        """Extrai dados de um card ou link."""
         try:
             prop = {
                 "auctioneer_id": self.AUCTIONEER_ID,
                 "auctioneer_name": self.AUCTIONEER_NAME,
                 "auctioneer_url": self.BASE_URL,
                 "scraped_at": datetime.now().isoformat(),
+                "auction_type": "Extrajudicial",
             }
             
-            # Link - tentar múltiplos padrões
-            link = card.select_one("a[href*='/leilao'], a[href*='/lote'], a[href*='/imovel'], a")
-            if link:
-                href = link.get("href", "")
-                if href:
-                    # Se o link já contém o subdomínio leilao, usar diretamente
-                    if 'leilao.sodresantoro.com.br' in href:
-                        prop["source_url"] = href if href.startswith("http") else "https://" + href.lstrip("/")
-                    else:
-                        prop["source_url"] = urljoin(self.BASE_URL, href)
+            # Se o card é um link <a>
+            if card.name == 'a':
+                href = card.get("href", "")
+                prop["source_url"] = urljoin(self.BASE_URL, href)
+                prop["url"] = prop["source_url"]
+                prop["title"] = card.get_text(strip=True) or "Imóvel"
+            else:
+                # Encontrar link dentro do card
+                link = card.select_one("a[href*='/leilao'], a[href*='/lote'], a[href*='/imovel'], a")
+                if link:
+                    href = link.get("href", "")
+                    prop["source_url"] = urljoin(self.BASE_URL, href)
                     prop["url"] = prop["source_url"]
+                
+                # Título
+                title_elem = card.select_one("h1, h2, h3, h4, h5, .title, .titulo, [class*='title'], [class*='nome']")
+                if title_elem:
+                    prop["title"] = title_elem.get_text(strip=True)
+                elif link:
+                    prop["title"] = link.get_text(strip=True)
+                else:
+                    prop["title"] = card.get_text(strip=True)[:100]
             
             if not prop.get("source_url"):
                 return None
             
-            # Título
-            title = card.select_one(".title, h3, h4, [class*='title']")
-            prop["title"] = title.get_text(strip=True) if title else "Imóvel"
+            # Limpar título
+            if prop.get("title"):
+                prop["title"] = ' '.join(prop["title"].split())[:200]
             
-            # Preço
-            price = card.select_one("[class*='valor'], [class*='price']")
-            if price:
-                prop["first_auction_value"] = self._parse_price(price.get_text())
+            # Preço - tentar encontrar no card ou em elementos próximos
+            price_selectors = [
+                "[class*='valor']",
+                "[class*='price']",
+                "[class*='preco']",
+                "[class*='lance']",
+                "span.valor",
+                "div.valor",
+            ]
+            
+            for selector in price_selectors:
+                price_elem = card.select_one(selector) if hasattr(card, 'select_one') else None
+                if price_elem:
+                    price_text = price_elem.get_text(strip=True)
+                    prop["first_auction_value"] = self._parse_price(price_text)
+                    if prop["first_auction_value"]:
+                        break
+            
+            # Se não encontrou preço no card, procurar no texto
+            if not prop.get("first_auction_value"):
+                card_text = card.get_text() if hasattr(card, 'get_text') else str(card)
+                match = re.search(r'R\$\s*([\d.,]+)', card_text)
+                if match:
+                    prop["first_auction_value"] = self._parse_price(match.group(0))
             
             # Localização
-            loc = card.select_one("[class*='cidade'], [class*='local']")
-            if loc:
-                state, city = self._extract_state_city(loc.get_text())
-                prop["state"] = state
-                prop["city"] = city
+            loc_selectors = [
+                "[class*='cidade']",
+                "[class*='local']",
+                "[class*='endereco']",
+                "[class*='location']",
+            ]
+            
+            for selector in loc_selectors:
+                loc_elem = card.select_one(selector) if hasattr(card, 'select_one') else None
+                if loc_elem:
+                    loc_text = loc_elem.get_text(strip=True)
+                    state, city = self._extract_state_city(loc_text)
+                    prop["state"] = state
+                    prop["city"] = city
+                    break
             
             # Imagem
-            img = card.select_one("img")
+            img = card.select_one("img") if hasattr(card, 'select_one') else None
             if img:
-                src = img.get("src") or img.get("data-src")
-                if src and 'logo' not in src.lower():
+                src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+                if src and not any(x in src.lower() for x in ['logo', 'icon', 'placeholder', 'avatar']):
                     prop["image_url"] = urljoin(self.BASE_URL, src)
             
+            # Categoria baseada no título
             prop["category"] = self._determine_category(prop.get("title", ""))
-            prop["auction_type"] = "Extrajudicial"
             
             return prop
-        except:
+            
+        except Exception as e:
+            logger.debug(f"Erro ao extrair: {e}")
             return None
 
