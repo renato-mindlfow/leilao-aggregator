@@ -66,8 +66,12 @@ def main():
             error_type = "Erro de conexão"
         elif "dns" in error_lower or "resolve" in error_lower:
             error_type = "DNS não resolve"
-        elif "no properties" in error_lower or "sem imóveis" in error_lower:
+        elif "nenhum imóvel encontrado" in error_lower or "no properties" in error_lower or "sem imóveis" in error_lower or "nenhum imovel" in error_lower:
             error_type = "Sem imóveis encontrados"
+        elif "duplicate key" in error_lower or "unique constraint" in error_lower:
+            error_type = "Erro de chave duplicada"
+        elif "erro não especificado" in error_lower or "erro nao especificado" in error_lower:
+            error_type = "Erro não especificado"
         else:
             error_type = "Outro"
         
