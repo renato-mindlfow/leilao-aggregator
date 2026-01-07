@@ -1,0 +1,50 @@
+name: Nightly Full Pipeline
+
+on:
+  schedule:
+    # Executar às 3h da manhã (horário de Brasília = 6h UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  nightly-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpq-dev
+
+      - name: Install Python dependencies
+        run: |
+          cd leilao-backend
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Nightly Pipeline
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          cd leilao-backend/scripts
+          python nightly_full_pipeline.py
+
+      - name: Upload Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightly-report-${{ github.run_number }}
+          path: leilao-backend/scripts/RELATORIO_NOTURNO_*.md
+          retention-days: 30
+        if: always()
+
