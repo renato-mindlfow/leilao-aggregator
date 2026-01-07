@@ -1,0 +1,1485 @@
+[
+  {
+    "id": "12",
+    "name": "Leje",
+    "website": "https://www.leje.com.br",
+    "listing_url": "https://www.leje.com.br",
+    "estimated_properties": 7575,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "3",
+    "name": "Lancetotal",
+    "website": "https://www.lancetotal.com.br",
+    "listing_url": "https://www.lancetotal.com.br",
+    "estimated_properties": 2026,
+    "found_selectors": [
+      "div.card: 36",
+      "div.auction: 1"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "289",
+    "name": "Mega Leilões",
+    "website": "https://www.megaleiloes.com.br",
+    "listing_url": "https://www.megaleiloes.com.br",
+    "estimated_properties": 823,
+    "found_selectors": [
+      "div.card: 823",
+      "li.item: 2",
+      "div.auction: 33"
+    ],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "242",
+    "name": "Jacleiloes",
+    "website": "https://www.jacleiloes.com.br",
+    "listing_url": "https://www.jacleiloes.com.br",
+    "estimated_properties": 619,
+    "found_selectors": [
+      "div.card: 619"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "25",
+    "name": "Lancenoleilao",
+    "website": "https://www.lancenoleilao.com.br",
+    "listing_url": "https://www.lancenoleilao.com.br",
+    "estimated_properties": 543,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "180",
+    "name": "Lancecertoleiloes",
+    "website": "https://www.lancecertoleiloes.com.br",
+    "listing_url": "https://www.lancecertoleiloes.com.br",
+    "estimated_properties": 476,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "39",
+    "name": "Allianceleiloes",
+    "website": "https://www.allianceleiloes.com.br",
+    "listing_url": "https://www.allianceleiloes.com.br",
+    "estimated_properties": 416,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "62",
+    "name": "Centraljudicial",
+    "website": "https://www.centraljudicial.com.br",
+    "listing_url": "https://www.centraljudicial.com.br",
+    "estimated_properties": 402,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "274",
+    "name": "Pactoleiloes",
+    "website": "https://www.pactoleiloes.com.br",
+    "listing_url": "https://www.pactoleiloes.com.br",
+    "estimated_properties": 300,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "React/Next.js"
+  },
+  {
+    "id": "26",
+    "name": "Leilomaster",
+    "website": "https://www.leilomaster.com.br",
+    "listing_url": "https://www.leilomaster.com.br",
+    "estimated_properties": 300,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "React/Next.js"
+  },
+  {
+    "id": "220",
+    "name": "Natalialeiloes",
+    "website": "https://www.natalialeiloes.com.br",
+    "listing_url": "https://www.natalialeiloes.com.br",
+    "estimated_properties": 207,
+    "found_selectors": [
+      "div.card: 207"
+    ],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "284",
+    "name": "Dhleiloes",
+    "website": "https://www.dhleiloes.com.br",
+    "listing_url": "https://www.dhleiloes.com.br",
+    "estimated_properties": 207,
+    "found_selectors": [
+      "article: 207"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "259",
+    "name": "Wspleiloes",
+    "website": "https://www.wspleiloes.com.br",
+    "listing_url": "https://www.wspleiloes.com.br",
+    "estimated_properties": 202,
+    "found_selectors": [
+      "div.card: 202"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "236",
+    "name": "Lancevip",
+    "website": "https://www.lancevip.com.br",
+    "listing_url": "https://www.lancevip.com.br",
+    "estimated_properties": 170,
+    "found_selectors": [
+      "div.card: 170"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "129",
+    "name": "Ctsleiloes",
+    "website": "https://www.ctsleiloes.com.br",
+    "listing_url": "https://www.ctsleiloes.com.br",
+    "estimated_properties": 151,
+    "found_selectors": [
+      "div.lote: 151"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "33",
+    "name": "Unileiloes",
+    "website": "https://www.unileiloes.com.br",
+    "listing_url": "https://www.unileiloes.com.br",
+    "estimated_properties": 138,
+    "found_selectors": [
+      "div.card: 138",
+      "article: 73"
+    ],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "11",
+    "name": "Biasileiloes",
+    "website": "https://www.biasileiloes.com.br",
+    "listing_url": "https://www.biasileiloes.com.br",
+    "estimated_properties": 130,
+    "found_selectors": [
+      "div.card: 130"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "87",
+    "name": "Cargneluttileiloes",
+    "website": "https://www.cargneluttileiloes.com.br",
+    "listing_url": "https://www.cargneluttileiloes.com.br",
+    "estimated_properties": 116,
+    "found_selectors": [
+      "div.lote: 6",
+      "div.card: 116"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "123",
+    "name": "Leiloeslaraforster",
+    "website": "https://www.leiloeslaraforster.com.br",
+    "listing_url": "https://www.leiloeslaraforster.com.br",
+    "estimated_properties": 111,
+    "found_selectors": [
+      "div.lote: 111",
+      "article: 111"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "147",
+    "name": "Deborabarzleiloes",
+    "website": "https://www.deborabarzleiloes.com.br",
+    "listing_url": "https://www.deborabarzleiloes.com.br",
+    "estimated_properties": 100,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "237",
+    "name": "Machadoleiloeiro",
+    "website": "https://www.machadoleiloeiro.com.br",
+    "listing_url": "https://www.machadoleiloeiro.com.br",
+    "estimated_properties": 83,
+    "found_selectors": [
+      "div.card: 83"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "272",
+    "name": "Amaralleiloes",
+    "website": "https://www.amaralleiloes.com.br",
+    "listing_url": "https://www.amaralleiloes.com.br",
+    "estimated_properties": 76,
+    "found_selectors": [
+      "div.card: 76"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "118",
+    "name": "Santoseborinleiloes",
+    "website": "https://www.santoseborinleiloes.com.br",
+    "listing_url": "https://www.santoseborinleiloes.com.br",
+    "estimated_properties": 49,
+    "found_selectors": [
+      "article: 49"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "108",
+    "name": "Eduardovivian",
+    "website": "https://www.eduardovivian.com.br",
+    "listing_url": "https://www.eduardovivian.com.br",
+    "estimated_properties": 47,
+    "found_selectors": [
+      "div.card: 47"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "192",
+    "name": "Parquedosleiloes",
+    "website": "https://www.parquedosleiloes.com.br",
+    "listing_url": "https://www.parquedosleiloes.com.br",
+    "estimated_properties": 46,
+    "found_selectors": [
+      "div.card: 46",
+      "div.auction: 12"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "138",
+    "name": "Leiloeirobarbieri",
+    "website": "https://www.leiloeirobarbieri.com.br",
+    "listing_url": "https://www.leiloeirobarbieri.com.br",
+    "estimated_properties": 42,
+    "found_selectors": [
+      "div.card: 42"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "27",
+    "name": "Depaulaonline",
+    "website": "https://www.depaulaonline.com.br",
+    "listing_url": "https://www.depaulaonline.com.br",
+    "estimated_properties": 36,
+    "found_selectors": [
+      "div.card: 36",
+      "article: 22"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "91",
+    "name": "Moraesleiloes",
+    "website": "https://www.moraesleiloes.com.br",
+    "listing_url": "https://www.moraesleiloes.com.br",
+    "estimated_properties": 32,
+    "found_selectors": [
+      "div.card: 32"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "149",
+    "name": "Bidgo",
+    "website": "https://www.bidgo.com.br",
+    "listing_url": "https://www.bidgo.com.br",
+    "estimated_properties": 19,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "88",
+    "name": "Cristianoescolaleiloes",
+    "website": "https://www.cristianoescolaleiloes.com.br",
+    "listing_url": "https://www.cristianoescolaleiloes.com.br",
+    "estimated_properties": 18,
+    "found_selectors": [
+      "div.card: 16",
+      "article: 16",
+      "div.auction: 18"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "233",
+    "name": "Claudiokussleiloes",
+    "website": "https://www.claudiokussleiloes.com.br",
+    "listing_url": "https://www.claudiokussleiloes.com.br",
+    "estimated_properties": 13,
+    "found_selectors": [
+      "div.item: 13"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "51",
+    "name": "Gustavoreisleiloes",
+    "website": "https://www.gustavoreisleiloes.com.br",
+    "listing_url": "https://www.gustavoreisleiloes.com.br",
+    "estimated_properties": 12,
+    "found_selectors": [
+      "div.card: 2",
+      "div.item: 12"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "98",
+    "name": "Lunellileiloes",
+    "website": "https://www.lunellileiloes.com.br",
+    "listing_url": "https://www.lunellileiloes.com.br",
+    "estimated_properties": 11,
+    "found_selectors": [
+      "article: 11"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "286",
+    "name": "Leffaleiloes",
+    "website": "https://www.leffaleiloes.com.br",
+    "listing_url": "https://www.leffaleiloes.com.br",
+    "estimated_properties": 11,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "96",
+    "name": "Amtleiloes",
+    "website": "https://www.amtleiloes.com.br",
+    "listing_url": "https://www.amtleiloes.com.br",
+    "estimated_properties": 9,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "80",
+    "name": "Marquesleiloes",
+    "website": "https://www.marquesleiloes.com.br",
+    "listing_url": "https://www.marquesleiloes.com.br",
+    "estimated_properties": 8,
+    "found_selectors": [
+      "div.lote: 8"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "247",
+    "name": "Medeirosleiloes",
+    "website": "https://www.medeirosleiloes.com.br",
+    "listing_url": "https://www.medeirosleiloes.com.br",
+    "estimated_properties": 8,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "111",
+    "name": "Clademirleiloeiro",
+    "website": "https://www.clademirleiloeiro.com.br",
+    "listing_url": "https://www.clademirleiloeiro.com.br",
+    "estimated_properties": 8,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "57",
+    "name": "Webleiloes",
+    "website": "https://www.webleiloes.com.br",
+    "listing_url": "https://www.webleiloes.com.br",
+    "estimated_properties": 6,
+    "found_selectors": [
+      "div.item: 6"
+    ],
+    "status": "success",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "165",
+    "name": "Kriegerleiloes",
+    "website": "https://www.kriegerleiloes.com.br",
+    "listing_url": "https://www.kriegerleiloes.com.br",
+    "estimated_properties": 4,
+    "found_selectors": [
+      "li.item: 4"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "119",
+    "name": "Dldleiloeiro",
+    "website": "https://www.dldleiloeiro.com.br",
+    "listing_url": "https://www.dldleiloeiro.com.br",
+    "estimated_properties": 4,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "142",
+    "name": "Lipinskileiloes",
+    "website": "https://www.lipinskileiloes.com.br",
+    "listing_url": "https://www.lipinskileiloes.com.br",
+    "estimated_properties": 4,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "83",
+    "name": "Spencerleiloes",
+    "website": "https://www.spencerleiloes.com.br",
+    "listing_url": "https://www.spencerleiloes.com.br",
+    "estimated_properties": 3,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "71",
+    "name": "Oleiloes",
+    "website": "https://www.oleiloes.com.br",
+    "listing_url": "https://www.oleiloes.com.br",
+    "estimated_properties": 3,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "109",
+    "name": "Fauthleiloes",
+    "website": "https://www.fauthleiloes.com.br",
+    "listing_url": "https://www.fauthleiloes.com.br",
+    "estimated_properties": 3,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "WordPress"
+  },
+  {
+    "id": "179",
+    "name": "Abaleiloes",
+    "website": "https://www.abaleiloes.com.br",
+    "listing_url": "https://www.abaleiloes.com.br",
+    "estimated_properties": 3,
+    "found_selectors": [
+      "article: 3",
+      "div.item: 2",
+      "li.item: 2"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "251",
+    "name": "Pimentelleiloes",
+    "website": "https://www.pimentelleiloes.com.br",
+    "listing_url": "https://www.pimentelleiloes.com.br",
+    "estimated_properties": 2,
+    "found_selectors": [
+      "div.lote: 2"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "137",
+    "name": "Gabrielleiloes",
+    "website": "https://www.gabrielleiloes.com.br",
+    "listing_url": "https://www.gabrielleiloes.com.br",
+    "estimated_properties": 2,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "153",
+    "name": "Fariasleiloes",
+    "website": "https://www.fariasleiloes.com.br",
+    "listing_url": "https://www.fariasleiloes.com.br",
+    "estimated_properties": 2,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "240",
+    "name": "Lancejusto",
+    "website": "https://www.lancejusto.com.br",
+    "listing_url": "https://www.lancejusto.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "67",
+    "name": "Conceitoleiloes",
+    "website": "https://www.conceitoleiloes.com.br",
+    "listing_url": "https://www.conceitoleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [
+      "div.lote: 1"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "114",
+    "name": "Grandesleiloes",
+    "website": "https://www.grandesleiloes.com.br",
+    "listing_url": "https://www.grandesleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "89",
+    "name": "Leilaosantos",
+    "website": "https://www.leilaosantos.com.br",
+    "listing_url": "https://www.leilaosantos.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [
+      "div.lote: 1"
+    ],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "93",
+    "name": "Pietosoleiloes",
+    "website": "https://www.pietosoleiloes.com.br",
+    "listing_url": "https://www.pietosoleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "95",
+    "name": "Santamarialeiloes",
+    "website": "https://www.santamarialeiloes.com.br",
+    "listing_url": "https://www.santamarialeiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "103",
+    "name": "Mpleilao",
+    "website": "https://www.mpleilao.com.br",
+    "listing_url": "https://www.mpleilao.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "102",
+    "name": "Lessaleiloes",
+    "website": "https://www.lessaleiloes.com.br",
+    "listing_url": "https://www.lessaleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "106",
+    "name": "Clovisleiloeiro",
+    "website": "https://www.clovisleiloeiro.com.br",
+    "listing_url": "https://www.clovisleiloeiro.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "126",
+    "name": "Marceloleiloeiro",
+    "website": "https://www.marceloleiloeiro.com.br",
+    "listing_url": "https://www.marceloleiloeiro.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "130",
+    "name": "Vidalleiloes",
+    "website": "https://www.vidalleiloes.com.br",
+    "listing_url": "https://www.vidalleiloes.com.br/busca",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "131",
+    "name": "Gtleiloes",
+    "website": "https://www.gtleiloes.com.br",
+    "listing_url": "https://www.gtleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "139",
+    "name": "Michellileiloes",
+    "website": "https://www.michellileiloes.com.br",
+    "listing_url": "https://www.michellileiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "145",
+    "name": "Bianchileiloes",
+    "website": "https://www.bianchileiloes.com.br",
+    "listing_url": "https://www.bianchileiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "148",
+    "name": "Arnoldoleiloes",
+    "website": "https://www.arnoldoleiloes.com.br",
+    "listing_url": "https://www.arnoldoleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "151",
+    "name": "Szortykaleiloes",
+    "website": "https://www.szortykaleiloes.com.br",
+    "listing_url": "https://www.szortykaleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "134",
+    "name": "Bartmannleiloes",
+    "website": "https://www.bartmannleiloes.com.br",
+    "listing_url": "https://www.bartmannleiloes.com.br",
+    "estimated_properties": 1,
+    "found_selectors": [],
+    "status": "success",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "20",
+    "name": "Vivaleiloes",
+    "website": "https://www.vivaleiloes.com.br",
+    "listing_url": "https://www.vivaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "5",
+    "name": "Frazaoleiloes",
+    "website": "https://www.frazaoleiloes.com.br",
+    "listing_url": "https://www.frazaoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "59",
+    "name": "Picellileiloes",
+    "website": "https://www.picellileiloes.com.br",
+    "listing_url": "https://www.picellileiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "63",
+    "name": "Moralesleiloes",
+    "website": "https://www.moralesleiloes.com.br",
+    "listing_url": "https://www.moralesleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "263",
+    "name": "Horizonteleiloes",
+    "website": "https://www.horizonteleiloes.com.br",
+    "listing_url": "https://www.horizonteleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "38",
+    "name": "Alexandridisleiloes",
+    "website": "https://www.alexandridisleiloes.com.br",
+    "listing_url": "https://www.alexandridisleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "226",
+    "name": "Marangonileiloes",
+    "website": "https://www.marangonileiloes.com.br",
+    "listing_url": "https://www.marangonileiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "97",
+    "name": "Alencastroleiloes",
+    "website": "https://www.alencastroleiloes.com.br",
+    "listing_url": "https://www.alencastroleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "WordPress"
+  },
+  {
+    "id": "229",
+    "name": "Andreluizleiloes",
+    "website": "https://www.andreluizleiloes.com.br",
+    "listing_url": "https://www.andreluizleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "216",
+    "name": "Leiloes61",
+    "website": "https://www.leiloes61.com.br",
+    "listing_url": "https://www.leiloes61.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "210",
+    "name": "Morescoleiloes",
+    "website": "https://www.morescoleiloes.com.br",
+    "listing_url": "https://www.morescoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "224",
+    "name": "Duxleiloes",
+    "website": "https://www.duxleiloes.com.br",
+    "listing_url": "https://www.duxleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "208",
+    "name": "E-Leiloeiro",
+    "website": "https://www.e-leiloeiro.com.br",
+    "listing_url": "https://www.e-leiloeiro.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "WordPress"
+  },
+  {
+    "id": "232",
+    "name": "Grupocarvalholeiloes",
+    "website": "https://www.grupocarvalholeiloes.com.br",
+    "listing_url": "https://www.grupocarvalholeiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "React/Next.js"
+  },
+  {
+    "id": "245",
+    "name": "Jorgemarcoleiloes",
+    "website": "https://www.jorgemarcoleiloes.com.br",
+    "listing_url": "https://www.jorgemarcoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "250",
+    "name": "Odarlicanezinleiloes",
+    "website": "https://www.odarlicanezinleiloes.com.br",
+    "listing_url": "https://www.odarlicanezinleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "248",
+    "name": "Donhaleiloes",
+    "website": "https://www.donhaleiloes.com",
+    "listing_url": "https://www.donhaleiloes.com",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "243",
+    "name": "Monzonleiloes",
+    "website": "https://www.monzonleiloes.com.br",
+    "listing_url": "https://www.monzonleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "262",
+    "name": "Wmleiloes",
+    "website": "https://www.wmleiloes.com.br",
+    "listing_url": "https://www.wmleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "WordPress"
+  },
+  {
+    "id": "264",
+    "name": "Tabaleiloes",
+    "website": "https://www.tabaleiloes.com.br",
+    "listing_url": "https://www.tabaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "266",
+    "name": "Ricoleiloes",
+    "website": "https://www.ricoleiloes.com.br",
+    "listing_url": "https://www.ricoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "267",
+    "name": "Rocketleiloes",
+    "website": "https://www.rocketleiloes.com.br",
+    "listing_url": "https://www.rocketleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "268",
+    "name": "Ktzleiloes",
+    "website": "https://www.ktzleiloes.com.br",
+    "listing_url": "https://www.ktzleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "271",
+    "name": "Arenaleiloes",
+    "website": "https://www.arenaleiloes.com.br",
+    "listing_url": "https://www.arenaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "273",
+    "name": "Leiloaria",
+    "website": "https://www.leiloaria.com.br",
+    "listing_url": "https://www.leiloaria.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "24",
+    "name": "Pecinileiloes",
+    "website": "https://www.pecinileiloes.com.br",
+    "listing_url": "https://www.pecinileiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "278",
+    "name": "Desantileiloes",
+    "website": "https://www.desantileiloes.com.br",
+    "listing_url": "https://www.desantileiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "31",
+    "name": "Destakleiloes",
+    "website": "https://www.destakleiloes.com.br",
+    "listing_url": "https://www.destakleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "34",
+    "name": "Projudleiloes",
+    "website": "https://www.projudleiloes.com.br",
+    "listing_url": "https://www.projudleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "280",
+    "name": "Leilaoeletronico",
+    "website": "https://www.leilaoeletronico.com.br",
+    "listing_url": "https://www.leilaoeletronico.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "19",
+    "name": "Francoleiloes",
+    "website": "https://www.francoleiloes.com.br",
+    "listing_url": "https://www.francoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "288",
+    "name": "Calilleiloes",
+    "website": "https://www.calilleiloes.com.br",
+    "listing_url": "https://www.calilleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "287",
+    "name": "Rmcleiloes",
+    "website": "https://www.rmcleiloes.com.br",
+    "listing_url": "https://www.rmcleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "283",
+    "name": "Dbmleiloes",
+    "website": "https://www.dbmleiloes.com.br",
+    "listing_url": "https://www.dbmleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "84",
+    "name": "Leiloeiropublico",
+    "website": "https://www.leiloeiropublico.com.br",
+    "listing_url": "https://www.leiloeiropublico.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Vue.js"
+  },
+  {
+    "id": "285",
+    "name": "Clebercardosoleiloes",
+    "website": "https://www.clebercardosoleiloes.com.br",
+    "listing_url": "https://www.clebercardosoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "29",
+    "name": "Tezaleiloes",
+    "website": "https://www.tezaleiloes.com.br",
+    "listing_url": "https://www.tezaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "35",
+    "name": "Nossoleilao",
+    "website": "https://www.nossoleilao.com.br",
+    "listing_url": "https://www.nossoleilao.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": true,
+    "technology": "Traditional"
+  },
+  {
+    "id": "104",
+    "name": "Agenciadeleiloes",
+    "website": "https://www.agenciadeleiloes.com.br",
+    "listing_url": "https://www.agenciadeleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "113",
+    "name": "Zaccariasleiloes",
+    "website": "https://www.zaccariasleiloes.com.br",
+    "listing_url": "https://www.zaccariasleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "117",
+    "name": "Correaleiloes",
+    "website": "https://www.correaleiloes.com.br",
+    "listing_url": "https://www.correaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "44",
+    "name": "Legisleiloes",
+    "website": "https://www.legisleiloes.com.br",
+    "listing_url": "https://www.legisleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "64",
+    "name": "Bcoleiloes",
+    "website": "https://www.bcoleiloes.com.br",
+    "listing_url": "https://www.bcoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "66",
+    "name": "Argonetworkleiloes",
+    "website": "https://www.argonetworkleiloes.com.br",
+    "listing_url": "https://www.argonetworkleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "69",
+    "name": "Judhastas",
+    "website": "https://www.judhastas.com.br",
+    "listing_url": "https://www.judhastas.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "70",
+    "name": "Silveiraleiloes",
+    "website": "https://www.silveiraleiloes.com.br",
+    "listing_url": "https://www.silveiraleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "74",
+    "name": "Kronbergleiloes",
+    "website": "https://www.kronbergleiloes.com.br",
+    "listing_url": "https://www.kronbergleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "99",
+    "name": "Leilaobutia",
+    "website": "https://www.leilaobutia.com.br",
+    "listing_url": "https://www.leilaobutia.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "100",
+    "name": "Scheidleiloes",
+    "website": "https://www.scheidleiloes.com.br",
+    "listing_url": "https://www.scheidleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "WordPress"
+  },
+  {
+    "id": "105",
+    "name": "Scholanteleiloes",
+    "website": "https://www.scholanteleiloes.com.br",
+    "listing_url": "https://www.scholanteleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "107",
+    "name": "Ferronatoleiloes",
+    "website": "https://www.ferronatoleiloes.com.br",
+    "listing_url": "https://www.ferronatoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "110",
+    "name": "Leiloesbonfadini",
+    "website": "https://www.leiloesbonfadini.com.br",
+    "listing_url": "https://www.leiloesbonfadini.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "112",
+    "name": "Rabuskeleiloes",
+    "website": "https://www.rabuskeleiloes.com.br",
+    "listing_url": "https://www.rabuskeleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "116",
+    "name": "Ckleiloes",
+    "website": "https://www.ckleiloes.com.br",
+    "listing_url": "https://www.ckleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "120",
+    "name": "Evaleiloes",
+    "website": "https://www.evaleiloes.com.br",
+    "listing_url": "https://www.evaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "121",
+    "name": "Santayanaleiloes",
+    "website": "https://www.santayanaleiloes.com.br",
+    "listing_url": "https://www.santayanaleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "122",
+    "name": "Zuccalmaglioleiloes",
+    "website": "https://www.zuccalmaglioleiloes.com.br",
+    "listing_url": "https://www.zuccalmaglioleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Vue.js"
+  },
+  {
+    "id": "128",
+    "name": "Finattoleiloes",
+    "website": "https://www.finattoleiloes.com.br",
+    "listing_url": "https://www.finattoleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_content",
+    "has_pagination": false,
+    "technology": "unknown"
+  },
+  {
+    "id": "144",
+    "name": "Alexsandroleiloes",
+    "website": "https://www.alexsandroleiloes.com.br",
+    "listing_url": "https://www.alexsandroleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "152",
+    "name": "Rangelleiloes",
+    "website": "https://www.rangelleiloes.com.br",
+    "listing_url": "https://www.rangelleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "154",
+    "name": "Utzigleiloes",
+    "website": "https://www.utzigleiloes.com.br",
+    "listing_url": "https://www.utzigleiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  },
+  {
+    "id": "166",
+    "name": "Turanileiloes",
+    "website": "https://www.turanileiloes.com.br",
+    "listing_url": "https://www.turanileiloes.com.br",
+    "estimated_properties": 0,
+    "found_selectors": [],
+    "status": "no_properties",
+    "has_pagination": false,
+    "technology": "Traditional"
+  }
+]
