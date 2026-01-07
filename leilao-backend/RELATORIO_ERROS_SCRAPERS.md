@@ -6,12 +6,15 @@
 
 | Tipo de Erro | Quantidade |
 |--------------|------------|
-| Outro | 166 |
+| Sem imóveis encontrados | 155 |
+| Erro de chave duplicada | 4 |
+| Outro | 4 |
+| Erro não especificado | 3 |
 
 ## Detalhes por Leiloeiro
 
 
-### Outro
+### Sem imóveis encontrados
 
 - **Vivaleiloes**: https://www.vivaleiloes.com.br
   - Erro: Nenhum imóvel encontrado
@@ -21,9 +24,6 @@
   - Erro: Nenhum imóvel encontrado
 - **Portalzuk**: https://www.portalzuk.com.br/
   - Erro: Nenhum imóvel encontrado
-- **Lancenoleilao**: https://www.lancenoleilao.com.br
-  - Erro: duplicate key value violates unique constraint "properties_pkey"
-DETAIL:  Key (id)=(Lancenoleilao_24
 - **Anabrasilleiloes**: https://www.anabrasilleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Hastapublica**: https://www.hastapublica.com.br
@@ -38,12 +38,6 @@ DETAIL:  Key (id)=(Lancenoleilao_24
   - Erro: Nenhum imóvel encontrado
 - **Depaulaonline**: https://www.depaulaonline.com.br
   - Erro: Nenhum imóvel encontrado
-- **Lancetotal**: https://www.lancetotal.com.br
-  - Erro: Erro não especificado
-- **Freitasleiloeiro**: https://www.freitasleiloeiro.com.br
-  - Erro: Erro não especificado
-- **Frazaoleiloes**: https://www.frazaoleiloes.com.br
-  - Erro: Erro não especificado
 - **Picellileiloes**: https://www.picellileiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Allianceleiloes**: https://www.allianceleiloes.com.br
@@ -68,23 +62,14 @@ DETAIL:  Key (id)=(Lancenoleilao_24
   - Erro: Nenhum imóvel encontrado
 - **Sumareleiloes**: https://www.sumareleiloes.com.br
   - Erro: Nenhum imóvel encontrado
-- **Centraljudicial**: https://www.centraljudicial.com.br
-  - Erro: duplicate key value violates unique constraint "properties_pkey"
-DETAIL:  Key (id)=(Centraljudicial_
 - **Psnleiloes**: https://www.psnleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **E-Confianca**: https://www.e-confianca.com.br
   - Erro: Nenhum imóvel encontrado
-- **Flexleiloes**: https://www.flexleiloes.com.br
-  - Erro: 'NoneType' object is not subscriptable
-- **Ctsleiloes**: https://www.ctsleiloes.com.br
-  - Erro: 'NoneType' object is not subscriptable
 - **Benedettoleiloes**: https://www.benedettoleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Cristianoescolaleiloes**: https://www.cristianoescolaleiloes.com.br
   - Erro: Nenhum imóvel encontrado
-- **Moraesleiloes**: https://www.moraesleiloes.com.br
-  - Erro: value too long for type character varying(2)
 - **Fauthleiloes**: https://www.fauthleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Leiloeslaraforster**: https://www.leiloeslaraforster.com.br
@@ -93,9 +78,6 @@ DETAIL:  Key (id)=(Centraljudicial_
   - Erro: Nenhum imóvel encontrado
 - **Kriegerleiloes**: https://www.kriegerleiloes.com.br
   - Erro: Nenhum imóvel encontrado
-- **Marangonileiloes**: https://www.marangonileiloes.com.br
-  - Erro: duplicate key value violates unique constraint "properties_pkey"
-DETAIL:  Key (id)=(Marangonileiloes
 - **Alencastroleiloes**: https://www.alencastroleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Savoyleiloes**: https://www.savoyleiloes.com.br
@@ -238,9 +220,6 @@ DETAIL:  Key (id)=(Marangonileiloes
   - Erro: Nenhum imóvel encontrado
 - **Zaccariasleiloes**: https://www.zaccariasleiloes.com.br
   - Erro: Nenhum imóvel encontrado
-- **Correaleiloes**: https://www.correaleiloes.com.br
-  - Erro: duplicate key value violates unique constraint "properties_pkey"
-DETAIL:  Key (id)=(Correaleiloes_Lo
 - **Publicumleiloes**: https://www.publicumleiloes.com.br
   - Erro: Nenhum imóvel encontrado
 - **Legisleiloes**: https://www.legisleiloes.com.br
@@ -347,5 +326,38 @@ DETAIL:  Key (id)=(Correaleiloes_Lo
   - Erro: Nenhum imóvel encontrado
 - **Dhleiloes**: https://www.dhleiloes.com.br
   - Erro: Nenhum imóvel encontrado
+
+### Erro de chave duplicada
+
+- **Lancenoleilao**: https://www.lancenoleilao.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Lancenoleilao_24
+- **Centraljudicial**: https://www.centraljudicial.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Centraljudicial_
+- **Marangonileiloes**: https://www.marangonileiloes.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Marangonileiloes
+- **Correaleiloes**: https://www.correaleiloes.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Correaleiloes_Lo
+
+### Erro não especificado
+
+- **Lancetotal**: https://www.lancetotal.com.br
+  - Erro: Erro não especificado
+- **Freitasleiloeiro**: https://www.freitasleiloeiro.com.br
+  - Erro: Erro não especificado
+- **Frazaoleiloes**: https://www.frazaoleiloes.com.br
+  - Erro: Erro não especificado
+
+### Outro
+
+- **Flexleiloes**: https://www.flexleiloes.com.br
+  - Erro: 'NoneType' object is not subscriptable
+- **Ctsleiloes**: https://www.ctsleiloes.com.br
+  - Erro: 'NoneType' object is not subscriptable
+- **Moraesleiloes**: https://www.moraesleiloes.com.br
+  - Erro: value too long for type character varying(2)
 - **Turanileiloes**: https://www.turanileiloes.com.br
   - Erro: 'NoneType' object has no attribute 'replace'
