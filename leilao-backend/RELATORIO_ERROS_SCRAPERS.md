@@ -1,0 +1,351 @@
+# Relatório de Erros dos Scrapers
+
+**Total de leiloeiros com erro:** 166
+
+## Resumo por Tipo de Erro
+
+| Tipo de Erro | Quantidade |
+|--------------|------------|
+| Outro | 166 |
+
+## Detalhes por Leiloeiro
+
+
+### Outro
+
+- **Vivaleiloes**: https://www.vivaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lut**: https://www.lut.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Biasileiloes**: https://www.biasileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Portalzuk**: https://www.portalzuk.com.br/
+  - Erro: Nenhum imóvel encontrado
+- **Lancenoleilao**: https://www.lancenoleilao.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Lancenoleilao_24
+- **Anabrasilleiloes**: https://www.anabrasilleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Hastapublica**: https://www.hastapublica.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Sold**: https://www.sold.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leje**: https://www.leje.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Hastavip**: https://www.hastavip.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Unileiloes**: https://www.unileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Depaulaonline**: https://www.depaulaonline.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lancetotal**: https://www.lancetotal.com.br
+  - Erro: Erro não especificado
+- **Freitasleiloeiro**: https://www.freitasleiloeiro.com.br
+  - Erro: Erro não especificado
+- **Frazaoleiloes**: https://www.frazaoleiloes.com.br
+  - Erro: Erro não especificado
+- **Picellileiloes**: https://www.picellileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Allianceleiloes**: https://www.allianceleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Moralesleiloes**: https://www.moralesleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Gilsoninumaruleiloes**: https://www.gilsoninumaruleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Spencerleiloes**: https://www.spencerleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Horizonteleiloes**: https://www.horizonteleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lancejudicial**: https://www.lancejudicial.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Webleiloes**: https://www.webleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Alexandridisleiloes**: https://www.alexandridisleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Marquesleiloes**: https://www.marquesleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Oleiloes**: https://www.oleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Sumareleiloes**: https://www.sumareleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Centraljudicial**: https://www.centraljudicial.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Centraljudicial_
+- **Psnleiloes**: https://www.psnleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **E-Confianca**: https://www.e-confianca.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Flexleiloes**: https://www.flexleiloes.com.br
+  - Erro: 'NoneType' object is not subscriptable
+- **Ctsleiloes**: https://www.ctsleiloes.com.br
+  - Erro: 'NoneType' object is not subscriptable
+- **Benedettoleiloes**: https://www.benedettoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Cristianoescolaleiloes**: https://www.cristianoescolaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Moraesleiloes**: https://www.moraesleiloes.com.br
+  - Erro: value too long for type character varying(2)
+- **Fauthleiloes**: https://www.fauthleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloeslaraforster**: https://www.leiloeslaraforster.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Santoseborinleiloes**: https://www.santoseborinleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Kriegerleiloes**: https://www.kriegerleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Marangonileiloes**: https://www.marangonileiloes.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Marangonileiloes
+- **Alencastroleiloes**: https://www.alencastroleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Savoyleiloes**: https://www.savoyleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Andreluizleiloes**: https://www.andreluizleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloesfreire**: https://www.leiloesfreire.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Abaleiloes**: https://www.abaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Alvaroleiloes**: https://www.alvaroleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Jcleiloeiro**: https://www.jcleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lancecertoleiloes**: https://www.lancecertoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloes61**: https://www.leiloes61.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Mikedutraleiloeiro**: https://www.mikedutraleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Oreidosleiloes**: https://www.oreidosleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Morescoleiloes**: https://www.morescoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Fabioleiloes**: https://www.fabioleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Hastalegal**: https://www.hastalegal.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Duxleiloes**: https://www.duxleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloescentrooeste**: https://www.leiloescentrooeste.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloeiroqueiroz**: https://www.leiloeiroqueiroz.com.br
+  - Erro: Nenhum imóvel encontrado
+- **E-Leiloeiro**: https://www.e-leiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Parquedosleiloes**: https://www.parquedosleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Grupocarvalholeiloes**: https://www.grupocarvalholeiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Claudiokussleiloes**: https://www.claudiokussleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Amaralleiloes**: https://www.amaralleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lancevip**: https://www.lancevip.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Jorgemarcoleiloes**: https://www.jorgemarcoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Pimentelleiloes**: https://www.pimentelleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Jacleiloes**: https://www.jacleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Odarlicanezinleiloes**: https://www.odarlicanezinleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Medeirosleiloes**: https://www.medeirosleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Josequencaleiloeiro**: https://www.josequencaleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lancejusto**: https://www.lancejusto.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Donhaleiloes**: https://www.donhaleiloes.com
+  - Erro: Nenhum imóvel encontrado
+- **Wspleiloes**: https://www.wspleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Rmmleiloes**: https://www.rmmleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Monzonleiloes**: https://www.monzonleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Whleiloes**: https://www.whleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Superlanceleilao**: https://www.superlanceleilao.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Wmleiloes**: https://www.wmleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Tabaleiloes**: https://www.tabaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Ricoleiloes**: https://www.ricoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Rocketleiloes**: https://www.rocketleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Ktzleiloes**: https://www.ktzleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Arenaleiloes**: https://www.arenaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloaria**: https://www.leiloaria.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Pactoleiloes**: https://www.pactoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Pecinileiloes**: https://www.pecinileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Gustavomorettoleiloeiro**: https://www.gustavomorettoleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Desantileiloes**: https://www.desantileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloesjudiciaisrs**: https://www.leiloesjudiciaisrs.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Machadoleiloeiro**: https://www.machadoleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Destakleiloes**: https://www.destakleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Mega Leilões**: https://www.megaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lunellileiloes**: https://www.lunellileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Montenegroleiloes**: https://www.montenegroleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Projudleiloes**: https://www.projudleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leilaoeletronico**: https://www.leilaoeletronico.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Francoleiloes**: https://www.francoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Gustavoreisleiloes**: https://www.gustavoreisleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Calilleiloes**: https://www.calilleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Rmcleiloes**: https://www.rmcleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leffaleiloes**: https://www.leffaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Dbmleiloes**: https://www.dbmleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloeiropublico**: https://www.leiloeiropublico.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Clebercardosoleiloes**: https://www.clebercardosoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Vizeuonline**: https://www.vizeuonline.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leilomaster**: https://www.leilomaster.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Melhorlanceleiloes**: https://www.melhorlanceleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Tezaleiloes**: https://www.tezaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Nossoleilao**: https://www.nossoleilao.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloeirospcom Br**: https://www.leiloeirospcom.br
+  - Erro: Nenhum imóvel encontrado
+- **Agenciadeleiloes**: https://www.agenciadeleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Zaccariasleiloes**: https://www.zaccariasleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Correaleiloes**: https://www.correaleiloes.com.br
+  - Erro: duplicate key value violates unique constraint "properties_pkey"
+DETAIL:  Key (id)=(Correaleiloes_Lo
+- **Publicumleiloes**: https://www.publicumleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Legisleiloes**: https://www.legisleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Bcoleiloes**: https://www.bcoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Argonetworkleiloes**: https://www.argonetworkleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Conceitoleiloes**: https://www.conceitoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Judhastas**: https://www.judhastas.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Silveiraleiloes**: https://www.silveiraleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Kronbergleiloes**: https://www.kronbergleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Grandesleiloes**: https://www.grandesleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leilaosantos**: https://www.leilaosantos.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Nortonleiloes**: https://www.nortonleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Pietosoleiloes**: https://www.pietosoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Santamarialeiloes**: https://www.santamarialeiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Amtleiloes**: https://www.amtleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leilaobutia**: https://www.leilaobutia.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Scheidleiloes**: https://www.scheidleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Dldleiloeiro**: https://www.dldleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Mpleilao**: https://www.mpleilao.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Scholanteleiloes**: https://www.scholanteleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Cargneluttileiloes**: https://www.cargneluttileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Ferronatoleiloes**: https://www.ferronatoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Eduardovivian**: https://www.eduardovivian.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloesbonfadini**: https://www.leiloesbonfadini.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Clademirleiloeiro**: https://www.clademirleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Rabuskeleiloes**: https://www.rabuskeleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lessaleiloes**: https://www.lessaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Muckleiloes**: https://www.muckleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Ckleiloes**: https://www.ckleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Evaleiloes**: https://www.evaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Clovisleiloeiro**: https://www.clovisleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Santayanaleiloes**: https://www.santayanaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Zuccalmaglioleiloes**: https://www.zuccalmaglioleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Natalialeiloes**: https://www.natalialeiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Marceloleiloeiro**: https://www.marceloleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Finattoleiloes**: https://www.finattoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Vidalleiloes**: https://www.vidalleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Gtleiloes**: https://www.gtleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Ruipintoleiloeiro**: https://www.ruipintoleiloeiro.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Gabrielleiloes**: https://www.gabrielleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Leiloeirobarbieri**: https://www.leiloeirobarbieri.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Michellileiloes**: https://www.michellileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Alexsandroleiloes**: https://www.alexsandroleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Bianchileiloes**: https://www.bianchileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Deborabarzleiloes**: https://www.deborabarzleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Arnoldoleiloes**: https://www.arnoldoleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Bidgo**: https://www.bidgo.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Szortykaleiloes**: https://www.szortykaleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Rangelleiloes**: https://www.rangelleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Utzigleiloes**: https://www.utzigleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Lipinskileiloes**: https://www.lipinskileiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Fariasleiloes**: https://www.fariasleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Bartmannleiloes**: https://www.bartmannleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Dhleiloes**: https://www.dhleiloes.com.br
+  - Erro: Nenhum imóvel encontrado
+- **Turanileiloes**: https://www.turanileiloes.com.br
+  - Erro: 'NoneType' object has no attribute 'replace'
