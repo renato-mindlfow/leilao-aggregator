@@ -1,0 +1,94 @@
+{
+  "_description": "Mapeamento VERIFICADO VISUALMENTE - 2026-01-07",
+  "_method": "Web Browser MCP",
+  
+  "auctioneers": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "base_url": "https://www.megaleiloes.com.br",
+      "imoveis_url": "https://www.megaleiloes.com.br/imoveis",
+      "verified_count": 53,
+      "status": "verified_working",
+      "requires_playwright": true,
+      "wait_time": 15,
+      "has_category_filter": true,
+      "has_pagination": true,
+      "pagination_param": "pagina",
+      "selectors": {
+        "property_cards": ".card, [class*='card']",
+        "property_link": "a[href*='/imovel']",
+        "title": ".card-title, h3, h4",
+        "price": "[class*='price'], [class*='valor'], .lance",
+        "location": "[class*='location'], [class*='cidade']",
+        "image": "img"
+      },
+      "notes": "SPA React - aguardar 15s para carregar"
+    },
+    {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "base_url": "https://www.sodresantoro.com.br",
+      "imoveis_url": "https://leilao.sodresantoro.com.br/imoveis",
+      "verified_count": 69,
+      "status": "verified_working",
+      "requires_playwright": false,
+      "has_category_filter": true,
+      "has_pagination": true,
+      "selectors": {
+        "property_cards": ".item, [class*='item']",
+        "property_link": "a[href*='/leilao'], a[href*='/lote']",
+        "title": ".title, h3, h4",
+        "price": "[class*='valor'], [class*='price']",
+        "location": "[class*='cidade'], [class*='local']",
+        "image": "img"
+      },
+      "notes": "URLs em subdomínio leilao.sodresantoro.com.br"
+    },
+    {
+      "id": "lancetotal",
+      "name": "Lance Total",
+      "base_url": "https://www.lancetotal.com.br",
+      "imoveis_url": "https://www.lancetotal.com.br/imoveis",
+      "status": "needs_playwright",
+      "requires_playwright": true,
+      "wait_time": 10,
+      "needs_scroll": true,
+      "selectors": {
+        "property_cards": ".card, [class*='card'], [class*='item']",
+        "property_link": "a[href*='/imovel'], a[href*='/lote']"
+      },
+      "notes": "Carregamento dinâmico - precisa scroll e espera"
+    },
+    {
+      "id": "lancenoleilao",
+      "name": "Lance no Leilão",
+      "base_url": "https://www.lancenoleilao.com.br",
+      "imoveis_url": "https://www.lancenoleilao.com.br/imoveis",
+      "status": "needs_playwright",
+      "requires_playwright": true,
+      "wait_time": 10,
+      "needs_scroll": true,
+      "selectors": {
+        "property_cards": ".card, [class*='card'], [class*='item']",
+        "property_link": "a[href*='/imovel'], a[href*='/lote']"
+      },
+      "notes": "Carregamento dinâmico - precisa scroll e espera"
+    },
+    {
+      "id": "jacleiloes",
+      "name": "JacLeilões",
+      "base_url": "https://www.jacleiloes.com.br",
+      "status": "needs_investigation",
+      "notes": "Estrutura não identificada - investigar manualmente"
+    },
+    {
+      "id": "leje",
+      "name": "LEJE",
+      "base_url": "https://www.lfranca.lel.br",
+      "status": "offline",
+      "notes": "Domínio não resolve - ERR_NAME_NOT_RESOLVED"
+    }
+  ]
+}
+

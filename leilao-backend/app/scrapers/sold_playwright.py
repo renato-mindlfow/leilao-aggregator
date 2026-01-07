@@ -1,47 +1,192 @@
 #!/usr/bin/env python3
 """
-SCRAPER PLAYWRIGHT PARA SOLD LEILÕES
-Site com proteção Cloudflare.
+SCRAPER PARA SOLD LEILÕES
+Usa API Superbid diretamente conforme configurado em auctioneer_selectors.json
 """
 
 import logging
-import re
-from typing import Dict, List, Optional
-from .playwright_base import PlaywrightBaseScraper
+import json
+import os
+import asyncio
+import requests
+from typing import Dict, List, Optional, Any
+from datetime import datetime
+from urllib.parse import urljoin
 
 logger = logging.getLogger(__name__)
 
-class SoldPlaywrightScraper(PlaywrightBaseScraper):
+class SoldPlaywrightScraper:
     """
-    Scraper para Sold Leilões usando Playwright.
-    
-    NOTA: O site Sold é uma Single Page Application (SPA) React que carrega
-    dados dinamicamente via API. Os seletores atuais não conseguem capturar
-    os dados porque eles são renderizados após o carregamento inicial.
-    
-    PRÓXIMOS PASSOS:
-    1. Identificar a API REST usada pelo site
-    2. Fazer requests diretos à API em vez de scraping HTML
-    3. Ou aguardar seletores específicos aparecerem na página
-    
-    Por enquanto, este scraper retorna lista vazia mas está pronto para
-    ser expandido quando a API for identificada.
+    Scraper para Sold Leilões usando API Superbid diretamente.
+    Configuração carregada de auctioneer_selectors.json.
     """
     
     BASE_URL = "https://www.sold.com.br"
     AUCTIONEER_ID = "sold"
     AUCTIONEER_NAME = "Sold Leilões"
-    LISTING_URL = "https://www.sold.com.br/leiloes"
+    LISTING_URL = "https://www.sold.com.br/h/imoveis"
     
-    SELECTORS = {
-        "property_cards": "div.MuiCard-root, div[class*='Card'], article",
-        "property_link": "a[href*='/evento/'], a[href*='/leilao/']",
-        "title": "h3, h2, p[class*='Title'], p[class*='title']",
-        "price": "p[class*='price'], p[class*='Price'], span[class*='valor']",
-        "location": "p[class*='location'], p[class*='Location'], span[class*='cidade']",
-        "image": "img[alt*='event'], img[alt*='leilao'], img.MuiCardMedia-img",
-        "date": "p[class*='date'], p[class*='Date'], span[class*='data']",
-    }
+    def __init__(self):
+        self.selector_config = self._load_selector_config()
+        self.api_config = self._get_api_config()
+    
+    def _load_selector_config(self) -> Optional[Dict]:
+        """Carrega configuração de seletores do JSON."""
+        try:
+            config_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                'config',
+                'auctioneer_selectors.json'
+            )
+            
+            if not os.path.exists(config_path):
+                logger.warning(f"Arquivo de seletores não encontrado: {config_path}")
+                return None
+            
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+            
+            return config.get('auctioneers', {}).get(self.AUCTIONEER_ID)
+        except Exception as e:
+            logger.error(f"Erro ao carregar seletores: {e}")
+            return None
+    
+    def _get_api_config(self) -> Optional[Dict]:
+        """Extrai configuração da API."""
+        if not self.selector_config:
+            return None
+        
+        return self.selector_config.get('api')
+    
+    async def scrape_properties(self, max_properties: int = 150) -> List[Dict[str, Any]]:
+        """
+        Faz scraping de propriedades do Sold via API.
+        
+        Args:
+            max_properties: Número máximo de propriedades a extrair
+            
+        Returns:
+            Lista de propriedades extraídas
+        """
+        if not self.api_config:
+            logger.error("Configuração de API não encontrada")
+            return []
+        
+        properties = []
+        api_url = self.api_config.get('base_url')
+        api_params = self.api_config.get('params', {}).copy()
+        pagination = self.api_config.get('pagination', {})
+        response_mapping = self.api_config.get('response_mapping', {})
+        
+        max_pages = pagination.get('max_pages', 10)
+        items_per_page = pagination.get('items_per_page', 50)
+        current_page = pagination.get('start', 1)
+        max_items = pagination.get('max_items', max_properties)
+        
+        logger.info(f"Iniciando scraping de {self.AUCTIONEER_NAME} via API (max: {max_items} imóveis)")
+        
+        while len(properties) < max_items and current_page <= max_pages:
+            api_params[pagination.get('param', 'pageNumber')] = current_page
+            api_params['pageSize'] = items_per_page
+            
+            logger.info(f"Buscando página {current_page}...")
+            
+            try:
+                response = requests.get(api_url, params=api_params, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                
+                offers = data.get(response_mapping.get('items_field', 'offers'), [])
+                total = data.get(response_mapping.get('total_field', 'total'), 0)
+                
+                if current_page == 1:
+                    logger.info(f"Total disponível na API: {total}")
+                
+                logger.info(f"Recebidos {len(offers)} itens na página {current_page}")
+                
+                if len(offers) == 0:
+                    logger.info("Nenhum item recebido, parando...")
+                    break
+                
+                # Processar cada oferta
+                for offer in offers:
+                    if len(properties) >= max_items:
+                        break
+                    
+                    prop = self._map_api_response_to_property(offer, response_mapping)
+                    if prop:
+                        properties.append(prop)
+                
+                # Se recebeu menos itens que o pageSize, é a última página
+                if len(offers) < items_per_page:
+                    logger.info("Última página atingida")
+                    break
+                
+                current_page += 1
+                await asyncio.sleep(1.5)  # Rate limiting
+                
+            except Exception as e:
+                logger.error(f"Erro ao buscar página {current_page}: {e}")
+                break
+        
+        logger.info(f"Scraping concluído: {len(properties)} imóveis extraídos")
+        return properties[:max_items]
+    
+    def _map_api_response_to_property(self, offer: Dict, mapping: Dict) -> Optional[Dict]:
+        """Mapeia resposta da API para formato de propriedade."""
+        try:
+            prop = {
+                'auctioneer_id': self.AUCTIONEER_ID,
+                'auctioneer_name': self.AUCTIONEER_NAME,
+                'extracted_at': datetime.now().isoformat()
+            }
+            
+            # URL
+            link_url = offer.get(mapping.get('url_field', 'linkURL'), '')
+            if not link_url:
+                offer_id = offer.get(mapping.get('id_field', 'id'))
+                if offer_id:
+                    link_url = f"/produto/{offer_id}"
+            
+            if link_url:
+                prop['url'] = urljoin(self.BASE_URL, link_url) if not link_url.startswith('http') else link_url
+            
+            # Título
+            title_path = mapping.get('title_field', 'product.shortDesc').split('.')
+            title = offer
+            for key in title_path:
+                title = title.get(key, {}) if isinstance(title, dict) else None
+                if title is None:
+                    break
+            prop['title'] = str(title)[:200] if title else ""
+            
+            # Preço
+            price = offer.get(mapping.get('price_field', 'priceFormatted'), '')
+            prop['price'] = price
+            
+            # Imagem
+            image_path = mapping.get('image_field', 'product.thumbnailUrl').split('.')
+            image = offer
+            for key in image_path:
+                image = image.get(key, {}) if isinstance(image, dict) else None
+                if image is None:
+                    break
+            prop['image_url'] = str(image) if image else ""
+            
+            # Categoria
+            category_path = mapping.get('category_field', 'product.productType.description').split('.')
+            category = offer
+            for key in category_path:
+                category = category.get(key, {}) if isinstance(category, dict) else None
+                if category is None:
+                    break
+            prop['category'] = str(category) if category else ""
+            
+            return prop if prop.get('url') else None
+        
+        except Exception as e:
+            logger.debug(f"Erro ao mapear resposta da API: {e}")
+            return None
     
     async def _extract_property_data(self, card) -> Optional[Dict]:
         """Extrai dados de um card de propriedade da Sold."""

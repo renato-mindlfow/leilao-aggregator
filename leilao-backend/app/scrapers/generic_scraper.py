@@ -5,6 +5,8 @@ Uses configurable CSS selectors to extract data.
 import logging
 import re
 import uuid
+import json
+import os
 from typing import Optional, List, Dict, Any
 from datetime import datetime
 from dataclasses import dataclass
@@ -25,6 +27,55 @@ from app.utils.rate_limiter import RateLimiter, get_rate_limiter
 from app.utils.fetcher import MultiLayerFetcher
 
 logger = logging.getLogger(__name__)
+
+
+def load_auctioneer_selectors(auctioneer_id: str) -> Optional[Dict[str, Any]]:
+    """
+    Carrega configuração de seletores para um leiloeiro específico.
+    
+    Args:
+        auctioneer_id: ID do leiloeiro (ex: 'megaleiloes', 'portalzuk')
+        
+    Returns:
+        Dicionário com configuração de seletores ou None se não encontrado
+    """
+    try:
+        # Caminho para o arquivo de seletores
+        config_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            'config',
+            'auctioneer_selectors.json'
+        )
+        
+        if not os.path.exists(config_path):
+            logger.debug(f"Arquivo de seletores não encontrado: {config_path}")
+            return None
+        
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        
+        auctioneers = config.get('auctioneers', {})
+        auctioneer_config = auctioneers.get(auctioneer_id)
+        
+        if auctioneer_config:
+            logger.info(f"Seletores carregados para {auctioneer_id}")
+            return auctioneer_config
+        
+        # Retorna fallbacks genéricos se não encontrar configuração específica
+        generic_fallbacks = config.get('generic_fallbacks', {})
+        if generic_fallbacks:
+            logger.debug(f"Usando fallbacks genéricos para {auctioneer_id}")
+            return {
+                'listing_page': {
+                    'selectors': generic_fallbacks
+                }
+            }
+        
+        return None
+        
+    except Exception as e:
+        logger.warning(f"Erro ao carregar seletores para {auctioneer_id}: {e}")
+        return None
 
 
 @dataclass
@@ -182,7 +233,7 @@ SCRAPER_CONFIGS = {
 class GenericScraper(BaseScraper):
     """Generic scraper that uses configurable selectors."""
     
-    def __init__(self, config: ScraperConfig = None, headless: bool = True):
+    def __init__(self, config: ScraperConfig = None, headless: bool = True, auctioneer_id: str = None):
         super().__init__(headless=headless)
         if config is None:
             # Default config for generic scraping
@@ -193,6 +244,52 @@ class GenericScraper(BaseScraper):
             )
         self.config = config
         self.fetcher = MultiLayerFetcher()
+        self.auctioneer_id = auctioneer_id
+        self.selector_config = None
+        
+        # Carregar seletores do arquivo JSON se auctioneer_id fornecido
+        if auctioneer_id:
+            self.selector_config = load_auctioneer_selectors(auctioneer_id)
+            if self.selector_config:
+                self._apply_selector_config()
+    
+    def _apply_selector_config(self):
+        """Aplica configuração de seletores do JSON ao config."""
+        if not self.selector_config:
+            return
+        
+        listing_page = self.selector_config.get('listing_page', {})
+        selectors = listing_page.get('selectors', {})
+        
+        # Atualizar seletores do config com os do JSON
+        if selectors.get('property_card'):
+            self.config.card_selector = selectors['property_card']
+        if selectors.get('title'):
+            self.config.title_selector = selectors['title']
+        if selectors.get('property_link'):
+            self.config.link_selector = selectors['property_link']
+        if selectors.get('image'):
+            self.config.image_selector = selectors['image']
+        if selectors.get('location'):
+            self.config.location_selector = selectors['location']
+        if selectors.get('price'):
+            self.config.price_selector = selectors['price']
+        if selectors.get('category'):
+            self.config.category_selector = selectors['category']
+        if selectors.get('area'):
+            self.config.area_selector = selectors['area']
+        
+        # Atualizar padrões de URL
+        link_patterns = listing_page.get('link_patterns', [])
+        if link_patterns:
+            self.config.property_url_patterns = link_patterns
+        
+        # Atualizar paginação
+        pagination = listing_page.get('pagination', {})
+        if pagination:
+            next_selector = pagination.get('next_selector')
+            if next_selector:
+                self.config.next_page_selector = next_selector
         
     @property
     def name(self) -> str:

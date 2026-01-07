@@ -1,0 +1,131 @@
+======================================================================
+VALIDACAO VISUAL DOS TOP LEILOEIROS
+======================================================================
+
+
+======================================================================
+SITE: LEJE
+======================================================================
+URL Base: https://www.lfranca.lel.br
+URL Imoveis: NAO ENCONTRADA
+Quantidade Real: 0
+Tem Filtro de Categoria: NAO
+Cards Encontrados: 0
+Paginacao: NAO IDENTIFICADA (N/A)
+
+ERRO: Erro ao acessar: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lfranca.lel.br/
+Call log:
+  - navigating to "ht
+
+
+======================================================================
+SITE: Lancetotal
+======================================================================
+URL Base: https://www.lancetotal.com.br
+URL Imoveis: https://www.lancetotal.com.br/imoveis
+Quantidade Real: 0
+Tem Filtro de Categoria: NAO
+Cards Encontrados: 0
+Paginacao: NAO IDENTIFICADA (N/A)
+
+Observacoes: Possível scroll infinito ou carregamento dinâmico. 
+
+Screenshot: validacao_screenshots\lancetotal_homepage.png
+
+
+======================================================================
+SITE: Mega Leilões
+======================================================================
+URL Base: https://www.megaleiloes.com.br
+URL Imoveis: https://www.megaleiloes.com.br/imoveis
+Quantidade Real: 53
+Tem Filtro de Categoria: SIM
+Cards Encontrados: 990
+Paginacao: query (pagina)
+
+Seletores CSS encontrados:
+  - .card (48 elementos)
+  - [class*='card'] (990 elementos)
+  - a[href*='/imovel'] (6 elementos)
+  - a[href*='/lote'] (2 elementos)
+
+Exemplos de Links (primeiros 10):
+  - https://www.megaleiloes.com.br/auditorio/32953/119314/batch
+  - https://www.megaleiloes.com.br/auditorio/32890/119275/batch
+  - https://www.megaleiloes.com.br/auditorio/32837/119226/batch
+  - https://www.megaleiloes.com.br/auditorio/32953/119319/batch
+  - https://www.megaleiloes.com.br/auditorio/32837/119227/batch
+  - https://www.megaleiloes.com.br/auditorio/32469/116721/batch
+  - https://www.megaleiloes.com.br/auditorio/32837/119246/batch
+  - https://www.megaleiloes.com.br/auditorio/32837/119229/batch
+  - https://www.megaleiloes.com.br/auditorio/32854/119124/batch
+  - https://www.megaleiloes.com.br/auditorio/32953/119321/batch
+
+Screenshot: validacao_screenshots\megaleiloes_homepage.png
+
+
+======================================================================
+SITE: JacLeilões
+======================================================================
+URL Base: https://www.jacleiloes.com.br
+URL Imoveis: https://x.com/intent/tweet/?text=Leilão IMÓVEL COMERCIAL COM 368 M2 E TERRENO COM 840 M2 RUA FORTALEZA - CASCAVEL PR&amp;url=https://www.jacleiloes.com.br/leilao/imovel-comercial-com-368-m2-e-terreno-com-840-m2-rua-fortaleza-cascavel-pr-05-05-2025-16-54-25/lotes/lista
+Quantidade Real: 1
+Tem Filtro de Categoria: NAO
+Cards Encontrados: 0
+Paginacao: NAO IDENTIFICADA (N/A)
+
+Exemplos de Links (primeiros 10):
+  - https://support.x.com/articles/20170514
+
+Observacoes: Possível scroll infinito ou carregamento dinâmico. 
+
+Screenshot: validacao_screenshots\jacleiloes_homepage.png
+
+
+======================================================================
+SITE: Lance no Leilão
+======================================================================
+URL Base: https://www.lancenoleilao.com.br
+URL Imoveis: https://www.lancenoleilao.com.br/imoveis
+Quantidade Real: 0
+Tem Filtro de Categoria: NAO
+Cards Encontrados: 0
+Paginacao: NAO IDENTIFICADA (N/A)
+
+Observacoes: Possível scroll infinito ou carregamento dinâmico. 
+
+Screenshot: validacao_screenshots\lancenoleilao_homepage.png
+
+
+======================================================================
+SITE: Sodré Santoro
+======================================================================
+URL Base: https://www.sodresantoro.com.br
+URL Imoveis: https://www.sodresantoro.com.br/imoveis
+Quantidade Real: 69
+Tem Filtro de Categoria: NAO
+Cards Encontrados: 1
+Paginacao: NAO IDENTIFICADA (N/A)
+
+Seletores CSS encontrados:
+  - .item (35 elementos)
+  - article (1 elementos)
+  - [class*='item'] (769 elementos)
+  - a[href*='/imovel'] (1 elementos)
+  - a[href*='/leilao'] (85 elementos)
+  - a[href*='/lote'] (180 elementos)
+
+Exemplos de Links (primeiros 10):
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27989/lote_id/2707520
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27908/lote_id/2701621
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27903/
+  - https://leilao.sodresantoro.com.br/leilao/27903/lote/2701456/
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27958/
+  - https://leilao.sodresantoro.com.br/leilao/27975/lote/2706349/
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27908/
+  - https://leilao.sodresantoro.com.br/leilao/27908/lote/2701621/
+  - https://leilao.sodresantoro.com.br/telao/enter_html/leilao_id/27997/
+  - https://leilao.sodresantoro.com.br/leilao/27956/lote/2704880/
+
+Screenshot: validacao_screenshots\sodresantoro_homepage.png
+

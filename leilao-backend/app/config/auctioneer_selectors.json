@@ -1,0 +1,286 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-07",
+  "description": "Configuração de seletores CSS e padrões para os TOP 5 leiloeiros",
+  
+  "auctioneers": {
+    "megaleiloes": {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "listing_url": "/imoveis",
+      "method": "playwright",
+      "special_notes": "SPA React - requer espera de 15s na primeira página",
+      
+      "listing_page": {
+        "wait_time": 15,
+        "wait_until": "domcontentloaded",
+        "scroll_required": true,
+        "selectors": {
+          "property_card": ".card, .item, article, [class*='card'], [class*='lote']",
+          "property_link": "a[href*='/leilao/'], a[href*='/auditorio/']",
+          "title": "h2, h3, [class*='title'], [class*='titulo']",
+          "price": "[class*='price'], [class*='valor'], [class*='lance']",
+          "location": "[class*='location'], [class*='endereco'], [class*='cidade']",
+          "image": "img[src*='imovel'], img[src*='foto'], img[src*='lote']",
+          "category": "[class*='category'], [class*='tipo'], [class*='categoria']"
+        },
+        "link_patterns": [
+          "/auditorio/[^/]+/\\d+",
+          "/leilao/\\d+"
+        ],
+        "pagination": {
+          "type": "query",
+          "param": "pagina",
+          "start": 1,
+          "next_selector": "a[rel='next'], .pagination a:last-child, [class*='next']",
+          "max_pages": 15,
+          "items_per_page": 24
+        }
+      },
+      
+      "detail_page": {
+        "selectors": {
+          "title": "h1, h2.title, .titulo",
+          "price": "[class*='price'], [class*='valor'], [class*='lance']",
+          "location": "[class*='location'], [class*='endereco'], [class*='cidade']",
+          "description": "[class*='description'], [class*='descricao'], .content",
+          "area": "[class*='area'], [class*='m2'], [class*='metragem']",
+          "images": "img[src*='imovel'], img[src*='foto'], .gallery img",
+          "auction_date": "[class*='date'], [class*='data'], [class*='leilao']",
+          "category": "[class*='category'], [class*='tipo']"
+        }
+      }
+    },
+    
+    "lancejudicial": {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "website": "https://www.grupolance.com.br",
+      "listing_url": "/imoveis",
+      "method": "playwright",
+      "special_notes": "Usa PJAX/AJAX - requer aguardar networkidle e verificação de mudança de conteúdo",
+      
+      "listing_page": {
+        "wait_time": 5,
+        "wait_until": "networkidle",
+        "scroll_required": true,
+        "selectors": {
+          "property_card": ".card, [class*='card'], [class*='item']",
+          "property_link": ".card a, [class*='card'] a, a[href*='/imoveis/']",
+          "title": "h2, h3, [class*='title']",
+          "price": "[class*='price'], [class*='valor']",
+          "location": "[class*='location'], [class*='cidade']",
+          "image": "img",
+          "category": "[class*='category']"
+        },
+        "link_patterns": [
+          "/imoveis/[^/]+/[^/]+/[^/]+/[^/]+-\\d+"
+        ],
+        "pagination": {
+          "type": "query",
+          "param": "pagina",
+          "start": 1,
+          "next_selector": ".pagination a:last-child, [class*='pagination'] a, a[rel='next']",
+          "max_pages": 10,
+          "items_per_page": 32,
+          "max_items": 308
+        }
+      },
+      
+      "detail_page": {
+        "selectors": {
+          "title": "h1, h2",
+          "price": "[class*='price'], [class*='valor']",
+          "location": "[class*='location'], [class*='endereco']",
+          "description": "[class*='description'], .content",
+          "area": "[class*='area'], [class*='m2']",
+          "images": "img, .gallery img",
+          "auction_date": "[class*='date'], [class*='data']",
+          "category": "[class*='category']"
+        }
+      }
+    },
+    
+    "portalzuk": {
+      "id": "portalzuk",
+      "name": "Portal Zukerman",
+      "website": "https://www.portalzuk.com.br",
+      "listing_url": "/leilao-de-imoveis",
+      "method": "playwright",
+      "special_notes": "Usa botão 'Carregar mais' em vez de paginação tradicional",
+      
+      "listing_page": {
+        "wait_time": 3,
+        "wait_until": "domcontentloaded",
+        "scroll_required": true,
+        "load_more_button": "#btn_carregarMais, button.btn.btn-outline.btn-xl, button:has-text('Carregar mais')",
+        "selectors": {
+          "property_card": "[class*='card'], [class*='property'], .card-property",
+          "property_link": "a[href*='/imovel/']",
+          "title": "h2, h3, [class*='title']",
+          "price": "[class*='price'], [class*='valor']",
+          "location": "[class*='location'], [class*='cidade']",
+          "image": "img",
+          "category": "[class*='category']"
+        },
+        "link_patterns": [
+          "/imovel/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/\\d+-\\d+"
+        ],
+        "pagination": {
+          "type": "load_more",
+          "max_clicks": 50,
+          "items_per_page": 20
+        }
+      },
+      
+      "detail_page": {
+        "selectors": {
+          "title": "h1, h2",
+          "price": "[class*='price'], [class*='valor']",
+          "location": "[class*='location'], [class*='endereco']",
+          "description": "[class*='description'], .content",
+          "area": "[class*='area'], [class*='m2']",
+          "images": "img, .gallery img",
+          "auction_date": "[class*='date'], [class*='data']",
+          "category": "[class*='category']"
+        }
+      }
+    },
+    
+    "sold": {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "website": "https://www.sold.com.br",
+      "listing_url": "/h/imoveis",
+      "method": "api",
+      "special_notes": "Usa API Superbid diretamente - melhor performance",
+      
+      "api": {
+        "base_url": "https://offer-query.superbid.net/offers/",
+        "params": {
+          "portalId": "[2,15]",
+          "requestOrigin": "store",
+          "locale": "pt_BR",
+          "timeZoneId": "America/Sao_Paulo",
+          "searchType": "opened",
+          "filter": "product.productType.description:imoveis;stores.id:[1161,1741]",
+          "geoLocation": "true",
+          "pageSize": 50,
+          "fieldList": "id;visits;linkURL;price;priceFormatted;hidePrices;commissionPercent;commercialCondition;eventPipeline;isFavorite;endDate;offerStatus;offerStatusHybrid;stores;store;product.shortDesc;product.template;product.productType;product.galleryJson;product.thumbnailUrl;auction;installmentPaymentTerms;offerTypeId;offerDetail;statusId;totalBids;endDateTime;isShopping;quantityUnitType;quantityUnit;systemMetric;quantityInLot;quantityAvailableForProposal;totalInterested"
+        },
+        "pagination": {
+          "type": "api",
+          "param": "pageNumber",
+          "start": 1,
+          "max_pages": 10,
+          "items_per_page": 50,
+          "max_items": 150
+        },
+        "response_mapping": {
+          "total_field": "total",
+          "items_field": "offers",
+          "id_field": "id",
+          "url_field": "linkURL",
+          "title_field": "product.shortDesc",
+          "price_field": "priceFormatted",
+          "image_field": "product.thumbnailUrl",
+          "category_field": "product.productType.description"
+        }
+      },
+      
+      "fallback_selectors": {
+        "property_card": "[class*='card'], [class*='MuiCard']",
+        "property_link": "a[href*='/leilao/'], a[href*='/produto/']"
+      },
+      "link_patterns": [
+        "/leilao/\\d+",
+        "/produto/\\d+"
+      ]
+    },
+    
+    "sodresantoro": {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "website": "https://www.sodresantoro.com.br",
+      "listing_url": "/imoveis",
+      "method": "playwright",
+      "special_notes": "Site tradicional com paginação por query string",
+      
+      "listing_page": {
+        "wait_time": 3,
+        "wait_until": "domcontentloaded",
+        "scroll_required": true,
+        "selectors": {
+          "property_card": "[class*='card'], [class*='lote'], .card, .item",
+          "property_link": "a[href*='/imovel/'], .card a, a[href*='/leilao/'], a[href*='/lote/']",
+          "title": "h2, h3, [class*='title']",
+          "price": "[class*='price'], [class*='valor'], [class*='lance']",
+          "location": "[class*='location'], [class*='endereco'], [class*='cidade']",
+          "image": "img",
+          "category": "[class*='category'], [class*='tipo']"
+        },
+        "link_patterns": [
+          "/imovel/\\d+",
+          "/lote/\\d+",
+          "/leilao/\\d+"
+        ],
+        "pagination": {
+          "type": "query",
+          "param": "page",
+          "start": 1,
+          "next_selector": ".pagination .next, a[rel='next'], .next",
+          "max_pages": 30,
+          "items_per_page": 20
+        }
+      },
+      
+      "detail_page": {
+        "selectors": {
+          "title": "h1, h2",
+          "price": "[class*='price'], [class*='valor'], [class*='lance']",
+          "location": "[class*='location'], [class*='endereco'], [class*='cidade']",
+          "description": "[class*='description'], [class*='descricao'], .content",
+          "area": "[class*='area'], [class*='m2'], [class*='metragem']",
+          "images": "img, .gallery img",
+          "auction_date": "[class*='date'], [class*='data'], [class*='leilao']",
+          "category": "[class*='category'], [class*='tipo']"
+        }
+      }
+    }
+  },
+  
+  "generic_fallbacks": {
+    "property_card": "div[class*='card'], article, div[class*='item'], div[class*='lote']",
+    "property_link": "a[href*='/imovel/'], a[href*='/leilao/'], a[href*='/lote/'], a[href*='/oferta/']",
+    "title": "h1, h2, h3, [class*='title'], [class*='titulo']",
+    "price": "[class*='price'], [class*='valor'], [class*='lance']",
+    "location": "[class*='location'], [class*='endereco'], [class*='cidade'], [class*='local']",
+    "image": "img[src*='imovel'], img[src*='foto'], img[src*='lote'], img",
+    "category": "[class*='category'], [class*='tipo'], [class*='categoria']",
+    "area": "[class*='area'], [class*='m2'], [class*='metragem']",
+    "pagination_next": "a[rel='next'], .pagination .next, button[class*='next'], [aria-label*='próxima']"
+  },
+  
+  "common_patterns": {
+    "url_patterns": [
+      "/imovel/[^/]+",
+      "/leilao/[^/]+",
+      "/lote/[^/]+",
+      "/oferta/[^/]+",
+      "/item/[^/]+",
+      "/detalhes/[^/]+"
+    ],
+    "price_patterns": [
+      "R\\$\\s*[\\d.,]+",
+      "R\\$[\\d.,]+",
+      "[\\d.,]+\\s*reais"
+    ],
+    "date_patterns": [
+      "\\d{2}/\\d{2}/\\d{4}",
+      "\\d{2}-\\d{2}-\\d{4}",
+      "\\d{4}-\\d{2}-\\d{2}"
+    ]
+  }
+}
+
