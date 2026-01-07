@@ -3,9 +3,11 @@ Script de manutenção diária.
 Executar via cron ou scheduler.
 
 Tarefas:
-1. Auditoria e correção de dados
-2. Buscar imagens faltantes da Caixa (limite de 50 por execução)
-3. Verificar e re-descobrir configs expiradas/problemáticas
+1. Auditoria de qualidade de dados
+2. Limpeza de imóveis com dados críticos faltando
+3. Verificação de links quebrados (amostra)
+4. Buscar imagens faltantes da Caixa (limite de 50 por execução)
+5. Verificar e re-descobrir configs expiradas/problemáticas
 """
 
 import os
@@ -17,8 +19,6 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dotenv import load_dotenv
 load_dotenv()
-
-from scripts.audit_data_quality import audit_data_quality
 
 async def run_discovery_maintenance():
     """Executa manutenção de descoberta de estrutura"""
@@ -43,7 +43,7 @@ async def run_discovery_maintenance():
         print(f"   Tipos de site: {stats['site_types']}")
         
     except Exception as e:
-        print(f"\n❌ Erro na manutenção de descoberta: {e}")
+        print(f"\n[ERRO] Erro na manutencao de descoberta: {e}")
         import traceback
         traceback.print_exc()
 
@@ -55,49 +55,76 @@ def main():
     # Verificar variáveis de ambiente críticas
     database_url = os.getenv("DATABASE_URL")
     if not database_url:
-        print("❌ ERRO: DATABASE_URL não configurado!")
+        print("[ERRO] DATABASE_URL nao configurado!")
         print("Configure a variável de ambiente DATABASE_URL")
         return 1
     
-    print("✅ Variáveis de ambiente OK")
+    print("[OK] Variaveis de ambiente OK")
     print(f"   DATABASE_URL: {'*' * 20}...{database_url[-10:] if len(database_url) > 10 else ''}")
     print()
     
     try:
-        # 1. Auditoria com correção
-        print("ETAPA 1: Auditoria de dados")
+        # 1. Auditoria de qualidade de dados
+        print("ETAPA 1: Auditoria de qualidade de dados")
         print("-" * 40)
-        audit_data_quality(fix=True)
-        print("✅ Auditoria concluída\n")
+        from scripts.audit_data_quality import main as audit_main
+        stats = audit_main()
+        print("[OK] Auditoria concluida\n")
     except Exception as e:
-        print(f"❌ Erro na auditoria: {e}")
+        print(f"[ERRO] Erro na auditoria: {e}")
         import traceback
         traceback.print_exc()
         return 1
     
-    # 2. Buscar imagens da Caixa (se o script existir)
+    try:
+        # 2. Limpeza de imóveis com dados ruins
+        print("ETAPA 2: Limpeza de imóveis com dados críticos faltando")
+        print("-" * 40)
+        from scripts.cleanup_bad_properties import main as cleanup_main
+        desativados = cleanup_main()
+        print(f"[OK] Limpeza concluida: {desativados} imoveis desativados\n")
+    except Exception as e:
+        print(f"[ERRO] Erro na limpeza: {e}")
+        import traceback
+        traceback.print_exc()
+        # Não retornar erro aqui, continuar com outras tarefas
+    
+    try:
+        # 3. Verificação de links quebrados (amostra)
+        print("ETAPA 3: Verificação de links quebrados (amostra)")
+        print("-" * 40)
+        from scripts.check_broken_links import main as check_links_main
+        links_quebrados = asyncio.run(check_links_main())
+        print(f"[OK] Verificacao de links concluida: {links_quebrados} links quebrados encontrados\n")
+    except Exception as e:
+        print(f"[ERRO] Erro na verificacao de links: {e}")
+        import traceback
+        traceback.print_exc()
+        # Não retornar erro aqui, continuar com outras tarefas
+    
+    # 4. Buscar imagens da Caixa (se o script existir)
     try:
         from scripts.fetch_caixa_images import fetch_and_update_images
-        print("\nETAPA 2: Buscar imagens da Caixa")
+        print("\nETAPA 4: Buscar imagens da Caixa")
         print("-" * 40)
         fetch_and_update_images(limit=50)
-        print("✅ Busca de imagens concluída\n")
+        print("[OK] Busca de imagens concluida\n")
     except ImportError:
-        print("\n⏭️ Script de imagens da Caixa não disponível")
+        print("\n[SKIP] Script de imagens da Caixa nao disponivel")
     except Exception as e:
-        print(f"❌ Erro ao buscar imagens: {e}")
+        print(f"[ERRO] Erro ao buscar imagens: {e}")
         import traceback
         traceback.print_exc()
     
-    # 3. Manutenção de descoberta
+    # 5. Manutenção de descoberta
     try:
         asyncio.run(run_discovery_maintenance())
-        print("✅ Manutenção de descoberta concluída\n")
+        print("[OK] Manutencao de descoberta concluida\n")
     except Exception as e:
-        print(f"❌ Erro na manutenção de descoberta: {e}")
+        print(f"[ERRO] Erro na manutencao de descoberta: {e}")
         import traceback
         traceback.print_exc()
-        return 1
+        # Não retornar erro aqui, apenas logar
     
     print(f"\n{'='*60}")
     print("MANUTENÇÃO CONCLUÍDA COM SUCESSO")

@@ -1,172 +1,100 @@
-"""
-Script de auditoria de qualidade de dados.
-Pode ser executado via cron ou manualmente.
-"""
-
 import os
-import sys
-import json
-from datetime import datetime
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from dotenv import load_dotenv
+from supabase import create_client
+from datetime import datetime, timedelta
+
 load_dotenv()
 
-import psycopg2
+supabase = create_client(
+    os.getenv("SUPABASE_URL"),
+    os.getenv("SUPABASE_KEY")
+)
 
-DATABASE_URL = os.getenv("DATABASE_URL")
-
-
-def audit_data_quality(fix: bool = False) -> dict:
-    """
-    Audita qualidade dos dados e opcionalmente corrige.
+def main():
+    print("=" * 70)
+    print("AUDITORIA DE QUALIDADE DA BASE DE DADOS")
+    print("=" * 70)
     
-    Args:
-        fix: Se True, corrige problemas encontrados
-        
-    Returns:
-        Relatório de auditoria
-    """
+    # 1. Imóveis sem cidade
+    r1 = supabase.table("properties").select("id", count="exact") \
+        .or_("city.is.null,city.eq.") \
+        .execute()
+    sem_cidade = r1.count or 0
     
-    conn = psycopg2.connect(DATABASE_URL)
-    cur = conn.cursor()
+    # 2. Imóveis sem estado
+    r2 = supabase.table("properties").select("id", count="exact") \
+        .or_("state.is.null,state.eq.") \
+        .execute()
+    sem_estado = r2.count or 0
     
-    report = {
-        "timestamp": datetime.now().isoformat(),
-        "mode": "fix" if fix else "audit",
-        "issues": {},
-        "fixed": {} if fix else None,
-        "stats": {}
+    # 3. Imóveis categoria "Outro" (pode indicar dados ruins)
+    r3 = supabase.table("properties").select("id", count="exact") \
+        .eq("category", "Outro") \
+        .execute()
+    categoria_outro = r3.count or 0
+    
+    # 4. Imóveis sem nenhum valor (avaliação, 1º leilão, 2º leilão)
+    r4 = supabase.table("properties").select("id", count="exact") \
+        .is_("evaluation_value", "null") \
+        .is_("first_auction_value", "null") \
+        .is_("second_auction_value", "null") \
+        .execute()
+    sem_valores = r4.count or 0
+    
+    # 5. Imóveis sem source_url
+    r5 = supabase.table("properties").select("id", count="exact") \
+        .or_("source_url.is.null,source_url.eq.") \
+        .execute()
+    sem_url = r5.count or 0
+    
+    # 6. Total de imóveis
+    r_total = supabase.table("properties").select("id", count="exact").execute()
+    total = r_total.count or 0
+    
+    # 7. Imóveis com dados mínimos OK
+    imoveis_ok = total - max(sem_cidade, sem_estado, sem_valores)
+    
+    print(f"\nRESUMO DA AUDITORIA:")
+    print("-" * 50)
+    print(f"Total de imóveis:              {total:,}")
+    print(f"Sem cidade:                    {sem_cidade:,} ({sem_cidade*100/total:.1f}%)" if total > 0 else f"Sem cidade:                    {sem_cidade:,}")
+    print(f"Sem estado:                    {sem_estado:,} ({sem_estado*100/total:.1f}%)" if total > 0 else f"Sem estado:                    {sem_estado:,}")
+    print(f"Categoria 'Outro':             {categoria_outro:,} ({categoria_outro*100/total:.1f}%)" if total > 0 else f"Categoria 'Outro':             {categoria_outro:,}")
+    print(f"Sem nenhum valor:              {sem_valores:,} ({sem_valores*100/total:.1f}%)" if total > 0 else f"Sem nenhum valor:              {sem_valores:,}")
+    print(f"Sem URL de origem:             {sem_url:,} ({sem_url*100/total:.1f}%)" if total > 0 else f"Sem URL de origem:             {sem_url:,}")
+    print("-" * 50)
+    
+    # 8. Buscar amostra dos piores casos
+    print(f"\nAMOSTRA DE IMÓVEIS PROBLEMATICOS:")
+    print("-" * 50)
+    
+    sample = supabase.table("properties") \
+        .select("id, title, city, state, category, evaluation_value, source_url, auctioneer_name") \
+        .or_("city.is.null,city.eq.") \
+        .limit(10) \
+        .execute()
+    
+    for prop in sample.data:
+        print(f"\nID: {prop.get('id')}")
+        print(f"  Título: {(prop.get('title') or 'N/A')[:50]}")
+        print(f"  Cidade: {prop.get('city') or '[VAZIO]'}")
+        print(f"  Estado: {prop.get('state') or '[VAZIO]'}")
+        print(f"  Categoria: {prop.get('category') or '[VAZIO]'}")
+        print(f"  Valor: {prop.get('evaluation_value') or '[VAZIO]'}")
+        print(f"  Leiloeiro: {prop.get('auctioneer_name') or '[VAZIO]'}")
+    
+    # Retornar estatísticas para uso posterior
+    return {
+        "total": total,
+        "sem_cidade": sem_cidade,
+        "sem_estado": sem_estado,
+        "categoria_outro": categoria_outro,
+        "sem_valores": sem_valores,
+        "sem_url": sem_url
     }
-    
-    print("=" * 60)
-    print(f"AUDITORIA DE QUALIDADE - {report['timestamp']}")
-    print(f"Modo: {'CORREÇÃO' if fix else 'APENAS RELATÓRIO'}")
-    print("=" * 60)
-    
-    # 1. Cidades em maiúsculas
-    print("\n📍 Verificando cidades...")
-    cur.execute('''
-        SELECT COUNT(*) FROM properties 
-        WHERE city = UPPER(city) AND city IS NOT NULL AND LENGTH(city) > 2
-    ''')
-    count = cur.fetchone()[0]
-    report["issues"]["uppercase_cities"] = count
-    print(f"   Cidades em MAIÚSCULAS: {count}")
-    
-    if fix and count > 0:
-        cur.execute('UPDATE properties SET city = INITCAP(city) WHERE city = UPPER(city) AND city IS NOT NULL')
-        report["fixed"]["uppercase_cities"] = cur.rowcount
-        print(f"   ✅ Corrigidas: {cur.rowcount}")
-    
-    # 2. Bairros em maiúsculas
-    print("\n🏘️ Verificando bairros...")
-    cur.execute('''
-        SELECT COUNT(*) FROM properties 
-        WHERE neighborhood = UPPER(neighborhood) AND neighborhood IS NOT NULL AND LENGTH(neighborhood) > 2
-    ''')
-    count = cur.fetchone()[0]
-    report["issues"]["uppercase_neighborhoods"] = count
-    print(f"   Bairros em MAIÚSCULAS: {count}")
-    
-    if fix and count > 0:
-        cur.execute('UPDATE properties SET neighborhood = INITCAP(neighborhood) WHERE neighborhood = UPPER(neighborhood) AND neighborhood IS NOT NULL')
-        report["fixed"]["uppercase_neighborhoods"] = cur.rowcount
-        print(f"   ✅ Corrigidos: {cur.rowcount}")
-    
-    # 3. Imagens inválidas
-    print("\n🖼️ Verificando imagens...")
-    cur.execute('''
-        SELECT COUNT(*) FROM properties 
-        WHERE image_url LIKE '%%facebook%%'
-           OR image_url LIKE '%%logo%%'
-           OR image_url LIKE '%%placeholder%%'
-           OR image_url LIKE '%%no-image%%'
-    ''')
-    count = cur.fetchone()[0]
-    report["issues"]["invalid_images"] = count
-    print(f"   Imagens inválidas: {count}")
-    
-    if fix and count > 0:
-        cur.execute('''
-            UPDATE properties SET image_url = NULL
-            WHERE image_url LIKE '%%facebook%%'
-               OR image_url LIKE '%%logo%%'
-               OR image_url LIKE '%%placeholder%%'
-               OR image_url LIKE '%%no-image%%'
-        ''')
-        report["fixed"]["invalid_images"] = cur.rowcount
-        print(f"   ✅ Removidas: {cur.rowcount}")
-    
-    # 4. URLs da Caixa
-    print("\n🔗 Verificando URLs da Caixa...")
-    cur.execute('''
-        SELECT COUNT(*) FROM properties 
-        WHERE id LIKE 'caixa-%%'
-          AND (source_url IS NULL OR source_url = '')
-    ''')
-    count = cur.fetchone()[0]
-    report["issues"]["missing_caixa_urls"] = count
-    print(f"   Caixa sem URL: {count}")
-    
-    if fix and count > 0:
-        cur.execute('''
-            UPDATE properties 
-            SET source_url = CONCAT('https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=', REPLACE(id, 'caixa-', ''))
-            WHERE id LIKE 'caixa-%%'
-              AND (source_url IS NULL OR source_url = '')
-        ''')
-        report["fixed"]["missing_caixa_urls"] = cur.rowcount
-        print(f"   ✅ URLs geradas: {cur.rowcount}")
-    
-    # 5. Estatísticas gerais
-    print("\n📊 Estatísticas gerais...")
-    
-    cur.execute('SELECT COUNT(*) FROM properties')
-    report["stats"]["total"] = cur.fetchone()[0]
-    
-    cur.execute('SELECT COUNT(*) FROM properties WHERE image_url IS NOT NULL AND image_url != \'\'')
-    report["stats"]["with_image"] = cur.fetchone()[0]
-    
-    cur.execute('SELECT COUNT(*) FROM properties WHERE source_url IS NOT NULL AND source_url != \'\'')
-    report["stats"]["with_url"] = cur.fetchone()[0]
-    
-    cur.execute('SELECT COUNT(DISTINCT city) FROM properties')
-    report["stats"]["unique_cities"] = cur.fetchone()[0]
-    
-    total = report['stats']['total']
-    print(f"   Total de imóveis: {total}")
-    if total > 0:
-        print(f"   Com imagem: {report['stats']['with_image']} ({100*report['stats']['with_image']/total:.1f}%)")
-        print(f"   Com URL: {report['stats']['with_url']} ({100*report['stats']['with_url']/total:.1f}%)")
-    else:
-        print(f"   Com imagem: {report['stats']['with_image']}")
-        print(f"   Com URL: {report['stats']['with_url']}")
-    print(f"   Cidades únicas: {report['stats']['unique_cities']}")
-    
-    if fix:
-        conn.commit()
-        print("\n✅ Correções aplicadas!")
-    
-    cur.close()
-    conn.close()
-    
-    print("\n" + "=" * 60)
-    
-    return report
-
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='Auditoria de qualidade de dados')
-    parser.add_argument('--fix', action='store_true', help='Corrigir problemas encontrados')
-    parser.add_argument('--json', action='store_true', help='Saída em JSON')
-    args = parser.parse_args()
-    
-    report = audit_data_quality(fix=args.fix)
-    
-    if args.json:
-        print(json.dumps(report, indent=2, ensure_ascii=False))
-
+    stats = main()
+    print("\n" + "=" * 70)
+    print("AUDITORIA CONCLUÍDA")
+    print("=" * 70)
