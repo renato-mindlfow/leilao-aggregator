@@ -18,63 +18,53 @@ class FlexLeiloesPlaywrightScraper(PlaywrightBaseScraper):
     AUCTIONEER_NAME = "Flex Leilões"
     LISTING_URL = "https://www.flexleiloes.com.br/imoveis"
     
+    WAIT_TIME = 8
+    MAX_PAGES = 50
+    
     SELECTORS = {
-        "property_cards": "ul.chamadas li",
-        "property_link": "a[href*='lotes/']",
-        "title": "h2.item-titulo, .item-titulo",
-        "price": ".item-descricao",
-        "location": ".item-local",
-        "image": ".item-imagem img",
+        "property_cards": [
+            "ul.chamadas li", "li", "[class*='item']", "[class*='lote']"
+        ],
+        "property_link": [
+            "a[href*='lotes/']", "a[href*='/lote']", "a"
+        ],
+        "title": [
+            "h2.item-titulo", ".item-titulo", "h2", "h3"
+        ],
+        "price": [
+            ".item-descricao", "[class*='price']", "[class*='valor']"
+        ],
+        "location": [
+            ".item-local", "[class*='local']", "[class*='cidade']"
+        ],
+        "image": [
+            ".item-imagem img", "img"
+        ],
+        "pagination": [
+            ".pagination a", "[class*='pagination'] a", "a[href*='page=']"
+        ],
+        "next_page": [
+            "a[rel='next']", "a.next", "[class*='next']"
+        ],
     }
     
-    async def _extract_property_data(self, card) -> Optional[Dict]:
+    async def _extract_property(self, card) -> Optional[Dict]:
         """Extrai dados de um card de propriedade da Flex."""
         try:
-            prop = {}
+            # Usar método da base class primeiro
+            prop = await super()._extract_property(card)
             
-            # Link
-            link_elem = await card.query_selector(self.SELECTORS["property_link"])
-            if link_elem:
-                href = await link_elem.get_attribute("href")
-                if href:
-                    prop["source_url"] = href if href.startswith("http") else self.BASE_URL + "/" + href
-                    prop["url"] = prop["source_url"]
-            
-            if not prop.get("source_url"):
+            if not prop:
                 return None
             
-            # Título
-            title_elem = await card.query_selector(self.SELECTORS["title"])
-            if title_elem:
-                title_text = await title_elem.inner_text()
-                prop["title"] = title_text.strip()
-            
-            # Preço (extrair do texto de descrição)
-            price_elem = await card.query_selector(self.SELECTORS["price"])
-            if price_elem:
-                price_text = await price_elem.inner_text()
-                # Buscar por "Lance Mínimo: R$ X"
+            # Customização específica: extrair preço do texto de descrição
+            if not prop.get("first_auction_value"):
+                card_text = await card.inner_text()
                 import re
-                price_match = re.search(r'Lance\s+M[ií]nimo:\s*R\$\s*([\d.,]+)', price_text)
+                price_match = re.search(r'Lance\s+M[ií]nimo:\s*R\$\s*([\d.,]+)', card_text)
                 if price_match:
                     prop["first_auction_value"] = self._parse_price(price_match.group(1))
             
-            # Localização
-            location_elem = await card.query_selector(self.SELECTORS["location"])
-            if location_elem:
-                location_text = await location_elem.inner_text()
-                state, city = self._extract_state_city(location_text)
-                prop["state"] = state
-                prop["city"] = city
-            
-            # Imagem
-            img_elem = await card.query_selector(self.SELECTORS["image"])
-            if img_elem:
-                src = await img_elem.get_attribute("src")
-                if src and not any(x in src.lower() for x in ['logo', 'icon', 'placeholder', 'avatar']):
-                    prop["image_url"] = src if src.startswith("http") else self.BASE_URL + "/" + src
-            
-            prop["category"] = self._determine_category(prop.get("title", ""))
             prop["auction_type"] = "Judicial"
             
             return prop if prop.get("title") else None
