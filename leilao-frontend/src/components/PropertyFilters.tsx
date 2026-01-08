@@ -74,30 +74,31 @@ const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({
       </button>
 
       {isOpen && (
-        <div className="absolute z-50 w-full mt-1 bg-popover border rounded-lg shadow-lg max-h-60 overflow-hidden">
+        <div className="absolute z-50 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-xl max-h-60 overflow-hidden" style={{ backgroundColor: 'white' }}>
           {/* Busca */}
-          <div className="p-2 border-b">
+          <div className="p-2 border-b bg-white" style={{ backgroundColor: 'white' }}>
             <Input
               type="text"
               placeholder="Buscar..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="h-8"
+              className="h-8 bg-white"
               onClick={(e) => e.stopPropagation()}
             />
           </div>
 
           {/* Opções */}
-          <div className="max-h-48 overflow-auto">
+          <div className="max-h-48 overflow-auto bg-white" style={{ backgroundColor: 'white' }}>
             {filteredOptions.length === 0 ? (
-              <div className="px-3 py-2 text-sm text-muted-foreground text-center">
+              <div className="px-3 py-2 text-sm text-muted-foreground text-center bg-white" style={{ backgroundColor: 'white' }}>
                 Nenhuma opção encontrada
               </div>
             ) : (
               filteredOptions.map(option => (
                 <label
                   key={option}
-                  className="flex items-center px-3 py-2 hover:bg-accent cursor-pointer"
+                  className="flex items-center px-3 py-2 hover:bg-gray-100 cursor-pointer bg-white"
+                  style={{ backgroundColor: 'white' }}
                 >
                   <input
                     type="checkbox"
@@ -112,12 +113,12 @@ const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({
           </div>
 
           {/* Botão fechar */}
-          <div className="p-2 border-t">
+          <div className="p-2 border-t bg-white" style={{ backgroundColor: 'white' }}>
             <Button
               variant="ghost"
               size="sm"
               onClick={() => setIsOpen(false)}
-              className="w-full"
+              className="w-full bg-white hover:bg-gray-100"
             >
               Fechar
             </Button>

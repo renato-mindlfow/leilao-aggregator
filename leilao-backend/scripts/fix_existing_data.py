@@ -52,7 +52,7 @@ def fix_states():
         total_fixed += count
         print(f"  Corrigido '{wrong}' -> '{correct}': {count} registros")
     
-    print(f"\n✅ Total de registros corrigidos (estados): {total_fixed}")
+    print(f"\n[OK] Total de registros corrigidos (estados): {total_fixed}")
     return total_fixed
 
 
@@ -88,7 +88,7 @@ def fix_categories():
         total_fixed += count
         print(f"  Corrigido '{wrong}' -> '{correct}': {count} registros")
     
-    print(f"\n✅ Total de registros corrigidos (categorias): {total_fixed}")
+    print(f"\n[OK] Total de registros corrigidos (categorias): {total_fixed}")
     return total_fixed
 
 
@@ -128,7 +128,7 @@ def fix_cities():
         if count > 0:
             print(f"  Corrigido '{wrong}' -> '{correct}': {count} registros")
     
-    print(f"\n✅ Total de registros corrigidos (cidades): {total_fixed}")
+    print(f"\n[OK] Total de registros corrigidos (cidades): {total_fixed}")
     return total_fixed
 
 
@@ -155,7 +155,7 @@ def main():
     print(f"Categorias corrigidas: {categories_fixed}")
     print(f"Cidades corrigidas: {cities_fixed}")
     print(f"Total: {states_fixed + categories_fixed + cities_fixed}")
-    print("\n✅ Correção concluída!")
+    print("\n[OK] Correção concluída!")
 
 
 if __name__ == "__main__":

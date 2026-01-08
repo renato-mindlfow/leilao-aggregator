@@ -3,6 +3,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { Users, Search, TrendingUp, DollarSign, Calendar } from 'lucide-react';
 // import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import AdminDashboard from '../../pages/AdminDashboard';
 
 const API_URL = import.meta.env.VITE_API_URL || 'https://leilao-backend-solitary-haze-9882.fly.dev';
 
@@ -118,11 +119,12 @@ export const AdminPanel = () => {
 
         {/* Tabs */}
         <div className="bg-white rounded-lg shadow">
-          <Tabs defaultValue="overview" className="w-full">
+          <Tabs defaultValue="leiloeiros" className="w-full">
             <TabsList className="p-4 border-b">
               <TabsTrigger value="overview">Visão Geral</TabsTrigger>
               <TabsTrigger value="users">Usuários</TabsTrigger>
               <TabsTrigger value="analytics">Analytics</TabsTrigger>
+              <TabsTrigger value="leiloeiros">🏛️ Leiloeiros</TabsTrigger>
             </TabsList>
 
             <TabsContent value="users" className="p-4 sm:p-6">
@@ -135,6 +137,12 @@ export const AdminPanel = () => {
 
             <TabsContent value="overview" className="p-4 sm:p-6">
               <OverviewView stats={stats} />
+            </TabsContent>
+
+            <TabsContent value="leiloeiros" className="p-0">
+              <div className="bg-gray-100 p-4 sm:p-6">
+                <AdminDashboard />
+              </div>
             </TabsContent>
           </Tabs>
         </div>

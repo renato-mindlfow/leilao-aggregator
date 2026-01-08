@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useAuth } from '../contexts/AuthContext';
 
 interface Auctioneer {
   id: string;
@@ -16,15 +17,20 @@ type StatusFilter = 'all' | 'green' | 'yellow' | 'red';
 const API_URL = import.meta.env.VITE_API_URL || 'https://leilao-backend-solitary-haze-9882.fly.dev';
 
 export default function AdminDashboard() {
+  const { isAdmin } = useAuth();
   const [auctioneers, setAuctioneers] = useState<Auctioneer[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<StatusFilter>('all');
   const [search, setSearch] = useState('');
   const [stats, setStats] = useState({ total: 0, green: 0, yellow: 0, red: 0, totalProperties: 0 });
+  const [sortColumn, setSortColumn] = useState<string>('property_count');
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
 
   useEffect(() => {
-    fetchAuctioneers();
-  }, []);
+    if (isAdmin()) {
+      fetchAuctioneers();
+    }
+  }, [isAdmin]);
 
   const fetchAuctioneers = async () => {
     setLoading(true);
@@ -87,6 +93,57 @@ export default function AdminDashboard() {
     return matchFilter && matchSearch;
   });
 
+  const handleSort = (column: string) => {
+    if (sortColumn === column) {
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortColumn(column);
+      setSortDirection('desc');
+    }
+  };
+
+  const sortedAuctioneers = [...filtered].sort((a, b) => {
+    let aVal = a[sortColumn as keyof Auctioneer];
+    let bVal = b[sortColumn as keyof Auctioneer];
+    
+    // Tratar nulls - para datas, nulls vão para o final
+    if (sortColumn === 'last_scrape') {
+      if (!aVal && !bVal) return 0;
+      if (!aVal) return 1; // null vai para o final
+      if (!bVal) return -1; // null vai para o final
+      const aDate = new Date(aVal as string).getTime();
+      const bDate = new Date(bVal as string).getTime();
+      return sortDirection === 'asc' ? aDate - bDate : bDate - aDate;
+    }
+    
+    // Tratar nulls para outros campos
+    if (aVal === null || aVal === undefined) aVal = '';
+    if (bVal === null || bVal === undefined) bVal = '';
+    
+    // Comparar números
+    if (typeof aVal === 'number' && typeof bVal === 'number') {
+      return sortDirection === 'asc' ? aVal - bVal : bVal - aVal;
+    }
+    
+    // Comparar strings
+    const aStr = String(aVal).toLowerCase();
+    const bStr = String(bVal).toLowerCase();
+    return sortDirection === 'asc' 
+      ? aStr.localeCompare(bStr) 
+      : bStr.localeCompare(aStr);
+  });
+
+  if (!isAdmin()) {
+    return (
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Acesso Negado</h2>
+          <p className="text-gray-600">Você precisa ser administrador para acessar esta página.</p>
+        </div>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
@@ -96,12 +153,12 @@ export default function AdminDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="w-full">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">🏛️ Painel Administrativo</h1>
-          <p className="text-gray-600 mt-2">Monitoramento de leiloeiros e status de integração</p>
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold text-gray-800">🏛️ Monitoramento de Leiloeiros</h2>
+          <p className="text-gray-600 mt-1 text-sm">Status de integração e faróis de sistema</p>
         </div>
 
         {/* Cards de estatísticas */}
@@ -173,15 +230,35 @@ export default function AdminDashboard() {
             <thead className="bg-gray-50">
               <tr>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Leiloeiro</th>
+                <th 
+                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase cursor-pointer hover:bg-gray-100 transition-colors"
+                  onClick={() => handleSort('name')}
+                >
+                  Leiloeiro {sortColumn === 'name' && (sortDirection === 'asc' ? '▲' : '▼')}
+                </th>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Website</th>
-                <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase">Imóveis</th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Scrape</th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Última Extração</th>
+                <th 
+                  className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase cursor-pointer hover:bg-gray-100 transition-colors"
+                  onClick={() => handleSort('property_count')}
+                >
+                  Imóveis {sortColumn === 'property_count' && (sortDirection === 'asc' ? '▲' : '▼')}
+                </th>
+                <th 
+                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase cursor-pointer hover:bg-gray-100 transition-colors"
+                  onClick={() => handleSort('scrape_status')}
+                >
+                  Scrape {sortColumn === 'scrape_status' && (sortDirection === 'asc' ? '▲' : '▼')}
+                </th>
+                <th 
+                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase cursor-pointer hover:bg-gray-100 transition-colors"
+                  onClick={() => handleSort('last_scrape')}
+                >
+                  Última Extração {sortColumn === 'last_scrape' && (sortDirection === 'asc' ? '▲' : '▼')}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              {filtered.map(auc => {
+              {sortedAuctioneers.map(auc => {
                 const status = getStatus(auc);
                 return (
                   <tr key={auc.id} className="hover:bg-gray-50">

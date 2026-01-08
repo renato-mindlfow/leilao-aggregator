@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import LandingPage from './pages/Landing.tsx'
 import AdminDashboard from './pages/AdminDashboard.tsx'
+import { AuthProvider } from './contexts/AuthContext'
 
 // Simple routing based on pathname
 function Router() {
@@ -13,7 +14,7 @@ function Router() {
     return <LandingPage />;
   }
   
-  if (pathname === '/admin') {
+  if (pathname === '/admin' || pathname === '/admin/leiloeiros') {
     return <AdminDashboard />;
   }
   
@@ -22,6 +23,8 @@ function Router() {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Router />
+    <AuthProvider>
+      <Router />
+    </AuthProvider>
   </StrictMode>,
 )
