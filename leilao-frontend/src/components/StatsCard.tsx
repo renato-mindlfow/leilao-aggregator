@@ -2,6 +2,7 @@ import { Stats } from '@/lib/api';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Building2, Users, Copy, TrendingUp } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import { CATEGORY_COLORS } from '@/constants/colors';
 
 interface StatsCardProps {
   stats: Stats | null;
@@ -89,20 +90,9 @@ const normalizeCategory = (category: string): string => {
   return mappings[category] || category;
 };
 
-// Cores das categorias
-const categoryColors: Record<string, string> = {
-  'Apartamento': '#2563EB',    // Azul
-  'Casa': '#16A34A',           // Verde
-  'Terreno': '#CA8A04',        // Amarelo/Mostarda
-  'Comercial': '#9333EA',      // Roxo
-  'Garagem': '#475569',        // Cinza escuro
-  'Rural': '#059669',          // Verde escuro
-  'Área': '#DC2626',           // Vermelho
-  'Outro': '#EA580C',          // Laranja
-  'Outros': '#EA580C',
-  'Estacionamento': '#475569',
-  'Galpão': '#9333EA',
-  'Prédio': '#9333EA',
+// Função para obter cor da categoria (usando paleta centralizada)
+const getCategoryColor = (category: string): string => {
+  return CATEGORY_COLORS[category]?.bullet || CATEGORY_COLORS['Outro'].bullet;
 };
 
 // Paleta para modalidades - Opção C Vibrante Equilibrada
@@ -202,7 +192,7 @@ export function CategoryStats({ stats, modalityData, modalityLoading }: Category
               >
                 <div 
                   className="w-3 h-3 rounded-full flex-shrink-0" 
-                  style={{ backgroundColor: categoryColors[category] || '#64748B' }}
+                  style={{ backgroundColor: getCategoryColor(category) }}
                 />
                 <span className="font-medium text-sm">{category}</span>
                 <span className="text-muted-foreground text-sm">

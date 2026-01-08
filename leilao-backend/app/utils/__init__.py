@@ -7,14 +7,12 @@ from .date_parser import (
     parse_all_dates,
     find_auction_dates
 )
+# Importar do novo normalizer
 from .normalizer import (
-    DataNormalizer,
     normalize_category,
     normalize_state,
     normalize_city,
-    normalize_money,
-    normalize_area,
-    normalize_title
+    normalize_property
 )
 from .paginator import GenericPaginator, paginate_and_extract
 from .rate_limiter import RateLimiter, get_rate_limiter, rate_limited_fetch
@@ -33,13 +31,10 @@ __all__ = [
     'parse_brazilian_date',
     'parse_all_dates',
     'find_auction_dates',
-    'DataNormalizer',
     'normalize_category',
     'normalize_state',
     'normalize_city',
-    'normalize_money',
-    'normalize_area',
-    'normalize_title',
+    'normalize_property',
     'GenericPaginator',
     'paginate_and_extract',
     'RateLimiter',

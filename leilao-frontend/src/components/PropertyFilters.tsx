@@ -1,17 +1,132 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { PropertyFilters as Filters, getStates, getCities, getCategories, getAuctionTypes } from '@/lib/api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Search, Filter, X } from 'lucide-react';
+import { Search, Filter, X, ChevronDown } from 'lucide-react';
+import { normalizeState, normalizeCity } from '@/utils/normalization';
 
 interface PropertyFiltersProps {
   filters: Filters;
   onFiltersChange: (filters: Filters) => void;
   onSearch: () => void;
 }
+
+// Componente de dropdown com seleção múltipla
+interface MultiSelectDropdownProps {
+  options: string[];
+  selected: string[];
+  onToggle: (value: string) => void;
+  placeholder: string;
+  normalize?: (value: string) => string;
+}
+
+const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({
+  options,
+  selected,
+  onToggle,
+  placeholder,
+  normalize,
+}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [search, setSearch] = useState('');
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Normalizar e ordenar opções
+  const normalizedOptions = [...new Set(options.map(opt => normalize ? normalize(opt) : opt))]
+    .filter(opt => opt && opt.trim() !== '' && opt !== 'XX' && opt !== 'Não informada')
+    .sort();
+
+  const filteredOptions = normalizedOptions.filter(opt =>
+    opt.toLowerCase().includes(search.toLowerCase())
+  );
+
+  // Fechar dropdown ao clicar fora
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
+
+  return (
+    <div className="relative" ref={dropdownRef}>
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full border rounded-lg px-3 py-2 text-left flex justify-between items-center focus:ring-2 focus:ring-blue-500 focus:outline-none bg-background hover:bg-accent"
+      >
+        <span className={selected.length ? 'text-foreground' : 'text-muted-foreground'}>
+          {selected.length ? `${selected.length} selecionado(s)` : placeholder}
+        </span>
+        <ChevronDown className={`w-4 h-4 text-muted-foreground transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+      </button>
+
+      {isOpen && (
+        <div className="absolute z-50 w-full mt-1 bg-popover border rounded-lg shadow-lg max-h-60 overflow-hidden">
+          {/* Busca */}
+          <div className="p-2 border-b">
+            <Input
+              type="text"
+              placeholder="Buscar..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="h-8"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+
+          {/* Opções */}
+          <div className="max-h-48 overflow-auto">
+            {filteredOptions.length === 0 ? (
+              <div className="px-3 py-2 text-sm text-muted-foreground text-center">
+                Nenhuma opção encontrada
+              </div>
+            ) : (
+              filteredOptions.map(option => (
+                <label
+                  key={option}
+                  className="flex items-center px-3 py-2 hover:bg-accent cursor-pointer"
+                >
+                  <input
+                    type="checkbox"
+                    checked={selected.includes(option)}
+                    onChange={() => onToggle(option)}
+                    className="mr-2"
+                  />
+                  <span className="text-sm">{option}</span>
+                </label>
+              ))
+            )}
+          </div>
+
+          {/* Botão fechar */}
+          <div className="p-2 border-t">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setIsOpen(false)}
+              className="w-full"
+            >
+              Fechar
+            </Button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
 
 export function PropertyFilters({ filters, onFiltersChange, onSearch }: PropertyFiltersProps) {
   const [states, setStates] = useState<string[]>([]);
@@ -20,17 +135,27 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
   const [auctionTypes, setAuctionTypes] = useState<string[]>([]);
   const [isExpanded, setIsExpanded] = useState(false);
 
+  // Estados e cidades selecionados (arrays)
+  const selectedStates = filters.states || (filters.state ? [filters.state] : []);
+  const selectedCities = filters.cities || (filters.city ? [filters.city] : []);
+
   useEffect(() => {
     loadFilterOptions();
   }, []);
 
   useEffect(() => {
-    if (filters.state) {
-      getCities(filters.state).then(setCities);
+    // Se há estados selecionados, carregar cidades desses estados
+    if (selectedStates.length > 0) {
+      // Carregar cidades para todos os estados selecionados
+      Promise.all(selectedStates.map(state => getCities(state)))
+        .then(citiesArrays => {
+          const allCities = citiesArrays.flat();
+          setCities([...new Set(allCities)]);
+        });
     } else {
       getCities().then(setCities);
     }
-  }, [filters.state]);
+  }, [selectedStates]);
 
   const loadFilterOptions = async () => {
     try {
@@ -49,12 +174,45 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
     }
   };
 
+  const handleStateToggle = (state: string) => {
+    const normalizedState = normalizeState(state);
+    const newStates = selectedStates.includes(normalizedState)
+      ? selectedStates.filter(s => s !== normalizedState)
+      : [...selectedStates, normalizedState];
+    
+    const newFilters: Filters = {
+      ...filters,
+      states: newStates.length > 0 ? newStates : undefined,
+      state: undefined, // Limpar filtro antigo
+      cities: undefined, // Limpar cidades quando mudar estados
+      city: undefined,
+    };
+    
+    onFiltersChange(newFilters);
+  };
+
+  const handleCityToggle = (city: string) => {
+    const normalizedCity = normalizeCity(city);
+    const newCities = selectedCities.includes(normalizedCity)
+      ? selectedCities.filter(c => c !== normalizedCity)
+      : [...selectedCities, normalizedCity];
+    
+    const newFilters: Filters = {
+      ...filters,
+      cities: newCities.length > 0 ? newCities : undefined,
+      city: undefined, // Limpar filtro antigo
+    };
+    
+    onFiltersChange(newFilters);
+  };
+
   const handleFilterChange = (key: keyof Filters, value: string | number | undefined) => {
     const newFilters = { ...filters, [key]: value || undefined };
     
     if (key === 'state') {
       newFilters.city = undefined;
       newFilters.neighborhood = undefined;
+      newFilters.states = undefined;
     }
     
     onFiltersChange(newFilters);
@@ -63,12 +221,16 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
   const clearFilters = () => {
     onFiltersChange({
       page: 1,
-      limit: 18,
+      limit: filters.limit || 21,
     });
   };
 
   const hasActiveFilters = Object.entries(filters).some(
-    ([key, value]) => !['page', 'limit'].includes(key) && value !== undefined && value !== ''
+    ([key, value]) => {
+      if (['page', 'limit'].includes(key)) return false;
+      if (Array.isArray(value)) return value.length > 0;
+      return value !== undefined && value !== '';
+    }
   );
 
   return (
@@ -106,43 +268,25 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
           </div>
 
           <div>
-            <Label htmlFor="state">Estado</Label>
-            <Select
-              value={filters.state || 'all'}
-              onValueChange={(value) => handleFilterChange('state', value === 'all' ? undefined : value)}
-            >
-              <SelectTrigger id="state">
-                <SelectValue placeholder="Todos os estados" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">Todos os estados</SelectItem>
-                {states.filter(s => s && s.trim() !== "").map((state) => (
-                  <SelectItem key={state} value={state}>
-                    {state}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <Label htmlFor="state">Estados</Label>
+            <MultiSelectDropdown
+              options={states}
+              selected={selectedStates}
+              onToggle={handleStateToggle}
+              placeholder="Selecionar estados"
+              normalize={normalizeState}
+            />
           </div>
 
           <div>
-            <Label htmlFor="city">Cidade</Label>
-            <Select
-              value={filters.city || 'all'}
-              onValueChange={(value) => handleFilterChange('city', value === 'all' ? undefined : value)}
-            >
-              <SelectTrigger id="city">
-                <SelectValue placeholder="Todas as cidades" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">Todas as cidades</SelectItem>
-                {cities.filter(s => s && s.trim() !== "").map((city) => (
-                  <SelectItem key={city} value={city}>
-                    {city}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <Label htmlFor="city">Cidades</Label>
+            <MultiSelectDropdown
+              options={cities}
+              selected={selectedCities}
+              onToggle={handleCityToggle}
+              placeholder="Selecionar cidades"
+              normalize={normalizeCity}
+            />
           </div>
 
           <div>
@@ -224,6 +368,42 @@ export function PropertyFilters({ filters, onFiltersChange, onSearch }: Property
             </>
           )}
         </div>
+
+        {/* Tags de seleção ativa */}
+        {(selectedStates.length > 0 || selectedCities.length > 0) && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {selectedStates.map(state => (
+              <span
+                key={state}
+                className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800"
+              >
+                {state}
+                <button
+                  onClick={() => handleStateToggle(state)}
+                  className="ml-2 text-blue-600 hover:text-blue-800"
+                  type="button"
+                >
+                  ×
+                </button>
+              </span>
+            ))}
+            {selectedCities.map(city => (
+              <span
+                key={city}
+                className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-green-100 text-green-800"
+              >
+                {city}
+                <button
+                  onClick={() => handleCityToggle(city)}
+                  className="ml-2 text-green-600 hover:text-green-800"
+                  type="button"
+                >
+                  ×
+                </button>
+              </span>
+            ))}
+          </div>
+        )}
 
         <div className="flex gap-2 mt-4">
           <Button onClick={onSearch} className="flex-1 md:flex-none">

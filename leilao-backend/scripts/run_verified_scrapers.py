@@ -16,6 +16,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Importar normalizador
+from app.utils.normalizer import normalize_property as normalize_property_fields, normalize_state, normalize_category, normalize_city
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -44,39 +47,21 @@ def generate_dedup_key(auctioneer_id: str, source_url: str) -> str:
 def normalize_property(prop: Dict, auctioneer_id: str) -> Dict:
     """Normaliza propriedade para formato do banco."""
     
+    # PRIMEIRO: Aplicar normalização de campos (estado, categoria, cidade)
+    prop = normalize_property_fields(prop)
+    
     # Gerar ID único
     source_url = prop.get("source_url", prop.get("url", ""))
     dedup_key = generate_dedup_key(auctioneer_id, source_url)
-    
-    # Normalizar categoria
-    category = prop.get("category", "Outro")
-    category_map = {
-        "apartamento": "Apartamento",
-        "casa": "Casa",
-        "terreno": "Terreno",
-        "comercial": "Comercial",
-        "rural": "Rural",
-    }
-    category = category_map.get(category.lower(), category.title())
-    
-    # Normalizar cidade (Title Case)
-    city = prop.get("city", "")
-    if city:
-        city = city.strip().title()
-    
-    # Normalizar estado (uppercase)
-    state = prop.get("state", "")
-    if state:
-        state = state.strip().upper()[:2]
     
     return {
         "id": dedup_key,
         "dedup_key": dedup_key,
         "title": prop.get("title", "Imóvel")[:500],
-        "category": category,
+        "category": prop.get("category", "Outro"),  # Já normalizado
         "auction_type": prop.get("auction_type", "Extrajudicial"),
-        "state": state or "XX",
-        "city": city or "Não informada",
+        "state": prop.get("state", "XX"),  # Já normalizado
+        "city": prop.get("city", "Não informada"),  # Já normalizado
         "address": prop.get("address", ""),
         "description": prop.get("description", ""),
         "evaluation_value": prop.get("evaluation_value"),

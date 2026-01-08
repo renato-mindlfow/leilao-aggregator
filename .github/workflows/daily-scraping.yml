@@ -1,0 +1,56 @@
+name: Scraping Diário LeiloHub
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 03:00 horário de Brasília
+  workflow_dispatch:
+
+env:
+  SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+  SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+jobs:
+  scraping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: |
+          pip install -r leilao-backend/requirements.txt
+          pip install playwright
+          playwright install chromium
+          playwright install-deps
+
+      - name: Verificar secrets
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then echo "❌ SUPABASE_URL não configurado"; exit 1; fi
+          if [ -z "$SUPABASE_KEY" ]; then echo "❌ SUPABASE_KEY não configurado"; exit 1; fi
+          echo "✅ Secrets OK"
+
+      - name: Executar scrapers
+        run: |
+          cd leilao-backend/scripts
+          python ensure_auctioneers_exist.py || echo "⚠️ ensure_auctioneers_exist.py não encontrado"
+          python run_verified_scrapers.py
+        continue-on-error: true
+
+      - name: Corrigir dados
+        run: |
+          cd leilao-backend/scripts
+          python fix_existing_data.py
+        continue-on-error: true
+
+      - name: Relatório
+        run: |
+          cd leilao-backend/scripts
+          python relatorio_noturno.py || echo "⚠️ relatorio_noturno.py não encontrado"
+        continue-on-error: true
+

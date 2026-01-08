@@ -35,7 +35,7 @@ function AppContent() {
   const [sortOption, setSortOption] = useState<SortOption>('recent');
   const [filters, setFilters] = useState<Filters>({
     page: 1,
-    limit: 18,
+    limit: 21, // Padrão 21 para grid 3x7
   });
   const [pagination, setPagination] = useState({
     total: 0,
@@ -87,9 +87,17 @@ function AppContent() {
     try {
       setLoading(true);
       const data = await getProperties({ ...filters, sort: sortOption });
-      setProperties(data?.items || []);
+      
+      // Filtrar propriedades sem dados mínimos (o PropertyCard também filtra, mas fazemos aqui para contagem correta)
+      const validProperties = (data?.items || []).filter(p => 
+        p.title && 
+        p.title !== 'Imóvel' && 
+        (p.first_auction_value || p.second_auction_value)
+      );
+      
+      setProperties(validProperties);
       setPagination({
-        total: data?.total || 0,
+        total: data?.total || 0, // Total do backend
         totalPages: data?.total_pages || 0,
         hasNext: data?.has_next || false,
         hasPrev: data?.has_prev || false,
@@ -124,6 +132,10 @@ function AppContent() {
   const handlePageChange = (page: number) => {
     setFilters({ ...filters, page });
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleLimitChange = (limit: number) => {
+    setFilters({ ...filters, limit, page: 1 });
   };
 
   const handleSortChange = (sort: SortOption) => {
@@ -292,7 +304,11 @@ function AppContent() {
         {/* Contador, ordenação e botões de visualização */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-4">
           <p className="text-muted-foreground">
-            {pagination.total.toLocaleString('pt-BR')} imóveis encontrados
+            {properties.length > 0 ? (
+              <>Mostrando {properties.length} de {pagination.total.toLocaleString('pt-BR')} imóveis</>
+            ) : (
+              <>{pagination.total.toLocaleString('pt-BR')} imóveis encontrados</>
+            )}
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <PropertySort value={sortOption} onChange={handleSortChange} />
@@ -365,8 +381,9 @@ function AppContent() {
               currentPage={filters.page || 1}
               totalPages={pagination.totalPages}
               total={pagination.total}
-              limit={filters.limit || 18}
+              limit={filters.limit || 21}
               onPageChange={handlePageChange}
+              onLimitChange={handleLimitChange}
             />
           </>
         )}

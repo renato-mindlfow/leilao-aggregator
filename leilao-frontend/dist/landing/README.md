@@ -35,3 +35,7 @@ No arquivo `src/pages/Landing.tsx`, descomente as linhas que usam as imagens:
 
 
 
+
+
+
+

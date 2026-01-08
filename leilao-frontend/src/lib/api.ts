@@ -83,7 +83,9 @@ export interface PropertyFilters {
   page?: number;
   limit?: number;
   state?: string;
+  states?: string[]; // Suporte para seleção múltipla
   city?: string;
+  cities?: string[]; // Suporte para seleção múltipla
   neighborhood?: string;
   category?: string;
   auction_type?: string;
@@ -144,7 +146,14 @@ export async function getProperties(filters: PropertyFilters = {}): Promise<Prop
   
   Object.entries(filters).forEach(([key, value]) => {
     if (value !== undefined && value !== null && value !== '' && key !== 'sort') {
-      params.append(key, String(value));
+      // Se for array (states[], cities[]), adicionar múltiplos parâmetros
+      if (Array.isArray(value) && value.length > 0) {
+        value.forEach((item) => {
+          params.append(key, String(item));
+        });
+      } else if (!Array.isArray(value)) {
+        params.append(key, String(value));
+      }
     }
   });
   

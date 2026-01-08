@@ -1,5 +1,7 @@
 import { MapPin, Home, ExternalLink } from 'lucide-react';
 import { Property, formatCurrency } from '@/lib/api';
+import { getCategoryColor } from '@/constants/colors';
+import { normalizeState, normalizeCity, formatDate, calculateDiscount } from '@/utils/normalization';
 
 interface PropertyCardProps {
   property: Property;
@@ -12,6 +14,7 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
     auction_type,
     state,
     city,
+    title,
     evaluation_value,
     first_auction_value,
     second_auction_value,
@@ -22,6 +25,16 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
     source_url,
   } = property;
 
+  // Verificar se tem dados mínimos - não renderizar cards sem dados
+  const hasMinimalData = title && title !== 'Imóvel' && 
+    (first_auction_value || second_auction_value);
+  
+  if (!hasMinimalData) {
+    return null;
+  }
+
+  const categoryColor = getCategoryColor(category || 'Outro');
+
   // Verificar se o leilão já passou
   const isAuctionPast = (dateString: string | null): boolean => {
     if (!dateString) return false;
@@ -29,22 +42,6 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     return auctionDate < today;
-  };
-
-  const formatAuctionDate = (dateString: string | null, isPast: boolean): JSX.Element => {
-    if (!dateString) return <span className="text-muted-foreground">N/A</span>;
-    
-    const formattedDate = new Date(dateString).toLocaleDateString('pt-BR');
-    
-    if (isPast) {
-      return (
-        <span className="line-through text-muted-foreground" title="Leilão encerrado">
-          {formattedDate}
-        </span>
-      );
-    }
-    
-    return <span>{formattedDate}</span>;
   };
 
   // Validar source_url
@@ -62,7 +59,7 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
   // Calcular desconto se não existir
   const discount = discount_percentage && discount_percentage > 0 
     ? Math.round(discount_percentage) 
-    : null;
+    : calculateDiscount(evaluation_value, second_auction_value || first_auction_value);
 
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
@@ -85,8 +82,8 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
           </div>
         )}
         
-        {/* Badge Categoria (topo esquerdo) */}
-        <span className="absolute top-3 left-3 bg-emerald-500 text-white px-3 py-1 rounded-md text-sm font-medium shadow">
+        {/* Badge Categoria (topo esquerdo) - cor consistente com legenda */}
+        <span className={`absolute top-3 left-3 ${categoryColor.bg} ${categoryColor.text} px-3 py-1 rounded-md text-sm font-medium shadow`}>
           {category || 'Imóvel'}
         </span>
         
@@ -115,10 +112,10 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
       {/* ===== CONTEÚDO ===== */}
       <div className="p-4 flex-1 flex flex-col">
         
-        {/* Localização */}
+        {/* Localização - normalizada */}
         <div className="flex items-center text-gray-700 mb-4">
           <MapPin className="w-4 h-4 mr-1.5 text-gray-400 flex-shrink-0" />
-          <span className="font-medium">{city}, {state}</span>
+          <span className="font-medium">{normalizeCity(city)}, {normalizeState(state)}</span>
         </div>
 
         {/* Valores */}
@@ -135,38 +132,32 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
           </div>
 
           {/* 1º Leilão */}
-          <div className="flex justify-between items-center">
-            <span className="text-gray-600">1º Leilão:</span>
-            {first_auction_value ? (
-              <span className="text-gray-700 font-medium">{formatCurrency(first_auction_value)}</span>
-            ) : (
-              <span className="text-gray-400 text-xs">Informação indisponível</span>
-            )}
-          </div>
-
-          {/* Data do 1º Leilão */}
-          {first_auction_date && (
-            <div className="flex justify-between items-center text-xs">
-              <span className="text-gray-500">Data 1º Leilão:</span>
-              {formatAuctionDate(first_auction_date, isAuctionPast(first_auction_date))}
+          {first_auction_value && (
+            <div className="flex justify-between items-center">
+              <span className="text-gray-600">1º Leilão:</span>
+              <div className="text-right">
+                <span className="text-blue-600 font-semibold">{formatCurrency(first_auction_value)}</span>
+                {first_auction_date && (
+                  <span className="text-gray-400 text-xs ml-2">
+                    ({formatDate(first_auction_date)})
+                  </span>
+                )}
+              </div>
             </div>
           )}
 
           {/* 2º Leilão */}
-          <div className="flex justify-between items-center">
-            <span className="text-emerald-600 font-medium">2º Leilão:</span>
-            {second_auction_value ? (
-              <span className="text-emerald-600 font-bold text-base">{formatCurrency(second_auction_value)}</span>
-            ) : (
-              <span className="text-gray-400 text-xs">Informação indisponível</span>
-            )}
-          </div>
-
-          {/* Data do 2º Leilão */}
-          {second_auction_date && (
-            <div className="flex justify-between items-center text-xs">
-              <span className="text-gray-500">Data 2º Leilão:</span>
-              {formatAuctionDate(second_auction_date, isAuctionPast(second_auction_date))}
+          {second_auction_value && (
+            <div className="flex justify-between items-center">
+              <span className="text-emerald-600 font-medium">2º Leilão:</span>
+              <div className="text-right">
+                <span className="text-emerald-600 font-bold text-base">{formatCurrency(second_auction_value)}</span>
+                {second_auction_date && (
+                  <span className="text-gray-400 text-xs ml-2">
+                    ({formatDate(second_auction_date)})
+                  </span>
+                )}
+              </div>
             </div>
           )}
         </div>
