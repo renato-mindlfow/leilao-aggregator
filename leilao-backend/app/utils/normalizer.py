@@ -4,6 +4,7 @@ Este módulo DEVE ser usado por TODOS os scrapers antes de salvar no banco.
 """
 
 import re
+import html
 from typing import Optional
 
 # Mapeamento de estados (todas as variações)
@@ -218,6 +219,40 @@ def normalize_city(city: Optional[str]) -> str:
         return ' '.join(result)
     
     return title_case(city)
+
+
+def normalize_money(value: Optional[str]) -> Optional[float]:
+    """
+    Normaliza valor monetário para float.
+    
+    Formatos suportados:
+    - "R$ 100.000,00"
+    - "100000.00"
+    - "100.000"
+    - "R&#36; 100.000,00" (HTML entity)
+    """
+    if not value:
+        return None
+    
+    # Converte HTML entities
+    value = html.unescape(str(value))
+    
+    # Remove símbolos de moeda
+    value = re.sub(r'[R$\s]', '', value)
+    
+    # Remove pontos de milhar e converte vírgula para ponto
+    # Detecta formato brasileiro (1.000,00) vs americano (1,000.00)
+    if ',' in value and '.' in value:
+        # Formato brasileiro: 1.000.000,00
+        value = value.replace('.', '').replace(',', '.')
+    elif ',' in value:
+        # Apenas vírgula: assume formato brasileiro
+        value = value.replace(',', '.')
+    
+    try:
+        return float(value)
+    except ValueError:
+        return None
 
 
 def normalize_property(prop: dict) -> dict:
