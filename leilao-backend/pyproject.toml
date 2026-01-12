@@ -22,6 +22,7 @@ openai = "^1.51.0"
 requests = "^2.31.0"
 httpx = {extras = ["http2"], version = "^0.27.0"}
 supabase = "^2.0.0"
+google-generativeai = ">=0.8.0"
 
 
 [build-system]

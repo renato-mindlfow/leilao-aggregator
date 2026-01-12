@@ -1,0 +1,49 @@
+name: Sync Caixa Econômica
+
+on:
+  schedule:
+    # Executar 2x/dia: 6h e 18h BRT (9h e 21h UTC)
+    - cron: '0 9,21 * * *'
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  sync-caixa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30  # Timeout de 30 minutos conforme especificação
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpq-dev
+      
+      - name: Install Python dependencies
+        run: |
+          cd leilao-backend
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run Caixa sync
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          cd leilao-backend
+          python scripts/sync_caixa.py
+      
+      - name: Upload logs (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-caixa-logs-${{ github.run_id }}
+          path: |
+            leilao-backend/*.log
+          retention-days: 7
+          if-no-files-found: ignore

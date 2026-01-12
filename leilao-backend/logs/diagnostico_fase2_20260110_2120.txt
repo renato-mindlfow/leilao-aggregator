@@ -1,0 +1,48 @@
+
+============================================================
+DIAGN├ôSTICO DE LEILOEIROS - 2026-01-10 21:20
+============================================================
+
+Verificando: Portal Zuk...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: Leil├úo VIP...
+  Ô£à Online e funcional
+
+Verificando: Fraz├úo Leil├Áes...
+  Ô£à Online e funcional
+
+Verificando: Biasi Leil├Áes...
+  Ô£à Online e funcional
+
+Verificando: Leil├Áes Gold...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: Web Leil├Áes...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: Lance no Leil├úo...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: JE Leil├Áes...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: Leil├úo Brasil...
+  Ô£à Online e funcional
+  ÔÜá´©Å Cloudflare detectado
+
+Verificando: Topo Leil├Áes...
+  ÔØî Erro: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized 
+
+
+============================================================
+RESUMO
+============================================================
+Ô£à Online e funcional: 9
+ÔÜá´©Å Com Cloudflare: 6
+ÔØî Offline/Erro: 1

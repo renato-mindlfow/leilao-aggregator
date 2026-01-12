@@ -1,0 +1,65 @@
+name: Daily Sync - Caixa e Leiloeiros
+
+on:
+  schedule:
+    # Executar 2x ao dia: 6h e 18h (horário de Brasília = 9h e 21h UTC)
+    - cron: '0 9 * * *'
+    - cron: '0 21 * * *'
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  sync-caixa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: |
+          cd leilao-backend
+          pip install -r requirements.txt
+          pip install psycopg2-binary python-dotenv httpx
+      
+      - name: Instalar Playwright
+        run: |
+          pip install playwright
+          playwright install chromium
+      
+      - name: Criar diretório de dados
+        run: mkdir -p leilao-backend/data/caixa
+      
+      - name: Download CSVs da Caixa via ScrapingBee
+        env:
+          SCRAPINGBEE_API_KEY: ${{ secrets.SCRAPINGBEE_API_KEY }}
+        run: |
+          cd leilao-backend
+          python scripts/download_caixa_scrapingbee.py || echo "ScrapingBee falhou, tentando método alternativo"
+        continue-on-error: true
+      
+      - name: Sync Caixa com banco
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          cd leilao-backend
+          python scripts/sync_caixa.py --local data/caixa || python scripts/sync_caixa.py
+      
+      - name: Gerar relatório
+        run: |
+          echo "## Sync Caixa - $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "Execução concluída com sucesso" >> $GITHUB_STEP_SUMMARY
+
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: sync-caixa
+    if: failure()
+    steps:
+      - name: Notificar falha
+        run: echo "Sync falhou - verificar logs"
+

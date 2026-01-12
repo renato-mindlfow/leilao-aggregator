@@ -27,6 +27,7 @@ from app.services.asaas_service import asaas_service
 from app.services.scraper_pipeline import scraper_pipeline
 from app.services.ai_normalizer import ai_normalizer
 from app.services.geocoding_service import geocoding_service
+from app import pipeline as pipeline_module
 from app.services.scraper_orchestrator import scraper_orchestrator
 from app.services.discovery_orchestrator import discovery_orchestrator
 from app.services.structure_validator import structure_validator
@@ -1970,6 +1971,17 @@ async def geocode_existing_properties(limit: int = Query(50)):
             conn.commit()
     
     return {"geocoded": updated, "total": len(properties)}
+
+@app.post("/api/pipeline/import")
+async def import_pipeline_urls(urls: List[str]):
+    """Importa URLs de leilão e extrai dados usando Gemini"""
+    try:
+        results = await pipeline_module.process_urls(urls)
+        return {"results": results, "total": len(results)}
+    except Exception as e:
+        logger.error(f"Erro no pipeline import: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
 
 # ==================== SCRAPER ENDPOINTS ====================
 

@@ -1,0 +1,77 @@
+
+============================================================
+PESQUISA DE NOVOS LEILOEIROS - 2026-01-10 21:22
+============================================================
+
+Verificando: GP Leil├Áes (~1036 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: HTML est├ítico - scraper gen├®rico OK
+
+Verificando: ARG Leil├Áes (~599 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: Cloudflare - precisa Playwright
+  P├íginas: ['/leiloes']
+
+Verificando: Realiza Leil├Áes (~598 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: Cloudflare - precisa Playwright
+  P├íginas: ['/leiloes']
+
+Verificando: Comprei (~597 im├│veis)...
+  ÔØî Erro: [Errno 11001] getaddrinfo failed
+  Tipo: N/A
+
+Verificando: Baldissera (~572 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: HTML est├ítico - scraper gen├®rico OK
+  P├íginas: ['/imoveis', '/leiloes', '/leilao-de-imoveis', '/catalogo']
+
+Verificando: Mega Leil├Áes (~500 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: Cloudflare - precisa Playwright
+  P├íginas: ['/imoveis']
+
+Verificando: Sodr├® Santoro (~450 im├│veis)...
+  ÔØî HTTP 403
+  Tipo: HTML est├ítico - scraper gen├®rico OK
+
+Verificando: Superbid (~400 im├│veis)...
+  Ô£à Acess├¡vel
+  Tipo: SPA - precisa Playwright
+  P├íginas: ['/imoveis', '/leiloes', '/leilao-de-imoveis', '/catalogo']
+
+
+============================================================
+RECOMENDA├ç├òES DE IMPLEMENTA├ç├âO
+============================================================
+
+­ƒôî GP Leil├Áes (1036 im├│veis)
+   URL: https://www.gpleiloes.com.br
+   Tipo: HTML est├ítico - scraper gen├®rico OK
+   A├º├úo: Usar scraper gen├®rico
+
+­ƒôî ARG Leil├Áes (599 im├│veis)
+   URL: https://www.argleiloes.com.br
+   Tipo: Cloudflare - precisa Playwright
+   A├º├úo: Criar scraper Playwright
+
+­ƒôî Realiza Leil├Áes (598 im├│veis)
+   URL: https://www.realizaleiloes.com.br
+   Tipo: Cloudflare - precisa Playwright
+   A├º├úo: Criar scraper Playwright
+
+­ƒôî Baldissera (572 im├│veis)
+   URL: https://www.baldisseraleiloeiros.com.br
+   Tipo: HTML est├ítico - scraper gen├®rico OK
+   A├º├úo: Usar scraper gen├®rico
+
+­ƒôî Mega Leil├Áes (500 im├│veis)
+   URL: https://www.megaleiloes.com.br
+   Tipo: Cloudflare - precisa Playwright
+   A├º├úo: Criar scraper Playwright
+
+­ƒôî Superbid (400 im├│veis)
+   URL: https://www.superbid.net
+   Tipo: SPA - precisa Playwright
+   A├º├úo: Criar scraper Playwright
+

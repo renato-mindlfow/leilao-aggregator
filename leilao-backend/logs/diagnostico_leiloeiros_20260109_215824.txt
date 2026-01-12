@@ -1,0 +1,4 @@
+  File "C:\LeiloHub\leilao-aggregator-git\leilao-backend\scripts\diagnosticar_leiloeiro.py", line 93
+    except Exception as e:
+    ^^^^^^
+SyntaxError: invalid syntax
