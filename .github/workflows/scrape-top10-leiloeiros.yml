@@ -1,14 +1,12 @@
 # .github/workflows/scrape-top10-leiloeiros.yml
 # 
-# Workflow para scraping automatizado dos TOP 10 leiloeiros do concorrente
-# + Universal Scraper para os demais 481 leiloeiros
-#
+# Workflow para scraping automatizado dos TOP 10 leiloeiros
 # Executa 2x ao dia: 6h e 18h (horário de Brasília)
 
-name: Scrape TOP 10 Leiloeiros + Universal
+name: Scrape TOP 10 Leiloeiros
 
 on:
-  # Execução agendada
+  # Execução agendada - SEMPRE roda o TOP 10
   schedule:
     # 6:00 BRT (09:00 UTC)
     - cron: '0 9 * * *'
@@ -18,24 +16,15 @@ on:
   # Execução manual
   workflow_dispatch:
     inputs:
-      mode:
-        description: 'Modo de execução'
-        required: true
-        default: 'all'
-        type: choice
-        options:
-          - all          # TOP 10 + Universal
-          - top10        # Apenas TOP 10
-          - universal    # Apenas Universal Scraper
-      max_properties:
-        description: 'Máximo de propriedades por leiloeiro'
-        required: false
-        default: '100'
-        type: string
       limit_top10:
         description: 'Limite de leiloeiros TOP 10 (1-10)'
         required: false
         default: '10'
+        type: string
+      max_properties:
+        description: 'Máximo de propriedades por leiloeiro'
+        required: false
+        default: '100'
         type: string
 
 env:
@@ -46,7 +35,6 @@ jobs:
   scrape-top10:
     name: 🏆 Scrape TOP 10 Leiloeiros
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.mode != 'universal' }}
     timeout-minutes: 60
     
     steps:
@@ -60,6 +48,7 @@ jobs:
           cache: 'pip'
           
       - name: 📦 Instalar dependências
+        working-directory: leilao-backend
         run: |
           pip install --upgrade pip
           pip install playwright psycopg2-binary python-dotenv
@@ -67,157 +56,47 @@ jobs:
           playwright install-deps chromium
           
       - name: 🔍 Verificar script
+        working-directory: leilao-backend
         run: |
           ls -la scripts/
-          head -50 scripts/SCRAPER_TOP10_CORRIGIDO.py
+          test -f scripts/SCRAPER_TOP10_CORRIGIDO.py && echo "✅ Script encontrado" || echo "❌ Script não encontrado"
           
       - name: 🚀 Executar Scraper TOP 10
+        working-directory: leilao-backend
         run: |
-          cd scripts
-          python SCRAPER_TOP10_CORRIGIDO.py \
+          python scripts/SCRAPER_TOP10_CORRIGIDO.py \
             --limit ${{ github.event.inputs.limit_top10 || '10' }} \
-            --max-properties ${{ github.event.inputs.max_properties || '100' }} \
-            --headless true
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          
-      - name: 📊 Upload resultados
+            --max-properties ${{ github.event.inputs.max_properties || '100' }}
+            
+      - name: 📤 Upload resultado JSON
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: top10-results-${{ github.run_id }}
-          path: scripts/top10_scraping_*.json
+          name: scraping-result-${{ github.run_number }}
+          path: leilao-backend/top10_scraping_*.json
           retention-days: 7
-          
-      - name: 📝 Resumo
-        run: |
-          echo "## 🏆 Scraping TOP 10 Concluído" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f scripts/top10_scraping_*.json ]; then
-            echo "Arquivo de resultados gerado com sucesso!" >> $GITHUB_STEP_SUMMARY
-            TOTAL=$(cat scripts/top10_scraping_*.json | python3 -c "import json,sys; data=json.load(sys.stdin); print(data.get('total_properties', 0))")
-            echo "- **Total de propriedades:** $TOTAL" >> $GITHUB_STEP_SUMMARY
-          fi
 
-  scrape-universal:
-    name: 🌐 Universal Scraper
+  report:
+    name: 📊 Relatório Final
     runs-on: ubuntu-latest
     needs: [scrape-top10]
-    if: ${{ always() && (github.event.inputs.mode != 'top10') }}
-    timeout-minutes: 120
+    if: always()
     
     steps:
-      - name: 📥 Checkout código
-        uses: actions/checkout@v4
-        
-      - name: 🐍 Setup Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-          
-      - name: 📦 Instalar dependências
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt || pip install playwright psycopg2-binary python-dotenv httpx beautifulsoup4
-          
-      - name: 🚀 Executar Universal Scraper
-        run: |
-          # Verificar se existe o script universal
-          if [ -f "app/services/universal_scraper_service.py" ]; then
-            python -c "
-from app.services.universal_scraper_service import UniversalScraperService
-import asyncio
-import os
-
-async def main():
-    service = UniversalScraperService()
-    # Processar leiloeiros com status 'pending' ou que falharam
-    results = await service.scrape_all_auctioneers(
-        max_auctioneers=50,
-        max_properties_per_auctioneer=50
-    )
-    print(f'Processados: {len(results)} leiloeiros')
-
-asyncio.run(main())
-"
-          else
-            echo "Universal Scraper não encontrado, pulando..."
-          fi
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          
-      - name: 📝 Resumo Universal
-        run: |
-          echo "## 🌐 Universal Scraper Concluído" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Scraping dos demais leiloeiros executado." >> $GITHUB_STEP_SUMMARY
-
-  sync-caixa:
-    name: 🏦 Sync Caixa Econômica
-    runs-on: ubuntu-latest
-    needs: [scrape-universal]
-    if: ${{ always() }}
-    timeout-minutes: 30
-    
-    steps:
-      - name: 📥 Checkout código
-        uses: actions/checkout@v4
-        
-      - name: 🐍 Setup Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-          
-      - name: 📦 Instalar dependências
-        run: |
-          pip install httpx psycopg2-binary python-dotenv
-          
-      - name: 🏦 Sync Caixa
-        run: |
-          # Chamar API de sync da Caixa (se existir endpoint)
-          if [ -f "scripts/sync_caixa.py" ]; then
-            python scripts/sync_caixa.py
-          else
-            echo "Script de sync Caixa não encontrado"
-          fi
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          
-  report:
-    name: 📊 Gerar Relatório
-    runs-on: ubuntu-latest
-    needs: [scrape-top10, scrape-universal, sync-caixa]
-    if: ${{ always() }}
-    
-    steps:
-      - name: 📥 Download artifacts
+      - name: 📥 Download artefatos
         uses: actions/download-artifact@v4
         with:
-          pattern: '*-results-*'
-          merge-multiple: true
-          path: results/
-        continue-on-error: true
-        
-      - name: 📊 Gerar relatório final
+          path: results
+          
+      - name: 📊 Gerar resumo
         run: |
-          echo "## 📊 Relatório de Scraping - $(date +'%Y-%m-%d %H:%M')" >> $GITHUB_STEP_SUMMARY
+          echo "## 🏆 Scraping TOP 10 Leiloeiros" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Execução:** ${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Data:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
-          echo "### Jobs Executados" >> $GITHUB_STEP_SUMMARY
-          echo "| Job | Status |" >> $GITHUB_STEP_SUMMARY
-          echo "|-----|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| TOP 10 Leiloeiros | ${{ needs.scrape-top10.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Universal Scraper | ${{ needs.scrape-universal.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Sync Caixa | ${{ needs.sync-caixa.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -d "results" ] && [ "$(ls -A results 2>/dev/null)" ]; then
-            echo "### Arquivos Gerados" >> $GITHUB_STEP_SUMMARY
-            ls -la results/ >> $GITHUB_STEP_SUMMARY
+          if [ -d "results" ]; then
+            echo "### Arquivos gerados:" >> $GITHUB_STEP_SUMMARY
+            find results -name "*.json" -exec basename {} \; >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "Nenhum arquivo JSON encontrado" >> $GITHUB_STEP_SUMMARY
           fi
-          
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "Workflow: ${{ github.workflow }}" >> $GITHUB_STEP_SUMMARY
-          echo "Run ID: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
