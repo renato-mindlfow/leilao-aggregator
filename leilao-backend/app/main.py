@@ -2224,3 +2224,97 @@ async def check_structure_changed(auctioneer_id: str):
         logger.error(f"Erro ao verificar estrutura: {e}")
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/admin/fix-invalid-images")
+async def fix_invalid_images():
+    """
+    Limpa imagens inválidas (logos, placeholders, etc.) do banco de dados.
+    Marca como NULL todas as image_url que são inválidas.
+    """
+    try:
+        with db._get_connection() as conn:
+            with conn.cursor() as cur:
+                # Contar antes
+                cur.execute("""
+                    SELECT COUNT(*) 
+                    FROM properties 
+                    WHERE image_url IS NOT NULL AND is_active = TRUE
+                """)
+                total_before = cur.fetchone()[0]
+                
+                # Limpar URLs com padrões inválidos
+                cur.execute("""
+                    UPDATE properties
+                    SET image_url = NULL, updated_at = CURRENT_TIMESTAMP
+                    WHERE image_url IS NOT NULL
+                      AND (
+                        LOWER(image_url) LIKE '%logo%'
+                        OR LOWER(image_url) LIKE '%icon%'
+                        OR LOWER(image_url) LIKE '%favicon%'
+                        OR LOWER(image_url) LIKE '%placeholder%'
+                        OR LOWER(image_url) LIKE '%no-image%'
+                        OR LOWER(image_url) LIKE '%noimage%'
+                        OR LOWER(image_url) LIKE '%sem-foto%'
+                        OR LOWER(image_url) LIKE '%semfoto%'
+                        OR LOWER(image_url) LIKE '%banner%'
+                        OR LOWER(image_url) LIKE '%header%'
+                        OR LOWER(image_url) LIKE '%footer%'
+                        OR LOWER(image_url) LIKE '%loading%'
+                        OR LOWER(image_url) LIKE '%spinner%'
+                        OR LOWER(image_url) LIKE '%default%'
+                        OR LOWER(image_url) LIKE '%blank%'
+                        OR LOWER(image_url) LIKE '%empty%'
+                        OR LENGTH(image_url) < 20
+                        OR image_url LIKE '%16x16%'
+                        OR image_url LIKE '%32x32%'
+                        OR image_url LIKE '%48x48%'
+                        OR image_url LIKE '%64x64%'
+                      )
+                """)
+                updated_count = cur.rowcount
+                
+                # Contar depois
+                cur.execute("""
+                    SELECT COUNT(*) 
+                    FROM properties 
+                    WHERE image_url IS NOT NULL AND is_active = TRUE
+                """)
+                total_after = cur.fetchone()[0]
+                
+                # Estatísticas por categoria
+                cur.execute("""
+                    SELECT 
+                        category,
+                        COUNT(*) as total,
+                        COUNT(CASE WHEN image_url IS NOT NULL THEN 1 END) as com_imagem,
+                        COUNT(CASE WHEN image_url IS NULL THEN 1 END) as sem_imagem
+                    FROM properties
+                    WHERE is_active = TRUE
+                    GROUP BY category
+                    ORDER BY sem_imagem DESC
+                """)
+                stats_by_category = [
+                    {
+                        "category": row[0],
+                        "total": row[1],
+                        "com_imagem": row[2],
+                        "sem_imagem": row[3]
+                    }
+                    for row in cur.fetchall()
+                ]
+                
+                conn.commit()
+        
+        return {
+            "success": True,
+            "updated_count": updated_count,
+            "total_before": total_before,
+            "total_after": total_after,
+            "stats_by_category": stats_by_category,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        logger.error(f"Erro ao limpar imagens inválidas: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))

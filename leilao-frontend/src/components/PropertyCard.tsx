@@ -2,6 +2,7 @@ import { MapPin, Home, ExternalLink } from 'lucide-react';
 import { Property, formatCurrency } from '@/lib/api';
 import { getCategoryColor } from '@/constants/colors';
 import { normalizeState, normalizeCity, formatDate, calculateDiscount } from '@/utils/normalization';
+import { usePropertyImage, PropertyPlaceholder } from './PropertyPlaceholder';
 
 interface PropertyCardProps {
   property: Property;
@@ -34,6 +35,9 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
   }
 
   const categoryColor = getCategoryColor(category || 'Outro');
+  
+  // Hook para gerenciar imagem com fallback para placeholder
+  const { src, shouldUsePlaceholder, onError, category: placeholderCategory } = usePropertyImage(image_url, category);
 
   // Verificar se o leilão já passou
   const isAuctionPast = (dateString: string | null): boolean => {
@@ -65,21 +69,16 @@ export function PropertyCard({ property, onViewDetails }: PropertyCardProps) {
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
       
       {/* ===== IMAGEM ===== */}
-      <div className="relative h-52 bg-gray-100">
-        {image_url ? (
+      <div className="relative h-52 bg-gray-100 overflow-hidden">
+        {shouldUsePlaceholder ? (
+          <PropertyPlaceholder category={placeholderCategory} />
+        ) : (
           <img 
-            src={image_url} 
+            src={src || ''} 
             alt={`${category} em ${city}`}
             className="w-full h-full object-cover"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.style.display = 'none';
-            }}
+            onError={onError}
           />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-            <Home className="w-16 h-16 text-gray-300" />
-          </div>
         )}
         
         {/* Badge Categoria (topo esquerdo) - cor consistente com legenda */}
