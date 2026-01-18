@@ -332,8 +332,10 @@ async def bulk_import_all_auctioneers(max_per_auctioneer: int = 20):
     """
     import gc
     import logging
+    import hashlib
+    import uuid
     logger = logging.getLogger(__name__)
-    from app.scrapers.portalzuk_scraper import PortalZukScraper
+    from app.scrapers.portalzuk_scraper_v2 import PortalZukScraperV2
     from app.scrapers.superbid_scraper import SuperbidScraper
     from app.scrapers.megaleiloes_scraper import MegaleiloesScraper
     from app.scrapers.leilaovip_scraper import LeilaoVipScraper
@@ -350,7 +352,7 @@ async def bulk_import_all_auctioneers(max_per_auctioneer: int = 20):
     
     # Define scrapers with their configurations - run sequentially to save memory
     scrapers_config = [
-        {"name": "Portal Zuk", "scraper": PortalZukScraper, "method": "scrape_listings", "kwargs": {"max_properties": max_per_auctioneer}},
+        {"name": "Portal Zuk", "scraper": PortalZukScraperV2, "method": "scrape_properties", "kwargs": {"max_properties": max_per_auctioneer}},
         {"name": "Superbid", "scraper": SuperbidScraper, "method": "scrape_properties", "kwargs": {"max_properties": max_per_auctioneer}},
         {"name": "Mega Leilões", "scraper": MegaleiloesScraper, "method": "scrape_properties", "kwargs": {"max_properties": max_per_auctioneer}},
         {"name": "Leilão VIP", "scraper": LeilaoVipScraper, "method": "scrape_properties", "kwargs": {"max_properties": max_per_auctioneer}},
@@ -370,7 +372,66 @@ async def bulk_import_all_auctioneers(max_per_auctioneer: int = 20):
             if hasattr(result, 'complete_properties'):
                 properties = result.complete_properties
             elif isinstance(result, list):
-                properties = result
+                if result and isinstance(result[0], dict):
+                    properties = []
+                    for prop_dict in result:
+                        try:
+                            scraper_slug = prop_dict.get("auctioneer_id") or config["name"].lower().replace(" ", "_")
+                            category = None
+                            if prop_dict.get('category'):
+                                try:
+                                    category = PropertyCategory(prop_dict['category'])
+                                except ValueError:
+                                    category = PropertyCategory.OUTRO
+
+                            auction_type = None
+                            if prop_dict.get('auction_type'):
+                                try:
+                                    auction_type = AuctionType(prop_dict['auction_type'])
+                                except ValueError:
+                                    auction_type = AuctionType.OUTROS
+
+                            prop_id = prop_dict.get('id')
+                            if not prop_id:
+                                source_url = prop_dict.get('source_url', '')
+                                if source_url:
+                                    prop_id = f"{scraper_slug}-{hashlib.md5(source_url.encode()).hexdigest()[:16]}"
+                                else:
+                                    prop_id = f"{scraper_slug}-{uuid.uuid4().hex[:16]}"
+
+                            prop = Property(
+                                id=prop_id,
+                                title=prop_dict.get('title', 'Imovel em Leilao'),
+                                address=prop_dict.get('address'),
+                                city=prop_dict.get('city', 'Nao informado'),
+                                state=prop_dict.get('state', 'SP'),
+                                neighborhood=prop_dict.get('neighborhood'),
+                                category=category,
+                                auction_type=auction_type,
+                                evaluation_value=prop_dict.get('evaluation_value'),
+                                minimum_bid=prop_dict.get('minimum_bid'),
+                                first_auction_value=prop_dict.get('first_auction_value'),
+                                second_auction_value=prop_dict.get('second_auction_value'),
+                                discount_percentage=prop_dict.get('discount_percentage'),
+                                area_total=prop_dict.get('area_total'),
+                                bedrooms=prop_dict.get('bedrooms'),
+                                bathrooms=prop_dict.get('bathrooms'),
+                                parking_spaces=prop_dict.get('parking_spaces'),
+                                image_url=prop_dict.get('image_url'),
+                                property_url=prop_dict.get('source_url'),
+                                source_url=prop_dict.get('source_url'),
+                                auctioneer_name=prop_dict.get('auctioneer_name', config['name']),
+                                auctioneer_id=prop_dict.get('auctioneer_id', scraper_slug),
+                                auctioneer_url=prop_dict.get('auctioneer_url'),
+                                created_at=datetime.utcnow(),
+                                updated_at=datetime.utcnow(),
+                            )
+                            properties.append(prop)
+                        except Exception as e:
+                            logger.error(f"Error converting dict to Property in {config['name']}: {e}")
+                            continue
+                else:
+                    properties = result
             else:
                 properties = []
             

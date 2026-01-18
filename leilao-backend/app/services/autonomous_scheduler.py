@@ -748,7 +748,7 @@ class AutonomousScheduler:
             self._save_status()
             
             scraper_configs = [
-                {"name": "Portal Zuk", "module": "app.scrapers.portalzuk_scraper", "class": "PortalZukScraper", "method": "scrape_listings"},
+                {"name": "Portal Zuk", "module": "app.scrapers.portalzuk_scraper_v2", "class": "PortalZukScraperV2", "method": "scrape_properties"},
                 {"name": "Superbid", "module": "app.scrapers.superbid_scraper", "class": "SuperbidScraper", "method": "scrape_properties"},
                 {"name": "Mega Leilões", "module": "app.scrapers.megaleiloes_scraper", "class": "MegaleiloesScraper", "method": "scrape_properties"},
                 {"name": "Leilão VIP", "module": "app.scrapers.leilaovip_scraper", "class": "LeilaoVipScraper", "method": "scrape_properties"},

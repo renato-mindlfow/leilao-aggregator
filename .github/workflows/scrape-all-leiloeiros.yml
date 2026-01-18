@@ -1,0 +1,53 @@
+name: Scrape All Leiloeiros
+
+on:
+  schedule:
+    # Run daily at 4h BRT (7h UTC)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      max_properties:
+        description: 'Max properties per auctioneer (0 = all)'
+        required: false
+        default: '100'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd leilao-backend
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install chromium
+
+      - name: Run Portal Zuk scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          cd leilao-backend
+          python -c "
+          from app.scrapers.portalzuk_scraper_v2 import PortalZukScraperV2
+          scraper = PortalZukScraperV2(headless=True)
+          props = scraper.scrape_properties(max_properties=${{ github.event.inputs.max_properties || '100' }})
+          print(f'Portal Zuk: {len(props)} properties')
+          "
+
+      - name: Run diagnostics
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          cd leilao-backend
+          python scripts/diagnostico_scrapers.py

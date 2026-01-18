@@ -5,6 +5,8 @@ Handles retries, error logging, status updates, and ensures all pages are scrape
 import logging
 import time
 import gc
+import hashlib
+import uuid
 from typing import Dict, List, Optional, Any, Tuple
 from datetime import datetime
 from urllib.parse import urlparse, urljoin
@@ -13,7 +15,7 @@ from app.services import db
 from app.services.postgres_database import PostgresDatabase
 from app.scrapers.generic_scraper import GenericScraper, ScraperConfig
 from app.scrapers.base_scraper import BaseScraper
-from app.models.property import Property
+from app.models.property import Property, PropertyCategory, AuctionType
 from app.models.auctioneer import Auctioneer
 from app.services.quality_filter import QualityFilter, QualityFilterResult
 
@@ -30,9 +32,9 @@ class UniversalScraperService:
     SPECIFIC_SCRAPERS: Dict[str, Dict[str, Any]] = {
         "portal_zuk": {
             "name": "Portal Zuk",
-            "module": "app.scrapers.portalzuk_scraper",
-            "class": "PortalZukScraper",
-            "method": "scrape_listings"
+            "module": "app.scrapers.portalzuk_scraper_v2",
+            "class": "PortalZukScraperV2",
+            "method": "scrape_properties"
         },
         "superbid": {
             "name": "Superbid",
@@ -225,7 +227,7 @@ class UniversalScraperService:
                 # Scrape properties (NO LIMIT - scrape ALL pages)
                 properties = []
                 
-                # PortalZuk uses scrape_listings with max_properties=None
+                # PortalZuk legacy scrapers may use scrape_listings
                 if auctioneer.name == "Portal Zuk" and hasattr(scraper, 'scrape_listings'):
                     scrape_result = scraper.scrape_listings(max_properties=None, state="all")
                     if isinstance(scrape_result, list):
@@ -274,6 +276,9 @@ class UniversalScraperService:
                     break
                 
                 # Ensure auctioneer_name is set on all properties
+                if properties and isinstance(properties[0], dict):
+                    properties = self._convert_dicts_to_properties(properties, auctioneer)
+
                 for prop in properties:
                     if not prop.auctioneer_name:
                         prop.auctioneer_name = auctioneer.name
@@ -336,6 +341,68 @@ class UniversalScraperService:
                 gc.collect()
         
         return result
+
+    def _convert_dicts_to_properties(self, prop_dicts: List[Dict[str, Any]], auctioneer: Auctioneer) -> List[Property]:
+        """Convert dict-based scraper output into Property objects."""
+        properties: List[Property] = []
+        for prop_dict in prop_dicts:
+            try:
+                scraper_slug = prop_dict.get("auctioneer_id") or auctioneer.id
+                category = None
+                if prop_dict.get("category"):
+                    try:
+                        category = PropertyCategory(prop_dict["category"])
+                    except ValueError:
+                        category = PropertyCategory.OUTRO
+
+                auction_type = None
+                if prop_dict.get("auction_type"):
+                    try:
+                        auction_type = AuctionType(prop_dict["auction_type"])
+                    except ValueError:
+                        auction_type = AuctionType.OUTROS
+
+                prop_id = prop_dict.get("id")
+                if not prop_id:
+                    source_url = prop_dict.get("source_url", "")
+                    if source_url:
+                        prop_id = f"{scraper_slug}-{hashlib.md5(source_url.encode()).hexdigest()[:16]}"
+                    else:
+                        prop_id = f"{scraper_slug}-{uuid.uuid4().hex[:16]}"
+
+                properties.append(
+                    Property(
+                        id=prop_id,
+                        title=prop_dict.get("title", "Imovel em Leilao"),
+                        address=prop_dict.get("address"),
+                        city=prop_dict.get("city", "Nao informado"),
+                        state=prop_dict.get("state", "SP"),
+                        neighborhood=prop_dict.get("neighborhood"),
+                        category=category,
+                        auction_type=auction_type,
+                        evaluation_value=prop_dict.get("evaluation_value"),
+                        minimum_bid=prop_dict.get("minimum_bid"),
+                        first_auction_value=prop_dict.get("first_auction_value"),
+                        second_auction_value=prop_dict.get("second_auction_value"),
+                        discount_percentage=prop_dict.get("discount_percentage"),
+                        area_total=prop_dict.get("area_total"),
+                        bedrooms=prop_dict.get("bedrooms"),
+                        bathrooms=prop_dict.get("bathrooms"),
+                        parking_spaces=prop_dict.get("parking_spaces"),
+                        image_url=prop_dict.get("image_url"),
+                        property_url=prop_dict.get("source_url"),
+                        source_url=prop_dict.get("source_url"),
+                        auctioneer_name=prop_dict.get("auctioneer_name", auctioneer.name),
+                        auctioneer_id=prop_dict.get("auctioneer_id", scraper_slug),
+                        auctioneer_url=prop_dict.get("auctioneer_url", auctioneer.website),
+                        created_at=datetime.utcnow(),
+                        updated_at=datetime.utcnow(),
+                    )
+                )
+            except Exception as exc:
+                logger.error("Error converting dict property for %s: %s", auctioneer.name, exc)
+                continue
+        return properties
     
     def _get_scraper_for_auctioneer(self, auctioneer: Auctioneer) -> Optional[BaseScraper]:
         """

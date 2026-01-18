@@ -105,7 +105,7 @@ def run_all_scrapers() -> Dict[str, Any]:
     Returns:
         Dict com estatísticas de cada scraper e total geral
     """
-    from app.scrapers.portalzuk_scraper import PortalZukScraper
+    from app.scrapers.portalzuk_scraper_v2 import PortalZukScraperV2
     from app.scrapers.superbid_scraper import SuperbidScraper
     from app.scrapers.megaleiloes_scraper import MegaleiloesScraper
     from app.scrapers.leilaovip_scraper import LeilaoVipScraper
@@ -122,7 +122,7 @@ def run_all_scrapers() -> Dict[str, Any]:
     
     # Define scrapers with their configurations
     scrapers_config = [
-        {"name": "Portal Zuk", "scraper": PortalZukScraper, "method": "scrape_listings", "kwargs": {"max_properties": None}},
+        {"name": "Portal Zuk", "scraper": PortalZukScraperV2, "method": "scrape_properties", "kwargs": {"max_properties": None}},
         {"name": "Superbid", "scraper": SuperbidScraper, "method": "scrape_properties", "kwargs": {"max_properties": None}},
         {"name": "Mega Leilões", "scraper": MegaleiloesScraper, "method": "scrape_properties", "kwargs": {"max_properties": None}},
         {"name": "Leilão VIP", "scraper": LeilaoVipScraper, "method": "scrape_properties", "kwargs": {"max_properties": None}},
@@ -148,10 +148,11 @@ def run_all_scrapers() -> Dict[str, Any]:
                 if result and isinstance(result[0], Property):
                     properties = result
                 elif result and isinstance(result[0], dict):
-                    # Convert dict to Property objects (PestanaScraper case)
+                    # Convert dict to Property objects (scrapers returning dicts)
                     properties = []
                     for prop_dict in result:
                         try:
+                            scraper_slug = prop_dict.get("auctioneer_id") or config["name"].lower().replace(" ", "_")
                             # Convert category string to enum
                             category = None
                             if prop_dict.get('category'):
@@ -174,9 +175,9 @@ def run_all_scrapers() -> Dict[str, Any]:
                                 source_url = prop_dict.get('source_url', '')
                                 if source_url:
                                     normalized_url = normalize_url(source_url)
-                                    prop_id = f"pestana-{hashlib.md5(normalized_url.encode()).hexdigest()[:16]}"
+                                    prop_id = f"{scraper_slug}-{hashlib.md5(normalized_url.encode()).hexdigest()[:16]}"
                                 else:
-                                    prop_id = f"pestana-{uuid.uuid4().hex[:16]}"
+                                    prop_id = f"{scraper_slug}-{uuid.uuid4().hex[:16]}"
                             
                             prop = Property(
                                 id=prop_id,
@@ -199,9 +200,9 @@ def run_all_scrapers() -> Dict[str, Any]:
                                 image_url=prop_dict.get('image_url'),
                                 property_url=prop_dict.get('source_url'),
                                 source_url=prop_dict.get('source_url'),
-                                auctioneer_name=config['name'],
-                                auctioneer_id=prop_dict.get('auctioneer_id', 'pestana_leiloes'),
-                                auctioneer_url=prop_dict.get('auctioneer_url', 'https://www.pestanaleiloes.com.br'),
+                                auctioneer_name=prop_dict.get('auctioneer_name', config['name']),
+                                auctioneer_id=prop_dict.get('auctioneer_id', scraper_slug),
+                                auctioneer_url=prop_dict.get('auctioneer_url'),
                                 created_at=datetime.utcnow(),
                                 updated_at=datetime.utcnow(),
                             )
