@@ -46,6 +46,11 @@ class ScraperManager:
             ("MegaleiloesScraper", "app.scrapers.megaleiloes_scraper", "MegaleiloesScraper"),
             ("SodreSantoroScraper", "app.scrapers.sodresantoro_scraper", "SodreSantoroScraper"),
             ("PestanaScraper", "app.scrapers.pestana_scraper", "PestanaScraper"),
+            ("LfReiloesScraper", "app.scrapers.lfreiloes_scraper", "LfReiloesScraper"),
+            ("ZukermanScraper", "app.scrapers.zukerman_scraper", "ZukermanScraper"),
+            ("LanceJudicialPlaywrightScraper", "app.scrapers.lancejudicial_playwright", "LanceJudicialPlaywrightScraper"),
+            ("FlexLeiloesPlaywrightScraper", "app.scrapers.flexleiloes_playwright", "FlexLeiloesPlaywrightScraper"),
+            ("SoldPlaywrightScraper", "app.scrapers.sold_playwright", "SoldPlaywrightScraper"),
         ]
 
         for label, module_path, class_name in default_scrapers:

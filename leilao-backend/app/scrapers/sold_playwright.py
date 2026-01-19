@@ -9,6 +9,7 @@ import json
 import os
 import asyncio
 import requests
+import re
 from typing import Dict, List, Optional, Any
 from datetime import datetime
 from urllib.parse import urljoin
@@ -81,7 +82,7 @@ class SoldPlaywrightScraper:
         max_pages = pagination.get('max_pages', 10)
         items_per_page = pagination.get('items_per_page', 50)
         current_page = pagination.get('start', 1)
-        max_items = pagination.get('max_items', max_properties)
+        max_items = min(pagination.get('max_items', max_properties), max_properties)
         
         logger.info(f"Iniciando scraping de {self.AUCTIONEER_NAME} via API (max: {max_items} imóveis)")
         
@@ -130,7 +131,7 @@ class SoldPlaywrightScraper:
                 break
         
         logger.info(f"Scraping concluído: {len(properties)} imóveis extraídos")
-        return properties[:max_items]
+        return properties[:max_properties]
     
     def _map_api_response_to_property(self, offer: Dict, mapping: Dict) -> Optional[Dict]:
         """Mapeia resposta da API para formato de propriedade."""
@@ -138,6 +139,7 @@ class SoldPlaywrightScraper:
             prop = {
                 'auctioneer_id': self.AUCTIONEER_ID,
                 'auctioneer_name': self.AUCTIONEER_NAME,
+                'source': self.AUCTIONEER_ID,
                 'extracted_at': datetime.now().isoformat()
             }
             
@@ -150,6 +152,7 @@ class SoldPlaywrightScraper:
             
             if link_url:
                 prop['url'] = urljoin(self.BASE_URL, link_url) if not link_url.startswith('http') else link_url
+                prop['source_url'] = prop['url']
             
             # Título
             title_path = mapping.get('title_field', 'product.shortDesc').split('.')
@@ -162,7 +165,7 @@ class SoldPlaywrightScraper:
             
             # Preço
             price = offer.get(mapping.get('price_field', 'priceFormatted'), '')
-            prop['price'] = price
+            prop['price'] = self._parse_price(price)
             
             # Imagem
             image_path = mapping.get('image_field', 'product.thumbnailUrl').split('.')
@@ -181,11 +184,24 @@ class SoldPlaywrightScraper:
                 if category is None:
                     break
             prop['category'] = str(category) if category else ""
+            prop['city'] = "Não informado"
+            prop['state'] = "NI"
             
             return prop if prop.get('url') else None
         
         except Exception as e:
             logger.debug(f"Erro ao mapear resposta da API: {e}")
+            return None
+
+    @staticmethod
+    def _parse_price(price_text: str) -> Optional[float]:
+        if not price_text:
+            return None
+        cleaned = re.sub(r"[R$\s]", "", str(price_text))
+        cleaned = cleaned.replace(".", "").replace(",", ".")
+        try:
+            return float(cleaned)
+        except ValueError:
             return None
     
     async def _extract_property_data(self, card) -> Optional[Dict]:

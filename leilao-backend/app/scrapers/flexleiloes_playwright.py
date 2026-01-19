@@ -5,6 +5,7 @@ Site com proteção Cloudflare.
 """
 
 import logging
+import asyncio
 from typing import Dict, Optional
 from .playwright_base import PlaywrightBaseScraper
 
@@ -66,10 +67,35 @@ class FlexLeiloesPlaywrightScraper(PlaywrightBaseScraper):
                     prop["first_auction_value"] = self._parse_price(price_match.group(1))
             
             prop["auction_type"] = "Judicial"
+            prop["source"] = self.AUCTIONEER_ID
+            prop["auctioneer_id"] = self.AUCTIONEER_ID
+            prop["auctioneer_name"] = self.AUCTIONEER_NAME
+            if not prop.get("city"):
+                prop["city"] = "Não informado"
+            if not prop.get("state"):
+                prop["state"] = "NI"
+            if prop.get("city") and "online" in prop["city"].lower():
+                prop["city"] = "Não informado"
+                prop["state"] = "NI"
+            if prop.get("first_auction_value") and not prop.get("price"):
+                prop["price"] = prop["first_auction_value"]
             
             return prop if prop.get("title") else None
             
         except Exception as e:
             logger.debug(f"Erro ao extrair card: {e}")
             return None
+
+    def scrape_properties(self, max_properties: int = 5) -> list[Dict]:
+        """Wrapper síncrono para scraping com normalização."""
+        props = asyncio.run(self.scrape_async(max_properties=max_properties))
+        for prop in props:
+            prop.setdefault("auctioneer_id", self.AUCTIONEER_ID)
+            prop.setdefault("auctioneer_name", self.AUCTIONEER_NAME)
+            prop.setdefault("source", self.AUCTIONEER_ID)
+            prop.setdefault("city", "Não informado")
+            prop.setdefault("state", "NI")
+            if prop.get("first_auction_value") and not prop.get("price"):
+                prop["price"] = prop["first_auction_value"]
+        return props
 
