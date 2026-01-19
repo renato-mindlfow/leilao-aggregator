@@ -44,13 +44,13 @@ except ImportError as e:
     print("  playwright install chromium")
     sys.exit(1)
 
-# Leiloeiros para teste
+# Leiloeiros para teste (URLs mais leves e específicas)
 LEILOEIROS_TESTE = [
-    {"url": "https://www.megaleiloes.com.br", "id": "megaleiloes", "nome": "Mega Leilões"},
-    {"url": "https://www.sold.com.br", "id": "sold", "nome": "Sold Leilões"},
-    {"url": "https://www.flexleiloes.com.br", "id": "flexleiloes", "nome": "Flex Leilões"},
-    {"url": "https://www.vivaleiloes.com.br", "id": "vivaleiloes", "nome": "Viva Leilões"},
-    {"url": "https://www.lancejudicial.com.br", "id": "lancejudicial", "nome": "Lance Judicial"},
+    {"url": "https://www.portalzukerman.com.br/busca?categoriaId=1", "id": "portalzuk", "nome": "Portal Zukerman"},
+    {"url": "https://www.sold.com.br/leiloes?categoria=imoveis", "id": "sold", "nome": "Sold Leilões"},
+    {"url": "https://www.flexleiloes.com.br/auctions?property_type=imovel", "id": "flexleiloes", "nome": "Flex Leilões"},
+    {"url": "https://www.vivaleiloes.com.br/busca?tipoBem=1", "id": "vivaleiloes", "nome": "Viva Leilões"},
+    {"url": "https://www.lancejudicial.com.br/busca?tipo=imovel", "id": "lancejudicial", "nome": "Lance Judicial"},
 ]
 
 

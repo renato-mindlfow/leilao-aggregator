@@ -141,40 +141,57 @@ class LLMEnhancedScraper:
     async def _fetch_page(self, url: str, wait_for_js: bool = True) -> str:
         """
         Busca página usando Playwright.
-        Renderiza JavaScript e retorna HTML limpo.
+        Renderiza JavaScript e retorna HTML.
         """
-        try:
-            await self.page.goto(url, wait_until='networkidle', timeout=60000)
-            
-            if wait_for_js:
-                await asyncio.sleep(3)  # Aguardar JS carregar
+        max_retries = 2
+        
+        for attempt in range(max_retries):
+            try:
+                # Usar domcontentloaded para ser mais rápido
+                await self.page.goto(url, wait_until='domcontentloaded', timeout=90000)
                 
-                # Scroll para carregar lazy content
-                await self.page.evaluate("""
-                    async () => {
-                        await new Promise((resolve) => {
-                            let totalHeight = 0;
-                            const distance = 300;
-                            const timer = setInterval(() => {
-                                window.scrollBy(0, distance);
-                                totalHeight += distance;
-                                if (totalHeight >= document.body.scrollHeight) {
-                                    clearInterval(timer);
-                                    resolve();
-                                }
-                            }, 100);
-                            setTimeout(resolve, 5000);  // Max 5s scroll
-                        });
-                    }
-                """)
-                await asyncio.sleep(1)
-            
-            html = await self.page.content()
-            return html
-            
-        except Exception as e:
-            logger.error(f"Erro ao buscar página {url}: {e}")
-            return ""
+                if wait_for_js:
+                    # Aguardar um pouco mais para JS carregar
+                    await asyncio.sleep(5)
+                    
+                    # Scroll para carregar lazy content
+                    try:
+                        await self.page.evaluate("""
+                            async () => {
+                                await new Promise((resolve) => {
+                                    let totalHeight = 0;
+                                    const distance = 300;
+                                    const timer = setInterval(() => {
+                                        window.scrollBy(0, distance);
+                                        totalHeight += distance;
+                                        if (totalHeight >= document.body.scrollHeight || totalHeight > 5000) {
+                                            clearInterval(timer);
+                                            resolve();
+                                        }
+                                    }, 100);
+                                    setTimeout(resolve, 3000);  // Max 3s scroll
+                                });
+                            }
+                        """)
+                    except Exception as e:
+                        logger.debug(f"Erro no scroll: {e}")
+                        
+                    await asyncio.sleep(2)
+                
+                html = await self.page.content()
+                
+                if html and len(html) > 500:
+                    return html
+                
+                logger.warning(f"Tentativa {attempt+1}: HTML muito pequeno ({len(html)} chars)")
+                
+            except Exception as e:
+                logger.warning(f"Tentativa {attempt+1} falhou para {url}: {e}")
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(3)
+        
+        logger.error(f"Todas as tentativas falharam para {url}")
+        return ""
             
     def _clean_html(self, html: str) -> str:
         """
@@ -286,6 +303,24 @@ Retorne APENAS um JSON válido no formato:
             logger.error(traceback.format_exc())
             return []
             
+    def _safe_str(self, value: any, default: str = '') -> str:
+        """Converte valor para string de forma segura, tratando None."""
+        if value is None:
+            return default
+        return str(value).strip()
+    
+    def _safe_float(self, value: any) -> Optional[float]:
+        """Converte valor para float de forma segura."""
+        if value is None:
+            return None
+        try:
+            if isinstance(value, str):
+                # Limpar formatação brasileira
+                value = value.replace('.', '').replace(',', '.').replace('R$', '').strip()
+            return float(value)
+        except (ValueError, TypeError):
+            return None
+    
     def _extract_photos_regex(self, html: str) -> List[str]:
         """
         Extrai URLs de fotos usando regex (fallback confiável).
@@ -317,7 +352,7 @@ Retorne APENAS um JSON válido no formato:
         Compatível com crawl4ai_scraper.py
         """
         # Normalizar categoria
-        tipo = raw.get('tipo', '').lower()
+        tipo = self._safe_str(raw.get('tipo')).lower()
         category_map = {
             'apartamento': 'Apartamento',
             'apto': 'Apartamento',
@@ -329,6 +364,8 @@ Retorne APENAS um JSON válido no formato:
             'galpao': 'Comercial',
             'sala': 'Comercial',
             'loja': 'Comercial',
+            'prédio': 'Comercial',
+            'predio': 'Comercial',
             'rural': 'Rural',
             'fazenda': 'Rural',
             'sítio': 'Rural',
@@ -336,14 +373,10 @@ Retorne APENAS um JSON válido no formato:
             'chácara': 'Rural',
             'chacara': 'Rural',
         }
-        category = 'Outro'
-        for key, value in category_map.items():
-            if key in tipo:
-                category = value
-                break
+        category = category_map.get(tipo, 'Outro')
         
         # Normalizar estado
-        state = raw.get('estado', '').upper().strip()
+        state = self._safe_str(raw.get('estado')).upper()
         valid_states = {'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 
                        'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 
                        'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'}
@@ -351,12 +384,17 @@ Retorne APENAS um JSON válido no formato:
             state = ''
             
         # Normalizar cidade (Title Case)
-        city = raw.get('cidade', '')
+        city = self._safe_str(raw.get('cidade'))
         if city:
-            city = ' '.join(word.capitalize() for word in city.strip().split())
+            city = city.title()
+        
+        # Normalizar título
+        title = self._safe_str(raw.get('titulo'))
+        if title:
+            title = title.title()
         
         # Normalizar modalidade
-        modalidade = raw.get('modalidade', '').lower()
+        modalidade = self._safe_str(raw.get('modalidade')).lower()
         if 'judicial' in modalidade and 'extra' not in modalidade:
             auction_type = 'Judicial'
         elif 'extrajudicial' in modalidade:
@@ -367,33 +405,31 @@ Retorne APENAS um JSON válido no formato:
             auction_type = 'Extrajudicial'
         
         # Parsear data
-        date_str = raw.get('data_leilao')
+        date_str = self._safe_str(raw.get('data_leilao'))
         auction_date = None
-        if date_str:
+        if date_str and '/' in date_str:
             try:
-                # Tentar DD/MM/YYYY
-                if '/' in date_str:
-                    parts = date_str.split('/')
-                    if len(parts) == 3:
-                        auction_date = f"{parts[2]}-{parts[1].zfill(2)}-{parts[0].zfill(2)}"
+                parts = date_str.split('/')
+                if len(parts) == 3:
+                    auction_date = f"{parts[2]}-{parts[1].zfill(2)}-{parts[0].zfill(2)}"
             except:
                 pass
         
         return {
-            'title': raw.get('titulo', '').strip(),
-            'address': raw.get('endereco', '').strip(),
+            'title': title,
+            'address': self._safe_str(raw.get('endereco')),
             'city': city,
             'state': state,
             'category': category,
-            'area_total': raw.get('area'),
-            'evaluation_value': raw.get('valor_avaliacao'),
-            'first_auction_value': raw.get('valor_avaliacao'),
-            'second_auction_value': raw.get('valor_minimo'),
-            'discount_percentage': raw.get('desconto'),
+            'area_total': self._safe_float(raw.get('area')),
+            'evaluation_value': self._safe_float(raw.get('valor_avaliacao')),
+            'first_auction_value': self._safe_float(raw.get('valor_minimo')),
+            'second_auction_value': self._safe_float(raw.get('valor_minimo')),
+            'discount_percentage': self._safe_float(raw.get('desconto')),
             'first_auction_date': auction_date,
             'auction_type': auction_type,
-            'source_url': raw.get('url', url),
-            'image_url': raw.get('imagem'),
+            'source_url': self._safe_str(raw.get('url')) or url,
+            'image_url': self._safe_str(raw.get('imagem')) or None,
             'auctioneer_id': auctioneer_id or 'llm_enhanced',
             'auctioneer_name': auctioneer_name or 'LLM Enhanced',
             'source': 'llm_enhanced_scraper',
