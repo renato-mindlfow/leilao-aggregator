@@ -47,7 +47,7 @@ class ScraperManager:
             ("SodreSantoroScraper", "app.scrapers.sodresantoro_scraper", "SodreSantoroScraper"),
             ("PestanaScraper", "app.scrapers.pestana_scraper", "PestanaScraper"),
             ("LfReiloesScraper", "app.scrapers.lfreiloes_scraper", "LfReiloesScraper"),
-            ("ZukermanScraper", "app.scrapers.zukerman_scraper", "ZukermanScraper"),
+            # ZukermanScraper removed - it's just a wrapper for PortalZukScraperV2
             ("LanceJudicialPlaywrightScraper", "app.scrapers.lancejudicial_playwright", "LanceJudicialPlaywrightScraper"),
             ("FlexLeiloesPlaywrightScraper", "app.scrapers.flexleiloes_playwright", "FlexLeiloesPlaywrightScraper"),
             ("SoldPlaywrightScraper", "app.scrapers.sold_playwright", "SoldPlaywrightScraper"),

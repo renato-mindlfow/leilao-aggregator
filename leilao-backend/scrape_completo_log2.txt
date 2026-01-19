@@ -1,0 +1,272 @@
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+Failed to parse property from __NEXT_DATA__: 'NoneType' object has no attribute 'get'
+⚠️ Mensagem de 'Navegador Incompatível' detectada, mas continuando...
+  ⚠️ Incompleto: None
+  ⚠️ Incompleto: None
+  ⚠️ Incompleto: None
+  ⚠️ Incompleto: None
+  ⚠️ Incompleto: None
+Leiloeiro pestana_leiloes não encontrado
+C:\LeiloHub\leilao-aggregator-git\leilao-backend\scripts\executar_scrape_completo.py:45: RuntimeWarning: coroutine 'SodreSantoroScraper.scrape_properties' was never awaited
+  normalized = nome.lower().replace(" ", "_")
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+[Layer 1 FAILED] https://lfleiloesmt-lanceslotes.cheetah.builderall.com/ - None
+[Layer 2 FAILED] https://lfleiloesmt-lanceslotes.cheetah.builderall.com/ - None
+[Layer 3 FAILED] https://lfleiloesmt-lanceslotes.cheetah.builderall.com/ - 
+[Layer 4 FAILED] https://lfleiloesmt-lanceslotes.cheetah.builderall.com/ - None
+Nenhum link encontrado na listagem
+[Layer 1 FAILED] https://www.portalzuk.com.br/leilao-de-imoveis/tl/todos-imoveis/alienacao-fiduciaria - HTTP 429
+[Layer 1 FAILED] https://www.portalzuk.com.br/leilao-de-imoveis/v/banco-bradesco - HTTP 429
+[Layer 2 FAILED] https://www.portalzuk.com.br/leilao-de-imoveis/v/banco-bradesco - HTTP 429
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x0000022F33AF80F0>:
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 134, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 73, in __repr__
+    info.append(f'stdin={stdin.pipe}')
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+  File "C:\Python314\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+============================================================
+SCRAPE COMPLETO - 2026-01-19 08:57
+============================================================
+Scrapers registrados: 10
+Max por scraper: 25
+
+[PORTAL ZUK]
+  Extraidos: 25 em 277.5s
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Salvos: 0, Erros: 25
+
+[SUPERBID]
+  ERRO: object of type 'ScrapingResult' has no len()
+
+[MEGA LEILOES]
+  ERRO: object of type 'ScrapingResult' has no len()
+
+[SODRÉ SANTORO]
+  ERRO: object of type 'coroutine' has no len()
+
+[PESTANA LEILÕES]
+  Extraidos: 7 em 213.4s
+  Erro ao salvar: {'message': "Could not find the 'auction_date' col
+  Erro ao salvar: {'message': "Could not find the 'auction_date' col
+  Erro ao salvar: {'message': "Could not find the 'auction_date' col
+  Salvos: 0, Erros: 7
+
+[LF LEILOES]
+  Extraidos: 0 em 167.8s
+  Salvos: 0, Erros: 0
+
+[ZUKERMAN]
+  Extraidos: 25 em 347.5s
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Salvos: 0, Erros: 25
+
+[LANCE JUDICIAL]
+  Extraidos: 25 em 90.4s
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Salvos: 0, Erros: 25
+
+[FLEX LEILÕES]
+  Extraidos: 21 em 984.7s
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Erro ao salvar: {'message': 'there is no unique or exclusion const
+  Salvos: 0, Erros: 21
+
+[SOLD LEILÕES]
+  ERRO: object of type 'coroutine' has no len()
+
+============================================================
+RESUMO FINAL
+============================================================
+Total extraidos: 103
+Total salvos: 0
+
+Por scraper:
+  Portal Zuk: 0/25 salvos (277.5s)
+  Superbid: ERRO - object of type 'ScrapingResult
+  Mega Leiloes: ERRO - object of type 'ScrapingResult
+  Sodré Santoro: ERRO - object of type 'coroutine' has
+  Pestana Leilões: 0/7 salvos (213.4s)
+  LF Leiloes: 0/0 salvos (167.8s)
+  Zukerman: 0/25 salvos (347.5s)
+  Lance Judicial: 0/25 salvos (90.4s)
+  Flex Leilões: 0/21 salvos (984.7s)
+  Sold Leilões: ERRO - object of type 'coroutine' has
+
+Atualizando status dos leiloeiros...
+
+Concluido!
+<sys>:0: RuntimeWarning: coroutine 'SoldPlaywrightScraper.scrape_properties' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x0000022F33AF80F0>:
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 134, in __del__
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 73, in __repr__
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 80, in __repr__
+  File "C:\Python314\Lib\asyncio\windows_utils.py", line 102, in fileno
+ValueError: I/O operation on closed pipe
