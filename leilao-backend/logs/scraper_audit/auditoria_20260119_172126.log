@@ -1,0 +1,336 @@
+2026-01-19 17:21:36,786 | INFO | Database tables initialized
+2026-01-19 17:21:37,306 | INFO | Loaded 501 auctioneers into cache
+2026-01-19 17:21:37,307 | INFO | PostgreSQL database initialized
+2026-01-19 17:21:44,555 | INFO | ============================================================
+2026-01-19 17:21:44,558 | INFO | AUDITORIA COMPLETA DE LEILOEIROS - INÍCIO
+2026-01-19 17:21:44,559 | INFO | Data: 2026-01-19 17:21:44
+2026-01-19 17:21:44,562 | INFO | Total de leiloeiros: 19
+2026-01-19 17:21:44,569 | INFO | ============================================================
+2026-01-19 17:21:44,588 | INFO | 
+[1/19]
+2026-01-19 17:21:44,588 | INFO | 
+============================================================
+2026-01-19 17:21:44,589 | INFO | LEILOEIRO: Mega Leilões (megaleiloes)
+2026-01-19 17:21:44,589 | INFO | ============================================================
+2026-01-19 17:21:44,589 | INFO |   Testando: https://www.megaleiloes.com.br/leiloes-de-imoveis
+2026-01-19 17:21:55,581 | INFO | LLMEnhanced: Buscando https://www.megaleiloes.com.br/leiloes-de-imoveis
+2026-01-19 17:22:14,353 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:22:14,410 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:22:14,814 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.megaleiloes.com.br/leiloes-de-imoveis
+2026-01-19 17:22:17,739 | WARNING |   Sem imoveis: https://www.megaleiloes.com.br/leiloes-de-imoveis
+2026-01-19 17:22:17,740 | INFO |   Testando: https://www.megaleiloes.com.br/busca?categoria=imoveis
+2026-01-19 17:22:21,768 | INFO | LLMEnhanced: Buscando https://www.megaleiloes.com.br/busca?categoria=imoveis
+2026-01-19 17:22:32,959 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:22:32,972 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:22:33,154 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.megaleiloes.com.br/busca?categoria=imoveis
+2026-01-19 17:22:34,306 | WARNING |   Sem imoveis: https://www.megaleiloes.com.br/busca?categoria=imoveis
+2026-01-19 17:22:36,348 | INFO | 
+[2/19]
+2026-01-19 17:22:36,348 | INFO | 
+============================================================
+2026-01-19 17:22:36,348 | INFO | LEILOEIRO: Portal Zuk (portalzuk)
+2026-01-19 17:22:36,348 | INFO | ============================================================
+2026-01-19 17:22:36,348 | INFO |   Testando: https://www.portalzuk.com.br/leilao-de-imoveis
+2026-01-19 17:22:43,654 | INFO | LLMEnhanced: Buscando https://www.portalzuk.com.br/leilao-de-imoveis
+2026-01-19 17:24:20,907 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:24:21,058 | ERROR | Erro na extração LLM: Expecting property name enclosed in double quotes: line 441 column 12 (char 14916)
+2026-01-19 17:24:21,072 | ERROR | Traceback (most recent call last):
+  File "C:\LeiloHub\leilao-aggregator-git\leilao-backend\app\services\llm_enhanced_scraper.py", line 294, in _extract_with_llm
+    result = json.loads(response.choices[0].message.content)
+  File "C:\Python314\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 441 column 12 (char 14916)
+
+2026-01-19 17:24:21,131 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.portalzuk.com.br/leilao-de-imoveis
+2026-01-19 17:24:22,036 | WARNING |   Sem imoveis: https://www.portalzuk.com.br/leilao-de-imoveis
+2026-01-19 17:24:22,036 | INFO |   Testando: https://www.portalzuk.com.br/busca?tipo=imovel
+2026-01-19 17:24:24,039 | INFO | LLMEnhanced: Buscando https://www.portalzuk.com.br/busca?tipo=imovel
+2026-01-19 17:24:34,111 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:24:34,120 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:24:34,134 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.portalzuk.com.br/busca?tipo=imovel
+2026-01-19 17:24:35,150 | WARNING |   Sem imoveis: https://www.portalzuk.com.br/busca?tipo=imovel
+2026-01-19 17:24:37,177 | INFO | 
+[3/19]
+2026-01-19 17:24:37,178 | INFO | 
+============================================================
+2026-01-19 17:24:37,178 | INFO | LEILOEIRO: Sodré Santoro (sodresantoro)
+2026-01-19 17:24:37,178 | INFO | ============================================================
+2026-01-19 17:24:37,178 | INFO |   Testando: https://www.sodresantoro.com.br/leiloes?c=imoveis
+2026-01-19 17:24:40,602 | INFO | LLMEnhanced: Buscando https://www.sodresantoro.com.br/leiloes?c=imoveis
+2026-01-19 17:25:23,078 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:25:23,083 | INFO | LLM extraiu 9 imóveis
+2026-01-19 17:25:23,136 | INFO | LLMEnhanced: 9 imóveis extraídos de https://www.sodresantoro.com.br/leiloes?c=imoveis
+2026-01-19 17:25:24,026 | INFO |   SUCESSO: 9 imoveis
+2026-01-19 17:25:26,036 | INFO | 
+[4/19]
+2026-01-19 17:25:26,036 | INFO | 
+============================================================
+2026-01-19 17:25:26,036 | INFO | LEILOEIRO: Superbid (superbid)
+2026-01-19 17:25:26,037 | INFO | ============================================================
+2026-01-19 17:25:26,037 | INFO |   Testando: https://www.superbid.net/leilao?category=imoveis
+2026-01-19 17:25:28,623 | INFO | LLMEnhanced: Buscando https://www.superbid.net/leilao?category=imoveis
+2026-01-19 17:25:37,739 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:25:37,742 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:25:37,753 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.superbid.net/leilao?category=imoveis
+2026-01-19 17:25:38,810 | WARNING |   Sem imoveis: https://www.superbid.net/leilao?category=imoveis
+2026-01-19 17:25:38,810 | INFO |   Testando: https://www.superbid.net/busca?tipo=imovel
+2026-01-19 17:25:42,157 | INFO | LLMEnhanced: Buscando https://www.superbid.net/busca?tipo=imovel
+2026-01-19 17:25:51,308 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:25:51,311 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:25:51,317 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.superbid.net/busca?tipo=imovel
+2026-01-19 17:25:52,212 | WARNING |   Sem imoveis: https://www.superbid.net/busca?tipo=imovel
+2026-01-19 17:25:54,235 | INFO | 
+[5/19]
+2026-01-19 17:25:54,236 | INFO | 
+============================================================
+2026-01-19 17:25:54,237 | INFO | LEILOEIRO: Flex Leilões (flexleiloes)
+2026-01-19 17:25:54,237 | INFO | ============================================================
+2026-01-19 17:25:54,237 | INFO |   Testando: https://www.flexleiloes.com.br/auctions?property_type=imovel
+2026-01-19 17:25:57,721 | INFO | LLMEnhanced: Buscando https://www.flexleiloes.com.br/auctions?property_type=imovel
+2026-01-19 17:27:06,134 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:27:06,302 | INFO | LLM extraiu 19 imóveis
+2026-01-19 17:27:06,306 | INFO | LLMEnhanced: 19 imóveis extraídos de https://www.flexleiloes.com.br/auctions?property_type=imovel
+2026-01-19 17:27:07,111 | INFO |   SUCESSO: 19 imoveis
+2026-01-19 17:27:09,121 | INFO | 
+[6/19]
+2026-01-19 17:27:09,121 | INFO | 
+============================================================
+2026-01-19 17:27:09,121 | INFO | LEILOEIRO: Pestana Leilões (pestana)
+2026-01-19 17:27:09,121 | INFO | ============================================================
+2026-01-19 17:27:09,121 | INFO |   Testando: https://www.pestanaleiloes.com.br/imoveis
+2026-01-19 17:27:11,132 | INFO | LLMEnhanced: Buscando https://www.pestanaleiloes.com.br/imoveis
+2026-01-19 17:27:21,520 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:27:21,526 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:27:21,627 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.pestanaleiloes.com.br/imoveis
+2026-01-19 17:27:22,484 | WARNING |   Sem imoveis: https://www.pestanaleiloes.com.br/imoveis
+2026-01-19 17:27:22,485 | INFO |   Testando: https://www.pestanaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:27:23,935 | INFO | LLMEnhanced: Buscando https://www.pestanaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:27:34,768 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:27:34,781 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:27:34,861 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.pestanaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:27:35,683 | WARNING |   Sem imoveis: https://www.pestanaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:27:37,703 | INFO | 
+[7/19]
+2026-01-19 17:27:37,703 | INFO | 
+============================================================
+2026-01-19 17:27:37,704 | INFO | LEILOEIRO: Sold Leilões (sold)
+2026-01-19 17:27:37,704 | INFO | ============================================================
+2026-01-19 17:27:37,704 | INFO |   Testando: https://www.sold.com.br/leiloes/imoveis
+2026-01-19 17:27:39,790 | INFO | LLMEnhanced: Buscando https://www.sold.com.br/leiloes/imoveis
+2026-01-19 17:27:49,474 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:27:49,476 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:27:49,495 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.sold.com.br/leiloes/imoveis
+2026-01-19 17:27:50,492 | WARNING |   Sem imoveis: https://www.sold.com.br/leiloes/imoveis
+2026-01-19 17:27:50,493 | INFO |   Testando: https://www.sold.com.br/busca?categoria=imoveis
+2026-01-19 17:27:52,289 | INFO | LLMEnhanced: Buscando https://www.sold.com.br/busca?categoria=imoveis
+2026-01-19 17:28:01,352 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:28:01,365 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:28:01,374 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.sold.com.br/busca?categoria=imoveis
+2026-01-19 17:28:02,224 | WARNING |   Sem imoveis: https://www.sold.com.br/busca?categoria=imoveis
+2026-01-19 17:28:04,236 | INFO | 
+[8/19]
+2026-01-19 17:28:04,237 | INFO | 
+============================================================
+2026-01-19 17:28:04,237 | INFO | LEILOEIRO: Lance Judicial (lancejudicial)
+2026-01-19 17:28:04,237 | INFO | ============================================================
+2026-01-19 17:28:04,238 | INFO |   Testando: https://www.lancejudicial.com.br/leiloes/imoveis
+2026-01-19 17:28:06,196 | INFO | LLMEnhanced: Buscando https://www.lancejudicial.com.br/leiloes/imoveis
+2026-01-19 17:28:15,624 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:28:15,628 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:28:15,630 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.lancejudicial.com.br/leiloes/imoveis
+2026-01-19 17:28:16,415 | WARNING |   Sem imoveis: https://www.lancejudicial.com.br/leiloes/imoveis
+2026-01-19 17:28:16,415 | INFO |   Testando: https://www.lancejudicial.com.br/busca?tipo=imovel
+2026-01-19 17:28:17,818 | INFO | LLMEnhanced: Buscando https://www.lancejudicial.com.br/busca?tipo=imovel
+2026-01-19 17:28:26,552 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:28:26,558 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:28:26,561 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.lancejudicial.com.br/busca?tipo=imovel
+2026-01-19 17:28:27,363 | WARNING |   Sem imoveis: https://www.lancejudicial.com.br/busca?tipo=imovel
+2026-01-19 17:28:29,375 | INFO | 
+[9/19]
+2026-01-19 17:28:29,376 | INFO | 
+============================================================
+2026-01-19 17:28:29,376 | INFO | LEILOEIRO: Viva Leilões (vivaleiloes)
+2026-01-19 17:28:29,377 | INFO | ============================================================
+2026-01-19 17:28:29,377 | INFO |   Testando: https://www.vivaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:28:31,532 | INFO | LLMEnhanced: Buscando https://www.vivaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:28:40,834 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:28:40,838 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:28:40,848 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.vivaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:28:41,572 | WARNING |   Sem imoveis: https://www.vivaleiloes.com.br/leiloes/imoveis
+2026-01-19 17:28:41,572 | INFO |   Testando: https://www.vivaleiloes.com.br/busca?tipoBem=1
+2026-01-19 17:28:42,958 | INFO | LLMEnhanced: Buscando https://www.vivaleiloes.com.br/busca?tipoBem=1
+2026-01-19 17:28:52,052 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:28:52,053 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:28:52,063 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.vivaleiloes.com.br/busca?tipoBem=1
+2026-01-19 17:28:52,863 | WARNING |   Sem imoveis: https://www.vivaleiloes.com.br/busca?tipoBem=1
+2026-01-19 17:28:54,870 | INFO | 
+[10/19]
+2026-01-19 17:28:54,870 | INFO | 
+============================================================
+2026-01-19 17:28:54,870 | INFO | LEILOEIRO: FR France Leilões (frfranceleiloes)
+2026-01-19 17:28:54,870 | INFO | ============================================================
+2026-01-19 17:28:54,870 | INFO |   Testando: https://www.frfranceleiloes.com.br/imoveis
+2026-01-19 17:28:57,081 | INFO | LLMEnhanced: Buscando https://www.frfranceleiloes.com.br/imoveis
+2026-01-19 17:28:57,130 | WARNING | Tentativa 1 falhou para https://www.frfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.frfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.frfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:00,153 | WARNING | Tentativa 2 falhou para https://www.frfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.frfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.frfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:00,153 | ERROR | Todas as tentativas falharam para https://www.frfranceleiloes.com.br/imoveis
+2026-01-19 17:29:00,153 | WARNING | Página vazia ou muito pequena: https://www.frfranceleiloes.com.br/imoveis
+2026-01-19 17:29:00,642 | WARNING |   Sem imoveis: https://www.frfranceleiloes.com.br/imoveis
+2026-01-19 17:29:02,656 | INFO | 
+[11/19]
+2026-01-19 17:29:02,656 | INFO | 
+============================================================
+2026-01-19 17:29:02,656 | INFO | LEILOEIRO: BI France Leilões (bifranceleiloes)
+2026-01-19 17:29:02,656 | INFO | ============================================================
+2026-01-19 17:29:02,656 | INFO |   Testando: https://www.bifranceleiloes.com.br/imoveis
+2026-01-19 17:29:04,731 | INFO | LLMEnhanced: Buscando https://www.bifranceleiloes.com.br/imoveis
+2026-01-19 17:29:04,790 | WARNING | Tentativa 1 falhou para https://www.bifranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bifranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.bifranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:07,807 | WARNING | Tentativa 2 falhou para https://www.bifranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bifranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.bifranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:07,808 | ERROR | Todas as tentativas falharam para https://www.bifranceleiloes.com.br/imoveis
+2026-01-19 17:29:07,808 | WARNING | Página vazia ou muito pequena: https://www.bifranceleiloes.com.br/imoveis
+2026-01-19 17:29:08,333 | WARNING |   Sem imoveis: https://www.bifranceleiloes.com.br/imoveis
+2026-01-19 17:29:10,350 | INFO | 
+[12/19]
+2026-01-19 17:29:10,350 | INFO | 
+============================================================
+2026-01-19 17:29:10,350 | INFO | LEILOEIRO: Zukerman Leilões (zukerman)
+2026-01-19 17:29:10,350 | INFO | ============================================================
+2026-01-19 17:29:10,350 | INFO |   Testando: https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+2026-01-19 17:29:12,338 | INFO | LLMEnhanced: Buscando https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+2026-01-19 17:29:12,414 | WARNING | Tentativa 1 falhou para https://www.zfrfranceleiloes.com.br/leiloes/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+Call log:
+  - navigating to "https://www.zfrfranceleiloes.com.br/leiloes/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:15,434 | WARNING | Tentativa 2 falhou para https://www.zfrfranceleiloes.com.br/leiloes/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+Call log:
+  - navigating to "https://www.zfrfranceleiloes.com.br/leiloes/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:29:15,434 | ERROR | Todas as tentativas falharam para https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+2026-01-19 17:29:15,434 | WARNING | Página vazia ou muito pequena: https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+2026-01-19 17:29:15,912 | WARNING |   Sem imoveis: https://www.zfrfranceleiloes.com.br/leiloes/imoveis
+2026-01-19 17:29:17,919 | INFO | 
+[13/19]
+2026-01-19 17:29:17,919 | INFO | 
+============================================================
+2026-01-19 17:29:17,919 | INFO | LEILOEIRO: Leilão Imóvel (leilaoimovel)
+2026-01-19 17:29:17,920 | INFO | ============================================================
+2026-01-19 17:29:17,920 | INFO |   Testando: https://www.leilaoimovel.com.br/
+2026-01-19 17:29:19,944 | INFO | LLMEnhanced: Buscando https://www.leilaoimovel.com.br/
+2026-01-19 17:30:08,996 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:30:09,008 | INFO | LLM extraiu 10 imóveis
+2026-01-19 17:30:09,021 | INFO | LLMEnhanced: 10 imóveis extraídos de https://www.leilaoimovel.com.br/
+2026-01-19 17:30:09,860 | INFO |   SUCESSO: 10 imoveis
+2026-01-19 17:30:11,880 | INFO | 
+[14/19]
+2026-01-19 17:30:11,881 | INFO | 
+============================================================
+2026-01-19 17:30:11,881 | INFO | LEILOEIRO: Leilomaster (leilomaster)
+2026-01-19 17:30:11,881 | INFO | ============================================================
+2026-01-19 17:30:11,881 | INFO |   Testando: https://www.leilomaster.com.br/imoveis
+2026-01-19 17:30:13,943 | INFO | LLMEnhanced: Buscando https://www.leilomaster.com.br/imoveis
+2026-01-19 17:30:23,845 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:30:23,849 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:30:23,923 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.leilomaster.com.br/imoveis
+2026-01-19 17:30:24,714 | WARNING |   Sem imoveis: https://www.leilomaster.com.br/imoveis
+2026-01-19 17:30:26,732 | INFO | 
+[15/19]
+2026-01-19 17:30:26,732 | INFO | 
+============================================================
+2026-01-19 17:30:26,732 | INFO | LEILOEIRO: LUT Leilões (lut)
+2026-01-19 17:30:26,732 | INFO | ============================================================
+2026-01-19 17:30:26,732 | INFO |   Testando: https://www.lfrfranceleiloes.com.br/imoveis
+2026-01-19 17:30:28,665 | INFO | LLMEnhanced: Buscando https://www.lfrfranceleiloes.com.br/imoveis
+2026-01-19 17:30:28,701 | WARNING | Tentativa 1 falhou para https://www.lfrfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lfrfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.lfrfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:30:31,728 | WARNING | Tentativa 2 falhou para https://www.lfrfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lfrfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.lfrfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:30:31,728 | ERROR | Todas as tentativas falharam para https://www.lfrfranceleiloes.com.br/imoveis
+2026-01-19 17:30:31,728 | WARNING | Página vazia ou muito pequena: https://www.lfrfranceleiloes.com.br/imoveis
+2026-01-19 17:30:32,363 | WARNING |   Sem imoveis: https://www.lfrfranceleiloes.com.br/imoveis
+2026-01-19 17:30:34,382 | INFO | 
+[16/19]
+2026-01-19 17:30:34,382 | INFO | 
+============================================================
+2026-01-19 17:30:34,383 | INFO | LEILOEIRO: Frazão Leilões (frazao)
+2026-01-19 17:30:34,383 | INFO | ============================================================
+2026-01-19 17:30:34,383 | INFO |   Testando: https://www.frazaoleiloes.com.br/imoveis
+2026-01-19 17:30:36,335 | INFO | LLMEnhanced: Buscando https://www.frazaoleiloes.com.br/imoveis
+2026-01-19 17:30:44,870 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:30:44,875 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:30:44,876 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.frazaoleiloes.com.br/imoveis
+2026-01-19 17:30:45,654 | WARNING |   Sem imoveis: https://www.frazaoleiloes.com.br/imoveis
+2026-01-19 17:30:47,672 | INFO | 
+[17/19]
+2026-01-19 17:30:47,673 | INFO | 
+============================================================
+2026-01-19 17:30:47,673 | INFO | LEILOEIRO: Freitas Leilões (freitas)
+2026-01-19 17:30:47,674 | INFO | ============================================================
+2026-01-19 17:30:47,674 | INFO |   Testando: https://www.freitasleiloes.com.br/imoveis
+2026-01-19 17:30:49,593 | INFO | LLMEnhanced: Buscando https://www.freitasleiloes.com.br/imoveis
+2026-01-19 17:30:49,683 | WARNING | Tentativa 1 falhou para https://www.freitasleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.freitasleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.freitasleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:30:52,708 | WARNING | Tentativa 2 falhou para https://www.freitasleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.freitasleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.freitasleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:30:52,708 | ERROR | Todas as tentativas falharam para https://www.freitasleiloes.com.br/imoveis
+2026-01-19 17:30:52,709 | WARNING | Página vazia ou muito pequena: https://www.freitasleiloes.com.br/imoveis
+2026-01-19 17:30:53,206 | WARNING |   Sem imoveis: https://www.freitasleiloes.com.br/imoveis
+2026-01-19 17:30:55,224 | INFO | 
+[18/19]
+2026-01-19 17:30:55,225 | INFO | 
+============================================================
+2026-01-19 17:30:55,225 | INFO | LEILOEIRO: Franco Leilões (franco)
+2026-01-19 17:30:55,225 | INFO | ============================================================
+2026-01-19 17:30:55,226 | INFO |   Testando: https://www.francoleiloes.com.br/imoveis
+2026-01-19 17:30:57,177 | INFO | LLMEnhanced: Buscando https://www.francoleiloes.com.br/imoveis
+2026-01-19 17:31:06,957 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 17:31:06,966 | INFO | LLM extraiu 0 imóveis
+2026-01-19 17:31:06,973 | INFO | LLMEnhanced: 0 imóveis extraídos de https://www.francoleiloes.com.br/imoveis
+2026-01-19 17:31:07,774 | WARNING |   Sem imoveis: https://www.francoleiloes.com.br/imoveis
+2026-01-19 17:31:09,791 | INFO | 
+[19/19]
+2026-01-19 17:31:09,791 | INFO | 
+============================================================
+2026-01-19 17:31:09,791 | INFO | LEILOEIRO: BRI Leilões (brileiloes)
+2026-01-19 17:31:09,792 | INFO | ============================================================
+2026-01-19 17:31:09,792 | INFO |   Testando: https://www.bfrfranceleiloes.com.br/imoveis
+2026-01-19 17:31:11,707 | INFO | LLMEnhanced: Buscando https://www.bfrfranceleiloes.com.br/imoveis
+2026-01-19 17:31:11,798 | WARNING | Tentativa 1 falhou para https://www.bfrfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bfrfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.bfrfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:31:14,851 | WARNING | Tentativa 2 falhou para https://www.bfrfranceleiloes.com.br/imoveis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bfrfranceleiloes.com.br/imoveis
+Call log:
+  - navigating to "https://www.bfrfranceleiloes.com.br/imoveis", waiting until "domcontentloaded"
+
+2026-01-19 17:31:14,851 | ERROR | Todas as tentativas falharam para https://www.bfrfranceleiloes.com.br/imoveis
+2026-01-19 17:31:14,851 | WARNING | Página vazia ou muito pequena: https://www.bfrfranceleiloes.com.br/imoveis
+2026-01-19 17:31:15,323 | WARNING |   Sem imoveis: https://www.bfrfranceleiloes.com.br/imoveis
+2026-01-19 17:31:17,337 | INFO | 
+📄 Relatório Markdown salvo: logs\scraper_audit\RELATORIO_20260119_172126.md

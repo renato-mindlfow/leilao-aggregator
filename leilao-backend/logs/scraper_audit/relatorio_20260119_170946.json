@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "inicio": "2026-01-19T17:09:58.901338",
+    "fim": "2026-01-19T17:23:02.733551",
+    "duracao_segundos": 783.832213,
+    "duracao_minutos": 13.063870216666666
+  },
+  "resumo": {
+    "total_leiloeiros": 19,
+    "sucessos": 4,
+    "falhas": 15,
+    "erros_criticos": 0,
+    "taxa_sucesso": 21.1,
+    "total_imoveis": 50
+  },
+  "leiloeiros_funcionando": [
+    {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "imoveis": 8,
+      "url": "https://www.sodresantoro.com.br/leiloes?c=imoveis"
+    },
+    {
+      "id": "flexleiloes",
+      "name": "Flex Leilões",
+      "imoveis": 19,
+      "url": "https://www.flexleiloes.com.br/auctions?property_type=imovel"
+    },
+    {
+      "id": "pestana",
+      "name": "Pestana Leilões",
+      "imoveis": 13,
+      "url": "https://www.pestanaleiloes.com.br/leiloes/imoveis"
+    },
+    {
+      "id": "leilaoimovel",
+      "name": "Leilão Imóvel",
+      "imoveis": 10,
+      "url": "https://www.leilaoimovel.com.br/"
+    }
+  ],
+  "leiloeiros_falhando": [
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "portalzuk",
+      "name": "Portal Zuk",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "superbid",
+      "name": "Superbid",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "vivaleiloes",
+      "name": "Viva Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "frfranceleiloes",
+      "name": "FR France Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "bifranceleiloes",
+      "name": "BI France Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "zukerman",
+      "name": "Zukerman Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "leilomaster",
+      "name": "Leilomaster",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "lut",
+      "name": "LUT Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "frazao",
+      "name": "Frazão Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "freitas",
+      "name": "Freitas Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "franco",
+      "name": "Franco Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "id": "brileiloes",
+      "name": "BRI Leilões",
+      "erro": "Nenhum imóvel encontrado"
+    }
+  ],
+  "detalhes": {
+    "megaleiloes": {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.megaleiloes.com.br/leiloes-de-imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.megaleiloes.com.br/busca?categoria=imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "portalzuk": {
+      "id": "portalzuk",
+      "name": "Portal Zuk",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.portalzuk.com.br/leilao-de-imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.portalzuk.com.br/busca?tipo=imovel",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "sodresantoro": {
+      "id": "sodresantoro",
+      "name": "Sodré Santoro",
+      "status": "sucesso",
+      "imoveis": 8,
+      "url_funcionou": "https://www.sodresantoro.com.br/leiloes?c=imoveis",
+      "urls_testadas": [
+        {
+          "url": "https://www.sodresantoro.com.br/leiloes?c=imoveis",
+          "sucesso": true,
+          "count": 8,
+          "msg": "https://www.sodresantoro.com.br/leiloes?c=imoveis"
+        }
+      ],
+      "erro": null
+    },
+    "superbid": {
+      "id": "superbid",
+      "name": "Superbid",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.superbid.net/leilao?category=imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.superbid.net/busca?tipo=imovel",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "flexleiloes": {
+      "id": "flexleiloes",
+      "name": "Flex Leilões",
+      "status": "sucesso",
+      "imoveis": 19,
+      "url_funcionou": "https://www.flexleiloes.com.br/auctions?property_type=imovel",
+      "urls_testadas": [
+        {
+          "url": "https://www.flexleiloes.com.br/auctions?property_type=imovel",
+          "sucesso": true,
+          "count": 19,
+          "msg": "https://www.flexleiloes.com.br/auctions?property_type=imovel"
+        }
+      ],
+      "erro": null
+    },
+    "pestana": {
+      "id": "pestana",
+      "name": "Pestana Leilões",
+      "status": "sucesso",
+      "imoveis": 13,
+      "url_funcionou": "https://www.pestanaleiloes.com.br/leiloes/imoveis",
+      "urls_testadas": [
+        {
+          "url": "https://www.pestanaleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.pestanaleiloes.com.br/leiloes/imoveis",
+          "sucesso": true,
+          "count": 13,
+          "msg": "https://www.pestanaleiloes.com.br/leiloes/imoveis"
+        }
+      ],
+      "erro": null
+    },
+    "sold": {
+      "id": "sold",
+      "name": "Sold Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.sold.com.br/leiloes/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.sold.com.br/busca?categoria=imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "lancejudicial": {
+      "id": "lancejudicial",
+      "name": "Lance Judicial",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.lancejudicial.com.br/leiloes/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.lancejudicial.com.br/busca?tipo=imovel",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "vivaleiloes": {
+      "id": "vivaleiloes",
+      "name": "Viva Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.vivaleiloes.com.br/leiloes/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        },
+        {
+          "url": "https://www.vivaleiloes.com.br/busca?tipoBem=1",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "frfranceleiloes": {
+      "id": "frfranceleiloes",
+      "name": "FR France Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.frfranceleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "bifranceleiloes": {
+      "id": "bifranceleiloes",
+      "name": "BI France Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.bifranceleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "zukerman": {
+      "id": "zukerman",
+      "name": "Zukerman Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.zfrfranceleiloes.com.br/leiloes/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "leilaoimovel": {
+      "id": "leilaoimovel",
+      "name": "Leilão Imóvel",
+      "status": "sucesso",
+      "imoveis": 10,
+      "url_funcionou": "https://www.leilaoimovel.com.br/",
+      "urls_testadas": [
+        {
+          "url": "https://www.leilaoimovel.com.br/",
+          "sucesso": true,
+          "count": 10,
+          "msg": "https://www.leilaoimovel.com.br/"
+        }
+      ],
+      "erro": null
+    },
+    "leilomaster": {
+      "id": "leilomaster",
+      "name": "Leilomaster",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.leilomaster.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "lut": {
+      "id": "lut",
+      "name": "LUT Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.lfrfranceleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "frazao": {
+      "id": "frazao",
+      "name": "Frazão Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.frazaoleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "freitas": {
+      "id": "freitas",
+      "name": "Freitas Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.freitasleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "franco": {
+      "id": "franco",
+      "name": "Franco Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.francoleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    },
+    "brileiloes": {
+      "id": "brileiloes",
+      "name": "BRI Leilões",
+      "status": "falha",
+      "imoveis": 0,
+      "url_funcionou": null,
+      "urls_testadas": [
+        {
+          "url": "https://www.bfrfranceleiloes.com.br/imoveis",
+          "sucesso": false,
+          "count": 0,
+          "msg": "Nenhum imóvel encontrado"
+        }
+      ],
+      "erro": "Nenhum imóvel encontrado"
+    }
+  }
+}
