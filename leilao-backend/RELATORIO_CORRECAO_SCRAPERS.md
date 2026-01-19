@@ -50,7 +50,7 @@
 
 ## Resultados do scrape completo (2026-01-19)
 
-### Scrapers executados com sucesso:
+### Scrape inicial (MAX_PER_SCRAPER=25-60):
 - **MegaLeiloes**: 25/25 salvos no Supabase (81.6s)
 - **Portal Zuk**: 25/25 salvos no Supabase (188.2s)
 - **Sodre Santoro**: 18/18 salvos no Supabase (389.5s)
@@ -60,21 +60,36 @@
 - **Lance Judicial**: 25/25 salvos no Supabase (67.1s)
 - **Flex Leiloes**: 15/15 salvos no Supabase (23.5s)
 - **Sold Leiloes**: 60/60 salvos no Supabase (5.3s)
+**Total inicial**: 227 imoveis
 
-### Total:
-- **227 imoveis** extraidos e salvos no Supabase
-- **9 scrapers** funcionando e integrados
-- Tempo total: ~23 minutos (execucao em lotes)
+### Scrape com volume aumentado (MAX_PER_SCRAPER=100-200):
+- **MegaLeiloes**: 100/100 salvos no Supabase (262.2s)
+- **Portal Zuk**: 30/100 salvos (limite do site) (171.0s)
+- **Lance Judicial**: 100/100 salvos no Supabase (338.0s)
+- **Sold Leiloes**: 150/200 salvos (limite do site) (8.5s)
+- **Zukerman**: 100/100 salvos no Supabase (292.5s)
+- **Sodre Santoro**: 18/50 salvos (limite do fallback) (374.2s)
+- **Pestana Leiloes**: 12/100 salvos (limite do site) (126.5s)
+- **Superbid**: timeout (parsing issues)
+- **Flex Leiloes**: timeout (performance issues)
+**Total volume aumentado**: 510 imoveis
 
-### Distribuicao de sources no banco (apos scrape):
-- megaleiloes: 870 imoveis (8.7%)
-- portal_zuk: 30 imoveis (0.3%)
+### Total geral:
+- **~810 imoveis novos** adicionados ao Supabase
+- **7 scrapers** executados com sucesso em volume alto
+- Banco cresceu de 50,724 para 51,534 imoveis
+- Tempo total: ~50 minutos (execucao em lotes)
+
+### Distribuicao de sources no banco (apos scrape de volume):
+- megaleiloes: 1045 imoveis (10.4% da amostra)
+- sold: 274 imoveis (2.7%)
+- superbid: 236 imoveis (2.4%)
+- lancejudicial: 147 imoveis (1.5%)
+- zukerman: 127 imoveis (1.3%)
 - sodresantoro: 109 imoveis (1.1%)
-- superbid: 25 imoveis (0.2%)
-- zukerman: 25 imoveis (0.2%)
-- lancejudicial: 25 imoveis (0.2%)
+- portal_zuk: 60 imoveis (0.6%)
 - flexleiloes: 39 imoveis (0.4%)
-- sold: 108 imoveis (1.1%)
+- pestana_leiloes: 13 imoveis (0.1%)
 
 ### Status dos leiloeiros:
 - success: 23 leiloeiros
@@ -82,6 +97,13 @@
 - pending: 333 leiloeiros
 - disabled: 10 leiloeiros
 - needs_playwright: 3 leiloeiros
+
+### Observações:
+- Superbid tem problemas de parsing (__NEXT_DATA__ None.get()) que causam lentidão
+- Flex Leiloes tem problemas de performance que causam timeouts
+- Portal Zuk, Pestana e Sodre Santoro tem limites de volume disponivel nos sites
+- Sold é o scraper mais rápido (API-based)
+- Rate limiting (HTTP 429) afeta Portal Zuk e Zukerman em volumes altos
 
 ## Proximos passos
 - Expandir correcoes para scrapers nao priorizados.

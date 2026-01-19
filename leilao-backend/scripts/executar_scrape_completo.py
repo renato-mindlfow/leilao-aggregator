@@ -27,7 +27,7 @@ SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 manager = ScraperManager()
 
-MAX_PER_SCRAPER = int(os.getenv("MAX_PER_SCRAPER", "50"))  # Limitar para teste inicial
+MAX_PER_SCRAPER = int(os.getenv("MAX_PER_SCRAPER", "200"))  # Volume aumentado para popular banco
 SLEEP_BETWEEN_SCRAPERS = float(os.getenv("SLEEP_BETWEEN_SCRAPERS", "2"))
 SCRAPERS_FILTER = [s.strip().lower() for s in os.getenv("SCRAPERS_FILTER", "").split(",") if s.strip()]
 
