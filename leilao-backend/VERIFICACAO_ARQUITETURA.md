@@ -196,9 +196,121 @@ print(f"Extraídos: {len(properties)} imóveis")
 - **Economia de tempo**: Elimina necessidade de criar 450+ scrapers específicos
 - **Manutenção**: Reduz drasticamente (sem seletores para quebrar)
 
+## Teste da Arquitetura LLM (2026-01-19 15:38-15:44)
+
+### Configuração do Teste
+
+**Método testado**: Requests + BeautifulSoup + GPT-4o-mini  
+**Observação**: Crawl4AI não pôde ser instalado (erro de compilação lxml no Windows)  
+**Script**: `scripts/testar_llm_leiloeiros.py`  
+**Modelo**: GPT-4o-mini  
+**Leiloeiros**: 10 (escolhidos da lista de erros)
+
+### Resultados
+
+| Métrica | Valor |
+|---------|-------|
+| **Taxa de sucesso** | 40% (4 de 10) |
+| **Imóveis extraídos** | 47 total |
+| **Tokens usados** | 37,018 |
+| **Custo estimado** | $0.0139 |
+| **Tempo total** | ~6 minutos |
+
+### Detalhamento por Leiloeiro
+
+| Leiloeiro | Status | Imóveis | Observação |
+|-----------|--------|---------|------------|
+| Viva Leilões | ✗ Falha | 0 | HTML muito reduzido (166 chars) - site em JS |
+| Unileilões | ✓ Sucesso | 11 | Funcionou bem |
+| De Paula Online | ✓ Sucesso | 18 | Funcionou bem |
+| Picelli Leilões | ✗ Falha | 0 | LLM gerou JSON malformado |
+| Alliance Leilões | ✗ Falha | 0 | LLM gerou JSON malformado |
+| Morales Leilões | ✗ Falha | 0 | HTML muito reduzido (231 chars) - site em JS |
+| Spencer Leilões | ✓ Sucesso | 8 | Funcionou bem |
+| Biasi Leilões | ✓ Sucesso | 10 | Funcionou bem |
+| Ana Brasil Leilões | ✗ Falha | 0 | Site retornou 404 |
+| Horizonte Leilões | ✗ Falha | 0 | HTML muito reduzido (18 chars) - site em JS |
+
+### Análise das Falhas
+
+**Categorias de erro**:
+- **Sites em JavaScript** (3): HTML reduzido porque `requests` não executa JS
+  - Viva Leilões (166 chars)
+  - Morales Leilões (231 chars)
+  - Horizonte Leilões (18 chars)
+- **JSON malformado** (2): LLM gerou JSON com strings não terminadas
+  - Picelli Leilões
+  - Alliance Leilões
+- **Site offline** (1): 404 Not Found
+  - Ana Brasil Leilões
+
+### Comparação: Expectativa vs Realidade
+
+| Aspecto | ARQUITETURA_DEFINITIVA | Teste Real |
+|---------|------------------------|------------|
+| **Método** | Crawl4AI + GPT-4o-mini | Requests + GPT-4o-mini |
+| **Taxa de sucesso** | 95% (116/116) | 40% (4/10) |
+| **Execução JS** | ✓ Sim (via Playwright) | ✗ Não (requests simples) |
+| **Custo/leiloeiro** | ~$0.001 | ~$0.0014 |
+
+### Diagnóstico
+
+**Por que 40% em vez de 95%?**
+
+1. **Falta de Crawl4AI**: Principal diferença
+   - Crawl4AI usa Playwright internamente (executa JavaScript)
+   - `requests` simples não carrega conteúdo dinâmico
+   - 3 dos 6 fracassos foram por HTML vazio (JavaScript)
+
+2. **JSON malformado**: Problema do LLM
+   - 2 casos onde GPT-4o-mini gerou JSON inválido
+   - Possível solução: usar Function Calling em vez de text completion
+   - Ou adicionar retry logic para JSON parsing
+
+3. **Site offline**: Não é problema da arquitetura (1 caso)
+
+### Conclusões
+
+**✓ O que funcionou**:
+- LLM conseguiu extrair dados estruturados de 4 sites
+- Extraiu 47 imóveis com campos corretos
+- Custo baixo ($0.0139 para 10 sites)
+- Arquitetura é viável para sites estáticos/SSR
+
+**✗ O que não funcionou**:
+- Sites com JavaScript (60% dos testados usam JS)
+- JSON parsing não é 100% confiável
+- Sem Crawl4AI, perdemos a execução de JS
+
+**⚠️ Recomendações**:
+
+1. **Curto prazo**: Usar arquitetura híbrida
+   - UniversalScraper com Playwright (sites JS)
+   - LLM para parsing estruturado
+   - Mantém scrapers específicos como fallback
+
+2. **Médio prazo**: Resolver instalação do Crawl4AI
+   - Tentar em Linux/WSL (mais fácil compilar dependências)
+   - Ou usar Playwright + LLM diretamente (similar ao Crawl4AI)
+
+3. **Melhorias imediatas**:
+   - Adicionar retry para JSON parsing
+   - Usar OpenAI Function Calling (JSON garantido)
+   - Pre-filtrar sites offline antes de testar
+
+### Próximos Passos
+
+1. ✓ **Testar LLM básico** - Concluído (40% sucesso)
+2. ⏸ **Instalar Crawl4AI** - Bloqueado (erro compilação Windows)
+3. 🔄 **Alternativa**: Criar wrapper Playwright + LLM
+4. 🔄 **Melhorar**: Adicionar Function Calling para JSON
+5. 🔄 **Testar**: Arquitetura híbrida em mais 20 leiloeiros
+
 ## Referências
 
 - **Documento oficial**: `ARQUITETURA_DEFINITIVA_SCRAPING.md`
 - **Script de verificação**: `scripts/verificar_arquitetura.py`
-- **Teste original**: 116 leiloeiros testados (95% sucesso)
+- **Script de teste LLM**: `scripts/testar_llm_leiloeiros.py`
+- **Teste original**: 116 leiloeiros testados (95% sucesso) - método completo com Crawl4AI
+- **Teste real**: 10 leiloeiros testados (40% sucesso) - método parcial sem Crawl4AI
 - **Data**: 2026-01-19

@@ -25,6 +25,10 @@ apscheduler>=3.11.1
 # AI/ML
 openai>=1.51.0
 
+# Arquitetura LLM para scraping (95% sucesso em testes)
+# crawl4ai>=0.3.0  # NOTA: Falha ao instalar no Windows (requer libxml2)
+#                   # Solução: usar Linux/WSL ou Playwright + LLM direto
+
 # External Services
 supabase>=2.0.0
 
