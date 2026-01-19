@@ -154,28 +154,53 @@ class LLMEnhancedScraper:
                     # Aguardar um pouco mais para JS carregar
                     await asyncio.sleep(5)
                     
-                    # Scroll para carregar lazy content
+                    # Fechar popups/modais comuns (cookies, newsletter, etc)
+                    try:
+                        # Tentar fechar popups comuns
+                        popup_selectors = [
+                            'button:has-text("Aceitar")',
+                            'button:has-text("Fechar")',
+                            'button:has-text("×")',
+                            '[class*="close"]',
+                            '[class*="dismiss"]',
+                            '[aria-label*="close"]',
+                            '[aria-label*="fechar"]',
+                        ]
+                        for selector in popup_selectors:
+                            try:
+                                await self.page.click(selector, timeout=1000)
+                                logger.debug(f"Popup fechado: {selector}")
+                                await asyncio.sleep(0.5)
+                            except:
+                                pass
+                    except Exception as e:
+                        logger.debug(f"Erro ao fechar popup: {e}")
+                    
+                    # Scroll mais agressivo para carregar lazy content
                     try:
                         await self.page.evaluate("""
                             async () => {
                                 await new Promise((resolve) => {
                                     let totalHeight = 0;
-                                    const distance = 300;
+                                    const distance = 800;  // Aumentado de 300 para 800
                                     const timer = setInterval(() => {
                                         window.scrollBy(0, distance);
                                         totalHeight += distance;
-                                        if (totalHeight >= document.body.scrollHeight || totalHeight > 5000) {
+                                        // Aumentado limite de 5000 para 15000
+                                        if (totalHeight >= document.body.scrollHeight || totalHeight > 15000) {
                                             clearInterval(timer);
                                             resolve();
                                         }
-                                    }, 100);
-                                    setTimeout(resolve, 3000);  // Max 3s scroll
+                                    }, 200);  // Aumentado de 100 para 200ms entre scrolls
+                                    setTimeout(resolve, 8000);  // Aumentado de 3s para 8s max
                                 });
                             }
                         """)
                     except Exception as e:
                         logger.debug(f"Erro no scroll: {e}")
                         
+                    # Voltar ao topo
+                    await self.page.evaluate("window.scrollTo(0, 0)")
                     await asyncio.sleep(2)
                 
                 html = await self.page.content()
@@ -196,12 +221,18 @@ class LLMEnhancedScraper:
     def _clean_html(self, html: str) -> str:
         """
         Limpa HTML removendo scripts, styles e elementos desnecessários.
-        Similar ao que Crawl4AI faz internamente.
+        Preserva estrutura suficiente para o LLM entender o contexto.
         """
         soup = BeautifulSoup(html, 'html.parser')
         
         # Remover elementos desnecessários
-        for tag in soup.find_all(['script', 'style', 'noscript', 'iframe', 'svg', 'path', 'nav', 'footer', 'header']):
+        for tag in soup.find_all(['script', 'style', 'noscript', 'iframe', 'svg', 'path']):
+            tag.decompose()
+            
+        # Remover popups e overlays comuns
+        for tag in soup.find_all(['div', 'section'], class_=lambda x: x and any(
+            keyword in str(x).lower() for keyword in ['modal', 'popup', 'overlay', 'cookie', 'newsletter']
+        )):
             tag.decompose()
             
         # Remover comentários
@@ -210,72 +241,98 @@ class LLMEnhancedScraper:
                 comment.extract()
             except:
                 pass
+        
+        # Focar no conteúdo principal (main, article, ou body)
+        main_content = soup.find('main') or soup.find('article') or soup.find('body')
+        if main_content:
+            soup = main_content
             
-        # Pegar texto visível
+        # Pegar texto visível com melhor estrutura
         text = soup.get_text(separator='\n', strip=True)
         
         # Limpar linhas vazias múltiplas
         lines = [line.strip() for line in text.split('\n') if line.strip()]
         clean_text = '\n'.join(lines)
         
-        # Limitar tamanho para não estourar contexto do LLM (GPT-4o-mini suporta 128k tokens)
-        if len(clean_text) > 15000:
-            clean_text = clean_text[:15000] + "\n... [truncado para caber no contexto]"
+        # CRÍTICO: Aumentar limite de 15k para 80k chars
+        # GPT-4o-mini suporta 128k tokens (~512k chars), então 80k é seguro
+        # Isso permite capturar muito mais imóveis por página
+        if len(clean_text) > 80000:
+            # Pegar primeiros 60k e últimos 20k (não perder o final da página)
+            clean_text = clean_text[:60000] + "\n... [meio truncado] ...\n" + clean_text[-20000:]
+            logger.warning(f"Texto truncado de {len(clean_text)} para 80k chars")
+        else:
+            logger.debug(f"Texto limpo: {len(clean_text)} chars (dentro do limite)")
             
         return clean_text
         
     def _extract_with_llm(self, text: str, url: str) -> List[Dict]:
         """
         Usa GPT-4o-mini para extrair dados estruturados do texto.
-        Prompt otimizado baseado nos 95% de sucesso do leilohub-scraper-final.
+        Prompt otimizado baseado no diagnóstico de falhas.
         """
         try:
-            prompt = f"""Analise o conteúdo de uma página de leilões de imóveis e extraia TODOS os dados estruturados.
+            prompt = f"""Você está analisando uma página de leilões de imóveis brasileiros. Sua tarefa é extrair TODOS os imóveis encontrados.
 
-URL: {url}
+URL DA PÁGINA: {url}
 
-CONTEÚDO DA PÁGINA:
+CONTEÚDO COMPLETO DA PÁGINA:
 {text}
 
-INSTRUÇÕES DE EXTRAÇÃO:
-1. Extraia TODOS os imóveis encontrados (não pule nenhum)
-2. Para cada imóvel, extraia os campos disponíveis
-3. Valores monetários: apenas números (sem R$, pontos ou vírgulas). Exemplo: "R$ 250.000,00" → 250000
-4. Datas: formato DD/MM/YYYY ou deixe em branco
-5. Estado: sigla UF com 2 letras maiúsculas (SP, RJ, MG, etc.)
-6. Se um campo não estiver disponível, omita-o ou use null
-7. URLs de imóveis devem ser completas (adicione domínio se necessário)
+INSTRUÇÕES CRÍTICAS:
+1. **EXTRAIA TODOS OS IMÓVEIS** - Não ignore nenhum, mesmo que as informações estejam incompletas
+2. **IGNORE** textos de menu, rodapé, cookies, newsletter, navegação
+3. **FOQUE** em seções com: preços, endereços, metragens, leilões, avaliação
+4. Se encontrar elementos repetidos (ex: "Apartamento", "R$", "m²"), provavelmente há vários imóveis
+5. **EXTRAIA MESMO SE DADOS PARCIAIS** - Se tem endereço e preço, já é válido
+6. Cada card/item com preço geralmente é um imóvel diferente
 
-TIPOS DE IMÓVEL VÁLIDOS:
-- Apartamento
-- Casa
-- Terreno
-- Comercial (inclui galpão, sala, loja)
-- Rural (inclui fazenda, sítio, chácara)
-- Outro
+FORMATAÇÃO DE DADOS:
+- Valores monetários: APENAS números (sem R$, pontos, vírgulas)
+  Exemplos: "R$ 250.000,00" → 250000 | "R$ 1.500.000" → 1500000
+- Datas: formato DD/MM/YYYY ou omita se não encontrar
+- Estado: sigla UF maiúscula (SP, RJ, MG...) ou omita
+- URLs: completar com domínio se for relativa
+- Se campo não disponível: omita ou use null
 
-MODALIDADES VÁLIDAS:
-- Judicial
-- Extrajudicial
-- Venda Direta
+TIPOS DE IMÓVEL (inferir do texto):
+- Apartamento (apto, apartamento, flat)
+- Casa (casa, sobrado, residência)
+- Terreno (terreno, lote, área)
+- Comercial (sala, loja, galpão, prédio comercial, conjunto)
+- Rural (fazenda, sítio, chácara, área rural)
+- Outro (quando não se encaixar acima)
 
-Retorne APENAS um JSON válido no formato:
+MODALIDADES (inferir do contexto):
+- Judicial (processo, justiça, judicial)
+- Extrajudicial (extrajudicial, executivo)
+- Venda Direta (venda direta, venda online)
+- Se não souber, use "Extrajudicial"
+
+EXEMPLO DE COMO IDENTIFICAR MÚLTIPLOS IMÓVEIS:
+Se o texto tem:
+"Apartamento 42m² R$ 111.600 Porto Alegre"
+"Casa 83m² R$ 427.100 Atibaia"
+"Casa 48m² R$ 242.500 Baurú"
+→ São 3 imóveis diferentes! Extraia todos.
+
+RETORNE APENAS JSON VÁLIDO (sem texto adicional):
 {{
     "imoveis": [
         {{
-            "titulo": "string",
-            "endereco": "string", 
-            "cidade": "string",
-            "estado": "UF",
+            "titulo": "string ou null",
+            "endereco": "string ou null", 
+            "cidade": "string ou null",
+            "estado": "UF ou null",
             "tipo": "Apartamento|Casa|Terreno|Comercial|Rural|Outro",
-            "area": number,
-            "valor_avaliacao": number,
-            "valor_minimo": number,
-            "desconto": number,
-            "data_leilao": "DD/MM/YYYY",
+            "area": number ou null,
+            "valor_avaliacao": number ou null,
+            "valor_minimo": number ou null,
+            "desconto": number ou null,
+            "data_leilao": "DD/MM/YYYY ou null",
             "modalidade": "Judicial|Extrajudicial|Venda Direta",
-            "url": "string",
-            "imagem": "string"
+            "url": "string ou null",
+            "imagem": "string ou null"
         }}
     ]
 }}"""
@@ -283,11 +340,11 @@ Retorne APENAS um JSON válido no formato:
             response = self.client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
-                    {"role": "system", "content": "Você é um extrator de dados especializado em leilões de imóveis brasileiros. Retorne apenas JSON válido, sem explicações adicionais."},
+                    {"role": "system", "content": "Você é um extrator especializado em leilões de imóveis. Seu objetivo é encontrar TODOS os imóveis na página, mesmo com dados parciais. Retorne apenas JSON válido."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
-                max_tokens=4000,
+                max_tokens=8000,  # Aumentado de 4000 para 8000 para capturar mais imóveis
                 response_format={"type": "json_object"}
             )
             
