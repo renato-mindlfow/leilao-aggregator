@@ -1,0 +1,58 @@
+{
+  "tem_imoveis": [
+    {
+      "nome": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Picellileiloes",
+      "website": "https://www.picellileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Allianceleiloes",
+      "website": "https://www.allianceleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    }
+  ],
+  "sem_imoveis": [
+    {
+      "nome": "Horizonteleiloes",
+      "website": "https://www.horizonteleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    }
+  ],
+  "erro_acesso": [
+    {
+      "nome": "Biasileiloes",
+      "website": "https://www.biasileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Anabrasilleiloes",
+      "website": "https://www.anabrasilleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    }
+  ]
+}

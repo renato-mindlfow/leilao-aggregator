@@ -105,8 +105,68 @@
 - Sold é o scraper mais rápido (API-based)
 - Rate limiting (HTTP 429) afeta Portal Zuk e Zukerman em volumes altos
 
+## Análise de leiloeiros com erro (2026-01-19)
+
+### Categorização de 132 leiloeiros com erro
+
+| Categoria | Quantidade | Ação |
+|-----------|------------|------|
+| Nenhum imóvel encontrado | 122 | Verificar se site tem imóveis e ajustar seletores |
+| Duplicate key | 4 | Corrigir geração de IDs únicos |
+| Outros erros | 6 | Investigar caso a caso |
+| Timeout | 0 | - |
+| Cloudflare | 0 | - |
+| Site 404 | 0 | - |
+
+### Teste de sites "nenhum imóvel encontrado" (top 10)
+
+**Com imóveis (para corrigir): 7**
+- ✓ Vivaleiloes - Site tem leilões de imóveis
+- ✓ Unileiloes - **SCRAPER CRIADO** com UniversalScraper
+- ✓ Depaulaonline - Site tem leilões
+- ✓ Picellileiloes - Site tem leilões
+- ✓ Allianceleiloes - Site tem leilões
+- ✓ Moralesleiloes - Site tem leilões
+- ✓ Spencerleiloes - Site tem leilões
+
+**Sem imóveis: 1**
+- Horizonteleiloes - Site não tem imóveis ativos
+
+**Erro de acesso: 2**
+- Biasileiloes - HTTP 403
+- Anabrasilleiloes - HTTP 404
+
+### Novos scrapers criados
+
+| Leiloeiro | Scraper | Status | Imóveis |
+|-----------|---------|--------|---------|
+| Unileiloes | UniversalScraper | ✓ Funcionando | 1 (teste) |
+| Vivaleiloes | UniversalScraper | ⚠️ 0 imóveis | Precisa ajustes |
+
+### Scripts criados
+
+1. **`scripts/analisar_leiloeiros_erro.py`**
+   - Categoriza 132 leiloeiros com erro por tipo
+   - Gera JSON com categorização
+   - Identifica prioridades de correção
+
+2. **`scripts/testar_leiloeiros_sem_imoveis.py`**
+   - Testa top 10 leiloeiros "nenhum imóvel"
+   - Verifica se site tem keywords de imóveis
+   - Identifica candidatos para correção
+
+3. **`scripts/criar_scrapers_lote1.py`**
+   - Testa UniversalScraper em leiloeiros
+   - Valida extração de imóveis
+   - Gera relatório de resultados
+
 ## Proximos passos
-- Expandir correcoes para scrapers nao priorizados.
+- ✓ Analisar e categorizar leiloeiros com erro
+- ✓ Testar top 10 "nenhum imóvel encontrado"
+- ✓ Criar pelo menos 1 novo scraper funcionando
+- ⏳ Corrigir Vivaleiloes e outros 6 identificados
+- ⏳ Corrigir erros de duplicate_key (4 leiloeiros)
+- ⏳ Expandir correções para mais leiloeiros da lista
 - Refinar parser de Sodre Santoro para descobrir listagem diretamente via API quando possivel.
 - Corrigir erros de parse no Superbid (__NEXT_DATA__ None.get()).
 - Adicionar mais scrapers para cobrir os 333 leiloeiros pendentes.

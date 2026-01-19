@@ -1,0 +1,673 @@
+{
+  "nenhum_imovel": [
+    {
+      "nome": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Biasileiloes",
+      "website": "https://www.biasileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Anabrasilleiloes",
+      "website": "https://www.anabrasilleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Picellileiloes",
+      "website": "https://www.picellileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Allianceleiloes",
+      "website": "https://www.allianceleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Horizonteleiloes",
+      "website": "https://www.horizonteleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Webleiloes",
+      "website": "https://www.webleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Alexandridisleiloes",
+      "website": "https://www.alexandridisleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Marquesleiloes",
+      "website": "https://www.marquesleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Oleiloes",
+      "website": "https://www.oleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Sumareleiloes",
+      "website": "https://www.sumareleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "E-Confianca",
+      "website": "https://www.e-confianca.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Cristianoescolaleiloes",
+      "website": "https://www.cristianoescolaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Fauthleiloes",
+      "website": "https://www.fauthleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloeslaraforster",
+      "website": "https://www.leiloeslaraforster.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Santoseborinleiloes",
+      "website": "https://www.santoseborinleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Savoyleiloes",
+      "website": "https://www.savoyleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Andreluizleiloes",
+      "website": "https://www.andreluizleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Abaleiloes",
+      "website": "https://www.abaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Jcleiloeiro",
+      "website": "https://www.jcleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Lancecertoleiloes",
+      "website": "https://www.lancecertoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloes61",
+      "website": "https://www.leiloes61.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Oreidosleiloes",
+      "website": "https://www.oreidosleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Morescoleiloes",
+      "website": "https://www.morescoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Hastalegal",
+      "website": "https://www.hastalegal.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Duxleiloes",
+      "website": "https://www.duxleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "E-Leiloeiro",
+      "website": "https://www.e-leiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Grupocarvalholeiloes",
+      "website": "https://www.grupocarvalholeiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Claudiokussleiloes",
+      "website": "https://www.claudiokussleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Amaralleiloes",
+      "website": "https://www.amaralleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Lancevip",
+      "website": "https://www.lancevip.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Jorgemarcoleiloes",
+      "website": "https://www.jorgemarcoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Pimentelleiloes",
+      "website": "https://www.pimentelleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Jacleiloes",
+      "website": "https://www.jacleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Odarlicanezinleiloes",
+      "website": "https://www.odarlicanezinleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Medeirosleiloes",
+      "website": "https://www.medeirosleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Josequencaleiloeiro",
+      "website": "https://www.josequencaleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Lancejusto",
+      "website": "https://www.lancejusto.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Donhaleiloes",
+      "website": "https://www.donhaleiloes.com",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Wspleiloes",
+      "website": "https://www.wspleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Monzonleiloes",
+      "website": "https://www.monzonleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Wmleiloes",
+      "website": "https://www.wmleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Tabaleiloes",
+      "website": "https://www.tabaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Ricoleiloes",
+      "website": "https://www.ricoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Rocketleiloes",
+      "website": "https://www.rocketleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Ktzleiloes",
+      "website": "https://www.ktzleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Arenaleiloes",
+      "website": "https://www.arenaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloaria",
+      "website": "https://www.leiloaria.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Pactoleiloes",
+      "website": "https://www.pactoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Pecinileiloes",
+      "website": "https://www.pecinileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Desantileiloes",
+      "website": "https://www.desantileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloesjudiciaisrs",
+      "website": "https://www.leiloesjudiciaisrs.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Machadoleiloeiro",
+      "website": "https://www.machadoleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Destakleiloes",
+      "website": "https://www.destakleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Montenegroleiloes",
+      "website": "https://www.montenegroleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Projudleiloes",
+      "website": "https://www.projudleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leilaoeletronico",
+      "website": "https://www.leilaoeletronico.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Francoleiloes",
+      "website": "https://www.francoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Gustavoreisleiloes",
+      "website": "https://www.gustavoreisleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Calilleiloes",
+      "website": "https://www.calilleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Rmcleiloes",
+      "website": "https://www.rmcleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leffaleiloes",
+      "website": "https://www.leffaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Dbmleiloes",
+      "website": "https://www.dbmleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloeiropublico",
+      "website": "https://www.leiloeiropublico.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Clebercardosoleiloes",
+      "website": "https://www.clebercardosoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leilomaster",
+      "website": "https://www.leilomaster.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Tezaleiloes",
+      "website": "https://www.tezaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Nossoleilao",
+      "website": "https://www.nossoleilao.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Agenciadeleiloes",
+      "website": "https://www.agenciadeleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Zaccariasleiloes",
+      "website": "https://www.zaccariasleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Legisleiloes",
+      "website": "https://www.legisleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Bcoleiloes",
+      "website": "https://www.bcoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Argonetworkleiloes",
+      "website": "https://www.argonetworkleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Conceitoleiloes",
+      "website": "https://www.conceitoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Judhastas",
+      "website": "https://www.judhastas.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Silveiraleiloes",
+      "website": "https://www.silveiraleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Kronbergleiloes",
+      "website": "https://www.kronbergleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Grandesleiloes",
+      "website": "https://www.grandesleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leilaosantos",
+      "website": "https://www.leilaosantos.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Pietosoleiloes",
+      "website": "https://www.pietosoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Santamarialeiloes",
+      "website": "https://www.santamarialeiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Amtleiloes",
+      "website": "https://www.amtleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leilaobutia",
+      "website": "https://www.leilaobutia.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Scheidleiloes",
+      "website": "https://www.scheidleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Dldleiloeiro",
+      "website": "https://www.dldleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Mpleilao",
+      "website": "https://www.mpleilao.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Scholanteleiloes",
+      "website": "https://www.scholanteleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Cargneluttileiloes",
+      "website": "https://www.cargneluttileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Ferronatoleiloes",
+      "website": "https://www.ferronatoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Eduardovivian",
+      "website": "https://www.eduardovivian.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Clademirleiloeiro",
+      "website": "https://www.clademirleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Rabuskeleiloes",
+      "website": "https://www.rabuskeleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Lessaleiloes",
+      "website": "https://www.lessaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Ckleiloes",
+      "website": "https://www.ckleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Evaleiloes",
+      "website": "https://www.evaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Clovisleiloeiro",
+      "website": "https://www.clovisleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Santayanaleiloes",
+      "website": "https://www.santayanaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Zuccalmaglioleiloes",
+      "website": "https://www.zuccalmaglioleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Natalialeiloes",
+      "website": "https://www.natalialeiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Marceloleiloeiro",
+      "website": "https://www.marceloleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Finattoleiloes",
+      "website": "https://www.finattoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Vidalleiloes",
+      "website": "https://www.vidalleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Gtleiloes",
+      "website": "https://www.gtleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Ruipintoleiloeiro",
+      "website": "https://www.ruipintoleiloeiro.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Gabrielleiloes",
+      "website": "https://www.gabrielleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Leiloeirobarbieri",
+      "website": "https://www.leiloeirobarbieri.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Michellileiloes",
+      "website": "https://www.michellileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Bianchileiloes",
+      "website": "https://www.bianchileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Deborabarzleiloes",
+      "website": "https://www.deborabarzleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Arnoldoleiloes",
+      "website": "https://www.arnoldoleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Bidgo",
+      "website": "https://www.bidgo.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Szortykaleiloes",
+      "website": "https://www.szortykaleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Rangelleiloes",
+      "website": "https://www.rangelleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Utzigleiloes",
+      "website": "https://www.utzigleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Lipinskileiloes",
+      "website": "https://www.lipinskileiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Fariasleiloes",
+      "website": "https://www.fariasleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Bartmannleiloes",
+      "website": "https://www.bartmannleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    },
+    {
+      "nome": "Dhleiloes",
+      "website": "https://www.dhleiloes.com.br",
+      "erro": "Nenhum imóvel encontrado"
+    }
+  ],
+  "timeout": [],
+  "cloudflare": [],
+  "404": [],
+  "duplicate_key": [
+    {
+      "nome": "Lancenoleilao",
+      "website": "https://www.lancenoleilao.com.br",
+      "erro": "duplicate key value violates unique constraint \"properties_pkey\"\nDETAIL:  Key (id)=(Lancenoleilao_24"
+    },
+    {
+      "nome": "Centraljudicial",
+      "website": "https://www.centraljudicial.com.br",
+      "erro": "duplicate key value violates unique constraint \"properties_pkey\"\nDETAIL:  Key (id)=(Centraljudicial_"
+    },
+    {
+      "nome": "Marangonileiloes",
+      "website": "https://www.marangonileiloes.com.br",
+      "erro": "duplicate key value violates unique constraint \"properties_pkey\"\nDETAIL:  Key (id)=(Marangonileiloes"
+    },
+    {
+      "nome": "Correaleiloes",
+      "website": "https://www.correaleiloes.com.br",
+      "erro": "duplicate key value violates unique constraint \"properties_pkey\"\nDETAIL:  Key (id)=(Correaleiloes_Lo"
+    }
+  ],
+  "connection": [],
+  "parsing": [],
+  "outros": [
+    {
+      "nome": "Lancetotal",
+      "website": "https://www.lancetotal.com.br",
+      "erro": ""
+    },
+    {
+      "nome": "Freitasleiloeiro",
+      "website": "https://www.freitasleiloeiro.com.br",
+      "erro": ""
+    },
+    {
+      "nome": "Frazaoleiloes",
+      "website": "https://www.frazaoleiloes.com.br",
+      "erro": ""
+    },
+    {
+      "nome": "Ctsleiloes",
+      "website": "https://www.ctsleiloes.com.br",
+      "erro": "'NoneType' object is not subscriptable"
+    },
+    {
+      "nome": "Moraesleiloes",
+      "website": "https://www.moraesleiloes.com.br",
+      "erro": "value too long for type character varying(2)"
+    },
+    {
+      "nome": "Turanileiloes",
+      "website": "https://www.turanileiloes.com.br",
+      "erro": "'NoneType' object has no attribute 'replace'"
+    }
+  ]
+}

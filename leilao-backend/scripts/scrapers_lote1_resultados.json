@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Vivaleiloes",
+    "auctioneer_id": "vivaleiloes",
+    "status": "SEM_IMOVEIS",
+    "imoveis": 0
+  },
+  {
+    "nome": "Unileiloes",
+    "auctioneer_id": "unileiloes",
+    "status": "SUCESSO",
+    "imoveis": 1
+  }
+]
