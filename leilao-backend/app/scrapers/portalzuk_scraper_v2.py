@@ -220,6 +220,7 @@ class PortalZukScraperV2:
                 "auctioneer_url": self.BASE_URL,
                 "auctioneer_name": self.AUCTIONEER_NAME,
                 "auctioneer_id": self.AUCTIONEER_ID,
+                "source": self.AUCTIONEER_ID,
                 "created_at": datetime.utcnow().isoformat(),
             }
 
@@ -236,12 +237,30 @@ class PortalZukScraperV2:
             page_text = await self.page.inner_text("body")
 
             state, city = self._extract_location(page_text, property_data.get("title", ""))
-            property_data["state"] = state
-            property_data["city"] = city
+            property_data["state"] = state or "NI"
+            property_data["city"] = city or "Não informado"
 
             property_data["category"] = self._extract_category(page_text, property_data.get("title", ""))
 
             property_data.update(self._extract_values(page_text))
+
+            if not property_data.get("price"):
+                value_candidates = [
+                    property_data.get("minimum_bid"),
+                    property_data.get("second_auction_value"),
+                    property_data.get("first_auction_value"),
+                    property_data.get("evaluation_value"),
+                ]
+                property_data["price"] = next((v for v in value_candidates if v), None)
+
+            if not property_data.get("price"):
+                price_match = re.search(r"R\$\s*([\d\.,]+)", page_text)
+                if price_match:
+                    price_str = price_match.group(1).replace(".", "").replace(",", ".")
+                    try:
+                        property_data["price"] = float(price_str)
+                    except ValueError:
+                        pass
 
             img_selectors = [
                 "img.property-image",

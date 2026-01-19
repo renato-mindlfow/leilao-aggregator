@@ -16,6 +16,14 @@ from typing import Tuple, Optional
 from dataclasses import dataclass
 from enum import Enum
 
+try:
+    from dotenv import load_dotenv
+except ImportError:  # pragma: no cover
+    load_dotenv = None
+
+if load_dotenv:
+    load_dotenv()
+
 logger = logging.getLogger(__name__)
 
 class FetchLayer(Enum):

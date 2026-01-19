@@ -260,6 +260,10 @@ class SuperbidScraper:
             address = self._extract_address_from_description(description)
             
             city, state, neighborhood = self._parse_location_from_title(title)
+            if not state:
+                state = "NI"
+            if not city:
+                city = "Não informado"
             
             if not address:
                 address = f"{neighborhood}, {city}/{state}" if neighborhood else f"{city}/{state}"
@@ -312,6 +316,8 @@ class SuperbidScraper:
                 'image_url': image_url,
                 'auctioneer_url': url,
                 'auctioneer_name': self.name,
+                'auctioneer_id': "superbid",
+                'source': "superbid",
                 'is_occupied': is_occupied,
                 'raw_data': offer,
             }
@@ -400,6 +406,7 @@ class SuperbidScraper:
                         auctioneer_name=self.name,
                         auctioneer_id="superbid",
                         source_url=prop_data['auctioneer_url'],
+                        source="superbid",
                         accepts_financing=False,
                         accepts_fgts=False,
                         accepts_installments=True,

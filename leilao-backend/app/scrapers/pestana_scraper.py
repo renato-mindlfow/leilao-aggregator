@@ -26,6 +26,7 @@ class PestanaScraper:
     BASE_URL = "https://www.pestanaleiloes.com.br"
     IMOVEIS_URL = f"{BASE_URL}/procurar-bens?tipoBem=462&lotePage=1&loteQty=50"
     AUCTIONEER_ID = "pestana_leiloes"
+    AUCTIONEER_NAME = "Pestana Leilões"
     
     def __init__(self, headless: bool = True):
         self.headless = headless
@@ -205,12 +206,20 @@ class PestanaScraper:
         """Extract state and city from location string like 'Fraiburgo - SC'."""
         if not location_str:
             return None, None
-        
-        parts = location_str.split(' - ')
+
+        parts = [part.strip() for part in location_str.split(' - ') if part.strip()]
         if len(parts) >= 2:
-            city = parts[0].strip()
-            state = parts[-1].strip()
+            state = parts[-1]
+            city = parts[-2]
             return state, city
+
+        upper = location_str.upper()
+        match = re.search(r"\b([A-Z]{2})\b", upper)
+        if match:
+            state = match.group(1)
+            city = location_str[:match.start()].strip(" -")
+            return state, city
+
         return None, location_str.strip()
     
     def _determine_category(self, title: str) -> str:
@@ -402,8 +411,9 @@ class PestanaScraper:
                 'source_url': url,
                 'url': url,
                 'auctioneer_url': url,
-                'auctioneer_name': 'Pestana Leilões',
+                'auctioneer_name': self.AUCTIONEER_NAME,
                 'auctioneer_id': self.AUCTIONEER_ID,
+                'source': self.AUCTIONEER_ID,
             }
             
             # Extrair título - usar h1 no conteúdo principal
@@ -426,8 +436,8 @@ class PestanaScraper:
             # Extrair localização do título (formato: "Type - City - State")
             if property_data.get('title'):
                 state, city = self._extract_state_city(property_data['title'])
-                property_data['state'] = state
-                property_data['city'] = city
+                property_data['state'] = state or "NI"
+                property_data['city'] = city or "Não informado"
                 property_data['category'] = self._determine_category(property_data['title'])
             
             # Extrair imagem

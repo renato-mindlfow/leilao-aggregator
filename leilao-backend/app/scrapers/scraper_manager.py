@@ -2,6 +2,8 @@
 Scraper Manager - Coordinates all auction website scrapers.
 """
 import logging
+import asyncio
+import inspect
 import gc
 import hashlib
 import uuid
@@ -24,11 +26,35 @@ class ScraperManager:
         self.scrapers: dict[str, BaseScraper] = {}
         self.last_run: Optional[datetime] = None
         self.properties: list[Property] = []
+        self._register_default_scrapers()
         
     def register_scraper(self, scraper: BaseScraper) -> None:
         """Register a scraper for an auction website."""
-        self.scrapers[scraper.name] = scraper
-        logger.info(f"Registered scraper: {scraper.name}")
+        scraper_name = getattr(scraper, "name", None)
+        if not scraper_name:
+            scraper_name = getattr(scraper, "AUCTIONEER_NAME", None)
+        if not scraper_name:
+            scraper_name = scraper.__class__.__name__
+        self.scrapers[scraper_name] = scraper
+        logger.info(f"Registered scraper: {scraper_name}")
+
+    def _register_default_scrapers(self) -> None:
+        """Register core scrapers on startup."""
+        default_scrapers = [
+            ("PortalZukScraperV2", "app.scrapers.portalzuk_scraper_v2", "PortalZukScraperV2"),
+            ("SuperbidScraper", "app.scrapers.superbid_scraper", "SuperbidScraper"),
+            ("MegaleiloesScraper", "app.scrapers.megaleiloes_scraper", "MegaleiloesScraper"),
+            ("SodreSantoroScraper", "app.scrapers.sodresantoro_scraper", "SodreSantoroScraper"),
+            ("PestanaScraper", "app.scrapers.pestana_scraper", "PestanaScraper"),
+        ]
+
+        for label, module_path, class_name in default_scrapers:
+            try:
+                module = __import__(module_path, fromlist=[class_name])
+                scraper_class = getattr(module, class_name)
+                self.register_scraper(scraper_class())
+            except Exception as exc:
+                logger.warning(f"Failed to register scraper {label}: {exc}")
         
     def get_scraper(self, name: str) -> Optional[BaseScraper]:
         """Get a scraper by name."""
@@ -47,15 +73,35 @@ class ScraperManager:
             
         try:
             logger.info(f"Starting scraper: {name}")
-            scraper.setup_driver()
-            properties = scraper.scrape_listings(max_pages=max_pages)
-            logger.info(f"Scraper {name} found {len(properties)} properties")
-            return properties
+            if hasattr(scraper, "scrape_listings"):
+                scraper.setup_driver()
+                properties = scraper.scrape_listings(max_pages=max_pages)
+                logger.info(f"Scraper {name} found {len(properties)} properties")
+                return properties
+
+            if hasattr(scraper, "scrape_properties"):
+                method = scraper.scrape_properties
+                if inspect.iscoroutinefunction(method):
+                    properties = asyncio.run(method(max_properties=max_pages))
+                else:
+                    signature = inspect.signature(method)
+                    if "max_properties" in signature.parameters:
+                        properties = method(max_properties=max_pages)
+                    elif "max_items" in signature.parameters:
+                        properties = method(max_items=max_pages)
+                    else:
+                        properties = method()
+                logger.info(f"Scraper {name} found {len(properties)} properties")
+                return properties
+
+            logger.error(f"Scraper {name} does not implement a compatible scrape method")
+            return []
         except Exception as e:
             logger.error(f"Error running scraper {name}: {e}")
             return []
         finally:
-            scraper.close_driver()
+            if hasattr(scraper, "close_driver"):
+                scraper.close_driver()
             
     def run_all_scrapers(self, max_pages: int = 3, max_workers: int = 3) -> list[Property]:
         """Run all registered scrapers and return all properties found."""
@@ -153,6 +199,7 @@ def run_all_scrapers() -> Dict[str, Any]:
                     for prop_dict in result:
                         try:
                             scraper_slug = prop_dict.get("auctioneer_id") or config["name"].lower().replace(" ", "_")
+                            scraper_slug = scraper_slug.strip().lower()
                             # Convert category string to enum
                             category = None
                             if prop_dict.get('category'):
@@ -184,7 +231,7 @@ def run_all_scrapers() -> Dict[str, Any]:
                                 title=prop_dict.get('title', 'Imóvel em Leilão'),
                                 address=prop_dict.get('address'),
                                 city=prop_dict.get('city', 'Não informado'),
-                                state=prop_dict.get('state', 'SP'),
+                                state=prop_dict.get('state', 'NI'),
                                 neighborhood=prop_dict.get('neighborhood'),
                                 category=category,
                                 auction_type=auction_type,
@@ -202,6 +249,7 @@ def run_all_scrapers() -> Dict[str, Any]:
                                 source_url=prop_dict.get('source_url'),
                                 auctioneer_name=prop_dict.get('auctioneer_name', config['name']),
                                 auctioneer_id=prop_dict.get('auctioneer_id', scraper_slug),
+                                source=prop_dict.get('source', scraper_slug),
                                 auctioneer_url=prop_dict.get('auctioneer_url'),
                                 created_at=datetime.utcnow(),
                                 updated_at=datetime.utcnow(),
@@ -236,6 +284,12 @@ def run_all_scrapers() -> Dict[str, Any]:
                     # Ensure source_url is set for deduplication
                     if not prop.source_url:
                         prop.source_url = prop.property_url or prop.auctioneer_url or ""
+
+                    # Normalize source field
+                    if not prop.source:
+                        prop.source = (prop.auctioneer_id or "").strip().lower() or None
+                    elif prop.source:
+                        prop.source = prop.source.strip().lower()
                     
                     # Set dedup_key for better deduplication
                     if prop.source_url:

@@ -156,7 +156,7 @@ class MegaleiloesScraper:
             links = []
             for a_tag in soup.find_all('a', href=True):
                 href = a_tag['href']
-                if '/imoveis/' in href and '-x' in href.lower() or '-j' in href.lower():
+                if '/imoveis/' in href and ('-x' in href.lower() or '-j' in href.lower()):
                     if href.startswith('/'):
                         href = self.BASE_URL + href
                     if href not in links and 'pagina=' not in href:
@@ -363,8 +363,8 @@ class MegaleiloesScraper:
                         description=prop_data['description'],
                         category=prop_data['category'],
                         auction_type=prop_data['auction_type'],
-                        state=prop_data['state'],
-                        city=prop_data['city'],
+                        state=prop_data['state'] or "NI",
+                        city=prop_data['city'] or "Não informado",
                         neighborhood=prop_data['neighborhood'],
                         address=prop_data['address'],
                         area_total=prop_data['area'],
@@ -377,6 +377,7 @@ class MegaleiloesScraper:
                         auctioneer_name=self.name,
                         auctioneer_id="megaleiloes",
                         source_url=prop_data['auctioneer_url'],
+                        source="megaleiloes",
                         accepts_financing=False,
                         accepts_fgts=False,
                         accepts_installments=True,
