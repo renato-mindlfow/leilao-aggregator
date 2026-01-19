@@ -7,7 +7,7 @@ import inspect
 import gc
 import hashlib
 import uuid
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
@@ -15,6 +15,13 @@ from app.models.property import Property, PropertyCategory, AuctionType
 from app.scrapers.base_scraper import BaseScraper
 from app.services import db
 from app.services.postgres_database import PostgresDatabase, normalize_url
+
+# Tentar importar Crawl4AI scraper (fallback universal)
+try:
+    from app.services.crawl4ai_scraper import Crawl4AIScraper, CRAWL4AI_AVAILABLE
+except ImportError:
+    Crawl4AIScraper = None
+    CRAWL4AI_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -133,6 +140,56 @@ class ScraperManager:
     def get_last_run(self) -> Optional[datetime]:
         """Get the timestamp of the last scraper run."""
         return self.last_run
+    
+    def scrape_with_fallback(self, url: str, auctioneer_id: str = None, auctioneer_name: str = None) -> List[Dict]:
+        """
+        Tenta scraper específico primeiro, depois Crawl4AI como fallback.
+        
+        Esta função implementa a estratégia de 95% de sucesso do leilohub-scraper-final:
+        1. Tenta usar scraper específico se disponível
+        2. Se falhar ou não existir, usa Crawl4AI + GPT-4o-mini como fallback universal
+        
+        Args:
+            url: URL do leiloeiro
+            auctioneer_id: ID do leiloeiro (opcional)
+            auctioneer_name: Nome do leiloeiro (opcional)
+        
+        Returns:
+            Lista de dicionários com dados dos imóveis
+        """
+        # Tentar scraper específico
+        if auctioneer_id in self.scrapers:
+            try:
+                logger.info(f"Tentando scraper específico para {auctioneer_id}...")
+                scraper = self.scrapers[auctioneer_id]
+                
+                if hasattr(scraper, 'scrape_properties'):
+                    result = scraper.scrape_properties(max_properties=50)
+                    if result and len(result) > 0:
+                        logger.info(f"Scraper específico {auctioneer_id}: {len(result)} imóveis")
+                        return result
+                    else:
+                        logger.warning(f"Scraper específico {auctioneer_id} retornou vazio")
+            except Exception as e:
+                logger.warning(f"Scraper específico {auctioneer_id} falhou: {e}")
+        
+        # Fallback: Crawl4AI
+        if CRAWL4AI_AVAILABLE and Crawl4AIScraper:
+            try:
+                logger.info(f"Usando Crawl4AI fallback para {url}...")
+                scraper = Crawl4AIScraper()
+                result = scraper.scrape_url_sync(url, auctioneer_id, auctioneer_name)
+                if result:
+                    logger.info(f"Crawl4AI fallback: {len(result)} imóveis extraídos")
+                    return result
+                else:
+                    logger.warning(f"Crawl4AI fallback retornou vazio para {url}")
+            except Exception as e:
+                logger.error(f"Crawl4AI fallback falhou para {url}: {e}")
+        else:
+            logger.warning("Crawl4AI não está disponível como fallback")
+        
+        return []
 
 
 # Global scraper manager instance

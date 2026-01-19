@@ -25,9 +25,13 @@ apscheduler>=3.11.1
 # AI/ML
 openai>=1.51.0
 
-# Arquitetura LLM para scraping (95% sucesso em testes)
-# crawl4ai>=0.3.0  # NOTA: Falha ao instalar no Windows (requer libxml2)
-#                   # Solução: usar Linux/WSL ou Playwright + LLM direto
+# Arquitetura LLM para scraping (95% sucesso em testes - integrado 2026-01-19)
+# Crawl4AI + GPT-4o-mini - Portado de leilohub-scraper-final
+crawl4ai>=0.3.0
+# NOTA: Se falhar instalação no Windows (requer libxml2):
+#   - Verifique instalação em C:\LeiloHub\leilohub-scraper-final (funcionou lá)
+#   - Tente: pip install crawl4ai --no-deps e instale dependências manualmente
+#   - Ou use WSL/Linux
 
 # External Services
 supabase>=2.0.0
