@@ -1,0 +1,1873 @@
+[
+  {
+    "nome": "Megaleiloes",
+    "url": "https://www.megaleiloes.com.br/imoveis",
+    "timestamp": "2026-01-20T12:09:45.380456",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8116,
+        "tamanho_bytes": 204460,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:08:47 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "content-length": "23182",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "x-powered-by": "PHP/7.4.33",
+            "vary": "Accept-Encoding,User-Agent",
+            "content-encoding": "gzip",
+            "cache-control": "no-transform",
+            "expires": "Tue, 20 Jan 2026 15:08:57 GMT",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Kfq2E2hd0Fgiqh5hVCOVrMt7%2BxHmUF6%2BH3vIoK1FEyEQp3ge2t%2BRbgbMgmcJz9wZh8WcpyT9%2FfqSiwIS4ZNM0LkhfxFjjICu0fS7pnL%2FkIzO9YMongSjQN7rbXtRw62ISw%3D%3D\"}]}",
+            "x-ua-compatible": "IE=Edge",
+            "access-control-allow-origin": "*",
+            "x-frame-options": "SAMEORIGIN",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "cf-cache-status": "DYNAMIC",
+            "strict-transport-security": "max-age=0; includeSubDomains; preload",
+            "x-content-type-options": "nosniff",
+            "cf-ray": "9c0f7d3b4a024bbe-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.megaleiloes.com.br/imoveis",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 3518,
+        "tamanho_bytes": 204460,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "<!DOCTYPE html>\n<!--\n ██████  ████████ ██   ██ ██ ███████ \n██    ██    ██    ██   ██ ██ ██      \n██    ██    ██    ███████ ██ ███████ \n██    ██    ██    ██   ██ ██      ██ \n ██████     ██    ██   ██ ██ ███████ \n\nDesenvolvido por Othis desde 2011.\n-->\n<html lang=\"pt-BR\">\n    <head>\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes\">\n        <meta name=\"p:domain_verify\" conte",
+          "url_final": "https://www.megaleiloes.com.br/imoveis"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 23001,
+        "tamanho_bytes": 218482,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 15345,
+          "content_preview": "IR\nExplore por\nCategorias \nPesquisa\nAvançada \n FAQ\nEntrar\nou Criar conta\nMega Leilões Imóveis\nLeilão de Imóveis\nExibindo 1 - 48 de 801 itens. Página 1 de 17.\nInício\n<\n1\n2\n3\n4\n5\n>\nFim\nOrdenação\nData \nR$ 749.600,00\n 3366  0\nApartamento 119 m² (02 vagas) - Sítio Guarapuava - Praia Grande - SP\nX119591\nP"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 16634,
+        "tamanho_bytes": 1497718,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 15345
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 673,
+        "tamanho_bytes": 204460,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.67347,
+          "size": 204460
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Portalzuk",
+    "url": "https://www.portalzuk.com.br/leilao-de-imoveis",
+    "timestamp": "2026-01-20T12:10:21.161915",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 2862,
+        "tamanho_bytes": 746949,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:09:51 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": "AWSALB=SN9lMY58VFiC0TMPXElWMYP4ZMdH5gE+Xz+QsX1WI4PdiPEYQ8/TQI8+VPWmlYaWCFxCtPSLaaXo/ga3imGJIcQL9DV4ODODWWJr1vISRCZuFJTfMHTfo+sLmsKl; Expires=Tue, 27 Jan 2026 15:09:51 GMT; Path=/, AWSALBCORS=SN9lMY58VFiC0TMPXElWMYP4ZMdH5gE+Xz+QsX1WI4PdiPEYQ8/TQI8+VPWmlYaWCFxCtPSLaaXo/ga3imGJIcQL9DV4ODODWWJr1vISRCZuFJTfMHTfo+sLmsKl; Expires=Tue, 27 Jan 2026 15:09:51 GMT; Path=/; SameSite=None; Secure, XSRF-TOKEN=eyJpdiI6ImR3UTBhdGhVeW1XYVJkRklsMy9vWFE9PSIsInZhbHVlIjoiVDZRVit4RG41Y0FNYzVzZzlEaDNqNm05YUF1ZUtCRG9UU3IvaElvQmw2V3B6amthdzR1RXNYSm1KSm0yNXN4b0JsL3htVThYTHQ1VzdQdDFsT0pkVDhiODJiV0VxVkVKNCsvcDFVWjBWc3FFWFpaVFM4RWJGR0JNdGhlOCtDa1UiLCJtYWMiOiJhZjQzYjNhNTc3NDJmY2Y4ZDViODYyZGY0OTZlMjUyNDE5MGZiZDIzZDAwYWI3ZWE1MThiMjM1NTQxMDhkNzg2IiwidGFnIjoiIn0%3D; expires=Wed, 21 Jan 2026 15:09:51 GMT; Max-Age=86400; path=/; samesite=lax, laravel_session=eyJpdiI6Im9lbk0vTHRUeE9QeDdQQXoyNzB1Y3c9PSIsInZhbHVlIjoiMWxlR3MwU2MyMmQvR0NFU1o0SnNEZjBYWk1Zd05rSkRFQkdLdDJ2d2lwVUhacWR3ZUovQlV3V3YwRlhsMW1RYXVuNnBJTDRpWUlrMUltWGpGbU5qV1RhYXJhWGd1MmlqdFd0dVRrdVVUd3haSnNISDU4T0hmb2ZNVzN4cTRwQy8iLCJtYWMiOiI4MjJkZTc5MGQxMDU4MmYxMjBmN2ZkZjY4MDI1NGI3OGM2NzYxYTE2NmNmNTlkZDgwMzMwMmZlZjU2YzE0OTllIiwidGFnIjoiIn0%3D; expires=Wed, 21 Jan 2026 15:09:51 GMT; Max-Age=86400; path=/; httponly; samesite=lax",
+            "server": "cloudflare",
+            "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "zsrv": "n2",
+            "access-control-allow-origin": "https://www.portalzuk.com.br",
+            "access-control-request-method": "GET",
+            "access-control-allow-methods": "GET",
+            "content-encoding": "gzip",
+            "cf-cache-status": "DYNAMIC",
+            "vary": "accept-encoding",
+            "strict-transport-security": "max-age=15552000; preload",
+            "cf-ray": "9c0f7ecdf8b98bfa-GRU"
+          },
+          "url_final": "https://www.portalzuk.com.br/leilao-de-imoveis",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2314,
+        "tamanho_bytes": 746981,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "<script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBKAf73d_xTAxHKE-BFWedePaPaGds680k&loading=async&callback=initMapFake\"></script>\n\n\n<!DOCTYPE html>\n<html lang=\"pt-br\">\n<head>\n  <script type=\"text/javascript\">\n  var asseturl = \"https://cdn.portalzuk.com.br/\";\n    dataLayer=[{\n            'userId':'',\n            'emailHash':'',\n            'phoneHash':'',\n            'userProvidedData': {\n                'sha256_email_address': '',\n                'sha256_phone",
+          "url_final": "https://www.portalzuk.com.br/leilao-de-imoveis"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8733,
+        "tamanho_bytes": 776133,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 7850,
+          "content_preview": "Leilões\nVendedores\nMais\nFale Conosco\nIndique o Leiloeiro\nCadastre-se\nLogin\nLeilão de Imóveis\nLeilão de Imóveis Online\nLeilões ao vivo - Auditório virtual\n\nLocalização\n\nPalavra-Chave\n\nTodos os imóveis\nResidenciais\nComerciais\nRurais\nTerrenos\nConsórcios\nUF (1065)\nAL (2)\nAM (10)\nBA (20)\nCE (49)\nDF (11)\n"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8765,
+        "tamanho_bytes": 776394,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 7850
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 517,
+        "tamanho_bytes": 746949,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.517848,
+          "size": 746949
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Sold",
+    "url": "https://www.sold.com.br",
+    "timestamp": "2026-01-20T12:10:53.738228",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1355,
+        "tamanho_bytes": 68503,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:10:26 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "content-encoding": "gzip",
+            "set-cookie": "site_version=cloudfront; Path=/; Max-Age=86400; HttpOnly; SameSite=Lax, __cf_bm=UAom.CuDBN1.P5eu5IHioLpwuvtm.C5AruMX2iLzeqg-1768921826-1.0.1.1-wei8xqax9z8jyo.XDgR6V5Qx3RT4w3JDGmpJLRX031JD6hiCdwUJUupUi1BD5lFvk.ASJTd6jMSjcHCfetZBwrdcmgiSzOU58nXzp_XLCfE; path=/; expires=Tue, 20-Jan-26 15:40:26 GMT; domain=.sold.com.br; HttpOnly; Secure; SameSite=None",
+            "vary": "Accept-Encoding",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "expect-ct": "max-age=86400, enforce",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "server": "cloudflare",
+            "cf-ray": "9c0f7fa4b831af14-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.sold.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1444,
+        "tamanho_bytes": 69010,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "<!DOCTYPE html>\n<html>\n\n<head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link\n        href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap\"\n        rel=\"stylesheet\">\n    <meta name=\"viewport\" content=\"width=device-width, initia",
+          "url_final": "https://www.sold.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 7214,
+        "tamanho_bytes": 77087,
+        "erro": "CAPTCHA",
+        "detalhes": {
+          "bloqueio_detectado": "CAPTCHA",
+          "tem_conteudo": false,
+          "texto_tamanho": 0,
+          "content_preview": ""
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 11646,
+        "tamanho_bytes": 75701,
+        "erro": "CAPTCHA",
+        "detalhes": {
+          "bloqueio_detectado": "CAPTCHA",
+          "tem_conteudo": false,
+          "texto_tamanho": 405
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 535,
+        "tamanho_bytes": 69010,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.535632,
+          "size": 69010
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BLOQUEIO",
+    "recomendacao": "Cloudflare bloqueando - considerar proxy residencial"
+  },
+  {
+    "nome": "Frazaoleiloes",
+    "url": "https://www.frazaoleiloes.com.br",
+    "timestamp": "2026-01-20T12:11:29.750982",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 1226,
+        "tamanho_bytes": 2023,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:10:58 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=15",
+            "set-cookie": "__goc_session__=ntlhoqaulqbybxkqinutwyevphlbnynf; expires=Tue, 27-Jan-26 15:10:58 GMT; SameSite=Lax; path=/; secure; HttpOnly",
+            "server": "gocache",
+            "x-gocache-kpi-botmitigation": "0",
+            "x-gocache-kpi-firewall": "0",
+            "x-gocache-kpi-waf": "0"
+          },
+          "url_final": "https://www.frazaoleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1831,
+        "tamanho_bytes": 18674,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "content_preview": "U/,$��>\\Er��C@U`�n�u\\��U6���wD/�y��m|\u000f%�J�1�\u000b\u0018�q�M\u0003v\u000fo�HI\u0005�]R�U\u0012��u�۾�~��4,�W�wef�w��%i\n�=iXB����Gz��KQ���a\ff�\u001f\u0003`�\u0001q\n+\"��}��\u0005�2+���g\u0016��b���\u0016I냆O��\u0014�\u0010ʱ\u0007 �u&\r�Aâo�a�0��,S鈣3��Ix�Q��U��\u0007��\u0019�\u0005���\u0001%�\u0016����$�F&$�FwA�,$\n!K��[�0��\u001cS��<�d^\u0007���M�bU��l�\u001a�6\u0005\u0002$�HY�{\fU�ی�$\n(h;[b�����<�Xaa�1\u0019KI�o�b�\bx���:\u0013������H�$M��\u0007t��\u0011\u0010���ܦ�wa�\u0012}�nH����O�U�\u0000\u0000N�t4\u0001�\u001fܷ�fC�N\u000bb��&��\u0015��\u0005\u0000\f����t��� � \u0013�B\u0003����\u001a�?\u001e1\u0016�\u0014̸�\u001f��\u001f��I}�\u0010\u0014\u001c���z�=\u0017\u000647�p\u001f�\u000b\u0014\u00068l@�\u0017�\u000b8�r�\u000b\u000f�?ǽO\u001fVneõ敊G�\u0012M*��Ka�⠠@��$k��\u0011�h\u000f̍�UA��z7`\u001fw�Љ�V�R*7\u001d�\u000b���P�s{]\u0018R4��",
+          "url_final": "https://www.frazaoleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8693,
+        "tamanho_bytes": 450200,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 12935,
+          "content_preview": "Agenda de Leilões\nLeilões\nBlog\nFaça login\nCadastrar-se\nPesquisa avançada\nTodos os Leilões\nApartamento\nCasa\nComercial\nRural\nTerreno\nVeículos\nEquipamentos\nImóveis\nTelefonia celular\nSucata\nDiversos\nInformática\nUF\nBahia (5)\nCeará (8)\nDistrito Federal (2)\nEspírito Santo (2)\nGoiás (20)\nMaranhão (1)\nMinas "
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8768,
+        "tamanho_bytes": 450200,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 12935
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 3301,
+        "tamanho_bytes": 273456,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 3.301098,
+          "size": 273456
+        }
+      }
+    ],
+    "diagnostico_final": "REQUER_JAVASCRIPT",
+    "recomendacao": "Site requer JavaScript - usar Playwright"
+  },
+  {
+    "nome": "Lancejudicial",
+    "url": "https://www.lancejudicial.com.br",
+    "timestamp": "2026-01-20T12:12:09.658813",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 3357,
+        "tamanho_bytes": 304561,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:11:36 GMT",
+            "server": "Apache/2.4.66 (Debian)",
+            "x-powered-by": "PHP/8.3.30",
+            "set-cookie": "_csrf=2371d214efbd1103377f6512dfc43eac502b44c409ff35db46b19b9b1d7ddd0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tAbwKAbA--kGyRaXy0Ph8BtVpAS2tpb8%22%3B%7D; path=/; HttpOnly; SameSite=Lax",
+            "vary": "Accept-Encoding,User-Agent",
+            "content-encoding": "gzip",
+            "x-ua-compatible": "IE=Edge",
+            "access-control-allow-origin": "*",
+            "cache-control": "no-transform",
+            "x-frame-options": "ALLOWALL",
+            "content-length": "33288",
+            "content-type": "text/html; charset=utf-8"
+          },
+          "url_final": "https://www.grupolance.com.br/",
+          "redirects": 1
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2572,
+        "tamanho_bytes": 304561,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "<!doctype html>\n<!--\r\n\r\n  /$$$$$$  /$$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$        /$$        /$$$$$$  /$$   /$$  /$$$$$$  /$$$$$$$$\r\n /$$__  $$| $$__  $$| $$  | $$| $$__  $$ /$$__  $$      | $$       /$$__  $$| $$$ | $$ /$$__  $$| $$_____/\r\n| $$  \\__/| $$  \\ $$| $$  | $$| $$  \\ $$| $$  \\ $$      | $$      | $$  \\ $$| $$$$| $$| $$  \\__/| $$      \r\n| $$ /$$$$| $$$$$$$/| $$  | $$| $$$$$$$/| $$  | $$      | $$      | $$$$$$$$| $$ $$ $$| $$      | $$$$$   \r\n| $$|_  $$| $$__  $$| $$  | $$| $$____/ | $$",
+          "url_final": "https://www.grupolance.com.br/"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 8797,
+        "tamanho_bytes": 308943,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 15669,
+          "content_preview": "Categorias\nAgenda\nCatálogo\nInstitucional\nINDICAÇÃO\n3003-0577\n Auditório\nCriar conta\n Entrar\nPrevious\nNext\nEncontre seu leilão ;)\n Mapa\n Imóveis\n Veículos\n Diversos\n Texto Livre\nESTADO\nTodos\nAC (3)\nAL (11)\nBA (3)\nCE (3)\nDF (1)\nES (2)\nGO (1)\nMA (1)\nMG (25)\nMS (1)\nPA (1)\nPB (2)\nPE (7)\nPR (2)\nRJ (40)\nRN"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 9529,
+        "tamanho_bytes": 309120,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 15669
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1294,
+        "tamanho_bytes": 304562,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 1.294325,
+          "size": 304562
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Leiloes",
+    "url": "https://www.leiloes.com.br",
+    "timestamp": "2026-01-20T12:12:48.995003",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 2351,
+        "tamanho_bytes": 6833211,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:12:15 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "set-cookie": "SERVERUSED=464acf8fc2c7f895; path=/",
+            "x-azion-request-id": "4258758f5668845b1396894d5048a25b",
+            "x-azion-edge-location": "CWB"
+          },
+          "url_final": "https://www.pestanaleiloes.com.br/",
+          "redirects": 1
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1409,
+        "tamanho_bytes": 5633,
+        "erro": "BOT_DETECTION",
+        "detalhes": {
+          "bloqueio_detectado": "BOT_DETECTION",
+          "content_preview": "<!doctype html><html lang=\"pt-br\"><head><meta charset=\"utf-8\"><meta name=\"fragment\" content=\"!\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=11\"><meta name=\"theme-color\" content=\"#009E8E\"><meta name=\"msapplication-navbutton-color\" content=\"#009E8E\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#009E8E\"><meta name=\"mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-ap",
+          "url_final": "https://www.pestanaleiloes.com.br/"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 10902,
+        "tamanho_bytes": 405653,
+        "erro": "BROWSER_CHECK",
+        "detalhes": {
+          "bloqueio_detectado": "BROWSER_CHECK",
+          "tem_conteudo": true,
+          "texto_tamanho": 8568,
+          "content_preview": "CADASTRE-SELOGIN\nCONTATO\n\n  Destaques\n\nQuero Comprar\nQuero Vender\nBlog\nInstitucional\nÁrea do Arrematante\nTrabalhe Conosco\nBusque oportunidades de negócio\nCategoria: Veículos (453)\nLocalização: Todas\nTipo: Todos\nOrigem: Todas\nFiltrar\nBUSCA POR TEXTO\n AGENDA DE LEILÕES\nLotes em destaque\nTodos\nVeículos"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 14022,
+        "tamanho_bytes": 1817988,
+        "erro": "BROWSER_CHECK",
+        "detalhes": {
+          "bloqueio_detectado": "BROWSER_CHECK",
+          "tem_conteudo": true,
+          "texto_tamanho": 8806
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 642,
+        "tamanho_bytes": 5633,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.642465,
+          "size": 5633
+        }
+      }
+    ],
+    "diagnostico_final": "ANTI_BOT_FORTE",
+    "recomendacao": "Anti-bot forte - considerar undetected-chromedriver"
+  },
+  {
+    "nome": "Milanleiloes",
+    "url": "https://www.milanleiloes.com.br",
+    "timestamp": "2026-01-20T12:13:44.334764",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 923,
+        "tamanho_bytes": 7009,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:12:53 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+            "cf-mitigated": "challenge",
+            "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+            "cross-origin-embedder-policy": "require-corp",
+            "cross-origin-opener-policy": "same-origin",
+            "cross-origin-resource-policy": "same-origin",
+            "origin-agent-cluster": "?1",
+            "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+            "referrer-policy": "same-origin",
+            "server-timing": "chlray;desc=\"9c0f833f1fdce638\"",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare",
+            "cf-ray": "9c0f833f1fdce638-GRU",
+            "content-encoding": "gzip"
+          },
+          "url_final": "https://www.milanleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 1306,
+        "tamanho_bytes": 5218,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "\u0013�\u001f\u0000d��\u0016�}/'�~��M\u0013�=�Y\u0004H D\u0010 \u0010�@�GN]=���+䤪ա!@�ɀP\u0011�~m�\u00105�ER��d����3J��5X~��\u0006�}b�d\u0002b��'\u001d�r�ɿ���x��_��\r�Ϙ�%�u����\u001fFޫ\u0000A�(b\"�Dp\f��U�u\bS�\u001f��݃<\u000f\f�l��.\t�B�\u0000����\n|\u001f�S�n\u0016���^7M=X-�S�\u0004���3}[Q����U|\f�_�od���������\u001d4�ǐ�Y�|����:V��'�\u0015_��'\u001d��e/\u0002\u0002!���\u0002�\"\u001b?F��\u001fC��\u000f?ʧa�D`��\u0002iO\u0018�!\u0018��T�+��>����o�\u0012|\bjx?�Y](~h޾���\t�\u0006\u001c\u001e���h�flޏ\"(g0f�P�\u0004��l����Qm��`��p\f�w�~d۶\u0004\u0007�)�� TM�\u001d�r>��[\u00154�\u0011\"�S�3\nv�\u0003ǈK�~�%X?�=<��q\u001dFO���~UY�q��\u0007����p1�߶���Au𧱱�\u0001?J\u0010��\bD������1e>I�\u0007՟���\u0006��_�gy���@�p���\r��\u001fc�~�=����R�\u0015\u001dP\bE\u0001\u001c�{�v�\u0013�\u0016��\u00015$`�(\u0005�\u0001�^\u0000�˟?�\u0011",
+          "url_final": "https://www.milanleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 5933,
+        "tamanho_bytes": 18796,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": false,
+          "texto_tamanho": 232,
+          "content_preview": "www.milanleiloes.com.br\n\nVerifying you are human. This may take a few seconds.\n\nwww.milanleiloes.com.br needs to review the security of your connection before proceeding.\nRay ID: 9c0f835c6e561c9c\nPerformance & security by Cloudflare"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 8948,
+        "tamanho_bytes": 18877,
+        "erro": "CLOUDFLARE_CHALLENGE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE_CHALLENGE",
+          "tem_conteudo": false,
+          "texto_tamanho": 266
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADED",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 15508,
+        "tamanho_bytes": 18919,
+        "erro": "SEM_CONTEUDO",
+        "detalhes": {
+          "tem_conteudo": false,
+          "texto_tamanho": 266,
+          "screenshot": "logs\\diagnostico_acesso\\headed_www_milanleiloes_com_br.png"
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 196,
+        "tamanho_bytes": 7307,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "status": 403,
+          "time": 0.196008,
+          "size": 7307
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BLOQUEIO",
+    "recomendacao": "Cloudflare bloqueando - considerar proxy residencial"
+  },
+  {
+    "nome": "Bestleiloes",
+    "url": "https://www.bestleiloes.com.br",
+    "timestamp": "2026-01-20T12:14:36.178760",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": 410,
+        "tempo_ms": 1824,
+        "tamanho_bytes": 1055,
+        "erro": "HTTP 410",
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:13:49 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "server": "cloudflare",
+            "cf-cache-status": "DYNAMIC",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "x-content-type-options": "nosniff",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ynEQr0joTJ4MNrucwKaQ2b0%2FT9Xx%2BbISyuV43ISlMbdNcf9jrWMeC%2Bfj49uRV1%2FU%2BpkMtvtQYqsTzD%2Bod9UKNuR6hh14Xztsll2qMnz6UqffK9twLay5fxOdcbcab5c1t%2Bg%3D\"}]}",
+            "cf-ray": "9c0f849cefe75b62-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.bestleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2927,
+        "tamanho_bytes": 9695,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "[�\"\u0011EU퇘��\u000f�F����g�\u001e��,]���T�b�o�]cur�aʘ�1c����\u001f�ӭ�m�Z2�����X��My\u0015��qi��+�p�Ǝ؍F���\u0015�ݕ3�l\u0003h쎞��f��W\u0017}�+H�D�\"e\n�Q����Lm�\u0015\u0002\u0012�\u0002����NK\u00074��w\u001f�\u0006�@\u0005ҺI+�\nF������\u001f�Q�V�K����J#��\u0015�c�zxΙ�3`�w��M�F�\u001d\u0007�]A#�͞����l\u0013��\n|QMdj\"�\u0016]\u0014�-�����U\u0019��k{�\u0007�X\u0010\n�d8�*HZ\u0006a���\u0018\u0001�'\u0007��+�ѫ�|�m\u001cK�m\u001cv\n0*ɝ%�����^�r��fvQX��+,)\u001e9�\u0017�>㨇5aG�\u000fcf3�4��`�F�\u0007�4˅\u001b+\u001d8\u0000�_>���\"�������?��\u0017YؠAX��Sv�RI��H�twY�R[`�ȵ\u0005*C�Ps�\t\u0014�\t��\u0004�d��s�\u0006�\n�'g��]\t\u001f�5�\u0016�\rh�\\dX\u0002B�������T��ѐ�\n\r�0M\rU0�[�p�&�\u0016� ��L&�\u0006�pv3KV3�:\u0005�\u0012�y����\b��r\u0016�q��{�\u0003�t��:Y���� ��ڑFԠ���\u0004eP��\u0002\u001b��%",
+          "url_final": "https://www.bestleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 8304,
+        "tamanho_bytes": 75982,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 6545,
+          "content_preview": "CADASTRE-SE  LOGIN\nLeilões\nQuem Somos\nComo Participar\nContato\nImóveis\nVeículos\nDiversos\nVER TUDO\n BUSCAR\nLEILÕES ATUAIS\nLEILÕES ENCERRADOS\nVENDA DIRETA\nLeilão de Imóvel - 2ª Vara Regional de Competência Empresarial e de Conflitos Relacionados à Arbitragem da Comarca de São Paulo/SP\n\n1º Leilão: 27/01"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 9689,
+        "tamanho_bytes": 75986,
+        "erro": "CLOUDFLARE_CHALLENGE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE_CHALLENGE",
+          "tem_conteudo": true,
+          "texto_tamanho": 6545
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADED",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 9883,
+        "tamanho_bytes": 75986,
+        "erro": null,
+        "detalhes": {
+          "tem_conteudo": true,
+          "texto_tamanho": 6545,
+          "screenshot": "logs\\diagnostico_acesso\\headed_www_bestleiloes_com_br.png"
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1507,
+        "tamanho_bytes": 73926,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 1.507418,
+          "size": 73926
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Francoleiloes",
+    "url": "https://www.francoleiloes.com.br",
+    "timestamp": "2026-01-20T12:15:07.072189",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1550,
+        "tamanho_bytes": 194529,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:14:41 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "cache-control": "no-cache, no-store",
+            "pragma": "no-cache",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pUNAakgN7v1uaRIG5sL5wALxpj7Qd4wcZJgInLFQrKOoq5pOmQ%2BYVwYqBCUmaGhzPiY%2BgNS1CIlwEEBtZ2GLm1Itg87zhlrfhiYS%2B1HV1Paoiv%2FbQU3zxH1GHa1IF%2Fq2JSg%2FLA%3D%3D\"}]}",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare",
+            "set-cookie": "CookiesKeyPreviewTheme=; expires=Wed, 21 Jan 2026 03:14:37 GMT; path=/; secure; httponly, WCL.Atf=CfDJ8DszJmsUi8BBnw3b1pUXjvEbjV1f2UTXnFW_ahuj0da3qV-mgMgD8vCasRrxMJWN4249K7rtTbKizLfT0NVhdD9ueIvDuI2SXMOTjvPdVuMaOYJ0i21eYvxg_xVjPdF99QEDJ6Y1NRxMvYzn-UhCgyw; path=/; secure; samesite=strict; httponly",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "0; mode=block",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-security-policy": "default-src 'self'; connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';",
+            "referrer-policy": "strict-origin",
+            "feature-policy": "accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment *; usb 'none'",
+            "cf-cache-status": "DYNAMIC",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f85e05cdb3183-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.francoleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1347,
+        "tamanho_bytes": 28247,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "\u000b�?QT�~\b�F�����f��{�9�=�R)\u001a�\u0005�v�|\b�R�*d\u0012'8q�`;\t�f���\u001eN�u.T3{��ߡC�rC���:�\u0010!\u0012� �3�;�SW��vS��*}d$\u0019s2\u0004>\u0015�FD\u0018���ş�\u0015�p.�$f�F,u�~�3��\u0007@s��x�Bw�8@\u001f�\u0017 P@F�\u0004IF��ȔO�F�T���XU��w�n�  *��P*\u0001��\u0015\f�!=}�.�J,�+�/Wb��\u0001F\u000e��/O\u001d+�����\u0013\u0000\u0000|\u000f��z�=\b,M%�.�+@k�x�$�\u00147{\u001cE6\u0003\u0013L��a\u0001~>ܴ�8�&�\b�\u0001�I�6JPJq-�\b��T���z\u0015@~}\u0014\u0012!�\u00008\u00044bW\r#/Ä35)2\u0000:��o%�/'��\n�5)���D�\u0010G�\u0015��\u0004�\u00132�\u0019ad�$��M\n`��N��\u0011ŦQ\u0000��|�\u001a�3�fĔ��]����\u001a�����}/��|2��q�\u0014[��`��=�g'1E\u0012������\u00131����F,�T�Z'\b,\u001c\u000f\u0000\u000e\u000e�����O��\u001eG\t�\b��#\u000er0���;\f�x/ �|\"\u0017)c�iY��\"A���\u001cL1���6\u000b�3�fQ\u0012S�(y�a/��\u0007�r�\n\u001b�",
+          "url_final": "https://www.francoleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 7102,
+        "tamanho_bytes": 295360,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 4936,
+          "content_preview": "Login | Cadastrar \nQUEM SOMOS CONTATO DÚVIDAS\nBusque pela localização do imóvel\nEstados\nTodos\nBahia\nCeará\nDistrito Federal\nGoiás\nMaranhão\nMato Grosso\nMinas Gerais\nPará\nParaná\nPernambuco\nPiauí\nRio de Janeiro\nRio Grande do Norte\nRio Grande do Sul\nSanta Catarina\nSão Paulo\nSergipe\nCidades\nTodas\nÁguas Li"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 8041,
+        "tamanho_bytes": 295373,
+        "erro": "CLOUDFLARE_CHALLENGE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE_CHALLENGE",
+          "tem_conteudo": true,
+          "texto_tamanho": 4936
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 214,
+        "tamanho_bytes": 194529,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.214594,
+          "size": 194529
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BLOQUEIO",
+    "recomendacao": "Cloudflare bloqueando - considerar proxy residencial"
+  },
+  {
+    "nome": "Freitasleiloeiro",
+    "url": "https://www.freitasleiloeiro.com.br",
+    "timestamp": "2026-01-20T12:15:37.264231",
+    "dns_ok": true,
+    "ssl_ok": false,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": null,
+        "tempo_ms": 1131,
+        "tamanho_bytes": 0,
+        "erro": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)",
+        "detalhes": {
+          "exception_type": "ConnectError"
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": null,
+        "tempo_ms": 1093,
+        "tamanho_bytes": 0,
+        "erro": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)",
+        "detalhes": {
+          "exception_type": "ConnectError"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 7511,
+        "tamanho_bytes": 376127,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 11492,
+          "content_preview": "Início\nAgenda\nOrganização\nCadastre-se\nContato\nServiços \nLogin\n      \nLOGIN\nNova senha\nCadastre-se\nPesquisar oportunidades por categoria\nVeículos\nImóveis\nMateriais\nLeilões em destaque\n VEÍCULOS\n IMÓVEIS\n MATERIAIS\n terça-feira\n20/01/2026 10:00 - PÁTIO UTINGA\n Ao Vivo\n123\n20/01/2026 10:00\nHYUNDAI/HB20"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 9236,
+        "tamanho_bytes": 1655504,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 11492
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 823,
+        "tamanho_bytes": 61828,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.823989,
+          "size": 61828
+        }
+      }
+    ],
+    "diagnostico_final": "REQUER_JAVASCRIPT",
+    "recomendacao": "Site requer JavaScript - usar Playwright"
+  },
+  {
+    "nome": "Sodresantoro",
+    "url": "https://www.sodresantoro.com.br",
+    "timestamp": "2026-01-20T12:16:00.548562",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 1272,
+        "tamanho_bytes": 10353,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "headers_resposta": {
+            "server": "azion webserver",
+            "date": "Tue, 20 Jan 2026 15:15:42 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "x-azion-request-id": "22469c649e8cce1eef9ebc000c77bc46",
+            "x-azion-edge-location": "CWB"
+          },
+          "url_final": "https://www.sodresantoro.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1307,
+        "tamanho_bytes": 48678,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "content_preview": "[it\u0003�m�Qqۀ��K��o\u0004���\r�t<��b��K�;�Ϳ%�j�sۖB\u001d\u001e#BUU5��ȘIk�n\u001dl� z��&8�EԠ�贬\u0018X�q݌c_VD8\f��E��elanT��R��\u000f�q�l�GǨ��X\u001d�TMN����)�M�\b�\r\r!\u0016�4��u�/�ͥpz����`\\5=�\f\u000f\u0018��\u0019��\u001d�\u001d��#%�Hq;^�[D뚐\u0006\u000f�\"��Q��B'R�\u001a{K����ĆU՜.:���\u0007M8��\u001d?�O{��j�!\u0016��\u0014�j4���wR���,��T�N��\r�PXLɱ\b�?�����/T��0��*\f�����*V���UO�@a{�`3\u0002䈻�*\u000f\u0000\u0019e(Wg��\u0011��1^�=�q��P�T>�^�\n\u001f3��jᴤl'�_�\u0019��)p\u0000��%uO�\u001e��B�t��\b�t�ע\u001f�EߵgV*a����t/�D�!z�_e���:]\u001dgf3��A�\fM�\"I�\r\u0016��#HR��u��u���\u0006d/9vO���/���{Qye\u0012�\u0002k�������߼�K�h�\\:d��0�(5$�@<��o�>�V\u0001\u001fj��\nw�\u0001n��/@�\u0011$\u001e�hr�'-�\u0016r��\u0006cs�j�jZ�#�",
+          "url_final": "https://www.sodresantoro.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 4709,
+        "tamanho_bytes": 10069,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": false,
+          "texto_tamanho": 176,
+          "content_preview": "Forbidden\n\nError Details\n\n2026-01-20 15:15:46\n\nwww.sodresantoro.com.br/\n\nYour IP\n179.116.90.153\n\nRequest ID\n3969c08cb52717e2c43d3e930c384147\n\nStatus Code\n403\n\nEdge Location\nCWB"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 6468,
+        "tamanho_bytes": 288972,
+        "erro": "CAPTCHA",
+        "detalhes": {
+          "bloqueio_detectado": "CAPTCHA",
+          "tem_conteudo": true,
+          "texto_tamanho": 10670
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 2862,
+        "tamanho_bytes": 10353,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "status": 403,
+          "time": 2.862331,
+          "size": 10353
+        }
+      }
+    ],
+    "diagnostico_final": "CAPTCHA_BLOQUEIO",
+    "recomendacao": "Site requer CAPTCHA - considerar serviço de resolução"
+  },
+  {
+    "nome": "Biasileiloes",
+    "url": "https://www.biasileiloes.com.br",
+    "timestamp": "2026-01-20T12:16:31.804011",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": false,
+        "status_code": 403,
+        "tempo_ms": 1178,
+        "tamanho_bytes": 2022,
+        "erro": "HTTP 403",
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:16:05 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=15",
+            "set-cookie": "__goc_session__=gzkswwkbtjaeugxvixfsplcphdsrwfbf; expires=Tue, 27-Jan-26 15:16:05 GMT; SameSite=Lax; path=/; secure; HttpOnly",
+            "server": "gocache",
+            "x-gocache-kpi-botmitigation": "0",
+            "x-gocache-kpi-firewall": "0",
+            "x-gocache-kpi-waf": "0"
+          },
+          "url_final": "https://www.biasileiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1607,
+        "tamanho_bytes": 16264,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "content_preview": "Ua|\u0013EU퇌H���:�&�\u0010�HY8\u001d8��aZ��z���f}�\u001e���4Ѡh��S\u0017\r�\u0001!�\u001aD5 �܊WUI�PV�R\u001eHbf\"�]ǼN��7����^�z{����\u000fI#!2\\|�6�\rQ��<\"!\n{ �\u0003Hmx�q�B�Υ��L5�s\u0005:�r��ܹ��t���B�.7\u0015���Ykv\u0017x^�\u0017\u0000�z\u000f�\be�\u0017����|PBP@r���H8���rw�\n��b�X�n�\u000b��y�곇hQ�\u000f,eh�m\u0007�}\"L�4\u001d��,̱p>��]J?�hv�X�\\�^~ao֧�V�wy�D\t�$NCǪ?a�ҥ\u0010�_���;{�\u0017C\u0006$\u001e�R���[Ĭ#f\u0007��P��}�x\u0010y������wx�^�qc\u0016E@t�qT��_�\u0018a�vO���߻�S��b��5�\u0011;gj������W�������\u001e\u0017�\u0013\u0004\u0002���}B�h\u0016\u0011a8΢,��\u001b�\u0018]o�������+5 u\r\u000b䇒}e�_\u0001\u0000��_2aΕ�5��׋�5�#�\u0003���*�-\u0011[�P-����� �����\u0001��o\u0011!lx�I�\u0002�g�Z\u0007�N�d�\u000faO%wEX�\u0013T�b@Ȭf�\u0006ȉ���\u001e;[\u0001��q�\u0005\u00028�\r�\u0000Ix�",
+          "url_final": "https://www.biasileiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 7675,
+        "tamanho_bytes": 320746,
+        "erro": "CAPTCHA",
+        "detalhes": {
+          "bloqueio_detectado": "CAPTCHA",
+          "tem_conteudo": true,
+          "texto_tamanho": 13541,
+          "content_preview": "Home\nQuem somos\nParceiros\nContato\nBlog\nCadastrar  Entrar\nSeu imóvel a um lance!\nAL (2)\nBA (17)\nCE (11)\nES (3)\nGO (16)\nMA (5)\nMG (18)\nMS (17)\nMT (10)\nPA (3)\nPB (1)\nPE (13)\nPI (1)\nPR (19)\nRJ (49)\nRN (4)\nRO (1)\nRS (44)\nSC (8)\nSE (3)\nSP (138)\nCidades\nAgudos (1)\nAraçatuba (1)\nAraraquara (1)\nAtibaia (1)\nB"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 8599,
+        "tamanho_bytes": 320726,
+        "erro": "CAPTCHA",
+        "detalhes": {
+          "bloqueio_detectado": "CAPTCHA",
+          "tem_conteudo": true,
+          "texto_tamanho": 13541
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 719,
+        "tamanho_bytes": 228450,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.71967,
+          "size": 228450
+        }
+      }
+    ],
+    "diagnostico_final": "CAPTCHA_BLOQUEIO",
+    "recomendacao": "Site requer CAPTCHA - considerar serviço de resolução"
+  },
+  {
+    "nome": "Leilaobrasil",
+    "url": "https://www.leilaobrasil.com.br",
+    "timestamp": "2026-01-20T12:17:16.390148",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 2870,
+        "tamanho_bytes": 1254658,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:16:39 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "cache-control": "max-age=0, must-revalidate, private",
+            "expires": "Tue, 20 Jan 2026 15:16:39 GMT",
+            "set-cookie": "PHPSESSID=dc99bd84cabc4a24236f16502e0683a7; expires=Tue, 20-Jan-2026 16:16:39 GMT; Max-Age=3600; path=/; httponly; samesite=lax",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BqZcVF0DVaaWtUC8DKwp0up6XsZI0fX%2BFvjNpZUDp4G9RO4%2BRTdgAID%2BjprwGm2qi08Bt3mDsNwajp%2BpQ3UcCJdbq7X0%2BAhdMrwNRI6Kcc8HrBSeyfJg6E2uzcC3tK7r3YX8\"}]}",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "cf-cache-status": "DYNAMIC",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f88bdb9e0f173-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.leilaobrasil.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2626,
+        "tamanho_bytes": 66941,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "\u000b\u0005G\u0011\u0015�\u001f\"���\u0003���p��\b\u0019��_U��M��\u001bd�'0���H��Ia�\u000b�\u0013� 1\u000b\u00024\u0000J��\u0015�Ruݕ��e\u0019�����=�{嶤��;�\u0012H\u001e�\u0006Hr�~�.�B\u0002\u0019O��|��P�]-\u0006�xr\f���VUW�?�G�j\u0003�\nX\u0003��Qg�(<\u0015�]dT^����ʞ\u0005\bgm�6�B����2BD=�}�N�����������t�����8,\u0013\u0000�0P�N�\u001e�b����\u0004��}�#��I\u001f��+�dc����Iv���Ł�\u0014j8\u0001�=�\u0016��\u0005�&��,\b4T�\u000b� �6S �V\u0016[C�u�*�\u0012]�\u0016��\u0013�����9�,L��\fi�(d�\rY�sCڠk=\u0006m�\u001bZ������\u0005���\u0004\u0017�2W�\u0010[oW��H�\\�݆���Rl$_n�-e���&\u0001\u0000H��d��P����ύnC���x��\u0006�E\b9\u001a�\r�f\"\u0004�J̬B\f��\u0007\u00008�\u0007\u001d^�\u000e�\u0003�i*�<��M�lu�\u001e1\u0006o(\"���d��I�s���Z��7�\u0006�Ԣ]�⸰��\b��\u0007��T�ڻ��*��m�E��\u000el&И7\u0014{'/���\u0019�����.`�v��6��h�l�B\u0016v-?�\u0013��\u001e�",
+          "url_final": "https://www.leilaobrasil.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 10351,
+        "tamanho_bytes": 1218790,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 62376,
+          "content_preview": "Leilão Brasil\nBusca por palavra-chave\nCategoria\nTodas as categorias\nSubcategoria\nTodas as categorias\nEstados\nTodos os estados\nCidade\nTodas as cidades\nBairro\nTodos o bairros\nComitente\nTodos os comitentes\nJudiciais\nExtrajudiciais\nFaixa de valor\nR$\naté\nFaixa de valor\nR$\nPesquisar\nCategorias\nVeículo\nMot"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 11311,
+        "tamanho_bytes": 1218780,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 62376
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1696,
+        "tamanho_bytes": 1254658,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 1.696719,
+          "size": 1254658
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Allianceleiloes",
+    "url": "https://www.allianceleiloes.com.br",
+    "timestamp": "2026-01-20T12:17:53.126295",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1614,
+        "tamanho_bytes": 352417,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:17:21 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "vary": "Accept-Encoding",
+            "set-cookie": "ALLIANCESESS=0r616o5gi2c6ofad06cs3oqqb2; path=/; HttpOnly",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "pragma": "no-cache",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=PVzmXIc%2F6LXwXyKjqCE%2FZoKGXotP853Hqy3JCvat6g9lvq5CIGizQuOmW7jAtlb2F3Iwo4WemhjPSi9TuLtCdaLLQYeAJLSrZCrTBzDloBPP7lxrazrqVJf74K%2BrO%2B3Ae7suApZC\"}]}",
+            "cf-cache-status": "DYNAMIC",
+            "strict-transport-security": "max-age=2592000",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f89ca6bd8f1ab-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.allianceleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1431,
+        "tamanho_bytes": 17188,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "\u000beWDT�z\u0000\u0014!����{^��pßt���rV�h���We�7�>\u0002O\u0014� @\u0003�JZ�{n��z*�\u0018�߯�Y>@�%��\u0001\n\u001b��q���\u0012�,��\u0000�����Ed��\u0013i¤�L��g\u0003�2��YR�8~\f��~/ODLj2\u001bÔ�fR�\u0013A�vC\\�����᫮r\u001a��]�\u0007��\u0017g�������r���[���4���\u000e��\u0017�,�LQcG�\u0000�@\u0000��k��D�\tnI��?�\u0015��Dǽ��=��\u001d�1z��\u0014��QW�+c�RѥQ�\u001a�\u000f�8��R�nU��g�����W�:�HElO\rþg\u001c{l\u0014\u000e%�P�����\u0007�\u001a���cA�)P\u0006�i �\u0012j�}�Pl�\u0012�.$�\u0007\u0019���ٮ���`*�]�`���\u0010s\u001c\u0015M�\u0011�����y�6�O�!R߃�\u0002�8m���\u001dz&�\u0013\u0017�{R�o��j�\"j��ї���x\\�n/f��4�:|c=������j��=�/n�\u0005s�\r:��k�WQ���C�s\u0017)�ʐ\u000b����nU������Ɣ��`IM\u0003ɍ\u000eJl/�6\u0012��z3�-��h�$9돕v��8\u0012�\n\t\u000b\u0012�4MnK�\u0003��'�?��ac�w�bυ��\u001a��",
+          "url_final": "https://www.allianceleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 9504,
+        "tamanho_bytes": 345478,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 18843,
+          "content_preview": "FAÇA SEU LOGIN\n\nENTRAR\nESQUECI MINHA SENHA\nNOVO CADASTRO\nHOME\nQUEM SOMOS\nDÚVIDAS\nINDIQUE-NOS\nFALE CONOSCO\nBusca personalizada\n\nLOCALIZAÇÃO DE IMÓVEIS\n\nUF\nSP(3)\nCidade\nTipo de imóvel\nVeículos\nImóveis Residenciais\nImóveis Comerciais\nIndustriais\nEmbarcação\nTerreno\nVaga de Garagem\nDiversas Peças\nImóvel "
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 9133,
+        "tamanho_bytes": 345477,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 18843
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 457,
+        "tamanho_bytes": 352416,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.457647,
+          "size": 352416
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Depaulaonline",
+    "url": "https://www.depaulaonline.com.br",
+    "timestamp": "2026-01-20T12:18:36.514506",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 2432,
+        "tamanho_bytes": 138637,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:17:59 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "cache-control": "max-age=0, must-revalidate, private",
+            "expires": "Tue, 20 Jan 2026 15:17:58 GMT",
+            "server": "cloudflare",
+            "cf-cache-status": "DYNAMIC",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "strict-transport-security": "max-age=15552000; preload",
+            "x-content-type-options": "nosniff",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AdJz3g%2BUhi5j1g4rBiZ5WflVOANF%2F41ywq8ksMWRGThVVWLRGxRXkRtj6T6jkEi90iGvBKZ2QY5%2Fd%2F64c%2FyukdB83ksgNx9mAF9LaxnHOsYj9qj5yJUuoxYN2BII8zP8fWWbMg%3D%3D\"}]}",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f8aaf59f06221-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.depaulaonline.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2290,
+        "tamanho_bytes": 12213,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "��/\u0000�լ�;�~s�Zo�Ox�*3+;ݻR\u001b�ơH�\n\u001a\u0010`\u0013���g����]\u001fmt��S��}k}�\u0003�\u0016P%6.JtO����\u0010���gwgg\u000f\u0000Hň\u0003Va6z!a���;\u0019u�\"l�ɋ�ǘ���+�\"\"�\u000e�\t�~�h���p��\u0007X\u0015�L�^\u0017�G\u0000\u0000�Cr�}������o�ݼ*&�'����<��}��ê\u0000���.Ϋ����u[�B7�\u000enU��n\t�d�[\u0005d�\u0012�����\u0006�b%6i����MO����V1�ɉ���(��\u0016��\u0004 \u000e���1n��#�\u001f�1!�]J�����N2\u0001!�\u0012^yy���u��\u001bwWve.C���E����\u0017�W���/~���E�\u0015���{���v\u001ep\u000e���N�4�b�;�8�ػ�n���\u0017\u0007;A�J�ُAU�<��U�=��|\\va\u0015\u001e��:;�k��MG�\u001e}\u001dVG߄����-\u001e?��W�w�[�S�r\u0015]1D�������p\u001bUMf�\u001d^��. !�{�����\u001b�M\u0017\u0016=b�b�ܖ���c��\u001f?���\u001d�]j���sI1b˗G(��{{C>�=�ě�!5*\u0006DR��e�\u0013'��\u0001\u00004�Ko�����\u0017\u000e^�}",
+          "url_final": "https://www.depaulaonline.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 10292,
+        "tamanho_bytes": 90458,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 9073,
+          "content_preview": "De Paula Leilões\nAvançado\nMeus Favoritos\n0 bens\nCadastro\nLogin\nHome\nLeilões\nQuem Somos\nDúvidas\nContato\nBUSCA AVANÇADA\nCategoria\nImóveis\nTerrenos\nVeículos\nAcessórios para Veículos\nMáquinas\nImplementos\nInformática\nFitness\nVer mais\nCategoria\nImóveis\nTerrenos\nAcessórios para Veículos\nMáquinas\nFinalidade"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 10603,
+        "tamanho_bytes": 90508,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 9073
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 929,
+        "tamanho_bytes": 138637,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.929593,
+          "size": 138637
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Superbid",
+    "url": "https://www.superbid.net",
+    "timestamp": "2026-01-20T12:19:13.408277",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1950,
+        "tamanho_bytes": 2356623,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:18:42 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "content-encoding": "gzip",
+            "set-cookie": "site_version=exchange; Path=/; Max-Age=31536000; HttpOnly; SameSite=Lax, __cf_bm=bCidXiamnMyxpBWsz3BHMfr8UlgHrxq8.kZtB00Je_I-1768922322-1.0.1.1-RIo.0VPGuHasVvTDdF5s1zeWN3WWhqo7L7m81sapvfxUH8Vk5Fv2sMU5RyfBkcNDP7crBpAUJ4ePtS3NPpWHvW7bwediBzgmh7JllWykanE; path=/; expires=Tue, 20-Jan-26 15:48:42 GMT; domain=.superbid.net; HttpOnly; Secure; SameSite=None, _cfuvid=78qczpMqprXxpQM_6T1KYL5tlMVb5rTpFAZzEMNWV6A-1768922322159-0.0.1.1-604800000; path=/; domain=.superbid.net; HttpOnly; Secure; SameSite=None",
+            "vary": "Accept-Encoding",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "expect-ct": "max-age=86400, enforce",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "content-security-policy": "Content-Security-Policy: frame-ancestors 'self' https://*.superbid.net;",
+            "server": "cloudflare",
+            "cf-ray": "9c0f8bbf68d5f213-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.superbid.net",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1531,
+        "tamanho_bytes": 315439,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "#W�\u0010EI���\u0011U�\u001fVEj�\u000f\u0001�����W���!�q=ߣ���}/'~\u0007\u0001��M�]�=�n�S&�,\u0016\u0001�\"3�DE�m%��\u000e����\u001eN����k�:\u0003��\u000eN�3$\u0014�\u0002��J�cm��\u0000<p�\u0002\t~����M��q�Ty\\Tk����A$�Iن��#��\u0007Y\u001fK�\u001a��s�\r� 0d04\u0001��\u0000��\u0001>�]���\u001e޼\u0019����\u0002�\u001d��i\u0007C�]\u000f.)�!cL���~$�*\t�� R�P��*�\\q�P�H?�T\u0005��llֲi@�1\t\u001a\u0013��\u0007��\u0004�w\u0005���>'\u0006�H@���߿�2�<���*K�@dO6�C���1��R�\n�i\t-��!����5!\u0004\u001e+�~�\u000f\u0013�%�?�����\\v{\f���s$ED�A��1Ԋiom��ā�\u000f��0\u0007��V�8\u00108�?�Z�����2J\fA\u001c�\nz��\u0005{?�]Y����������&���FW�t�\u001a�)��x��$ΞOd�Z:�;���?J׽���(ݻn:Xv\u001e��h�G\u0011�\u0005h\\1\u001d\u0018]E��|�x4Z�����o\"\u000b6�\\7����qE��Si����4�S(]؎��G��/s��z\u0000t;\u001d�R�n\u0000���\\",
+          "url_final": "https://www.superbid.net"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 10853,
+        "tamanho_bytes": 2685671,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 23914,
+          "content_preview": "Ao vivo\n3ª VARA DA COMARCA DE I...\n\nTERRENO EM ITACOATIARA-AM...\n\nAo vivo\n3° LEILÃO DE EQUIPAMENT...\n\nAo vivo\n3ª VARA DA COMARCA DE I...\n\nTERRENO EM ITACOATIARA-AM...\n\nAo vivo\n3° LEILÃO DE EQUIPAMENT...\n\nAo vivo\n3ª VARA DA COMARCA DE I...\n\nTERRENO EM ITACOATIARA-AM...\n\nAo vivo\n3° LEILÃO DE EQUIPAMEN"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 12588,
+        "tamanho_bytes": 2752941,
+        "erro": "CLOUDFLARE_CHALLENGE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE_CHALLENGE",
+          "tem_conteudo": true,
+          "texto_tamanho": 21686
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 938,
+        "tamanho_bytes": 2356623,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.938622,
+          "size": 2356623
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BLOQUEIO",
+    "recomendacao": "Cloudflare bloqueando - considerar proxy residencial"
+  },
+  {
+    "nome": "Vivaleiloes",
+    "url": "https://www.vivaleiloes.com.br",
+    "timestamp": "2026-01-20T12:19:43.329782",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1179,
+        "tamanho_bytes": 172311,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:19:18 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "cache-control": "no-cache, no-store",
+            "pragma": "no-cache",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yMsjdQdTp%2BWT28CrvoTGBWj6SKL8xnHZl5aIfuSW3%2FE6HhiaVwZgg6mRnHWQW3rSCPw5YLCnoWmfnhla6cTG9WQuGYyIX34rNOG3xBwuleP0KnC1afWTDHDKbMnfjFthpJE%3D\"}]}",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare",
+            "set-cookie": "CookiesKeyPreviewTheme=; expires=Wed, 21 Jan 2026 03:19:13 GMT; path=/; secure; httponly, WCL.Atf=CfDJ8HWDQcWOTmRNmRAvD1lKJVnwtmYMVRNG0dWlIkqtqoZDiuPgnF1MQDw6rsSNE8h8FtT0qABn1rhHbU6EnN0HCFr8XUhV1IjbFh1wU_8Zafejbt5YUM2AVIZThdT9VlSrtEz2U5nm77PDZkwxAucMGXg; path=/; secure; samesite=strict; httponly",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "0; mode=block",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-security-policy": "default-src 'self'; connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';",
+            "referrer-policy": "strict-origin",
+            "feature-policy": "accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment *; usb 'none'",
+            "cf-cache-status": "DYNAMIC",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f8ca288aaf19d-GRU",
+            "alt-svc": "h3=\":443\"; ma=86400"
+          },
+          "url_final": "https://www.vivaleiloes.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1333,
+        "tamanho_bytes": 26066,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "��?\u0011U�\u001f\u0002���p�~�.���3)z%�����\u001d/ه�u�;��\b\u0010XX �\u0004����5��Q��Mպ��\u001e��yJ�\u0000B!H06�\"{��m��\u0004H#\u0001�\u0015��5�v�~:��߯ԧ d���Ȗ�z��/���)�\u00167<����߽��7�\u0010F:��\u0004\b$�Q3�)\u0007d\\WVF�hSRb\u001fC�\\���5q  \"�U�\u0012����s\u001e��W�\t�-ᒓ�}�\\���G\bz���Rڰb�_J/%\u0000\u0000�\u0019!~���`�\u001bo\u0019���\u001bP>B�\f�9A\u001f{�C0C����!����X�a��7���\u0007\"�����C\u0006P\u0004��\r\u0000a�a\u0017C�\u0000\u0002蛧p�+?��\"�R\u0019@={/�PoA�t*1��DpE�{\u0005�P̩\b\\�`�P��\u000b{�O2HԒ\bv��\u0004��� C\u0013A�P�d��C�\u0011ӷ�G�Yv�[�e�\u0018/z��\b\u0006��ly�i,���h�)?�\u001cKH\b�Чi\u0004/\u001e�\u0010b����1�P�j�\u0019\u0004��9�CHݥ�Q�\u0007�P��\f\\V��a\u000fz\b�-��\u001b����a~0W�\u0013��(EQ�,��g\u001e\"\b\u0013He�F��\u0016mT\u001c\u0011��8��XY�*�VכR����40� &��B\u0002���x�IH�",
+          "url_final": "https://www.vivaleiloes.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 7138,
+        "tamanho_bytes": 271188,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 3508,
+          "content_preview": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo.\nRecusar Cookies\nAceitar Cookies\nCadastre-se\n|\nEsqueci minha senha\nentrar\nCATEGORIAS\nBUSCA AVANÇADA\nQUERO ARREMATAR\nCONTATO\n123\nLotes em Destaque\nFiltre por r"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 8302,
+        "tamanho_bytes": 281493,
+        "erro": "CLOUDFLARE_CHALLENGE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE_CHALLENGE",
+          "tem_conteudo": true,
+          "texto_tamanho": 3508
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 180,
+        "tamanho_bytes": 172311,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.180832,
+          "size": 172311
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BLOQUEIO",
+    "recomendacao": "Cloudflare bloqueando - considerar proxy residencial"
+  },
+  {
+    "nome": "Hastavip",
+    "url": "https://www.hastavip.com.br",
+    "timestamp": "2026-01-20T12:20:45.519227",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8175,
+        "tamanho_bytes": 402385,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "content-type": "text/html; charset=utf-8",
+            "date": "Tue, 20 Jan 2026 15:19:54 GMT",
+            "server": "Microsoft-IIS/10.0",
+            "content-encoding": "gzip",
+            "set-cookie": ".AspNetCore.Mvc.CookieTempDataProvider=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax; httponly",
+            "transfer-encoding": "chunked",
+            "vary": "Accept-Encoding",
+            "strict-transport-security": "max-age=2592000",
+            "request-context": "appId=cid-v1:602c567e-5b8d-48b6-a9cb-ffc5e8783f29",
+            "x-powered-by": "ASP.NET"
+          },
+          "url_final": "https://www.leilaovip.com.br/",
+          "redirects": 3
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 8921,
+        "tamanho_bytes": 402385,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "content_preview": "\r\n\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"pt-br\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <link rel=\"icon\" href=\"/images/leilaovip/favicon.png\" />\r\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/images/leilaovip/favicon.png\">\r\n    <title>Leil&#xE3;o VIP - Destaques</title>\r\n    \r\n<link rel=\"stylesheet\" href=\"/lib/bootstrap-5.1.3/dist/css/bootstrap.min.css\" />\r\n<link rel=\"stylesheet\" href=\"/lib/fontawesome/css/all.",
+          "url_final": "https://www.leilaovip.com.br/"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 14757,
+        "tamanho_bytes": 400703,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 12390,
+          "content_preview": "Quem Somos\nComo Comprar?\nAgenda\nServiços\nQuero Vender\nNos Indique\nBlog\nFale Conosco\nTrabalhe Conosco\nENTRAR | CADASTRAR\nConfira nossos destaques.\nTemos 422 Ofertas Ativas\nProcedência\nExtrajudicial\nJudicial\nCategoria\nDiversos\nImóveis\nMaquinário\nVeículos\nSub Categoria\nApartamento\nCarros\nCasa\nEnergia S"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 14494,
+        "tamanho_bytes": 400705,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 12390
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": false,
+        "status_code": null,
+        "tempo_ms": 11067,
+        "tamanho_bytes": 0,
+        "erro": "Curl falhou",
+        "detalhes": {
+          "returncode": 47
+        }
+      }
+    ],
+    "diagnostico_final": "PARCIAL_4_METODOS",
+    "recomendacao": "Funciona com: HTTP_SIMPLES, HTTP_HEADERS_BROWSER, PLAYWRIGHT_HEADLESS, PLAYWRIGHT_STEALTH"
+  },
+  {
+    "nome": "Leje",
+    "url": "https://www.leje.com.br",
+    "timestamp": "2026-01-20T12:21:26.703642",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 1033,
+        "tamanho_bytes": 377047,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:20:50 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "referrer-policy": "same-origin",
+            "set-cookie": "PHPSESSID=0kichghns3skuvl7bqi4rno8ld; path=/",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "pragma": "no-cache",
+            "vary": "Accept-Encoding",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JI5QcrPDhLHXghbzGhmJU%2FdadPzI2EwKNHx%2FVKtO1%2BHME0kCmypLQI6PKPnsNPyp9bgMLpR%2FTEN7eT26jCaV92FWBGnhDRE8NAC392mPnApQ%2B5F8UkaVduzt\"}]}",
+            "x-frame-options": "SAMEORIGIN",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "expect-ct": "max-age=86400, enforce",
+            "cf-cache-status": "DYNAMIC",
+            "content-encoding": "gzip",
+            "cf-ray": "9c0f8ee1ac799f3d-GRU"
+          },
+          "url_final": "https://www.leje.com.br",
+          "redirects": 0
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 1119,
+        "tamanho_bytes": 54888,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "��&DT�z\u0000\u0014!���������\u0017���\u0001�eX/�2UDW��D�-{Krܖ��@䢄�\u0002�\u00010�J���U�f�;\u0013i�\u000b�\r�1Av>�����\n)��@\u0005\u0004�\u0004��h:��)�1\u0002f�\u0013��{t�c==�`�ÜY�M\u0010�{�8\u001be��c4�gZ(���vS\u0019����\u0013T���I�m_�}�\u000fյU�!�џZ�����$�����揧B#�@��5o�.\u0013o�.k�4�����\u0011M\u0019����\u001fk�\u0017�C��\u0007V2�*\u0016دt?\u0004�{�������������\u000f�ag̮�W/w�T��ף���\u0001�F���\u0002\u001cT�yK�L��Ջ2j,�!0��c���\u0007��\u0003D\u001fΝ��U\u0015���?�-��\u0000��5�ɯ���Sڨ\u0014\u0014�.�v3���_����\u001d�|�[\u0016~\u0000�m�����\\|����_\u0014<��*��0���_J�\u0013�~�r\u001c��(g\u0017&�C�U�\u0015�PH/��\t-�.ίQ�;���u��Q\u0014E\u0013е|��??�-��\u0015M`��Q\\i�Es��ۆū�2Wz�4�eq\u0013E�m�\u0001�t�v��&7�B�Z�U���{�\u0014�O��r>I�V\u001e�����k�$\u000ba2,��\f�*#\u000b���ѥډ�",
+          "url_final": "https://www.leje.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 11982,
+        "tamanho_bytes": 647892,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "tem_conteudo": true,
+          "texto_tamanho": 20988,
+          "content_preview": "O LEILÃO\nLEILÕES\nINDICAÇÕES\nCADASTRE-SE\nENTRAR\nA plataforma exclusiva para leilões judiciais\n\nSua experiência de arremate começa aqui, cadastre-se!\n\nTodos\n \nImóveis\n \nVeículos\nEscolha o tipo de leilão\nAutomóveis\nImóveis\nOutros\nMáquinas\nCaminhões\nTratores\nAnimais\nSucata\nMateriais\nMotocicletas\nApartam"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 12724,
+        "tamanho_bytes": 647649,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 20988
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 395,
+        "tamanho_bytes": 376768,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.395578,
+          "size": 376768
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  },
+  {
+    "nome": "Lut",
+    "url": "https://www.lut.com.br",
+    "timestamp": "2026-01-20T12:22:06.272171",
+    "dns_ok": true,
+    "ssl_ok": true,
+    "testes": [
+      {
+        "metodo": "HTTP_SIMPLES",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 3122,
+        "tamanho_bytes": 512015,
+        "erro": null,
+        "detalhes": {
+          "headers_resposta": {
+            "date": "Tue, 20 Jan 2026 15:21:33 GMT",
+            "content-type": "text/html; charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": "AWSALB=aVn1YqvTs8RT79XND9mIDNfC5wBUwVr6y/5ovSJhf2folIq5v8+Hysz9SNNdr5AQmCdD8t/k8Y1pS4OKeyXPxTyBpZ/+TLLpJxet215Sqqhqx7RRhkuL5FaOazwR; Expires=Tue, 27 Jan 2026 15:21:33 GMT; Path=/, AWSALBCORS=aVn1YqvTs8RT79XND9mIDNfC5wBUwVr6y/5ovSJhf2folIq5v8+Hysz9SNNdr5AQmCdD8t/k8Y1pS4OKeyXPxTyBpZ/+TLLpJxet215Sqqhqx7RRhkuL5FaOazwR; Expires=Tue, 27 Jan 2026 15:21:33 GMT; Path=/; SameSite=None; Secure, XSRF-TOKEN=eyJpdiI6ImgxS3liUzYvTjdMaXFSSmpnOFh1M2c9PSIsInZhbHVlIjoiL2RZcHpsTThJY3RYc3hDdk96Yit0TXd0NkRQZFVNN2x4WWM5bTVPakRFZlRIdUJwZytwVmxCM2FtMlg2WHV6MllmUHRjUEZFb2RuMG56ajVrZzVZL0dXelQyTVdVUXo0WnloaUppa0thVFVNOGJtR1ovVEdzbGg0REMybnBmL2EiLCJtYWMiOiJhNTkxY2Y1OThmZTdlNzE2NmQ3ODdkZjQyZDU3MDBiOGViYzUzZGUzOGI1NDIwMWUyY2M5MTY1N2FhN2ZhNjRhIiwidGFnIjoiIn0%3D; expires=Wed, 21 Jan 2026 15:21:33 GMT; Max-Age=86400; path=/; samesite=lax, laravel_session=eyJpdiI6IlpGQ1YydGl4U28rREJjMjl1bm1zdWc9PSIsInZhbHVlIjoiOWdhMWZrTVg2UGhmdFBBZnBqTzFXdDYxUHY2YldYUmxoak5HdTU1WVAzenBjRVM1b3VpTzRxQlE2ZGdNS05BNmZZOHdaT2V6bzZob3ZTZlRtWDZOTHJQWjcxL09XaC91bVRaeVFkUCtKZUMrV09vZ3RVdG00QVZRdWFBNUxtQXgiLCJtYWMiOiI1NWM4ZDFmNzEyYTA1ZTE2YzgxN2E1NjYxNWMxM2M5ZTU5ODNhOWM4MDFlODRlYmNhZGQ4NDU5NDgyNjg2ODdiIiwidGFnIjoiIn0%3D; expires=Wed, 21 Jan 2026 15:21:33 GMT; Max-Age=86400; path=/; httponly; samesite=lax",
+            "server": "cloudflare",
+            "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "zsrv": "n2",
+            "access-control-allow-origin": "https://www.portalzuk.com.br",
+            "access-control-request-method": "GET",
+            "access-control-allow-methods": "GET",
+            "content-encoding": "gzip",
+            "cf-cache-status": "DYNAMIC",
+            "vary": "accept-encoding",
+            "strict-transport-security": "max-age=15552000; preload",
+            "cf-ray": "9c0f8ff0bdcb88fb-GRU"
+          },
+          "url_final": "https://www.portalzuk.com.br",
+          "redirects": 1
+        }
+      },
+      {
+        "metodo": "HTTP_HEADERS_BROWSER",
+        "sucesso": false,
+        "status_code": 200,
+        "tempo_ms": 2240,
+        "tamanho_bytes": 512068,
+        "erro": "CLOUDFLARE",
+        "detalhes": {
+          "bloqueio_detectado": "CLOUDFLARE",
+          "content_preview": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n<head>\n  <script type=\"text/javascript\">\n  var asseturl = \"https://cdn.portalzuk.com.br/\";\n    dataLayer=[{\n            'userId':'',\n            'emailHash':'',\n            'phoneHash':'',\n            'userProvidedData': {\n                'sha256_email_address': '',\n                'sha256_phone_number': ''\n            },\n            'pageType':'home',\n            'leilaoId':'',\n            'codZ':'',\n            'productId':'',\n            'price':'',\n       ",
+          "url_final": "https://www.portalzuk.com.br"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_HEADLESS",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 10678,
+        "tamanho_bytes": 931133,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 8935,
+          "content_preview": "Leilões\nVendedores\nMais\nFale Conosco\nIndique o Leiloeiro\nCadastre-se\nLogin\nA maior plataforma de leilões de imóveis do Brasil\n\nEncontre a oportunidade ideal! Buscar por\n\nPalavra-Chave\n\nPróximos Leilões\n\nVenda Direta\n\nLocalização\n\nTodos os imóveis\nResidenciais\nComerciais\nRurais\nTerrenos\nConsórcios\nVe"
+        }
+      },
+      {
+        "metodo": "PLAYWRIGHT_STEALTH",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 9638,
+        "tamanho_bytes": 930337,
+        "erro": null,
+        "detalhes": {
+          "bloqueio_detectado": null,
+          "tem_conteudo": true,
+          "texto_tamanho": 8947
+        }
+      },
+      {
+        "metodo": "CURL",
+        "sucesso": true,
+        "status_code": 200,
+        "tempo_ms": 459,
+        "tamanho_bytes": 512015,
+        "erro": null,
+        "detalhes": {
+          "status": 200,
+          "time": 0.459781,
+          "size": 512015
+        }
+      }
+    ],
+    "diagnostico_final": "CLOUDFLARE_BYPASS_OK",
+    "recomendacao": "Cloudflare detectado mas Playwright Stealth funciona"
+  }
+]

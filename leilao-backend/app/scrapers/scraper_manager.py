@@ -23,6 +23,13 @@ except ImportError:
     Crawl4AIScraper = None
     CRAWL4AI_AVAILABLE = False
 
+# Tentar importar LLMEnhancedScraper (alternativa ao Crawl4AI para Windows)
+try:
+    from app.services.llm_enhanced_scraper import LLMEnhancedScraper, LLM_ENHANCED_AVAILABLE
+except ImportError:
+    LLMEnhancedScraper = None
+    LLM_ENHANCED_AVAILABLE = False
+
 logger = logging.getLogger(__name__)
 
 
@@ -143,11 +150,12 @@ class ScraperManager:
     
     def scrape_with_fallback(self, url: str, auctioneer_id: str = None, auctioneer_name: str = None) -> List[Dict]:
         """
-        Tenta scraper específico primeiro, depois Crawl4AI como fallback.
+        Tenta scraper específico primeiro, depois Crawl4AI/LLMEnhanced como fallback.
         
         Esta função implementa a estratégia de 95% de sucesso do leilohub-scraper-final:
         1. Tenta usar scraper específico se disponível
         2. Se falhar ou não existir, usa Crawl4AI + GPT-4o-mini como fallback universal
+        3. Se Crawl4AI não estiver disponível (Windows/lxml), usa LLMEnhancedScraper
         
         Args:
             url: URL do leiloeiro
@@ -173,7 +181,7 @@ class ScraperManager:
             except Exception as e:
                 logger.warning(f"Scraper específico {auctioneer_id} falhou: {e}")
         
-        # Fallback: Crawl4AI
+        # Fallback 1: Crawl4AI (preferido se disponível)
         if CRAWL4AI_AVAILABLE and Crawl4AIScraper:
             try:
                 logger.info(f"Usando Crawl4AI fallback para {url}...")
@@ -187,8 +195,25 @@ class ScraperManager:
             except Exception as e:
                 logger.error(f"Crawl4AI fallback falhou para {url}: {e}")
         else:
-            logger.warning("Crawl4AI não está disponível como fallback")
+            logger.debug("Crawl4AI não está disponível, tentando LLMEnhancedScraper...")
         
+        # Fallback 2: LLMEnhancedScraper (alternativa para Windows)
+        if LLM_ENHANCED_AVAILABLE and LLMEnhancedScraper:
+            try:
+                logger.info(f"Usando LLMEnhancedScraper fallback para {url}...")
+                scraper = LLMEnhancedScraper(headless=True)
+                result = scraper.scrape_url_sync(url, auctioneer_id, auctioneer_name)
+                if result:
+                    logger.info(f"LLMEnhancedScraper fallback: {len(result)} imóveis extraídos")
+                    return result
+                else:
+                    logger.warning(f"LLMEnhancedScraper fallback retornou vazio para {url}")
+            except Exception as e:
+                logger.error(f"LLMEnhancedScraper fallback falhou para {url}: {e}")
+        else:
+            logger.warning("LLMEnhancedScraper não está disponível como fallback")
+        
+        logger.error(f"Todos os métodos de scraping falharam para {url}")
         return []
 
 

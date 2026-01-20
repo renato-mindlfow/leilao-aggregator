@@ -19,3 +19,280 @@
 2026-01-20 10:18:55,203 - INFO - 
 [5/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
 2026-01-20 10:18:55,203 - INFO - \U0001f50d Analisando: Sold - https://www.sold.com.br
+2026-01-20 10:19:18,259 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:19:19,268 - INFO - 
+[6/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:19:19,269 - INFO - \U0001f50d Analisando: Hastavip - https://www.hastavip.com.br
+2026-01-20 10:19:36,358 - INFO -    Tipo: TABS_FILTER | Itens: 34 | Pßginas: None
+2026-01-20 10:19:37,366 - INFO - 
+[7/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:19:37,367 - INFO - \U0001f50d Analisando: Megaleiloes - https://www.megaleiloes.com.br/
+2026-01-20 10:19:50,282 - INFO -    Tipo: NUMERIC | Itens: None | Pßginas: 10
+2026-01-20 10:19:51,287 - INFO - 
+[8/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:19:51,288 - INFO - \U0001f50d Analisando: Biasileiloes - https://www.biasileiloes.com.br
+2026-01-20 10:19:58,991 - INFO -    Tipo: TABS_FILTER | Itens: 5 | Pßginas: None
+2026-01-20 10:19:59,998 - INFO - 
+[9/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:19:59,998 - INFO - \U0001f50d Analisando: Leje - https://www.leje.com.br
+2026-01-20 10:20:17,237 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:20:18,242 - INFO - 
+[10/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:20:18,242 - INFO - \U0001f50d Analisando: Leilaobrasil - https://www.leilaobrasil.com.br
+2026-01-20 10:20:33,400 - INFO -    Tipo: INFINITE_SCROLL | Itens: 6 | Pßginas: None
+2026-01-20 10:20:33,413 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_10.json
+2026-01-20 10:20:34,427 - INFO - 
+[11/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:20:34,427 - INFO - \U0001f50d Analisando: Hastapublica - https://www.hastapublica.com.br
+2026-01-20 10:20:46,778 - INFO -    Tipo: TABS_FILTER | Itens: 6 | Pßginas: None
+2026-01-20 10:20:47,783 - INFO - 
+[12/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:20:47,783 - INFO - \U0001f50d Analisando: Vivaleiloes - https://www.vivaleiloes.com.br
+2026-01-20 10:21:18,609 - INFO -    Tipo: SINGLE_PAGE | Itens: 39 | Pßginas: 1
+2026-01-20 10:21:19,626 - INFO - 
+[13/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:21:19,626 - INFO - \U0001f50d Analisando: Lancenoleilao - https://www.lancenoleilao.com.br
+2026-01-20 10:21:30,059 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:21:31,071 - INFO - 
+[14/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:21:31,072 - INFO - \U0001f50d Analisando: Lut - https://www.lut.com.br
+2026-01-20 10:21:47,083 - INFO -    Tipo: TABS_FILTER | Itens: 173 | Pßginas: None
+2026-01-20 10:21:48,098 - INFO - 
+[15/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:21:48,098 - INFO - \U0001f50d Analisando: Portalzuk - https://www.portalzuk.com.br/
+2026-01-20 10:21:59,916 - INFO -    Tipo: TABS_FILTER | Itens: 173 | Pßginas: None
+2026-01-20 10:22:00,929 - INFO - 
+[16/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:00,930 - INFO - \U0001f50d Analisando: Cunhaleiloeiro - https://www.cunhaleiloeiro.com.br
+2026-01-20 10:22:11,370 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:22:12,380 - INFO - 
+[17/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:12,381 - INFO - \U0001f50d Analisando: Sumareleiloes - https://www.sumareleiloes.com.br
+2026-01-20 10:22:22,482 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:22:23,493 - INFO - 
+[18/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:23,494 - INFO - \U0001f50d Analisando: Lancejudicial - https://www.lancejudicial.com.br
+2026-01-20 10:22:37,869 - INFO -    Tipo: NUMERIC | Itens: None | Pßginas: 2
+2026-01-20 10:22:38,879 - INFO - 
+[19/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:38,880 - INFO - \U0001f50d Analisando: E-Confianca - https://www.e-confianca.com.br
+2026-01-20 10:22:46,544 - ERROR - \u274c Erro ao analisar E-Confianca: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.e-confianca.com.br/
+Call log:
+  - navigating to "https://www.e-confianca.com.br/", waiting until "load"
+
+2026-01-20 10:22:46,544 - INFO -    Tipo: UNKNOWN | Itens: None | Pßginas: None
+2026-01-20 10:22:47,559 - INFO - 
+[20/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:47,559 - INFO - \U0001f50d Analisando: Gilsoninumaruleiloes - https://www.gilsoninumaruleiloes.com.br
+2026-01-20 10:22:57,730 - INFO -    Tipo: TABS_FILTER | Itens: 35 | Pßginas: None
+2026-01-20 10:22:57,809 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_20.json
+2026-01-20 10:22:58,854 - INFO - 
+[21/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:22:58,854 - INFO - \U0001f50d Analisando: Lanceja - https://www.lanceja.com.br
+2026-01-20 10:23:08,137 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:23:09,145 - INFO - 
+[22/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:23:09,146 - INFO - \U0001f50d Analisando: Liderleiloes - https://www.liderleiloes.com.br
+2026-01-20 10:23:19,409 - INFO -    Tipo: SINGLE_PAGE | Itens: 1 | Pßginas: 1
+2026-01-20 10:23:20,423 - INFO - 
+[23/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:23:20,423 - INFO - \U0001f50d Analisando: Carloferrarileiloes - https://www.carloferrarileiloes.com.br
+2026-01-20 10:23:28,486 - INFO -    Tipo: SINGLE_PAGE | Itens: 5 | Pßginas: 1
+2026-01-20 10:23:29,487 - INFO - 
+[24/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:23:29,487 - INFO - \U0001f50d Analisando: Webleiloes - https://www.webleiloes.com.br
+2026-01-20 10:23:48,991 - INFO -    Tipo: INFINITE_SCROLL | Itens: 3 | Pßginas: None
+2026-01-20 10:23:50,006 - INFO - 
+[25/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:23:50,007 - INFO - \U0001f50d Analisando: Picellileiloes - https://www.picellileiloes.com.br
+2026-01-20 10:24:00,648 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:24:01,664 - INFO - 
+[26/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:24:01,665 - INFO - \U0001f50d Analisando: Centraljudicial - https://www.centraljudicial.com.br
+2026-01-20 10:24:08,313 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:24:09,329 - INFO - 
+[27/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:24:09,330 - INFO - \U0001f50d Analisando: Oleiloes - https://www.oleiloes.com.br
+2026-01-20 10:24:19,449 - INFO -    Tipo: SINGLE_PAGE | Itens: 114 | Pßginas: 1
+2026-01-20 10:24:20,457 - INFO - 
+[28/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:24:20,458 - INFO - \U0001f50d Analisando: Rochaleiloes - https://www.rochaleiloes.com.br
+2026-01-20 10:24:29,232 - INFO -    Tipo: SINGLE_PAGE | Itens: 22 | Pßginas: 1
+2026-01-20 10:24:30,234 - INFO - 
+[29/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:24:30,234 - INFO - \U0001f50d Analisando: Topoleiloes - https://www.topoleiloes.com.br
+2026-01-20 10:24:32,430 - ERROR - \u274c Erro ao analisar Topoleiloes: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.topoleiloes.com.br/
+Call log:
+  - navigating to "https://www.topoleiloes.com.br/", waiting until "load"
+
+2026-01-20 10:24:32,430 - INFO -    Tipo: UNKNOWN | Itens: None | Pßginas: None
+2026-01-20 10:24:33,433 - INFO - 
+[30/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:24:33,434 - INFO - \U0001f50d Analisando: Nakakogueleiloes - https://www.nakakogueleiloes.com.br
+2026-01-20 10:25:08,077 - INFO -    Tipo: TABS_FILTER | Itens: 54 | Pßginas: None
+2026-01-20 10:25:08,089 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_30.json
+2026-01-20 10:25:09,102 - INFO - 
+[31/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:09,105 - INFO - \U0001f50d Analisando: Vmleiloes - https://www.vmleiloes.com.br
+2026-01-20 10:25:18,328 - INFO -    Tipo: TABS_FILTER | Itens: 8 | Pßginas: None
+2026-01-20 10:25:19,333 - INFO - 
+[32/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:19,333 - INFO - \U0001f50d Analisando: Pbcastro - https://www.pbcastro.com.br
+2026-01-20 10:25:25,022 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:25:26,032 - INFO - 
+[33/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:26,033 - INFO - \U0001f50d Analisando: Marquesleiloes - https://www.marquesleiloes.com.br
+2026-01-20 10:25:32,022 - INFO -    Tipo: SINGLE_PAGE | Itens: 8 | Pßginas: 1
+2026-01-20 10:25:33,027 - INFO - 
+[34/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:33,027 - INFO - \U0001f50d Analisando: Kleiloes - https://www.kleiloes.com.br
+2026-01-20 10:25:39,539 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:25:40,551 - INFO - 
+[35/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:40,551 - INFO - \U0001f50d Analisando: Jeleiloes - https://www.jeleiloes.com.br
+2026-01-20 10:25:49,969 - INFO -    Tipo: TABS_FILTER | Itens: 4 | Pßginas: None
+2026-01-20 10:25:50,976 - INFO - 
+[36/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:50,977 - INFO - \U0001f50d Analisando: Spencerleiloes - https://www.spencerleiloes.com.br
+2026-01-20 10:25:57,331 - INFO -    Tipo: TABS_FILTER | Itens: 15 | Pßginas: None
+2026-01-20 10:25:58,349 - INFO - 
+[37/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:25:58,349 - INFO - \U0001f50d Analisando: Alexandridisleiloes - https://www.alexandridisleiloes.com.br
+2026-01-20 10:26:11,052 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:26:12,058 - INFO - 
+[38/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:12,058 - INFO - \U0001f50d Analisando: Moralesleiloes - https://www.moralesleiloes.com.br
+2026-01-20 10:26:17,937 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:26:18,954 - INFO - 
+[39/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:18,954 - INFO - \U0001f50d Analisando: Psnleiloes - https://www.psnleiloes.com.br
+2026-01-20 10:26:24,251 - INFO -    Tipo: TABS_FILTER | Itens: 24 | Pßginas: None
+2026-01-20 10:26:25,265 - INFO - 
+[40/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:25,265 - INFO - \U0001f50d Analisando: Allianceleiloes - https://www.allianceleiloes.com.br
+2026-01-20 10:26:32,285 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:26:32,294 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_40.json
+2026-01-20 10:26:33,306 - INFO - 
+[41/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:33,307 - INFO - \U0001f50d Analisando: Fauthleiloes - https://www.fauthleiloes.com.br
+2026-01-20 10:26:41,630 - INFO -    Tipo: TABS_FILTER | Itens: 6 | Pßginas: None
+2026-01-20 10:26:42,631 - INFO - 
+[42/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:42,631 - INFO - \U0001f50d Analisando: Santoseborinleiloes - https://www.santoseborinleiloes.com.br
+2026-01-20 10:26:51,764 - INFO -    Tipo: INFINITE_SCROLL | Itens: 134 | Pßginas: None
+2026-01-20 10:26:52,779 - INFO - 
+[43/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:26:52,779 - INFO - \U0001f50d Analisando: Leiloeslaraforster - https://www.leiloeslaraforster.com.br
+2026-01-20 10:26:59,577 - INFO -    Tipo: SINGLE_PAGE | Itens: 111 | Pßginas: 1
+2026-01-20 10:27:00,592 - INFO - 
+[44/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:00,592 - INFO - \U0001f50d Analisando: Benedettoleiloes - https://www.benedettoleiloes.com.br
+2026-01-20 10:27:06,010 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:27:07,024 - INFO - 
+[45/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:07,024 - INFO - \U0001f50d Analisando: Ctsleiloes - https://www.ctsleiloes.com.br
+2026-01-20 10:27:13,823 - INFO -    Tipo: TABS_FILTER | Itens: 151 | Pßginas: None
+2026-01-20 10:27:14,830 - INFO - 
+[46/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:14,830 - INFO - \U0001f50d Analisando: Cristianoescolaleiloes - https://www.cristianoescolaleiloes.com.br
+2026-01-20 10:27:19,044 - INFO -    Tipo: INFINITE_SCROLL | Itens: None | Pßginas: None
+2026-01-20 10:27:20,047 - INFO - 
+[47/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:20,047 - INFO - \U0001f50d Analisando: Casaforteleiloes - https://www.casaforteleiloes.com.br
+2026-01-20 10:27:25,444 - INFO -    Tipo: TABS_FILTER | Itens: 1 | Pßginas: None
+2026-01-20 10:27:26,453 - INFO - 
+[48/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:26,453 - INFO - \U0001f50d Analisando: Trileiloes - https://www.trileiloes.com.br
+2026-01-20 10:27:35,181 - INFO -    Tipo: INFINITE_SCROLL | Itens: 62 | Pßginas: None
+2026-01-20 10:27:36,198 - INFO - 
+[49/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:36,198 - INFO - \U0001f50d Analisando: Kriegerleiloes - https://www.kriegerleiloes.com.br
+2026-01-20 10:27:42,678 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:27:43,690 - INFO - 
+[50/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:43,690 - INFO - \U0001f50d Analisando: Turanileiloes - https://www.turanileiloes.com.br
+2026-01-20 10:27:48,185 - INFO -    Tipo: INFINITE_SCROLL | Itens: None | Pßginas: None
+2026-01-20 10:27:48,189 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_50.json
+2026-01-20 10:27:49,200 - INFO - 
+[51/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:49,200 - INFO - \U0001f50d Analisando: Savoyleiloes - https://www.savoyleiloes.com.br
+2026-01-20 10:27:53,638 - INFO -    Tipo: NUMERIC | Itens: None | Pßginas: None
+2026-01-20 10:27:54,642 - INFO - 
+[52/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:27:54,642 - INFO - \U0001f50d Analisando: Leiloesfreire - https://www.leiloesfreire.com.br
+2026-01-20 10:28:01,751 - INFO -    Tipo: TABS_FILTER | Itens: 5 | Pßginas: None
+2026-01-20 10:28:02,757 - INFO - 
+[53/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:28:02,758 - INFO - \U0001f50d Analisando: Abaleiloes - https://www.abaleiloes.com.br
+2026-01-20 10:28:07,621 - INFO -    Tipo: TABS_FILTER | Itens: 1 | Pßginas: None
+2026-01-20 10:28:08,633 - INFO - 
+[54/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:28:08,633 - INFO - \U0001f50d Analisando: Faroonline - https://www.faroonline.com.br
+2026-01-20 10:28:15,261 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:28:16,282 - INFO - 
+[55/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:28:16,282 - INFO - \U0001f50d Analisando: Rigolonleiloes - https://www.rigolonleiloes.com.br
+2026-01-20 10:28:24,748 - INFO -    Tipo: TABS_FILTER | Itens: 85 | Pßginas: None
+2026-01-20 10:28:25,753 - INFO - 
+[56/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:28:25,753 - INFO - \U0001f50d Analisando: Leiloesjudiciaisrs - https://www.leiloesjudiciaisrs.com.br
+2026-01-20 10:28:33,941 - INFO -    Tipo: TABS_FILTER | Itens: 84 | Pßginas: None
+2026-01-20 10:28:34,949 - INFO - 
+[57/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:28:34,949 - INFO - \U0001f50d Analisando: Mega Leil§es - https://www.megaleiloes.com.br
+2026-01-20 10:29:13,269 - INFO -    Tipo: NUMERIC | Itens: None | Pßginas: 10
+2026-01-20 10:29:14,285 - INFO - 
+[58/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:29:14,287 - INFO - \U0001f50d Analisando: Joelreisleiloes - https://www.joelreisleiloes.com.br
+2026-01-20 10:29:19,733 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:29:20,742 - INFO - 
+[59/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:29:20,742 - INFO - \U0001f50d Analisando: Lunellileiloes - https://www.lunellileiloes.com.br
+2026-01-20 10:29:26,956 - INFO -    Tipo: TABS_FILTER | Itens: None | Pßginas: None
+2026-01-20 10:29:27,969 - INFO - 
+[60/60] \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2026-01-20 10:29:27,970 - INFO - \U0001f50d Analisando: Oesteleiloes - https://www.oesteleiloes.com.br
+2026-01-20 10:29:33,150 - INFO -    Tipo: SINGLE_PAGE | Itens: None | Pßginas: 1
+2026-01-20 10:29:33,156 - INFO - \U0001f4be Checkpoint salvo: logs\mapeamento_paginacao\checkpoint_60.json
+2026-01-20 10:29:35,426 - INFO - 
+\u2705 Relat¾rio final salvo:
+2026-01-20 10:29:35,426 - INFO -    JSON: logs\mapeamento_paginacao\mapeamento_completo_20260120_102935.json
+2026-01-20 10:29:35,426 - INFO -    Markdown: logs\mapeamento_paginacao\RELATORIO_MAPEAMENTO_20260120_102935.md
+2026-01-20 10:29:35,427 - INFO - 
+============================================================
+2026-01-20 10:29:35,427 - INFO - \U0001f389 MAPEAMENTO CONCLU═DO!
+2026-01-20 10:29:35,427 - INFO - ============================================================
+2026-01-20 10:29:35,427 - INFO -    TABS_FILTER: 33
+2026-01-20 10:29:35,427 - INFO -    SINGLE_PAGE: 13
+2026-01-20 10:29:35,427 - INFO -    INFINITE_SCROLL: 8
+2026-01-20 10:29:35,427 - INFO -    NUMERIC: 4
+2026-01-20 10:29:35,427 - INFO -    UNKNOWN: 2
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x0000019C2F015C70>:
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 134, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+  File "C:\Python314\Lib\asyncio\base_subprocess.py", line 73, in __repr__
+    info.append(f'stdin={stdin.pipe}')
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+  File "C:\Python314\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function _ProactorBasePipeTransport.__del__ at 0x0000019C2F0175E0>:
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 116, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+  File "C:\Python314\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored while calling deallocator <function _ProactorBasePipeTransport.__del__ at 0x0000019C2F0175E0>:
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 116, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+  File "C:\Python314\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
