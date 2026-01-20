@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-01-20",
+  "total_sites": 15,
+  "descobertos": 15,
+  "resultados": [
+    {
+      "dominio": "agenciadeleiloes.com.br",
+      "url_base": "https://www.agenciadeleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 38,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "bianchileiloes.com.br",
+      "url_base": "https://www.bianchileiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 189,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "ckleiloes.com.br",
+      "url_base": "https://www.ckleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 16,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "duxleiloes.com.br",
+      "url_base": "https://www.duxleiloes.com.br",
+      "path_descoberto": "/",
+      "links_encontrados": 4,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "gtleiloes.com.br",
+      "url_base": "https://www.gtleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 89,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "juleiloes.com.br",
+      "url_base": "https://www.juleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 72,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "leffaleiloes.com.br",
+      "url_base": "https://www.leffaleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 186,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "leiloesfederal.com.br",
+      "url_base": "https://www.leiloesfederal.com.br",
+      "path_descoberto": "/leiloes",
+      "links_encontrados": 16,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "marceloleiloeiro.com.br",
+      "url_base": "https://www.marceloleiloeiro.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 188,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "marquesbarretoleiloes.com.br",
+      "url_base": "https://www.marquesbarretoleiloes.com.br",
+      "path_descoberto": "/",
+      "links_encontrados": 8,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "michellileiloes.com.br",
+      "url_base": "https://www.michellileiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 53,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "pbcastro.com.br",
+      "url_base": "https://www.pbcastro.com.br",
+      "path_descoberto": "/imoveis",
+      "links_encontrados": 28,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "rangelleiloes.com.br",
+      "url_base": "https://www.rangelleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 13,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "renovarleiloes.com.br",
+      "url_base": "https://www.renovarleiloes.com.br",
+      "path_descoberto": "/busca",
+      "links_encontrados": 186,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    },
+    {
+      "dominio": "sold.com.br",
+      "url_base": "https://www.sold.com.br",
+      "path_descoberto": "/leiloes",
+      "links_encontrados": 21,
+      "metodo": "paths_conhecidos",
+      "sucesso": true
+    }
+  ]
+}

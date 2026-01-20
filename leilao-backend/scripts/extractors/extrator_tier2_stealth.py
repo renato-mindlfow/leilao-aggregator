@@ -21,6 +21,21 @@ class ExtratorTier2:
     def __init__(self):
         self.browser: Optional[Browser] = None
         self.resultados, self.falhas, self.promocoes_tier3 = [], [], []
+        # Carregar paths específicos descobertos automaticamente
+        self.paths_especificos = self._carregar_paths_especificos()
+    
+    def _carregar_paths_especificos(self) -> dict:
+        """Carrega mapeamento de paths específicos descobertos automaticamente"""
+        try:
+            paths_file = Path("config/paths_especificos.json")
+            if paths_file.exists():
+                with open(paths_file, 'r', encoding='utf-8') as f:
+                    paths = json.load(f)
+                logger.info(f"✅ Paths específicos carregados: {len(paths)} sites")
+                return paths
+        except Exception as e:
+            logger.warning(f"⚠️ Não foi possível carregar paths específicos: {e}")
+        return {}
         
     async def setup_browser(self):
         playwright = await async_playwright().start()
@@ -100,7 +115,25 @@ class ExtratorTier2:
         
         return resultado
     
+    def _carregar_paths_especificos(self) -> dict:
+        """Carrega mapeamento de paths específicos descobertos automaticamente"""
+        try:
+            paths_file = Path("config/paths_especificos.json")
+            if paths_file.exists():
+                with open(paths_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+        except Exception as e:
+            logger.warning(f"Não foi possível carregar paths específicos: {e}")
+        return {}
+    
     def _construir_url_imoveis(self, url_base: str, dominio: str) -> str:
+        # Primeiro, verificar paths específicos descobertos
+        if dominio in self.paths_especificos:
+            path = self.paths_especificos[dominio]
+            logger.debug(f"   📍 Usando path específico: {path}")
+            return url_base + path
+        
+        # Fallback: URLs conhecidas manualmente
         urls_conhecidas = {
             "frazaoleiloes.com.br": "/sale/searchLot?&categoria=Imóveis&pesquisaSimples=false",
             "sold.com.br": "/leiloes/imoveis", "megaleiloes.com.br": "/imoveis",

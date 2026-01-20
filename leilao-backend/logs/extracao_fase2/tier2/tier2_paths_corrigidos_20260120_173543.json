@@ -1,0 +1,3412 @@
+{
+  "tier": "TIER_2_PATHS_CORRIGIDOS",
+  "timestamp": "2026-01-20T17:35:43.523959",
+  "sites_processados": [
+    "agenciadeleiloes.com.br",
+    "bianchileiloes.com.br",
+    "ckleiloes.com.br",
+    "duxleiloes.com.br",
+    "gtleiloes.com.br",
+    "juleiloes.com.br",
+    "leffaleiloes.com.br",
+    "leiloesfederal.com.br",
+    "marceloleiloeiro.com.br",
+    "marquesbarretoleiloes.com.br",
+    "michellileiloes.com.br",
+    "pbcastro.com.br",
+    "rangelleiloes.com.br",
+    "renovarleiloes.com.br",
+    "sold.com.br"
+  ],
+  "total_sites": 15,
+  "sucesso": 12,
+  "falhas": 3,
+  "total_imoveis": 531,
+  "resultados": [
+    {
+      "dominio": "agenciadeleiloes.com.br",
+      "url_base": "https://www.agenciadeleiloes.com.br",
+      "timestamp": "2026-01-20T17:32:29.273671",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n1 item",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:39.992351"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/arte",
+          "texto_card": "ARTE\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.019765"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/arte-1",
+          "texto_card": "ARTE\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.043560"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.068422"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.095927"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.122721"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/escultura",
+          "texto_card": "ESCULTURA\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.151310"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/escultura-1",
+          "texto_card": "ESCULTURA\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.179117"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.203948"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/moveis",
+          "texto_card": "MÓVEIS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.232370"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.263686"
+        },
+        {
+          "url": "https://www.agenciadeleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n0 itens",
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.286322"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão de importante coleção de esculturas de Abraham Palatnik&url=https://www.agenciadeleiloes.com.br/leilao/leilao-de-importante-colecao-de-esculturas-de-abraham-palatnik-18-12-2025-15-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.317954"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.agenciadeleiloes.com.br/leilao/leilao-de-importante-colecao-de-esculturas-de-abraham-palatnik-18-12-2025-15-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.342518"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.agenciadeleiloes.com.br/leilao/leilao-de-importante-colecao-de-esculturas-de-abraham-palatnik-18-12-2025-15-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.372422"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão BELÍSSIMO LEILÃO DE ARTE, JOIAS E MARFINS&url=https://www.agenciadeleiloes.com.br/leilao/belissimo-leilao-de-arte-joias-e-marfins-18-12-2025-15-49-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.398716"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.agenciadeleiloes.com.br/leilao/belissimo-leilao-de-arte-joias-e-marfins-18-12-2025-15-49-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.426007"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.agenciadeleiloes.com.br/leilao/belissimo-leilao-de-arte-joias-e-marfins-18-12-2025-15-49-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.agenciadeleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:40.448063"
+        }
+      ],
+      "total_imoveis": 18,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "bianchileiloes.com.br",
+      "url_base": "https://www.bianchileiloes.com.br",
+      "timestamp": "2026-01-20T17:32:42.517795",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n4 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.038565"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n3 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.075228"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/caminhao",
+          "texto_card": "CAMINHÃO\n1 item",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.109213"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/animal",
+          "texto_card": "ANIMAL\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.141921"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/animal-1",
+          "texto_card": "ANIMAL\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.178225"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.208502"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.237611"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.266436"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/motocicleta-triciculo-quadriciculos",
+          "texto_card": "MOTOCICLETA, TRICICULO, QUADRICICULOS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.292078"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.320282"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.350508"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n0 itens",
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.379225"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-22-09-2025-09-39-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.403609"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - FORD KA&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-22-09-2025-09-39-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.464201"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-22-09-2025-09-39-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.492381"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-22-09-2025-09-39-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.521087"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-santa-rosa-audi-a-3-06-10-2025-10-10-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.555293"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE SANTA ROSA - AUDI A 3&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-santa-rosa-audi-a-3-06-10-2025-10-10-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.646322"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-santa-rosa-audi-a-3-06-10-2025-10-10-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.675160"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-santa-rosa-audi-a-3-06-10-2025-10-10-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.701185"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-gol-06-10-2025-10-48-12/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.728505"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - GOL&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-gol-06-10-2025-10-48-12/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.780131"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-gol-06-10-2025-10-48-12/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.804913"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-gol-06-10-2025-10-48-12/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.835018"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-leilao-vectra-cd-09-10-2025-07-55-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.861952"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE TRES PASSOS -  LEILAO VECTRA CD&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-leilao-vectra-cd-09-10-2025-07-55-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.929111"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-leilao-vectra-cd-09-10-2025-07-55-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.956328"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-leilao-vectra-cd-09-10-2025-07-55-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:53.985129"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-reboque-09-10-2025-10-01-49/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.012546"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - REBOQUE&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-reboque-09-10-2025-10-01-49/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.069021"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-reboque-09-10-2025-10-01-49/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.095763"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-reboque-09-10-2025-10-01-49/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.123514"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-sl-09-10-2025-10-33-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.146647"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - MONZA SL&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-sl-09-10-2025-10-33-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.198324"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-sl-09-10-2025-10-33-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.224091"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-sl-09-10-2025-10-33-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.266082"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-26-000m2-15-10-2025-09-23-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.299402"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - IMOVEL 26.000M²&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-26-000m2-15-10-2025-09-23-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.357743"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-26-000m2-15-10-2025-09-23-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.387902"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-26-000m2-15-10-2025-09-23-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.416406"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-coamrca-de-horizontina-gm-kadet-13-06-2023-14-50-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.488728"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COAMRCA DE HORIZONTINA - GM/KADET&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-coamrca-de-horizontina-gm-kadet-13-06-2023-14-50-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.560284"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-coamrca-de-horizontina-gm-kadet-13-06-2023-14-50-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.587671"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-coamrca-de-horizontina-gm-kadet-13-06-2023-14-50-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.613395"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-21-10-2025-10-29-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.644608"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - FORD KA&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-21-10-2025-10-29-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.705721"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-21-10-2025-10-29-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.732736"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-ka-21-10-2025-10-29-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.761092"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/venda-direta-imovel-residencial-horizontina-18-12-2025-10-02-46/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.785635"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão VENDA DIRETA | IMÓVEL RESIDENCIAL HORIZONTINA&url=https://www.bianchileiloes.com.br/leilao/venda-direta-imovel-residencial-horizontina-18-12-2025-10-02-46/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.839293"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/venda-direta-imovel-residencial-horizontina-18-12-2025-10-02-46/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.861620"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/venda-direta-imovel-residencial-horizontina-18-12-2025-10-02-46/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.894126"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imoveis-rurais-17-11-2025-09-00-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:54.960197"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - IMOVEIS RURAIS&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imoveis-rurais-17-11-2025-09-00-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.016841"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imoveis-rurais-17-11-2025-09-00-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.051952"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imoveis-rurais-17-11-2025-09-00-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.087878"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-tempra-26-11-2025-09-03-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.157660"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - FIAT TEMPRA&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-tempra-26-11-2025-09-03-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.220449"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-tempra-26-11-2025-09-03-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.251364"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-tempra-26-11-2025-09-03-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.286100"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-121-500m2-28-11-2025-06-29-04/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.354888"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - IMOVEL 121.500M²&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-121-500m2-28-11-2025-06-29-04/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.400855"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-121-500m2-28-11-2025-06-29-04/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.429318"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-imovel-121-500m2-28-11-2025-06-29-04/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.456845"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-imovel-70-000m2-28-11-2025-07-23-44/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.523612"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE TRES PASSOS- IMOVEL 70.000M²&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-imovel-70-000m2-28-11-2025-07-23-44/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.608141"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-imovel-70-000m2-28-11-2025-07-23-44/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.637776"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-tres-passos-imovel-70-000m2-28-11-2025-07-23-44/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.672480"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-11-000-28-11-2025-08-39-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.737828"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - FORD 11.000&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-11-000-28-11-2025-08-39-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.801689"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-11-000-28-11-2025-08-39-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.827059"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-ford-11-000-28-11-2025-08-39-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.855237"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-29-11-2025-08-34-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.910160"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - MONZA&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-29-11-2025-08-34-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.967944"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-29-11-2025-08-34-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:55.997469"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-29-11-2025-08-34-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.020177"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-senic-29-11-2025-09-19-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.073167"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - SENIC&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-senic-29-11-2025-09-19-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.123738"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-senic-29-11-2025-09-19-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.145743"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-senic-29-11-2025-09-19-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.178608"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-i-peugeot-408-allure-03-12-2025-14-59-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.247829"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - I/PEUGEOT 408 ALLURE&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-i-peugeot-408-allure-03-12-2025-14-59-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.319851"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-i-peugeot-408-allure-03-12-2025-14-59-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.363417"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-i-peugeot-408-allure-03-12-2025-14-59-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.395307"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-palio-edx-17-12-2025-10-48-40/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.457716"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - FIAT PALIO EDX&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-palio-edx-17-12-2025-10-48-40/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.520866"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-palio-edx-17-12-2025-10-48-40/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.555103"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-fiat-palio-edx-17-12-2025-10-48-40/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.588928"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-18-12-2025-09-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.656896"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL | COMARCA DE HORIZONTINA - MONZA&url=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-18-12-2025-09-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.709789"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-18-12-2025-09-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.737120"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-judicial-comarca-de-horizontina-monza-18-12-2025-09-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.764355"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-jucial-comarca-de-horizontina-monza-18-12-2025-11-03-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.815869"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUCIAL | COMARCA DE HORIZONTINA - MONZA&url=https://www.bianchileiloes.com.br/leilao/leilao-jucial-comarca-de-horizontina-monza-18-12-2025-11-03-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.870321"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-jucial-comarca-de-horizontina-monza-18-12-2025-11-03-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.908353"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-jucial-comarca-de-horizontina-monza-18-12-2025-11-03-43/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.934997"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-teste-30-11-2021-15-29-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:56.998406"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO TESTE&url=https://www.bianchileiloes.com.br/leilao/leilao-teste-30-11-2021-15-29-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.052088"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-teste-30-11-2021-15-29-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.078394"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-teste-30-11-2021-15-29-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.111634"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-itati-05-09-2025-15-50-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.136261"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE PREFEITURA | ITATI&url=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-itati-05-09-2025-15-50-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.216551"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-itati-05-09-2025-15-50-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.249477"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-itati-05-09-2025-15-50-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.290433"
+        },
+        {
+          "url": "https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-sao-jose-do-norte-08-09-2025-14-53-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.329137"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE PREFEITURA | SÃO JOSÉ DO NORTE&url=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-sao-jose-do-norte-08-09-2025-14-53-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.417742"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-sao-jose-do-norte-08-09-2025-14-53-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.447552"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.bianchileiloes.com.br/leilao/leilao-de-prefeitura-sao-jose-do-norte-08-09-2025-14-53-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.bianchileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:32:57.473255"
+        }
+      ],
+      "total_imoveis": 108,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "ckleiloes.com.br",
+      "url_base": "https://www.ckleiloes.com.br",
+      "timestamp": "2026-01-20T17:32:59.543396",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.191419"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.231707"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.296099"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.345592"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.386265"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.440942"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.504232"
+        },
+        {
+          "url": "https://www.ckleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n0 itens",
+          "url_origem": "https://www.ckleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:11.541969"
+        }
+      ],
+      "total_imoveis": 8,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "gtleiloes.com.br",
+      "url_base": "https://www.gtleiloes.com.br",
+      "timestamp": "2026-01-20T17:33:26.104585",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n6 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.909388"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n5 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.925160"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n3 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.941068"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n2 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.959928"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n1 item",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.975293"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/animais",
+          "texto_card": "ANIMAIS\n0 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:35.993013"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.010760"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.026530"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/lotes/trator-agricola",
+          "texto_card": "TRATOR AGRÍCOLA\n0 itens",
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.042870"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-da-justica-federal-comarca-de-carazinho-18-12-2025-08-06-20/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.056390"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão da Justiça Federal * Comarca de Carazinho&url=https://www.gtleiloes.com.br/leilao/leilao-da-justica-federal-comarca-de-carazinho-18-12-2025-08-06-20/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.088037"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-da-justica-federal-comarca-de-carazinho-18-12-2025-08-06-20/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.104314"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-da-justica-federal-comarca-de-carazinho-18-12-2025-08-06-20/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.120517"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-extrajudicial-sicredi-18-12-2025-08-21-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.153424"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão Extrajudicial * Sicredi&url=https://www.gtleiloes.com.br/leilao/leilao-extrajudicial-sicredi-18-12-2025-08-21-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.187094"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-extrajudicial-sicredi-18-12-2025-08-21-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.205529"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-extrajudicial-sicredi-18-12-2025-08-21-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.226048"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-07-59-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.264986"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão da Justiça Estadual * Comarca de Carazinho&url=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-07-59-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.308713"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-07-59-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.329377"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-07-59-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.355206"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-08-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.401907"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão da Justiça Estadual * Comarca de Carazinho&url=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-08-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.451414"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-08-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.474245"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-08-52/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.501187"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-13-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.547409"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão da Justiça Estadual * Comarca de Carazinho&url=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-13-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.594810"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-13-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.630394"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-13-31/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.652186"
+        },
+        {
+          "url": "https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-18-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.698875"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão da Justiça Estadual * Comarca de Carazinho&url=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-18-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.743835"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-18-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.772668"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.gtleiloes.com.br/leilao/leilao-da-justica-estadual-comarca-de-carazinho-18-12-2025-08-18-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.gtleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:36.796381"
+        }
+      ],
+      "total_imoveis": 33,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "juleiloes.com.br",
+      "url_base": "https://www.juleiloes.com.br",
+      "timestamp": "2026-01-20T17:33:38.880342",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n11 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.081584"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n4 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.096724"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n1 item",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.109530"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.121707"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.136122"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.149386"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.163431"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/motocicleta",
+          "texto_card": "MOTOCICLETA\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.175266"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.190142"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/leilao-de-bens-do-municipio-de-getulio-vargas-rs-16-01-2026-16-01-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.205363"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE BENS DO MUNICÍPIO DE GETULIO VARGAS/RS&url=https://www.juleiloes.com.br/leilao/leilao-de-bens-do-municipio-de-getulio-vargas-rs-16-01-2026-16-01-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.230578"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.juleiloes.com.br/leilao/leilao-de-bens-do-municipio-de-getulio-vargas-rs-16-01-2026-16-01-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.245133"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.juleiloes.com.br/leilao/leilao-de-bens-do-municipio-de-getulio-vargas-rs-16-01-2026-16-01-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.260424"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/grande-leilao-de-veiculos-da-comarca-de-guapore-rs-16-01-2026-14-29-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.289981"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão GRANDE LEILÃO DE VEÍCULOS DA COMARCA DE GUAPORÉ/RS&url=https://www.juleiloes.com.br/leilao/grande-leilao-de-veiculos-da-comarca-de-guapore-rs-16-01-2026-14-29-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.316285"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.juleiloes.com.br/leilao/grande-leilao-de-veiculos-da-comarca-de-guapore-rs-16-01-2026-14-29-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.330426"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.juleiloes.com.br/leilao/grande-leilao-de-veiculos-da-comarca-de-guapore-rs-16-01-2026-14-29-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.344876"
+        },
+        {
+          "url": "https://www.juleiloes.com.br/leilao/imovel-com-pedreira-em-sao-domingos-do-sul-rs-16-01-2026-14-06-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.372793"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão IMÓVEL COM PEDREIRA EM SÃO DOMINGOS DO SUL/RS&url=https://www.juleiloes.com.br/leilao/imovel-com-pedreira-em-sao-domingos-do-sul-rs-16-01-2026-14-06-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.399975"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.juleiloes.com.br/leilao/imovel-com-pedreira-em-sao-domingos-do-sul-rs-16-01-2026-14-06-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.413945"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.juleiloes.com.br/leilao/imovel-com-pedreira-em-sao-domingos-do-sul-rs-16-01-2026-14-06-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.juleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:48.428812"
+        }
+      ],
+      "total_imoveis": 21,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "leffaleiloes.com.br",
+      "url_base": "https://www.leffaleiloes.com.br",
+      "timestamp": "2026-01-20T17:33:50.485038",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n17 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.852675"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n15 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.866819"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/moveis",
+          "texto_card": "MÓVEIS\n3 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.880799"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n2 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.894028"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n2 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.906760"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n1 item",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.922284"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n1 item",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.938042"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/implementos-agricolas",
+          "texto_card": "IMPLEMENTOS AGRÍCOLAS\n1 item",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.952688"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/animais",
+          "texto_card": "ANIMAIS\n0 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.969432"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.984324"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/instrumentos-musicais",
+          "texto_card": "INSTRUMENTOS MUSICAIS\n0 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:33:59.996730"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/lotes/video-games",
+          "texto_card": "VÍDEO GAMES\n0 itens",
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.013421"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao-detran/veiculos-conservados-leilao-2025000000655-autotran-campo-grande-05-11-2025-10-15-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.031161"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/imovel-comercial-na-beira-da-lagoa-na-av-jose-maia-filho-em-torres-rs-04-09-2023-14-07-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.049189"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-50-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.069423"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-50-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.128755"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-50-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.148360"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-50-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.166064"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-57-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.199848"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-57-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.227829"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-57-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.242501"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-57-19/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.258570"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-37-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.273626"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Torres RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-37-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.307808"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-37-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.323854"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-37-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.338867"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-47-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.366498"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-47-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.397807"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-47-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.413602"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-47-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.430709"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/prefeitura-municipal-de-miraguai-rs-02-01-2026-07-35-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.459969"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Prefeitura Municipal de Miraguaí RS&url=https://www.leffaleiloes.com.br/leilao/prefeitura-municipal-de-miraguai-rs-02-01-2026-07-35-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.490882"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/prefeitura-municipal-de-miraguai-rs-02-01-2026-07-35-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.505855"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/prefeitura-municipal-de-miraguai-rs-02-01-2026-07-35-05/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.519572"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-30-51/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.546763"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-30-51/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.577549"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-30-51/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.594717"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-09-30-51/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.609976"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-23-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.649820"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Torres RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-23-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.682149"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-23-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.698999"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-09-23-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.715352"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-10-31-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.743896"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Torres RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-10-31-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.772526"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-10-31-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.787244"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-19-12-2025-10-31-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.802923"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-27-08-2025-10-54-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.831924"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Torres RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-27-08-2025-10-54-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.862611"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-27-08-2025-10-54-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.879115"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-torres-rs-27-08-2025-10-54-23/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.893289"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/um-terreno-rural-de-14-9-hectares-com-benfeitorias-situado-no-lugar-denominado-morro-do-chapeu-no-municipio-de-tres-forquilhas-r/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.923695"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão UM TERRENO RURAL DE 14,9 HECTARES, COM BENFEITORIAS, SITUADO NO LUGAR DENOMINADO MORRO DO CHAPÉU, NO MUNICÍPIO DE TRÊS FORQUILHAS/RS&url=https://www.leffaleiloes.com.br/leilao/um-terreno-rural-de-14-9-hectares-com-benfeitorias-situado-no-lugar-denominado-morro-do-chapeu-no-municipio-de-tres-forquilhas-r/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.951068"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/um-terreno-rural-de-14-9-hectares-com-benfeitorias-situado-no-lugar-denominado-morro-do-chapeu-no-municipio-de-tres-forquilhas-r/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.966504"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/um-terreno-rural-de-14-9-hectares-com-benfeitorias-situado-no-lugar-denominado-morro-do-chapeu-no-municipio-de-tres-forquilhas-r/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:00.980802"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-02-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.013795"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-02-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.039889"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-02-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.055117"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-02-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.069671"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-07-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.085441"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Cível de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-07-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.113675"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-07-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.126874"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-19-12-2025-10-07-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.141653"
+        },
+        {
+          "url": "https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-16-11-2025-16-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.156411"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Justiça Civel de Capão da Canoa RS&url=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-16-11-2025-16-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.184991"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-16-11-2025-16-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.198662"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.leffaleiloes.com.br/leilao/justica-civel-de-capao-da-canoa-rs-16-11-2025-16-40-50/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.leffaleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:01.214041"
+        }
+      ],
+      "total_imoveis": 66,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "leiloesfederal.com.br",
+      "url_base": "https://www.leiloesfederal.com.br",
+      "timestamp": "2026-01-20T17:34:03.271059",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.leiloesfederal.com.br/lote/340/leilao-trt18-10766-09-2021-vara-de-execucao-de-goiania",
+          "texto_card": "Parte da Fazenda Santa Paula, município de Torixoréu-MT\n\nMatrícula 27.896 CRI de Barra do Garça-MT - Área 290.8503 ha - Documentos e informações com o Leiloeiro Cesar Augusto Bagatini: 61-98385-4800 - contato@leiloesfederal.com.br\n\nLeilão: 289\n\nData\n23/01/2026 às 18:00:00\n\nLance Inicial\n\nR$ 2.250.000,00\n\nONLINE",
+          "url_origem": "https://www.leiloesfederal.com.br/leiloes",
+          "extraido_em": "2026-01-20T17:34:12.472371",
+          "preco": 2250000.0
+        },
+        {
+          "url": "https://www.leiloesfederal.com.br/lote/341/leilao-tjdft-0711204-73-2024-2a-vara-civel-sobradinho",
+          "texto_card": "Casa em alto padrão\n\nCasa em alto padrão. Editicação com 208m² em terreno de 504m² no Condomínio Alto da Boa Vista, região de Sobradinho, Brasília-DF\n\nLeilão: 290\n\nData\n02/02/2026 às 15:50:00\n\nAvaliação\n\nR$ 1.050.000,00\n\nData\n05/02/2026 às 15:50:00\n\nLance Inicial\n\nR$ 735.000,00\n\nONLINE",
+          "url_origem": "https://www.leiloesfederal.com.br/leiloes",
+          "extraido_em": "2026-01-20T17:34:12.500423",
+          "preco": 1050000.0
+        },
+        {
+          "url": "https://www.leiloesfederal.com.br/lote/339/leilao-tjdft-0714382-27-vara-civel-de-aguas-claras",
+          "texto_card": "Casa com 2 pavimentos - Residencial Licardino Ney - Goiânia-GO\n\nCasa, tipo sobrado, em alvenaria e telhado colonial, localizada no Loteamento Residencial Licardino Ney - Jardim Balneário Meia Ponto - cidade de Goiânia/GO\n\nLeilão: 288\n\nData\n03/02/2026 às 15:00:00\n\nAvaliação\n\nR$ 493.126,00\n\nData\n06/02/2026 às 15:00:00\n\nLance Inicial\n\nR$ 345.200,00\n\nONLINE",
+          "url_origem": "https://www.leiloesfederal.com.br/leiloes",
+          "extraido_em": "2026-01-20T17:34:12.525707",
+          "preco": 493126.0
+        }
+      ],
+      "total_imoveis": 3,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "marceloleiloeiro.com.br",
+      "url_base": "https://www.marceloleiloeiro.com.br",
+      "timestamp": "2026-01-20T17:34:14.566569",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n16 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.876325"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n1 item",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.891130"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.907398"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.920783"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.931844"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.946816"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.961386"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.975731"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-box-18-conjunto-3-residencial-jardom-do-sul-rua-padre-joao-batista-reus-1551-poa-25-11-2025-10-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:23.989312"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O BOX 18, CONJUNTO 3 \"RESIDENCIAL JARDOM DO SUL\", RUA PADRE JOÃO BATISTA REUS, 1551, POA&url=https://www.marceloleiloeiro.com.br/leilao/o-box-18-conjunto-3-residencial-jardom-do-sul-rua-padre-joao-batista-reus-1551-poa-25-11-2025-10-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.015772"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-box-18-conjunto-3-residencial-jardom-do-sul-rua-padre-joao-batista-reus-1551-poa-25-11-2025-10-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.030423"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-box-18-conjunto-3-residencial-jardom-do-sul-rua-padre-joao-batista-reus-1551-poa-25-11-2025-10-47-27/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.046405"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-vidal-jose-rodrigues-20-feitoria-sao-leopoldo-rs-08-09-2025-14-02-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.075650"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA ALVENARIA LOCALIZADA NA RUA VIDAL JOSÉ RODRIGUES,20, FEITORIA, SÃO LEOPOLDO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-vidal-jose-rodrigues-20-feitoria-sao-leopoldo-rs-08-09-2025-14-02-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.102817"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-vidal-jose-rodrigues-20-feitoria-sao-leopoldo-rs-08-09-2025-14-02-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.117785"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-vidal-jose-rodrigues-20-feitoria-sao-leopoldo-rs-08-09-2025-14-02-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.132657"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/a-fracao-ideal-de-25-sobre-50-de-uma-casa-de-madeira-localizado-na-rua-manoel-hermoges-de-mello-18-novo-hamburgo-rs-06-11-2025-1/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.159360"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão A FRAÇÃO IDEAL DE 25% SOBRE 50% DE UMA CASA DE MADEIRA, LOCALIZADO NA RUA MANOEL HERMOGES DE MELLO, 18, NOVO HAMBURGO- RS&url=https://www.marceloleiloeiro.com.br/leilao/a-fracao-ideal-de-25-sobre-50-de-uma-casa-de-madeira-localizado-na-rua-manoel-hermoges-de-mello-18-novo-hamburgo-rs-06-11-2025-1/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.187019"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/a-fracao-ideal-de-25-sobre-50-de-uma-casa-de-madeira-localizado-na-rua-manoel-hermoges-de-mello-18-novo-hamburgo-rs-06-11-2025-1/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.201503"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/a-fracao-ideal-de-25-sobre-50-de-uma-casa-de-madeira-localizado-na-rua-manoel-hermoges-de-mello-18-novo-hamburgo-rs-06-11-2025-1/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.213804"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-belo-horizonte-480-bela-vista-sapucaia-do-sul-rs-03-10-2025-10-09-02/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.241107"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 TERRENO LOCALIZADO NA RUA BELO HORIZONTE, 480,  BELA VISTA, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-belo-horizonte-480-bela-vista-sapucaia-do-sul-rs-03-10-2025-10-09-02/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.268844"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-belo-horizonte-480-bela-vista-sapucaia-do-sul-rs-03-10-2025-10-09-02/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.284148"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-belo-horizonte-480-bela-vista-sapucaia-do-sul-rs-03-10-2025-10-09-02/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.298665"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-esquina-rua-eurico-gaspar-dutra-188-duque-de-caxias-sao-leopoldo-rs-28-11-2025-13-51-42/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.328763"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA ALVENARIA \"ESQUINA\", RUA EURICO GASPAR DUTRA, 188, DUQUE DE CAXIAS, SÃO LEOPOLDO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-esquina-rua-eurico-gaspar-dutra-188-duque-de-caxias-sao-leopoldo-rs-28-11-2025-13-51-42/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.359946"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-esquina-rua-eurico-gaspar-dutra-188-duque-de-caxias-sao-leopoldo-rs-28-11-2025-13-51-42/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.372224"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-esquina-rua-eurico-gaspar-dutra-188-duque-de-caxias-sao-leopoldo-rs-28-11-2025-13-51-42/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.387103"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-do-passeio-37-pasqulini-sapucaia-do-sul-rs-27-05-2025-09-59-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.416157"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA LOCALIZADA NA RUA DO PASSEIO, 37, PASQULINI, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-do-passeio-37-pasqulini-sapucaia-do-sul-rs-27-05-2025-09-59-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.444810"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-do-passeio-37-pasqulini-sapucaia-do-sul-rs-27-05-2025-09-59-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.459419"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-do-passeio-37-pasqulini-sapucaia-do-sul-rs-27-05-2025-09-59-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.474608"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/excelente-casa-com-03-pavimentos-localizada-na-rua-luis-ornaghi-1225-farroupilha-rs-22-08-2025-14-28-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.504314"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão EXCELENTE CASA COM 03 PAVIMENTOS LOCALIZADA NA RUA LUIS ORNAGHI, 1225, FARROUPILHA- RS&url=https://www.marceloleiloeiro.com.br/leilao/excelente-casa-com-03-pavimentos-localizada-na-rua-luis-ornaghi-1225-farroupilha-rs-22-08-2025-14-28-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.531118"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/excelente-casa-com-03-pavimentos-localizada-na-rua-luis-ornaghi-1225-farroupilha-rs-22-08-2025-14-28-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.545187"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/excelente-casa-com-03-pavimentos-localizada-na-rua-luis-ornaghi-1225-farroupilha-rs-22-08-2025-14-28-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.559633"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/excelente-predio-comercial-com-529-25m2-rua-victor-hugo-kunz-1833-nh-mais-duas-casas-rua-jose-benno-schtz-98-nh-16-12-2025-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.585831"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão EXCELENTE PRÉDIO COMERCIAL COM 529.25M2, RUA VICTOR HUGO KUNZ, 1833, NH, MAIS DUAS CASAS RUA JOSÉ BENNO SCHTZ, 98, NH&url=https://www.marceloleiloeiro.com.br/leilao/excelente-predio-comercial-com-529-25m2-rua-victor-hugo-kunz-1833-nh-mais-duas-casas-rua-jose-benno-schtz-98-nh-16-12-2025-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.617228"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/excelente-predio-comercial-com-529-25m2-rua-victor-hugo-kunz-1833-nh-mais-duas-casas-rua-jose-benno-schtz-98-nh-16-12-2025-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.631365"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/excelente-predio-comercial-com-529-25m2-rua-victor-hugo-kunz-1833-nh-mais-duas-casas-rua-jose-benno-schtz-98-nh-16-12-2025-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.645884"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/direitos-e-acoes-do-ap-34-bloco-l-desocupado-residencial-ipiranga-rua-irma-edwiges-816-sapucaia-do-sul-rs-22-12-2025-16-20-08/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.673400"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão DIREITOS E AÇÕES DO AP. 34 BLOCO \"L\", (DESOCUPADO)RESIDENCIAL IPIRANGA, RUA IRMÃ EDWIGES, 816, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/direitos-e-acoes-do-ap-34-bloco-l-desocupado-residencial-ipiranga-rua-irma-edwiges-816-sapucaia-do-sul-rs-22-12-2025-16-20-08/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.702446"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/direitos-e-acoes-do-ap-34-bloco-l-desocupado-residencial-ipiranga-rua-irma-edwiges-816-sapucaia-do-sul-rs-22-12-2025-16-20-08/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.718126"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/direitos-e-acoes-do-ap-34-bloco-l-desocupado-residencial-ipiranga-rua-irma-edwiges-816-sapucaia-do-sul-rs-22-12-2025-16-20-08/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.730949"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-jorge-do-amaral-quadra1445-lote-11-arroio-da-manteiga-sao-leopoldo-rs-14-01-2026-11-49-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.760795"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 TERRENO LOCALIZADO NA RUA JORGE DO AMARAL, QUADRA1445, LOTE 11, ARROIO DA MANTEIGA, SÃO LEOPOLDO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-jorge-do-amaral-quadra1445-lote-11-arroio-da-manteiga-sao-leopoldo-rs-14-01-2026-11-49-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.792827"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-jorge-do-amaral-quadra1445-lote-11-arroio-da-manteiga-sao-leopoldo-rs-14-01-2026-11-49-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.808214"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-jorge-do-amaral-quadra1445-lote-11-arroio-da-manteiga-sao-leopoldo-rs-14-01-2026-11-49-30/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.824340"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-apartamento-408-bloco-4-do-edificio-praia-do-forte-rua-carlos-estevao-845-jardim-leopoldina-porto-alegre-rs-14-01-2026-15-01-5/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.851155"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O APARTAMENTO 408, BLOCO 4, DO EDIFICIO PRAIA DO FORTE, RUA CARLOS ESTEVÃO, 845,  JARDIM LEOPOLDINA, PORTO ALEGRE- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-408-bloco-4-do-edificio-praia-do-forte-rua-carlos-estevao-845-jardim-leopoldina-porto-alegre-rs-14-01-2026-15-01-5/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.879687"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-408-bloco-4-do-edificio-praia-do-forte-rua-carlos-estevao-845-jardim-leopoldina-porto-alegre-rs-14-01-2026-15-01-5/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.893833"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-408-bloco-4-do-edificio-praia-do-forte-rua-carlos-estevao-845-jardim-leopoldina-porto-alegre-rs-14-01-2026-15-01-5/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.905524"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-sobrado-na-frente-e-01-casa-nos-fundos-localizados-na-rua-dante-maccari-624-capao-da-cruz-sapucaia-do-sul-rs-11-11-2025-15-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.934827"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 SOBRADO NA FRENTE E 01 CASA NOS FUNDOS, LOCALIZADOS NA RUA DANTE MACCARI, 624, CAPÃO DA CRUZ, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-sobrado-na-frente-e-01-casa-nos-fundos-localizados-na-rua-dante-maccari-624-capao-da-cruz-sapucaia-do-sul-rs-11-11-2025-15-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.967546"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-sobrado-na-frente-e-01-casa-nos-fundos-localizados-na-rua-dante-maccari-624-capao-da-cruz-sapucaia-do-sul-rs-11-11-2025-15-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.982540"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-sobrado-na-frente-e-01-casa-nos-fundos-localizados-na-rua-dante-maccari-624-capao-da-cruz-sapucaia-do-sul-rs-11-11-2025-15-48/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:24.995587"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-vw-golf-gl-ano-modelo-1995-1995-placas-aff-9458-02-12-2025-13-30-34/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.025889"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 VW/ GOLF GL ANO/ MODELO 1995/ 1995, PLACAS AFF-9458&url=https://www.marceloleiloeiro.com.br/leilao/01-vw-golf-gl-ano-modelo-1995-1995-placas-aff-9458-02-12-2025-13-30-34/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.055974"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-vw-golf-gl-ano-modelo-1995-1995-placas-aff-9458-02-12-2025-13-30-34/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.068859"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-vw-golf-gl-ano-modelo-1995-1995-placas-aff-9458-02-12-2025-13-30-34/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.081760"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/excelente-sitio-com-5-000m2-lomba-grande-estrada-afonso-frederico-breitenbach-901-casa-7-novo-hamburgo-rs-02-10-2025-09-31-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.096497"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão EXCELENTE SITIO COM 5.000M2 (LOMBA GRANDE) ESTRADA AFONSO FREDERICO BREITENBACH, 901, CASA 7, NOVO HAMBURGO- RS&url=https://www.marceloleiloeiro.com.br/leilao/excelente-sitio-com-5-000m2-lomba-grande-estrada-afonso-frederico-breitenbach-901-casa-7-novo-hamburgo-rs-02-10-2025-09-31-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.126937"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/excelente-sitio-com-5-000m2-lomba-grande-estrada-afonso-frederico-breitenbach-901-casa-7-novo-hamburgo-rs-02-10-2025-09-31-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.142526"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/excelente-sitio-com-5-000m2-lomba-grande-estrada-afonso-frederico-breitenbach-901-casa-7-novo-hamburgo-rs-02-10-2025-09-31-36/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.154894"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-maquina-moinho-moedor-plastico-toda-revisada-estado-de-nova-23-10-2024-16-01-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.168473"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 MÁQUINA MOINHO MOEDOR PLÁSTICO (TODA REVISADA-ESTADO DE NOVA)&url=https://www.marceloleiloeiro.com.br/leilao/01-maquina-moinho-moedor-plastico-toda-revisada-estado-de-nova-23-10-2024-16-01-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.210291"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-maquina-moinho-moedor-plastico-toda-revisada-estado-de-nova-23-10-2024-16-01-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.223046"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-maquina-moinho-moedor-plastico-toda-revisada-estado-de-nova-23-10-2024-16-01-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.237988"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-ademar-arthur-becker-207-feitoria-sao-leopoldo-rs-04-04-2025-18-23-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.252277"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 TERRENO LOCALIZADO NA RUA ADEMAR ARTHUR BECKER, 207, FEITORIA, SAÕ LEOPOLDO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-ademar-arthur-becker-207-feitoria-sao-leopoldo-rs-04-04-2025-18-23-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.300579"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-ademar-arthur-becker-207-feitoria-sao-leopoldo-rs-04-04-2025-18-23-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.315074"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-terreno-localizado-na-rua-ademar-arthur-becker-207-feitoria-sao-leopoldo-rs-04-04-2025-18-23-45/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.332350"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-apartamento-141-bloco-1-residencial-altos-da-theodomiro-i-av-cel-theodomiro-porto-da-fonseca-2433-sapucaia-do-sul-rs-08-07-202/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.350346"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O APARTAMENTO 141 BLOCO \"1\" RESIDENCIAL ALTOS DA THEODOMIRO I, AV. CEL. THEODOMIRO PORTO DA FONSECA, 2433, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-141-bloco-1-residencial-altos-da-theodomiro-i-av-cel-theodomiro-porto-da-fonseca-2433-sapucaia-do-sul-rs-08-07-202/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.395552"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-141-bloco-1-residencial-altos-da-theodomiro-i-av-cel-theodomiro-porto-da-fonseca-2433-sapucaia-do-sul-rs-08-07-202/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.410623"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-141-bloco-1-residencial-altos-da-theodomiro-i-av-cel-theodomiro-porto-da-fonseca-2433-sapucaia-do-sul-rs-08-07-202/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.422935"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-vereador-darcy-jayme-keller-174-canudos-novo-hamburgo-rs-09-07-2025-10-47-10/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.436432"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA LOCALIZADA NA RUA VEREADOR DARCY JAYME KELLER, 174, CANUDOS, NOVO HAMBURGO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-vereador-darcy-jayme-keller-174-canudos-novo-hamburgo-rs-09-07-2025-10-47-10/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.482096"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-vereador-darcy-jayme-keller-174-canudos-novo-hamburgo-rs-09-07-2025-10-47-10/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.497031"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-localizada-na-rua-vereador-darcy-jayme-keller-174-canudos-novo-hamburgo-rs-09-07-2025-10-47-10/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.515052"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-rua-hamburgo-654-canudos-novo-hamburgo-rs-10-07-2025-11-33-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.529067"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA ALVENARIA, RUA HAMBURGO, 654, CANUDOS, NOVO HAMBURGO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-rua-hamburgo-654-canudos-novo-hamburgo-rs-10-07-2025-11-33-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.573393"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-rua-hamburgo-654-canudos-novo-hamburgo-rs-10-07-2025-11-33-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.589390"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-rua-hamburgo-654-canudos-novo-hamburgo-rs-10-07-2025-11-33-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.605214"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-apartamento-301-bloco-7-condominio-porto-de-napolis-av-lucio-bittencourt-1350-centro-sapucaia-do-sul-rs-07-08-2025-10-00-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.617178"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O APARTAMENTO 301 BLOCO 7 \"CONDOMINIO PORTO DE NAPOLIS, AV. LUCIO BITTENCOURT,1350, CENTRO, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-301-bloco-7-condominio-porto-de-napolis-av-lucio-bittencourt-1350-centro-sapucaia-do-sul-rs-07-08-2025-10-00-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.662465"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-301-bloco-7-condominio-porto-de-napolis-av-lucio-bittencourt-1350-centro-sapucaia-do-sul-rs-07-08-2025-10-00-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.677793"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-301-bloco-7-condominio-porto-de-napolis-av-lucio-bittencourt-1350-centro-sapucaia-do-sul-rs-07-08-2025-10-00-47/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.694905"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-apartamento-31-bloco-c-desocupado-condominio-guyanuba-rua-nilo-pires-de-lima-no-02-lomba-da-palmeira-sapucaia-do-sul-rs-09-09-/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.709755"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O APARTAMENTO 31, BLOCO C \"DESOCUPADO\", CONDOMINIO GUYANUBA, RUA NILO PIRES DE LIMA, Nº 02, LOMBA DA PALMEIRA, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-31-bloco-c-desocupado-condominio-guyanuba-rua-nilo-pires-de-lima-no-02-lomba-da-palmeira-sapucaia-do-sul-rs-09-09-/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.753540"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-31-bloco-c-desocupado-condominio-guyanuba-rua-nilo-pires-de-lima-no-02-lomba-da-palmeira-sapucaia-do-sul-rs-09-09-/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.767405"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-31-bloco-c-desocupado-condominio-guyanuba-rua-nilo-pires-de-lima-no-02-lomba-da-palmeira-sapucaia-do-sul-rs-09-09-/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.782470"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-apartamento-853-bloco-8-residencial-altos-da-theodomiro-ii-av-cel-theodomiro-porto-da-fonseca-2435-ipiranga-sapucaia-do-sul-rs/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.794933"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O APARTAMENTO 853 BLOCO 8, \"RESIDENCIAL ALTOS DA THEODOMIRO II\", AV. CEL. THEODOMIRO PORTO DA FONSECA, 2435, IPIRANGA, SAPUCAIA DO SUL- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-853-bloco-8-residencial-altos-da-theodomiro-ii-av-cel-theodomiro-porto-da-fonseca-2435-ipiranga-sapucaia-do-sul-rs/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.842401"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-853-bloco-8-residencial-altos-da-theodomiro-ii-av-cel-theodomiro-porto-da-fonseca-2435-ipiranga-sapucaia-do-sul-rs/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.860342"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-apartamento-853-bloco-8-residencial-altos-da-theodomiro-ii-av-cel-theodomiro-porto-da-fonseca-2435-ipiranga-sapucaia-do-sul-rs/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.879333"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/02-casas-alvenaria-localizadas-na-rua-dom-pedro-i-no-861-rio-branco-sao-leopoldo-rs-09-09-2025-17-06-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.895917"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 02 CASAS  ALVENARIA, LOCALIZADAS NA RUA DOM PEDRO I, Nº 861, RIO BRANCO, SÃO LEOPOLDO- RS&url=https://www.marceloleiloeiro.com.br/leilao/02-casas-alvenaria-localizadas-na-rua-dom-pedro-i-no-861-rio-branco-sao-leopoldo-rs-09-09-2025-17-06-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.942351"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/02-casas-alvenaria-localizadas-na-rua-dom-pedro-i-no-861-rio-branco-sao-leopoldo-rs-09-09-2025-17-06-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.954163"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/02-casas-alvenaria-localizadas-na-rua-dom-pedro-i-no-861-rio-branco-sao-leopoldo-rs-09-09-2025-17-06-59/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.968606"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/o-ap-450-bloco-d-localizado-na-rua-wolfram-metzler-no-450-porto-alegre-rs-20-10-2025-11-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:25.983679"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão O AP. 450 BLOCO \"D\", LOCALIZADO NA RUA WOLFRAM METZLER, Nº 450, PORTO ALEGRE- RS&url=https://www.marceloleiloeiro.com.br/leilao/o-ap-450-bloco-d-localizado-na-rua-wolfram-metzler-no-450-porto-alegre-rs-20-10-2025-11-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.030023"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/o-ap-450-bloco-d-localizado-na-rua-wolfram-metzler-no-450-porto-alegre-rs-20-10-2025-11-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.047791"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/o-ap-450-bloco-d-localizado-na-rua-wolfram-metzler-no-450-porto-alegre-rs-20-10-2025-11-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.060243"
+        },
+        {
+          "url": "https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-eusebio-321-canudos-novo-hamburgo-rs-18-11-2025-16-23-18/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.074451"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão 01 CASA ALVENARIA LOCALIZADA NA RUA EUSÉBIO, 321, CANUDOS, NOVO HAMBURGO- RS&url=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-eusebio-321-canudos-novo-hamburgo-rs-18-11-2025-16-23-18/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.121783"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-eusebio-321-canudos-novo-hamburgo-rs-18-11-2025-16-23-18/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.139212"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.marceloleiloeiro.com.br/leilao/01-casa-alvenaria-localizada-na-rua-eusebio-321-canudos-novo-hamburgo-rs-18-11-2025-16-23-18/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.marceloleiloeiro.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:26.157609"
+        }
+      ],
+      "total_imoveis": 108,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "marquesbarretoleiloes.com.br",
+      "url_base": "https://www.marquesbarretoleiloes.com.br",
+      "timestamp": "2026-01-20T17:34:28.198913",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.marquesbarretoleiloes.com.br/externo/lote/181/leilao-da-2a-vara-de-execucao-de-titulos-extrajudiciais-e-conflitos-arbitrais-de-brasilia-processo-n-0712471-66-2022-8-07-0001",
+          "texto_card": "BRASILIA - DF\n\nDireitos aquisitivos de imóvel: Chácara n.º 160, Rua 17, localizada no Altiplano Leste (Núcleo Rural), Paranoá/DF, CEP 71681-991, não escriturada, com metragem de, aproximadamente, 20.000 m² - dos quais, 10.000 são de região plana (os outros 10.000 são de relevo acidentado – não plano). Ademais, o lote, na área plana, apresenta muro e portão de acesso. No terreno existem duas construções (em estado de abandono) – canil, de, aproximadamente, 16m², com 8 baias e estrutura de alvenar",
+          "url_origem": "https://www.marquesbarretoleiloes.com.br/",
+          "extraido_em": "2026-01-20T17:34:37.584353",
+          "preco": 722346.42
+        },
+        {
+          "url": "https://www.marquesbarretoleiloes.com.br/externo/lote/180/leilao-da-3a-vara-de-execucao-de-titulos-extrajudiciais-e-conflitos-arbitrais-de-brasilia-processo-n-0731335-55-2022-8-07-0001",
+          "texto_card": "BRASILIA - DF\n\nVeículo Hyundai/HR LDB, tipo caminhonete, ano/modelo 2008/2009, placa: JIE3178, Renavam 166305502..\n\n1° LEILÃO\n03/02/2026 às 14:50:00\n\nAvaliação\n\nR$ 65.000,00\n\n2° LEILÃO\n06/02/2026 às 14:50:00\n\nLance Mínimo\n\nR$ 32.500,00\n\nELETRÔNICO",
+          "url_origem": "https://www.marquesbarretoleiloes.com.br/",
+          "extraido_em": "2026-01-20T17:34:37.621210",
+          "preco": 65000.0
+        }
+      ],
+      "total_imoveis": 2,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "michellileiloes.com.br",
+      "url_base": "https://www.michellileiloes.com.br",
+      "timestamp": "2026-01-20T17:34:39.689122",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n5 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.788289"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n2 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.802195"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n1 item",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.816735"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.826953"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.840273"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.854588"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.867925"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.878162"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/renault-clio-aut-1-0-24-11-2025-14-44-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.891397"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Renault/ Clio Aut 1.0&url=https://www.michellileiloes.com.br/leilao/renault-clio-aut-1-0-24-11-2025-14-44-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.917725"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.michellileiloes.com.br/leilao/renault-clio-aut-1-0-24-11-2025-14-44-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.929765"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.michellileiloes.com.br/leilao/renault-clio-aut-1-0-24-11-2025-14-44-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.944053"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/ford-corcel-24-11-2025-15-46-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.959142"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Ford/ Corcel&url=https://www.michellileiloes.com.br/leilao/ford-corcel-24-11-2025-15-46-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.982965"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.michellileiloes.com.br/leilao/ford-corcel-24-11-2025-15-46-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:48.996202"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.michellileiloes.com.br/leilao/ford-corcel-24-11-2025-15-46-33/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.010858"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/imovel-em-dom-pedrito-rua-torquato-severo-571-25-11-2025-14-17-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.023666"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Imóvel em Dom Pedrito - Rua Torquato Severo, 571&url=https://www.michellileiloes.com.br/leilao/imovel-em-dom-pedrito-rua-torquato-severo-571-25-11-2025-14-17-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.052991"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.michellileiloes.com.br/leilao/imovel-em-dom-pedrito-rua-torquato-severo-571-25-11-2025-14-17-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.067045"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.michellileiloes.com.br/leilao/imovel-em-dom-pedrito-rua-torquato-severo-571-25-11-2025-14-17-32/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.081230"
+        },
+        {
+          "url": "https://www.michellileiloes.com.br/leilao/leilao-teste-25-03-2024-14-12-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.092988"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão Leilão Teste&url=https://www.michellileiloes.com.br/leilao/leilao-teste-25-03-2024-14-12-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.121630"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.michellileiloes.com.br/leilao/leilao-teste-25-03-2024-14-12-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.136997"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.michellileiloes.com.br/leilao/leilao-teste-25-03-2024-14-12-21/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.michellileiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:34:49.151698"
+        }
+      ],
+      "total_imoveis": 24,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "rangelleiloes.com.br",
+      "url_base": "https://www.rangelleiloes.com.br",
+      "timestamp": "2026-01-20T17:35:01.450823",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.372913"
+        },
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.389273"
+        },
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.406306"
+        },
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.421811"
+        },
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/sucata",
+          "texto_card": "SUCATA\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.436111"
+        },
+        {
+          "url": "https://www.rangelleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n0 itens",
+          "url_origem": "https://www.rangelleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:12.452467"
+        }
+      ],
+      "total_imoveis": 6,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "renovarleiloes.com.br",
+      "url_base": "https://www.renovarleiloes.com.br",
+      "timestamp": "2026-01-20T17:35:14.491643",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/veiculos",
+          "texto_card": "VEÍCULOS\n126 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.298439"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/imoveis",
+          "texto_card": "IMÓVEIS\n38 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.323085"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/embarcacao",
+          "texto_card": "EMBARCAÇÃO\n4 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.342470"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/maquinas",
+          "texto_card": "MÁQUINAS\n4 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.369698"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/ativo-financeiro",
+          "texto_card": "ATIVO FINANCEIRO\n1 item",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.390723"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/diversos",
+          "texto_card": "DIVERSOS\n0 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.409621"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/eletronicos",
+          "texto_card": "ELETRÔNICOS\n0 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.426516"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/equipamentos",
+          "texto_card": "EQUIPAMENTOS\n0 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.447322"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/semoventes",
+          "texto_card": "SEMOVENTES\n0 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.465876"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/lotes/sucatas",
+          "texto_card": "SUCATAS\n0 itens",
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.482331"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-esteio-rs-lei-9-514-16-01-2026-11-11-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.499249"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO  / ESTEIO - RS /  LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-esteio-rs-lei-9-514-16-01-2026-11-11-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.536708"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-esteio-rs-lei-9-514-16-01-2026-11-11-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.558948"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-esteio-rs-lei-9-514-16-01-2026-11-11-07/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.582037"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-retomados-de-financiamento-16-01-2026-16-31-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.617564"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE VEÍCULOS RETOMADOS DE FINANCIAMENTO&url=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-retomados-de-financiamento-16-01-2026-16-31-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.646806"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-retomados-de-financiamento-16-01-2026-16-31-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.662672"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-retomados-de-financiamento-16-01-2026-16-31-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.678858"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-concordia-sc-lei-9-514-19-12-2025-11-23-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.711638"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / CONCÓRDIA - SC / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-concordia-sc-lei-9-514-19-12-2025-11-23-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.745911"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-concordia-sc-lei-9-514-19-12-2025-11-23-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.764382"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-concordia-sc-lei-9-514-19-12-2025-11-23-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.781837"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-humaita-rs-lei-9-514-15-01-2026-10-42-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.813728"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL RURAL / HUMAITÁ - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-humaita-rs-lei-9-514-15-01-2026-10-42-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.844293"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-humaita-rs-lei-9-514-15-01-2026-10-42-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.864603"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-humaita-rs-lei-9-514-15-01-2026-10-42-41/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.881361"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bage-rs-lei-9-514-05-01-2026-13-37-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.926647"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / BAGÉ - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bage-rs-lei-9-514-05-01-2026-13-37-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.961377"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bage-rs-lei-9-514-05-01-2026-13-37-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.978243"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bage-rs-lei-9-514-05-01-2026-13-37-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:25.994641"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjrs-24-10-2025-08-31-26/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.022303"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL DE VEÍCULOS - TJRS&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjrs-24-10-2025-08-31-26/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.053977"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjrs-24-10-2025-08-31-26/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.072304"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjrs-24-10-2025-08-31-26/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.088968"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-imovel-tjrs-22-10-2025-09-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.118677"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL DE IMÓVEL - TJRS&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-imovel-tjrs-22-10-2025-09-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.148798"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-imovel-tjrs-22-10-2025-09-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.163042"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-imovel-tjrs-22-10-2025-09-16-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.178048"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-27-10-2025-16-15-54/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.208803"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL DE VEÍCULOS - TJSC&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-27-10-2025-16-15-54/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.238691"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-27-10-2025-16-15-54/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.261396"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-27-10-2025-16-15-54/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.278026"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-2-vara-do-trabalho-de-santa-rosa-rs-imovel-03-11-2025-14-57-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.312263"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL / 2 VARA DO TRABALHO DE SANTA ROSA / RS - IMÓVEL&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-2-vara-do-trabalho-de-santa-rosa-rs-imovel-03-11-2025-14-57-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.339428"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-2-vara-do-trabalho-de-santa-rosa-rs-imovel-03-11-2025-14-57-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.356185"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-2-vara-do-trabalho-de-santa-rosa-rs-imovel-03-11-2025-14-57-17/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.372548"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-catuipe-rs-lei-9-514-17-12-2025-16-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.404800"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL RURAL / CATUÍPE - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-catuipe-rs-lei-9-514-17-12-2025-16-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.436097"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-catuipe-rs-lei-9-514-17-12-2025-16-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.452020"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-catuipe-rs-lei-9-514-17-12-2025-16-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.466737"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-coromandel-mg-lei-9-514-30-12-2025-17-02-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.499420"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / COROMANDEL - MG / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-coromandel-mg-lei-9-514-30-12-2025-17-02-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.534005"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-coromandel-mg-lei-9-514-30-12-2025-17-02-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.552104"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-coromandel-mg-lei-9-514-30-12-2025-17-02-29/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.568606"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-diversos-estado-do-rio-grande-do-sul-05-12-2025-11-17-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.600703"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO  DE IMÓVEIS DIVERSOS / ESTADO DO RIO GRANDE DO SUL&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-diversos-estado-do-rio-grande-do-sul-05-12-2025-11-17-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.633424"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-diversos-estado-do-rio-grande-do-sul-05-12-2025-11-17-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.649860"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-diversos-estado-do-rio-grande-do-sul-05-12-2025-11-17-53/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.664102"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-bndu-imoveis-rurais-rio-grande-do-sul-22-12-2025-11-41-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.697660"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO BNDU /  IMÓVEIS RURAIS RIO GRANDE DO SUL&url=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imoveis-rurais-rio-grande-do-sul-22-12-2025-11-41-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.729331"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imoveis-rurais-rio-grande-do-sul-22-12-2025-11-41-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.745584"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imoveis-rurais-rio-grande-do-sul-22-12-2025-11-41-37/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.759975"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-da-prefeitura-de-caxias-do-sul-rs-08-12-2025-09-20-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.789700"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEIS DA PREFEITURA DE CAXIAS DO SUL - RS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-da-prefeitura-de-caxias-do-sul-rs-08-12-2025-09-20-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.819821"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-da-prefeitura-de-caxias-do-sul-rs-08-12-2025-09-20-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.835818"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-da-prefeitura-de-caxias-do-sul-rs-08-12-2025-09-20-25/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.853026"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-urbanos-estado-do-rio-grande-do-sul-08-12-2025-16-38-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.883511"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEIS URBANOS /  ESTADO DO RIO GRANDE DO SUL&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-urbanos-estado-do-rio-grande-do-sul-08-12-2025-16-38-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.909929"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-urbanos-estado-do-rio-grande-do-sul-08-12-2025-16-38-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.924966"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-urbanos-estado-do-rio-grande-do-sul-08-12-2025-16-38-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.940536"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-sao-miguel-das-missoes-rs-lei-9-514-22-12-2025-14-41-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.969405"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL RURAL / SÃO MIGUEL DAS MISSÕES - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-sao-miguel-das-missoes-rs-lei-9-514-22-12-2025-14-41-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:26.997176"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-sao-miguel-das-missoes-rs-lei-9-514-22-12-2025-14-41-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.013110"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-sao-miguel-das-missoes-rs-lei-9-514-22-12-2025-14-41-22/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.028642"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-da-prefeitura-de-alto-piquiri-pr-07-01-2026-14-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.056660"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DA PREFEITURA DE ALTO PIQUIRI - PR&url=https://www.renovarleiloes.com.br/leilao/leilao-da-prefeitura-de-alto-piquiri-pr-07-01-2026-14-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.085620"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-da-prefeitura-de-alto-piquiri-pr-07-01-2026-14-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.100272"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-da-prefeitura-de-alto-piquiri-pr-07-01-2026-14-20-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.115820"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-bndu-venancio-aires-rs-16-01-2026-17-09-39/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.146694"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL RURAL BNDU /  VENÂNCIO AIRES - RS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-bndu-venancio-aires-rs-16-01-2026-17-09-39/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.173756"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-bndu-venancio-aires-rs-16-01-2026-17-09-39/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.190539"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-bndu-venancio-aires-rs-16-01-2026-17-09-39/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.207411"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-ativo-financeiro-carteira-de-seguros-19-12-2025-11-34-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.237548"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE ATIVO FINANCEIRO - CARTEIRA DE SEGUROS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-ativo-financeiro-carteira-de-seguros-19-12-2025-11-34-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.265193"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-ativo-financeiro-carteira-de-seguros-19-12-2025-11-34-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.280723"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-ativo-financeiro-carteira-de-seguros-19-12-2025-11-34-28/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.297921"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bndu-alegrete-rs-08-01-2026-11-06-01/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.327786"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO - BNDU / ALEGRETE - RS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bndu-alegrete-rs-08-01-2026-11-06-01/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.359720"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bndu-alegrete-rs-08-01-2026-11-06-01/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.371148"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-bndu-alegrete-rs-08-01-2026-11-06-01/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.386086"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-ouro-fino-mg-lei-9-514-09-01-2026-09-38-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.416709"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / OURO FINO - MG / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-ouro-fino-mg-lei-9-514-09-01-2026-09-38-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.448435"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-ouro-fino-mg-lei-9-514-09-01-2026-09-38-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.461967"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-ouro-fino-mg-lei-9-514-09-01-2026-09-38-35/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.474968"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-frederico-westphalen-rs-lei-9-514-05-01-2026-17-54-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.504007"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / FREDERICO WESTPHALEN - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-frederico-westphalen-rs-lei-9-514-05-01-2026-17-54-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.529177"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-frederico-westphalen-rs-lei-9-514-05-01-2026-17-54-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.544727"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-frederico-westphalen-rs-lei-9-514-05-01-2026-17-54-00/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.559745"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-comercial-de-esquina-rio-grande-rs-07-11-2025-17-40-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.591476"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL COMERCIAL DE ESQUINA - RIO GRANDE/RS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-comercial-de-esquina-rio-grande-rs-07-11-2025-17-40-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.621212"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-comercial-de-esquina-rio-grande-rs-07-11-2025-17-40-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.636430"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-comercial-de-esquina-rio-grande-rs-07-11-2025-17-40-15/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.653206"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-palmitos-sc-lei-9-514-06-01-2026-15-52-58/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.685323"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / PALMITOS - SC / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-palmitos-sc-lei-9-514-06-01-2026-15-52-58/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.716160"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-palmitos-sc-lei-9-514-06-01-2026-15-52-58/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.729112"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-palmitos-sc-lei-9-514-06-01-2026-15-52-58/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.742285"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-vicente-dutra-rs-lei-9-514-06-01-2026-17-40-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.773095"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL RURAL / VICENTE DUTRA - RS / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-vicente-dutra-rs-lei-9-514-06-01-2026-17-40-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.801828"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-vicente-dutra-rs-lei-9-514-06-01-2026-17-40-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.816437"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-rural-vicente-dutra-rs-lei-9-514-06-01-2026-17-40-56/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.830611"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-xanxere-sc-lei-9-514-07-01-2026-16-47-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.859340"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEL URBANO / XANXERÊ - SC / LEI 9.514&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-xanxere-sc-lei-9-514-07-01-2026-16-47-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.886049"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-xanxere-sc-lei-9-514-07-01-2026-16-47-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.901304"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imovel-urbano-xanxere-sc-lei-9-514-07-01-2026-16-47-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.915846"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-tjrs-12-12-2025-10-43-16/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.946866"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE VEÍCULOS - TJRS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-tjrs-12-12-2025-10-43-16/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.974054"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-tjrs-12-12-2025-10-43-16/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:27.989412"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-veiculos-tjrs-12-12-2025-10-43-16/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.003425"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-bndu-imovel-urbano-ibiruba-rs-sicredi-rota-das-terras-20-01-2026-11-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.033040"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO BNDU / IMÓVEL URBANO / IBIRUBÁ - RS/ SICREDI ROTA DAS TERRAS&url=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imovel-urbano-ibiruba-rs-sicredi-rota-das-terras-20-01-2026-11-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.060118"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imovel-urbano-ibiruba-rs-sicredi-rota-das-terras-20-01-2026-11-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.075664"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-bndu-imovel-urbano-ibiruba-rs-sicredi-rota-das-terras-20-01-2026-11-20-24/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.090013"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-tjrs-18-12-2025-11-41-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.117454"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO DE IMÓVEIS - TJRS&url=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-tjrs-18-12-2025-11-41-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.148239"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-tjrs-18-12-2025-11-41-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.163326"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-de-imoveis-tjrs-18-12-2025-11-41-38/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.178059"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-08-12-2025-14-25-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.204627"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL DE VEÍCULOS - TJSC&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-08-12-2025-14-25-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.232080"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-08-12-2025-14-25-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.246615"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-de-veiculos-tjsc-08-12-2025-14-25-11/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.258462"
+        },
+        {
+          "url": "https://www.renovarleiloes.com.br/leilao/leilao-judicial-6a-vara-do-trabalho-de-florianopolis-sc-imovel-10-12-2025-16-34-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.289587"
+        },
+        {
+          "url": "https://x.com/intent/tweet/?text=Leilão LEILÃO JUDICIAL - 6A VARA DO TRABALHO DE FLORIANÓPOLIS / SC - IMÓVEL&url=https://www.renovarleiloes.com.br/leilao/leilao-judicial-6a-vara-do-trabalho-de-florianopolis-sc-imovel-10-12-2025-16-34-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.318147"
+        },
+        {
+          "url": "https://facebook.com/sharer/sharer.php?u=https://www.renovarleiloes.com.br/leilao/leilao-judicial-6a-vara-do-trabalho-de-florianopolis-sc-imovel-10-12-2025-16-34-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.333971"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=https://www.renovarleiloes.com.br/leilao/leilao-judicial-6a-vara-do-trabalho-de-florianopolis-sc-imovel-10-12-2025-16-34-14/lotes/lista",
+          "texto_card": null,
+          "url_origem": "https://www.renovarleiloes.com.br/busca",
+          "extraido_em": "2026-01-20T17:35:28.346625"
+        }
+      ],
+      "total_imoveis": 134,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    }
+  ],
+  "falhas_detalhes": [
+    {
+      "dominio": "duxleiloes.com.br",
+      "url_base": "https://www.duxleiloes.com.br",
+      "timestamp": "2026-01-20T17:33:13.647785",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "pbcastro.com.br",
+      "url_base": "https://www.pbcastro.com.br",
+      "timestamp": "2026-01-20T17:34:51.211775",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": null,
+      "erro": null
+    },
+    {
+      "dominio": "sold.com.br",
+      "url_base": "https://www.sold.com.br",
+      "timestamp": "2026-01-20T17:35:30.397032",
+      "tier": "TIER_2_STEALTH",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 1,
+      "bloqueio_detectado": "CAPTCHA",
+      "erro": null
+    }
+  ]
+}

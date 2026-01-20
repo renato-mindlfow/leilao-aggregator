@@ -1,0 +1,197 @@
+{
+  "total": 32,
+  "sites": [
+    {
+      "dominio": "agenciadeleiloes.com.br",
+      "url_base": "https://www.agenciadeleiloes.com.br",
+      "url_testada": "https://www.agenciadeleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "alexiusleiloes.com.br",
+      "url_base": "https://www.alexiusleiloes.com.br",
+      "url_testada": "https://www.alexiusleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "amtleiloes.com.br",
+      "url_base": "https://www.amtleiloes.com.br",
+      "url_testada": "https://www.amtleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "anabrasilleiloes.com.br",
+      "url_base": "https://www.anabrasilleiloes.com.br",
+      "url_testada": "https://www.anabrasilleiloes.com.br/imoveis",
+      "erro": "PAGINA_VAZIA"
+    },
+    {
+      "dominio": "bianchileiloes.com.br",
+      "url_base": "https://www.bianchileiloes.com.br",
+      "url_testada": "https://www.bianchileiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "bidgo.com.br",
+      "url_base": "https://www.bidgo.com.br",
+      "url_testada": "https://www.bidgo.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "ckleiloes.com.br",
+      "url_base": "https://www.ckleiloes.com.br",
+      "url_testada": "https://www.ckleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "duxleiloes.com.br",
+      "url_base": "https://www.duxleiloes.com.br",
+      "url_testada": "https://www.duxleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "eixoleiloes.com.br",
+      "url_base": "https://www.eixoleiloes.com.br",
+      "url_testada": "https://www.eixoleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "evaleiloes.com.br",
+      "url_base": "https://www.evaleiloes.com.br",
+      "url_testada": "https://www.evaleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "gtleiloes.com.br",
+      "url_base": "https://www.gtleiloes.com.br",
+      "url_testada": "https://www.gtleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "hastalegal.com.br",
+      "url_base": "https://www.hastalegal.com.br",
+      "url_testada": "https://www.hastalegal.com.br/imoveis",
+      "erro": "PAGINA_VAZIA"
+    },
+    {
+      "dominio": "horizonteleiloes.com.br",
+      "url_base": "https://www.horizonteleiloes.com.br",
+      "url_testada": "https://www.horizonteleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "infinityleiloes.com.br",
+      "url_base": "https://www.infinityleiloes.com.br",
+      "url_testada": "https://www.infinityleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "juleiloes.com.br",
+      "url_base": "https://www.juleiloes.com.br",
+      "url_testada": "https://www.juleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "leffaleiloes.com.br",
+      "url_base": "https://www.leffaleiloes.com.br",
+      "url_testada": "https://www.leffaleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "leilaobutia.com.br",
+      "url_base": "https://www.leilaobutia.com.br",
+      "url_testada": "https://www.leilaobutia.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "leiloeirobarbieri.com.br",
+      "url_base": "https://www.leiloeirobarbieri.com.br",
+      "url_testada": "https://www.leiloeirobarbieri.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "leiloes61.com.br",
+      "url_base": "https://www.leiloes61.com.br",
+      "url_testada": "https://www.leiloes61.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "leiloesfederal.com.br",
+      "url_base": "https://www.leiloesfederal.com.br",
+      "url_testada": "https://www.leiloesfederal.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "marangonileiloes.com.br",
+      "url_base": "https://www.marangonileiloes.com.br",
+      "url_testada": "https://www.marangonileiloes.com.br/imoveis",
+      "erro": "CAPTCHA"
+    },
+    {
+      "dominio": "marceloleiloeiro.com.br",
+      "url_base": "https://www.marceloleiloeiro.com.br",
+      "url_testada": "https://www.marceloleiloeiro.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "marquesbarretoleiloes.com.br",
+      "url_base": "https://www.marquesbarretoleiloes.com.br",
+      "url_testada": "https://www.marquesbarretoleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "michellileiloes.com.br",
+      "url_base": "https://www.michellileiloes.com.br",
+      "url_testada": "https://www.michellileiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "monzonleiloes.com.br",
+      "url_base": "https://www.monzonleiloes.com.br",
+      "url_testada": "https://www.monzonleiloes.com.br/imoveis",
+      "erro": "CAPTCHA"
+    },
+    {
+      "dominio": "mpleilao.com.br",
+      "url_base": "https://www.mpleilao.com.br",
+      "url_testada": "https://www.mpleilao.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "multleiloes.com",
+      "url_base": "https://www.multleiloes.com",
+      "url_testada": "https://www.multleiloes.com/imoveis",
+      "erro": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.multleiloes.com/imoveis\nCall log:\n  - navigating to \"https://www.multleiloes.com/imoveis\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "dominio": "oreidosleiloes.com.br",
+      "url_base": "https://www.oreidosleiloes.com.br",
+      "url_testada": "https://www.oreidosleiloes.com.br/imoveis",
+      "erro": "PAGINA_VAZIA"
+    },
+    {
+      "dominio": "pbcastro.com.br",
+      "url_base": "https://www.pbcastro.com.br",
+      "url_testada": "https://www.pbcastro.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "rangelleiloes.com.br",
+      "url_base": "https://www.rangelleiloes.com.br",
+      "url_testada": "https://www.rangelleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "renovarleiloes.com.br",
+      "url_base": "https://www.renovarleiloes.com.br",
+      "url_testada": "https://www.renovarleiloes.com.br/imoveis",
+      "erro": null
+    },
+    {
+      "dominio": "sold.com.br",
+      "url_base": "https://www.sold.com.br",
+      "url_testada": "https://www.sold.com.br/imoveis",
+      "erro": "CAPTCHA"
+    }
+  ]
+}
