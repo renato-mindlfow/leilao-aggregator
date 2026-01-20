@@ -1,0 +1,33 @@
+======================================================================
+🚀 AUDITORIA COMPLETA DE TODOS OS LEILOEIROS
+======================================================================
+Modo: rapido
+Limite: Todos
+Logs em: logs\auditoria_completa
+======================================================================
+
+⏳ Executando de forma AUTÔNOMA...
+   Esta tarefa pode levar várias horas.
+   Progresso será salvo a cada 50 leiloeiros.
+
+
+======================================================================
+📊 RESUMO FINAL DA AUDITORIA COMPLETA
+======================================================================
+
+✅ Sucesso: 128/289
+⚠️ Parcial: 55
+❌ Falha: 63
+💥 Erro: 6
+⏱️ Timeout: 1
+🚫 Bloqueado: 1
+🌐 DNS Error: 12
+
+📈 Taxa de Sucesso: 63.3%
+🏠 Imóveis Extraídos: 18097
+📊 Imóveis Estimados: 81702
+📄 Leiloeiros com Paginação: 50
+⏱️ Duração: 1.1 horas
+======================================================================
+
+✅ AUDITORIA CONCLUÍDA!

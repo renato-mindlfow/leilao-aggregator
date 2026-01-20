@@ -1,0 +1,112 @@
+{
+  "Depaulaonline": {
+    "name": "Depaulaonline",
+    "url": "https://www.depaulaonline.com.br",
+    "pagination_type": "INFINITE_SCROLL",
+    "total_items": null,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: botão \"Ver Mais\" ou similar",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Depaulaonline.png",
+    "timestamp": "2026-01-20T10:18:01.612975"
+  },
+  "Unileiloes": {
+    "name": "Unileiloes",
+    "url": "https://www.unileiloes.com.br",
+    "pagination_type": "INFINITE_SCROLL",
+    "total_items": null,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: botão \"Ver Mais\" ou similar",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Unileiloes.png",
+    "timestamp": "2026-01-20T10:18:11.696589"
+  },
+  "Sfrazao": {
+    "name": "Sfrazao",
+    "url": "https://www.sfrazao.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": null,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões, Judicial)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Sfrazao.png",
+    "timestamp": "2026-01-20T10:18:20.177923"
+  },
+  "Sodresantoro": {
+    "name": "Sodresantoro",
+    "url": "https://www.sodresantoro.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": 50,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões, Judicial, Encerrados)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Sodresantoro.png",
+    "timestamp": "2026-01-20T10:18:37.558455"
+  },
+  "Sold": {
+    "name": "Sold",
+    "url": "https://www.sold.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": null,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Sold.png",
+    "timestamp": "2026-01-20T10:18:55.203667"
+  },
+  "Hastavip": {
+    "name": "Hastavip",
+    "url": "https://www.hastavip.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": 34,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões, Judicial, Extrajudicial)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Hastavip.png",
+    "timestamp": "2026-01-20T10:19:19.268954"
+  },
+  "Megaleiloes": {
+    "name": "Megaleiloes",
+    "url": "https://www.megaleiloes.com.br/",
+    "pagination_type": "NUMERIC",
+    "total_items": null,
+    "total_pages": 10,
+    "url_pattern": null,
+    "notes": "Detectado: \"Página 1 de 10\"",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Megaleiloes.png",
+    "timestamp": "2026-01-20T10:19:37.367598"
+  },
+  "Biasileiloes": {
+    "name": "Biasileiloes",
+    "url": "https://www.biasileiloes.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": 5,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões, Extrajudicial)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Biasileiloes.png",
+    "timestamp": "2026-01-20T10:19:51.288234"
+  },
+  "Leje": {
+    "name": "Leje",
+    "url": "https://www.leje.com.br",
+    "pagination_type": "TABS_FILTER",
+    "total_items": null,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: abas de filtro (Todos, Leilão, Leilões, Judicial)",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Leje.png",
+    "timestamp": "2026-01-20T10:19:59.998847"
+  },
+  "Leilaobrasil": {
+    "name": "Leilaobrasil",
+    "url": "https://www.leilaobrasil.com.br",
+    "pagination_type": "INFINITE_SCROLL",
+    "total_items": 6,
+    "total_pages": null,
+    "url_pattern": null,
+    "notes": "Detectado: botão \"Ver Mais\" ou similar",
+    "screenshot": "logs\\mapeamento_paginacao\\screenshots\\Leilaobrasil.png",
+    "timestamp": "2026-01-20T10:20:18.242428"
+  }
+}

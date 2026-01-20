@@ -1,0 +1,408 @@
+{
+  "Depaulaonline": {
+    "url": "https://www.depaulaonline.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 38,
+    "notes": "Auto-gerado baseado em 38 imóveis conhecidos"
+  },
+  "Unileiloes": {
+    "url": "https://www.unileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 2,
+    "notes": "Auto-gerado baseado em 2 imóveis conhecidos"
+  },
+  "Sfrazao": {
+    "url": "https://www.sfrazao.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 10,
+    "notes": "Auto-gerado baseado em 10 imóveis conhecidos"
+  },
+  "Sodresantoro": {
+    "pagination_type": "TABS_FILTER",
+    "url": "https://www.sodresantoro.com.br/imoveis",
+    "notes": "Sistema de filtros"
+  },
+  "Sold": {
+    "pagination_type": "TABS_FILTER",
+    "url": "https://www.sold.com.br/imoveis",
+    "notes": "Sistema de abas/filtros"
+  },
+  "Hastavip": {
+    "pagination_type": "SINGLE_PAGE",
+    "url": "https://www.hastavip.com.br/imoveis",
+    "notes": "Poucos imóveis"
+  },
+  "Megaleiloes": {
+    "pagination_type": "NUMERIC",
+    "url": "https://www.megaleiloes.com.br/imoveis",
+    "total_pages": 20,
+    "notes": "Paginação numérica - ?pagina=X"
+  },
+  "Biasileiloes": {
+    "url": "https://www.biasileiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 23,
+    "notes": "Auto-gerado baseado em 23 imóveis conhecidos"
+  },
+  "Leje": {
+    "pagination_type": "SINGLE_PAGE",
+    "url": "https://www.leje.com.br/imoveis",
+    "notes": "Página única ou poucas páginas"
+  },
+  "Leilaobrasil": {
+    "url": "https://www.leilaobrasil.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 40,
+    "notes": "Auto-gerado baseado em 40 imóveis conhecidos"
+  },
+  "Hastapublica": {
+    "url": "https://www.hastapublica.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 20,
+    "notes": "Auto-gerado baseado em 20 imóveis conhecidos"
+  },
+  "Vivaleiloes": {
+    "pagination_type": "SINGLE_PAGE",
+    "url": "https://www.vivaleiloes.com.br/imoveis",
+    "notes": "Poucos imóveis"
+  },
+  "Lancenoleilao": {
+    "url": "https://www.lancenoleilao.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Lut": {
+    "pagination_type": "NUMERIC",
+    "url": "https://www.lut.com.br/imoveis",
+    "total_pages": 10,
+    "notes": "Paginação numérica"
+  },
+  "Portalzuk": {
+    "pagination_type": "NUMERIC",
+    "url": "https://www.portalzuk.com.br/imoveis",
+    "total_pages": 5,
+    "notes": "Paginação numérica"
+  },
+  "Cunhaleiloeiro": {
+    "url": "https://www.cunhaleiloeiro.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 13,
+    "notes": "Auto-gerado baseado em 13 imóveis conhecidos"
+  },
+  "Sumareleiloes": {
+    "url": "https://www.sumareleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 22,
+    "notes": "Auto-gerado baseado em 22 imóveis conhecidos"
+  },
+  "Lancejudicial": {
+    "pagination_type": "NUMERIC",
+    "url": "https://www.lancejudicial.com.br/imoveis",
+    "total_pages": 15,
+    "notes": "Muitos imóveis - paginação numérica"
+  },
+  "E-Confianca": {
+    "url": "https://www.e-confianca.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 11,
+    "notes": "Auto-gerado baseado em 11 imóveis conhecidos"
+  },
+  "Gilsoninumaruleiloes": {
+    "url": "https://www.gilsoninumaruleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 4,
+    "notes": "Auto-gerado baseado em 4 imóveis conhecidos"
+  },
+  "Lanceja": {
+    "url": "https://www.lanceja.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Liderleiloes": {
+    "url": "https://www.liderleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 6,
+    "notes": "Auto-gerado baseado em 6 imóveis conhecidos"
+  },
+  "Carloferrarileiloes": {
+    "url": "https://www.carloferrarileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 3,
+    "notes": "Auto-gerado baseado em 3 imóveis conhecidos"
+  },
+  "Webleiloes": {
+    "url": "https://www.webleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 14,
+    "notes": "Auto-gerado baseado em 14 imóveis conhecidos"
+  },
+  "Picellileiloes": {
+    "url": "https://www.picellileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 2,
+    "notes": "Auto-gerado baseado em 2 imóveis conhecidos"
+  },
+  "Centraljudicial": {
+    "url": "https://www.centraljudicial.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 5,
+    "notes": "Auto-gerado baseado em 5 imóveis conhecidos"
+  },
+  "Oleiloes": {
+    "url": "https://www.oleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 50,
+    "notes": "Auto-gerado baseado em 50 imóveis conhecidos"
+  },
+  "Rochaleiloes": {
+    "url": "https://www.rochaleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Topoleiloes": {
+    "url": "https://www.topoleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 27,
+    "notes": "Auto-gerado baseado em 27 imóveis conhecidos"
+  },
+  "Nakakogueleiloes": {
+    "url": "https://www.nakakogueleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 18,
+    "notes": "Auto-gerado baseado em 18 imóveis conhecidos"
+  },
+  "Vmleiloes": {
+    "url": "https://www.vmleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 20,
+    "notes": "Auto-gerado baseado em 20 imóveis conhecidos"
+  },
+  "Pbcastro": {
+    "url": "https://www.pbcastro.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 3,
+    "notes": "Auto-gerado baseado em 3 imóveis conhecidos"
+  },
+  "Marquesleiloes": {
+    "url": "https://www.marquesleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 8,
+    "notes": "Auto-gerado baseado em 8 imóveis conhecidos"
+  },
+  "Kleiloes": {
+    "url": "https://www.kleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 20,
+    "notes": "Auto-gerado baseado em 20 imóveis conhecidos"
+  },
+  "Jeleiloes": {
+    "url": "https://www.jeleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 40,
+    "notes": "Auto-gerado baseado em 40 imóveis conhecidos"
+  },
+  "Spencerleiloes": {
+    "url": "https://www.spencerleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 13,
+    "notes": "Auto-gerado baseado em 13 imóveis conhecidos"
+  },
+  "Alexandridisleiloes": {
+    "url": "https://www.alexandridisleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 23,
+    "notes": "Auto-gerado baseado em 23 imóveis conhecidos"
+  },
+  "Moralesleiloes": {
+    "url": "https://www.moralesleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Psnleiloes": {
+    "url": "https://www.psnleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 13,
+    "notes": "Auto-gerado baseado em 13 imóveis conhecidos"
+  },
+  "Allianceleiloes": {
+    "url": "https://www.allianceleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 50,
+    "notes": "Auto-gerado baseado em 50 imóveis conhecidos"
+  },
+  "Fauthleiloes": {
+    "url": "https://www.fauthleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Santoseborinleiloes": {
+    "url": "https://www.santoseborinleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 35,
+    "notes": "Auto-gerado baseado em 35 imóveis conhecidos"
+  },
+  "Leiloeslaraforster": {
+    "url": "https://www.leiloeslaraforster.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 50,
+    "notes": "Auto-gerado baseado em 50 imóveis conhecidos"
+  },
+  "Benedettoleiloes": {
+    "url": "https://www.benedettoleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 5,
+    "notes": "Auto-gerado baseado em 5 imóveis conhecidos"
+  },
+  "Ctsleiloes": {
+    "url": "https://www.ctsleiloes.com.br/imoveis",
+    "pagination_type": "NUMERIC",
+    "total_pages": 3,
+    "total_items": 49,
+    "notes": "Auto-gerado baseado em 49 imóveis conhecidos"
+  },
+  "Cristianoescolaleiloes": {
+    "url": "https://www.cristianoescolaleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 4,
+    "notes": "Auto-gerado baseado em 4 imóveis conhecidos"
+  },
+  "Casaforteleiloes": {
+    "url": "https://www.casaforteleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 10,
+    "notes": "Auto-gerado baseado em 10 imóveis conhecidos"
+  },
+  "Trileiloes": {
+    "url": "https://www.trileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 20,
+    "notes": "Auto-gerado baseado em 20 imóveis conhecidos"
+  },
+  "Kriegerleiloes": {
+    "url": "https://www.kriegerleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 13,
+    "notes": "Auto-gerado baseado em 13 imóveis conhecidos"
+  },
+  "Turanileiloes": {
+    "url": "https://www.turanileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 8,
+    "notes": "Auto-gerado baseado em 8 imóveis conhecidos"
+  },
+  "Savoyleiloes": {
+    "url": "https://www.savoyleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 1,
+    "notes": "Auto-gerado baseado em 1 imóveis conhecidos"
+  },
+  "Leiloesfreire": {
+    "url": "https://www.leiloesfreire.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 17,
+    "notes": "Auto-gerado baseado em 17 imóveis conhecidos"
+  },
+  "Abaleiloes": {
+    "url": "https://www.abaleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 2,
+    "notes": "Auto-gerado baseado em 2 imóveis conhecidos"
+  },
+  "Faroonline": {
+    "url": "https://www.faroonline.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 20,
+    "notes": "Auto-gerado baseado em 20 imóveis conhecidos"
+  },
+  "Rigolonleiloes": {
+    "url": "https://www.rigolonleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 3,
+    "notes": "Auto-gerado baseado em 3 imóveis conhecidos"
+  },
+  "Leiloesjudiciaisrs": {
+    "url": "https://www.leiloesjudiciaisrs.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 4,
+    "notes": "Auto-gerado baseado em 4 imóveis conhecidos"
+  },
+  "Mega Leilões": {
+    "url": "https://www.megaleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 2,
+    "notes": "Auto-gerado baseado em 2 imóveis conhecidos"
+  },
+  "Joelreisleiloes": {
+    "url": "https://www.joelreisleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 4,
+    "notes": "Auto-gerado baseado em 4 imóveis conhecidos"
+  },
+  "Lunellileiloes": {
+    "url": "https://www.lunellileiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 3,
+    "notes": "Auto-gerado baseado em 3 imóveis conhecidos"
+  },
+  "Oesteleiloes": {
+    "url": "https://www.oesteleiloes.com.br/imoveis",
+    "pagination_type": "SINGLE_PAGE",
+    "total_pages": null,
+    "total_items": 4,
+    "notes": "Auto-gerado baseado em 4 imóveis conhecidos"
+  }
+}

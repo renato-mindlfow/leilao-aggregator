@@ -1,0 +1,42 @@
+{
+  "data": "2026-01-19T18:46:44.154589",
+  "melhorias_aplicadas": [
+    "Limite de texto: 15k → 80k chars",
+    "Scroll: 5000px → 15000px",
+    "Popup closing adicionado",
+    "Prompt melhorado",
+    "Max tokens: 4k → 8k"
+  ],
+  "resultados": [
+    {
+      "site": "Mega Leilões",
+      "url": "https://www.megaleiloes.com.br/imoveis",
+      "sucesso": true,
+      "imoveis_encontrados": 48,
+      "tempo_execucao": 181.768851,
+      "erro": null
+    },
+    {
+      "site": "Portal Zuk",
+      "url": "https://www.portalzuk.com.br/leilao-de-imoveis",
+      "sucesso": true,
+      "imoveis_encontrados": 30,
+      "tempo_execucao": 91.898,
+      "erro": null
+    },
+    {
+      "site": "Sold",
+      "url": "https://www.sold.com.br/",
+      "sucesso": true,
+      "imoveis_encontrados": 20,
+      "tempo_execucao": 68.344599,
+      "erro": "unsupported format string passed to NoneType.__format__"
+    }
+  ],
+  "resumo": {
+    "sites_testados": 3,
+    "sites_sucesso": 3,
+    "taxa_sucesso": "100%",
+    "total_imoveis": 98
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "total_auctioneers": 60,
+  "total_properties": 0,
+  "by_auctioneer": {
+    "Depaulaonline": {
+      "count": 0,
+      "properties": []
+    },
+    "Megaleiloes": {
+      "count": 0,
+      "properties": []
+    },
+    "Biasileiloes": {
+      "count": 0,
+      "properties": []
+    },
+    "Leilaobrasil": {
+      "count": 0,
+      "properties": []
+    },
+    "Lut": {
+      "count": 0,
+      "properties": []
+    },
+    "Portalzuk": {
+      "count": 0,
+      "properties": []
+    },
+    "Sumareleiloes": {
+      "count": 0,
+      "properties": []
+    },
+    "Lancejudicial": {
+      "count": 0,
+      "properties": []
+    },
+    "Oleiloes": {
+      "count": 0,
+      "properties": []
+    },
+    "Topoleiloes": {
+      "count": 0,
+      "properties": []
+    }
+  },
+  "timestamp": "2026-01-20T10:22:33.322214"
+}

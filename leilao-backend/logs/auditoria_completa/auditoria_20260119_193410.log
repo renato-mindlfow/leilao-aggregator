@@ -1,0 +1,1927 @@
+2026-01-19 19:34:18,191 | INFO | Database tables initialized
+2026-01-19 19:34:18,691 | INFO | Loaded 501 auctioneers into cache
+2026-01-19 19:34:18,693 | INFO | PostgreSQL database initialized
+2026-01-19 19:34:33,009 | INFO | ======================================================================
+2026-01-19 19:34:33,157 | INFO | AUDITORIA COMPLETA DE TODOS OS LEILOEIROS - INÍCIO
+2026-01-19 19:34:33,161 | INFO | Data: 2026-01-19 19:34:33
+2026-01-19 19:34:33,163 | INFO | Modo: rapido
+2026-01-19 19:34:33,167 | INFO | ======================================================================
+2026-01-19 19:34:33,183 | INFO | Leiloeiros ativos a processar: 289
+2026-01-19 19:34:33,189 | INFO | Tempo estimado: 7.2 - 14.4 horas
+2026-01-19 19:34:33,197 | INFO | ======================================================================
+2026-01-19 19:34:33,201 | INFO | 
+[1/289] Depaulaonline
+2026-01-19 19:34:33,205 | INFO |   Website: https://www.depaulaonline.com.br
+2026-01-19 19:34:40,000 | INFO |   Acessando: https://www.depaulaonline.com.br/imoveis
+2026-01-19 19:34:54,409 | INFO |   ✅ Status: sucesso
+2026-01-19 19:34:54,413 | INFO |   🏠 Imóveis: 142
+2026-01-19 19:34:54,426 | INFO |   📄 Paginação: 1 páginas (~142 imóveis estimados)
+2026-01-19 19:34:54,428 | INFO | 
+[2/289] Unileiloes
+2026-01-19 19:34:54,432 | INFO |   Website: https://www.unileiloes.com.br
+2026-01-19 19:34:54,807 | INFO |   Acessando: https://www.unileiloes.com.br/imoveis
+2026-01-19 19:35:04,274 | INFO |   ✅ Status: sucesso
+2026-01-19 19:35:04,278 | INFO |   🏠 Imóveis: 9
+2026-01-19 19:35:04,281 | INFO | 
+[3/289] Sfrazao
+2026-01-19 19:35:04,288 | INFO |   Website: https://www.sfrazao.com.br
+2026-01-19 19:35:22,504 | INFO |   Acessando: https://www.sfrazao.com.br/imoveis
+2026-01-19 19:35:43,355 | INFO |   ✅ Status: sucesso
+2026-01-19 19:35:43,358 | INFO |   🏠 Imóveis: 1572
+2026-01-19 19:35:43,363 | INFO |   📄 Paginação: 1 páginas (~1572 imóveis estimados)
+2026-01-19 19:35:43,367 | INFO | 
+[4/289] Sodresantoro
+2026-01-19 19:35:43,370 | INFO |   Website: https://www.sodresantoro.com.br
+2026-01-19 19:36:00,928 | INFO |   Acessando: https://www.sodresantoro.com.br/leiloes?c=imoveis
+2026-01-19 19:36:18,713 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:36:18,718 | INFO |   📄 Paginação: 55 páginas (~0 imóveis estimados)
+2026-01-19 19:36:18,722 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:36:18,726 | INFO | 
+[5/289] Leiloes
+2026-01-19 19:36:18,729 | INFO |   Website: https://www.leiloes.com.br
+2026-01-19 19:36:33,447 | INFO |   Acessando: https://www.leiloes.com.br/imoveis
+2026-01-19 19:36:48,959 | INFO |   ✅ Status: sucesso
+2026-01-19 19:36:48,962 | INFO |   🏠 Imóveis: 12
+2026-01-19 19:36:48,966 | INFO |   📄 Paginação: 1 páginas (~12 imóveis estimados)
+2026-01-19 19:36:48,973 | INFO | 
+[6/289] Grupoarremateleiloes
+2026-01-19 19:36:48,977 | INFO |   Website: https://www.grupoarremateleiloes.com.br
+2026-01-19 19:36:56,223 | INFO |   Acessando: https://www.grupoarremateleiloes.com.br/imoveis
+2026-01-19 19:37:07,863 | INFO |   ✅ Status: sucesso
+2026-01-19 19:37:07,868 | INFO |   🏠 Imóveis: 60
+2026-01-19 19:37:07,871 | INFO | 
+[7/289] Sold
+2026-01-19 19:37:07,874 | INFO |   Website: https://www.sold.com.br
+2026-01-19 19:37:08,418 | INFO |   Acessando: https://www.sold.com.br/leiloes/imoveis
+2026-01-19 19:37:20,753 | INFO |   ❌ Status: falha
+2026-01-19 19:37:20,756 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:37:20,759 | INFO | 
+[8/289] Milanleiloes
+2026-01-19 19:37:20,762 | INFO |   Website: https://www.milanleiloes.com.br
+2026-01-19 19:37:21,124 | INFO |   Acessando: https://www.milanleiloes.com.br/imoveis
+2026-01-19 19:37:29,264 | INFO |   🔴 Status: erro_http
+2026-01-19 19:37:29,270 | INFO |   ❗ Erro: HTTP 403
+2026-01-19 19:37:29,273 | INFO | 
+[9/289] Leilaovip
+2026-01-19 19:37:29,276 | INFO |   Website: https://www.leilaovip.com.br
+2026-01-19 19:37:30,726 | INFO |   Acessando: https://www.leilaovip.com.br/imoveis
+2026-01-19 19:37:41,386 | INFO |   ❌ Status: falha
+2026-01-19 19:37:41,389 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:37:41,392 | INFO | 
+[10/289] Hastavip
+2026-01-19 19:37:41,395 | INFO |   Website: https://www.hastavip.com.br
+2026-01-19 19:37:41,951 | INFO |   Acessando: https://www.hastavip.com.br/imoveis
+2026-01-19 19:37:57,829 | INFO |   ✅ Status: sucesso
+2026-01-19 19:37:57,833 | INFO |   🏠 Imóveis: 34
+2026-01-19 19:37:57,836 | INFO |   📄 Paginação: 1 páginas (~34 imóveis estimados)
+2026-01-19 19:37:57,839 | INFO | 
+[11/289] Bestleiloes
+2026-01-19 19:37:57,841 | INFO |   Website: https://www.bestleiloes.com.br
+2026-01-19 19:37:58,322 | INFO |   Acessando: https://www.bestleiloes.com.br/imoveis
+2026-01-19 19:38:10,580 | INFO |   ✅ Status: sucesso
+2026-01-19 19:38:10,583 | INFO |   🏠 Imóveis: 247
+2026-01-19 19:38:10,587 | INFO |   📄 Paginação: 3 páginas (~741 imóveis estimados)
+2026-01-19 19:38:10,590 | INFO | 
+[12/289] Satoleiloes
+2026-01-19 19:38:10,595 | INFO |   Website: https://www.satoleiloes.com.br
+2026-01-19 19:38:10,872 | INFO |   Acessando: https://www.satoleiloes.com.br/imoveis
+2026-01-19 19:38:24,778 | INFO |   ✅ Status: sucesso
+2026-01-19 19:38:24,782 | INFO |   🏠 Imóveis: 189
+2026-01-19 19:38:24,789 | INFO | 
+[13/289] Casareisleiloesonline
+2026-01-19 19:38:24,795 | INFO |   Website: https://www.casareisleiloesonline.com.br
+2026-01-19 19:38:28,415 | INFO |   Acessando: https://www.casareisleiloesonline.com.br/imoveis
+2026-01-19 19:38:39,652 | INFO |   ✅ Status: sucesso
+2026-01-19 19:38:39,658 | INFO |   🏠 Imóveis: 18
+2026-01-19 19:38:39,661 | INFO |   📄 Paginação: 36 páginas (~648 imóveis estimados)
+2026-01-19 19:38:39,664 | INFO | 
+[14/289] Megaleiloes
+2026-01-19 19:38:39,667 | INFO |   Website: https://www.megaleiloes.com.br/
+2026-01-19 19:38:40,151 | INFO |   Acessando: https://www.megaleiloes.com.br/imoveis
+2026-01-19 19:39:00,862 | INFO |   ✅ Status: sucesso
+2026-01-19 19:39:00,865 | INFO |   🏠 Imóveis: 914
+2026-01-19 19:39:00,880 | INFO |   📄 Paginação: 5 páginas (~4570 imóveis estimados)
+2026-01-19 19:39:00,883 | INFO | 
+[15/289] Biasileiloes
+2026-01-19 19:39:00,885 | INFO |   Website: https://www.biasileiloes.com.br
+2026-01-19 19:39:05,323 | INFO |   Acessando: https://www.biasileiloes.com.br/imoveis
+2026-01-19 19:39:17,019 | INFO |   ✅ Status: sucesso
+2026-01-19 19:39:17,020 | INFO |   🏠 Imóveis: 5
+2026-01-19 19:39:17,020 | INFO |   📄 Paginação: 2 páginas (~10 imóveis estimados)
+2026-01-19 19:39:17,021 | INFO | 
+[16/289] Leje
+2026-01-19 19:39:17,021 | INFO |   Website: https://www.leje.com.br
+2026-01-19 19:39:17,525 | INFO |   Acessando: https://www.leje.com.br/imoveis
+2026-01-19 19:39:37,971 | INFO |   ✅ Status: sucesso
+2026-01-19 19:39:37,972 | INFO |   🏠 Imóveis: 232
+2026-01-19 19:39:37,972 | INFO |   📄 Paginação: 5 páginas (~1160 imóveis estimados)
+2026-01-19 19:39:37,972 | INFO | 
+[17/289] Leilaobrasil
+2026-01-19 19:39:37,973 | INFO |   Website: https://www.leilaobrasil.com.br
+2026-01-19 19:39:39,013 | INFO |   Acessando: https://www.leilaobrasil.com.br/imoveis
+2026-01-19 19:39:54,285 | INFO |   ✅ Status: sucesso
+2026-01-19 19:39:54,286 | INFO |   🏠 Imóveis: 6
+2026-01-19 19:39:54,286 | INFO | 
+[18/289] Hastapublica
+2026-01-19 19:39:54,287 | INFO |   Website: https://www.hastapublica.com.br
+2026-01-19 19:39:54,621 | INFO |   Acessando: https://www.hastapublica.com.br/imoveis
+2026-01-19 19:40:07,664 | INFO |   ✅ Status: sucesso
+2026-01-19 19:40:07,664 | INFO |   🏠 Imóveis: 65
+2026-01-19 19:40:07,665 | INFO |   📄 Paginação: 13 páginas (~845 imóveis estimados)
+2026-01-19 19:40:07,665 | INFO | 
+[19/289] Lancetotal
+2026-01-19 19:40:07,665 | INFO |   Website: https://www.lancetotal.com.br
+2026-01-19 19:40:26,664 | INFO |   Acessando: https://www.lancetotal.com.br/imoveis
+2026-01-19 19:40:38,065 | INFO |   ✅ Status: sucesso
+2026-01-19 19:40:38,065 | INFO |   🏠 Imóveis: 92
+2026-01-19 19:40:38,065 | INFO |   📄 Paginação: 1 páginas (~92 imóveis estimados)
+2026-01-19 19:40:38,066 | INFO | 
+[20/289] Freitasleiloeiro
+2026-01-19 19:40:38,066 | INFO |   Website: https://www.freitasleiloeiro.com.br
+2026-01-19 19:40:44,428 | INFO |   Acessando: https://www.freitasleiloeiro.com.br/imoveis
+2026-01-19 19:40:52,528 | INFO |   ❌ Status: falha
+2026-01-19 19:40:52,528 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:41:00,536 | INFO | 
+  [Memória liberada - 20/289 processados]
+2026-01-19 19:41:00,538 | INFO | 
+[21/289] Frazaoleiloes
+2026-01-19 19:41:00,538 | INFO |   Website: https://www.frazaoleiloes.com.br
+2026-01-19 19:41:05,344 | INFO |   Acessando: https://www.frazaoleiloes.com.br/imoveis
+2026-01-19 19:41:19,556 | INFO |   ✅ Status: sucesso
+2026-01-19 19:41:19,556 | INFO |   🏠 Imóveis: 61
+2026-01-19 19:41:19,557 | INFO |   📄 Paginação: 28 páginas (~1708 imóveis estimados)
+2026-01-19 19:41:19,557 | INFO | 
+[22/289] Francoleiloes
+2026-01-19 19:41:19,557 | INFO |   Website: https://www.francoleiloes.com.br
+2026-01-19 19:41:19,924 | INFO |   Acessando: https://www.francoleiloes.com.br/imoveis
+2026-01-19 19:41:32,493 | INFO |   ✅ Status: sucesso
+2026-01-19 19:41:32,494 | INFO |   🏠 Imóveis: 47
+2026-01-19 19:41:32,494 | INFO | 
+[23/289] Vivaleiloes
+2026-01-19 19:41:32,494 | INFO |   Website: https://www.vivaleiloes.com.br
+2026-01-19 19:41:34,001 | INFO |   Acessando: https://www.vivaleiloes.com.br/leiloes/imoveis
+2026-01-19 19:41:44,725 | INFO |   ✅ Status: sucesso
+2026-01-19 19:41:44,725 | INFO |   🏠 Imóveis: 18
+2026-01-19 19:41:44,726 | INFO |   📄 Paginação: 7 páginas (~126 imóveis estimados)
+2026-01-19 19:41:44,727 | INFO | 
+[24/289] Vizeuonline
+2026-01-19 19:41:44,727 | INFO |   Website: https://www.vizeuonline.com.br
+2026-01-19 19:41:45,070 | INFO |   Acessando: https://www.vizeuonline.com.br/imoveis
+2026-01-19 19:41:45,207 | INFO |   🌐 Status: dns_error
+2026-01-19 19:41:45,207 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 19:41:45,207 | INFO | 
+[25/289] Pecinileiloes
+2026-01-19 19:41:45,208 | INFO |   Website: https://www.pecinileiloes.com.br
+2026-01-19 19:41:48,907 | INFO |   Acessando: https://www.pecinileiloes.com.br/imoveis
+2026-01-19 19:42:04,968 | INFO |   ✅ Status: sucesso
+2026-01-19 19:42:04,969 | INFO |   🏠 Imóveis: 131
+2026-01-19 19:42:04,969 | INFO | 
+[26/289] Leilomaster
+2026-01-19 19:42:04,969 | INFO |   Website: https://www.leilomaster.com.br
+2026-01-19 19:42:11,475 | INFO |   Acessando: https://www.leilomaster.com.br/imoveis
+2026-01-19 19:42:22,711 | INFO |   ❌ Status: falha
+2026-01-19 19:42:22,713 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:42:22,713 | INFO | 
+[27/289] Melhorlanceleiloes
+2026-01-19 19:42:22,714 | INFO |   Website: https://www.melhorlanceleiloes.com.br
+2026-01-19 19:42:30,349 | INFO |   Acessando: https://www.melhorlanceleiloes.com.br/imoveis
+2026-01-19 19:42:30,395 | INFO |   🌐 Status: dns_error
+2026-01-19 19:42:30,395 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 19:42:30,395 | INFO | 
+[28/289] Tezaleiloes
+2026-01-19 19:42:30,396 | INFO |   Website: https://www.tezaleiloes.com.br
+2026-01-19 19:42:38,437 | INFO |   Acessando: https://www.tezaleiloes.com.br/imoveis
+2026-01-19 19:42:50,741 | INFO |   ✅ Status: sucesso
+2026-01-19 19:42:50,742 | INFO |   🏠 Imóveis: 25
+2026-01-19 19:42:50,743 | INFO | 
+[29/289] Leilaoinvestment
+2026-01-19 19:42:50,744 | INFO |   Website: https://www.leilaoinvestment.com.br
+2026-01-19 19:43:15,077 | INFO |   Acessando: https://www.leilaoinvestment.com.br/imoveis
+2026-01-19 19:43:27,269 | INFO |   ✅ Status: sucesso
+2026-01-19 19:43:27,270 | INFO |   🏠 Imóveis: 4
+2026-01-19 19:43:27,271 | INFO |   📄 Paginação: 1 páginas (~4 imóveis estimados)
+2026-01-19 19:43:27,271 | INFO | 
+[30/289] Destakleiloes
+2026-01-19 19:43:27,272 | INFO |   Website: https://www.destakleiloes.com.br
+2026-01-19 19:43:27,812 | INFO |   Acessando: https://www.destakleiloes.com.br/imoveis
+2026-01-19 19:43:39,457 | INFO |   ✅ Status: sucesso
+2026-01-19 19:43:39,457 | INFO |   🏠 Imóveis: 61
+2026-01-19 19:43:39,457 | INFO | 
+[31/289] Projudleiloes
+2026-01-19 19:43:39,458 | INFO |   Website: https://www.projudleiloes.com.br
+2026-01-19 19:43:40,557 | INFO |   Acessando: https://www.projudleiloes.com.br/imoveis
+2026-01-19 19:43:55,170 | INFO |   ✅ Status: sucesso
+2026-01-19 19:43:55,170 | INFO |   🏠 Imóveis: 31
+2026-01-19 19:43:55,171 | INFO | 
+[32/289] Nossoleilao
+2026-01-19 19:43:55,171 | INFO |   Website: https://www.nossoleilao.com.br
+2026-01-19 19:43:58,339 | INFO |   Acessando: https://www.nossoleilao.com.br/imoveis
+2026-01-19 19:44:13,405 | INFO |   ❌ Status: falha
+2026-01-19 19:44:13,406 | INFO |   📄 Paginação: 2 páginas (~486 imóveis estimados)
+2026-01-19 19:44:13,406 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:44:13,407 | INFO | 
+[33/289] Lancenoleilao
+2026-01-19 19:44:13,408 | INFO |   Website: https://www.lancenoleilao.com.br
+2026-01-19 19:44:14,268 | INFO |   Acessando: https://www.lancenoleilao.com.br/imoveis
+2026-01-19 19:44:26,775 | INFO |   ✅ Status: sucesso
+2026-01-19 19:44:26,776 | INFO |   🏠 Imóveis: 425
+2026-01-19 19:44:26,777 | INFO |   📄 Paginação: 1 páginas (~425 imóveis estimados)
+2026-01-19 19:44:26,777 | INFO | 
+[34/289] Lut
+2026-01-19 19:44:26,778 | INFO |   Website: https://www.lut.com.br
+2026-01-19 19:44:27,252 | INFO |   Acessando: https://www.lut.com.br/imoveis
+2026-01-19 19:44:43,651 | INFO |   ✅ Status: sucesso
+2026-01-19 19:44:43,652 | INFO |   🏠 Imóveis: 136
+2026-01-19 19:44:43,652 | INFO |   📄 Paginação: 2 páginas (~272 imóveis estimados)
+2026-01-19 19:44:43,653 | INFO | 
+[35/289] Portalzuk
+2026-01-19 19:44:43,654 | INFO |   Website: https://www.portalzuk.com.br/
+2026-01-19 19:44:44,428 | INFO |   Acessando: https://www.portalzuk.com.br/leilao-de-imoveis
+2026-01-19 19:44:59,236 | INFO |   ✅ Status: sucesso
+2026-01-19 19:44:59,236 | INFO |   🏠 Imóveis: 572
+2026-01-19 19:44:59,237 | INFO | 
+[36/289] Cunhaleiloeiro
+2026-01-19 19:44:59,237 | INFO |   Website: https://www.cunhaleiloeiro.com.br
+2026-01-19 19:44:59,627 | INFO |   Acessando: https://www.cunhaleiloeiro.com.br/imoveis
+2026-01-19 19:45:11,346 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:45:11,346 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:45:11,347 | INFO | 
+[37/289] Sumareleiloes
+2026-01-19 19:45:11,347 | INFO |   Website: https://www.sumareleiloes.com.br
+2026-01-19 19:45:11,966 | INFO |   Acessando: https://www.sumareleiloes.com.br/imoveis
+2026-01-19 19:45:29,292 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:45:29,292 | INFO |   📄 Paginação: 21 páginas (~588 imóveis estimados)
+2026-01-19 19:45:29,293 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:45:29,293 | INFO | 
+[38/289] Lancejudicial
+2026-01-19 19:45:29,293 | INFO |   Website: https://www.lancejudicial.com.br
+2026-01-19 19:45:30,463 | INFO |   Acessando: https://www.lancejudicial.com.br/leiloes/imoveis
+2026-01-19 19:45:49,667 | INFO |   ✅ Status: sucesso
+2026-01-19 19:45:49,668 | INFO |   🏠 Imóveis: 1215
+2026-01-19 19:45:49,669 | INFO |   📄 Paginação: 5 páginas (~6075 imóveis estimados)
+2026-01-19 19:45:49,670 | INFO | 
+[39/289] E-Confianca
+2026-01-19 19:45:49,670 | INFO |   Website: https://www.e-confianca.com.br
+2026-01-19 19:46:07,393 | INFO |   Acessando: https://www.e-confianca.com.br/imoveis
+2026-01-19 19:46:07,565 | INFO |   💥 Status: erro
+2026-01-19 19:46:07,566 | INFO |   ❗ Erro: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.e-confianca.com.br/i
+2026-01-19 19:46:07,567 | INFO | 
+[40/289] Gilsoninumaruleiloes
+2026-01-19 19:46:07,567 | INFO |   Website: https://www.gilsoninumaruleiloes.com.br
+2026-01-19 19:46:21,091 | INFO |   Acessando: https://www.gilsoninumaruleiloes.com.br/imoveis
+2026-01-19 19:46:34,601 | INFO |   ✅ Status: sucesso
+2026-01-19 19:46:34,602 | INFO |   🏠 Imóveis: 35
+2026-01-19 19:46:34,602 | INFO |   📄 Paginação: 8 páginas (~280 imóveis estimados)
+2026-01-19 19:46:36,554 | INFO | 
+  [Memória liberada - 40/289 processados]
+2026-01-19 19:46:36,555 | INFO | 
+[41/289] Lanceja
+2026-01-19 19:46:36,557 | INFO |   Website: https://www.lanceja.com.br
+2026-01-19 19:46:43,828 | INFO |   Acessando: https://www.lanceja.com.br/imoveis
+2026-01-19 19:46:56,115 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:46:56,115 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 19:46:56,116 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:46:56,116 | INFO | 
+[42/289] Liderleiloes
+2026-01-19 19:46:56,116 | INFO |   Website: https://www.liderleiloes.com.br
+2026-01-19 19:46:56,402 | INFO |   Acessando: https://www.liderleiloes.com.br/imoveis
+2026-01-19 19:47:06,366 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:47:06,366 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:47:06,367 | INFO | 
+[43/289] Carloferrarileiloes
+2026-01-19 19:47:06,367 | INFO |   Website: https://www.carloferrarileiloes.com.br
+2026-01-19 19:47:06,699 | INFO |   Acessando: https://www.carloferrarileiloes.com.br/imoveis
+2026-01-19 19:47:14,160 | INFO |   🔴 Status: erro_http
+2026-01-19 19:47:14,161 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 19:47:14,161 | INFO | 
+[44/289] Webleiloes
+2026-01-19 19:47:14,161 | INFO |   Website: https://www.webleiloes.com.br
+2026-01-19 19:47:14,456 | INFO |   Acessando: https://www.webleiloes.com.br/imoveis
+2026-01-19 19:47:25,958 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:47:25,958 | INFO |   📄 Paginação: 11 páginas (~0 imóveis estimados)
+2026-01-19 19:47:25,959 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:47:25,959 | INFO | 
+[45/289] Picellileiloes
+2026-01-19 19:47:25,959 | INFO |   Website: https://www.picellileiloes.com.br
+2026-01-19 19:47:26,293 | INFO |   Acessando: https://www.picellileiloes.com.br/imoveis
+2026-01-19 19:47:35,842 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:47:35,842 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:47:35,842 | INFO | 
+[46/289] Centraljudicial
+2026-01-19 19:47:35,843 | INFO |   Website: https://www.centraljudicial.com.br
+2026-01-19 19:47:36,108 | INFO |   Acessando: https://www.centraljudicial.com.br/imoveis
+2026-01-19 19:47:46,337 | INFO |   ✅ Status: sucesso
+2026-01-19 19:47:46,337 | INFO |   🏠 Imóveis: 79
+2026-01-19 19:47:46,338 | INFO |   📄 Paginação: 1 páginas (~79 imóveis estimados)
+2026-01-19 19:47:46,338 | INFO | 
+[47/289] Oleiloes
+2026-01-19 19:47:46,338 | INFO |   Website: https://www.oleiloes.com.br
+2026-01-19 19:47:46,812 | INFO |   Acessando: https://www.oleiloes.com.br/imoveis
+2026-01-19 19:47:59,805 | INFO |   ✅ Status: sucesso
+2026-01-19 19:47:59,805 | INFO |   🏠 Imóveis: 114
+2026-01-19 19:47:59,805 | INFO | 
+[48/289] Rochaleiloes
+2026-01-19 19:47:59,805 | INFO |   Website: https://www.rochaleiloes.com.br
+2026-01-19 19:48:00,136 | INFO |   Acessando: https://www.rochaleiloes.com.br/imoveis
+2026-01-19 19:48:14,632 | INFO |   ✅ Status: sucesso
+2026-01-19 19:48:14,632 | INFO |   🏠 Imóveis: 37
+2026-01-19 19:48:14,633 | INFO |   📄 Paginação: 4 páginas (~148 imóveis estimados)
+2026-01-19 19:48:14,633 | INFO | 
+[49/289] Topoleiloes
+2026-01-19 19:48:14,633 | INFO |   Website: https://www.topoleiloes.com.br
+2026-01-19 19:48:15,204 | INFO |   Acessando: https://www.topoleiloes.com.br/imoveis
+2026-01-19 19:48:15,656 | INFO |   💥 Status: erro
+2026-01-19 19:48:15,656 | INFO |   ❗ Erro: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.topoleiloes.com.b
+2026-01-19 19:48:15,657 | INFO | 
+[50/289] Nakakogueleiloes
+2026-01-19 19:48:15,657 | INFO |   Website: https://www.nakakogueleiloes.com.br
+2026-01-19 19:48:18,723 | INFO |   Acessando: https://www.nakakogueleiloes.com.br/imoveis
+2026-01-19 19:48:28,121 | INFO |   ✅ Status: sucesso
+2026-01-19 19:48:28,121 | INFO |   🏠 Imóveis: 54
+2026-01-19 19:48:28,133 | INFO |   [Progresso salvo: 50/289]
+2026-01-19 19:48:28,133 | INFO | 
+[51/289] Vmleiloes
+2026-01-19 19:48:28,134 | INFO |   Website: https://www.vmleiloes.com.br
+2026-01-19 19:48:28,522 | INFO |   Acessando: https://www.vmleiloes.com.br/imoveis
+2026-01-19 19:48:39,973 | INFO |   ✅ Status: sucesso
+2026-01-19 19:48:39,973 | INFO |   🏠 Imóveis: 8
+2026-01-19 19:48:39,974 | INFO | 
+[52/289] Pbcastro
+2026-01-19 19:48:39,974 | INFO |   Website: https://www.pbcastro.com.br
+2026-01-19 19:48:40,448 | INFO |   Acessando: https://www.pbcastro.com.br/imoveis
+2026-01-19 19:48:49,914 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:48:49,915 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:48:49,915 | INFO | 
+[53/289] Marquesleiloes
+2026-01-19 19:48:49,915 | INFO |   Website: https://www.marquesleiloes.com.br
+2026-01-19 19:48:50,578 | INFO |   Acessando: https://www.marquesleiloes.com.br/imoveis
+2026-01-19 19:48:58,248 | INFO |   🔴 Status: erro_http
+2026-01-19 19:48:58,249 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 19:48:58,250 | INFO | 
+[54/289] Kleiloes
+2026-01-19 19:48:58,250 | INFO |   Website: https://www.kleiloes.com.br
+2026-01-19 19:49:03,645 | INFO |   Acessando: https://www.kleiloes.com.br/imoveis
+2026-01-19 19:49:14,202 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:49:14,203 | INFO |   📄 Paginação: 2 páginas (~0 imóveis estimados)
+2026-01-19 19:49:14,203 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:49:14,203 | INFO | 
+[55/289] Jeleiloes
+2026-01-19 19:49:14,204 | INFO |   Website: https://www.jeleiloes.com.br
+2026-01-19 19:49:15,315 | INFO |   Acessando: https://www.jeleiloes.com.br/imoveis
+2026-01-19 19:49:26,310 | INFO |   ✅ Status: sucesso
+2026-01-19 19:49:26,310 | INFO |   🏠 Imóveis: 84
+2026-01-19 19:49:26,311 | INFO |   📄 Paginação: 11 páginas (~924 imóveis estimados)
+2026-01-19 19:49:26,311 | INFO | 
+[56/289] Spencerleiloes
+2026-01-19 19:49:26,311 | INFO |   Website: https://www.spencerleiloes.com.br
+2026-01-19 19:49:26,683 | INFO |   Acessando: https://www.spencerleiloes.com.br/imoveis
+2026-01-19 19:49:37,914 | INFO |   ✅ Status: sucesso
+2026-01-19 19:49:37,914 | INFO |   🏠 Imóveis: 15
+2026-01-19 19:49:37,915 | INFO | 
+[57/289] Raicherleiloes
+2026-01-19 19:49:37,915 | INFO |   Website: https://www.raicherleiloes.com.br
+2026-01-19 19:49:40,277 | INFO |   Acessando: https://www.raicherleiloes.com.br/imoveis
+2026-01-19 19:49:53,236 | INFO |   ✅ Status: sucesso
+2026-01-19 19:49:53,237 | INFO |   🏠 Imóveis: 97
+2026-01-19 19:49:53,238 | INFO |   📄 Paginação: 1 páginas (~97 imóveis estimados)
+2026-01-19 19:49:53,239 | INFO | 
+[58/289] Alexandridisleiloes
+2026-01-19 19:49:53,239 | INFO |   Website: https://www.alexandridisleiloes.com.br
+2026-01-19 19:49:53,787 | INFO |   Acessando: https://www.alexandridisleiloes.com.br/imoveis
+2026-01-19 19:50:17,185 | INFO |   ✅ Status: sucesso
+2026-01-19 19:50:17,186 | INFO |   🏠 Imóveis: 8
+2026-01-19 19:50:17,186 | INFO | 
+[59/289] Leiloeirospcom Br
+2026-01-19 19:50:17,186 | INFO |   Website: https://www.leiloeirospcom.br
+2026-01-19 19:50:23,322 | INFO |   Acessando: https://www.leiloeirospcom.br/imoveis
+2026-01-19 19:50:23,370 | INFO |   🌐 Status: dns_error
+2026-01-19 19:50:23,371 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 19:50:23,371 | INFO | 
+[60/289] Publicumleiloes
+2026-01-19 19:50:23,371 | INFO |   Website: https://www.publicumleiloes.com.br
+2026-01-19 19:50:23,917 | INFO |   Acessando: https://www.publicumleiloes.com.br/imoveis
+2026-01-19 19:50:24,041 | INFO |   🌐 Status: dns_error
+2026-01-19 19:50:24,042 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 19:50:26,482 | INFO | 
+  [Memória liberada - 60/289 processados]
+2026-01-19 19:50:26,483 | INFO | 
+[61/289] Lecapeleiloes
+2026-01-19 19:50:26,484 | INFO |   Website: https://www.lecapeleiloes.com.br
+2026-01-19 19:50:31,316 | INFO |   Acessando: https://www.lecapeleiloes.com.br/imoveis
+2026-01-19 19:50:44,069 | INFO |   ✅ Status: sucesso
+2026-01-19 19:50:44,069 | INFO |   🏠 Imóveis: 75
+2026-01-19 19:50:44,069 | INFO |   📄 Paginação: 2 páginas (~150 imóveis estimados)
+2026-01-19 19:50:44,070 | INFO | 
+[62/289] Legisleiloes
+2026-01-19 19:50:44,070 | INFO |   Website: https://www.legisleiloes.com.br
+2026-01-19 19:50:44,302 | INFO |   Acessando: https://www.legisleiloes.com.br/imoveis
+2026-01-19 19:50:55,436 | INFO |   ✅ Status: sucesso
+2026-01-19 19:50:55,437 | INFO |   🏠 Imóveis: 32
+2026-01-19 19:50:55,437 | INFO | 
+[63/289] Glleiloes
+2026-01-19 19:50:55,438 | INFO |   Website: https://www.glleiloes.com.br
+2026-01-19 19:50:55,872 | INFO |   Acessando: https://www.glleiloes.com.br/imoveis
+2026-01-19 19:51:09,063 | INFO |   ✅ Status: sucesso
+2026-01-19 19:51:09,063 | INFO |   🏠 Imóveis: 221
+2026-01-19 19:51:09,064 | INFO |   📄 Paginação: 1 páginas (~221 imóveis estimados)
+2026-01-19 19:51:09,065 | INFO | 
+[64/289] Fidalgoleiloes
+2026-01-19 19:51:09,065 | INFO |   Website: https://www.fidalgoleiloes.com.br
+2026-01-19 19:51:09,504 | INFO |   Acessando: https://www.fidalgoleiloes.com.br/imoveis
+2026-01-19 19:51:22,128 | INFO |   ✅ Status: sucesso
+2026-01-19 19:51:22,129 | INFO |   🏠 Imóveis: 456
+2026-01-19 19:51:22,129 | INFO |   📄 Paginação: 1 páginas (~456 imóveis estimados)
+2026-01-19 19:51:22,129 | INFO | 
+[65/289] 3Torresleiloes
+2026-01-19 19:51:22,130 | INFO |   Website: https://www.3torresleiloes.com.br
+2026-01-19 19:51:22,352 | INFO |   Acessando: https://www.3torresleiloes.com.br/imoveis
+2026-01-19 19:51:34,708 | INFO |   ✅ Status: sucesso
+2026-01-19 19:51:34,708 | INFO |   🏠 Imóveis: 60
+2026-01-19 19:51:34,709 | INFO |   📄 Paginação: 1 páginas (~60 imóveis estimados)
+2026-01-19 19:51:34,709 | INFO | 
+[66/289] Rossileiloes
+2026-01-19 19:51:34,709 | INFO |   Website: https://www.rossileiloes.com.br
+2026-01-19 19:51:35,439 | INFO |   Acessando: https://www.rossileiloes.com.br/imoveis
+2026-01-19 19:51:43,057 | INFO |   🔴 Status: erro_http
+2026-01-19 19:51:43,057 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 19:51:43,058 | INFO | 
+[67/289] Lanceleiloes
+2026-01-19 19:51:43,058 | INFO |   Website: https://www.lanceleiloes.com.br
+2026-01-19 19:51:46,476 | INFO |   Acessando: https://www.lanceleiloes.com.br/imoveis
+2026-01-19 19:51:57,707 | INFO |   ✅ Status: sucesso
+2026-01-19 19:51:57,707 | INFO |   🏠 Imóveis: 40
+2026-01-19 19:51:57,708 | INFO | 
+[68/289] Escritoriodeleiloes
+2026-01-19 19:51:57,708 | INFO |   Website: https://www.escritoriodeleiloes.com.br
+2026-01-19 19:51:58,011 | INFO |   Acessando: https://www.escritoriodeleiloes.com.br/imoveis
+2026-01-19 19:52:11,136 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:52:11,138 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:52:11,138 | INFO | 
+[69/289] Moralesleiloes
+2026-01-19 19:52:11,139 | INFO |   Website: https://www.moralesleiloes.com.br
+2026-01-19 19:52:11,712 | INFO |   Acessando: https://www.moralesleiloes.com.br/imoveis
+2026-01-19 19:52:23,020 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:52:23,021 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:52:23,021 | INFO | 
+[70/289] Bcoleiloes
+2026-01-19 19:52:23,021 | INFO |   Website: https://www.bcoleiloes.com.br
+2026-01-19 19:52:23,331 | INFO |   Acessando: https://www.bcoleiloes.com.br/imoveis
+2026-01-19 19:52:34,301 | INFO |   ✅ Status: sucesso
+2026-01-19 19:52:34,301 | INFO |   🏠 Imóveis: 75
+2026-01-19 19:52:34,301 | INFO | 
+[71/289] Leiloesgold
+2026-01-19 19:52:34,302 | INFO |   Website: https://www.leiloesgold.com.br
+2026-01-19 19:52:35,753 | INFO |   Acessando: https://www.leiloesgold.com.br/imoveis
+2026-01-19 19:52:49,273 | INFO |   ✅ Status: sucesso
+2026-01-19 19:52:49,276 | INFO |   🏠 Imóveis: 284
+2026-01-19 19:52:49,277 | INFO |   📄 Paginação: 3 páginas (~852 imóveis estimados)
+2026-01-19 19:52:49,278 | INFO | 
+[72/289] Argonetworkleiloes
+2026-01-19 19:52:49,278 | INFO |   Website: https://www.argonetworkleiloes.com.br
+2026-01-19 19:52:50,032 | INFO |   Acessando: https://www.argonetworkleiloes.com.br/imoveis
+2026-01-19 19:53:03,256 | INFO |   ❌ Status: falha
+2026-01-19 19:53:03,256 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:53:03,256 | INFO | 
+[73/289] Conceitoleiloes
+2026-01-19 19:53:03,257 | INFO |   Website: https://www.conceitoleiloes.com.br
+2026-01-19 19:53:05,196 | INFO |   Acessando: https://www.conceitoleiloes.com.br/imoveis
+2026-01-19 19:53:16,142 | INFO |   ❌ Status: falha
+2026-01-19 19:53:16,143 | INFO |   📄 Paginação: 1 páginas (~31 imóveis estimados)
+2026-01-19 19:53:16,143 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:53:16,143 | INFO | 
+[74/289] Hisaleiloes
+2026-01-19 19:53:16,144 | INFO |   Website: https://www.hisaleiloes.com.br
+2026-01-19 19:53:16,480 | INFO |   Acessando: https://www.hisaleiloes.com.br/imoveis
+2026-01-19 19:53:28,564 | INFO |   ✅ Status: sucesso
+2026-01-19 19:53:28,565 | INFO |   🏠 Imóveis: 90
+2026-01-19 19:53:28,565 | INFO |   📄 Paginação: 2 páginas (~180 imóveis estimados)
+2026-01-19 19:53:28,565 | INFO | 
+[75/289] Judhastas
+2026-01-19 19:53:28,566 | INFO |   Website: https://www.judhastas.com.br
+2026-01-19 19:53:28,866 | INFO |   Acessando: https://www.judhastas.com.br/imoveis
+2026-01-19 19:53:38,231 | INFO |   ❌ Status: falha
+2026-01-19 19:53:38,232 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 19:53:38,232 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:53:38,232 | INFO | 
+[76/289] Silveiraleiloes
+2026-01-19 19:53:38,233 | INFO |   Website: https://www.silveiraleiloes.com.br
+2026-01-19 19:53:38,944 | INFO |   Acessando: https://www.silveiraleiloes.com.br/imoveis
+2026-01-19 19:53:51,275 | INFO |   ✅ Status: sucesso
+2026-01-19 19:53:51,275 | INFO |   🏠 Imóveis: 89
+2026-01-19 19:53:51,276 | INFO | 
+[77/289] Kronbergleiloes
+2026-01-19 19:53:51,276 | INFO |   Website: https://www.kronbergleiloes.com.br
+2026-01-19 19:53:51,643 | INFO |   Acessando: https://www.kronbergleiloes.com.br/imoveis
+2026-01-19 19:54:05,796 | INFO |   ❌ Status: falha
+2026-01-19 19:54:05,797 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:54:05,797 | INFO | 
+[78/289] Joaoluizleiloes
+2026-01-19 19:54:05,800 | INFO |   Website: https://www.joaoluizleiloes.com.br
+2026-01-19 19:54:06,491 | INFO |   Acessando: https://www.joaoluizleiloes.com.br/imoveis
+2026-01-19 19:54:17,875 | INFO |   ✅ Status: sucesso
+2026-01-19 19:54:17,878 | INFO |   🏠 Imóveis: 83
+2026-01-19 19:54:17,879 | INFO |   📄 Paginação: 1 páginas (~83 imóveis estimados)
+2026-01-19 19:54:17,881 | INFO | 
+[79/289] Psnleiloes
+2026-01-19 19:54:17,882 | INFO |   Website: https://www.psnleiloes.com.br
+2026-01-19 19:54:18,307 | INFO |   Acessando: https://www.psnleiloes.com.br/imoveis
+2026-01-19 19:54:27,299 | INFO |   ❌ Status: falha
+2026-01-19 19:54:27,300 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:54:27,300 | INFO | 
+[80/289] Allianceleiloes
+2026-01-19 19:54:27,301 | INFO |   Website: https://www.allianceleiloes.com.br
+2026-01-19 19:54:27,663 | INFO |   Acessando: https://www.allianceleiloes.com.br/imoveis
+2026-01-19 19:54:45,290 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:54:45,290 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:54:50,538 | INFO | 
+  [Memória liberada - 80/289 processados]
+2026-01-19 19:54:50,539 | INFO | 
+[81/289] Fauthleiloes
+2026-01-19 19:54:50,539 | INFO |   Website: https://www.fauthleiloes.com.br
+2026-01-19 19:54:56,238 | INFO |   Acessando: https://www.fauthleiloes.com.br/imoveis
+2026-01-19 19:55:12,171 | INFO |   ✅ Status: sucesso
+2026-01-19 19:55:12,172 | INFO |   🏠 Imóveis: 6
+2026-01-19 19:55:12,172 | INFO |   📄 Paginação: 1 páginas (~6 imóveis estimados)
+2026-01-19 19:55:12,172 | INFO | 
+[82/289] Santoseborinleiloes
+2026-01-19 19:55:12,173 | INFO |   Website: https://www.santoseborinleiloes.com.br
+2026-01-19 19:55:12,746 | INFO |   Acessando: https://www.santoseborinleiloes.com.br/imoveis
+2026-01-19 19:55:20,346 | INFO |   🔴 Status: erro_http
+2026-01-19 19:55:20,347 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 19:55:20,347 | INFO | 
+[83/289] Leiloeslaraforster
+2026-01-19 19:55:20,347 | INFO |   Website: https://www.leiloeslaraforster.com.br
+2026-01-19 19:55:20,689 | INFO |   Acessando: https://www.leiloeslaraforster.com.br/imoveis
+2026-01-19 19:55:27,993 | INFO |   🔴 Status: erro_http
+2026-01-19 19:55:27,994 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 19:55:27,994 | INFO | 
+[84/289] Benedettoleiloes
+2026-01-19 19:55:27,994 | INFO |   Website: https://www.benedettoleiloes.com.br
+2026-01-19 19:55:28,233 | INFO |   Acessando: https://www.benedettoleiloes.com.br/imoveis
+2026-01-19 19:55:38,768 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:55:38,769 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 19:55:38,769 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:55:38,769 | INFO | 
+[85/289] Ctsleiloes
+2026-01-19 19:55:38,770 | INFO |   Website: https://www.ctsleiloes.com.br
+2026-01-19 19:55:39,066 | INFO |   Acessando: https://www.ctsleiloes.com.br/imoveis
+2026-01-19 19:55:46,553 | INFO |   🔴 Status: erro_http
+2026-01-19 19:55:46,554 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 19:55:46,554 | INFO | 
+[86/289] Nogarileiloes
+2026-01-19 19:55:46,555 | INFO |   Website: https://www.nogarileiloes.com.br
+2026-01-19 19:55:46,862 | INFO |   Acessando: https://www.nogarileiloes.com.br/imoveis
+2026-01-19 19:55:58,333 | INFO |   ✅ Status: sucesso
+2026-01-19 19:55:58,333 | INFO |   🏠 Imóveis: 71
+2026-01-19 19:55:58,334 | INFO |   📄 Paginação: 2 páginas (~142 imóveis estimados)
+2026-01-19 19:55:58,334 | INFO | 
+[87/289] Alemaoleiloeiro
+2026-01-19 19:55:58,335 | INFO |   Website: https://www.alemaoleiloeiro.com.br
+2026-01-19 19:55:58,694 | INFO |   Acessando: https://www.alemaoleiloeiro.com.br/imoveis
+2026-01-19 19:56:10,609 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:56:10,609 | INFO |   📄 Paginação: 2 páginas (~254 imóveis estimados)
+2026-01-19 19:56:10,610 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:56:10,610 | INFO | 
+[88/289] Cargneluttileiloes
+2026-01-19 19:56:10,610 | INFO |   Website: https://www.cargneluttileiloes.com.br
+2026-01-19 19:56:10,850 | INFO |   Acessando: https://www.cargneluttileiloes.com.br/imoveis
+2026-01-19 19:56:22,086 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:56:22,087 | INFO |   📄 Paginação: 1 páginas (~6 imóveis estimados)
+2026-01-19 19:56:22,088 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:56:22,088 | INFO | 
+[89/289] Cristianoescolaleiloes
+2026-01-19 19:56:22,089 | INFO |   Website: https://www.cristianoescolaleiloes.com.br
+2026-01-19 19:56:22,456 | INFO |   Acessando: https://www.cristianoescolaleiloes.com.br/imoveis
+2026-01-19 19:56:32,257 | INFO |   ✅ Status: sucesso
+2026-01-19 19:56:32,257 | INFO |   🏠 Imóveis: 15
+2026-01-19 19:56:32,258 | INFO |   📄 Paginação: 1 páginas (~15 imóveis estimados)
+2026-01-19 19:56:32,258 | INFO | 
+[90/289] Leilaosantos
+2026-01-19 19:56:32,258 | INFO |   Website: https://www.leilaosantos.com.br
+2026-01-19 19:56:32,676 | INFO |   Acessando: https://www.leilaosantos.com.br/imoveis
+2026-01-19 19:56:42,812 | INFO |   ❌ Status: falha
+2026-01-19 19:56:42,813 | INFO |   📄 Paginação: 2 páginas (~14 imóveis estimados)
+2026-01-19 19:56:42,814 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:56:42,814 | INFO | 
+[91/289] Moraesleiloes
+2026-01-19 19:56:42,815 | INFO |   Website: https://www.moraesleiloes.com.br
+2026-01-19 19:56:43,468 | INFO |   Acessando: https://www.moraesleiloes.com.br/imoveis
+2026-01-19 19:56:54,492 | INFO |   ✅ Status: sucesso
+2026-01-19 19:56:54,493 | INFO |   🏠 Imóveis: 37
+2026-01-19 19:56:54,493 | INFO | 
+[92/289] Nortonleiloes
+2026-01-19 19:56:54,493 | INFO |   Website: https://www.nortonleiloes.com.br
+2026-01-19 19:56:54,956 | INFO |   Acessando: https://www.nortonleiloes.com.br/imoveis
+2026-01-19 19:57:16,156 | INFO |   💥 Status: erro
+2026-01-19 19:57:16,157 | INFO |   ❗ Erro: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.nortonleiloes.com.br/imo
+2026-01-19 19:57:16,157 | INFO | 
+[93/289] Pietosoleiloes
+2026-01-19 19:57:16,157 | INFO |   Website: https://www.pietosoleiloes.com.br
+2026-01-19 19:57:17,200 | INFO |   Acessando: https://www.pietosoleiloes.com.br/imoveis
+2026-01-19 19:57:30,634 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:57:30,635 | INFO |   📄 Paginação: 1 páginas (~61 imóveis estimados)
+2026-01-19 19:57:30,635 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:57:30,635 | INFO | 
+[94/289] Rauppleiloes
+2026-01-19 19:57:30,636 | INFO |   Website: https://www.rauppleiloes.com.br
+2026-01-19 19:57:30,989 | INFO |   Acessando: https://www.rauppleiloes.com.br/imoveis
+2026-01-19 19:57:43,331 | INFO |   ✅ Status: sucesso
+2026-01-19 19:57:43,331 | INFO |   🏠 Imóveis: 100
+2026-01-19 19:57:43,332 | INFO |   📄 Paginação: 1 páginas (~100 imóveis estimados)
+2026-01-19 19:57:43,332 | INFO | 
+[95/289] Santamarialeiloes
+2026-01-19 19:57:43,332 | INFO |   Website: https://www.santamarialeiloes.com.br
+2026-01-19 19:57:43,665 | INFO |   Acessando: https://www.santamarialeiloes.com.br/imoveis
+2026-01-19 19:58:01,568 | INFO |   ✅ Status: sucesso
+2026-01-19 19:58:01,569 | INFO |   🏠 Imóveis: 415
+2026-01-19 19:58:01,569 | INFO |   📄 Paginação: 1 páginas (~415 imóveis estimados)
+2026-01-19 19:58:01,570 | INFO | 
+[96/289] Amtleiloes
+2026-01-19 19:58:01,570 | INFO |   Website: https://www.amtleiloes.com.br
+2026-01-19 19:58:03,180 | INFO |   Acessando: https://www.amtleiloes.com.br/imoveis
+2026-01-19 19:58:17,478 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:58:17,478 | INFO |   📄 Paginação: 1 páginas (~62 imóveis estimados)
+2026-01-19 19:58:17,478 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:58:17,479 | INFO | 
+[97/289] Alencastroleiloes
+2026-01-19 19:58:17,479 | INFO |   Website: https://www.alencastroleiloes.com.br
+2026-01-19 19:58:29,196 | INFO |   Acessando: https://www.alencastroleiloes.com.br/imoveis
+2026-01-19 19:58:44,041 | INFO |   ❌ Status: falha
+2026-01-19 19:58:44,041 | INFO |   📄 Paginação: 51 páginas (~3570 imóveis estimados)
+2026-01-19 19:58:44,042 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 19:58:44,042 | INFO | 
+[98/289] Leilaobutia
+2026-01-19 19:58:44,042 | INFO |   Website: https://www.leilaobutia.com.br
+2026-01-19 19:58:44,642 | INFO |   Acessando: https://www.leilaobutia.com.br/imoveis
+2026-01-19 19:58:55,923 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:58:55,924 | INFO |   📄 Paginação: 1 páginas (~21 imóveis estimados)
+2026-01-19 19:58:55,924 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:58:55,925 | INFO | 
+[99/289] Scheidleiloes
+2026-01-19 19:58:55,925 | INFO |   Website: https://www.scheidleiloes.com.br
+2026-01-19 19:58:56,240 | INFO |   Acessando: https://www.scheidleiloes.com.br/imoveis
+2026-01-19 19:59:15,599 | INFO |   ⚠️ Status: parcial
+2026-01-19 19:59:15,599 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 19:59:15,600 | INFO | 
+[100/289] Bronzattoleiloes
+2026-01-19 19:59:15,600 | INFO |   Website: https://www.bronzattoleiloes.com.br
+2026-01-19 19:59:17,005 | INFO |   Acessando: https://www.bronzattoleiloes.com.br/imoveis
+2026-01-19 19:59:30,614 | INFO |   ✅ Status: sucesso
+2026-01-19 19:59:30,615 | INFO |   🏠 Imóveis: 63
+2026-01-19 19:59:30,615 | INFO |   📄 Paginação: 1 páginas (~63 imóveis estimados)
+2026-01-19 19:59:34,073 | INFO | 
+  [Memória liberada - 100/289 processados]
+2026-01-19 19:59:34,096 | INFO |   [Progresso salvo: 100/289]
+2026-01-19 19:59:34,097 | INFO | 
+[101/289] Lessaleiloes
+2026-01-19 19:59:34,097 | INFO |   Website: https://www.lessaleiloes.com.br
+2026-01-19 19:59:42,182 | INFO |   Acessando: https://www.lessaleiloes.com.br/imoveis
+2026-01-19 19:59:54,395 | INFO |   ✅ Status: sucesso
+2026-01-19 19:59:54,395 | INFO |   🏠 Imóveis: 76
+2026-01-19 19:59:54,396 | INFO |   📄 Paginação: 1 páginas (~76 imóveis estimados)
+2026-01-19 19:59:54,396 | INFO | 
+[102/289] Mpleilao
+2026-01-19 19:59:54,396 | INFO |   Website: https://www.mpleilao.com.br
+2026-01-19 19:59:55,452 | INFO |   Acessando: https://www.mpleilao.com.br/imoveis
+2026-01-19 20:00:08,482 | INFO |   ✅ Status: sucesso
+2026-01-19 20:00:08,482 | INFO |   🏠 Imóveis: 130
+2026-01-19 20:00:08,483 | INFO |   📄 Paginação: 1 páginas (~130 imóveis estimados)
+2026-01-19 20:00:08,483 | INFO | 
+[103/289] Agenciadeleiloes
+2026-01-19 20:00:08,484 | INFO |   Website: https://www.agenciadeleiloes.com.br
+2026-01-19 20:00:08,979 | INFO |   Acessando: https://www.agenciadeleiloes.com.br/imoveis
+2026-01-19 20:00:22,395 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:00:22,395 | INFO |   📄 Paginação: 1 páginas (~34 imóveis estimados)
+2026-01-19 20:00:22,396 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:00:22,396 | INFO | 
+[104/289] Scholanteleiloes
+2026-01-19 20:00:22,396 | INFO |   Website: https://www.scholanteleiloes.com.br
+2026-01-19 20:00:24,363 | INFO |   Acessando: https://www.scholanteleiloes.com.br/imoveis
+2026-01-19 20:00:38,625 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:00:38,626 | INFO |   📄 Paginação: 1 páginas (~65 imóveis estimados)
+2026-01-19 20:00:38,626 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:00:38,626 | INFO | 
+[105/289] Clovisleiloeiro
+2026-01-19 20:00:38,627 | INFO |   Website: https://www.clovisleiloeiro.com.br
+2026-01-19 20:00:40,596 | INFO |   Acessando: https://www.clovisleiloeiro.com.br/imoveis
+2026-01-19 20:00:55,460 | INFO |   ✅ Status: sucesso
+2026-01-19 20:00:55,460 | INFO |   🏠 Imóveis: 224
+2026-01-19 20:00:55,460 | INFO |   📄 Paginação: 1 páginas (~224 imóveis estimados)
+2026-01-19 20:00:55,461 | INFO | 
+[106/289] Ferronatoleiloes
+2026-01-19 20:00:55,464 | INFO |   Website: https://www.ferronatoleiloes.com.br
+2026-01-19 20:01:01,456 | INFO |   Acessando: https://www.ferronatoleiloes.com.br/imoveis
+2026-01-19 20:01:13,635 | INFO |   ❌ Status: falha
+2026-01-19 20:01:13,635 | INFO |   📄 Paginação: 1 páginas (~3 imóveis estimados)
+2026-01-19 20:01:13,636 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:01:13,636 | INFO | 
+[107/289] Eduardovivian
+2026-01-19 20:01:13,636 | INFO |   Website: https://www.eduardovivian.com.br
+2026-01-19 20:01:13,905 | INFO |   Acessando: https://www.eduardovivian.com.br/imoveis
+2026-01-19 20:01:28,634 | INFO |   ✅ Status: sucesso
+2026-01-19 20:01:28,634 | INFO |   🏠 Imóveis: 212
+2026-01-19 20:01:28,635 | INFO |   📄 Paginação: 1 páginas (~212 imóveis estimados)
+2026-01-19 20:01:28,635 | INFO | 
+[108/289] Leiloesbonfadini
+2026-01-19 20:01:28,636 | INFO |   Website: https://www.leiloesbonfadini.com.br
+2026-01-19 20:01:28,918 | INFO |   Acessando: https://www.leiloesbonfadini.com.br/imoveis
+2026-01-19 20:01:41,500 | INFO |   ❌ Status: falha
+2026-01-19 20:01:41,501 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:01:41,501 | INFO | 
+[109/289] Clademirleiloeiro
+2026-01-19 20:01:41,501 | INFO |   Website: https://www.clademirleiloeiro.com.br
+2026-01-19 20:01:41,884 | INFO |   Acessando: https://www.clademirleiloeiro.com.br/imoveis
+2026-01-19 20:01:52,213 | INFO |   ❌ Status: falha
+2026-01-19 20:01:52,213 | INFO |   📄 Paginação: 1 páginas (~23 imóveis estimados)
+2026-01-19 20:01:52,214 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:01:52,214 | INFO | 
+[110/289] Rabuskeleiloes
+2026-01-19 20:01:52,214 | INFO |   Website: https://www.rabuskeleiloes.com.br
+2026-01-19 20:01:52,461 | INFO |   Acessando: https://www.rabuskeleiloes.com.br/imoveis
+2026-01-19 20:02:03,717 | INFO |   ❌ Status: falha
+2026-01-19 20:02:03,718 | INFO |   📄 Paginação: 1 páginas (~8 imóveis estimados)
+2026-01-19 20:02:03,718 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:02:03,719 | INFO | 
+[111/289] Zaccariasleiloes
+2026-01-19 20:02:03,720 | INFO |   Website: https://www.zaccariasleiloes.com.br
+2026-01-19 20:02:04,263 | INFO |   Acessando: https://www.zaccariasleiloes.com.br/imoveis
+2026-01-19 20:02:15,677 | INFO |   ❌ Status: falha
+2026-01-19 20:02:15,678 | INFO |   📄 Paginação: 1 páginas (~50 imóveis estimados)
+2026-01-19 20:02:15,678 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:02:15,678 | INFO | 
+[112/289] Grandesleiloes
+2026-01-19 20:02:15,679 | INFO |   Website: https://www.grandesleiloes.com.br
+2026-01-19 20:02:16,180 | INFO |   Acessando: https://www.grandesleiloes.com.br/imoveis
+2026-01-19 20:02:29,322 | INFO |   ✅ Status: sucesso
+2026-01-19 20:02:29,323 | INFO |   🏠 Imóveis: 195
+2026-01-19 20:02:29,323 | INFO |   📄 Paginação: 1 páginas (~195 imóveis estimados)
+2026-01-19 20:02:29,323 | INFO | 
+[113/289] Muckleiloes
+2026-01-19 20:02:29,324 | INFO |   Website: https://www.muckleiloes.com.br
+2026-01-19 20:02:31,682 | INFO |   Acessando: https://www.muckleiloes.com.br/imoveis
+2026-01-19 20:02:31,830 | INFO |   🌐 Status: dns_error
+2026-01-19 20:02:31,830 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:02:31,831 | INFO | 
+[114/289] Ckleiloes
+2026-01-19 20:02:31,831 | INFO |   Website: https://www.ckleiloes.com.br
+2026-01-19 20:02:38,128 | INFO |   Acessando: https://www.ckleiloes.com.br/imoveis
+2026-01-19 20:02:49,237 | INFO |   ❌ Status: falha
+2026-01-19 20:02:49,238 | INFO |   📄 Paginação: 1 páginas (~8 imóveis estimados)
+2026-01-19 20:02:49,239 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:02:49,239 | INFO | 
+[115/289] Correaleiloes
+2026-01-19 20:02:49,239 | INFO |   Website: https://www.correaleiloes.com.br
+2026-01-19 20:02:49,478 | INFO |   Acessando: https://www.correaleiloes.com.br/imoveis
+2026-01-19 20:03:01,971 | INFO |   ❌ Status: falha
+2026-01-19 20:03:01,971 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:03:01,971 | INFO | 
+[116/289] Dldleiloeiro
+2026-01-19 20:03:01,972 | INFO |   Website: https://www.dldleiloeiro.com.br
+2026-01-19 20:03:02,222 | INFO |   Acessando: https://www.dldleiloeiro.com.br/imoveis
+2026-01-19 20:03:14,230 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:03:14,235 | INFO |   📄 Paginação: 1 páginas (~46 imóveis estimados)
+2026-01-19 20:03:14,236 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:03:14,236 | INFO | 
+[117/289] Evaleiloes
+2026-01-19 20:03:14,236 | INFO |   Website: https://www.evaleiloes.com.br
+2026-01-19 20:03:14,527 | INFO |   Acessando: https://www.evaleiloes.com.br/imoveis
+2026-01-19 20:03:23,500 | INFO |   ❌ Status: falha
+2026-01-19 20:03:23,501 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:03:23,501 | INFO | 
+[118/289] Santayanaleiloes
+2026-01-19 20:03:23,501 | INFO |   Website: https://www.santayanaleiloes.com.br
+2026-01-19 20:03:23,804 | INFO |   Acessando: https://www.santayanaleiloes.com.br/imoveis
+2026-01-19 20:03:34,217 | INFO |   ✅ Status: sucesso
+2026-01-19 20:03:34,217 | INFO |   🏠 Imóveis: 98
+2026-01-19 20:03:34,218 | INFO |   📄 Paginação: 1 páginas (~98 imóveis estimados)
+2026-01-19 20:03:34,218 | INFO | 
+[119/289] Zuccalmaglioleiloes
+2026-01-19 20:03:34,218 | INFO |   Website: https://www.zuccalmaglioleiloes.com.br
+2026-01-19 20:03:34,476 | INFO |   Acessando: https://www.zuccalmaglioleiloes.com.br/imoveis
+2026-01-19 20:03:47,262 | INFO |   ✅ Status: sucesso
+2026-01-19 20:03:47,262 | INFO |   🏠 Imóveis: 77
+2026-01-19 20:03:47,263 | INFO |   📄 Paginação: 1 páginas (~77 imóveis estimados)
+2026-01-19 20:03:47,263 | INFO | 
+[120/289] Zagoleiloes
+2026-01-19 20:03:47,263 | INFO |   Website: https://www.zagoleiloes.com.br
+2026-01-19 20:03:48,133 | INFO |   Acessando: https://www.zagoleiloes.com.br/imoveis
+2026-01-19 20:03:58,493 | INFO |   ✅ Status: sucesso
+2026-01-19 20:03:58,496 | INFO |   🏠 Imóveis: 60
+2026-01-19 20:04:03,497 | INFO | 
+  [Memória liberada - 120/289 processados]
+2026-01-19 20:04:03,497 | INFO | 
+[121/289] Marceloleiloeiro
+2026-01-19 20:04:03,497 | INFO |   Website: https://www.marceloleiloeiro.com.br
+2026-01-19 20:04:08,017 | INFO |   Acessando: https://www.marceloleiloeiro.com.br/imoveis
+2026-01-19 20:04:21,497 | INFO |   ✅ Status: sucesso
+2026-01-19 20:04:21,498 | INFO |   🏠 Imóveis: 284
+2026-01-19 20:04:21,498 | INFO |   📄 Paginação: 1 páginas (~284 imóveis estimados)
+2026-01-19 20:04:21,498 | INFO | 
+[122/289] Raotaleiloes
+2026-01-19 20:04:21,499 | INFO |   Website: https://www.raotaleiloes.com.br
+2026-01-19 20:04:21,776 | INFO |   Acessando: https://www.raotaleiloes.com.br/imoveis
+2026-01-19 20:04:31,467 | INFO |   ✅ Status: sucesso
+2026-01-19 20:04:31,467 | INFO |   🏠 Imóveis: 32
+2026-01-19 20:04:31,467 | INFO | 
+[123/289] Finattoleiloes
+2026-01-19 20:04:31,468 | INFO |   Website: https://www.finattoleiloes.com.br
+2026-01-19 20:04:31,729 | INFO |   Acessando: https://www.finattoleiloes.com.br/imoveis
+2026-01-19 20:04:41,896 | INFO |   ❌ Status: falha
+2026-01-19 20:04:41,896 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:04:41,896 | INFO | 
+[124/289] Vidalleiloes
+2026-01-19 20:04:41,897 | INFO |   Website: https://www.vidalleiloes.com.br
+2026-01-19 20:04:42,175 | INFO |   Acessando: https://www.vidalleiloes.com.br/imoveis
+2026-01-19 20:04:53,507 | INFO |   ✅ Status: sucesso
+2026-01-19 20:04:53,507 | INFO |   🏠 Imóveis: 50
+2026-01-19 20:04:53,508 | INFO |   📄 Paginação: 1 páginas (~50 imóveis estimados)
+2026-01-19 20:04:53,508 | INFO | 
+[125/289] Gtleiloes
+2026-01-19 20:04:53,508 | INFO |   Website: https://www.gtleiloes.com.br
+2026-01-19 20:04:54,010 | INFO |   Acessando: https://www.gtleiloes.com.br/imoveis
+2026-01-19 20:05:05,773 | INFO |   ✅ Status: sucesso
+2026-01-19 20:05:05,774 | INFO |   🏠 Imóveis: 126
+2026-01-19 20:05:05,774 | INFO |   📄 Paginação: 1 páginas (~126 imóveis estimados)
+2026-01-19 20:05:05,774 | INFO | 
+[126/289] Veronicaleiloes
+2026-01-19 20:05:05,775 | INFO |   Website: https://www.veronicaleiloes.com.br
+2026-01-19 20:05:06,217 | INFO |   Acessando: https://www.veronicaleiloes.com.br/imoveis
+2026-01-19 20:05:16,936 | INFO |   ❌ Status: falha
+2026-01-19 20:05:16,936 | INFO |   📄 Paginação: 1 páginas (~8 imóveis estimados)
+2026-01-19 20:05:16,936 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:05:16,937 | INFO | 
+[127/289] Kielleiloes
+2026-01-19 20:05:16,937 | INFO |   Website: https://www.kielleiloes.com.br
+2026-01-19 20:05:17,270 | INFO |   Acessando: https://www.kielleiloes.com.br/imoveis
+2026-01-19 20:05:29,692 | INFO |   ❌ Status: falha
+2026-01-19 20:05:29,693 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:05:29,693 | INFO | 
+[128/289] Machadoleiloesrs
+2026-01-19 20:05:29,693 | INFO |   Website: https://www.machadoleiloesrs.com.br
+2026-01-19 20:05:30,141 | INFO |   Acessando: https://www.machadoleiloesrs.com.br/imoveis
+2026-01-19 20:05:41,884 | INFO |   ✅ Status: sucesso
+2026-01-19 20:05:41,884 | INFO |   🏠 Imóveis: 42
+2026-01-19 20:05:41,885 | INFO |   📄 Paginação: 1 páginas (~42 imóveis estimados)
+2026-01-19 20:05:41,885 | INFO | 
+[129/289] Fumagallileiloes
+2026-01-19 20:05:41,886 | INFO |   Website: https://www.fumagallileiloes.com.br
+2026-01-19 20:05:42,285 | INFO |   Acessando: https://www.fumagallileiloes.com.br/imoveis
+2026-01-19 20:05:53,616 | INFO |   ✅ Status: sucesso
+2026-01-19 20:05:53,617 | INFO |   🏠 Imóveis: 52
+2026-01-19 20:05:53,617 | INFO |   📄 Paginação: 1 páginas (~52 imóveis estimados)
+2026-01-19 20:05:53,617 | INFO | 
+[130/289] Superleiloes
+2026-01-19 20:05:53,617 | INFO |   Website: https://www.superleiloes.net
+2026-01-19 20:05:54,285 | INFO |   Acessando: https://www.superleiloes.net/imoveis
+2026-01-19 20:06:10,730 | INFO |   ✅ Status: sucesso
+2026-01-19 20:06:10,730 | INFO |   🏠 Imóveis: 64
+2026-01-19 20:06:10,731 | INFO |   📄 Paginação: 1 páginas (~64 imóveis estimados)
+2026-01-19 20:06:10,731 | INFO | 
+[131/289] Regionalleiloes
+2026-01-19 20:06:10,731 | INFO |   Website: https://www.regionalleiloes.com.br
+2026-01-19 20:06:11,067 | INFO |   Acessando: https://www.regionalleiloes.com.br/imoveis
+2026-01-19 20:06:23,383 | INFO |   ✅ Status: sucesso
+2026-01-19 20:06:23,384 | INFO |   🏠 Imóveis: 178
+2026-01-19 20:06:23,385 | INFO |   📄 Paginação: 1 páginas (~178 imóveis estimados)
+2026-01-19 20:06:23,385 | INFO | 
+[132/289] Juleiloes
+2026-01-19 20:06:23,385 | INFO |   Website: https://www.juleiloes.com.br
+2026-01-19 20:06:23,628 | INFO |   Acessando: https://www.juleiloes.com.br/imoveis
+2026-01-19 20:06:34,095 | INFO |   ✅ Status: sucesso
+2026-01-19 20:06:34,095 | INFO |   🏠 Imóveis: 85
+2026-01-19 20:06:34,095 | INFO |   📄 Paginação: 1 páginas (~85 imóveis estimados)
+2026-01-19 20:06:34,097 | INFO | 
+[133/289] Renovarleiloes
+2026-01-19 20:06:34,098 | INFO |   Website: https://www.renovarleiloes.com.br
+2026-01-19 20:06:34,429 | INFO |   Acessando: https://www.renovarleiloes.com.br/imoveis
+2026-01-19 20:06:46,994 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:06:46,995 | INFO |   📄 Paginação: 1 páginas (~234 imóveis estimados)
+2026-01-19 20:06:46,995 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:06:46,995 | INFO | 
+[134/289] Swleiloes
+2026-01-19 20:06:46,996 | INFO |   Website: https://www.swleiloes.com.br
+2026-01-19 20:06:47,299 | INFO |   Acessando: https://www.swleiloes.com.br/imoveis
+2026-01-19 20:06:58,046 | INFO |   ❌ Status: falha
+2026-01-19 20:06:58,046 | INFO |   📄 Paginação: 1 páginas (~39 imóveis estimados)
+2026-01-19 20:06:58,046 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:06:58,047 | INFO | 
+[135/289] Evolveleiloes
+2026-01-19 20:06:58,047 | INFO |   Website: https://www.evolveleiloes.com.br
+2026-01-19 20:06:58,877 | INFO |   Acessando: https://www.evolveleiloes.com.br/imoveis
+2026-01-19 20:07:13,148 | INFO |   ✅ Status: sucesso
+2026-01-19 20:07:13,149 | INFO |   🏠 Imóveis: 415
+2026-01-19 20:07:13,149 | INFO |   📄 Paginação: 1 páginas (~415 imóveis estimados)
+2026-01-19 20:07:13,150 | INFO | 
+[136/289] Gestorleiloes
+2026-01-19 20:07:13,151 | INFO |   Website: https://www.gestorleiloes.com.br
+2026-01-19 20:07:13,494 | INFO |   Acessando: https://www.gestorleiloes.com.br/imoveis
+2026-01-19 20:07:25,910 | INFO |   ❌ Status: falha
+2026-01-19 20:07:25,911 | INFO |   📄 Paginação: 1 páginas (~17 imóveis estimados)
+2026-01-19 20:07:25,911 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:07:25,912 | INFO | 
+[137/289] Dalaqualeiloes
+2026-01-19 20:07:25,912 | INFO |   Website: https://www.dalaqualeiloes.com.br
+2026-01-19 20:07:26,970 | INFO |   Acessando: https://www.dalaqualeiloes.com.br/imoveis
+2026-01-19 20:07:38,198 | INFO |   ✅ Status: sucesso
+2026-01-19 20:07:38,198 | INFO |   🏠 Imóveis: 4
+2026-01-19 20:07:38,199 | INFO |   📄 Paginação: 2 páginas (~8 imóveis estimados)
+2026-01-19 20:07:38,199 | INFO | 
+[138/289] Rzleiloes
+2026-01-19 20:07:38,199 | INFO |   Website: https://www.rzleiloes.com.br
+2026-01-19 20:07:38,854 | INFO |   Acessando: https://www.rzleiloes.com.br/imoveis
+2026-01-19 20:07:52,568 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:07:52,569 | INFO |   📄 Paginação: 1 páginas (~205 imóveis estimados)
+2026-01-19 20:07:52,569 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:07:52,569 | INFO | 
+[139/289] Kildareleiloes
+2026-01-19 20:07:52,570 | INFO |   Website: https://www.kildareleiloes.com.br
+2026-01-19 20:07:52,816 | INFO |   Acessando: https://www.kildareleiloes.com.br/imoveis
+2026-01-19 20:08:07,105 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:08:07,105 | INFO |   📄 Paginação: 2 páginas (~506 imóveis estimados)
+2026-01-19 20:08:07,106 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:08:07,106 | INFO | 
+[140/289] Alexiusleiloes
+2026-01-19 20:08:07,106 | INFO |   Website: https://www.alexiusleiloes.com.br
+2026-01-19 20:08:07,570 | INFO |   Acessando: https://www.alexiusleiloes.com.br/imoveis
+2026-01-19 20:08:15,822 | INFO |   ❌ Status: falha
+2026-01-19 20:08:15,823 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:08:17,270 | INFO | 
+  [Memória liberada - 140/289 processados]
+2026-01-19 20:08:17,271 | INFO | 
+[141/289] Eckertleiloes
+2026-01-19 20:08:17,271 | INFO |   Website: https://www.eckertleiloes.com.br
+2026-01-19 20:08:21,799 | INFO |   Acessando: https://www.eckertleiloes.com.br/imoveis
+2026-01-19 20:08:34,853 | INFO |   ❌ Status: falha
+2026-01-19 20:08:34,853 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:08:34,854 | INFO | 
+[142/289] Hoppeleiloes
+2026-01-19 20:08:34,854 | INFO |   Website: https://www.hoppeleiloes.com.br
+2026-01-19 20:08:35,266 | INFO |   Acessando: https://www.hoppeleiloes.com.br/imoveis
+2026-01-19 20:08:49,593 | INFO |   ❌ Status: falha
+2026-01-19 20:08:49,594 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:08:49,594 | INFO | 
+[143/289] Albuquerquelins
+2026-01-19 20:08:49,594 | INFO |   Website: https://www.albuquerquelins.com.br
+2026-01-19 20:08:51,996 | INFO |   Acessando: https://www.albuquerquelins.com.br/imoveis
+2026-01-19 20:09:01,980 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:09:01,987 | INFO |   📄 Paginação: 2 páginas (~0 imóveis estimados)
+2026-01-19 20:09:01,988 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:09:01,988 | INFO | 
+[144/289] Feliperottaleiloes
+2026-01-19 20:09:01,989 | INFO |   Website: https://www.feliperottaleiloes.com.br
+2026-01-19 20:09:02,274 | INFO |   Acessando: https://www.feliperottaleiloes.com.br/imoveis
+2026-01-19 20:09:15,056 | INFO |   ❌ Status: falha
+2026-01-19 20:09:15,056 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:09:15,057 | INFO | 
+[145/289] Mgleiloes-Rs
+2026-01-19 20:09:15,057 | INFO |   Website: https://www.mgleiloes-rs.com.br
+2026-01-19 20:09:15,377 | INFO |   Acessando: https://www.mgleiloes-rs.com.br/imoveis
+2026-01-19 20:09:27,109 | INFO |   ✅ Status: sucesso
+2026-01-19 20:09:27,110 | INFO |   🏠 Imóveis: 41
+2026-01-19 20:09:27,110 | INFO |   📄 Paginação: 2 páginas (~82 imóveis estimados)
+2026-01-19 20:09:27,110 | INFO | 
+[146/289] Bartmannleiloes
+2026-01-19 20:09:27,111 | INFO |   Website: https://www.bartmannleiloes.com.br
+2026-01-19 20:09:27,478 | INFO |   Acessando: https://www.bartmannleiloes.com.br/imoveis
+2026-01-19 20:09:38,175 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:09:38,176 | INFO |   📄 Paginação: 1 páginas (~22 imóveis estimados)
+2026-01-19 20:09:38,176 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:09:38,176 | INFO | 
+[147/289] Ruipintoleiloeiro
+2026-01-19 20:09:38,177 | INFO |   Website: https://www.ruipintoleiloeiro.com.br
+2026-01-19 20:09:38,472 | INFO |   Acessando: https://www.ruipintoleiloeiro.com.br/imoveis
+2026-01-19 20:09:46,439 | INFO |   🔴 Status: erro_http
+2026-01-19 20:09:46,439 | INFO |   ❗ Erro: HTTP 403
+2026-01-19 20:09:46,440 | INFO | 
+[148/289] Rechleiloes
+2026-01-19 20:09:46,440 | INFO |   Website: https://www.rechleiloes.com.br
+2026-01-19 20:09:49,239 | INFO |   Acessando: https://www.rechleiloes.com.br/imoveis
+2026-01-19 20:10:03,421 | INFO |   ✅ Status: sucesso
+2026-01-19 20:10:03,422 | INFO |   🏠 Imóveis: 208
+2026-01-19 20:10:03,422 | INFO |   📄 Paginação: 2 páginas (~416 imóveis estimados)
+2026-01-19 20:10:03,423 | INFO | 
+[149/289] Gabrielleiloes
+2026-01-19 20:10:03,423 | INFO |   Website: https://www.gabrielleiloes.com.br
+2026-01-19 20:10:03,721 | INFO |   Acessando: https://www.gabrielleiloes.com.br/imoveis
+2026-01-19 20:10:18,553 | INFO |   ❌ Status: falha
+2026-01-19 20:10:18,555 | INFO |   📄 Paginação: 1 páginas (~85 imóveis estimados)
+2026-01-19 20:10:18,555 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:10:18,555 | INFO | 
+[150/289] Leiloeirobarbieri
+2026-01-19 20:10:18,555 | INFO |   Website: https://www.leiloeirobarbieri.com.br
+2026-01-19 20:10:19,067 | INFO |   Acessando: https://www.leiloeirobarbieri.com.br/imoveis
+2026-01-19 20:10:29,502 | INFO |   ✅ Status: sucesso
+2026-01-19 20:10:29,503 | INFO |   🏠 Imóveis: 67
+2026-01-19 20:10:29,527 | INFO |   [Progresso salvo: 150/289]
+2026-01-19 20:10:29,528 | INFO | 
+[151/289] Michellileiloes
+2026-01-19 20:10:29,528 | INFO |   Website: https://www.michellileiloes.com.br
+2026-01-19 20:10:29,717 | INFO |   Acessando: https://www.michellileiloes.com.br/imoveis
+2026-01-19 20:10:40,606 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:10:40,608 | INFO |   📄 Paginação: 1 páginas (~52 imóveis estimados)
+2026-01-19 20:10:40,608 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:10:40,609 | INFO | 
+[152/289] Trevisanleiloes
+2026-01-19 20:10:40,610 | INFO |   Website: https://www.trevisanleiloes.com.br
+2026-01-19 20:10:40,899 | INFO |   Acessando: https://www.trevisanleiloes.com.br/imoveis
+2026-01-19 20:10:52,027 | INFO |   ✅ Status: sucesso
+2026-01-19 20:10:52,027 | INFO |   🏠 Imóveis: 73
+2026-01-19 20:10:52,028 | INFO |   📄 Paginação: 1 páginas (~73 imóveis estimados)
+2026-01-19 20:10:52,028 | INFO | 
+[153/289] Lipinskileiloes
+2026-01-19 20:10:52,028 | INFO |   Website: https://www.lipinskileiloes.com.br
+2026-01-19 20:10:52,546 | INFO |   Acessando: https://www.lipinskileiloes.com.br/imoveis
+2026-01-19 20:11:03,544 | INFO |   ✅ Status: sucesso
+2026-01-19 20:11:03,544 | INFO |   🏠 Imóveis: 70
+2026-01-19 20:11:03,544 | INFO |   📄 Paginação: 1 páginas (~70 imóveis estimados)
+2026-01-19 20:11:03,545 | INFO | 
+[154/289] Tonialleiloes
+2026-01-19 20:11:03,545 | INFO |   Website: https://www.tonialleiloes.com.br
+2026-01-19 20:11:04,097 | INFO |   Acessando: https://www.tonialleiloes.com.br/imoveis
+2026-01-19 20:11:17,543 | INFO |   ✅ Status: sucesso
+2026-01-19 20:11:17,543 | INFO |   🏠 Imóveis: 137
+2026-01-19 20:11:17,543 | INFO |   📄 Paginação: 1 páginas (~137 imóveis estimados)
+2026-01-19 20:11:17,544 | INFO | 
+[155/289] Alexsandroleiloes
+2026-01-19 20:11:17,544 | INFO |   Website: https://www.alexsandroleiloes.com.br
+2026-01-19 20:11:18,210 | INFO |   Acessando: https://www.alexsandroleiloes.com.br/imoveis
+2026-01-19 20:11:29,326 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:11:29,327 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:11:29,330 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:11:29,331 | INFO | 
+[156/289] Bianchileiloes
+2026-01-19 20:11:29,332 | INFO |   Website: https://www.bianchileiloes.com.br
+2026-01-19 20:11:29,639 | INFO |   Acessando: https://www.bianchileiloes.com.br/imoveis
+2026-01-19 20:11:42,445 | INFO |   ✅ Status: sucesso
+2026-01-19 20:11:42,446 | INFO |   🏠 Imóveis: 233
+2026-01-19 20:11:42,446 | INFO |   📄 Paginação: 1 páginas (~233 imóveis estimados)
+2026-01-19 20:11:42,446 | INFO | 
+[157/289] Backleiloes
+2026-01-19 20:11:42,447 | INFO |   Website: https://www.backleiloes.com.br
+2026-01-19 20:11:42,793 | INFO |   Acessando: https://www.backleiloes.com.br/imoveis
+2026-01-19 20:11:54,898 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:11:54,899 | INFO |   📄 Paginação: 1 páginas (~26 imóveis estimados)
+2026-01-19 20:11:54,900 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:11:54,900 | INFO | 
+[158/289] Deborabarzleiloes
+2026-01-19 20:11:54,901 | INFO |   Website: https://www.deborabarzleiloes.com.br
+2026-01-19 20:11:55,187 | INFO |   Acessando: https://www.deborabarzleiloes.com.br/imoveis
+2026-01-19 20:12:06,140 | INFO |   ❌ Status: falha
+2026-01-19 20:12:06,141 | INFO |   📄 Paginação: 1 páginas (~15 imóveis estimados)
+2026-01-19 20:12:06,141 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:12:06,142 | INFO | 
+[159/289] Arnoldoleiloes
+2026-01-19 20:12:06,142 | INFO |   Website: https://www.arnoldoleiloes.com.br
+2026-01-19 20:12:06,853 | INFO |   Acessando: https://www.arnoldoleiloes.com.br/imoveis
+2026-01-19 20:12:19,954 | INFO |   ✅ Status: sucesso
+2026-01-19 20:12:19,954 | INFO |   🏠 Imóveis: 115
+2026-01-19 20:12:19,955 | INFO |   📄 Paginação: 1 páginas (~115 imóveis estimados)
+2026-01-19 20:12:19,955 | INFO | 
+[160/289] Bidgo
+2026-01-19 20:12:19,955 | INFO |   Website: https://www.bidgo.com.br
+2026-01-19 20:12:20,474 | INFO |   Acessando: https://www.bidgo.com.br/imoveis
+2026-01-19 20:12:32,344 | INFO |   ❌ Status: falha
+2026-01-19 20:12:32,345 | INFO |   📄 Paginação: 1 páginas (~29 imóveis estimados)
+2026-01-19 20:12:32,346 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:12:44,688 | INFO | 
+  [Memória liberada - 160/289 processados]
+2026-01-19 20:12:44,688 | INFO | 
+[161/289] Casaforteleiloes
+2026-01-19 20:12:44,689 | INFO |   Website: https://www.casaforteleiloes.com.br
+2026-01-19 20:12:52,514 | INFO |   Acessando: https://www.casaforteleiloes.com.br/imoveis
+2026-01-19 20:13:03,371 | INFO |   ✅ Status: sucesso
+2026-01-19 20:13:03,371 | INFO |   🏠 Imóveis: 40
+2026-01-19 20:13:03,372 | INFO | 
+[162/289] Szortykaleiloes
+2026-01-19 20:13:03,372 | INFO |   Website: https://www.szortykaleiloes.com.br
+2026-01-19 20:13:04,228 | INFO |   Acessando: https://www.szortykaleiloes.com.br/imoveis
+2026-01-19 20:13:20,958 | INFO |   ✅ Status: sucesso
+2026-01-19 20:13:20,959 | INFO |   🏠 Imóveis: 266
+2026-01-19 20:13:20,959 | INFO |   📄 Paginação: 1 páginas (~266 imóveis estimados)
+2026-01-19 20:13:20,960 | INFO | 
+[163/289] Rangelleiloes
+2026-01-19 20:13:20,960 | INFO |   Website: https://www.rangelleiloes.com.br
+2026-01-19 20:13:21,788 | INFO |   Acessando: https://www.rangelleiloes.com.br/imoveis
+2026-01-19 20:13:33,609 | INFO |   ❌ Status: falha
+2026-01-19 20:13:33,609 | INFO |   📄 Paginação: 1 páginas (~6 imóveis estimados)
+2026-01-19 20:13:33,610 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:13:33,610 | INFO | 
+[164/289] Fariasleiloes
+2026-01-19 20:13:33,610 | INFO |   Website: https://www.fariasleiloes.com.br
+2026-01-19 20:13:34,774 | INFO |   Acessando: https://www.fariasleiloes.com.br/imoveis
+2026-01-19 20:13:47,149 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:13:47,150 | INFO |   📄 Paginação: 1 páginas (~36 imóveis estimados)
+2026-01-19 20:13:47,151 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:13:47,152 | INFO | 
+[165/289] Utzigleiloes
+2026-01-19 20:13:47,152 | INFO |   Website: https://www.utzigleiloes.com.br
+2026-01-19 20:13:47,895 | INFO |   Acessando: https://www.utzigleiloes.com.br/imoveis
+2026-01-19 20:13:59,666 | INFO |   ❌ Status: falha
+2026-01-19 20:13:59,666 | INFO |   📄 Paginação: 1 páginas (~7 imóveis estimados)
+2026-01-19 20:13:59,667 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:13:59,668 | INFO | 
+[166/289] Trileiloes
+2026-01-19 20:13:59,668 | INFO |   Website: https://www.trileiloes.com.br
+2026-01-19 20:14:00,159 | INFO |   Acessando: https://www.trileiloes.com.br/imoveis
+2026-01-19 20:14:12,922 | INFO |   ✅ Status: sucesso
+2026-01-19 20:14:12,922 | INFO |   🏠 Imóveis: 82
+2026-01-19 20:14:12,922 | INFO |   📄 Paginação: 2 páginas (~164 imóveis estimados)
+2026-01-19 20:14:12,923 | INFO | 
+[167/289] Kriegerleiloes
+2026-01-19 20:14:12,923 | INFO |   Website: https://www.kriegerleiloes.com.br
+2026-01-19 20:14:13,337 | INFO |   Acessando: https://www.kriegerleiloes.com.br/imoveis
+2026-01-19 20:14:25,844 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:14:25,845 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:14:25,846 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:14:25,847 | INFO | 
+[168/289] Turanileiloes
+2026-01-19 20:14:25,848 | INFO |   Website: https://www.turanileiloes.com.br
+2026-01-19 20:14:26,562 | INFO |   Acessando: https://www.turanileiloes.com.br/imoveis
+2026-01-19 20:14:36,482 | INFO |   🚫 Status: bloqueado
+2026-01-19 20:14:36,482 | INFO |   ❗ Erro: Bloqueio detectado: captcha
+2026-01-19 20:14:36,483 | INFO | 
+[169/289] Savoyleiloes
+2026-01-19 20:14:36,483 | INFO |   Website: https://www.savoyleiloes.com.br
+2026-01-19 20:14:36,851 | INFO |   Acessando: https://www.savoyleiloes.com.br/imoveis
+2026-01-19 20:14:46,846 | INFO |   ✅ Status: sucesso
+2026-01-19 20:14:46,846 | INFO |   🏠 Imóveis: 6
+2026-01-19 20:14:46,847 | INFO |   📄 Paginação: 1 páginas (~6 imóveis estimados)
+2026-01-19 20:14:46,847 | INFO | 
+[170/289] Leiloesfreire
+2026-01-19 20:14:46,847 | INFO |   Website: https://www.leiloesfreire.com.br
+2026-01-19 20:14:47,597 | INFO |   Acessando: https://www.leiloesfreire.com.br/imoveis
+2026-01-19 20:14:59,827 | INFO |   ✅ Status: sucesso
+2026-01-19 20:14:59,830 | INFO |   🏠 Imóveis: 5
+2026-01-19 20:14:59,830 | INFO | 
+[171/289] Abaleiloes
+2026-01-19 20:14:59,830 | INFO |   Website: https://www.abaleiloes.com.br
+2026-01-19 20:15:00,144 | INFO |   Acessando: https://www.abaleiloes.com.br/imoveis
+2026-01-19 20:15:10,066 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:15:10,067 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:15:10,070 | INFO | 
+[172/289] Lancecertoleiloes
+2026-01-19 20:15:10,071 | INFO |   Website: https://www.lancecertoleiloes.com.br
+2026-01-19 20:15:10,495 | INFO |   Acessando: https://www.lancecertoleiloes.com.br/imoveis
+2026-01-19 20:15:20,909 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:15:20,909 | INFO |   📄 Paginação: 1 páginas (~16 imóveis estimados)
+2026-01-19 20:15:20,910 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:15:20,910 | INFO | 
+[173/289] Rjleiloes
+2026-01-19 20:15:20,910 | INFO |   Website: https://www.rjleiloes.com.br
+2026-01-19 20:15:21,442 | INFO |   Acessando: https://www.rjleiloes.com.br/imoveis
+2026-01-19 20:15:35,787 | INFO |   ✅ Status: sucesso
+2026-01-19 20:15:35,788 | INFO |   🏠 Imóveis: 253
+2026-01-19 20:15:35,789 | INFO |   📄 Paginação: 2 páginas (~506 imóveis estimados)
+2026-01-19 20:15:35,789 | INFO | 
+[174/289] Danielgarcialeiloes
+2026-01-19 20:15:35,789 | INFO |   Website: https://www.danielgarcialeiloes.com.br
+2026-01-19 20:15:36,222 | INFO |   Acessando: https://www.danielgarcialeiloes.com.br/imoveis
+2026-01-19 20:15:50,347 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:15:50,348 | INFO |   📄 Paginação: 3 páginas (~273 imóveis estimados)
+2026-01-19 20:15:50,349 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:15:50,349 | INFO | 
+[175/289] Inovaleilao
+2026-01-19 20:15:50,350 | INFO |   Website: https://www.inovaleilao.com.br
+2026-01-19 20:15:50,630 | INFO |   Acessando: https://www.inovaleilao.com.br/imoveis
+2026-01-19 20:16:16,186 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:16:16,187 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:16:16,187 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:16:16,188 | INFO | 
+[176/289] Portaldosleiloes
+2026-01-19 20:16:16,188 | INFO |   Website: https://www.portaldosleiloes.com
+2026-01-19 20:16:16,542 | INFO |   Acessando: https://www.portaldosleiloes.com/imoveis
+2026-01-19 20:17:16,581 | INFO |   ⏱️ Status: timeout
+2026-01-19 20:17:16,581 | INFO |   ❗ Erro: Timeout ao carregar
+2026-01-19 20:17:16,582 | INFO | 
+[177/289] Alfaleiloes
+2026-01-19 20:17:16,582 | INFO |   Website: https://www.alfaleiloes.com
+2026-01-19 20:17:17,088 | INFO |   Acessando: https://www.alfaleiloes.com/imoveis
+2026-01-19 20:17:30,658 | INFO |   ✅ Status: sucesso
+2026-01-19 20:17:30,658 | INFO |   🏠 Imóveis: 87
+2026-01-19 20:17:30,659 | INFO |   📄 Paginação: 1 páginas (~87 imóveis estimados)
+2026-01-19 20:17:30,659 | INFO | 
+[178/289] Leiloeirodebrasilia
+2026-01-19 20:17:30,659 | INFO |   Website: https://www.leiloeirodebrasilia.com.br
+2026-01-19 20:17:30,863 | INFO |   Acessando: https://www.leiloeirodebrasilia.com.br/imoveis
+2026-01-19 20:17:30,904 | INFO |   🌐 Status: dns_error
+2026-01-19 20:17:30,905 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:17:30,905 | INFO | 
+[179/289] Costanetoleiloeiro
+2026-01-19 20:17:30,906 | INFO |   Website: https://www.costanetoleiloeiro.com.br
+2026-01-19 20:17:31,239 | INFO |   Acessando: https://www.costanetoleiloeiro.com.br/imoveis
+2026-01-19 20:17:53,907 | INFO |   ✅ Status: sucesso
+2026-01-19 20:17:53,907 | INFO |   🏠 Imóveis: 15
+2026-01-19 20:17:53,908 | INFO |   📄 Paginação: 15 páginas (~225 imóveis estimados)
+2026-01-19 20:17:53,908 | INFO | 
+[180/289] Multleiloes
+2026-01-19 20:17:53,908 | INFO |   Website: https://www.multleiloes.com
+2026-01-19 20:17:54,193 | INFO |   Acessando: https://www.multleiloes.com/imoveis
+2026-01-19 20:17:55,254 | INFO |   💥 Status: erro
+2026-01-19 20:17:55,254 | INFO |   ❗ Erro: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.multleiloes.com/imov
+2026-01-19 20:18:00,041 | INFO | 
+  [Memória liberada - 180/289 processados]
+2026-01-19 20:18:00,041 | INFO | 
+[181/289] Bsbleiloes
+2026-01-19 20:18:00,042 | INFO |   Website: https://www.bsbleiloes.com.br
+2026-01-19 20:18:05,092 | INFO |   Acessando: https://www.bsbleiloes.com.br/imoveis
+2026-01-19 20:18:17,349 | INFO |   ✅ Status: sucesso
+2026-01-19 20:18:17,350 | INFO |   🏠 Imóveis: 119
+2026-01-19 20:18:17,350 | INFO |   📄 Paginação: 1 páginas (~119 imóveis estimados)
+2026-01-19 20:18:17,351 | INFO | 
+[182/289] Brasilialeiloes
+2026-01-19 20:18:17,351 | INFO |   Website: https://www.brasilialeiloes.com.br
+2026-01-19 20:18:17,696 | INFO |   Acessando: https://www.brasilialeiloes.com.br/imoveis
+2026-01-19 20:18:27,787 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:18:27,787 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:18:27,788 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:18:27,788 | INFO | 
+[183/289] Paulotolentino
+2026-01-19 20:18:27,788 | INFO |   Website: https://www.paulotolentino.com.br
+2026-01-19 20:18:28,050 | INFO |   Acessando: https://www.paulotolentino.com.br/imoveis
+2026-01-19 20:18:51,671 | INFO |   ✅ Status: sucesso
+2026-01-19 20:18:51,671 | INFO |   🏠 Imóveis: 15
+2026-01-19 20:18:51,672 | INFO |   📄 Paginação: 15 páginas (~225 imóveis estimados)
+2026-01-19 20:18:51,672 | INFO | 
+[184/289] Parquedosleiloes
+2026-01-19 20:18:51,672 | INFO |   Website: https://www.parquedosleiloes.com.br
+2026-01-19 20:18:52,115 | INFO |   Acessando: https://www.parquedosleiloes.com.br/imoveis
+2026-01-19 20:19:04,367 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:19:04,367 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:19:04,368 | INFO | 
+[185/289] Jfleiloes
+2026-01-19 20:19:04,368 | INFO |   Website: https://www.jfleiloes.com.br
+2026-01-19 20:19:04,837 | INFO |   Acessando: https://www.jfleiloes.com.br/imoveis
+2026-01-19 20:19:13,694 | INFO |   ❌ Status: falha
+2026-01-19 20:19:13,695 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:19:13,696 | INFO | 
+[186/289] Flexleiloes
+2026-01-19 20:19:13,697 | INFO |   Website: https://www.flexleiloes.com.br
+2026-01-19 20:19:14,361 | INFO |   Acessando: https://www.flexleiloes.com.br/auctions?property_type=imovel
+2026-01-19 20:19:23,763 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:19:23,763 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:19:23,763 | INFO | 
+[187/289] Grupoleilo
+2026-01-19 20:19:23,764 | INFO |   Website: https://www.grupoleilo.com.br
+2026-01-19 20:19:24,932 | INFO |   Acessando: https://www.grupoleilo.com.br/imoveis
+2026-01-19 20:19:37,476 | INFO |   ❌ Status: falha
+2026-01-19 20:19:37,476 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:19:37,477 | INFO | 
+[188/289] Jcleiloeiro
+2026-01-19 20:19:37,477 | INFO |   Website: https://www.jcleiloeiro.com.br
+2026-01-19 20:19:38,028 | INFO |   Acessando: https://www.jcleiloeiro.com.br/imoveis
+2026-01-19 20:19:38,169 | INFO |   💥 Status: erro
+2026-01-19 20:19:38,169 | INFO |   ❗ Erro: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.jcleiloeiro.com.br/i
+2026-01-19 20:19:38,170 | INFO | 
+[189/289] Luizleiloes
+2026-01-19 20:19:38,170 | INFO |   Website: https://www.luizleiloes.com.br
+2026-01-19 20:19:38,861 | INFO |   Acessando: https://www.luizleiloes.com.br/imoveis
+2026-01-19 20:19:47,541 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:19:47,541 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:19:47,542 | INFO | 
+[190/289] Alvaroleiloes
+2026-01-19 20:19:47,542 | INFO |   Website: https://www.alvaroleiloes.com.br
+2026-01-19 20:19:47,790 | INFO |   Acessando: https://www.alvaroleiloes.com.br/imoveis
+2026-01-19 20:19:55,399 | INFO |   🔴 Status: erro_http
+2026-01-19 20:19:55,400 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 20:19:55,400 | INFO | 
+[191/289] Assuncaoleiloes
+2026-01-19 20:19:55,401 | INFO |   Website: https://www.assuncaoleiloes.com.br
+2026-01-19 20:19:55,861 | INFO |   Acessando: https://www.assuncaoleiloes.com.br/imoveis
+2026-01-19 20:19:55,917 | INFO |   🌐 Status: dns_error
+2026-01-19 20:19:55,919 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:19:55,919 | INFO | 
+[192/289] Infinityleiloes
+2026-01-19 20:19:55,919 | INFO |   Website: https://www.infinityleiloes.com.br
+2026-01-19 20:19:56,423 | INFO |   Acessando: https://www.infinityleiloes.com.br/imoveis
+2026-01-19 20:20:08,980 | INFO |   ✅ Status: sucesso
+2026-01-19 20:20:08,981 | INFO |   🏠 Imóveis: 245
+2026-01-19 20:20:08,982 | INFO |   📄 Paginação: 7 páginas (~1715 imóveis estimados)
+2026-01-19 20:20:08,982 | INFO | 
+[193/289] Upleiloes
+2026-01-19 20:20:08,983 | INFO |   Website: https://www.upleiloes.com.br
+2026-01-19 20:20:09,376 | INFO |   Acessando: https://www.upleiloes.com.br/imoveis
+2026-01-19 20:20:19,851 | INFO |   ❌ Status: falha
+2026-01-19 20:20:19,851 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:20:19,852 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:20:19,852 | INFO | 
+[194/289] Adringleiloes
+2026-01-19 20:20:19,852 | INFO |   Website: https://www.adringleiloes.com.br
+2026-01-19 20:20:20,342 | INFO |   Acessando: https://www.adringleiloes.com.br/imoveis
+2026-01-19 20:20:31,337 | INFO |   ✅ Status: sucesso
+2026-01-19 20:20:31,338 | INFO |   🏠 Imóveis: 75
+2026-01-19 20:20:31,338 | INFO |   📄 Paginação: 1 páginas (~75 imóveis estimados)
+2026-01-19 20:20:31,338 | INFO | 
+[195/289] Oaleiloes
+2026-01-19 20:20:31,338 | INFO |   Website: https://www.oaleiloes.com.br
+2026-01-19 20:20:32,317 | INFO |   Acessando: https://www.oaleiloes.com.br/imoveis
+2026-01-19 20:20:50,799 | INFO |   ✅ Status: sucesso
+2026-01-19 20:20:50,800 | INFO |   🏠 Imóveis: 230
+2026-01-19 20:20:50,800 | INFO |   📄 Paginação: 1 páginas (~230 imóveis estimados)
+2026-01-19 20:20:50,800 | INFO | 
+[196/289] Eixoleiloes
+2026-01-19 20:20:50,801 | INFO |   Website: https://www.eixoleiloes.com.br
+2026-01-19 20:20:51,270 | INFO |   Acessando: https://www.eixoleiloes.com.br/imoveis
+2026-01-19 20:21:02,083 | INFO |   ✅ Status: sucesso
+2026-01-19 20:21:02,085 | INFO |   🏠 Imóveis: 15
+2026-01-19 20:21:02,085 | INFO |   📄 Paginação: 1 páginas (~15 imóveis estimados)
+2026-01-19 20:21:02,085 | INFO | 
+[197/289] Clicleiloes
+2026-01-19 20:21:02,085 | INFO |   Website: https://www.clicleiloes.com.br
+2026-01-19 20:21:03,599 | INFO |   Acessando: https://www.clicleiloes.com.br/imoveis
+2026-01-19 20:21:14,887 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:21:14,888 | INFO |   📄 Paginação: 1 páginas (~24 imóveis estimados)
+2026-01-19 20:21:14,888 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:21:14,889 | INFO | 
+[198/289] Marquesbarretoleiloes
+2026-01-19 20:21:14,889 | INFO |   Website: https://www.marquesbarretoleiloes.com.br
+2026-01-19 20:21:15,617 | INFO |   Acessando: https://www.marquesbarretoleiloes.com.br/imoveis
+2026-01-19 20:21:25,877 | INFO |   ✅ Status: sucesso
+2026-01-19 20:21:25,877 | INFO |   🏠 Imóveis: 40
+2026-01-19 20:21:25,878 | INFO |   📄 Paginação: 2 páginas (~80 imóveis estimados)
+2026-01-19 20:21:25,878 | INFO | 
+[199/289] Anabrasilleiloes
+2026-01-19 20:21:25,878 | INFO |   Website: https://www.anabrasilleiloes.com.br
+2026-01-19 20:21:26,275 | INFO |   Acessando: https://www.anabrasilleiloes.com.br/imoveis
+2026-01-19 20:21:34,159 | INFO |   🔴 Status: erro_http
+2026-01-19 20:21:34,159 | INFO |   ❗ Erro: HTTP 404
+2026-01-19 20:21:34,160 | INFO | 
+[200/289] E-Leiloeiro
+2026-01-19 20:21:34,160 | INFO |   Website: https://www.e-leiloeiro.com.br
+2026-01-19 20:21:36,072 | INFO |   Acessando: https://www.e-leiloeiro.com.br/imoveis
+2026-01-19 20:21:50,025 | INFO |   ✅ Status: sucesso
+2026-01-19 20:21:50,026 | INFO |   🏠 Imóveis: 9
+2026-01-19 20:21:50,026 | INFO |   📄 Paginação: 30 páginas (~270 imóveis estimados)
+2026-01-19 20:21:59,410 | INFO | 
+  [Memória liberada - 200/289 processados]
+2026-01-19 20:21:59,448 | INFO |   [Progresso salvo: 200/289]
+2026-01-19 20:21:59,449 | INFO | 
+[201/289] Soleiloes
+2026-01-19 20:21:59,449 | INFO |   Website: https://www.soleiloes.com.br
+2026-01-19 20:22:07,409 | INFO |   Acessando: https://www.soleiloes.com.br/imoveis
+2026-01-19 20:22:20,470 | INFO |   ✅ Status: sucesso
+2026-01-19 20:22:20,470 | INFO |   🏠 Imóveis: 12
+2026-01-19 20:22:20,470 | INFO | 
+[202/289] Morescoleiloes
+2026-01-19 20:22:20,471 | INFO |   Website: https://www.morescoleiloes.com.br
+2026-01-19 20:22:20,855 | INFO |   Acessando: https://www.morescoleiloes.com.br/imoveis
+2026-01-19 20:22:31,952 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:22:31,953 | INFO |   📄 Paginação: 1 páginas (~12 imóveis estimados)
+2026-01-19 20:22:31,953 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:22:31,953 | INFO | 
+[203/289] Fabioleiloes
+2026-01-19 20:22:31,953 | INFO |   Website: https://www.fabioleiloes.com.br
+2026-01-19 20:22:32,320 | INFO |   Acessando: https://www.fabioleiloes.com.br/imoveis
+2026-01-19 20:22:39,762 | INFO |   🔴 Status: erro_http
+2026-01-19 20:22:39,763 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:22:39,764 | INFO | 
+[204/289] Brunoleiloes
+2026-01-19 20:22:39,764 | INFO |   Website: https://www.brunoleiloes.com.br
+2026-01-19 20:22:40,038 | INFO |   Acessando: https://www.brunoleiloes.com.br/imoveis
+2026-01-19 20:22:47,717 | INFO |   🔴 Status: erro_http
+2026-01-19 20:22:47,717 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:22:47,718 | INFO | 
+[205/289] Danieloliveiraleiloes
+2026-01-19 20:22:47,718 | INFO |   Website: https://www.danieloliveiraleiloes.com.br
+2026-01-19 20:22:48,416 | INFO |   Acessando: https://www.danieloliveiraleiloes.com.br/imoveis
+2026-01-19 20:22:57,035 | INFO |   🔴 Status: erro_http
+2026-01-19 20:22:57,035 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:22:57,036 | INFO | 
+[206/289] Bastonleiloes
+2026-01-19 20:22:57,036 | INFO |   Website: https://www.bastonleiloes.com.br
+2026-01-19 20:22:58,282 | INFO |   Acessando: https://www.bastonleiloes.com.br/imoveis
+2026-01-19 20:23:07,548 | INFO |   ❌ Status: falha
+2026-01-19 20:23:07,548 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:23:07,549 | INFO | 
+[207/289] Leiloescentrooeste
+2026-01-19 20:23:07,549 | INFO |   Website: https://www.leiloescentrooeste.com.br
+2026-01-19 20:23:07,788 | INFO |   Acessando: https://www.leiloescentrooeste.com.br/imoveis
+2026-01-19 20:23:15,184 | INFO |   🔴 Status: erro_http
+2026-01-19 20:23:15,184 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:23:15,184 | INFO | 
+[208/289] Leiloes61
+2026-01-19 20:23:15,185 | INFO |   Website: https://www.leiloes61.com.br
+2026-01-19 20:23:15,566 | INFO |   Acessando: https://www.leiloes61.com.br/imoveis
+2026-01-19 20:23:27,431 | INFO |   ❌ Status: falha
+2026-01-19 20:23:27,431 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:23:27,431 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:23:27,432 | INFO | 
+[209/289] Mikedutraleiloeiro
+2026-01-19 20:23:27,432 | INFO |   Website: https://www.mikedutraleiloeiro.com.br
+2026-01-19 20:23:27,763 | INFO |   Acessando: https://www.mikedutraleiloeiro.com.br/imoveis
+2026-01-19 20:23:27,805 | INFO |   🌐 Status: dns_error
+2026-01-19 20:23:27,806 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:23:27,806 | INFO | 
+[210/289] Oreidosleiloes
+2026-01-19 20:23:27,808 | INFO |   Website: https://www.oreidosleiloes.com.br
+2026-01-19 20:23:28,300 | INFO |   Acessando: https://www.oreidosleiloes.com.br/imoveis
+2026-01-19 20:23:35,964 | INFO |   🔴 Status: erro_http
+2026-01-19 20:23:35,965 | INFO |   ❗ Erro: HTTP 404
+2026-01-19 20:23:35,965 | INFO | 
+[211/289] Leiloesfederal
+2026-01-19 20:23:35,965 | INFO |   Website: https://www.leiloesfederal.com.br
+2026-01-19 20:23:36,220 | INFO |   Acessando: https://www.leiloesfederal.com.br/imoveis
+2026-01-19 20:23:48,717 | INFO |   ✅ Status: sucesso
+2026-01-19 20:23:48,718 | INFO |   🏠 Imóveis: 54
+2026-01-19 20:23:48,718 | INFO |   📄 Paginação: 3 páginas (~162 imóveis estimados)
+2026-01-19 20:23:48,718 | INFO | 
+[212/289] Natalialeiloes
+2026-01-19 20:23:48,719 | INFO |   Website: https://www.natalialeiloes.com.br
+2026-01-19 20:23:49,643 | INFO |   Acessando: https://www.natalialeiloes.com.br/imoveis
+2026-01-19 20:24:03,779 | INFO |   ✅ Status: sucesso
+2026-01-19 20:24:03,779 | INFO |   🏠 Imóveis: 247
+2026-01-19 20:24:03,780 | INFO |   📄 Paginação: 2 páginas (~494 imóveis estimados)
+2026-01-19 20:24:03,780 | INFO | 
+[213/289] Arrematabem
+2026-01-19 20:24:03,780 | INFO |   Website: https://www.arrematabem.com.br
+2026-01-19 20:24:04,059 | INFO |   Acessando: https://www.arrematabem.com.br/imoveis
+2026-01-19 20:24:15,471 | INFO |   ✅ Status: sucesso
+2026-01-19 20:24:15,473 | INFO |   🏠 Imóveis: 28
+2026-01-19 20:24:15,473 | INFO |   📄 Paginação: 2 páginas (~56 imóveis estimados)
+2026-01-19 20:24:15,474 | INFO | 
+[214/289] Tmleiloes
+2026-01-19 20:24:15,474 | INFO |   Website: https://www.tmleiloes.com.br
+2026-01-19 20:24:15,894 | INFO |   Acessando: https://www.tmleiloes.com.br/imoveis
+2026-01-19 20:24:27,551 | INFO |   ✅ Status: sucesso
+2026-01-19 20:24:27,553 | INFO |   🏠 Imóveis: 74
+2026-01-19 20:24:27,553 | INFO | 
+[215/289] Hastalegal
+2026-01-19 20:24:27,554 | INFO |   Website: https://www.hastalegal.com.br
+2026-01-19 20:24:28,082 | INFO |   Acessando: https://www.hastalegal.com.br/imoveis
+2026-01-19 20:24:36,001 | INFO |   🔴 Status: erro_http
+2026-01-19 20:24:36,002 | INFO |   ❗ Erro: HTTP 404
+2026-01-19 20:24:36,002 | INFO | 
+[216/289] Duxleiloes
+2026-01-19 20:24:36,002 | INFO |   Website: https://www.duxleiloes.com.br
+2026-01-19 20:24:36,274 | INFO |   Acessando: https://www.duxleiloes.com.br/imoveis
+2026-01-19 20:24:46,984 | INFO |   ❌ Status: falha
+2026-01-19 20:24:46,984 | INFO |   📄 Paginação: 1 páginas (~3 imóveis estimados)
+2026-01-19 20:24:46,985 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:24:46,985 | INFO | 
+[217/289] Amleiloeiro
+2026-01-19 20:24:46,985 | INFO |   Website: https://www.amleiloeiro.com.br
+2026-01-19 20:24:50,824 | INFO |   Acessando: https://www.amleiloeiro.com.br/imoveis
+2026-01-19 20:25:03,119 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:25:03,119 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:25:03,120 | INFO | 
+[218/289] Marangonileiloes
+2026-01-19 20:25:03,120 | INFO |   Website: https://www.marangonileiloes.com.br
+2026-01-19 20:25:04,048 | INFO |   Acessando: https://www.marangonileiloes.com.br/imoveis
+2026-01-19 20:25:17,405 | INFO |   ❌ Status: falha
+2026-01-19 20:25:17,405 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:25:17,405 | INFO | 
+[219/289] Leiloeiroqueiroz
+2026-01-19 20:25:17,406 | INFO |   Website: https://www.leiloeiroqueiroz.com.br
+2026-01-19 20:25:17,718 | INFO |   Acessando: https://www.leiloeiroqueiroz.com.br/imoveis
+2026-01-19 20:25:17,768 | INFO |   🌐 Status: dns_error
+2026-01-19 20:25:17,769 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:25:17,769 | INFO | 
+[220/289] Alleiloes
+2026-01-19 20:25:17,770 | INFO |   Website: https://www.alleiloes.com.br
+2026-01-19 20:25:18,852 | INFO |   Acessando: https://www.alleiloes.com.br/imoveis
+2026-01-19 20:25:32,369 | INFO |   ✅ Status: sucesso
+2026-01-19 20:25:32,369 | INFO |   🏠 Imóveis: 45
+2026-01-19 20:25:32,370 | INFO |   📄 Paginação: 2 páginas (~90 imóveis estimados)
+2026-01-19 20:25:35,566 | INFO | 
+  [Memória liberada - 220/289 processados]
+2026-01-19 20:25:35,566 | INFO | 
+[221/289] Andreluizleiloes
+2026-01-19 20:25:35,567 | INFO |   Website: https://www.andreluizleiloes.com.br
+2026-01-19 20:25:45,229 | INFO |   Acessando: https://www.andreluizleiloes.com.br/imoveis
+2026-01-19 20:25:58,531 | INFO |   ❌ Status: falha
+2026-01-19 20:25:58,531 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:25:58,532 | INFO | 
+[222/289] Acleiloes
+2026-01-19 20:25:58,532 | INFO |   Website: https://www.acleiloes.com.br
+2026-01-19 20:25:58,799 | INFO |   Acessando: https://www.acleiloes.com.br/imoveis
+2026-01-19 20:26:07,208 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:26:07,208 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:26:07,209 | INFO | 
+[223/289] Cidafixerleiloes
+2026-01-19 20:26:07,209 | INFO |   Website: https://www.cidafixerleiloes.com.br
+2026-01-19 20:26:07,776 | INFO |   Acessando: https://www.cidafixerleiloes.com.br/imoveis
+2026-01-19 20:26:15,744 | INFO |   🔴 Status: erro_http
+2026-01-19 20:26:15,744 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:26:15,745 | INFO | 
+[224/289] Grupocarvalholeiloes
+2026-01-19 20:26:15,745 | INFO |   Website: https://www.grupocarvalholeiloes.com.br
+2026-01-19 20:26:17,845 | INFO |   Acessando: https://www.grupocarvalholeiloes.com.br/imoveis
+2026-01-19 20:26:29,985 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:26:29,985 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:26:29,986 | INFO | 
+[225/289] Claudiokussleiloes
+2026-01-19 20:26:29,987 | INFO |   Website: https://www.claudiokussleiloes.com.br
+2026-01-19 20:26:30,827 | INFO |   Acessando: https://www.claudiokussleiloes.com.br/imoveis
+2026-01-19 20:26:41,976 | INFO |   ❌ Status: falha
+2026-01-19 20:26:41,976 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:26:41,976 | INFO | 
+[226/289] Dsleiloes
+2026-01-19 20:26:41,977 | INFO |   Website: https://www.dsleiloes.com.br
+2026-01-19 20:26:42,656 | INFO |   Acessando: https://www.dsleiloes.com.br/imoveis
+2026-01-19 20:26:50,135 | INFO |   🔴 Status: erro_http
+2026-01-19 20:26:50,136 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 20:26:50,136 | INFO | 
+[227/289] Simonleiloes
+2026-01-19 20:26:50,136 | INFO |   Website: https://www.simonleiloes.com.br
+2026-01-19 20:26:51,419 | INFO |   Acessando: https://www.simonleiloes.com.br/imoveis
+2026-01-19 20:27:06,121 | INFO |   ✅ Status: sucesso
+2026-01-19 20:27:06,121 | INFO |   🏠 Imóveis: 5
+2026-01-19 20:27:06,121 | INFO |   📄 Paginação: 2 páginas (~10 imóveis estimados)
+2026-01-19 20:27:06,122 | INFO | 
+[228/289] Lancevip
+2026-01-19 20:27:06,122 | INFO |   Website: https://www.lancevip.com.br
+2026-01-19 20:27:06,436 | INFO |   Acessando: https://www.lancevip.com.br/imoveis
+2026-01-19 20:27:18,354 | INFO |   ✅ Status: sucesso
+2026-01-19 20:27:18,355 | INFO |   🏠 Imóveis: 212
+2026-01-19 20:27:18,355 | INFO |   📄 Paginação: 2 páginas (~424 imóveis estimados)
+2026-01-19 20:27:18,355 | INFO | 
+[229/289] Machadoleiloeiro
+2026-01-19 20:27:18,356 | INFO |   Website: https://www.machadoleiloeiro.com.br
+2026-01-19 20:27:18,641 | INFO |   Acessando: https://www.machadoleiloeiro.com.br/imoveis
+2026-01-19 20:27:30,723 | INFO |   ✅ Status: sucesso
+2026-01-19 20:27:30,723 | INFO |   🏠 Imóveis: 121
+2026-01-19 20:27:30,724 | INFO |   📄 Paginação: 1 páginas (~121 imóveis estimados)
+2026-01-19 20:27:30,725 | INFO | 
+[230/289] Fabiobarbosaleiloes
+2026-01-19 20:27:30,725 | INFO |   Website: https://www.fabiobarbosaleiloes.com.br
+2026-01-19 20:27:31,168 | INFO |   Acessando: https://www.fabiobarbosaleiloes.com.br/imoveis
+2026-01-19 20:27:38,701 | INFO |   🔴 Status: erro_http
+2026-01-19 20:27:38,702 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:27:38,704 | INFO | 
+[231/289] Ksleiloes
+2026-01-19 20:27:38,704 | INFO |   Website: https://www.ksleiloes.com.br
+2026-01-19 20:27:39,163 | INFO |   Acessando: https://www.ksleiloes.com.br/imoveis
+2026-01-19 20:27:49,977 | INFO |   ✅ Status: sucesso
+2026-01-19 20:27:49,977 | INFO |   🏠 Imóveis: 7
+2026-01-19 20:27:49,977 | INFO | 
+[232/289] Lancejusto
+2026-01-19 20:27:49,978 | INFO |   Website: https://www.lancejusto.com.br
+2026-01-19 20:27:50,529 | INFO |   Acessando: https://www.lancejusto.com.br/imoveis
+2026-01-19 20:28:03,060 | INFO |   ✅ Status: sucesso
+2026-01-19 20:28:03,060 | INFO |   🏠 Imóveis: 10
+2026-01-19 20:28:03,061 | INFO | 
+[233/289] Montenegroleiloes
+2026-01-19 20:28:03,061 | INFO |   Website: https://www.montenegroleiloes.com.br
+2026-01-19 20:28:07,072 | INFO |   Acessando: https://www.montenegroleiloes.com.br/imoveis
+2026-01-19 20:28:23,257 | INFO |   ✅ Status: sucesso
+2026-01-19 20:28:23,258 | INFO |   🏠 Imóveis: 118
+2026-01-19 20:28:23,258 | INFO | 
+[234/289] Jacleiloes
+2026-01-19 20:28:23,258 | INFO |   Website: https://www.jacleiloes.com.br
+2026-01-19 20:28:23,632 | INFO |   Acessando: https://www.jacleiloes.com.br/imoveis
+2026-01-19 20:28:43,127 | INFO |   ✅ Status: sucesso
+2026-01-19 20:28:43,128 | INFO |   🏠 Imóveis: 812
+2026-01-19 20:28:43,129 | INFO |   📄 Paginação: 1 páginas (~812 imóveis estimados)
+2026-01-19 20:28:43,129 | INFO | 
+[235/289] Monzonleiloes
+2026-01-19 20:28:43,130 | INFO |   Website: https://www.monzonleiloes.com.br
+2026-01-19 20:28:43,645 | INFO |   Acessando: https://www.monzonleiloes.com.br/imoveis
+2026-01-19 20:28:57,100 | INFO |   ❌ Status: falha
+2026-01-19 20:28:57,101 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:28:57,101 | INFO | 
+[236/289] Jmleiloes
+2026-01-19 20:28:57,102 | INFO |   Website: https://www.jmleiloes.com.br
+2026-01-19 20:28:57,977 | INFO |   Acessando: https://www.jmleiloes.com.br/imoveis
+2026-01-19 20:29:11,311 | INFO |   ❌ Status: falha
+2026-01-19 20:29:11,312 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:29:11,312 | INFO | 
+[237/289] Jorgemarcoleiloes
+2026-01-19 20:29:11,313 | INFO |   Website: https://www.jorgemarcoleiloes.com.br
+2026-01-19 20:29:12,150 | INFO |   Acessando: https://www.jorgemarcoleiloes.com.br/imoveis
+2026-01-19 20:29:27,061 | INFO |   ❌ Status: falha
+2026-01-19 20:29:27,062 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:29:27,063 | INFO | 
+[238/289] Josequencaleiloeiro
+2026-01-19 20:29:27,063 | INFO |   Website: https://www.josequencaleiloeiro.com.br
+2026-01-19 20:29:27,465 | INFO |   Acessando: https://www.josequencaleiloeiro.com.br/imoveis
+2026-01-19 20:29:27,781 | INFO |   💥 Status: erro
+2026-01-19 20:29:27,781 | INFO |   ❗ Erro: Page.goto: net::ERR_CERT_DATE_INVALID at https://www.josequencaleiloeiro.com.br/
+2026-01-19 20:29:27,782 | INFO | 
+[239/289] Medeirosleiloes
+2026-01-19 20:29:27,782 | INFO |   Website: https://www.medeirosleiloes.com.br
+2026-01-19 20:29:29,500 | INFO |   Acessando: https://www.medeirosleiloes.com.br/imoveis
+2026-01-19 20:29:40,318 | INFO |   ❌ Status: falha
+2026-01-19 20:29:40,319 | INFO |   📄 Paginação: 1 páginas (~13 imóveis estimados)
+2026-01-19 20:29:40,319 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:29:40,320 | INFO | 
+[240/289] Donhaleiloes
+2026-01-19 20:29:40,320 | INFO |   Website: https://www.donhaleiloes.com
+2026-01-19 20:29:40,742 | INFO |   Acessando: https://www.donhaleiloes.com/imoveis
+2026-01-19 20:29:53,593 | INFO |   ❌ Status: falha
+2026-01-19 20:29:53,594 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:29:54,736 | INFO | 
+  [Memória liberada - 240/289 processados]
+2026-01-19 20:29:54,736 | INFO | 
+[241/289] Newtonleiloes
+2026-01-19 20:29:54,737 | INFO |   Website: https://www.newtonleiloes.com.br
+2026-01-19 20:30:02,003 | INFO |   Acessando: https://www.newtonleiloes.com.br/imoveis
+2026-01-19 20:30:13,043 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:30:13,044 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:30:13,045 | INFO | 
+[242/289] Odarlicanezinleiloes
+2026-01-19 20:30:13,045 | INFO |   Website: https://www.odarlicanezinleiloes.com.br
+2026-01-19 20:30:13,877 | INFO |   Acessando: https://www.odarlicanezinleiloes.com.br/imoveis
+2026-01-19 20:30:27,925 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:30:27,925 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:30:27,925 | INFO | 
+[243/289] Pimentelleiloes
+2026-01-19 20:30:27,926 | INFO |   Website: https://www.pimentelleiloes.com.br
+2026-01-19 20:30:28,285 | INFO |   Acessando: https://www.pimentelleiloes.com.br/imoveis
+2026-01-19 20:30:41,358 | INFO |   ✅ Status: sucesso
+2026-01-19 20:30:41,359 | INFO |   🏠 Imóveis: 86
+2026-01-19 20:30:41,359 | INFO |   📄 Paginação: 1 páginas (~86 imóveis estimados)
+2026-01-19 20:30:41,359 | INFO | 
+[244/289] Rdleiloes
+2026-01-19 20:30:41,359 | INFO |   Website: https://www.rdleiloes.com.br
+2026-01-19 20:30:41,608 | INFO |   Acessando: https://www.rdleiloes.com.br/imoveis
+2026-01-19 20:30:52,206 | INFO |   ✅ Status: sucesso
+2026-01-19 20:30:52,206 | INFO |   🏠 Imóveis: 21
+2026-01-19 20:30:52,207 | INFO | 
+[245/289] Rmmleiloes
+2026-01-19 20:30:52,207 | INFO |   Website: https://www.rmmleiloes.com.br
+2026-01-19 20:30:52,525 | INFO |   Acessando: https://www.rmmleiloes.com.br/imoveis
+2026-01-19 20:31:02,692 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:31:02,693 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:31:02,693 | INFO | 
+[246/289] Ricardogomesleiloes
+2026-01-19 20:31:02,693 | INFO |   Website: https://www.ricardogomesleiloes.com.br
+2026-01-19 20:31:03,179 | INFO |   Acessando: https://www.ricardogomesleiloes.com.br/imoveis
+2026-01-19 20:31:12,739 | INFO |   ❌ Status: falha
+2026-01-19 20:31:12,740 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:31:12,740 | INFO | 
+[247/289] Sfleiloes
+2026-01-19 20:31:12,741 | INFO |   Website: https://www.sfleiloes.com.br
+2026-01-19 20:31:13,173 | INFO |   Acessando: https://www.sfleiloes.com.br/imoveis
+2026-01-19 20:31:23,066 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:31:23,067 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:31:23,067 | INFO | 
+[248/289] Vargasepintoleiloes
+2026-01-19 20:31:23,068 | INFO |   Website: https://www.vargasepintoleiloes.com.br
+2026-01-19 20:31:23,389 | INFO |   Acessando: https://www.vargasepintoleiloes.com.br/imoveis
+2026-01-19 20:31:35,220 | INFO |   ✅ Status: sucesso
+2026-01-19 20:31:35,221 | INFO |   🏠 Imóveis: 6
+2026-01-19 20:31:35,226 | INFO |   📄 Paginação: 1 páginas (~6 imóveis estimados)
+2026-01-19 20:31:35,227 | INFO | 
+[249/289] Lottileiloes
+2026-01-19 20:31:35,227 | INFO |   Website: https://www.lottileiloes.com.br
+2026-01-19 20:31:35,503 | INFO |   Acessando: https://www.lottileiloes.com.br/imoveis
+2026-01-19 20:31:46,950 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:31:46,950 | INFO |   📄 Paginação: 2 páginas (~138 imóveis estimados)
+2026-01-19 20:31:46,951 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:31:46,951 | INFO | 
+[250/289] Leilaonainternet
+2026-01-19 20:31:46,951 | INFO |   Website: https://www.leilaonainternet.com.br
+2026-01-19 20:31:47,235 | INFO |   Acessando: https://www.leilaonainternet.com.br/imoveis
+2026-01-19 20:31:54,632 | INFO |   🔴 Status: erro_http
+2026-01-19 20:31:54,632 | INFO |   ❗ Erro: HTTP 500
+2026-01-19 20:31:54,675 | INFO |   [Progresso salvo: 250/289]
+2026-01-19 20:31:54,676 | INFO | 
+[251/289] Wspleiloes
+2026-01-19 20:31:54,676 | INFO |   Website: https://www.wspleiloes.com.br
+2026-01-19 20:31:54,899 | INFO |   Acessando: https://www.wspleiloes.com.br/imoveis
+2026-01-19 20:32:06,701 | INFO |   ✅ Status: sucesso
+2026-01-19 20:32:06,701 | INFO |   🏠 Imóveis: 246
+2026-01-19 20:32:06,701 | INFO |   📄 Paginação: 1 páginas (~246 imóveis estimados)
+2026-01-19 20:32:06,702 | INFO | 
+[252/289] Whleiloes
+2026-01-19 20:32:06,702 | INFO |   Website: https://www.whleiloes.com.br
+2026-01-19 20:32:06,952 | INFO |   Acessando: https://www.whleiloes.com.br/imoveis
+2026-01-19 20:32:06,996 | INFO |   🌐 Status: dns_error
+2026-01-19 20:32:06,996 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:32:06,997 | INFO | 
+[253/289] Superlanceleilao
+2026-01-19 20:32:06,997 | INFO |   Website: https://www.superlanceleilao.com.br
+2026-01-19 20:32:07,481 | INFO |   Acessando: https://www.superlanceleilao.com.br/imoveis
+2026-01-19 20:32:07,534 | INFO |   🌐 Status: dns_error
+2026-01-19 20:32:07,534 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:32:07,534 | INFO | 
+[254/289] Wmleiloes
+2026-01-19 20:32:07,536 | INFO |   Website: https://www.wmleiloes.com.br
+2026-01-19 20:32:08,448 | INFO |   Acessando: https://www.wmleiloes.com.br/imoveis
+2026-01-19 20:32:19,814 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:32:19,815 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:32:19,815 | INFO | 
+[255/289] Horizonteleiloes
+2026-01-19 20:32:19,816 | INFO |   Website: https://www.horizonteleiloes.com.br
+2026-01-19 20:32:20,057 | INFO |   Acessando: https://www.horizonteleiloes.com.br/imoveis
+2026-01-19 20:32:27,859 | INFO |   ❌ Status: falha
+2026-01-19 20:32:27,860 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:32:27,860 | INFO | 
+[256/289] Tabaleiloes
+2026-01-19 20:32:27,861 | INFO |   Website: https://www.tabaleiloes.com.br
+2026-01-19 20:32:28,610 | INFO |   Acessando: https://www.tabaleiloes.com.br/imoveis
+2026-01-19 20:32:42,408 | INFO |   ✅ Status: sucesso
+2026-01-19 20:32:42,408 | INFO |   🏠 Imóveis: 78
+2026-01-19 20:32:42,408 | INFO |   📄 Paginação: 15 páginas (~1170 imóveis estimados)
+2026-01-19 20:32:42,409 | INFO | 
+[257/289] Akimotoleiloes
+2026-01-19 20:32:42,409 | INFO |   Website: https://www.akimotoleiloes.com.br
+2026-01-19 20:32:42,766 | INFO |   Acessando: https://www.akimotoleiloes.com.br/imoveis
+2026-01-19 20:32:50,259 | INFO |   🔴 Status: erro_http
+2026-01-19 20:32:50,260 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:32:50,260 | INFO | 
+[258/289] Ricoleiloes
+2026-01-19 20:32:50,260 | INFO |   Website: https://www.ricoleiloes.com.br
+2026-01-19 20:32:50,491 | INFO |   Acessando: https://www.ricoleiloes.com.br/imoveis
+2026-01-19 20:33:00,754 | INFO |   ❌ Status: falha
+2026-01-19 20:33:00,754 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:33:00,755 | INFO | 
+[259/289] Rocketleiloes
+2026-01-19 20:33:00,755 | INFO |   Website: https://www.rocketleiloes.com.br
+2026-01-19 20:33:01,077 | INFO |   Acessando: https://www.rocketleiloes.com.br/imoveis
+2026-01-19 20:33:13,086 | INFO |   ❌ Status: falha
+2026-01-19 20:33:13,086 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:33:13,086 | INFO | 
+[260/289] Ktzleiloes
+2026-01-19 20:33:13,086 | INFO |   Website: https://www.ktzleiloes.com.br
+2026-01-19 20:33:13,326 | INFO |   Acessando: https://www.ktzleiloes.com.br/imoveis
+2026-01-19 20:33:32,689 | INFO |   ✅ Status: sucesso
+2026-01-19 20:33:32,689 | INFO |   🏠 Imóveis: 14
+2026-01-19 20:33:34,239 | INFO | 
+  [Memória liberada - 260/289 processados]
+2026-01-19 20:33:34,240 | INFO | 
+[261/289] Granadoleiloes
+2026-01-19 20:33:34,240 | INFO |   Website: https://www.granadoleiloes.com.br
+2026-01-19 20:33:38,504 | INFO |   Acessando: https://www.granadoleiloes.com.br/imoveis
+2026-01-19 20:33:47,939 | INFO |   ✅ Status: sucesso
+2026-01-19 20:33:47,939 | INFO |   🏠 Imóveis: 93
+2026-01-19 20:33:47,940 | INFO |   📄 Paginação: 1 páginas (~93 imóveis estimados)
+2026-01-19 20:33:47,940 | INFO | 
+[262/289] Bigleilao
+2026-01-19 20:33:47,940 | INFO |   Website: https://www.bigleilao.com.br
+2026-01-19 20:33:48,193 | INFO |   Acessando: https://www.bigleilao.com.br/imoveis
+2026-01-19 20:33:57,024 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:33:57,026 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:33:57,026 | INFO | 
+[263/289] Arenaleiloes
+2026-01-19 20:33:57,027 | INFO |   Website: https://www.arenaleiloes.com.br
+2026-01-19 20:33:57,264 | INFO |   Acessando: https://www.arenaleiloes.com.br/imoveis
+2026-01-19 20:34:10,379 | INFO |   ❌ Status: falha
+2026-01-19 20:34:10,380 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:34:10,380 | INFO | 
+[264/289] Amaralleiloes
+2026-01-19 20:34:10,380 | INFO |   Website: https://www.amaralleiloes.com.br
+2026-01-19 20:34:11,264 | INFO |   Acessando: https://www.amaralleiloes.com.br/imoveis
+2026-01-19 20:34:22,028 | INFO |   ✅ Status: sucesso
+2026-01-19 20:34:22,028 | INFO |   🏠 Imóveis: 91
+2026-01-19 20:34:22,028 | INFO |   📄 Paginação: 2 páginas (~182 imóveis estimados)
+2026-01-19 20:34:22,029 | INFO | 
+[265/289] Leiloaria
+2026-01-19 20:34:22,029 | INFO |   Website: https://www.leiloaria.com.br
+2026-01-19 20:34:22,297 | INFO |   Acessando: https://www.leiloaria.com.br/imoveis
+2026-01-19 20:34:34,687 | INFO |   ❌ Status: falha
+2026-01-19 20:34:34,689 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:34:34,689 | INFO | 
+[266/289] Pactoleiloes
+2026-01-19 20:34:34,689 | INFO |   Website: https://www.pactoleiloes.com.br
+2026-01-19 20:34:35,061 | INFO |   Acessando: https://www.pactoleiloes.com.br/imoveis
+2026-01-19 20:34:48,310 | INFO |   ❌ Status: falha
+2026-01-19 20:34:48,311 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:34:48,311 | INFO | 
+[267/289] Sublimeleiloes
+2026-01-19 20:34:48,311 | INFO |   Website: https://www.sublimeleiloes.com.br
+2026-01-19 20:34:48,723 | INFO |   Acessando: https://www.sublimeleiloes.com.br/imoveis
+2026-01-19 20:35:01,932 | INFO |   ✅ Status: sucesso
+2026-01-19 20:35:01,933 | INFO |   🏠 Imóveis: 86
+2026-01-19 20:35:01,933 | INFO | 
+[268/289] Valeroleiloes
+2026-01-19 20:35:01,934 | INFO |   Website: https://www.valeroleiloes.com.br
+2026-01-19 20:35:02,406 | INFO |   Acessando: https://www.valeroleiloes.com.br/imoveis
+2026-01-19 20:35:15,087 | INFO |   ✅ Status: sucesso
+2026-01-19 20:35:15,087 | INFO |   🏠 Imóveis: 3
+2026-01-19 20:35:15,087 | INFO | 
+[269/289] Gustavomorettoleiloeiro
+2026-01-19 20:35:15,088 | INFO |   Website: https://www.gustavomorettoleiloeiro.com.br
+2026-01-19 20:35:15,378 | INFO |   Acessando: https://www.gustavomorettoleiloeiro.com.br/imoveis
+2026-01-19 20:35:25,532 | INFO |   ❌ Status: falha
+2026-01-19 20:35:25,533 | INFO |   📄 Paginação: 5 páginas (~75 imóveis estimados)
+2026-01-19 20:35:25,534 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:35:25,534 | INFO | 
+[270/289] Desantileiloes
+2026-01-19 20:35:25,535 | INFO |   Website: https://www.desantileiloes.com.br
+2026-01-19 20:35:25,765 | INFO |   Acessando: https://www.desantileiloes.com.br/imoveis
+2026-01-19 20:35:36,101 | INFO |   ❌ Status: falha
+2026-01-19 20:35:36,101 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:35:36,101 | INFO | 
+[271/289] Maisleilao
+2026-01-19 20:35:36,102 | INFO |   Website: https://www.maisleilao.com.br
+2026-01-19 20:35:38,402 | INFO |   Acessando: https://www.maisleilao.com.br/imoveis
+2026-01-19 20:35:49,932 | INFO |   ✅ Status: sucesso
+2026-01-19 20:35:49,933 | INFO |   🏠 Imóveis: 55
+2026-01-19 20:35:49,933 | INFO | 
+[272/289] Leilaoeletronico
+2026-01-19 20:35:49,933 | INFO |   Website: https://www.leilaoeletronico.com.br
+2026-01-19 20:35:50,228 | INFO |   Acessando: https://www.leilaoeletronico.com.br/imoveis
+2026-01-19 20:36:02,516 | INFO |   ✅ Status: sucesso
+2026-01-19 20:36:02,517 | INFO |   🏠 Imóveis: 66
+2026-01-19 20:36:02,517 | INFO | 
+[273/289] Cardosoleiloes
+2026-01-19 20:36:02,517 | INFO |   Website: https://www.cardosoleiloes.com.br
+2026-01-19 20:36:03,063 | INFO |   Acessando: https://www.cardosoleiloes.com.br/imoveis
+2026-01-19 20:36:14,321 | INFO |   ✅ Status: sucesso
+2026-01-19 20:36:14,322 | INFO |   🏠 Imóveis: 89
+2026-01-19 20:36:14,323 | INFO | 
+[274/289] Tribunaleiloes
+2026-01-19 20:36:14,323 | INFO |   Website: https://www.tribunaleiloes.com.br
+2026-01-19 20:36:14,584 | INFO |   Acessando: https://www.tribunaleiloes.com.br/imoveis
+2026-01-19 20:36:28,397 | INFO |   ✅ Status: sucesso
+2026-01-19 20:36:28,398 | INFO |   🏠 Imóveis: 168
+2026-01-19 20:36:28,398 | INFO |   📄 Paginação: 1 páginas (~168 imóveis estimados)
+2026-01-19 20:36:28,398 | INFO | 
+[275/289] Dbmleiloes
+2026-01-19 20:36:28,399 | INFO |   Website: https://www.dbmleiloes.com.br
+2026-01-19 20:36:28,630 | INFO |   Acessando: https://www.dbmleiloes.com.br/imoveis
+2026-01-19 20:36:40,934 | INFO |   ❌ Status: falha
+2026-01-19 20:36:40,935 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:36:40,937 | INFO | 
+[276/289] Dhleiloes
+2026-01-19 20:36:40,938 | INFO |   Website: https://www.dhleiloes.com.br
+2026-01-19 20:36:41,216 | INFO |   Acessando: https://www.dhleiloes.com.br/imoveis
+2026-01-19 20:36:50,062 | INFO |   ❌ Status: falha
+2026-01-19 20:36:50,062 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:36:50,063 | INFO | 
+[277/289] Clebercardosoleiloes
+2026-01-19 20:36:50,063 | INFO |   Website: https://www.clebercardosoleiloes.com.br
+2026-01-19 20:36:50,309 | INFO |   Acessando: https://www.clebercardosoleiloes.com.br/imoveis
+2026-01-19 20:37:02,344 | INFO |   ❌ Status: falha
+2026-01-19 20:37:02,344 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:37:02,345 | INFO | 
+[278/289] Leffaleiloes
+2026-01-19 20:37:02,345 | INFO |   Website: https://www.leffaleiloes.com.br
+2026-01-19 20:37:02,763 | INFO |   Acessando: https://www.leffaleiloes.com.br/imoveis
+2026-01-19 20:37:16,158 | INFO |   ✅ Status: sucesso
+2026-01-19 20:37:16,159 | INFO |   🏠 Imóveis: 397
+2026-01-19 20:37:16,159 | INFO |   📄 Paginação: 1 páginas (~397 imóveis estimados)
+2026-01-19 20:37:16,159 | INFO | 
+[279/289] Rmcleiloes
+2026-01-19 20:37:16,160 | INFO |   Website: https://www.rmcleiloes.com.br
+2026-01-19 20:37:16,442 | INFO |   Acessando: https://www.rmcleiloes.com.br/imoveis
+2026-01-19 20:37:28,452 | INFO |   ❌ Status: falha
+2026-01-19 20:37:28,452 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:37:28,453 | INFO | 
+[280/289] Calilleiloes
+2026-01-19 20:37:28,453 | INFO |   Website: https://www.calilleiloes.com.br
+2026-01-19 20:37:28,933 | INFO |   Acessando: https://www.calilleiloes.com.br/imoveis
+2026-01-19 20:37:42,025 | INFO |   ❌ Status: falha
+2026-01-19 20:37:42,026 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:37:44,188 | INFO | 
+  [Memória liberada - 280/289 processados]
+2026-01-19 20:37:44,189 | INFO | 
+[281/289] Faroonline
+2026-01-19 20:37:44,189 | INFO |   Website: https://www.faroonline.com.br
+2026-01-19 20:37:47,483 | INFO |   Acessando: https://www.faroonline.com.br/imoveis
+2026-01-19 20:37:58,473 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:37:58,474 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:37:58,474 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:37:58,475 | INFO | 
+[282/289] Rigolonleiloes
+2026-01-19 20:37:58,475 | INFO |   Website: https://www.rigolonleiloes.com.br
+2026-01-19 20:37:58,751 | INFO |   Acessando: https://www.rigolonleiloes.com.br/imoveis
+2026-01-19 20:38:06,189 | INFO |   🔴 Status: erro_http
+2026-01-19 20:38:06,190 | INFO |   ❗ Erro: HTTP 400
+2026-01-19 20:38:06,190 | INFO | 
+[283/289] Leiloesjudiciaisrs
+2026-01-19 20:38:06,190 | INFO |   Website: https://www.leiloesjudiciaisrs.com.br
+2026-01-19 20:38:06,699 | INFO |   Acessando: https://www.leiloesjudiciaisrs.com.br/imoveis
+2026-01-19 20:38:07,361 | INFO |   🌐 Status: dns_error
+2026-01-19 20:38:07,362 | INFO |   ❗ Erro: DNS não resolve
+2026-01-19 20:38:07,363 | INFO | 
+[284/289] Mega Leilões
+2026-01-19 20:38:07,363 | INFO |   Website: https://www.megaleiloes.com.br
+2026-01-19 20:38:07,715 | INFO |   Acessando: https://www.megaleiloes.com.br/imoveis
+2026-01-19 20:38:21,445 | INFO |   ✅ Status: sucesso
+2026-01-19 20:38:21,445 | INFO |   🏠 Imóveis: 914
+2026-01-19 20:38:21,446 | INFO |   📄 Paginação: 5 páginas (~4570 imóveis estimados)
+2026-01-19 20:38:21,446 | INFO | 
+[285/289] Joelreisleiloes
+2026-01-19 20:38:21,446 | INFO |   Website: https://www.joelreisleiloes.com.br
+2026-01-19 20:38:21,635 | INFO |   Acessando: https://www.joelreisleiloes.com.br/imoveis
+2026-01-19 20:38:31,791 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:38:31,792 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:38:31,793 | INFO | 
+[286/289] Gustavoreisleiloes
+2026-01-19 20:38:31,793 | INFO |   Website: https://www.gustavoreisleiloes.com.br
+2026-01-19 20:38:32,042 | INFO |   Acessando: https://www.gustavoreisleiloes.com.br/imoveis
+2026-01-19 20:38:42,926 | INFO |   ✅ Status: sucesso
+2026-01-19 20:38:42,927 | INFO |   🏠 Imóveis: 8
+2026-01-19 20:38:42,927 | INFO |   📄 Paginação: 3997 páginas (~31976 imóveis estimados)
+2026-01-19 20:38:42,928 | INFO | 
+[287/289] Leiloeiropublico
+2026-01-19 20:38:42,928 | INFO |   Website: https://www.leiloeiropublico.com.br
+2026-01-19 20:38:43,313 | INFO |   Acessando: https://www.leiloeiropublico.com.br/imoveis
+2026-01-19 20:38:55,279 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:38:55,279 | INFO |   📄 Paginação: 1 páginas (~0 imóveis estimados)
+2026-01-19 20:38:55,279 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:38:55,280 | INFO | 
+[288/289] Lunellileiloes
+2026-01-19 20:38:55,280 | INFO |   Website: https://www.lunellileiloes.com.br
+2026-01-19 20:38:55,500 | INFO |   Acessando: https://www.lunellileiloes.com.br/imoveis
+2026-01-19 20:39:06,542 | INFO |   ⚠️ Status: parcial
+2026-01-19 20:39:06,543 | INFO |   ❗ Erro: Conteúdo detectado mas poucos imóveis visíveis
+2026-01-19 20:39:06,543 | INFO | 
+[289/289] Oesteleiloes
+2026-01-19 20:39:06,543 | INFO |   Website: https://www.oesteleiloes.com.br
+2026-01-19 20:39:06,864 | INFO |   Acessando: https://www.oesteleiloes.com.br/imoveis
+2026-01-19 20:39:15,636 | INFO |   ❌ Status: falha
+2026-01-19 20:39:15,637 | INFO |   ❗ Erro: Nenhum conteúdo de imóveis detectado
+2026-01-19 20:39:16,775 | INFO | 
+📄 Relatório Markdown: logs\auditoria_completa\RELATORIO_FINAL_20260119_193410.md

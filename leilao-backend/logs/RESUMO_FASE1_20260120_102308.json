@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-01-20T10:23:08.499251",
+  "total_leiloeiros": 60,
+  "total_imoveis_estimados": 757,
+  "por_tipo": {
+    "NUMERIC": 16,
+    "SINGLE_PAGE": 42,
+    "TABS_FILTER": 2
+  },
+  "top10": [
+    {
+      "nome": "Oleiloes",
+      "imoveis": 50,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Allianceleiloes",
+      "imoveis": 50,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Leiloeslaraforster",
+      "imoveis": 50,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Ctsleiloes",
+      "imoveis": 49,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Leilaobrasil",
+      "imoveis": 40,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Jeleiloes",
+      "imoveis": 40,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Depaulaonline",
+      "imoveis": 38,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Santoseborinleiloes",
+      "imoveis": 35,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Topoleiloes",
+      "imoveis": 27,
+      "tipo": "NUMERIC"
+    },
+    {
+      "nome": "Biasileiloes",
+      "imoveis": 23,
+      "tipo": "NUMERIC"
+    }
+  ]
+}
