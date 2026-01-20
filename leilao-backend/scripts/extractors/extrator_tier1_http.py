@@ -134,17 +134,24 @@ class ExtratorTier1:
         soup = BeautifulSoup(html, 'html.parser')
         imoveis = []
         
-        # Seletores comuns para cards de imóveis
+        # Seletores comuns para cards de imóveis (otimizado baseado em testes reais)
         seletores_cards = [
             'a[href*="/imovel/"]',
             'a[href*="/imoveis/"]',
             'a[href*="/lote/"]',
+            'a[href*="/lotes/"]',
             'a[href*="/detalhes/"]',
-            '.property-card',
-            '.imovel-card',
-            '.card-imovel',
-            '[class*="property"]',
-            '[class*="imovel"]',
+            'a[href*="/item/"]',
+            '.card-property a',
+            '.property-card a',
+            '.imovel-card a',
+            '.card-imovel a',
+            '.card-title[href]',
+            'div[class*="list-items"] a[href*="/"]',
+            'div[class*="cards-container"] a[href*="/"]',
+            'article a[href*="/imovel"]',
+            'div[class*="product"] a[href*="/"]',
+            'div[class*="result"] a[href*="/"]',
         ]
         
         cards_encontrados = []
