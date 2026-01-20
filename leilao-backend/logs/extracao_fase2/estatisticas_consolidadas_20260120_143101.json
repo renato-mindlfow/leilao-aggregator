@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-20T14:31:01.795306",
+  "tiers": {
+    "tier_1": {
+      "sucesso": 8,
+      "falhas": 135,
+      "total_imoveis": 505
+    },
+    "tier_2": {
+      "sucesso": 0,
+      "falhas": 87,
+      "total_imoveis": 0
+    },
+    "tier_3": {
+      "sucesso": 0,
+      "falhas": 25,
+      "total_imoveis": 0
+    }
+  },
+  "total_imoveis": 505
+}

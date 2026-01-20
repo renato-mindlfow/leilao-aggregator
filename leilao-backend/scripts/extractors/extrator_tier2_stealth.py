@@ -134,32 +134,67 @@ class ExtratorTier2:
     
     async def _extrair_imoveis_pagina(self, page: Page, url_origem: str) -> List[Dict]:
         imoveis = []
-        seletores = ['a[href*="/imovel/"]', 'a[href*="/lote/"]', 'a[href*="/detalhes/"]',
-                    'a[href*="/item/"]', '.property-card a', '.imovel-card a']
+        # Seletores expandidos baseados em TIER 1
+        seletores = [
+            'a[href*="/imovel/"]', 'a[href*="/imoveis/"]', 'a[href*="/lote/"]', 'a[href*="/lotes/"]',
+            'a[href*="/detalhes/"]', 'a[href*="/item/"]',
+            '.card-property a', '.property-card a', '.imovel-card a', '.card-imovel a',
+            '.card-title[href]', 'div[class*="list-items"] a[href*="/"]',
+            'div[class*="cards-container"] a[href*="/"]', 'article a[href*="/imovel"]',
+            'div[class*="product"] a[href*="/"]', 'div[class*="result"] a[href*="/"]'
+        ]
         
         for seletor in seletores:
             try:
                 elementos = await page.query_selector_all(seletor)
+                logger.debug(f"      Seletor '{seletor}': {len(elementos)} elementos")
+                
                 for elem in elementos:
                     try:
                         href = await elem.get_attribute('href')
                         texto = await elem.inner_text()
-                        if href and ('/imovel' in href or '/lote' in href):
+                        
+                        # CORREÇÃO: Aceitar QUALQUER link encontrado pelos seletores,
+                        # não apenas os que contêm "/imovel" ou "/lote"
+                        if href and len(href) > 1 and href != '#':
+                            # Construir URL absoluta
+                            if not href.startswith('http'):
+                                base_url = url_origem.split('//')[1].split('/')[0]
+                                href = f"https://{base_url}{href if href.startswith('/') else '/' + href}"
+                            
                             imovel = {
-                                "url": href if href.startswith('http') else f"https://{url_origem.split('//')[1].split('/')[0]}{href}",
+                                "url": href,
                                 "texto_card": texto[:500] if texto else None,
-                                "url_origem": url_origem, "extraido_em": datetime.now().isoformat()}
+                                "url_origem": url_origem,
+                                "extraido_em": datetime.now().isoformat()
+                            }
+                            
+                            # Tentar extrair preço
                             preco_match = re.search(r'R\$\s*([\d.,]+)', texto or '')
                             if preco_match:
-                                try: imovel["preco"] = float(preco_match.group(1).replace('.', '').replace(',', '.'))
-                                except: pass
+                                try:
+                                    imovel["preco"] = float(preco_match.group(1).replace('.', '').replace(',', '.'))
+                                except:
+                                    pass
+                            
                             imoveis.append(imovel)
-                    except: pass
-                if imoveis: break
-            except: pass
+                    except Exception as e:
+                        logger.debug(f"      Erro ao extrair elemento: {e}")
+                
+                if imoveis:
+                    logger.info(f"      ✅ {len(imoveis)} imóveis encontrados com seletor: {seletor}")
+                    break
+            except Exception as e:
+                logger.debug(f"      Erro com seletor {seletor}: {e}")
         
+        # Remover duplicatas
         urls_vistas = set()
-        return [i for i in imoveis if not (i["url"] in urls_vistas or urls_vistas.add(i["url"]))]
+        imoveis_unicos = [i for i in imoveis if not (i["url"] in urls_vistas or urls_vistas.add(i["url"]))]
+        
+        if not imoveis_unicos:
+            logger.warning(f"      ⚠️ Nenhum imóvel encontrado em {url_origem}")
+        
+        return imoveis_unicos
     
     async def _processar_infinite_scroll(self, page: Page, config: Dict) -> List[Dict]:
         imoveis_extras = []
