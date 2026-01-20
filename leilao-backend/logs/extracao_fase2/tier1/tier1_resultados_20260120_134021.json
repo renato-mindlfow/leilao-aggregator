@@ -1,0 +1,123 @@
+{
+  "tier": "TIER_1_HTTP",
+  "timestamp": "2026-01-20T13:40:21.843600",
+  "total_sites": 10,
+  "sucesso": 1,
+  "falhas": 9,
+  "total_imoveis": 2,
+  "resultados": [
+    {
+      "dominio": "alencastroleiloes.com.br",
+      "url_base": "https://www.alencastroleiloes.com.br",
+      "timestamp": "2026-01-20T13:39:03.736577",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url_origem": "https://www.alencastroleiloes.com.br/leiloes/imoveis",
+          "extraido_em": "2026-01-20T13:39:09.984828",
+          "url": "https://www.alencastroleiloes.com.br/home/imoveis/"
+        },
+        {
+          "url_origem": "https://www.alencastroleiloes.com.br/leiloes/imoveis",
+          "extraido_em": "2026-01-20T13:39:09.986654",
+          "url": "https://www.alencastroleiloes.com.br/home/imoveis/#respond"
+        }
+      ],
+      "total_imoveis": 2,
+      "paginas_processadas": 2,
+      "erro": null
+    }
+  ],
+  "falhas_detalhes": [
+    {
+      "dominio": "abaleiloes.com.br",
+      "url_base": "https://www.abaleiloes.com.br",
+      "timestamp": "2026-01-20T13:38:31.516007",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 3,
+      "erro": null
+    },
+    {
+      "dominio": "akimotoleiloes.com.br",
+      "url_base": "https://www.akimotoleiloes.com.br",
+      "timestamp": "2026-01-20T13:38:43.266526",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 2,
+      "erro": null
+    },
+    {
+      "dominio": "albuquerquelins.com.br",
+      "url_base": "https://www.albuquerquelins.com.br",
+      "timestamp": "2026-01-20T13:38:53.422897",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 1,
+      "erro": null
+    },
+    {
+      "dominio": "alexandridisleiloes.com.br",
+      "url_base": "https://www.alexandridisleiloes.com.br",
+      "timestamp": "2026-01-20T13:39:17.908816",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 5,
+      "erro": null
+    },
+    {
+      "dominio": "alfaleiloes.com",
+      "url_base": "https://www.alfaleiloes.com",
+      "timestamp": "2026-01-20T13:39:27.530829",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 5,
+      "erro": null
+    },
+    {
+      "dominio": "alleiloes.com.br",
+      "url_base": "https://www.alleiloes.com.br",
+      "timestamp": "2026-01-20T13:39:37.764533",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 2,
+      "erro": null
+    },
+    {
+      "dominio": "allianceleiloes.com.br",
+      "url_base": "https://www.allianceleiloes.com.br",
+      "timestamp": "2026-01-20T13:39:50.166801",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 3,
+      "erro": null
+    },
+    {
+      "dominio": "alvaroleiloes.com.br",
+      "url_base": "https://www.alvaroleiloes.com.br",
+      "timestamp": "2026-01-20T13:40:00.402783",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 2,
+      "erro": null
+    },
+    {
+      "dominio": "amleiloeiro.com.br",
+      "url_base": "https://www.amleiloeiro.com.br",
+      "timestamp": "2026-01-20T13:40:10.250511",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "paginas_processadas": 2,
+      "erro": null
+    }
+  ]
+}
