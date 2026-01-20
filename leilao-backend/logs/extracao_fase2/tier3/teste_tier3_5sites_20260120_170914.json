@@ -1,0 +1,98 @@
+{
+  "tier": "TIER_3_SCRAPINGBEE_TESTE",
+  "timestamp": "2026-01-20T17:09:14.596973",
+  "sites_testados": [
+    "megaleiloes.com.br",
+    "fidalgoleiloes.com.br",
+    "bestleiloes.com.br",
+    "granadoleiloes.com.br",
+    "lottileiloes.com.br"
+  ],
+  "total_sites": 5,
+  "sucesso": 1,
+  "falhas": 4,
+  "creditos_totais_usados": 125,
+  "total_imoveis": 1,
+  "resultados": [
+    {
+      "dominio": "megaleiloes.com.br",
+      "url_base": "https://www.megaleiloes.com.br",
+      "url_testada": "https://www.megaleiloes.com.br/imoveis",
+      "timestamp": "2026-01-20T17:08:01.504609",
+      "tier": "TIER_3_SCRAPINGBEE_TESTE",
+      "sucesso": true,
+      "imoveis": [
+        {
+          "url_origem": "https://www.megaleiloes.com.br/imoveis",
+          "extraido_em": "2026-01-20T17:08:19.825961",
+          "tier": "TIER_3_SCRAPINGBEE_TESTE",
+          "url": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/pa/paragominas/imovel-comercial-101-m2-nova-conquista-paragominas-pa-x119711?utm_source=megaleiloes&utm_medium=link&utm_campaign=imovel-comercial-101-m2-nova-conquista-paragominas-pa-x119711&utm_term=X119711&utm_content=link",
+          "texto_card": null
+        }
+      ],
+      "total_imoveis": 1,
+      "creditos_usados": 25,
+      "erro": null,
+      "seletor_usado": "a[href*=\"/imovel\"]",
+      "html_size": 1513416
+    }
+  ],
+  "falhas_detalhes": [
+    {
+      "dominio": "fidalgoleiloes.com.br",
+      "url_base": "https://www.fidalgoleiloes.com.br",
+      "url_testada": "https://www.fidalgoleiloes.com.br/imoveis",
+      "timestamp": "2026-01-20T17:08:22.840289",
+      "tier": "TIER_3_SCRAPINGBEE_TESTE",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "creditos_usados": 25,
+      "erro": "ScrapingBee HTTP 404",
+      "seletor_usado": null,
+      "html_size": 0
+    },
+    {
+      "dominio": "bestleiloes.com.br",
+      "url_base": "https://www.bestleiloes.com.br",
+      "url_testada": "https://www.bestleiloes.com.br/imoveis",
+      "timestamp": "2026-01-20T17:08:35.799237",
+      "tier": "TIER_3_SCRAPINGBEE_TESTE",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "creditos_usados": 25,
+      "erro": "ScrapingBee HTTP 404",
+      "seletor_usado": null,
+      "html_size": 0
+    },
+    {
+      "dominio": "granadoleiloes.com.br",
+      "url_base": "https://www.granadoleiloes.com.br",
+      "url_testada": "https://www.granadoleiloes.com.br/imoveis",
+      "timestamp": "2026-01-20T17:08:49.979385",
+      "tier": "TIER_3_SCRAPINGBEE_TESTE",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "creditos_usados": 25,
+      "erro": "ScrapingBee HTTP 404",
+      "seletor_usado": null,
+      "html_size": 0
+    },
+    {
+      "dominio": "lottileiloes.com.br",
+      "url_base": "https://www.lottileiloes.com.br",
+      "url_testada": "https://www.lottileiloes.com.br/imoveis",
+      "timestamp": "2026-01-20T17:09:01.068255",
+      "tier": "TIER_3_SCRAPINGBEE_TESTE",
+      "sucesso": false,
+      "imoveis": [],
+      "total_imoveis": 0,
+      "creditos_usados": 25,
+      "erro": "ScrapingBee HTTP 404",
+      "seletor_usado": null,
+      "html_size": 0
+    }
+  ]
+}
