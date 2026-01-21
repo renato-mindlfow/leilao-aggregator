@@ -31,7 +31,7 @@ import psycopg
 from psycopg.rows import dict_row
 
 from app.models.property import Property, PropertyCreate, PropertyCategory, AuctionType
-from app.services.quality_auditor import QualityAuditor
+from app.services.quality_auditor import get_quality_auditor
 
 logging.basicConfig(
     level=logging.INFO,
@@ -706,7 +706,7 @@ def sync_caixa() -> Dict:
     }
     
     # Initialize quality auditor
-    quality_auditor = QualityAuditor(strict_mode=False, auto_correct=True)
+    quality_auditor = get_quality_auditor()
     
     try:
         # 1. Garantir que o leiloeiro Caixa existe

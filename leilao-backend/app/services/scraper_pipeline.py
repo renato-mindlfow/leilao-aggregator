@@ -8,11 +8,11 @@ from app.services.ai_normalizer import ai_normalizer
 from app.services.geocoding_service import geocoding_service
 from app.services.postgres_database import get_postgres_database
 from app.models.property import Property, PropertyCategory, AuctionType
-from app.services.quality_auditor import QualityAuditor
+from app.services.quality_auditor import get_quality_auditor
 
 logger = logging.getLogger(__name__)
 db = get_postgres_database()
-quality_auditor = QualityAuditor(strict_mode=False, auto_correct=True)
+quality_auditor = get_quality_auditor()
 
 class ScraperPipeline:
     """Pipeline completo: Extração -> Normalização IA -> Geocoding -> Banco"""
