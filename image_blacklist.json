@@ -1,0 +1,145 @@
+{
+  "_metadata": {
+    "description": "Blacklist de padrões de URL de imagens inválidas para o LeiloHub",
+    "version": "1.0",
+    "created": "2026-01-20",
+    "author": "Claude - Engenheiro Chefe LeiloHub"
+  },
+  
+  "url_patterns": {
+    "logos": [
+      "logo",
+      "logotipo",
+      "logomarca",
+      "brand",
+      "marca"
+    ],
+    "placeholders": [
+      "placeholder",
+      "no-image",
+      "no_image",
+      "noimage",
+      "sem-foto",
+      "sem_foto",
+      "semfoto",
+      "sem-imagem",
+      "sem_imagem",
+      "default-image",
+      "default_image",
+      "defaultimage",
+      "image-not-found",
+      "not-found",
+      "404"
+    ],
+    "banners": [
+      "banner",
+      "header",
+      "footer",
+      "background",
+      "bg-",
+      "bg_"
+    ],
+    "icons": [
+      "icon",
+      "icone",
+      "favicon",
+      "thumb-icon",
+      "social-icon"
+    ],
+    "ui_elements": [
+      "button",
+      "btn-",
+      "arrow",
+      "loading",
+      "spinner",
+      "avatar"
+    ]
+  },
+  
+  "domain_blacklist": [
+    "facebook.com",
+    "twitter.com",
+    "instagram.com",
+    "linkedin.com",
+    "youtube.com",
+    "google.com/maps",
+    "googleusercontent.com",
+    "gravatar.com",
+    "wp-content/plugins",
+    "wp-includes"
+  ],
+  
+  "bank_logos": {
+    "description": "URLs específicas de logos de bancos brasileiros",
+    "patterns": [
+      "caixa.gov.br/logo",
+      "caixa.gov.br/imagem/logo",
+      "bb.com.br/logo",
+      "bradesco.com.br/logo",
+      "itau.com.br/logo",
+      "santander.com.br/logo",
+      "banrisul.com.br/logo",
+      "sicoob.com.br/logo",
+      "sicredi.com.br/logo"
+    ]
+  },
+  
+  "auctioneer_logos": {
+    "description": "Padrões de logos de leiloeiros conhecidos",
+    "patterns": [
+      "/assets/logo",
+      "/images/logo",
+      "/img/logo",
+      "/static/logo",
+      "/media/logo",
+      "leiloeiro-logo",
+      "logo-leiloeiro",
+      "empresa-logo"
+    ]
+  },
+  
+  "file_patterns": {
+    "description": "Extensões e padrões de arquivo a ignorar",
+    "extensions_to_ignore": [
+      ".svg",
+      ".gif",
+      ".ico"
+    ],
+    "min_dimensions": {
+      "width": 200,
+      "height": 200
+    },
+    "max_file_size_kb": 10240
+  },
+  
+  "whitelist_patterns": {
+    "description": "Padrões que indicam imagem válida de imóvel",
+    "patterns": [
+      "imovel",
+      "imoveis",
+      "property",
+      "properties",
+      "lote",
+      "lotes",
+      "fotos",
+      "galeria",
+      "gallery",
+      "upload",
+      "media/imoveis",
+      "images/imoveis",
+      "cdn"
+    ]
+  },
+  
+  "known_valid_domains": {
+    "description": "Domínios conhecidos por hospedar imagens válidas de imóveis",
+    "domains": [
+      "cdn.megaleiloes.com.br",
+      "images.superbid.com",
+      "cdn.portalzuk.com.br",
+      "s3.amazonaws.com",
+      "cloudfront.net",
+      "supabase.co/storage"
+    ]
+  }
+}

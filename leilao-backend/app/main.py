@@ -39,7 +39,7 @@ from app.services.background_geocoding import (
     get_geocoding_service,
     BackgroundGeocodingService
 )
-from app.utils.quality_auditor import get_quality_auditor
+from app.services.quality_auditor import get_quality_auditor
 from app.utils.image_blacklist import get_image_blacklist
 
 logger = logging.getLogger(__name__)
