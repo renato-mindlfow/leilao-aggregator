@@ -31,6 +31,7 @@ import psycopg
 from psycopg.rows import dict_row
 
 from app.models.property import Property, PropertyCreate, PropertyCategory, AuctionType
+from app.services.quality_auditor import QualityAuditor
 
 logging.basicConfig(
     level=logging.INFO,
@@ -695,11 +696,17 @@ def sync_caixa() -> Dict:
         'csv_downloaded': False,
         'rows_parsed': 0,
         'rows_valid': 0,
+        'audited': 0,
+        'audit_passed': 0,
+        'audit_failed': 0,
         'rows_inserted': 0,
         'rows_updated': 0,
         'rows_failed': 0,
         'errors': []
     }
+    
+    # Initialize quality auditor
+    quality_auditor = QualityAuditor(strict_mode=False, auto_correct=True)
     
     try:
         # 1. Garantir que o leiloeiro Caixa existe
@@ -756,8 +763,28 @@ def sync_caixa() -> Dict:
         
         logger.info(f"CSV parseado: {stats['rows_valid']} imóveis válidos de {stats['rows_parsed']} linhas")
         
-        # 4. Fazer upsert de cada imóvel
-        for prop_data in properties:
+        # 4. Auditar qualidade dos dados
+        logger.info("Auditando qualidade dos dados...")
+        passed, failed = quality_auditor.audit_batch(properties)
+        stats['audited'] = len(properties)
+        stats['audit_passed'] = len(passed)
+        stats['audit_failed'] = len(failed)
+        
+        if failed:
+            logger.warning(f"⚠️  {len(failed)} imóveis reprovados na auditoria:")
+            for fail in failed[:5]:  # Mostrar apenas os primeiros 5
+                data = fail.get('data', {})
+                errors = fail.get('errors', [])
+                logger.warning(f"  - {data.get('title', 'SEM TÍTULO')[:50]}: {errors}")
+            if len(failed) > 5:
+                logger.warning(f"  ... e mais {len(failed) - 5} imóveis reprovados")
+        
+        logger.info(f"✅ {len(passed)} imóveis passaram na auditoria")
+        auditor_stats = quality_auditor.get_stats()
+        logger.info(f"📊 Stats do auditor: {auditor_stats['auto_corrected']} correções aplicadas")
+        
+        # 5. Fazer upsert de cada imóvel (apenas os que passaram na auditoria)
+        for prop_data in passed:
             try:
                 # Verificar se é inserção ou atualização
                 with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
@@ -777,7 +804,7 @@ def sync_caixa() -> Dict:
                 stats['rows_failed'] += 1
                 stats['errors'].append(f"Erro ao processar {prop_data.get('id')}: {str(e)}")
         
-        # 5. Atualizar contador do leiloeiro
+        # 6. Atualizar contador do leiloeiro
         try:
             with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
                 with conn.cursor() as cur:

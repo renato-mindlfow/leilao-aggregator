@@ -8,10 +8,11 @@ from app.services.ai_normalizer import ai_normalizer
 from app.services.geocoding_service import geocoding_service
 from app.services.postgres_database import get_postgres_database
 from app.models.property import Property, PropertyCategory, AuctionType
-from app.utils.quality_auditor import get_quality_auditor, QualityAuditor
+from app.services.quality_auditor import QualityAuditor
 
 logger = logging.getLogger(__name__)
 db = get_postgres_database()
+quality_auditor = QualityAuditor(strict_mode=False, auto_correct=True)
 
 class ScraperPipeline:
     """Pipeline completo: Extração -> Normalização IA -> Geocoding -> Banco"""
@@ -34,7 +35,16 @@ class ScraperPipeline:
         """Processa lista de imóveis pelo pipeline completo"""
         
         logger.info(f"Iniciando pipeline para {len(properties)} imóveis de '{source}'")
-        self.stats = {"extracted": len(properties), "normalized": 0, "geocoded": 0, "saved": 0, "errors": 0}
+        self.stats = {
+            "extracted": len(properties), 
+            "normalized": 0, 
+            "geocoded": 0, 
+            "audited": 0,
+            "audit_passed": 0,
+            "audit_failed": 0,
+            "saved": 0, 
+            "errors": 0
+        }
         
         try:
             # FASE 1: Normalização com IA
@@ -51,9 +61,27 @@ class ScraperPipeline:
                 geocoded = normalized
                 logger.info("FASE 2: Geocoding pulado (skip_geocoding=True)")
             
-            # FASE 3: Salvar no banco
-            logger.info("FASE 3: Salvando no banco de dados...")
-            saved_count = await self._save_to_database(geocoded, source)
+            # FASE 3: Auditoria de Qualidade
+            logger.info("FASE 3: Auditando qualidade dos dados...")
+            passed, failed = quality_auditor.audit_batch(geocoded)
+            self.stats["audited"] = len(geocoded)
+            self.stats["audit_passed"] = len(passed)
+            self.stats["audit_failed"] = len(failed)
+            
+            if failed:
+                logger.warning(f"⚠️  {len(failed)} imóveis reprovados na auditoria:")
+                for fail in failed[:5]:  # Mostrar apenas os primeiros 5
+                    logger.warning(f"  - {fail.get('data', {}).get('title', 'SEM TÍTULO')[:50]}: {fail.get('errors', [])}")
+                if len(failed) > 5:
+                    logger.warning(f"  ... e mais {len(failed) - 5} imóveis reprovados")
+            
+            logger.info(f"✅ {len(passed)} imóveis passaram na auditoria")
+            auditor_stats = quality_auditor.get_stats()
+            logger.info(f"📊 Stats do auditor: {auditor_stats['auto_corrected']} correções aplicadas")
+            
+            # FASE 4: Salvar no banco (apenas imóveis que passaram na auditoria)
+            logger.info("FASE 4: Salvando no banco de dados...")
+            saved_count = await self._save_to_database(passed, source)
             self.stats["saved"] = saved_count
             
         except Exception as e:

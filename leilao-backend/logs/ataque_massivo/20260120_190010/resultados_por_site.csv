@@ -1,0 +1,316 @@
+ID,Nome,URL,Onda,Tier,Status,Imóveis,Erro,Bloqueio
+155,Veronicaleiloes,https://www.veronicaleiloes.com.br,onda1_pendentes,,failed,0,,
+156,Kielleiloes,https://www.kielleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+157,Machadoleiloesrs,https://www.machadoleiloesrs.com.br,onda1_pendentes,,failed,0,,
+159,Fumagallileiloes,https://www.fumagallileiloes.com.br,onda1_pendentes,,failed,0,,
+160,Superleiloes,https://www.superleiloes.net,onda1_pendentes,,failed,0,,
+161,Regionalleiloes,https://www.regionalleiloes.com.br,onda1_pendentes,,failed,0,,
+162,Juleiloes,https://www.juleiloes.com.br,onda1_pendentes,2,success,21,,
+163,Renovarleiloes,https://www.renovarleiloes.com.br,onda1_pendentes,2,success,134,,
+164,Swleiloes,https://www.swleiloes.com.br,onda1_pendentes,,failed,0,,
+167,Evolveleiloes,https://www.evolveleiloes.com.br,onda1_pendentes,,failed,0,,
+168,Gestorleiloes,https://www.gestorleiloes.com.br,onda1_pendentes,,failed,0,,
+169,Dalaqualeiloes,https://www.dalaqualeiloes.com.br,onda1_pendentes,,failed,0,,
+170,Rzleiloes,https://www.rzleiloes.com.br,onda1_pendentes,,failed,0,,
+173,Kildareleiloes,https://www.kildareleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+174,Alexiusleiloes,https://www.alexiusleiloes.com.br,onda1_pendentes,,failed,0,,
+175,Eckertleiloes,https://www.eckertleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+176,Hoppeleiloes,https://www.hoppeleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+178,Albuquerquelins,https://www.albuquerquelins.com.br,onda1_pendentes,,failed,0,,
+180,Lancecertoleiloes,https://www.lancecertoleiloes.com.br,onda1_pendentes,,failed,0,,
+181,Rjleiloes,https://www.rjleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+182,Danielgarcialeiloes,https://www.danielgarcialeiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+183,Inovaleilao,https://www.inovaleilao.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+184,Portaldosleiloes,https://www.portaldosleiloes.com,onda1_pendentes,,failed,0,"Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to ""https://www.portaldosleiloes.com/imoveis"", waiting until ""domcontentloaded""
+",
+185,Alfaleiloes,https://www.alfaleiloes.com,onda1_pendentes,2,success,14,,CAPTCHA
+186,Leiloeirodebrasilia,https://www.leiloeirodebrasilia.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.leiloeirodebrasilia.com.br/imoveis
+Call log:
+  - navigating to ""https://www.leiloeirodebrasilia.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+187,Costanetoleiloeiro,https://www.costanetoleiloeiro.com.br,onda1_pendentes,1,success,45,,
+188,Multleiloes,https://www.multleiloes.com,onda1_pendentes,,failed,0,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.multleiloes.com/imoveis
+Call log:
+  - navigating to ""https://www.multleiloes.com/imoveis"", waiting until ""domcontentloaded""
+",
+189,Bsbleiloes,https://www.bsbleiloes.com.br,onda1_pendentes,,failed,0,,
+190,Brasilialeiloes,https://www.brasilialeiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+191,Paulotolentino,https://www.paulotolentino.com.br,onda1_pendentes,1,success,45,,
+192,Parquedosleiloes,https://www.parquedosleiloes.com.br,onda1_pendentes,,failed,0,,
+193,Jfleiloes,https://www.jfleiloes.com.br,onda1_pendentes,,failed,0,,
+194,Flexleiloes,https://www.flexleiloes.com.br,onda1_pendentes,,failed,0,,
+195,Grupoleilo,https://www.grupoleilo.com.br,onda1_pendentes,,failed,0,,
+196,Jcleiloeiro,https://www.jcleiloeiro.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.jcleiloeiro.com.br/imoveis
+Call log:
+  - navigating to ""https://www.jcleiloeiro.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+197,Luizleiloes,https://www.luizleiloes.com.br,onda1_pendentes,,failed,0,,
+198,Alvaroleiloes,https://www.alvaroleiloes.com.br,onda1_pendentes,,failed,0,,
+199,Assuncaoleiloes,https://www.assuncaoleiloes.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.assuncaoleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.assuncaoleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+200,Infinityleiloes,https://www.infinityleiloes.com.br,onda1_pendentes,,failed,0,,
+201,Upleiloes,https://www.upleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+202,Adringleiloes,https://www.adringleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+203,Oaleiloes,https://www.oaleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+204,Eixoleiloes,https://www.eixoleiloes.com.br,onda1_pendentes,,failed,0,,
+205,Clicleiloes,https://www.clicleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+206,Marquesbarretoleiloes,https://www.marquesbarretoleiloes.com.br,onda1_pendentes,2,success,2,,
+207,Anabrasilleiloes,https://www.anabrasilleiloes.com.br,onda1_pendentes,,failed,0,,PAGINA_VAZIA
+208,E-Leiloeiro,https://www.e-leiloeiro.com.br,onda1_pendentes,2,success,7,,
+209,Soleiloes,https://www.soleiloes.com.br,onda1_pendentes,,failed,0,,
+210,Morescoleiloes,https://www.morescoleiloes.com.br,onda1_pendentes,,failed,0,,
+211,Fabioleiloes,https://www.fabioleiloes.com.br,onda1_pendentes,,failed,0,,
+212,Brunoleiloes,https://www.brunoleiloes.com.br,onda1_pendentes,,failed,0,,
+213,Danieloliveiraleiloes,https://www.danieloliveiraleiloes.com.br,onda1_pendentes,,failed,0,,
+214,Bastonleiloes,https://www.bastonleiloes.com.br,onda1_pendentes,,failed,0,,
+215,Leiloescentrooeste,https://www.leiloescentrooeste.com.br,onda1_pendentes,,failed,0,,
+216,Leiloes61,https://www.leiloes61.com.br,onda1_pendentes,,failed,0,,
+217,Mikedutraleiloeiro,https://www.mikedutraleiloeiro.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mikedutraleiloeiro.com.br/imoveis
+Call log:
+  - navigating to ""https://www.mikedutraleiloeiro.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+218,Oreidosleiloes,https://www.oreidosleiloes.com.br,onda1_pendentes,,failed,0,,PAGINA_VAZIA
+219,Leiloesfederal,https://www.leiloesfederal.com.br,onda1_pendentes,2,success,3,,
+220,Natalialeiloes,https://www.natalialeiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+221,Arrematabem,https://www.arrematabem.com.br,onda1_pendentes,,failed,0,,
+222,Tmleiloes,https://www.tmleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+223,Hastalegal,https://www.hastalegal.com.br,onda1_pendentes,,failed,0,,PAGINA_VAZIA
+224,Duxleiloes,https://www.duxleiloes.com.br,onda1_pendentes,,failed,0,,
+225,Amleiloeiro,https://www.amleiloeiro.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+226,Marangonileiloes,https://www.marangonileiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+227,Leiloeiroqueiroz,https://www.leiloeiroqueiroz.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.leiloeiroqueiroz.com.br/imoveis
+Call log:
+  - navigating to ""https://www.leiloeiroqueiroz.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+228,Alleiloes,https://www.alleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+229,Andreluizleiloes,https://www.andreluizleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+230,Acleiloes,https://www.acleiloes.com.br,onda1_pendentes,,failed,0,,
+231,Cidafixerleiloes,https://www.cidafixerleiloes.com.br,onda1_pendentes,,failed,0,,
+232,Grupocarvalholeiloes,https://www.grupocarvalholeiloes.com.br,onda1_pendentes,,failed,0,,
+233,Claudiokussleiloes,https://www.claudiokussleiloes.com.br,onda1_pendentes,,failed,0,,
+234,Dsleiloes,https://www.dsleiloes.com.br,onda1_pendentes,,failed,0,,PAGINA_VAZIA
+235,Simonleiloes,https://www.simonleiloes.com.br,onda1_pendentes,1,success,16,,
+236,Lancevip,https://www.lancevip.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+237,Machadoleiloeiro,https://www.machadoleiloeiro.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+238,Fabiobarbosaleiloes,https://www.fabiobarbosaleiloes.com.br,onda1_pendentes,,failed,0,,
+239,Ksleiloes,https://www.ksleiloes.com.br,onda1_pendentes,,failed,0,,
+240,Lancejusto,https://www.lancejusto.com.br,onda1_pendentes,,failed,0,,
+241,Montenegroleiloes,https://www.montenegroleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+242,Jacleiloes,https://www.jacleiloes.com.br,onda1_pendentes,,failed,0,,
+243,Monzonleiloes,https://www.monzonleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+244,Jmleiloes,https://www.jmleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+245,Jorgemarcoleiloes,https://www.jorgemarcoleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+246,Josequencaleiloeiro,https://www.josequencaleiloeiro.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_CERT_DATE_INVALID at https://www.josequencaleiloeiro.com.br/imoveis
+Call log:
+  - navigating to ""https://www.josequencaleiloeiro.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+247,Medeirosleiloes,https://www.medeirosleiloes.com.br,onda1_pendentes,,failed,0,,
+248,Donhaleiloes,https://www.donhaleiloes.com,onda1_pendentes,,failed,0,,
+249,Newtonleiloes,https://www.newtonleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+250,Odarlicanezinleiloes,https://www.odarlicanezinleiloes.com.br,onda1_pendentes,,failed,0,,
+251,Pimentelleiloes,https://www.pimentelleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+252,Rdleiloes,https://www.rdleiloes.com.br,onda1_pendentes,,failed,0,,
+253,Rmmleiloes,https://www.rmmleiloes.com.br,onda1_pendentes,,failed,0,,
+254,Ricardogomesleiloes,https://www.ricardogomesleiloes.com.br,onda1_pendentes,,failed,0,,
+255,Sfleiloes,https://www.sfleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+256,Vargasepintoleiloes,https://www.vargasepintoleiloes.com.br,onda1_pendentes,,failed,0,,
+257,Lottileiloes,https://www.lottileiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+258,Leilaonainternet,https://www.leilaonainternet.com.br,onda1_pendentes,,failed,0,,PAGINA_VAZIA
+259,Wspleiloes,https://www.wspleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+260,Whleiloes,https://www.whleiloes.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.whleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.whleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+261,Superlanceleilao,https://www.superlanceleilao.com.br,onda1_pendentes,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.superlanceleilao.com.br/imoveis
+Call log:
+  - navigating to ""https://www.superlanceleilao.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+262,Wmleiloes,https://www.wmleiloes.com.br,onda1_pendentes,,failed,0,,
+263,Horizonteleiloes,https://www.horizonteleiloes.com.br,onda1_pendentes,,failed,0,,
+264,Tabaleiloes,https://www.tabaleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+265,Akimotoleiloes,https://www.akimotoleiloes.com.br,onda1_pendentes,,failed,0,,
+266,Ricoleiloes,https://www.ricoleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+267,Rocketleiloes,https://www.rocketleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+268,Ktzleiloes,https://www.ktzleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+269,Granadoleiloes,https://www.granadoleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+270,Bigleilao,https://www.bigleilao.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+271,Arenaleiloes,https://www.arenaleiloes.com.br,onda1_pendentes,,failed,0,,
+272,Amaralleiloes,https://www.amaralleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+273,Leiloaria,https://www.leiloaria.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+274,Pactoleiloes,https://www.pactoleiloes.com.br,onda1_pendentes,,failed,0,,
+275,Sublimeleiloes,https://www.sublimeleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+276,Valeroleiloes,https://www.valeroleiloes.com.br,onda1_pendentes,,failed,0,,
+277,Gustavomorettoleiloeiro,https://www.gustavomorettoleiloeiro.com.br,onda1_pendentes,,failed,0,,
+278,Desantileiloes,https://www.desantileiloes.com.br,onda1_pendentes,,failed,0,,
+279,Maisleilao,https://www.maisleilao.com.br,onda1_pendentes,,failed,0,,
+280,Leilaoeletronico,https://www.leilaoeletronico.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+281,Cardosoleiloes,https://www.cardosoleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+282,Tribunaleiloes,https://www.tribunaleiloes.com.br,onda1_pendentes,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+283,Dbmleiloes,https://www.dbmleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+284,Dhleiloes,https://www.dhleiloes.com.br,onda1_pendentes,,failed,0,,
+285,Clebercardosoleiloes,https://www.clebercardosoleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+286,Leffaleiloes,https://www.leffaleiloes.com.br,onda1_pendentes,2,success,66,,
+287,Rmcleiloes,https://www.rmcleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+288,Calilleiloes,https://www.calilleiloes.com.br,onda1_pendentes,,failed,0,,CAPTCHA
+27,Depaulaonline,https://www.depaulaonline.com.br,onda2_recrawl,2,success,40,,
+33,Unileiloes,https://www.unileiloes.com.br,onda2_recrawl,2,success,2,,
+6,Sfrazao,https://www.sfrazao.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+13,Sodresantoro,https://www.sodresantoro.com.br,onda2_recrawl,2,success,28,,CAPTCHA
+11,Biasileiloes,https://www.biasileiloes.com.br,onda2_recrawl,,failed,0,,
+21,Leilaobrasil,https://www.leilaobrasil.com.br,onda2_recrawl,,failed,0,,
+22,Hastapublica,https://www.hastapublica.com.br,onda2_recrawl,1,success,5,,
+25,Lancenoleilao,https://www.lancenoleilao.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+1,Portalzuk,https://www.portalzuk.com.br/,onda2_recrawl,1,success,31,,
+41,Cunhaleiloeiro,https://www.cunhaleiloeiro.com.br,onda2_recrawl,2,success,15,,
+45,Sumareleiloes,https://www.sumareleiloes.com.br,onda2_recrawl,,failed,0,,
+48,E-Confianca,https://www.e-confianca.com.br,onda2_recrawl,,failed,0,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.e-confianca.com.br/imoveis
+Call log:
+  - navigating to ""https://www.e-confianca.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+49,Gilsoninumaruleiloes,https://www.gilsoninumaruleiloes.com.br,onda2_recrawl,2,success,2,,
+54,Liderleiloes,https://www.liderleiloes.com.br,onda2_recrawl,2,success,1,,
+56,Carloferrarileiloes,https://www.carloferrarileiloes.com.br,onda2_recrawl,,failed,0,,
+57,Webleiloes,https://www.webleiloes.com.br,onda2_recrawl,2,success,14,,
+62,Centraljudicial,https://www.centraljudicial.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+71,Oleiloes,https://www.oleiloes.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+73,Topoleiloes,https://www.topoleiloes.com.br,onda2_recrawl,,failed,0,"Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.topoleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.topoleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+78,Vmleiloes,https://www.vmleiloes.com.br,onda2_recrawl,,failed,0,,
+79,Pbcastro,https://www.pbcastro.com.br,onda2_recrawl,,failed,0,,
+80,Marquesleiloes,https://www.marquesleiloes.com.br,onda2_recrawl,,failed,0,,PAGINA_VAZIA
+81,Kleiloes,https://www.kleiloes.com.br,onda2_recrawl,2,success,20,,
+82,Jeleiloes,https://www.jeleiloes.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+83,Spencerleiloes,https://www.spencerleiloes.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+39,Allianceleiloes,https://www.allianceleiloes.com.br,onda2_recrawl,,failed,0,,
+109,Fauthleiloes,https://www.fauthleiloes.com.br,onda2_recrawl,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+118,Santoseborinleiloes,https://www.santoseborinleiloes.com.br,onda2_recrawl,,failed,0,,PAGINA_VAZIA
+123,Leiloeslaraforster,https://www.leiloeslaraforster.com.br,onda2_recrawl,,failed,0,,PAGINA_VAZIA
+125,Benedettoleiloes,https://www.benedettoleiloes.com.br,onda2_recrawl,,failed,0,,
+129,Ctsleiloes,https://www.ctsleiloes.com.br,onda2_recrawl,,failed,0,,PAGINA_VAZIA
+98,Lunellileiloes,https://www.lunellileiloes.com.br,onda2_recrawl,,failed,0,,PAGINA_VAZIA
+7,Leiloes,https://www.leiloes.com.br,onda3_investigar,,failed,0,,WAF_BLOCKED
+8,Grupoarremateleiloes,https://www.grupoarremateleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+10,Milanleiloes,https://www.milanleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+14,Leilaovip,https://www.leilaovip.com.br,onda3_investigar,1,success,30,,
+16,Bestleiloes,https://www.bestleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+17,Satoleiloes,https://www.satoleiloes.com.br,onda3_investigar,,failed,0,,
+18,Casareisleiloesonline,https://www.casareisleiloesonline.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+3,Lancetotal,https://www.lancetotal.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+4,Freitasleiloeiro,https://www.freitasleiloeiro.com.br,onda3_investigar,,failed,0,,
+5,Frazaoleiloes,https://www.frazaoleiloes.com.br,onda3_investigar,2,success,20,,
+19,Francoleiloes,https://www.francoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+23,Vizeuonline,https://www.vizeuonline.com.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.vizeuonline.com.br/imoveis
+Call log:
+  - navigating to ""https://www.vizeuonline.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+24,Pecinileiloes,https://www.pecinileiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+26,Leilomaster,https://www.leilomaster.com.br,onda3_investigar,,failed,0,,
+28,Melhorlanceleiloes,https://www.melhorlanceleiloes.com.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.melhorlanceleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.melhorlanceleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+29,Tezaleiloes,https://www.tezaleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+30,Leilaoinvestment,https://www.leilaoinvestment.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+31,Destakleiloes,https://www.destakleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+34,Projudleiloes,https://www.projudleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+35,Nossoleilao,https://www.nossoleilao.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+37,Raicherleiloes,https://www.raicherleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+40,Leiloeirospcom Br,https://www.leiloeirospcom.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.leiloeirospcom.br/imoveis
+Call log:
+  - navigating to ""https://www.leiloeirospcom.br/imoveis"", waiting until ""domcontentloaded""
+",
+42,Publicumleiloes,https://www.publicumleiloes.com.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.publicumleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.publicumleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+43,Lecapeleiloes,https://www.lecapeleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+44,Legisleiloes,https://www.legisleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+47,Glleiloes,https://www.glleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+52,Fidalgoleiloes,https://www.fidalgoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+53,3Torresleiloes,https://www.3torresleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+55,Rossileiloes,https://www.rossileiloes.com.br,onda3_investigar,,failed,0,,WAF_BLOCKED
+60,Lanceleiloes,https://www.lanceleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+61,Escritoriodeleiloes,https://www.escritoriodeleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+64,Bcoleiloes,https://www.bcoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+65,Leiloesgold,https://www.leiloesgold.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+66,Argonetworkleiloes,https://www.argonetworkleiloes.com.br,onda3_investigar,,failed,0,,CAPTCHA
+67,Conceitoleiloes,https://www.conceitoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+68,Hisaleiloes,https://www.hisaleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+69,Judhastas,https://www.judhastas.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+70,Silveiraleiloes,https://www.silveiraleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+74,Kronbergleiloes,https://www.kronbergleiloes.com.br,onda3_investigar,,failed,0,,
+75,Joaoluizleiloes,https://www.joaoluizleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+85,Nogarileiloes,https://www.nogarileiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+86,Alemaoleiloeiro,https://www.alemaoleiloeiro.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+87,Cargneluttileiloes,https://www.cargneluttileiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+89,Leilaosantos,https://www.leilaosantos.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+91,Moraesleiloes,https://www.moraesleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+92,Nortonleiloes,https://www.nortonleiloes.com.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.nortonleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.nortonleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+93,Pietosoleiloes,https://www.pietosoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+94,Rauppleiloes,https://www.rauppleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+95,Santamarialeiloes,https://www.santamarialeiloes.com.br,onda3_investigar,,failed,0,,
+96,Amtleiloes,https://www.amtleiloes.com.br,onda3_investigar,,failed,0,,
+97,Alencastroleiloes,https://www.alencastroleiloes.com.br,onda3_investigar,1,success,2,,
+99,Leilaobutia,https://www.leilaobutia.com.br,onda3_investigar,,failed,0,,
+100,Scheidleiloes,https://www.scheidleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+101,Bronzattoleiloes,https://www.bronzattoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+102,Lessaleiloes,https://www.lessaleiloes.com.br,onda3_investigar,,failed,0,,
+103,Mpleilao,https://www.mpleilao.com.br,onda3_investigar,,failed,0,,
+104,Agenciadeleiloes,https://www.agenciadeleiloes.com.br,onda3_investigar,2,success,18,,
+105,Scholanteleiloes,https://www.scholanteleiloes.com.br,onda3_investigar,,failed,0,,
+106,Clovisleiloeiro,https://www.clovisleiloeiro.com.br,onda3_investigar,,failed,0,,
+107,Ferronatoleiloes,https://www.ferronatoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+108,Eduardovivian,https://www.eduardovivian.com.br,onda3_investigar,,failed,0,,
+110,Leiloesbonfadini,https://www.leiloesbonfadini.com.br,onda3_investigar,,failed,0,,
+111,Clademirleiloeiro,https://www.clademirleiloeiro.com.br,onda3_investigar,,failed,0,,
+112,Rabuskeleiloes,https://www.rabuskeleiloes.com.br,onda3_investigar,,failed,0,,
+113,Zaccariasleiloes,https://www.zaccariasleiloes.com.br,onda3_investigar,,failed,0,,
+114,Grandesleiloes,https://www.grandesleiloes.com.br,onda3_investigar,,failed,0,,
+115,Muckleiloes,https://www.muckleiloes.com.br,onda3_investigar,,failed,0,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.muckleiloes.com.br/imoveis
+Call log:
+  - navigating to ""https://www.muckleiloes.com.br/imoveis"", waiting until ""domcontentloaded""
+",
+116,Ckleiloes,https://www.ckleiloes.com.br,onda3_investigar,2,success,8,,
+117,Correaleiloes,https://www.correaleiloes.com.br,onda3_investigar,,failed,0,,CAPTCHA
+119,Dldleiloeiro,https://www.dldleiloeiro.com.br,onda3_investigar,,failed,0,,
+120,Evaleiloes,https://www.evaleiloes.com.br,onda3_investigar,,failed,0,,
+121,Santayanaleiloes,https://www.santayanaleiloes.com.br,onda3_investigar,,failed,0,,
+122,Zuccalmaglioleiloes,https://www.zuccalmaglioleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+124,Zagoleiloes,https://www.zagoleiloes.com.br,onda3_investigar,,failed,0,,
+126,Marceloleiloeiro,https://www.marceloleiloeiro.com.br,onda3_investigar,2,success,108,,
+127,Raotaleiloes,https://www.raotaleiloes.com.br,onda3_investigar,,failed,0,,
+128,Finattoleiloes,https://www.finattoleiloes.com.br,onda3_investigar,,failed,0,,
+130,Vidalleiloes,https://www.vidalleiloes.com.br,onda3_investigar,,failed,0,,
+131,Gtleiloes,https://www.gtleiloes.com.br,onda3_investigar,2,success,33,,
+132,Feliperottaleiloes,https://www.feliperottaleiloes.com.br,onda3_investigar,,failed,0,,CAPTCHA
+133,Mgleiloes-Rs,https://www.mgleiloes-rs.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+134,Bartmannleiloes,https://www.bartmannleiloes.com.br,onda3_investigar,,failed,0,,
+135,Ruipintoleiloeiro,https://www.ruipintoleiloeiro.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+136,Rechleiloes,https://www.rechleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+137,Gabrielleiloes,https://www.gabrielleiloes.com.br,onda3_investigar,,failed,0,,
+138,Leiloeirobarbieri,https://www.leiloeirobarbieri.com.br,onda3_investigar,,failed,0,,
+139,Michellileiloes,https://www.michellileiloes.com.br,onda3_investigar,2,success,24,,
+140,Trevisanleiloes,https://www.trevisanleiloes.com.br,onda3_investigar,,failed,0,,
+142,Lipinskileiloes,https://www.lipinskileiloes.com.br,onda3_investigar,,failed,0,,
+143,Tonialleiloes,https://www.tonialleiloes.com.br,onda3_investigar,,failed,0,,
+144,Alexsandroleiloes,https://www.alexsandroleiloes.com.br,onda3_investigar,,failed,0,,PAGINA_VAZIA
+145,Bianchileiloes,https://www.bianchileiloes.com.br,onda3_investigar,2,success,108,,
+146,Backleiloes,https://www.backleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+147,Deborabarzleiloes,https://www.deborabarzleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+148,Arnoldoleiloes,https://www.arnoldoleiloes.com.br,onda3_investigar,,failed,0,Promovido para TIER 3: CLOUDFLARE_CHALLENGE,CLOUDFLARE_CHALLENGE
+149,Bidgo,https://www.bidgo.com.br,onda3_investigar,,failed,0,,
+151,Szortykaleiloes,https://www.szortykaleiloes.com.br,onda3_investigar,,failed,0,,
+152,Rangelleiloes,https://www.rangelleiloes.com.br,onda3_investigar,2,success,6,,
+153,Fariasleiloes,https://www.fariasleiloes.com.br,onda3_investigar,,failed,0,,
+154,Utzigleiloes,https://www.utzigleiloes.com.br,onda3_investigar,,failed,0,,
+51,Gustavoreisleiloes,https://www.gustavoreisleiloes.com.br,onda3_investigar,,failed,0,,
+84,Leiloeiropublico,https://www.leiloeiropublico.com.br,onda3_investigar,,failed,0,,

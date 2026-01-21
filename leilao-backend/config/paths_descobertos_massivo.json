@@ -1,0 +1,1376 @@
+{
+  "depaulaonline.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.depaulaonline.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 140
+  },
+  "unileiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.unileiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 16
+  },
+  "sfrazao.com.br": {
+    "path": "/",
+    "url_completa": "https://www.sfrazao.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 6
+  },
+  "leiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.leiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 95
+  },
+  "grupoarremateleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.grupoarremateleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 56
+  },
+  "leilaovip.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.leilaovip.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 11
+  },
+  "bestleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.bestleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 144
+  },
+  "casareisleiloesonline.com.br": {
+    "path": "/",
+    "url_completa": "https://www.casareisleiloesonline.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 104
+  },
+  "biasileiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.biasileiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 54
+  },
+  "leilaobrasil.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.leilaobrasil.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 132
+  },
+  "hastapublica.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.hastapublica.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 69
+  },
+  "lancetotal.com.br": {
+    "path": "/",
+    "url_completa": "https://www.lancetotal.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 28
+  },
+  "freitasleiloeiro.com.br": {
+    "path": "/",
+    "url_completa": "https://www.freitasleiloeiro.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 125
+  },
+  "frazaoleiloes.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.frazaoleiloes.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 142
+  },
+  "francoleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.francoleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 52
+  },
+  "pecinileiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.pecinileiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 23
+  },
+  "leilomaster.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.leilomaster.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 133
+  },
+  "leilaoinvestment.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.leilaoinvestment.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 60
+  },
+  "destakleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.destakleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 67
+  },
+  "projudleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.projudleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 56
+  },
+  "nossoleilao.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.nossoleilao.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 136
+  },
+  "lancenoleilao.com.br": {
+    "path": "/",
+    "url_completa": "https://www.lancenoleilao.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 83
+  },
+  "portalzuk.com.br": {
+    "path": "/",
+    "url_completa": "https://www.portalzuk.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 105
+  },
+  "cunhaleiloeiro.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.cunhaleiloeiro.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 24
+  },
+  "sumareleiloes.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.sumareleiloes.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 49
+  },
+  "gilsoninumaruleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.gilsoninumaruleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 28
+  },
+  "liderleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.liderleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 25
+  },
+  "carloferrarileiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.carloferrarileiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 19
+  },
+  "webleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.webleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 58
+  },
+  "centraljudicial.com.br": {
+    "path": "/",
+    "url_completa": "https://www.centraljudicial.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 18
+  },
+  "oleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.oleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 26
+  },
+  "vmleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.vmleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 21
+  },
+  "pbcastro.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.pbcastro.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 28
+  },
+  "marquesleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.marquesleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 32
+  },
+  "kleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.kleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 144
+  },
+  "jeleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.jeleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 139
+  },
+  "spencerleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.spencerleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 25
+  },
+  "raicherleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.raicherleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 59
+  },
+  "lecapeleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.lecapeleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 53
+  },
+  "legisleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.legisleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 62
+  },
+  "glleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.glleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 131
+  },
+  "fidalgoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.fidalgoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 87
+  },
+  "3torresleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.3torresleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 52
+  },
+  "rossileiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.rossileiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 39
+  },
+  "lanceleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.lanceleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 37
+  },
+  "escritoriodeleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.escritoriodeleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 10
+  },
+  "bcoleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.bcoleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 55
+  },
+  "leiloesgold.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.leiloesgold.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 137
+  },
+  "argonetworkleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.argonetworkleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 7
+  },
+  "conceitoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.conceitoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 33
+  },
+  "hisaleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.hisaleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 19
+  },
+  "judhastas.com.br": {
+    "path": "/externo/",
+    "url_completa": "https://www.judhastas.com.br/externo/",
+    "metodo": "menu_navegacao",
+    "links": 0
+  },
+  "silveiraleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.silveiraleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 57
+  },
+  "kronbergleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.kronbergleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 12
+  },
+  "joaoluizleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.joaoluizleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 54
+  },
+  "allianceleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.allianceleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 66
+  },
+  "fauthleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.fauthleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 37
+  },
+  "santoseborinleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.santoseborinleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 126
+  },
+  "leiloeslaraforster.com.br": {
+    "path": "/",
+    "url_completa": "https://www.leiloeslaraforster.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 140
+  },
+  "benedettoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.benedettoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 145
+  },
+  "ctsleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.ctsleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 135
+  },
+  "nogarileiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.nogarileiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 71
+  },
+  "alemaoleiloeiro.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.alemaoleiloeiro.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 89
+  },
+  "cargneluttileiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.cargneluttileiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 126
+  },
+  "leilaosantos.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.leilaosantos.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 18
+  },
+  "moraesleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.moraesleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 51
+  },
+  "pietosoleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.pietosoleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 73
+  },
+  "rauppleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.rauppleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 122
+  },
+  "santamarialeiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.santamarialeiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 138
+  },
+  "amtleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.amtleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 41
+  },
+  "alencastroleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.alencastroleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 13
+  },
+  "leilaobutia.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.leilaobutia.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 26
+  },
+  "scheidleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.scheidleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 43
+  },
+  "bronzattoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.bronzattoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 47
+  },
+  "lessaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.lessaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 61
+  },
+  "mpleilao.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.mpleilao.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 125
+  },
+  "agenciadeleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.agenciadeleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 39
+  },
+  "scholanteleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.scholanteleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 59
+  },
+  "clovisleiloeiro.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.clovisleiloeiro.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 94
+  },
+  "ferronatoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.ferronatoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 20
+  },
+  "eduardovivian.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.eduardovivian.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 134
+  },
+  "leiloesbonfadini.com.br": {
+    "path": "/",
+    "url_completa": "https://www.leiloesbonfadini.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 23
+  },
+  "clademirleiloeiro.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.clademirleiloeiro.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 33
+  },
+  "rabuskeleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.rabuskeleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 15
+  },
+  "zaccariasleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.zaccariasleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 52
+  },
+  "grandesleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.grandesleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 139
+  },
+  "ckleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.ckleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 17
+  },
+  "correaleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.correaleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "dldleiloeiro.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.dldleiloeiro.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 27
+  },
+  "evaleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.evaleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 5
+  },
+  "santayanaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.santayanaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 111
+  },
+  "zuccalmaglioleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.zuccalmaglioleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 59
+  },
+  "zagoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.zagoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 53
+  },
+  "marceloleiloeiro.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.marceloleiloeiro.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 137
+  },
+  "raotaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.raotaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 46
+  },
+  "finattoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.finattoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 5
+  },
+  "vidalleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.vidalleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 59
+  },
+  "gtleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.gtleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 90
+  },
+  "veronicaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.veronicaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 16
+  },
+  "kielleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.kielleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "machadoleiloesrs.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.machadoleiloesrs.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 87
+  },
+  "fumagallileiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.fumagallileiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 92
+  },
+  "superleiloes.net": {
+    "path": "/busca",
+    "url_completa": "https://www.superleiloes.net/busca",
+    "metodo": "paths_conhecidos",
+    "links": 62
+  },
+  "regionalleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.regionalleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 118
+  },
+  "juleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.juleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 73
+  },
+  "renovarleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.renovarleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 136
+  },
+  "swleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.swleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 47
+  },
+  "evolveleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.evolveleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 138
+  },
+  "gestorleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.gestorleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 24
+  },
+  "dalaqualeiloes.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.dalaqualeiloes.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 101
+  },
+  "rzleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.rzleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 140
+  },
+  "kildareleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.kildareleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 143
+  },
+  "eckertleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.eckertleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 9
+  },
+  "hoppeleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.hoppeleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 5
+  },
+  "albuquerquelins.com.br": {
+    "path": "/",
+    "url_completa": "https://www.albuquerquelins.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 5
+  },
+  "feliperottaleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.feliperottaleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "mgleiloes-rs.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.mgleiloes-rs.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 39
+  },
+  "bartmannleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.bartmannleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 26
+  },
+  "rechleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.rechleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 136
+  },
+  "gabrielleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.gabrielleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 96
+  },
+  "leiloeirobarbieri.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.leiloeirobarbieri.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 65
+  },
+  "michellileiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.michellileiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 54
+  },
+  "trevisanleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.trevisanleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 56
+  },
+  "lipinskileiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.lipinskileiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 54
+  },
+  "tonialleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.tonialleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 88
+  },
+  "alexsandroleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.alexsandroleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 4
+  },
+  "bianchileiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.bianchileiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 139
+  },
+  "backleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.backleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 49
+  },
+  "deborabarzleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.deborabarzleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 23
+  },
+  "arnoldoleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.arnoldoleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 88
+  },
+  "bidgo.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.bidgo.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 79
+  },
+  "szortykaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.szortykaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 137
+  },
+  "rangelleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.rangelleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 14
+  },
+  "fariasleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.fariasleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 79
+  },
+  "utzigleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.utzigleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 18
+  },
+  "lancecertoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.lancecertoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 43
+  },
+  "rjleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.rjleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 142
+  },
+  "danielgarcialeiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.danielgarcialeiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 83
+  },
+  "inovaleilao.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.inovaleilao.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 88
+  },
+  "alfaleiloes.com": {
+    "path": "/imoveis",
+    "url_completa": "https://www.alfaleiloes.com/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 47
+  },
+  "costanetoleiloeiro.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.costanetoleiloeiro.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 116
+  },
+  "bsbleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.bsbleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 81
+  },
+  "brasilialeiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.brasilialeiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 13
+  },
+  "paulotolentino.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.paulotolentino.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 116
+  },
+  "parquedosleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.parquedosleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 71
+  },
+  "flexleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.flexleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 75
+  },
+  "grupoleilo.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.grupoleilo.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 133
+  },
+  "luizleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.luizleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 30
+  },
+  "alvaroleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.alvaroleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 20
+  },
+  "infinityleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.infinityleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 142
+  },
+  "adringleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.adringleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 12
+  },
+  "oaleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.oaleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 17
+  },
+  "eixoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.eixoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "clicleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.clicleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 27
+  },
+  "marquesbarretoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.marquesbarretoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "e-leiloeiro.com.br": {
+    "path": "/lotes",
+    "url_completa": "https://www.e-leiloeiro.com.br/lotes",
+    "metodo": "paths_conhecidos",
+    "links": 149
+  },
+  "soleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.soleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 137
+  },
+  "morescoleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.morescoleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 97
+  },
+  "fabioleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.fabioleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 19
+  },
+  "brunoleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.brunoleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 20
+  },
+  "danieloliveiraleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.danieloliveiraleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 20
+  },
+  "bastonleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.bastonleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 7
+  },
+  "leiloescentrooeste.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.leiloescentrooeste.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 21
+  },
+  "leiloes61.com.br": {
+    "path": "/",
+    "url_completa": "https://www.leiloes61.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 10
+  },
+  "leiloesfederal.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.leiloesfederal.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 14
+  },
+  "natalialeiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.natalialeiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 140
+  },
+  "arrematabem.com.br": {
+    "path": "/",
+    "url_completa": "https://www.arrematabem.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 44
+  },
+  "tmleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.tmleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 57
+  },
+  "duxleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.duxleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 4
+  },
+  "amleiloeiro.com.br": {
+    "path": "/",
+    "url_completa": "https://www.amleiloeiro.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 6
+  },
+  "marangonileiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.marangonileiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 12
+  },
+  "alleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.alleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 25
+  },
+  "andreluizleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.andreluizleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 10
+  },
+  "acleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.acleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 6
+  },
+  "cidafixerleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.cidafixerleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 18
+  },
+  "grupocarvalholeiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.grupocarvalholeiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 43
+  },
+  "claudiokussleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.claudiokussleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 36
+  },
+  "dsleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.dsleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 58
+  },
+  "simonleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.simonleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 82
+  },
+  "lancevip.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.lancevip.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 81
+  },
+  "machadoleiloeiro.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.machadoleiloeiro.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 86
+  },
+  "fabiobarbosaleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.fabiobarbosaleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 21
+  },
+  "ksleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.ksleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 24
+  },
+  "lancejusto.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.lancejusto.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "jacleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.jacleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 139
+  },
+  "monzonleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.monzonleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "jmleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.jmleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 11
+  },
+  "jorgemarcoleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.jorgemarcoleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "medeirosleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.medeirosleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 26
+  },
+  "donhaleiloes.com": {
+    "path": "/",
+    "url_completa": "https://www.donhaleiloes.com",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "newtonleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.newtonleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 25
+  },
+  "odarlicanezinleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.odarlicanezinleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "pimentelleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.pimentelleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 72
+  },
+  "rdleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.rdleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 22
+  },
+  "rmmleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.rmmleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 10
+  },
+  "ricardogomesleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.ricardogomesleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 16
+  },
+  "sfleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.sfleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 14
+  },
+  "vargasepintoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.vargasepintoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 26
+  },
+  "lottileiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.lottileiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 57
+  },
+  "leilaonainternet.com.br": {
+    "path": "/",
+    "url_completa": "https://www.leilaonainternet.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 73
+  },
+  "wspleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.wspleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 141
+  },
+  "wmleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.wmleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "tabaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.tabaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 44
+  },
+  "akimotoleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.akimotoleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 21
+  },
+  "ricoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.ricoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 43
+  },
+  "rocketleiloes.com.br": {
+    "path": "/search",
+    "url_completa": "https://www.rocketleiloes.com.br/search",
+    "metodo": "paths_conhecidos",
+    "links": 3
+  },
+  "ktzleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.ktzleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 25
+  },
+  "granadoleiloes.com.br": {
+    "path": "/",
+    "url_completa": "https://www.granadoleiloes.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 30
+  },
+  "bigleilao.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.bigleilao.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 11
+  },
+  "amaralleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.amaralleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 83
+  },
+  "leiloaria.com.br": {
+    "path": "/search",
+    "url_completa": "https://www.leiloaria.com.br/search",
+    "metodo": "paths_conhecidos",
+    "links": 32
+  },
+  "pactoleiloes.com.br": {
+    "path": "/leilao",
+    "url_completa": "https://www.pactoleiloes.com.br/leilao",
+    "metodo": "paths_conhecidos",
+    "links": 136
+  },
+  "sublimeleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.sublimeleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 52
+  },
+  "valeroleiloes.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.valeroleiloes.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 132
+  },
+  "gustavomorettoleiloeiro.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.gustavomorettoleiloeiro.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 15
+  },
+  "desantileiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.desantileiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 5
+  },
+  "maisleilao.com.br": {
+    "path": "/leiloes/imoveis",
+    "url_completa": "https://www.maisleilao.com.br/leiloes/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 131
+  },
+  "leilaoeletronico.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.leilaoeletronico.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 62
+  },
+  "cardosoleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.cardosoleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 68
+  },
+  "tribunaleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.tribunaleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 90
+  },
+  "dbmleiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.dbmleiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 7
+  },
+  "dhleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.dhleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 7
+  },
+  "clebercardosoleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.clebercardosoleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 4
+  },
+  "leffaleiloes.com.br": {
+    "path": "/busca",
+    "url_completa": "https://www.leffaleiloes.com.br/busca",
+    "metodo": "paths_conhecidos",
+    "links": 136
+  },
+  "rmcleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.rmcleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 6
+  },
+  "calilleiloes.com.br": {
+    "path": "/imoveis",
+    "url_completa": "https://www.calilleiloes.com.br/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 9
+  },
+  "gustavoreisleiloes.com.br": {
+    "path": "/categoria/imoveis",
+    "url_completa": "https://www.gustavoreisleiloes.com.br/categoria/imoveis",
+    "metodo": "paths_conhecidos",
+    "links": 8
+  },
+  "leiloeiropublico.com.br": {
+    "path": "/",
+    "url_completa": "https://www.leiloeiropublico.com.br",
+    "metodo": "paths_conhecidos",
+    "links": 4
+  },
+  "lunellileiloes.com.br": {
+    "path": "/leiloes",
+    "url_completa": "https://www.lunellileiloes.com.br/leiloes",
+    "metodo": "paths_conhecidos",
+    "links": 21
+  }
+}
