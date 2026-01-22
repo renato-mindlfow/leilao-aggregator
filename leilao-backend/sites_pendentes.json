@@ -1,0 +1,306 @@
+{
+    "success": true,
+    "count": 50,
+    "data": [
+        {
+            "id": "_123_leiloes",
+            "name": "123 Leil\u00c3\u00b5es",
+            "website": "https://www.123leiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "53",
+            "name": "3Torresleiloes",
+            "website": "https://www.3torresleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "adriano_apolinario_leiloes",
+            "name": "Adriano Apolinario Leil\u00c3\u00b5es",
+            "website": "https://www.adrianoapolinario.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "202",
+            "name": "Adringleiloes",
+            "website": "https://www.adringleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "agili_leiloes",
+            "name": "Agili Leil\u00c3\u00b5es",
+            "website": "https://www.agilileiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "agostinho_leiloes",
+            "name": "Agostinho Leil\u00c3\u00b5es",
+            "website": "https://www.agostinholeiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "ags_leiloes",
+            "name": "AGS Leil\u00c3\u00b5es",
+            "website": "https://www.agsleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "alberto_macedo_leiloes",
+            "name": "Alberto Macedo Leil\u00c3\u00b5es",
+            "website": "https://www.albertomacedo.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "178",
+            "name": "Albuquerquelins",
+            "website": "https://www.albuquerquelins.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "86",
+            "name": "Alemaoleiloeiro",
+            "website": "https://www.alemaoleiloeiro.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "alessandra_leiloes",
+            "name": "Alessandra Leil\u00c3\u00b5es",
+            "website": "https://www.alessandraleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "alessandro_teixeira_leiloes",
+            "name": "Alessandro Teixeira Leiloes",
+            "website": "https://www.alessandroteixeira.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "alexandre_costa_leiloes",
+            "name": "Alexandre Costa Leil\u00c3\u00b5es",
+            "website": "https://www.alexandrecosta.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "alexandre_pedrosa_leiloeiro",
+            "name": "Alexandre Pedrosa Leiloeiro",
+            "website": "https://www.alexandrepedrosa.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "38",
+            "name": "Alexandridisleiloes",
+            "website": "https://www.alexandridis.leilao.br/",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "174",
+            "name": "Alexiusleiloes",
+            "website": "https://www.alexiusleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "144",
+            "name": "Alexsandroleiloes",
+            "website": "https://www.alexsandroleiloes.com.br/busca",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "185",
+            "name": "Alfaleiloes",
+            "website": "https://www.alfaleiloes.com",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "aline_marques_leiloeira",
+            "name": "Aline Marques Leiloeira",
+            "website": "https://www.alinemarques.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "228",
+            "name": "Alleiloes",
+            "website": "https://www.alleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "198",
+            "name": "Alvaroleiloes",
+            "website": "https://www.alvaroleiloes.com.br/leilao",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "amazonas_leiloes",
+            "name": "Amazonas Leil\u00c3\u00b5es",
+            "website": "https://www.amazonasleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "angela_bechara_leiloes",
+            "name": "Angela Bechara Leil\u00c3\u00b5es",
+            "website": "https://www.angelabechara.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "apice_leiloes",
+            "name": "Apice Leil\u00c3\u00b5es",
+            "website": "https://www.apiceleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "arg_leiloes",
+            "name": "ARG Leil\u00c3\u00b5es",
+            "website": "https://www.argleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "arnaldo_leiloes",
+            "name": "Arnaldo Leil\u00c3\u00b5es",
+            "website": "https://www.arnaldoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "221",
+            "name": "Arrematabem",
+            "website": "https://www.arrematabem.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "arremax_leiloes",
+            "name": "Arremax Leil\u00c3\u00b5es",
+            "website": "https://www.arremaxleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "199",
+            "name": "Assuncaoleiloes",
+            "website": "https://www.assuncaoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "atlantico_leiloes",
+            "name": "Atlantico Leil\u00c3\u00b5es",
+            "website": "https://www.atlanticoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "atrio_leiloes",
+            "name": "Atrio Leil\u00c3\u00b5es",
+            "website": "https://www.atrioleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "146",
+            "name": "Backleiloes",
+            "website": "https://www.backleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "balbo_leiloes",
+            "name": "Balbo Leil\u00c3\u00b5es",
+            "website": "https://www.balboleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "baldissera",
+            "name": "Baldissera Leiloeiros",
+            "website": "https://www.baldisseraleiloeiros.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "barreto_leiloes",
+            "name": "Barreto Leil\u00c3\u00b5es",
+            "website": "https://www.barretoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "214",
+            "name": "Bastonleiloes",
+            "website": "https://www.bastonleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "125",
+            "name": "Benedettoleiloes",
+            "website": "https://www.benedettoleiloes.com.br/leiloes",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "16",
+            "name": "Bestleiloes",
+            "website": "https://www.bestleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "bezerra_leiloes",
+            "name": "Bezerra Leil\u00c3\u00b5es",
+            "website": "https://www.bezerraleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "11",
+            "name": "Biasileiloes",
+            "website": "https://www.biasileiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "blm_leiloes",
+            "name": "BLM Leil\u00c3\u00b5es",
+            "website": "https://www.blmleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "bom_valor",
+            "name": "Bom Valor",
+            "website": "https://www.bomvalor.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "brame_leiloes",
+            "name": "Brame Leil\u00c3\u00b5es",
+            "website": "https://www.brameleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "brancalliao_leiloes",
+            "name": "Brancalliao Leil\u00c3\u00b5es",
+            "website": "https://www.brancalliaoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "brasil_sul_leiloes",
+            "name": "Brasil Sul Leil\u00c3\u00b5es",
+            "website": "https://www.brasilsulleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "190",
+            "name": "Brasilialeiloes",
+            "website": "https://www.brasilialeiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "bringel_leiloes",
+            "name": "Bringel Leil\u00c3\u00b5es",
+            "website": "https://www.bringelleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "101",
+            "name": "Bronzattoleiloes",
+            "website": "https://www.bronzattoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "212",
+            "name": "Brunoleiloes",
+            "website": "https://www.brunoleiloes.com.br",
+            "scrape_status": "pending"
+        },
+        {
+            "id": "189",
+            "name": "Bsbleiloes",
+            "website": "https://www.bsbleiloes.com.br",
+            "scrape_status": "pending"
+        }
+    ]
+}
