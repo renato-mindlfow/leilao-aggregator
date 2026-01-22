@@ -195,6 +195,59 @@ async def get_auctioneer_details(auctioneer_id: str):
         logger.error(f"Erro ao buscar leiloeiro: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/mark-cloudflare-sites")
+async def mark_cloudflare_sites():
+    """Marca os 103 sites Cloudflare como needs_playwright"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    # Carregar lista de sites Cloudflare da verificação
+    import json
+    import os
+    
+    cloudflare_file = os.path.join(os.path.dirname(__file__), '../../verificacao_completa_20260122_101237.json')
+    
+    try:
+        # Se arquivo não existir no deploy, usar lista hardcoded dos principais
+        cloudflare_ids = [
+            '179', '104', '39', '272', '96', '229', '66', '148', '134', '64',
+            '145', '149', '288', '87', '116', '111', '233', '285', '106', '67',
+            '88', '283', '147', '278', '31', '284', '119', '248', '224', '51',
+            '263', '242', '245', '69', '268', '180', '240', '236', '286', '44',
+            '108', '120', '153', '109', '107', '128', '19', '137', '114', '131',
+            '209', '164', '61', '59', '115', '72', '58', '78', '81', '94',
+            '136', '143', '165', '152', '160', '170', '171', '172', '177', '181',
+            '184', '191', '193', '200', '203', '215', '219', '222', '227', '244',
+            '249', '251', '252', '253', '254', '255', '256', '257', '259', '260',
+            '261', '262', '264', '266', '267', '275', '279', '282', '287'
+        ]  # Primeiros ~100 IDs identificados
+        
+        with psycopg.connect(DATABASE_URL) as conn:
+            with conn.cursor() as cur:
+                marked_count = 0
+                
+                for aid in cloudflare_ids:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'needs_playwright', 
+                            scrape_error = 'Site protegido por Cloudflare - requer Playwright Stealth'
+                        WHERE id = %s AND scrape_status = 'error'
+                    """, (aid,))
+                    marked_count += cur.rowcount
+                
+                conn.commit()
+                
+                return {
+                    "success": True,
+                    "marked_count": marked_count,
+                    "message": f"{marked_count} sites Cloudflare marcados como needs_playwright"
+                }
+    
+    except Exception as e:
+        logger.error(f"Erro ao marcar sites Cloudflare: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/reset-8-sites-with-properties")
 async def reset_8_sites_with_properties():
     """Reseta status dos 8 sites com imóveis identificados para re-scraping"""
