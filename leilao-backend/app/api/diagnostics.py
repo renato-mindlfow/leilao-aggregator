@@ -169,6 +169,72 @@ async def get_full_diagnostic_report():
         logger.error(f"Erro ao gerar relatório completo: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.get("/auctioneer/{auctioneer_id}")
+async def get_auctioneer_details(auctioneer_id: str):
+    """Retorna detalhes de um leiloeiro específico"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    try:
+        with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id, name, website, scrape_status, scrape_error,
+                           last_scrape, property_count, scraper_type
+                    FROM auctioneers
+                    WHERE id = %s OR LOWER(name) = LOWER(%s)
+                """, (auctioneer_id, auctioneer_id))
+                
+                result = cur.fetchone()
+                if result:
+                    return {"success": True, "data": dict(result)}
+                else:
+                    raise HTTPException(status_code=404, detail=f"Leiloeiro {auctioneer_id} não encontrado")
+    except Exception as e:
+        logger.error(f"Erro ao buscar leiloeiro: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/fix-parsing-errors")
+async def fix_parsing_errors():
+    """Reseta status de leiloeiros com erros de parsing e validação"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    # Leiloeiros com parsing/validação errors
+    auctioneer_ids = [
+        '129',  # Ctsleiloes - 'NoneType' object is not subscriptable
+        '91',   # Moraesleiloes - value too long for state
+    ]
+    
+    try:
+        with psycopg.connect(DATABASE_URL) as conn:
+            with conn.cursor() as cur:
+                reset_count = 0
+                
+                for auc_id in auctioneer_ids:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'pending', 
+                            scrape_error = NULL
+                        WHERE id = %s
+                    """, (auc_id,))
+                    reset_count += cur.rowcount
+                    logger.info(f"Reset leiloeiro ID: {auc_id}")
+                
+                conn.commit()
+                
+                return {
+                    "success": True,
+                    "reset_auctioneers": reset_count,
+                    "message": f"Resetados {reset_count} leiloeiros com erros de parsing/validação"
+                }
+    
+    except Exception as e:
+        logger.error(f"Erro ao corrigir parsing errors: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/fix-duplicate-keys")
 async def fix_duplicate_keys():
     """Remove propriedades com IDs duplicados que causam erro e reseta status dos leiloeiros"""

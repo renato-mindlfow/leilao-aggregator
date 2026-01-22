@@ -136,20 +136,26 @@ class BaseScraper(ABC):
     @staticmethod
     def parse_currency(value: str) -> Optional[float]:
         """Parse Brazilian currency string to float."""
-        if not value:
+        if not value or value is None:
             return None
-        # Remove currency symbol, dots (thousands separator), and replace comma with dot
-        cleaned = re.sub(r'[R$\s]', '', value)
-        cleaned = cleaned.replace('.', '').replace(',', '.')
         try:
-            return float(cleaned)
-        except (ValueError, TypeError):
+            # Ensure it's a string
+            value = str(value) if value else ""
+            # Remove currency symbol, dots (thousands separator), and replace comma with dot
+            cleaned = re.sub(r'[R$\s]', '', value)
+            cleaned = cleaned.replace('.', '').replace(',', '.')
+            return float(cleaned) if cleaned else None
+        except (ValueError, TypeError, AttributeError):
             return None
             
     @staticmethod
     def parse_date(date_str: str) -> Optional[datetime]:
         """Parse Brazilian date string to datetime."""
-        if not date_str:
+        if not date_str or date_str is None:
+            return None
+        try:
+            date_str = str(date_str) if date_str else ""
+        except:
             return None
         
         # Common date formats in Brazilian auction sites

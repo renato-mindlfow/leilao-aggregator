@@ -313,12 +313,29 @@ def run_all_scrapers() -> Dict[str, Any]:
                                 else:
                                     prop_id = f"{scraper_slug}-{uuid.uuid4().hex[:16]}"
                             
+                            # Validate and normalize state (must be 2 chars)
+                            state_raw = prop_dict.get('state', 'NI')
+                            if state_raw:
+                                state_str = str(state_raw).upper().strip()
+                                # Extract only 2-letter state code
+                                state_match = re.search(r'\b([A-Z]{2})\b', state_str)
+                                if state_match:
+                                    validated_state = state_match.group(1)
+                                elif len(state_str) == 2 and state_str.isalpha():
+                                    validated_state = state_str
+                                elif len(state_str) > 2:
+                                    validated_state = state_str[:2]  # Truncate
+                                else:
+                                    validated_state = 'NI'  # Invalid
+                            else:
+                                validated_state = 'NI'
+                            
                             prop = Property(
                                 id=prop_id,
                                 title=prop_dict.get('title', 'Imóvel em Leilão'),
                                 address=prop_dict.get('address'),
                                 city=prop_dict.get('city', 'Não informado'),
-                                state=prop_dict.get('state', 'NI'),
+                                state=validated_state,
                                 neighborhood=prop_dict.get('neighborhood'),
                                 category=category,
                                 auction_type=auction_type,
