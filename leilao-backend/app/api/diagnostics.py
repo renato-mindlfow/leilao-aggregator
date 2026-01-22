@@ -5,17 +5,32 @@ API endpoints para diagnóstico de scrapers
 from fastapi import APIRouter, HTTPException
 from typing import Dict, List
 import logging
-
-from app.services.postgres_database import get_postgres_database
+import psycopg
+from psycopg.rows import dict_row
+import os
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/diagnostics", tags=["diagnostics"])
 
+def execute_diagnostic_query(query: str) -> List[Dict]:
+    """Executa uma query de diagnóstico e retorna os resultados"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise ValueError("DATABASE_URL não configurada")
+    
+    try:
+        with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                cur.execute(query)
+                results = cur.fetchall()
+                return [dict(row) for row in results]
+    except Exception as e:
+        logger.error(f"Erro ao executar query de diagnóstico: {e}")
+        raise
+
 @router.get("/scrapers/status-summary")
 async def get_status_summary():
     """Retorna resumo geral de status dos leiloeiros"""
-    db = get_postgres_database()
-    
     query = """
     SELECT 
         scrape_status,
@@ -26,7 +41,7 @@ async def get_status_summary():
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar status: {e}")
@@ -35,8 +50,6 @@ async def get_status_summary():
 @router.get("/scrapers/errors")
 async def get_scrapers_with_errors(limit: int = 50):
     """Retorna leiloeiros com erro"""
-    db = get_postgres_database()
-    
     query = f"""
     SELECT id, name, website, scrape_status, scrape_error
     FROM auctioneers
@@ -46,7 +59,7 @@ async def get_scrapers_with_errors(limit: int = 50):
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "count": len(results), "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar erros: {e}")
@@ -55,8 +68,6 @@ async def get_scrapers_with_errors(limit: int = 50):
 @router.get("/scrapers/pending")
 async def get_pending_scrapers(limit: int = 50):
     """Retorna leiloeiros pendentes"""
-    db = get_postgres_database()
-    
     query = f"""
     SELECT id, name, website, scrape_status
     FROM auctioneers
@@ -66,7 +77,7 @@ async def get_pending_scrapers(limit: int = 50):
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "count": len(results), "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar pendentes: {e}")
@@ -75,8 +86,6 @@ async def get_pending_scrapers(limit: int = 50):
 @router.get("/scrapers/success")
 async def get_successful_scrapers():
     """Retorna leiloeiros funcionando"""
-    db = get_postgres_database()
-    
     query = """
     SELECT id, name, website, property_count, last_scrape
     FROM auctioneers
@@ -85,7 +94,7 @@ async def get_successful_scrapers():
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "count": len(results), "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar sucessos: {e}")
@@ -94,8 +103,6 @@ async def get_successful_scrapers():
 @router.get("/properties/distribution")
 async def get_properties_distribution(limit: int = 20):
     """Retorna distribuição de imóveis por leiloeiro"""
-    db = get_postgres_database()
-    
     query = f"""
     SELECT 
         a.name as leiloeiro,
@@ -109,7 +116,7 @@ async def get_properties_distribution(limit: int = 20):
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "count": len(results), "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar distribuição: {e}")
@@ -118,8 +125,6 @@ async def get_properties_distribution(limit: int = 20):
 @router.get("/errors/types")
 async def get_error_types(limit: int = 20):
     """Retorna tipos de erros mais comuns"""
-    db = get_postgres_database()
-    
     query = f"""
     SELECT 
         scrape_error,
@@ -132,7 +137,7 @@ async def get_error_types(limit: int = 20):
     """
     
     try:
-        results = db.execute_query(query)
+        results = execute_diagnostic_query(query)
         return {"success": True, "count": len(results), "data": results}
     except Exception as e:
         logger.error(f"Erro ao consultar tipos de erros: {e}")
