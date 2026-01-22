@@ -399,6 +399,84 @@ async def fix_parsing_errors():
         logger.error(f"Erro ao corrigir parsing errors: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/run-cloudflare-sites-full")
+async def run_cloudflare_sites_full(limit: int = 63):
+    """Executa Playwright Stealth EM LOTE nos sites Cloudflare E SALVA NO BANCO"""
+    from app.scrapers.playwright_integrated_scraper import PlaywrightIntegratedScraper
+    
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    try:
+        results = {}
+        total_properties = 0
+        successful_sites = 0
+        
+        # Buscar sites marcados como needs_playwright
+        with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id, name, website 
+                    FROM auctioneers 
+                    WHERE scrape_status = 'needs_playwright'
+                    ORDER BY id
+                    LIMIT %s
+                """, (limit,))
+                
+                sites = cur.fetchall()
+                logger.info(f"Executando Playwright em {len(sites)} sites Cloudflare...")
+        
+        # Executar scraping em cada site
+        for i, site in enumerate(sites):
+            site_id = site['id']
+            name = site['name']
+            website = site['website']
+            
+            try:
+                logger.info(f"\n[{i+1}/{len(sites)}] Processando {name}...")
+                
+                # Criar novo scraper para cada site (evitar problemas de estado)
+                scraper = PlaywrightIntegratedScraper(headless=True)
+                result = await scraper.scrape_and_save_auctioneer(site_id, name, website)
+                
+                results[site_id] = result
+                
+                if result.get('success') and result.get('properties_saved', 0) > 0:
+                    total_properties += result['properties_saved']
+                    successful_sites += 1
+                    logger.info(f"✅ {name}: {result['properties_saved']} imóveis salvos")
+                else:
+                    logger.warning(f"⚠️ {name}: Nenhum imóvel salvo")
+                
+                # Delay entre sites para não sobrecarregar
+                if i < len(sites) - 1:
+                    await asyncio.sleep(3)
+                    
+            except Exception as e:
+                logger.error(f"❌ {name}: Erro - {e}")
+                results[site_id] = {
+                    'success': False,
+                    'auctioneer_id': site_id,
+                    'auctioneer_name': name,
+                    'error': str(e)
+                }
+        
+        return {
+            "success": True,
+            "results": results,
+            "summary": {
+                "total_sites_processed": len(results),
+                "successful_sites": successful_sites,
+                "total_properties_saved": total_properties,
+                "average_per_site": round(total_properties / len(results), 1) if results else 0
+            }
+        }
+    
+    except Exception as e:
+        logger.error(f"Erro ao executar lote Cloudflare: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/run-cloudflare-sites")
 async def run_cloudflare_sites(limit: int = 5):
     """Executa Playwright Stealth em sites Cloudflare"""
