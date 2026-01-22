@@ -129,88 +129,180 @@ class PlaywrightIntegratedScraper:
             logger.debug(f"Erro ao fazer scroll: {e}")
     
     def _extract_properties_from_html(self, html: str, base_url: str, auctioneer_id: str, auctioneer_name: str) -> List[Dict]:
-        """Extrai dados de imóveis do HTML"""
+        """Extrai dados de imóveis do HTML - VERSÃO MELHORADA"""
         soup = BeautifulSoup(html, 'html.parser')
         properties = []
         
-        # Múltiplos seletores para cards de imóveis
-        card_selectors = [
-            'div[class*="card"]',
-            'div[class*="item"]',
-            'div[class*="lote"]',
-            'div[class*="property"]',
-            'div[class*="imovel"]',
-            'article',
-            'div[class*="listing"]',
-            'div[class*="result"]'
-        ]
+        # ESTRATÉGIA 1: Procurar links diretos para lotes/imóveis
+        direct_links = soup.find_all('a', href=lambda x: x and any(
+            kw in x.lower() for kw in ['lote', 'imovel', 'property', 'item', 'detalhes', 'detail']
+        ))
         
-        all_cards = []
-        for selector in card_selectors:
-            cards = soup.select(selector)
-            all_cards.extend(cards)
+        if direct_links:
+            logger.info(f"✅ ESTRATÉGIA 1: Encontrados {len(direct_links)} links diretos")
+            for link in direct_links[:100]:  # Limitar a 100
+                try:
+                    # Pegar o card pai (se existir)
+                    card = link.find_parent(['div', 'article', 'li', 'tr'])
+                    if not card:
+                        card = link
+                    
+                    # Extrair título do link ou card
+                    title = None
+                    # Tentar atributos do link
+                    if link.get('title'):
+                        title = link.get('title').strip()
+                    elif link.get('aria-label'):
+                        title = link.get('aria-label').strip()
+                    elif link.get_text(strip=True):
+                        title = link.get_text(strip=True)
+                    
+                    # Tentar headers no card pai
+                    if not title and card:
+                        for tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                            header = card.find(tag)
+                            if header:
+                                title = header.get_text(strip=True)
+                                break
+                    
+                    if not title or len(title) < 3:
+                        continue
+                    
+                    # Limitar tamanho do título
+                    title = title[:500]
+                    
+                    # URL
+                    source_url = urljoin(base_url, link.get('href'))
+                    
+                    # Extrair outros dados do card
+                    card_text = card.get_text() if card else ''
+                    
+                    # Preço
+                    price = self._extract_price(card_text)
+                    
+                    # Localização
+                    location = self._extract_location(card_text)
+                    city, state = self._extract_city_state(location)
+                    
+                    # Imagem
+                    img = card.find('img', src=True) if card else None
+                    image_url = urljoin(base_url, img.get('src')) if img else None
+                    
+                    # Área
+                    area = self._extract_area(card_text)
+                    
+                    # Gerar ID único
+                    prop_id = self._generate_property_id(auctioneer_id, source_url, title)
+                    
+                    properties.append({
+                        'id': prop_id,
+                        'title': title,
+                        'source_url': source_url,
+                        'auction_value': price,
+                        'city': city or 'Não Informado',
+                        'state': state or 'NI',
+                        'image_url': image_url,
+                        'area': area,
+                        'auctioneer_id': auctioneer_id,
+                        'category': 'Outros',
+                        'auction_type': 'Outros',
+                        'scraped_at': datetime.now().isoformat()
+                    })
+                    
+                except Exception as e:
+                    logger.debug(f"Erro ao extrair link direto: {e}")
+                    continue
         
-        # Deduplicate cards
-        unique_cards = list({str(card): card for card in all_cards}.values())
+        # ESTRATÉGIA 2: Buscar por cards/containers se não encontrou links suficientes
+        if len(properties) < 5:
+            logger.info(f"⚠️ ESTRATÉGIA 2: Apenas {len(properties)} links diretos, tentando cards genéricos...")
+            
+            card_selectors = [
+                'div[class*="lote"]',
+                'div[class*="imovel"]',
+                'div[class*="property"]',
+                'article[class*="item"]',
+                'article[class*="card"]',
+                'div[class*="product"]',
+                'div[class*="listing"]',
+                'li[class*="item"]',
+                'div[id*="lote"]',
+                'div[id*="item"]'
+            ]
+            
+            all_cards = []
+            for selector in card_selectors:
+                cards = soup.select(selector)
+                if cards:
+                    logger.info(f"  - {selector}: {len(cards)} encontrados")
+                    all_cards.extend(cards)
+            
+            # Deduplicate
+            unique_cards = list({id(card): card for card in all_cards}.values())
+            logger.info(f"  Total: {len(unique_cards)} cards únicos")
+            
+            for i, card in enumerate(unique_cards[:100]):
+                try:
+                    # Extrair título (mais flexível)
+                    title = None
+                    for tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'b']:
+                        elem = card.find(tag)
+                        if elem:
+                            text = elem.get_text(strip=True)
+                            if len(text) > 3:
+                                title = text[:500]
+                                break
+                    
+                    # Se não achou header, pegar primeiro link com texto
+                    if not title:
+                        link = card.find('a', href=True)
+                        if link and link.get_text(strip=True):
+                            title = link.get_text(strip=True)[:500]
+                    
+                    if not title or len(title) < 3:
+                        continue
+                    
+                    # URL
+                    link = card.find('a', href=True)
+                    source_url = urljoin(base_url, link.get('href')) if link else base_url
+                    
+                    # Outros dados
+                    card_text = card.get_text()
+                    price = self._extract_price(card_text)
+                    location = self._extract_location(card_text)
+                    city, state = self._extract_city_state(location)
+                    
+                    img = card.find('img', src=True)
+                    image_url = urljoin(base_url, img.get('src')) if img else None
+                    
+                    area = self._extract_area(card_text)
+                    
+                    prop_id = self._generate_property_id(auctioneer_id, source_url, title)
+                    
+                    properties.append({
+                        'id': prop_id,
+                        'title': title,
+                        'source_url': source_url,
+                        'auction_value': price,
+                        'city': city or 'Não Informado',
+                        'state': state or 'NI',
+                        'image_url': image_url,
+                        'area': area,
+                        'auctioneer_id': auctioneer_id,
+                        'category': 'Outros',
+                        'auction_type': 'Outros',
+                        'scraped_at': datetime.now().isoformat()
+                    })
+                    
+                except Exception as e:
+                    logger.debug(f"Erro ao extrair card {i}: {e}")
+                    continue
         
-        logger.info(f"Encontrados {len(unique_cards)} cards únicos")
+        # Deduplicate por ID
+        unique_props = {p['id']: p for p in properties}.values()
+        properties = list(unique_props)
         
-        for i, card in enumerate(unique_cards[:50]):  # Limitar a 50 por página
-            try:
-                # Extrair título
-                title_selectors = ['h1', 'h2', 'h3', 'h4', '[class*="title"]', '[class*="titulo"]', 'a']
-                title = None
-                for sel in title_selectors:
-                    title_elem = card.select_one(sel)
-                    if title_elem and title_elem.get_text(strip=True):
-                        title = title_elem.get_text(strip=True)[:500]
-                        break
-                
-                if not title:
-                    continue  # Pular se não tiver título
-                
-                # Extrair URL
-                link = card.find('a', href=True)
-                source_url = urljoin(base_url, link.get('href')) if link else base_url
-                
-                # Extrair preço
-                price_text = card.get_text()
-                price = self._extract_price(price_text)
-                
-                # Extrair localização
-                location = self._extract_location(card.get_text())
-                city, state = self._extract_city_state(location)
-                
-                # Extrair imagem
-                img = card.find('img', src=True)
-                image_url = urljoin(base_url, img.get('src')) if img else None
-                
-                # Extrair área
-                area = self._extract_area(card.get_text())
-                
-                # Gerar ID único
-                prop_id = self._generate_property_id(auctioneer_id, source_url, title)
-                
-                properties.append({
-                    'id': prop_id,
-                    'title': title,
-                    'source_url': source_url,
-                    'auction_value': price,
-                    'city': city or 'Não Informado',
-                    'state': state or 'NI',
-                    'image_url': image_url,
-                    'area': area,
-                    'auctioneer_id': auctioneer_id,
-                    'category': 'Outros',  # Detectar categoria depois
-                    'auction_type': 'Outros',
-                    'scraped_at': datetime.now().isoformat()
-                })
-                
-            except Exception as e:
-                logger.debug(f"Erro ao extrair card {i}: {e}")
-                continue
-        
-        logger.info(f"Extraídos {len(properties)} imóveis válidos")
+        logger.info(f"✅ TOTAL EXTRAÍDO: {len(properties)} imóveis válidos")
         return properties
     
     def _extract_price(self, text: str) -> Optional[float]:
