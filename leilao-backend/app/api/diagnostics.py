@@ -195,6 +195,44 @@ async def get_auctioneer_details(auctioneer_id: str):
         logger.error(f"Erro ao buscar leiloeiro: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/reset-8-sites-with-properties")
+async def reset_8_sites_with_properties():
+    """Reseta status dos 8 sites com imóveis identificados para re-scraping"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    # 8 sites com imóveis que precisam de ajuste
+    site_ids = ['11', '48', '232', '74', '123', '80', '24', '95']
+    
+    try:
+        with psycopg.connect(DATABASE_URL) as conn:
+            with conn.cursor() as cur:
+                reset_count = 0
+                
+                for aid in site_ids:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'pending', 
+                            scrape_error = 'Site verificado - tem imóveis, aguardando re-scrape'
+                        WHERE id = %s
+                    """, (aid,))
+                    reset_count += cur.rowcount
+                    logger.info(f"Reset para re-scrape: ID {aid}")
+                
+                conn.commit()
+                
+                return {
+                    "success": True,
+                    "reset_count": reset_count,
+                    "site_ids": site_ids,
+                    "message": f"{reset_count} sites com imóveis resetados para re-scraping"
+                }
+    
+    except Exception as e:
+        logger.error(f"Erro ao resetar sites: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/update-quick-wins")
 async def update_quick_wins():
     """Atualiza status dos 11 sites identificados na verificação - Quick Wins PARTE 3.3"""
