@@ -475,9 +475,6 @@ async def run_cloudflare_sites(limit: int = 5):
                             'name': name
                         }
         
-        # Fechar browser
-        await scraper.close()
-        
         total_success = sum(1 for r in results.values() if r['status'] == 'success')
         total_properties = sum(r.get('properties', 0) for r in results.values())
         
