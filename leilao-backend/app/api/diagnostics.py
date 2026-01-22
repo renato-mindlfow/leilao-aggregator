@@ -406,27 +406,47 @@ async def run_8_sites():
     
     site_ids = ['11', '48', '232', '74', '123', '80', '24', '95']
     
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
     try:
         manager = ScraperManager()
         results = {}
         
-        for site_id in site_ids:
-            try:
-                logger.info(f"Iniciando scraping do site {site_id}")
-                success = await manager.run_scraper_by_id(site_id)
-                
-                if success:
-                    # Verificar quantas propriedades foram extraídas
-                    props = await manager.supabase.table('properties').select('id', count='exact').eq('auctioneer_id', site_id).execute()
-                    prop_count = props.count or 0
-                    results[site_id] = {'status': 'success', 'properties': prop_count}
-                    logger.info(f"Site {site_id}: SUCCESS - {prop_count} properties")
-                else:
-                    results[site_id] = {'status': 'error', 'properties': 0}
-                    logger.warning(f"Site {site_id}: ERROR")
-            except Exception as e:
-                logger.error(f"Site {site_id}: EXCEPTION - {e}")
-                results[site_id] = {'status': 'exception', 'error': str(e), 'properties': 0}
+        # Buscar nomes dos leiloeiros pelos IDs
+        with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                for site_id in site_ids:
+                    try:
+                        # Buscar informações do leiloeiro
+                        cur.execute("SELECT id, name, website FROM auctioneers WHERE id = %s", (site_id,))
+                        auctioneer = cur.fetchone()
+                        
+                        if not auctioneer:
+                            results[site_id] = {'status': 'not_found', 'properties': 0}
+                            logger.warning(f"Site {site_id}: NOT FOUND")
+                            continue
+                        
+                        name = auctioneer['name']
+                        logger.info(f"Iniciando scraping do site {site_id} - {name}")
+                        
+                        # Executar scraping usando o nome do leiloeiro
+                        properties = manager.run_scraper(name, max_pages=5)
+                        
+                        # Contar propriedades extraídas
+                        prop_count = len(properties) if properties else 0
+                        
+                        if prop_count > 0:
+                            results[site_id] = {'status': 'success', 'properties': prop_count, 'name': name}
+                            logger.info(f"Site {site_id}: SUCCESS - {prop_count} properties")
+                        else:
+                            results[site_id] = {'status': 'no_properties', 'properties': 0, 'name': name}
+                            logger.warning(f"Site {site_id}: NO PROPERTIES FOUND")
+                            
+                    except Exception as e:
+                        logger.error(f"Site {site_id}: EXCEPTION - {e}")
+                        results[site_id] = {'status': 'exception', 'error': str(e), 'properties': 0}
         
         total_success = sum(1 for r in results.values() if r['status'] == 'success')
         total_properties = sum(r.get('properties', 0) for r in results.values())
