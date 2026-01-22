@@ -204,7 +204,6 @@ async def mark_cloudflare_sites():
     
     # Carregar lista de sites Cloudflare da verificação
     import json
-    import os
     
     cloudflare_file = os.path.join(os.path.dirname(__file__), '../../verificacao_completa_20260122_101237.json')
     
