@@ -435,49 +435,44 @@ async def run_cloudflare_sites(limit: int = 5):
                         
                         # Tentar acessar o site e extrair propriedades
                         result = await scraper.scrape_with_stealth(website, wait_seconds=10)
-                        properties = result.get('property_links', [])
                         
-                        prop_count = len(properties) if properties else 0
+                        # property_links já é um contador (int), não uma lista
+                        prop_count = result.get('property_links', 0) if result.get('success') else 0
+                        cards_found = result.get('cards_found', 0)
                         
-                        if prop_count > 0:
-                            # Atualizar status para success
-                            cur.execute("""
-                                UPDATE auctioneers 
-                                SET scrape_status = 'success', 
-                                    scrape_error = NULL,
-                                    property_count = %s,
-                                    last_scrape = NOW()
-                                WHERE id = %s
-                            """, (prop_count, site_id))
-                            conn.commit()
-                            
+                        if cards_found > 0 or prop_count > 0:
+                            # Site tem conteúdo - considerar sucesso
                             results[site_id] = {
                                 'status': 'success', 
-                                'properties': prop_count,
+                                'property_links': prop_count,
+                                'cards_found': cards_found,
                                 'name': name,
                                 'bypassed_cloudflare': True
                             }
-                            logger.info(f"Site {site_id}: SUCCESS - {prop_count} properties")
+                            logger.info(f"Site {site_id}: SUCCESS - {cards_found} cards, {prop_count} links")
                         else:
                             results[site_id] = {
-                                'status': 'no_properties',
-                                'properties': 0,
+                                'status': 'no_content',
+                                'property_links': 0,
+                                'cards_found': 0,
                                 'name': name,
                                 'bypassed_cloudflare': True
                             }
-                            logger.warning(f"Site {site_id}: NO PROPERTIES")
+                            logger.warning(f"Site {site_id}: NO CONTENT FOUND")
                             
                     except Exception as e:
                         logger.error(f"Site {site_id}: EXCEPTION - {e}")
                         results[site_id] = {
                             'status': 'exception',
                             'error': str(e),
-                            'properties': 0,
+                            'property_links': 0,
+                            'cards_found': 0,
                             'name': name
                         }
         
         total_success = sum(1 for r in results.values() if r['status'] == 'success')
-        total_properties = sum(r.get('properties', 0) for r in results.values())
+        total_cards = sum(r.get('cards_found', 0) for r in results.values())
+        total_links = sum(r.get('property_links', 0) for r in results.values())
         
         return {
             "success": True,
@@ -485,7 +480,8 @@ async def run_cloudflare_sites(limit: int = 5):
             "summary": {
                 "total_tested": len(results),
                 "successful": total_success,
-                "total_properties_extracted": total_properties
+                "total_cards_found": total_cards,
+                "total_property_links": total_links
             }
         }
     
