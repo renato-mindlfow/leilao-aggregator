@@ -1,0 +1,33 @@
+{
+  "online_with_properties": [],
+  "online_no_properties": [],
+  "offline": [],
+  "redirected": [],
+  "cloudflare_protected": [
+    {
+      "id": "179",
+      "name": "Abaleiloes",
+      "website": "https://www.abaleiloes.com.br",
+      "status": "cloudflare_protected",
+      "http_status": 200,
+      "final_url": "https://www.abaleiloes.com.br",
+      "has_property_keywords": false,
+      "property_keyword_count": 0,
+      "content_size": 50581,
+      "error_message": "Protegido por Cloudflare"
+    },
+    {
+      "id": "104",
+      "name": "Agenciadeleiloes",
+      "website": "https://www.agenciadeleiloes.com.br",
+      "status": "cloudflare_protected",
+      "http_status": 200,
+      "final_url": "https://www.agenciadeleiloes.com.br",
+      "has_property_keywords": false,
+      "property_keyword_count": 0,
+      "content_size": 113739,
+      "error_message": "Protegido por Cloudflare"
+    }
+  ],
+  "error": []
+}
