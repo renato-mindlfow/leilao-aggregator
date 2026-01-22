@@ -399,6 +399,102 @@ async def fix_parsing_errors():
         logger.error(f"Erro ao corrigir parsing errors: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/run-cloudflare-sites")
+async def run_cloudflare_sites(limit: int = 5):
+    """Executa Playwright Stealth em sites Cloudflare"""
+    from app.scrapers.playwright_stealth_scraper import PlaywrightStealthScraper
+    
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    try:
+        scraper = PlaywrightStealthScraper(headless=True)
+        results = {}
+        
+        # Buscar sites marcados como needs_playwright
+        with psycopg.connect(DATABASE_URL, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id, name, website 
+                    FROM auctioneers 
+                    WHERE scrape_status = 'needs_playwright'
+                    ORDER BY id
+                    LIMIT %s
+                """, (limit,))
+                
+                sites = cur.fetchall()
+                
+                for site in sites:
+                    site_id = site['id']
+                    name = site['name']
+                    website = site['website']
+                    
+                    try:
+                        logger.info(f"Testando Playwright em {site_id} - {name}")
+                        
+                        # Tentar acessar o site e extrair propriedades
+                        properties = await scraper.scrape_with_retry(website, max_retries=2)
+                        
+                        prop_count = len(properties) if properties else 0
+                        
+                        if prop_count > 0:
+                            # Atualizar status para success
+                            cur.execute("""
+                                UPDATE auctioneers 
+                                SET scrape_status = 'success', 
+                                    scrape_error = NULL,
+                                    property_count = %s,
+                                    last_scrape = NOW()
+                                WHERE id = %s
+                            """, (prop_count, site_id))
+                            conn.commit()
+                            
+                            results[site_id] = {
+                                'status': 'success', 
+                                'properties': prop_count,
+                                'name': name,
+                                'bypassed_cloudflare': True
+                            }
+                            logger.info(f"Site {site_id}: SUCCESS - {prop_count} properties")
+                        else:
+                            results[site_id] = {
+                                'status': 'no_properties',
+                                'properties': 0,
+                                'name': name,
+                                'bypassed_cloudflare': True
+                            }
+                            logger.warning(f"Site {site_id}: NO PROPERTIES")
+                            
+                    except Exception as e:
+                        logger.error(f"Site {site_id}: EXCEPTION - {e}")
+                        results[site_id] = {
+                            'status': 'exception',
+                            'error': str(e),
+                            'properties': 0,
+                            'name': name
+                        }
+        
+        # Fechar browser
+        await scraper.close()
+        
+        total_success = sum(1 for r in results.values() if r['status'] == 'success')
+        total_properties = sum(r.get('properties', 0) for r in results.values())
+        
+        return {
+            "success": True,
+            "results": results,
+            "summary": {
+                "total_tested": len(results),
+                "successful": total_success,
+                "total_properties_extracted": total_properties
+            }
+        }
+    
+    except Exception as e:
+        logger.error(f"Erro ao executar Cloudflare sites: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/run-8-sites")
 async def run_8_sites():
     """Executa scraping dos 8 sites com imóveis identificados"""
