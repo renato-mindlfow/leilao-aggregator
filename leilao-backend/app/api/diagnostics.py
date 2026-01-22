@@ -399,6 +399,52 @@ async def fix_parsing_errors():
         logger.error(f"Erro ao corrigir parsing errors: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/run-8-sites")
+async def run_8_sites():
+    """Executa scraping dos 8 sites com imóveis identificados"""
+    from app.scrapers.scraper_manager import ScraperManager
+    
+    site_ids = ['11', '48', '232', '74', '123', '80', '24', '95']
+    
+    try:
+        manager = ScraperManager()
+        results = {}
+        
+        for site_id in site_ids:
+            try:
+                logger.info(f"Iniciando scraping do site {site_id}")
+                success = await manager.run_scraper_by_id(site_id)
+                
+                if success:
+                    # Verificar quantas propriedades foram extraídas
+                    props = await manager.supabase.table('properties').select('id', count='exact').eq('auctioneer_id', site_id).execute()
+                    prop_count = props.count or 0
+                    results[site_id] = {'status': 'success', 'properties': prop_count}
+                    logger.info(f"Site {site_id}: SUCCESS - {prop_count} properties")
+                else:
+                    results[site_id] = {'status': 'error', 'properties': 0}
+                    logger.warning(f"Site {site_id}: ERROR")
+            except Exception as e:
+                logger.error(f"Site {site_id}: EXCEPTION - {e}")
+                results[site_id] = {'status': 'exception', 'error': str(e), 'properties': 0}
+        
+        total_success = sum(1 for r in results.values() if r['status'] == 'success')
+        total_properties = sum(r.get('properties', 0) for r in results.values())
+        
+        return {
+            "success": True,
+            "results": results,
+            "summary": {
+                "total_sites": len(site_ids),
+                "successful": total_success,
+                "total_properties_extracted": total_properties
+            }
+        }
+    
+    except Exception as e:
+        logger.error(f"Erro ao executar 8 sites: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/fix-duplicate-keys")
 async def fix_duplicate_keys():
     """Remove propriedades com IDs duplicados que causam erro e reseta status dos leiloeiros"""
