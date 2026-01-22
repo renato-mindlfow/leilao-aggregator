@@ -32,7 +32,7 @@ class PlaywrightIntegratedScraper:
         
         # Setup Supabase
         supabase_url = os.environ.get("SUPABASE_URL")
-        supabase_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+        supabase_key = os.environ.get("SUPABASE_KEY") or os.environ.get("SUPABASE_SERVICE_KEY")
         self.supabase: Client = create_client(supabase_url, supabase_key)
         
     async def _setup_browser(self):
