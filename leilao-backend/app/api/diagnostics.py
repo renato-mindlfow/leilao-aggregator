@@ -168,3 +168,56 @@ async def get_full_diagnostic_report():
     except Exception as e:
         logger.error(f"Erro ao gerar relatório completo: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/fix-duplicate-keys")
+async def fix_duplicate_keys():
+    """Remove propriedades com IDs duplicados que causam erro e reseta status dos leiloeiros"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    # IDs problemáticos identificados
+    duplicate_property_ids = [
+        'Correaleiloes_Lote 1',
+        'Centraljudicial_352',
+        'Marangonileiloes_Lote 1',
+        'Lancenoleilao_24090'
+    ]
+    
+    # IDs dos leiloeiros para resetar status
+    auctioneer_ids_to_reset = ['117', '62', '226', '25']
+    
+    try:
+        with psycopg.connect(DATABASE_URL) as conn:
+            with conn.cursor() as cur:
+                deleted_count = 0
+                
+                # Deletar propriedades duplicadas
+                for prop_id in duplicate_property_ids:
+                    cur.execute("DELETE FROM properties WHERE id = %s", (prop_id,))
+                    deleted_count += cur.rowcount
+                    logger.info(f"Deletado: {prop_id} ({cur.rowcount} rows)")
+                
+                # Resetar status dos leiloeiros para permitir re-scraping
+                for auc_id in auctioneer_ids_to_reset:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'pending', 
+                            scrape_error = NULL,
+                            last_scrape = NULL
+                        WHERE id = %s
+                    """, (auc_id,))
+                    logger.info(f"Reset status do leiloeiro ID: {auc_id}")
+                
+                conn.commit()
+                
+                return {
+                    "success": True,
+                    "deleted_properties": deleted_count,
+                    "reset_auctioneers": len(auctioneer_ids_to_reset),
+                    "message": f"Removidas {deleted_count} propriedades duplicadas e resetados {len(auctioneer_ids_to_reset)} leiloeiros"
+                }
+    
+    except Exception as e:
+        logger.error(f"Erro ao corrigir duplicate keys: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
