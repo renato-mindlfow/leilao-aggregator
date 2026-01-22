@@ -195,6 +195,80 @@ async def get_auctioneer_details(auctioneer_id: str):
         logger.error(f"Erro ao buscar leiloeiro: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/update-quick-wins")
+async def update_quick_wins():
+    """Atualiza status dos 11 sites identificados na verificação - Quick Wins PARTE 3.3"""
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise HTTPException(status_code=500, detail="DATABASE_URL não configurada")
+    
+    # Sites identificados na verificação
+    offline_ids = ['207', '223', '218']  # Anabrasilleiloes, Hastalegal, Oreidosleiloes
+    no_properties_ids = ['271', '196', '250']  # Arenaleiloes, Jcleiloeiro, Odarlicanezinleiloes
+    redirected_updates = [
+        ('38', 'https://www.alexandridis.leilao.br/'),
+        ('208', 'https://www.e-leiloeiro.leilao.br/'),
+        ('26', 'https://leilo.com.br/'),
+        ('90', 'https://jrleiloes.com.br'),
+        ('29', 'https://www.teza.com.br/')
+    ]
+    
+    try:
+        with psycopg.connect(DATABASE_URL) as conn:
+            with conn.cursor() as cur:
+                updated_count = 0
+                
+                # Marcar offline como disabled
+                for aid in offline_ids:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'disabled', 
+                            scrape_error = 'Site offline ou inacessível'
+                        WHERE id = %s
+                    """, (aid,))
+                    updated_count += cur.rowcount
+                    logger.info(f"Marcado como disabled: ID {aid}")
+                
+                # Marcar sites sem imóveis
+                for aid in no_properties_ids:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET scrape_status = 'no_properties', 
+                            scrape_error = 'Site online mas sem imóveis disponíveis'
+                        WHERE id = %s
+                    """, (aid,))
+                    updated_count += cur.rowcount
+                    logger.info(f"Marcado como no_properties: ID {aid}")
+                
+                # Atualizar URLs redirecionadas
+                for aid, new_url in redirected_updates:
+                    cur.execute("""
+                        UPDATE auctioneers 
+                        SET website = %s, 
+                            scrape_status = 'pending', 
+                            scrape_error = NULL
+                        WHERE id = %s
+                    """, (new_url, aid))
+                    updated_count += cur.rowcount
+                    logger.info(f"URL atualizada: ID {aid} -> {new_url}")
+                
+                conn.commit()
+                
+                return {
+                    "success": True,
+                    "updated_count": updated_count,
+                    "details": {
+                        "offline_disabled": len(offline_ids),
+                        "no_properties": len(no_properties_ids),
+                        "redirected": len(redirected_updates)
+                    },
+                    "message": f"Quick wins aplicados: {updated_count} leiloeiros atualizados"
+                }
+    
+    except Exception as e:
+        logger.error(f"Erro ao aplicar quick wins: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.post("/fix-parsing-errors")
 async def fix_parsing_errors():
     """Reseta status de leiloeiros com erros de parsing e validação"""
