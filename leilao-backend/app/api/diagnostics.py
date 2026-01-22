@@ -434,7 +434,8 @@ async def run_cloudflare_sites(limit: int = 5):
                         logger.info(f"Testando Playwright em {site_id} - {name}")
                         
                         # Tentar acessar o site e extrair propriedades
-                        properties = await scraper.scrape_with_retry(website, max_retries=2)
+                        result = await scraper.scrape_with_stealth(website, wait_seconds=10)
+                        properties = result.get('property_links', [])
                         
                         prop_count = len(properties) if properties else 0
                         
