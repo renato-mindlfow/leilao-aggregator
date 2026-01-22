@@ -1,6 +1,6 @@
 """
 Playwright Integrated Scraper - Extrai e salva imóveis no banco
-Versão integrada que persiste dados reais
+Versão integrada que persiste dados reais + PAGINAÇÃO
 """
 
 import asyncio
@@ -17,6 +17,7 @@ import os
 
 from app.models.property import Property
 from supabase import create_client, Client
+from app.scrapers.pagination_handler import PaginationHandler
 
 logger = logging.getLogger(__name__)
 
@@ -386,7 +387,7 @@ class PlaywrightIntegratedScraper:
             # Scroll para lazy content
             await self._scroll_page()
             
-            # Obter HTML
+            # Obter HTML da primeira página
             html = await self.page.content()
             
             # Verificar Cloudflare
@@ -395,8 +396,68 @@ class PlaywrightIntegratedScraper:
                 await asyncio.sleep(10)
                 html = await self.page.content()
             
-            # Extrair propriedades
+            # Detectar paginação
+            pagination_handler = PaginationHandler(website)
+            pagination_info = pagination_handler.detect_pagination_from_html(html)
+            
+            logger.info(f"[{auctioneer_name}] Paginação: {pagination_info.get('has_pagination')}")
+            if pagination_info.get('has_pagination'):
+                logger.info(f"   Tipo: {pagination_info.get('type')}, Total páginas estimadas: {pagination_info.get('total_pages', 'desconhecido')}")
+            
+            # Extrair propriedades da primeira página
+            all_properties = []
             properties = self._extract_properties_from_html(html, website, auctioneer_id, auctioneer_name)
+            all_properties.extend(properties)
+            logger.info(f"[{auctioneer_name}] Página 1: {len(properties)} imóveis")
+            
+            # Se tem paginação, processar páginas adicionais
+            if pagination_info.get('has_pagination'):
+                max_pages = min(pagination_info.get('total_pages', 10) or 10, 20)  # Limite de 20 páginas
+                consecutive_empty = 0
+                
+                for page_num in range(2, max_pages + 1):
+                    try:
+                        # Gerar URL da próxima página
+                        page_url = pagination_handler.get_page_url(page_num)
+                        logger.info(f"[{auctioneer_name}] Acessando página {page_num}: {page_url}")
+                        
+                        # Navegar para próxima página
+                        await self.page.goto(page_url, wait_until='networkidle', timeout=30000)
+                        await asyncio.sleep(2)
+                        await self._scroll_page()
+                        
+                        # Extrair imóveis da página
+                        html = await self.page.content()
+                        page_properties = self._extract_properties_from_html(html, website, auctioneer_id, auctioneer_name)
+                        
+                        if page_properties:
+                            all_properties.extend(page_properties)
+                            logger.info(f"[{auctioneer_name}] Página {page_num}: {len(page_properties)} imóveis")
+                            consecutive_empty = 0
+                        else:
+                            logger.warning(f"[{auctioneer_name}] Página {page_num}: vazia")
+                            consecutive_empty += 1
+                            
+                            # Parar se 2 páginas vazias consecutivas
+                            if consecutive_empty >= 2:
+                                logger.info(f"[{auctioneer_name}] 2 páginas vazias consecutivas, parando paginação")
+                                break
+                        
+                        # Delay entre páginas
+                        await asyncio.sleep(1)
+                        
+                    except Exception as e:
+                        logger.error(f"[{auctioneer_name}] Erro na página {page_num}: {e}")
+                        consecutive_empty += 1
+                        if consecutive_empty >= 2:
+                            break
+                
+                # Deduplicate por ID
+                unique_props = {p['id']: p for p in all_properties}
+                properties = list(unique_props.values())
+                logger.info(f"[{auctioneer_name}] TOTAL após paginação: {len(properties)} imóveis únicos")
+            else:
+                properties = all_properties
             
             if not properties:
                 logger.warning(f"[{auctioneer_name}] Nenhum imóvel extraído")
