@@ -1,0 +1,104 @@
+{
+  "fase": "FASE 5 - Validar Qualidade dos Dados",
+  "data_execucao": "2026-01-22T23:00:44.754171",
+  "acoes_executadas": [
+    "[23:00:44] === 5.1 Verificando campos obrigatorios ===",
+    "[23:00:48] Verificacao de campos obrigatorios concluida",
+    "[23:00:48] \n=== 5.2 Verificando consistencia dos dados ===",
+    "[23:00:48] Verificacao de consistencia concluida",
+    "[23:00:48] \n=== 5.3 Analisando completude por leiloeiro ===",
+    "[23:00:50] Analise por leiloeiro concluida",
+    "[23:00:50] \n=== 5.4 Tentando inferir estados faltantes ===",
+    "[23:00:50] Nenhum estado pode ser inferido automaticamente",
+    "[23:00:50] \n=== Verificando criterios de sucesso ===",
+    "[23:00:50] Gerando relatorio RELATORIO_QUALIDADE_DADOS.md",
+    "[23:00:50] Relatorio gerado com sucesso"
+  ],
+  "metricas_qualidade": {
+    "total_imoveis": 52989,
+    "sem_titulo": 1328,
+    "pct_com_titulo": 97.5,
+    "sem_preco": 2431,
+    "pct_com_preco": 95.4,
+    "sem_estado": 2111,
+    "pct_com_estado": 96.0,
+    "sem_cidade": 2081,
+    "pct_com_cidade": 96.1,
+    "sem_url": 1,
+    "pct_com_url": 100.0,
+    "inconsistencias": {
+      "precos_inconsistentes": 0,
+      "datas_expiradas": 0,
+      "areas_invalidas": 18
+    },
+    "por_leiloeiro": [
+      {
+        "nome": "Caixa Econômica Federal",
+        "total": 32547,
+        "pct_titulo": 100.0,
+        "pct_preco": 100.0
+      },
+      {
+        "nome": "Mega Leilões",
+        "total": 1000,
+        "pct_titulo": 100.0,
+        "pct_preco": 95.8
+      },
+      {
+        "nome": "Turanileiloes",
+        "total": 394,
+        "pct_titulo": 100.0,
+        "pct_preco": 98.5
+      },
+      {
+        "nome": "Dhleiloes",
+        "total": 300,
+        "pct_titulo": 100.0,
+        "pct_preco": 99.7
+      },
+      {
+        "nome": "Natalialeiloes",
+        "total": 297,
+        "pct_titulo": 100.0,
+        "pct_preco": 100.0
+      },
+      {
+        "nome": "Cristianoescolaleiloes",
+        "total": 250,
+        "pct_titulo": 100.0,
+        "pct_preco": 98.0
+      },
+      {
+        "nome": "Cardosoleiloes",
+        "total": 250,
+        "pct_titulo": 100.0,
+        "pct_preco": 98.8
+      },
+      {
+        "nome": "Hastapublica",
+        "total": 250,
+        "pct_titulo": 100.0,
+        "pct_preco": 98.0
+      },
+      {
+        "nome": "Allianceleiloes",
+        "total": 200,
+        "pct_titulo": 100.0,
+        "pct_preco": 100.0
+      },
+      {
+        "nome": "Picellileiloes",
+        "total": 200,
+        "pct_titulo": 100.0,
+        "pct_preco": 100.0
+      }
+    ]
+  },
+  "correcoes_aplicadas": [],
+  "criterios_sucesso": {
+    "pct_com_titulo_95": true,
+    "pct_com_preco_90": true,
+    "pct_com_estado_90": true,
+    "inconsistencias_zero": false
+  }
+}

@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "20",
+    "name": "Vivaleiloes",
+    "website": "https://www.vivaleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 172021,
+      "erro": null
+    }
+  },
+  {
+    "id": "33",
+    "name": "Unileiloes",
+    "website": "https://www.unileiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 351576,
+      "erro": null
+    }
+  },
+  {
+    "id": "27",
+    "name": "Depaulaonline",
+    "website": "https://www.depaulaonline.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 138314,
+      "erro": null
+    }
+  },
+  {
+    "id": "3",
+    "name": "Lancetotal",
+    "website": "https://www.lancetotal.com.br",
+    "categoria": "com_erro",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 63736,
+      "erro": null
+    }
+  },
+  {
+    "id": "4",
+    "name": "Freitasleiloeiro",
+    "website": "https://www.freitasleiloeiro.com.br",
+    "categoria": "com_erro",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate ("
+    }
+  },
+  {
+    "id": "5",
+    "name": "Frazaoleiloes",
+    "website": "https://www.frazaoleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": null,
+    "classificacao": "requires_login",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 295643,
+      "erro": null
+    }
+  },
+  {
+    "id": "63",
+    "name": "Moralesleiloes",
+    "website": "https://www.moralesleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": true,
+      "content_length": 25867,
+      "erro": null
+    }
+  },
+  {
+    "id": "83",
+    "name": "Spencerleiloes",
+    "website": "https://www.spencerleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": true,
+      "content_length": 204402,
+      "erro": null
+    }
+  },
+  {
+    "id": "57",
+    "name": "Webleiloes",
+    "website": "https://www.webleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 477987,
+      "erro": null
+    }
+  },
+  {
+    "id": "71",
+    "name": "Oleiloes",
+    "website": "https://www.oleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": true,
+      "content_length": 593221,
+      "erro": null
+    }
+  },
+  {
+    "id": "45",
+    "name": "Sumareleiloes",
+    "website": "https://www.sumareleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate ("
+    }
+  },
+  {
+    "id": "118",
+    "name": "Santoseborinleiloes",
+    "website": "https://www.santoseborinleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 213642,
+      "erro": null
+    }
+  },
+  {
+    "id": "216",
+    "name": "Leiloes61",
+    "website": "https://www.leiloes61.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 30465,
+      "erro": null
+    }
+  },
+  {
+    "id": "210",
+    "name": "Morescoleiloes",
+    "website": "https://www.morescoleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 184758,
+      "erro": null
+    }
+  },
+  {
+    "id": "247",
+    "name": "Medeirosleiloes",
+    "website": "https://www.medeirosleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 62596,
+      "erro": null
+    }
+  },
+  {
+    "id": "246",
+    "name": "Josequencaleiloeiro",
+    "website": "https://www.josequencaleiloeiro.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate ("
+    }
+  },
+  {
+    "id": "243",
+    "name": "Monzonleiloes",
+    "website": "https://www.monzonleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": false,
+      "content_length": 68687,
+      "erro": null
+    }
+  },
+  {
+    "id": "273",
+    "name": "Leiloaria",
+    "website": "https://www.leiloaria.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": false,
+      "content_length": 68692,
+      "erro": null
+    }
+  },
+  {
+    "id": "274",
+    "name": "Pactoleiloes",
+    "website": "https://www.pactoleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 1709925,
+      "erro": null
+    }
+  },
+  {
+    "id": "237",
+    "name": "Machadoleiloeiro",
+    "website": "https://www.machadoleiloeiro.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 66794,
+      "erro": null
+    }
+  },
+  {
+    "id": "241",
+    "name": "Montenegroleiloes",
+    "website": "https://www.montenegroleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 403,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": false,
+      "content_length": 5480,
+      "erro": null
+    }
+  },
+  {
+    "id": "34",
+    "name": "Projudleiloes",
+    "website": "https://www.projudleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 194388,
+      "erro": null
+    }
+  },
+  {
+    "id": "280",
+    "name": "Leilaoeletronico",
+    "website": "https://www.leilaoeletronico.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 239985,
+      "erro": null
+    }
+  },
+  {
+    "id": "84",
+    "name": "Leiloeiropublico",
+    "website": "https://www.leiloeiropublico.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 55582,
+      "erro": null
+    }
+  },
+  {
+    "id": "35",
+    "name": "Nossoleilao",
+    "website": "https://www.nossoleilao.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 88636,
+      "erro": null
+    }
+  },
+  {
+    "id": "113",
+    "name": "Zaccariasleiloes",
+    "website": "https://www.zaccariasleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 140157,
+      "erro": null
+    }
+  },
+  {
+    "id": "70",
+    "name": "Silveiraleiloes",
+    "website": "https://www.silveiraleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 191817,
+      "erro": null
+    }
+  },
+  {
+    "id": "89",
+    "name": "Leilaosantos",
+    "website": "https://www.leilaosantos.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 25698,
+      "erro": null
+    }
+  },
+  {
+    "id": "93",
+    "name": "Pietosoleiloes",
+    "website": "https://www.pietosoleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 157172,
+      "erro": null
+    }
+  },
+  {
+    "id": "99",
+    "name": "Leilaobutia",
+    "website": "https://www.leilaobutia.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 105868,
+      "erro": null
+    }
+  },
+  {
+    "id": "100",
+    "name": "Scheidleiloes",
+    "website": "https://www.scheidleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 157722,
+      "erro": null
+    }
+  },
+  {
+    "id": "103",
+    "name": "Mpleilao",
+    "website": "https://www.mpleilao.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 218983,
+      "erro": null
+    }
+  },
+  {
+    "id": "105",
+    "name": "Scholanteleiloes",
+    "website": "https://www.scholanteleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 148151,
+      "erro": null
+    }
+  },
+  {
+    "id": "112",
+    "name": "Rabuskeleiloes",
+    "website": "https://www.rabuskeleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 81770,
+      "erro": null
+    }
+  },
+  {
+    "id": "102",
+    "name": "Lessaleiloes",
+    "website": "https://www.lessaleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 188965,
+      "erro": null
+    }
+  },
+  {
+    "id": "121",
+    "name": "Santayanaleiloes",
+    "website": "https://www.santayanaleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 154146,
+      "erro": null
+    }
+  },
+  {
+    "id": "122",
+    "name": "Zuccalmaglioleiloes",
+    "website": "https://www.zuccalmaglioleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 132597,
+      "erro": null
+    }
+  },
+  {
+    "id": "220",
+    "name": "Natalialeiloes",
+    "website": "https://www.natalialeiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 80589,
+      "erro": null
+    }
+  },
+  {
+    "id": "126",
+    "name": "Marceloleiloeiro",
+    "website": "https://www.marceloleiloeiro.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 511164,
+      "erro": null
+    }
+  },
+  {
+    "id": "130",
+    "name": "Vidalleiloes",
+    "website": "https://www.vidalleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 142933,
+      "erro": null
+    }
+  },
+  {
+    "id": "135",
+    "name": "Ruipintoleiloeiro",
+    "website": "https://www.ruipintoleiloeiro.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 403,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 6971,
+      "erro": null
+    }
+  },
+  {
+    "id": "138",
+    "name": "Leiloeirobarbieri",
+    "website": "https://www.leiloeirobarbieri.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 156513,
+      "erro": null
+    }
+  },
+  {
+    "id": "139",
+    "name": "Michellileiloes",
+    "website": "https://www.michellileiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 131248,
+      "erro": null
+    }
+  },
+  {
+    "id": "151",
+    "name": "Szortykaleiloes",
+    "website": "https://www.szortykaleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 291889,
+      "erro": null
+    }
+  },
+  {
+    "id": "154",
+    "name": "Utzigleiloes",
+    "website": "https://www.utzigleiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 81349,
+      "erro": null
+    }
+  },
+  {
+    "id": "142",
+    "name": "Lipinskileiloes",
+    "website": "https://www.lipinskileiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "Nenhum imóvel encontrado",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 129111,
+      "erro": null
+    }
+  },
+  {
+    "id": "166",
+    "name": "Turanileiloes",
+    "website": "https://www.turanileiloes.com.br",
+    "categoria": "com_erro",
+    "erro_original": "'NoneType' object has no attribute 'replace'",
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": true,
+      "content_length": 41898,
+      "erro": null
+    }
+  },
+  {
+    "id": "ten_leiloes",
+    "name": "Ten Leilões",
+    "website": "https://www.tenleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[Errno 11001] getaddrinfo failed"
+    }
+  },
+  {
+    "id": "207",
+    "name": "Anabrasilleiloes",
+    "website": "https://www.anabrasilleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_outro",
+    "verificacao": {
+      "online": true,
+      "status_code": 404,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 146,
+      "erro": null
+    }
+  },
+  {
+    "id": "25",
+    "name": "Lancenoleilao",
+    "website": "https://www.lancenoleilao.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 119382,
+      "erro": null
+    }
+  },
+  {
+    "id": "60",
+    "name": "Lanceleiloes",
+    "website": "https://www.lanceleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 25402,
+      "erro": null
+    }
+  },
+  {
+    "id": "7",
+    "name": "Leiloes",
+    "website": "https://www.leiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_standard",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 5607,
+      "erro": null
+    }
+  },
+  {
+    "id": "8",
+    "name": "Grupoarremateleiloes",
+    "website": "https://www.grupoarremateleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 157279,
+      "erro": null
+    }
+  },
+  {
+    "id": "10",
+    "name": "Milanleiloes",
+    "website": "https://www.milanleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 403,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 7030,
+      "erro": null
+    }
+  },
+  {
+    "id": "14",
+    "name": "Leilaovip",
+    "website": "https://www.leilaovip.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "requires_login",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 407880,
+      "erro": null
+    }
+  },
+  {
+    "id": "16",
+    "name": "Bestleiloes",
+    "website": "https://www.bestleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 73377,
+      "erro": null
+    }
+  },
+  {
+    "id": "18",
+    "name": "Casareisleiloesonline",
+    "website": "https://www.casareisleiloesonline.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 189913,
+      "erro": null
+    }
+  },
+  {
+    "id": "onildo_bastos_leiloeiro",
+    "name": "Onildo Bastos Leiloeiro",
+    "website": "https://www.onildobastos.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_standard",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 2258,
+      "erro": null
+    }
+  },
+  {
+    "id": "fv_leiloes",
+    "name": "FV Leilões",
+    "website": "https://www.fvleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 192508,
+      "erro": null
+    }
+  },
+  {
+    "id": "fabiano_ayupp_leiloeiro",
+    "name": "Fabiano Ayupp Leiloeiro",
+    "website": "https://www.fabianoayupp.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[Errno 11001] getaddrinfo failed"
+    }
+  },
+  {
+    "id": "leiloes_aguiar",
+    "name": "Leilões Aguiar",
+    "website": "https://www.leiloesaguiar.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 77355,
+      "erro": null
+    }
+  },
+  {
+    "id": "klockner_leiloes",
+    "name": "Klockner Leilões",
+    "website": "https://www.klocknerleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[Errno 11001] getaddrinfo failed"
+    }
+  },
+  {
+    "id": "68",
+    "name": "Hisaleiloes",
+    "website": "https://www.hisaleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 91394,
+      "erro": null
+    }
+  },
+  {
+    "id": "facanha_leiloes",
+    "name": "Facanha Leilões",
+    "website": "https://www.facanhaleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 66897,
+      "erro": null
+    }
+  },
+  {
+    "id": "37",
+    "name": "Raicherleiloes",
+    "website": "https://www.raicherleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 44400,
+      "erro": null
+    }
+  },
+  {
+    "id": "gp_leiloes",
+    "name": "GP Leilões",
+    "website": "https://www.gpleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_standard",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 2105,
+      "erro": null
+    }
+  },
+  {
+    "id": "baldissera",
+    "name": "Baldissera Leiloeiros",
+    "website": "https://www.baldisseraleiloeiros.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_standard",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 1632,
+      "erro": null
+    }
+  },
+  {
+    "id": "aline_marques_leiloeira",
+    "name": "Aline Marques Leiloeira",
+    "website": "https://www.alinemarques.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[Errno 11001] getaddrinfo failed"
+    }
+  },
+  {
+    "id": "jrf_leiloes",
+    "name": "JRF Leilões",
+    "website": "https://www.jrfleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": false,
+      "content_length": 68666,
+      "erro": null
+    }
+  },
+  {
+    "id": "arremax_leiloes",
+    "name": "Arremax Leilões",
+    "website": "https://www.arremaxleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 175020,
+      "erro": null
+    }
+  },
+  {
+    "id": "dcm_leiloes",
+    "name": "DCM Leilões",
+    "website": "https://www.dcmleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 69049,
+      "erro": null
+    }
+  },
+  {
+    "id": "ags_leiloes",
+    "name": "AGS Leilões",
+    "website": "https://www.agsleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 185918,
+      "erro": null
+    }
+  },
+  {
+    "id": "agostinho_leiloes",
+    "name": "Agostinho Leilões",
+    "website": "https://www.agostinholeiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 74169,
+      "erro": null
+    }
+  },
+  {
+    "id": "gilson_leiloes",
+    "name": "Gilson Leilões",
+    "website": "https://www.gilsonleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "requires_login",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": false,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 115230,
+      "erro": null
+    }
+  },
+  {
+    "id": "52",
+    "name": "Fidalgoleiloes",
+    "website": "https://www.fidalgoleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 176936,
+      "erro": null
+    }
+  },
+  {
+    "id": "61",
+    "name": "Escritoriodeleiloes",
+    "website": "https://www.escritoriodeleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": false,
+      "content_length": 113968,
+      "erro": null
+    }
+  },
+  {
+    "id": "65",
+    "name": "Leiloesgold",
+    "website": "https://www.leiloesgold.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 97455,
+      "erro": null
+    }
+  },
+  {
+    "id": "75",
+    "name": "Joaoluizleiloes",
+    "website": "https://www.joaoluizleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 44752,
+      "erro": null
+    }
+  },
+  {
+    "id": "94",
+    "name": "Rauppleiloes",
+    "website": "https://www.rauppleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 193122,
+      "erro": null
+    }
+  },
+  {
+    "id": "101",
+    "name": "Bronzattoleiloes",
+    "website": "https://www.bronzattoleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 41309,
+      "erro": null
+    }
+  },
+  {
+    "id": "209",
+    "name": "Soleiloes",
+    "website": "https://www.soleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 263348,
+      "erro": null
+    }
+  },
+  {
+    "id": "214",
+    "name": "Bastonleiloes",
+    "website": "https://www.bastonleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 64989,
+      "erro": null
+    }
+  },
+  {
+    "id": "222",
+    "name": "Tmleiloes",
+    "website": "https://www.tmleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 42344,
+      "erro": null
+    }
+  },
+  {
+    "id": "257",
+    "name": "Lottileiloes",
+    "website": "https://www.lottileiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 41651,
+      "erro": null
+    }
+  },
+  {
+    "id": "275",
+    "name": "Sublimeleiloes",
+    "website": "https://www.sublimeleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 194706,
+      "erro": null
+    }
+  },
+  {
+    "id": "85",
+    "name": "Nogarileiloes",
+    "website": "https://www.nogarileiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 48319,
+      "erro": null
+    }
+  },
+  {
+    "id": "86",
+    "name": "Alemaoleiloeiro",
+    "website": "https://www.alemaoleiloeiro.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 64960,
+      "erro": null
+    }
+  },
+  {
+    "id": "arg_leiloes",
+    "name": "ARG Leilões",
+    "website": "https://www.argleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 72214,
+      "erro": null
+    }
+  },
+  {
+    "id": "realiza_leiloes",
+    "name": "Realiza Leilões",
+    "website": "https://www.realizaleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 102566,
+      "erro": null
+    }
+  },
+  {
+    "id": "isaias_leiloes",
+    "name": "Isaias Leilões",
+    "website": "https://www.isaiasleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 90816,
+      "erro": null
+    }
+  },
+  {
+    "id": "254",
+    "name": "Ricardogomesleiloes",
+    "website": "https://www.ricardogomesleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 39868,
+      "erro": null
+    }
+  },
+  {
+    "id": "261",
+    "name": "Superlanceleilao",
+    "website": "https://www.superlanceleilao.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "offline",
+    "verificacao": {
+      "online": false,
+      "status_code": null,
+      "tem_cloudflare": false,
+      "erro": "[Errno 11001] getaddrinfo failed"
+    }
+  },
+  {
+    "id": "155",
+    "name": "Veronicaleiloes",
+    "website": "https://www.veronicaleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 81661,
+      "erro": null
+    }
+  },
+  {
+    "id": "156",
+    "name": "Kielleiloes",
+    "website": "https://www.kielleiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": true,
+      "tem_login": false,
+      "content_length": 68675,
+      "erro": null
+    }
+  },
+  {
+    "id": "157",
+    "name": "Machadoleiloesrs",
+    "website": "https://www.machadoleiloesrs.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 174381,
+      "erro": null
+    }
+  },
+  {
+    "id": "159",
+    "name": "Fumagallileiloes",
+    "website": "https://www.fumagallileiloes.com.br",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 163909,
+      "erro": null
+    }
+  },
+  {
+    "id": "160",
+    "name": "Superleiloes",
+    "website": "https://www.superleiloes.net",
+    "categoria": "nunca_rodou",
+    "erro_original": null,
+    "classificacao": "online_cloudflare",
+    "verificacao": {
+      "online": true,
+      "status_code": 200,
+      "tem_cloudflare": true,
+      "tem_captcha": false,
+      "tem_login": true,
+      "content_length": 148223,
+      "erro": null
+    }
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "fase": "FASE 3 - Corrigir Scrapers com Erro",
+  "data_execucao": "2026-01-22T22:48:06.189900",
+  "acoes_executadas": [
+    "[22:48:06] === Desabilitando sites offline ===",
+    "[22:48:08] Desabilitado: Freitasleiloeiro (offline)",
+    "[22:48:08] Desabilitado: Sumareleiloes (offline)",
+    "[22:48:08] Desabilitado: Josequencaleiloeiro (offline)",
+    "[22:48:08] Desabilitado: Ten Leilões (offline)",
+    "[22:48:08] Desabilitado: Anabrasilleiloes (online_outro)",
+    "[22:48:08] Desabilitado: Fabiano Ayupp Leiloeiro (offline)",
+    "[22:48:08] Desabilitado: Klockner Leilões (offline)",
+    "[22:48:08] Desabilitado: Aline Marques Leiloeira (offline)",
+    "[22:48:08] Desabilitado: Superlanceleilao (offline)",
+    "[22:48:08] Total desabilitados: 9",
+    "[22:48:08] \n=== 3.1 Processando sites PRIORIDADE ALTA (online_standard) ===",
+    "[22:48:08] Total de sites alta prioridade: 4",
+    "[22:48:09] \nProcessando: Leiloes",
+    "[22:48:09]   URL: https://www.leiloes.com.br",
+    "[22:48:49]   AVISO: 0 imoveis extraidos",
+    "[22:48:52] \nProcessando: Onildo Bastos Leiloeiro",
+    "[22:48:52]   URL: https://www.onildobastos.com.br",
+    "[22:49:08]   AVISO: 0 imoveis extraidos",
+    "[22:49:11] \nProcessando: GP Leilões",
+    "[22:49:11]   URL: https://www.gpleiloes.com.br",
+    "[22:51:10]   AVISO: 0 imoveis extraidos",
+    "[22:51:13] \nProcessando: Baldissera Leiloeiros",
+    "[22:51:13]   URL: https://www.baldisseraleiloeiros.com.br",
+    "[22:51:24]   AVISO: 0 imoveis extraidos",
+    "[22:51:27] \nResultado ALTA prioridade: 0/4 sucessos",
+    "[22:51:27] \n=== 3.2 Processando sites CLOUDFLARE (limite: 15) ===",
+    "[22:51:27] Processando 15 sites com Cloudflare",
+    "[22:51:28] \n[1/15]",
+    "[22:51:28] \nProcessando: Vivaleiloes",
+    "[22:51:28]   URL: https://www.vivaleiloes.com.br",
+    "[22:52:08]   AVISO: 0 imoveis extraidos",
+    "[22:52:13] \n[2/15]",
+    "[22:52:13] \nProcessando: Unileiloes",
+    "[22:52:13]   URL: https://www.unileiloes.com.br",
+    "[22:52:40]   AVISO: 0 imoveis extraidos",
+    "[22:52:45] \n[3/15]",
+    "[22:52:45] \nProcessando: Depaulaonline",
+    "[22:52:45]   URL: https://www.depaulaonline.com.br",
+    "[22:53:05]   AVISO: 0 imoveis extraidos",
+    "[22:53:10] \n[4/15]",
+    "[22:53:10] \nProcessando: Lancetotal",
+    "[22:53:10]   URL: https://www.lancetotal.com.br",
+    "[22:56:06]   AVISO: 0 imoveis extraidos",
+    "[22:56:11] \n[5/15]",
+    "[22:56:11] \nProcessando: Moralesleiloes",
+    "[22:56:11]   URL: https://www.moralesleiloes.com.br",
+    "[22:56:29]   AVISO: 0 imoveis extraidos",
+    "[22:56:34]   Reiniciando browser...",
+    "[22:56:36] \n[6/15]",
+    "[22:56:36] \nProcessando: Spencerleiloes",
+    "[22:56:36]   URL: https://www.spencerleiloes.com.br",
+    "[22:56:52]   AVISO: 0 imoveis extraidos",
+    "[22:56:57] \n[7/15]",
+    "[22:56:57] \nProcessando: Webleiloes",
+    "[22:56:57]   URL: https://www.webleiloes.com.br",
+    "[22:57:19]   AVISO: 0 imoveis extraidos",
+    "[22:57:24] \n[8/15]",
+    "[22:57:24] \nProcessando: Oleiloes",
+    "[22:57:24]   URL: https://www.oleiloes.com.br",
+    "[22:57:52]   AVISO: 0 imoveis extraidos",
+    "[22:57:57] \n[9/15]",
+    "[22:57:57] \nProcessando: Santoseborinleiloes",
+    "[22:57:57]   URL: https://www.santoseborinleiloes.com.br",
+    "[22:58:31]   AVISO: 0 imoveis extraidos",
+    "[22:58:36] \n[10/15]",
+    "[22:58:36] \nProcessando: Leiloes61",
+    "[22:58:36]   URL: https://www.leiloes61.com.br",
+    "[22:59:57]   AVISO: 0 imoveis extraidos",
+    "[23:00:02]   Reiniciando browser...",
+    "[23:00:05] \n[11/15]",
+    "[23:00:05] \nProcessando: Morescoleiloes",
+    "[23:00:05]   URL: https://www.morescoleiloes.com.br",
+    "[23:01:56]   AVISO: 0 imoveis extraidos",
+    "[23:02:01] \n[12/15]",
+    "[23:02:01] \nProcessando: Medeirosleiloes",
+    "[23:02:01]   URL: https://www.medeirosleiloes.com.br",
+    "[23:03:21]   AVISO: 0 imoveis extraidos",
+    "[23:03:26] \n[13/15]",
+    "[23:03:26] \nProcessando: Monzonleiloes",
+    "[23:03:26]   URL: https://www.monzonleiloes.com.br",
+    "[23:03:39]   AVISO: 0 imoveis extraidos",
+    "[23:03:44] \n[14/15]",
+    "[23:03:44] \nProcessando: Leiloaria",
+    "[23:03:44]   URL: https://www.leiloaria.com.br",
+    "[23:03:57]   AVISO: 0 imoveis extraidos",
+    "[23:04:02] \n[15/15]",
+    "[23:04:02] \nProcessando: Pactoleiloes",
+    "[23:04:02]   URL: https://www.pactoleiloes.com.br",
+    "[23:06:30]   AVISO: 0 imoveis extraidos",
+    "[23:06:35]   Reiniciando browser...",
+    "[23:06:37] \nResultado CLOUDFLARE: 0/15 sucessos",
+    "[23:06:37] \n=== Verificando criterios de sucesso ===",
+    "[23:06:37] Scrapers com success e imoveis > 0: 25",
+    "[23:06:37] Gerando relatorio RELATORIO_CORRECAO_SCRAPERS.md",
+    "[23:06:37] Relatorio gerado com sucesso"
+  ],
+  "sites_corrigidos": [],
+  "sites_falharam": [
+    {
+      "id": "7",
+      "name": "Leiloes",
+      "website": "https://www.leiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "onildo_bastos_leiloeiro",
+      "name": "Onildo Bastos Leiloeiro",
+      "website": "https://www.onildobastos.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "gp_leiloes",
+      "name": "GP Leilões",
+      "website": "https://www.gpleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "baldissera",
+      "name": "Baldissera Leiloeiros",
+      "website": "https://www.baldisseraleiloeiros.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "20",
+      "name": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "33",
+      "name": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "27",
+      "name": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "3",
+      "name": "Lancetotal",
+      "website": "https://www.lancetotal.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "63",
+      "name": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "83",
+      "name": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "57",
+      "name": "Webleiloes",
+      "website": "https://www.webleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "71",
+      "name": "Oleiloes",
+      "website": "https://www.oleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "118",
+      "name": "Santoseborinleiloes",
+      "website": "https://www.santoseborinleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "216",
+      "name": "Leiloes61",
+      "website": "https://www.leiloes61.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "210",
+      "name": "Morescoleiloes",
+      "website": "https://www.morescoleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "247",
+      "name": "Medeirosleiloes",
+      "website": "https://www.medeirosleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "243",
+      "name": "Monzonleiloes",
+      "website": "https://www.monzonleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "273",
+      "name": "Leiloaria",
+      "website": "https://www.leiloaria.com.br",
+      "motivo": "Zero imoveis extraidos"
+    },
+    {
+      "id": "274",
+      "name": "Pactoleiloes",
+      "website": "https://www.pactoleiloes.com.br",
+      "motivo": "Zero imoveis extraidos"
+    }
+  ],
+  "imoveis_extraidos": 0,
+  "criterios_sucesso": {
+    "scrapers_funcionando": 25,
+    "meta_50_scrapers": false,
+    "sites_corrigidos": 0,
+    "imoveis_extraidos": 0
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "prioridade_alta": [
+    {
+      "id": "7",
+      "name": "Leiloes",
+      "website": "https://www.leiloes.com.br",
+      "classificacao": "online_standard"
+    },
+    {
+      "id": "onildo_bastos_leiloeiro",
+      "name": "Onildo Bastos Leiloeiro",
+      "website": "https://www.onildobastos.com.br",
+      "classificacao": "online_standard"
+    },
+    {
+      "id": "gp_leiloes",
+      "name": "GP Leilões",
+      "website": "https://www.gpleiloes.com.br",
+      "classificacao": "online_standard"
+    },
+    {
+      "id": "baldissera",
+      "name": "Baldissera Leiloeiros",
+      "website": "https://www.baldisseraleiloeiros.com.br",
+      "classificacao": "online_standard"
+    }
+  ],
+  "prioridade_media": [
+    {
+      "id": "20",
+      "name": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "33",
+      "name": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "27",
+      "name": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "3",
+      "name": "Lancetotal",
+      "website": "https://www.lancetotal.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "63",
+      "name": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "83",
+      "name": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "57",
+      "name": "Webleiloes",
+      "website": "https://www.webleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "71",
+      "name": "Oleiloes",
+      "website": "https://www.oleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "118",
+      "name": "Santoseborinleiloes",
+      "website": "https://www.santoseborinleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "216",
+      "name": "Leiloes61",
+      "website": "https://www.leiloes61.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "210",
+      "name": "Morescoleiloes",
+      "website": "https://www.morescoleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "247",
+      "name": "Medeirosleiloes",
+      "website": "https://www.medeirosleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "243",
+      "name": "Monzonleiloes",
+      "website": "https://www.monzonleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "273",
+      "name": "Leiloaria",
+      "website": "https://www.leiloaria.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "274",
+      "name": "Pactoleiloes",
+      "website": "https://www.pactoleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "237",
+      "name": "Machadoleiloeiro",
+      "website": "https://www.machadoleiloeiro.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "241",
+      "name": "Montenegroleiloes",
+      "website": "https://www.montenegroleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "34",
+      "name": "Projudleiloes",
+      "website": "https://www.projudleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "280",
+      "name": "Leilaoeletronico",
+      "website": "https://www.leilaoeletronico.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "84",
+      "name": "Leiloeiropublico",
+      "website": "https://www.leiloeiropublico.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "35",
+      "name": "Nossoleilao",
+      "website": "https://www.nossoleilao.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "113",
+      "name": "Zaccariasleiloes",
+      "website": "https://www.zaccariasleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "70",
+      "name": "Silveiraleiloes",
+      "website": "https://www.silveiraleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "89",
+      "name": "Leilaosantos",
+      "website": "https://www.leilaosantos.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "93",
+      "name": "Pietosoleiloes",
+      "website": "https://www.pietosoleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "99",
+      "name": "Leilaobutia",
+      "website": "https://www.leilaobutia.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "100",
+      "name": "Scheidleiloes",
+      "website": "https://www.scheidleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "103",
+      "name": "Mpleilao",
+      "website": "https://www.mpleilao.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "105",
+      "name": "Scholanteleiloes",
+      "website": "https://www.scholanteleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "112",
+      "name": "Rabuskeleiloes",
+      "website": "https://www.rabuskeleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "102",
+      "name": "Lessaleiloes",
+      "website": "https://www.lessaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "121",
+      "name": "Santayanaleiloes",
+      "website": "https://www.santayanaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "122",
+      "name": "Zuccalmaglioleiloes",
+      "website": "https://www.zuccalmaglioleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "220",
+      "name": "Natalialeiloes",
+      "website": "https://www.natalialeiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "126",
+      "name": "Marceloleiloeiro",
+      "website": "https://www.marceloleiloeiro.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "130",
+      "name": "Vidalleiloes",
+      "website": "https://www.vidalleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "135",
+      "name": "Ruipintoleiloeiro",
+      "website": "https://www.ruipintoleiloeiro.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "138",
+      "name": "Leiloeirobarbieri",
+      "website": "https://www.leiloeirobarbieri.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "139",
+      "name": "Michellileiloes",
+      "website": "https://www.michellileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "151",
+      "name": "Szortykaleiloes",
+      "website": "https://www.szortykaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "154",
+      "name": "Utzigleiloes",
+      "website": "https://www.utzigleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "142",
+      "name": "Lipinskileiloes",
+      "website": "https://www.lipinskileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "166",
+      "name": "Turanileiloes",
+      "website": "https://www.turanileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "25",
+      "name": "Lancenoleilao",
+      "website": "https://www.lancenoleilao.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "60",
+      "name": "Lanceleiloes",
+      "website": "https://www.lanceleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "8",
+      "name": "Grupoarremateleiloes",
+      "website": "https://www.grupoarremateleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "10",
+      "name": "Milanleiloes",
+      "website": "https://www.milanleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "16",
+      "name": "Bestleiloes",
+      "website": "https://www.bestleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "18",
+      "name": "Casareisleiloesonline",
+      "website": "https://www.casareisleiloesonline.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "fv_leiloes",
+      "name": "FV Leilões",
+      "website": "https://www.fvleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "leiloes_aguiar",
+      "name": "Leilões Aguiar",
+      "website": "https://www.leiloesaguiar.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "68",
+      "name": "Hisaleiloes",
+      "website": "https://www.hisaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "facanha_leiloes",
+      "name": "Facanha Leilões",
+      "website": "https://www.facanhaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "37",
+      "name": "Raicherleiloes",
+      "website": "https://www.raicherleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "jrf_leiloes",
+      "name": "JRF Leilões",
+      "website": "https://www.jrfleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "arremax_leiloes",
+      "name": "Arremax Leilões",
+      "website": "https://www.arremaxleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "dcm_leiloes",
+      "name": "DCM Leilões",
+      "website": "https://www.dcmleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "ags_leiloes",
+      "name": "AGS Leilões",
+      "website": "https://www.agsleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "agostinho_leiloes",
+      "name": "Agostinho Leilões",
+      "website": "https://www.agostinholeiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "52",
+      "name": "Fidalgoleiloes",
+      "website": "https://www.fidalgoleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "61",
+      "name": "Escritoriodeleiloes",
+      "website": "https://www.escritoriodeleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "65",
+      "name": "Leiloesgold",
+      "website": "https://www.leiloesgold.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "75",
+      "name": "Joaoluizleiloes",
+      "website": "https://www.joaoluizleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "94",
+      "name": "Rauppleiloes",
+      "website": "https://www.rauppleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "101",
+      "name": "Bronzattoleiloes",
+      "website": "https://www.bronzattoleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "209",
+      "name": "Soleiloes",
+      "website": "https://www.soleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "214",
+      "name": "Bastonleiloes",
+      "website": "https://www.bastonleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "222",
+      "name": "Tmleiloes",
+      "website": "https://www.tmleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "257",
+      "name": "Lottileiloes",
+      "website": "https://www.lottileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "275",
+      "name": "Sublimeleiloes",
+      "website": "https://www.sublimeleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "85",
+      "name": "Nogarileiloes",
+      "website": "https://www.nogarileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "86",
+      "name": "Alemaoleiloeiro",
+      "website": "https://www.alemaoleiloeiro.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "arg_leiloes",
+      "name": "ARG Leilões",
+      "website": "https://www.argleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "realiza_leiloes",
+      "name": "Realiza Leilões",
+      "website": "https://www.realizaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "isaias_leiloes",
+      "name": "Isaias Leilões",
+      "website": "https://www.isaiasleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "254",
+      "name": "Ricardogomesleiloes",
+      "website": "https://www.ricardogomesleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "155",
+      "name": "Veronicaleiloes",
+      "website": "https://www.veronicaleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "156",
+      "name": "Kielleiloes",
+      "website": "https://www.kielleiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "157",
+      "name": "Machadoleiloesrs",
+      "website": "https://www.machadoleiloesrs.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "159",
+      "name": "Fumagallileiloes",
+      "website": "https://www.fumagallileiloes.com.br",
+      "classificacao": "online_cloudflare"
+    },
+    {
+      "id": "160",
+      "name": "Superleiloes",
+      "website": "https://www.superleiloes.net",
+      "classificacao": "online_cloudflare"
+    }
+  ],
+  "prioridade_baixa": [
+    {
+      "id": "5",
+      "name": "Frazaoleiloes",
+      "website": "https://www.frazaoleiloes.com.br",
+      "classificacao": "requires_login"
+    },
+    {
+      "id": "14",
+      "name": "Leilaovip",
+      "website": "https://www.leilaovip.com.br",
+      "classificacao": "requires_login"
+    },
+    {
+      "id": "gilson_leiloes",
+      "name": "Gilson Leilões",
+      "website": "https://www.gilsonleiloes.com.br",
+      "classificacao": "requires_login"
+    }
+  ],
+  "desabilitar": [
+    {
+      "id": "4",
+      "name": "Freitasleiloeiro",
+      "website": "https://www.freitasleiloeiro.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "45",
+      "name": "Sumareleiloes",
+      "website": "https://www.sumareleiloes.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "246",
+      "name": "Josequencaleiloeiro",
+      "website": "https://www.josequencaleiloeiro.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "ten_leiloes",
+      "name": "Ten Leilões",
+      "website": "https://www.tenleiloes.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "207",
+      "name": "Anabrasilleiloes",
+      "website": "https://www.anabrasilleiloes.com.br",
+      "classificacao": "online_outro"
+    },
+    {
+      "id": "fabiano_ayupp_leiloeiro",
+      "name": "Fabiano Ayupp Leiloeiro",
+      "website": "https://www.fabianoayupp.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "klockner_leiloes",
+      "name": "Klockner Leilões",
+      "website": "https://www.klocknerleiloes.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "aline_marques_leiloeira",
+      "name": "Aline Marques Leiloeira",
+      "website": "https://www.alinemarques.com.br",
+      "classificacao": "offline"
+    },
+    {
+      "id": "261",
+      "name": "Superlanceleilao",
+      "website": "https://www.superlanceleilao.com.br",
+      "classificacao": "offline"
+    }
+  ]
+}

@@ -1,0 +1,3061 @@
+{
+  "success_zero_imoveis": [
+    {
+      "id": "194",
+      "name": "Flexleiloes",
+      "website": "https://www.flexleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:44:40.594907"
+    },
+    {
+      "id": "179",
+      "name": "Abaleiloes",
+      "website": "https://www.abaleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:43:09.712706"
+    },
+    {
+      "id": "104",
+      "name": "Agenciadeleiloes",
+      "website": "https://www.agenciadeleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T17:54:20.533185"
+    },
+    {
+      "id": "148",
+      "name": "Arnoldoleiloes",
+      "website": "https://www.arnoldoleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:21:03.200817"
+    },
+    {
+      "id": "145",
+      "name": "Bianchileiloes",
+      "website": "https://www.bianchileiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:18:05.913517"
+    },
+    {
+      "id": "149",
+      "name": "Bidgo",
+      "website": "https://www.bidgo.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:22:13.373278"
+    },
+    {
+      "id": "111",
+      "name": "Clademirleiloeiro",
+      "website": "https://www.clademirleiloeiro.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T17:59:56.61677"
+    },
+    {
+      "id": "116",
+      "name": "Ckleiloes",
+      "website": "https://www.ckleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:02:23.014098"
+    },
+    {
+      "id": "119",
+      "name": "Dldleiloeiro",
+      "website": "https://www.dldleiloeiro.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:03:25.315454"
+    },
+    {
+      "id": "147",
+      "name": "Deborabarzleiloes",
+      "website": "https://www.deborabarzleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:19:15.4931"
+    },
+    {
+      "id": "233",
+      "name": "Claudiokussleiloes",
+      "website": "https://www.claudiokussleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:48:24.056511"
+    },
+    {
+      "id": "242",
+      "name": "Jacleiloes",
+      "website": "https://www.jacleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:52:28.373569"
+    },
+    {
+      "id": "248",
+      "name": "Donhaleiloes",
+      "website": "https://www.donhaleiloes.com",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:54:19.869498"
+    },
+    {
+      "id": "107",
+      "name": "Ferronatoleiloes",
+      "website": "https://www.ferronatoleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T17:56:07.839437"
+    },
+    {
+      "id": "108",
+      "name": "Eduardovivian",
+      "website": "https://www.eduardovivian.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T17:57:25.174915"
+    },
+    {
+      "id": "114",
+      "name": "Grandesleiloes",
+      "website": "https://www.grandesleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:01:17.491765"
+    },
+    {
+      "id": "152",
+      "name": "Rangelleiloes",
+      "website": "https://www.rangelleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:23:18.853005"
+    },
+    {
+      "id": "120",
+      "name": "Evaleiloes",
+      "website": "https://www.evaleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:05:14.773013"
+    },
+    {
+      "id": "128",
+      "name": "Finattoleiloes",
+      "website": "https://www.finattoleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:06:52.53496"
+    },
+    {
+      "id": "131",
+      "name": "Gtleiloes",
+      "website": "https://www.gtleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:11:19.176589"
+    },
+    {
+      "id": "137",
+      "name": "Gabrielleiloes",
+      "website": "https://www.gabrielleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:16:42.133593"
+    },
+    {
+      "id": "153",
+      "name": "Fariasleiloes",
+      "website": "https://www.fariasleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:24:33.414029"
+    },
+    {
+      "id": "172",
+      "name": "Savoyleiloes",
+      "website": "https://www.savoyleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:42:57.550221"
+    },
+    {
+      "id": "19",
+      "name": "Francoleiloes",
+      "website": "https://www.francoleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:43:46.06837"
+    },
+    {
+      "id": "236",
+      "name": "Lancevip",
+      "website": "https://www.lancevip.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:49:46.241295"
+    },
+    {
+      "id": "240",
+      "name": "Lancejusto",
+      "website": "https://www.lancejusto.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:50:29.507905"
+    },
+    {
+      "id": "251",
+      "name": "Pimentelleiloes",
+      "website": "https://www.pimentelleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:55:29.732907"
+    },
+    {
+      "id": "259",
+      "name": "Wspleiloes",
+      "website": "https://www.wspleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:58:07.254633"
+    },
+    {
+      "id": "262",
+      "name": "Wmleiloes",
+      "website": "https://www.wmleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T19:02:46.595234"
+    },
+    {
+      "id": "264",
+      "name": "Tabaleiloes",
+      "website": "https://www.tabaleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T19:04:39.333177"
+    },
+    {
+      "id": "266",
+      "name": "Ricoleiloes",
+      "website": "https://www.ricoleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T19:11:46.080671"
+    },
+    {
+      "id": "106",
+      "name": "Clovisleiloeiro",
+      "website": "https://www.clovisleiloeiro.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T17:54:51.253519"
+    },
+    {
+      "id": "134",
+      "name": "Bartmannleiloes",
+      "website": "https://www.bartmannleiloes.com.br",
+      "property_count": 0,
+      "last_scrape": "2026-01-22T18:13:30.694153"
+    }
+  ],
+  "com_erro": [
+    {
+      "id": "20",
+      "name": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2025-12-23T23:07:19.031803"
+    },
+    {
+      "id": "33",
+      "name": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:44:11.287459"
+    },
+    {
+      "id": "27",
+      "name": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:39:59.185631"
+    },
+    {
+      "id": "3",
+      "name": "Lancetotal",
+      "website": "https://www.lancetotal.com.br",
+      "scrape_error": null,
+      "last_scrape": "2025-12-19T13:34:04.173275"
+    },
+    {
+      "id": "4",
+      "name": "Freitasleiloeiro",
+      "website": "https://www.freitasleiloeiro.com.br",
+      "scrape_error": null,
+      "last_scrape": "2025-12-19T13:34:07.941985"
+    },
+    {
+      "id": "5",
+      "name": "Frazaoleiloes",
+      "website": "https://www.frazaoleiloes.com.br",
+      "scrape_error": null,
+      "last_scrape": "2025-12-19T13:34:12.335601"
+    },
+    {
+      "id": "63",
+      "name": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2025-12-24T00:15:37.99752"
+    },
+    {
+      "id": "83",
+      "name": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:06:00.945443"
+    },
+    {
+      "id": "57",
+      "name": "Webleiloes",
+      "website": "https://www.webleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T05:09:31.118032"
+    },
+    {
+      "id": "71",
+      "name": "Oleiloes",
+      "website": "https://www.oleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:49:37.466834"
+    },
+    {
+      "id": "45",
+      "name": "Sumareleiloes",
+      "website": "https://www.sumareleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2025-12-21T10:33:34.6843"
+    },
+    {
+      "id": "118",
+      "name": "Santoseborinleiloes",
+      "website": "https://www.santoseborinleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:35:07.696732"
+    },
+    {
+      "id": "216",
+      "name": "Leiloes61",
+      "website": "https://www.leiloes61.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "210",
+      "name": "Morescoleiloes",
+      "website": "https://www.morescoleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:35:59.905021"
+    },
+    {
+      "id": "247",
+      "name": "Medeirosleiloes",
+      "website": "https://www.medeirosleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:24:13.303499"
+    },
+    {
+      "id": "246",
+      "name": "Josequencaleiloeiro",
+      "website": "https://www.josequencaleiloeiro.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "243",
+      "name": "Monzonleiloes",
+      "website": "https://www.monzonleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T19:33:44.236678"
+    },
+    {
+      "id": "273",
+      "name": "Leiloaria",
+      "website": "https://www.leiloaria.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "274",
+      "name": "Pactoleiloes",
+      "website": "https://www.pactoleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "237",
+      "name": "Machadoleiloeiro",
+      "website": "https://www.machadoleiloeiro.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T18:06:48.336529"
+    },
+    {
+      "id": "241",
+      "name": "Montenegroleiloes",
+      "website": "https://www.montenegroleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "34",
+      "name": "Projudleiloes",
+      "website": "https://www.projudleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "280",
+      "name": "Leilaoeletronico",
+      "website": "https://www.leilaoeletronico.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "84",
+      "name": "Leiloeiropublico",
+      "website": "https://www.leiloeiropublico.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "35",
+      "name": "Nossoleilao",
+      "website": "https://www.nossoleilao.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "113",
+      "name": "Zaccariasleiloes",
+      "website": "https://www.zaccariasleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "70",
+      "name": "Silveiraleiloes",
+      "website": "https://www.silveiraleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "89",
+      "name": "Leilaosantos",
+      "website": "https://www.leilaosantos.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "93",
+      "name": "Pietosoleiloes",
+      "website": "https://www.pietosoleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "99",
+      "name": "Leilaobutia",
+      "website": "https://www.leilaobutia.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "100",
+      "name": "Scheidleiloes",
+      "website": "https://www.scheidleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "103",
+      "name": "Mpleilao",
+      "website": "https://www.mpleilao.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "105",
+      "name": "Scholanteleiloes",
+      "website": "https://www.scholanteleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "112",
+      "name": "Rabuskeleiloes",
+      "website": "https://www.rabuskeleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "102",
+      "name": "Lessaleiloes",
+      "website": "https://www.lessaleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T16:41:00.941014"
+    },
+    {
+      "id": "121",
+      "name": "Santayanaleiloes",
+      "website": "https://www.santayanaleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "122",
+      "name": "Zuccalmaglioleiloes",
+      "website": "https://www.zuccalmaglioleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "220",
+      "name": "Natalialeiloes",
+      "website": "https://www.natalialeiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T15:35:57.46851"
+    },
+    {
+      "id": "126",
+      "name": "Marceloleiloeiro",
+      "website": "https://www.marceloleiloeiro.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "130",
+      "name": "Vidalleiloes",
+      "website": "https://www.vidalleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "135",
+      "name": "Ruipintoleiloeiro",
+      "website": "https://www.ruipintoleiloeiro.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "138",
+      "name": "Leiloeirobarbieri",
+      "website": "https://www.leiloeirobarbieri.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "139",
+      "name": "Michellileiloes",
+      "website": "https://www.michellileiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "151",
+      "name": "Szortykaleiloes",
+      "website": "https://www.szortykaleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "154",
+      "name": "Utzigleiloes",
+      "website": "https://www.utzigleiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": null
+    },
+    {
+      "id": "142",
+      "name": "Lipinskileiloes",
+      "website": "https://www.lipinskileiloes.com.br",
+      "scrape_error": "Nenhum imóvel encontrado",
+      "last_scrape": "2026-01-03T17:29:43.510611"
+    },
+    {
+      "id": "166",
+      "name": "Turanileiloes",
+      "website": "https://www.turanileiloes.com.br",
+      "scrape_error": "'NoneType' object has no attribute 'replace'",
+      "last_scrape": "2026-01-03T13:54:54.89275"
+    }
+  ],
+  "nao_rodou_7_dias": [
+    {
+      "id": "20",
+      "name": "Vivaleiloes",
+      "website": "https://www.vivaleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-23T23:07:19.031803"
+    },
+    {
+      "id": "22",
+      "name": "Hastapublica",
+      "website": "https://www.hastapublica.com.br/leiloes",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T15:52:17.500755"
+    },
+    {
+      "id": "41",
+      "name": "Cunhaleiloeiro",
+      "website": "https://www.cunhaleiloeiro.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T21:49:42.032883"
+    },
+    {
+      "id": "32",
+      "name": "Lut",
+      "website": "https://www.lut.com.br/imoveis",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T02:54:28.467136"
+    },
+    {
+      "id": "9",
+      "name": "Sold",
+      "website": "https://www.sold.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2025-12-23T22:51:05.266917"
+    },
+    {
+      "id": "15",
+      "name": "Hastavip",
+      "website": "https://www.hastavip.com.br/imoveis",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T17:03:17.823701"
+    },
+    {
+      "id": "1",
+      "name": "Portalzuk",
+      "website": "https://www.portalzuk.com.br/leilao-de-imoveis",
+      "scrape_status": "success",
+      "last_scrape": "2025-12-23T18:26:51.383745"
+    },
+    {
+      "id": "12",
+      "name": "Leje",
+      "website": "https://www.leje.com.br",
+      "scrape_status": "disabled",
+      "last_scrape": "2025-12-23T18:22:49.202181"
+    },
+    {
+      "id": "256",
+      "name": "Vargasepintoleiloes",
+      "website": "https://www.vargasepintoleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T15:46:54.937821"
+    },
+    {
+      "id": "185",
+      "name": "Alfaleiloes",
+      "website": "https://www.alfaleiloes.com",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:28:35.053397"
+    },
+    {
+      "id": "21",
+      "name": "Leilaobrasil",
+      "website": "https://www.leilaobrasil.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T09:50:39.34736"
+    },
+    {
+      "id": "13",
+      "name": "Sodresantoro",
+      "website": "https://www.sodresantoro.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T09:44:05.414923"
+    },
+    {
+      "id": "6",
+      "name": "Sfrazao",
+      "website": "https://www.sfrazao.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T00:08:09.414064"
+    },
+    {
+      "id": "33",
+      "name": "Unileiloes",
+      "website": "https://www.unileiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:44:11.287459"
+    },
+    {
+      "id": "27",
+      "name": "Depaulaonline",
+      "website": "https://www.depaulaonline.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:39:59.185631"
+    },
+    {
+      "id": "3",
+      "name": "Lancetotal",
+      "website": "https://www.lancetotal.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-19T13:34:04.173275"
+    },
+    {
+      "id": "4",
+      "name": "Freitasleiloeiro",
+      "website": "https://www.freitasleiloeiro.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-19T13:34:07.941985"
+    },
+    {
+      "id": "5",
+      "name": "Frazaoleiloes",
+      "website": "https://www.frazaoleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-19T13:34:12.335601"
+    },
+    {
+      "id": "caixa_federal",
+      "name": "Caixa Econômica Federal",
+      "website": "https://venda-imoveis.caixa.gov.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-11T06:35:44.278026"
+    },
+    {
+      "id": "49",
+      "name": "Gilsoninumaruleiloes",
+      "website": "https://www.gilsoninumaruleiloes.com.br/imoveis",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T07:34:46.65781"
+    },
+    {
+      "id": "63",
+      "name": "Moralesleiloes",
+      "website": "https://www.moralesleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-24T00:15:37.99752"
+    },
+    {
+      "id": "54",
+      "name": "Liderleiloes",
+      "website": "https://www.liderleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T20:23:11.228096"
+    },
+    {
+      "id": "56",
+      "name": "Carloferrarileiloes",
+      "website": "https://www.carloferrarileiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T20:24:05.287824"
+    },
+    {
+      "id": "50",
+      "name": "Lanceja",
+      "website": "https://www.lanceja.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-24T03:12:40.849895"
+    },
+    {
+      "id": "81",
+      "name": "Kleiloes",
+      "website": "https://www.kleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T11:12:58.481513"
+    },
+    {
+      "id": "77",
+      "name": "Nakakogueleiloes",
+      "website": "https://www.nakakogueleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T20:30:03.928147"
+    },
+    {
+      "id": "83",
+      "name": "Spencerleiloes",
+      "website": "https://www.spencerleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:06:00.945443"
+    },
+    {
+      "id": "46",
+      "name": "Lancejudicial",
+      "website": "https://www.lancejudicial.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T18:27:02.008745"
+    },
+    {
+      "id": "57",
+      "name": "Webleiloes",
+      "website": "https://www.webleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T05:09:31.118032"
+    },
+    {
+      "id": "76",
+      "name": "Psnleiloes",
+      "website": "https://www.psnleiloes.com.br/imoveis",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-24T00:26:57.246567"
+    },
+    {
+      "id": "39",
+      "name": "Allianceleiloes",
+      "website": "https://www.allianceleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T16:22:40.207268"
+    },
+    {
+      "id": "38",
+      "name": "Alexandridisleiloes",
+      "website": "https://www.alexandridis.leilao.br/",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:59:29.191728"
+    },
+    {
+      "id": "71",
+      "name": "Oleiloes",
+      "website": "https://www.oleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:49:37.466834"
+    },
+    {
+      "id": "45",
+      "name": "Sumareleiloes",
+      "website": "https://www.sumareleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2025-12-21T10:33:34.6843"
+    },
+    {
+      "id": "73",
+      "name": "Topoleiloes",
+      "website": "https://www.topoleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T11:00:25.77938"
+    },
+    {
+      "id": "72",
+      "name": "Rochaleiloes",
+      "website": "https://www.rochaleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-24T03:18:23.241223"
+    },
+    {
+      "id": "82",
+      "name": "Jeleiloes",
+      "website": "https://www.jeleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T04:20:39.380559"
+    },
+    {
+      "id": "213",
+      "name": "Danieloliveiraleiloes",
+      "website": "https://www.danieloliveiraleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:00:14.410315"
+    },
+    {
+      "id": "78",
+      "name": "Vmleiloes",
+      "website": "https://www.vmleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T11:04:25.425727"
+    },
+    {
+      "id": "79",
+      "name": "Pbcastro",
+      "website": "https://www.pbcastro.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T16:05:44.563765"
+    },
+    {
+      "id": "183",
+      "name": "Inovaleilao",
+      "website": "https://www.inovaleilao.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:24:33.460057"
+    },
+    {
+      "id": "212",
+      "name": "Brunoleiloes",
+      "website": "https://www.brunoleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T09:58:02.949788"
+    },
+    {
+      "id": "123",
+      "name": "Leiloeslaraforster",
+      "website": "https://www.leiloeslaraforster.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:25:49.691093"
+    },
+    {
+      "id": "125",
+      "name": "Benedettoleiloes",
+      "website": "https://www.benedettoleiloes.com.br/leiloes",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:53:42.530303"
+    },
+    {
+      "id": "129",
+      "name": "Ctsleiloes",
+      "website": "https://www.ctsleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:29:51.215563"
+    },
+    {
+      "id": "118",
+      "name": "Santoseborinleiloes",
+      "website": "https://www.santoseborinleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:35:07.696732"
+    },
+    {
+      "id": "221",
+      "name": "Arrematabem",
+      "website": "https://www.arrematabem.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:05:25.980631"
+    },
+    {
+      "id": "219",
+      "name": "Leiloesfederal",
+      "website": "https://www.leiloesfederal.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T16:16:04.678151"
+    },
+    {
+      "id": "184",
+      "name": "Portaldosleiloes",
+      "website": "https://www.portaldosleiloes.com",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:25:41.291916"
+    },
+    {
+      "id": "255",
+      "name": "Sfleiloes",
+      "website": "https://www.sfleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T09:44:02.59012"
+    },
+    {
+      "id": "141",
+      "name": "Joelreisleiloes",
+      "website": "https://www.joelreisleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T02:33:49.814964"
+    },
+    {
+      "id": "97",
+      "name": "Alencastroleiloes",
+      "website": "https://www.alencastroleiloes.com.br/leilao",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-08T09:45:21.87187"
+    },
+    {
+      "id": "239",
+      "name": "Ksleiloes",
+      "website": "https://www.ksleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T10:09:59.796879"
+    },
+    {
+      "id": "252",
+      "name": "Rdleiloes",
+      "website": "https://www.rdleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T09:47:09.991181"
+    },
+    {
+      "id": "158",
+      "name": "Casaforteleiloes",
+      "website": "https://www.casaforteleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T17:12:40.761941"
+    },
+    {
+      "id": "165",
+      "name": "Kriegerleiloes",
+      "website": "https://www.kriegerleiloes.com.br/busca",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-24T10:46:19.242773"
+    },
+    {
+      "id": "150",
+      "name": "Trileiloes",
+      "website": "https://www.trileiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T04:33:54.819671"
+    },
+    {
+      "id": "177",
+      "name": "Leiloesfreire",
+      "website": "https://www.leiloesfreire.com.br/leiloes",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:38:12.991437"
+    },
+    {
+      "id": "228",
+      "name": "Alleiloes",
+      "website": "https://www.alleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:13:19.626864"
+    },
+    {
+      "id": "169",
+      "name": "Dalaqualeiloes",
+      "website": "https://www.dalaqualeiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-13T09:52:11.498693"
+    },
+    {
+      "id": "215",
+      "name": "Leiloescentrooeste",
+      "website": "https://www.leiloescentrooeste.com.br/leilao",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:22:34.769149"
+    },
+    {
+      "id": "225",
+      "name": "Amleiloeiro",
+      "website": "https://www.amleiloeiro.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T20:27:15.116008"
+    },
+    {
+      "id": "197",
+      "name": "Luizleiloes",
+      "website": "https://www.luizleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:46:44.13977"
+    },
+    {
+      "id": "198",
+      "name": "Alvaroleiloes",
+      "website": "https://www.alvaroleiloes.com.br/leilao",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:10:35.647481"
+    },
+    {
+      "id": "192",
+      "name": "Parquedosleiloes",
+      "website": "https://www.parquedosleiloes.com.br/leiloes",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:56:58.881032"
+    },
+    {
+      "id": "210",
+      "name": "Morescoleiloes",
+      "website": "https://www.morescoleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:35:59.905021"
+    },
+    {
+      "id": "211",
+      "name": "Fabioleiloes",
+      "website": "https://www.fabioleiloes.com.br/leilao",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:33:58.21315"
+    },
+    {
+      "id": "238",
+      "name": "Fabiobarbosaleiloes",
+      "website": "https://www.fabiobarbosaleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-08T09:48:19.260971"
+    },
+    {
+      "id": "272",
+      "name": "Amaralleiloes",
+      "website": "https://www.amaralleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T19:23:15.346308"
+    },
+    {
+      "id": "231",
+      "name": "Cidafixerleiloes",
+      "website": "https://www.cidafixerleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T09:46:32.847836"
+    },
+    {
+      "id": "265",
+      "name": "Akimotoleiloes",
+      "website": "https://www.akimotoleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-05T09:58:11.44125"
+    },
+    {
+      "id": "230",
+      "name": "Acleiloes",
+      "website": "https://www.acleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T09:45:50.69049"
+    },
+    {
+      "id": "258",
+      "name": "Leilaonainternet",
+      "website": "https://www.leilaonainternet.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-03T20:25:01.32033"
+    },
+    {
+      "id": "235",
+      "name": "Simonleiloes",
+      "website": "https://www.simonleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T09:39:03.026323"
+    },
+    {
+      "id": "269",
+      "name": "Granadoleiloes",
+      "website": "https://www.granadoleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T09:40:12.769796"
+    },
+    {
+      "id": "234",
+      "name": "Dsleiloes",
+      "website": "https://www.dsleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-04T09:44:42.004587"
+    },
+    {
+      "id": "276",
+      "name": "Valeroleiloes",
+      "website": "https://www.valeroleiloes.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-06T10:27:15.474934"
+    },
+    {
+      "id": "253",
+      "name": "Rmmleiloes",
+      "website": "https://www.rmmleiloes.com.br/busca",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T17:27:07.518609"
+    },
+    {
+      "id": "247",
+      "name": "Medeirosleiloes",
+      "website": "https://www.medeirosleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:24:13.303499"
+    },
+    {
+      "id": "243",
+      "name": "Monzonleiloes",
+      "website": "https://www.monzonleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T19:33:44.236678"
+    },
+    {
+      "id": "244",
+      "name": "Jmleiloes",
+      "website": "https://www.jmleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T09:46:24.375197"
+    },
+    {
+      "id": "277",
+      "name": "Gustavomorettoleiloeiro",
+      "website": "https://www.gustavomorettoleiloeiro.com.br",
+      "scrape_status": "success",
+      "last_scrape": "2026-01-09T09:50:11.356006"
+    },
+    {
+      "id": "171",
+      "name": "Oesteleiloes",
+      "website": "https://www.oesteleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-24T10:47:36.734277"
+    },
+    {
+      "id": "237",
+      "name": "Machadoleiloeiro",
+      "website": "https://www.machadoleiloeiro.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T18:06:48.336529"
+    },
+    {
+      "id": "98",
+      "name": "Lunellileiloes",
+      "website": "https://www.lunellileiloes.com.br/leiloes",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:33:16.778553"
+    },
+    {
+      "id": "281",
+      "name": "Cardosoleiloes",
+      "website": "https://www.cardosoleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T12:18:00.092476"
+    },
+    {
+      "id": "58",
+      "name": "Rigolonleiloes",
+      "website": "https://www.rigolonleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T10:42:50.975916"
+    },
+    {
+      "id": "36",
+      "name": "Faroonline",
+      "website": "https://www.faroonline.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T10:15:22.132878"
+    },
+    {
+      "id": "102",
+      "name": "Lessaleiloes",
+      "website": "https://www.lessaleiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T16:41:00.941014"
+    },
+    {
+      "id": "220",
+      "name": "Natalialeiloes",
+      "website": "https://www.natalialeiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T15:35:57.46851"
+    },
+    {
+      "id": "142",
+      "name": "Lipinskileiloes",
+      "website": "https://www.lipinskileiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T17:29:43.510611"
+    },
+    {
+      "id": "249",
+      "name": "Newtonleiloes",
+      "website": "https://www.newtonleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:46:37.176384"
+    },
+    {
+      "id": "166",
+      "name": "Turanileiloes",
+      "website": "https://www.turanileiloes.com.br",
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T13:54:54.89275"
+    },
+    {
+      "id": "196",
+      "name": "Jcleiloeiro",
+      "website": "https://www.jcleiloeiro.com.br",
+      "scrape_status": "no_properties",
+      "last_scrape": "2026-01-03T10:15:10.930387"
+    },
+    {
+      "id": "208",
+      "name": "E-Leiloeiro",
+      "website": "https://www.e-leiloeiro.leilao.br/",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:10:38.475396"
+    },
+    {
+      "id": "90",
+      "name": "Leiloesjudiciaisrs",
+      "website": "https://jrleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T11:27:15.09656"
+    },
+    {
+      "id": "11",
+      "name": "Biasileiloes",
+      "website": "https://www.biasileiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T20:00:31.613401"
+    },
+    {
+      "id": "48",
+      "name": "E-Confianca",
+      "website": "https://www.e-confianca.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2025-12-21T10:37:37.75284"
+    },
+    {
+      "id": "80",
+      "name": "Marquesleiloes",
+      "website": "https://www.marquesleiloes.com.br",
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T19:28:43.092048"
+    },
+    {
+      "id": "288",
+      "name": "Calilleiloes",
+      "website": "https://www.calilleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:25:09.763371"
+    },
+    {
+      "id": "87",
+      "name": "Cargneluttileiloes",
+      "website": "https://www.cargneluttileiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T15:57:53.408741"
+    },
+    {
+      "id": "285",
+      "name": "Clebercardosoleiloes",
+      "website": "https://www.clebercardosoleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:18:11.321254"
+    },
+    {
+      "id": "88",
+      "name": "Cristianoescolaleiloes",
+      "website": "https://www.cristianoescolaleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T15:14:00.937456"
+    },
+    {
+      "id": "283",
+      "name": "Dbmleiloes",
+      "website": "https://www.dbmleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T12:51:32.499156"
+    },
+    {
+      "id": "284",
+      "name": "Dhleiloes",
+      "website": "https://www.dhleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:16:25.064392"
+    },
+    {
+      "id": "51",
+      "name": "Gustavoreisleiloes",
+      "website": "https://www.gustavoreisleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:26:26.215748"
+    },
+    {
+      "id": "59",
+      "name": "Picellileiloes",
+      "website": "https://www.picellileiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T16:35:48.391627"
+    },
+    {
+      "id": "287",
+      "name": "Rmcleiloes",
+      "website": "https://www.rmcleiloes.com.br",
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:20:15.631726"
+    }
+  ],
+  "nunca_rodou": [
+    {
+      "id": "ten_leiloes",
+      "name": "Ten Leilões",
+      "website": "https://www.tenleiloes.com.br"
+    },
+    {
+      "id": "207",
+      "name": "Anabrasilleiloes",
+      "website": "https://www.anabrasilleiloes.com.br"
+    },
+    {
+      "id": "25",
+      "name": "Lancenoleilao",
+      "website": "https://www.lancenoleilao.com.br"
+    },
+    {
+      "id": "60",
+      "name": "Lanceleiloes",
+      "website": "https://www.lanceleiloes.com.br"
+    },
+    {
+      "id": "7",
+      "name": "Leiloes",
+      "website": "https://www.leiloes.com.br"
+    },
+    {
+      "id": "8",
+      "name": "Grupoarremateleiloes",
+      "website": "https://www.grupoarremateleiloes.com.br"
+    },
+    {
+      "id": "10",
+      "name": "Milanleiloes",
+      "website": "https://www.milanleiloes.com.br"
+    },
+    {
+      "id": "14",
+      "name": "Leilaovip",
+      "website": "https://www.leilaovip.com.br"
+    },
+    {
+      "id": "16",
+      "name": "Bestleiloes",
+      "website": "https://www.bestleiloes.com.br"
+    },
+    {
+      "id": "18",
+      "name": "Casareisleiloesonline",
+      "website": "https://www.casareisleiloesonline.com.br"
+    },
+    {
+      "id": "onildo_bastos_leiloeiro",
+      "name": "Onildo Bastos Leiloeiro",
+      "website": "https://www.onildobastos.com.br"
+    },
+    {
+      "id": "fv_leiloes",
+      "name": "FV Leilões",
+      "website": "https://www.fvleiloes.com.br"
+    },
+    {
+      "id": "fabiano_ayupp_leiloeiro",
+      "name": "Fabiano Ayupp Leiloeiro",
+      "website": "https://www.fabianoayupp.com.br"
+    },
+    {
+      "id": "leiloes_aguiar",
+      "name": "Leilões Aguiar",
+      "website": "https://www.leiloesaguiar.com.br"
+    },
+    {
+      "id": "klockner_leiloes",
+      "name": "Klockner Leilões",
+      "website": "https://www.klocknerleiloes.com.br"
+    },
+    {
+      "id": "68",
+      "name": "Hisaleiloes",
+      "website": "https://www.hisaleiloes.com.br"
+    },
+    {
+      "id": "facanha_leiloes",
+      "name": "Facanha Leilões",
+      "website": "https://www.facanhaleiloes.com.br"
+    },
+    {
+      "id": "37",
+      "name": "Raicherleiloes",
+      "website": "https://www.raicherleiloes.com.br"
+    },
+    {
+      "id": "gp_leiloes",
+      "name": "GP Leilões",
+      "website": "https://www.gpleiloes.com.br"
+    },
+    {
+      "id": "baldissera",
+      "name": "Baldissera Leiloeiros",
+      "website": "https://www.baldisseraleiloeiros.com.br"
+    },
+    {
+      "id": "aline_marques_leiloeira",
+      "name": "Aline Marques Leiloeira",
+      "website": "https://www.alinemarques.com.br"
+    },
+    {
+      "id": "jrf_leiloes",
+      "name": "JRF Leilões",
+      "website": "https://www.jrfleiloes.com.br"
+    },
+    {
+      "id": "arremax_leiloes",
+      "name": "Arremax Leilões",
+      "website": "https://www.arremaxleiloes.com.br"
+    },
+    {
+      "id": "dcm_leiloes",
+      "name": "DCM Leilões",
+      "website": "https://www.dcmleiloes.com.br"
+    },
+    {
+      "id": "ags_leiloes",
+      "name": "AGS Leilões",
+      "website": "https://www.agsleiloes.com.br"
+    },
+    {
+      "id": "agostinho_leiloes",
+      "name": "Agostinho Leilões",
+      "website": "https://www.agostinholeiloes.com.br"
+    },
+    {
+      "id": "gilson_leiloes",
+      "name": "Gilson Leilões",
+      "website": "https://www.gilsonleiloes.com.br"
+    },
+    {
+      "id": "52",
+      "name": "Fidalgoleiloes",
+      "website": "https://www.fidalgoleiloes.com.br"
+    },
+    {
+      "id": "61",
+      "name": "Escritoriodeleiloes",
+      "website": "https://www.escritoriodeleiloes.com.br"
+    },
+    {
+      "id": "65",
+      "name": "Leiloesgold",
+      "website": "https://www.leiloesgold.com.br"
+    },
+    {
+      "id": "75",
+      "name": "Joaoluizleiloes",
+      "website": "https://www.joaoluizleiloes.com.br"
+    },
+    {
+      "id": "94",
+      "name": "Rauppleiloes",
+      "website": "https://www.rauppleiloes.com.br"
+    },
+    {
+      "id": "101",
+      "name": "Bronzattoleiloes",
+      "website": "https://www.bronzattoleiloes.com.br"
+    },
+    {
+      "id": "209",
+      "name": "Soleiloes",
+      "website": "https://www.soleiloes.com.br"
+    },
+    {
+      "id": "214",
+      "name": "Bastonleiloes",
+      "website": "https://www.bastonleiloes.com.br"
+    },
+    {
+      "id": "222",
+      "name": "Tmleiloes",
+      "website": "https://www.tmleiloes.com.br"
+    },
+    {
+      "id": "257",
+      "name": "Lottileiloes",
+      "website": "https://www.lottileiloes.com.br"
+    },
+    {
+      "id": "275",
+      "name": "Sublimeleiloes",
+      "website": "https://www.sublimeleiloes.com.br"
+    },
+    {
+      "id": "85",
+      "name": "Nogarileiloes",
+      "website": "https://www.nogarileiloes.com.br"
+    },
+    {
+      "id": "86",
+      "name": "Alemaoleiloeiro",
+      "website": "https://www.alemaoleiloeiro.com.br"
+    },
+    {
+      "id": "arg_leiloes",
+      "name": "ARG Leilões",
+      "website": "https://www.argleiloes.com.br"
+    },
+    {
+      "id": "realiza_leiloes",
+      "name": "Realiza Leilões",
+      "website": "https://www.realizaleiloes.com.br"
+    },
+    {
+      "id": "isaias_leiloes",
+      "name": "Isaias Leilões",
+      "website": "https://www.isaiasleiloes.com.br"
+    },
+    {
+      "id": "254",
+      "name": "Ricardogomesleiloes",
+      "website": "https://www.ricardogomesleiloes.com.br"
+    },
+    {
+      "id": "261",
+      "name": "Superlanceleilao",
+      "website": "https://www.superlanceleilao.com.br"
+    },
+    {
+      "id": "155",
+      "name": "Veronicaleiloes",
+      "website": "https://www.veronicaleiloes.com.br"
+    },
+    {
+      "id": "156",
+      "name": "Kielleiloes",
+      "website": "https://www.kielleiloes.com.br"
+    },
+    {
+      "id": "157",
+      "name": "Machadoleiloesrs",
+      "website": "https://www.machadoleiloesrs.com.br"
+    },
+    {
+      "id": "159",
+      "name": "Fumagallileiloes",
+      "website": "https://www.fumagallileiloes.com.br"
+    },
+    {
+      "id": "160",
+      "name": "Superleiloes",
+      "website": "https://www.superleiloes.net"
+    },
+    {
+      "id": "161",
+      "name": "Regionalleiloes",
+      "website": "https://www.regionalleiloes.com.br"
+    },
+    {
+      "id": "162",
+      "name": "Juleiloes",
+      "website": "https://www.juleiloes.com.br"
+    },
+    {
+      "id": "163",
+      "name": "Renovarleiloes",
+      "website": "https://www.renovarleiloes.com.br"
+    },
+    {
+      "id": "164",
+      "name": "Swleiloes",
+      "website": "https://www.swleiloes.com.br"
+    },
+    {
+      "id": "167",
+      "name": "Evolveleiloes",
+      "website": "https://www.evolveleiloes.com.br"
+    },
+    {
+      "id": "168",
+      "name": "Gestorleiloes",
+      "website": "https://www.gestorleiloes.com.br"
+    },
+    {
+      "id": "170",
+      "name": "Rzleiloes",
+      "website": "https://www.rzleiloes.com.br"
+    },
+    {
+      "id": "173",
+      "name": "Kildareleiloes",
+      "website": "https://www.kildareleiloes.com.br"
+    },
+    {
+      "id": "174",
+      "name": "Alexiusleiloes",
+      "website": "https://www.alexiusleiloes.com.br"
+    },
+    {
+      "id": "175",
+      "name": "Eckertleiloes",
+      "website": "https://www.eckertleiloes.com.br"
+    },
+    {
+      "id": "176",
+      "name": "Hoppeleiloes",
+      "website": "https://www.hoppeleiloes.com.br"
+    },
+    {
+      "id": "178",
+      "name": "Albuquerquelins",
+      "website": "https://www.albuquerquelins.com.br"
+    },
+    {
+      "id": "53",
+      "name": "3Torresleiloes",
+      "website": "https://www.3torresleiloes.com.br"
+    },
+    {
+      "id": "55",
+      "name": "Rossileiloes",
+      "website": "https://www.rossileiloes.com.br"
+    },
+    {
+      "id": "132",
+      "name": "Feliperottaleiloes",
+      "website": "https://www.feliperottaleiloes.com.br"
+    },
+    {
+      "id": "181",
+      "name": "Rjleiloes",
+      "website": "https://www.rjleiloes.com.br"
+    },
+    {
+      "id": "182",
+      "name": "Danielgarcialeiloes",
+      "website": "https://www.danielgarcialeiloes.com.br"
+    },
+    {
+      "id": "leiloes_ceruli",
+      "name": "Leilões Ceruli",
+      "website": "http://www.leiloesceruli.com.br"
+    },
+    {
+      "id": "mgl_leiloes",
+      "name": "MGL Leilões",
+      "website": "https://www.mgl.com.br"
+    },
+    {
+      "id": "leiloes_rn",
+      "name": "Leilões RN",
+      "website": "https://www.leiloesrn.com.br"
+    },
+    {
+      "id": "186",
+      "name": "Leiloeirodebrasilia",
+      "website": "https://www.leiloeirodebrasilia.com.br"
+    },
+    {
+      "id": "187",
+      "name": "Costanetoleiloeiro",
+      "website": "https://www.costanetoleiloeiro.com.br"
+    },
+    {
+      "id": "188",
+      "name": "Multleiloes",
+      "website": "https://www.multleiloes.com"
+    },
+    {
+      "id": "189",
+      "name": "Bsbleiloes",
+      "website": "https://www.bsbleiloes.com.br"
+    },
+    {
+      "id": "190",
+      "name": "Brasilialeiloes",
+      "website": "https://www.brasilialeiloes.com.br"
+    },
+    {
+      "id": "191",
+      "name": "Paulotolentino",
+      "website": "https://www.paulotolentino.com.br"
+    },
+    {
+      "id": "grupo_lance",
+      "name": "Grupo Lance",
+      "website": "https://www.grupolance.com.br"
+    },
+    {
+      "id": "193",
+      "name": "Jfleiloes",
+      "website": "https://www.jfleiloes.com.br"
+    },
+    {
+      "id": "195",
+      "name": "Grupoleilo",
+      "website": "https://www.grupoleilo.com.br"
+    },
+    {
+      "id": "199",
+      "name": "Assuncaoleiloes",
+      "website": "https://www.assuncaoleiloes.com.br"
+    },
+    {
+      "id": "200",
+      "name": "Infinityleiloes",
+      "website": "https://www.infinityleiloes.com.br"
+    },
+    {
+      "id": "201",
+      "name": "Upleiloes",
+      "website": "https://www.upleiloes.com.br"
+    },
+    {
+      "id": "202",
+      "name": "Adringleiloes",
+      "website": "https://www.adringleiloes.com.br"
+    },
+    {
+      "id": "203",
+      "name": "Oaleiloes",
+      "website": "https://www.oaleiloes.com.br"
+    },
+    {
+      "id": "204",
+      "name": "Eixoleiloes",
+      "website": "https://www.eixoleiloes.com.br"
+    },
+    {
+      "id": "205",
+      "name": "Clicleiloes",
+      "website": "https://www.clicleiloes.com.br"
+    },
+    {
+      "id": "206",
+      "name": "Marquesbarretoleiloes",
+      "website": "https://www.marquesbarretoleiloes.com.br"
+    },
+    {
+      "id": "227",
+      "name": "Leiloeiroqueiroz",
+      "website": "https://www.leiloeiroqueiroz.com.br"
+    },
+    {
+      "id": "216",
+      "name": "Leiloes61",
+      "website": "https://www.leiloes61.com.br"
+    },
+    {
+      "id": "217",
+      "name": "Mikedutraleiloeiro",
+      "website": "https://www.mikedutraleiloeiro.com.br"
+    },
+    {
+      "id": "232",
+      "name": "Grupocarvalholeiloes",
+      "website": "https://www.grupocarvalholeiloes.com.br"
+    },
+    {
+      "id": "260",
+      "name": "Whleiloes",
+      "website": "https://www.whleiloes.com.br"
+    },
+    {
+      "id": "246",
+      "name": "Josequencaleiloeiro",
+      "website": "https://www.josequencaleiloeiro.com.br"
+    },
+    {
+      "id": "273",
+      "name": "Leiloaria",
+      "website": "https://www.leiloaria.com.br"
+    },
+    {
+      "id": "274",
+      "name": "Pactoleiloes",
+      "website": "https://www.pactoleiloes.com.br"
+    },
+    {
+      "id": "117",
+      "name": "Correaleiloes",
+      "website": "https://www.correaleiloes.com.br"
+    },
+    {
+      "id": "26",
+      "name": "Leilomaster",
+      "website": "https://leilo.com.br/"
+    },
+    {
+      "id": "24",
+      "name": "Pecinileiloes",
+      "website": "https://www.pecinileiloes.com.br"
+    },
+    {
+      "id": "23",
+      "name": "Vizeuonline",
+      "website": "https://www.vizeuonline.com.br"
+    },
+    {
+      "id": "28",
+      "name": "Melhorlanceleiloes",
+      "website": "https://www.melhorlanceleiloes.com.br"
+    },
+    {
+      "id": "241",
+      "name": "Montenegroleiloes",
+      "website": "https://www.montenegroleiloes.com.br"
+    },
+    {
+      "id": "34",
+      "name": "Projudleiloes",
+      "website": "https://www.projudleiloes.com.br"
+    },
+    {
+      "id": "280",
+      "name": "Leilaoeletronico",
+      "website": "https://www.leilaoeletronico.com.br"
+    },
+    {
+      "id": "40",
+      "name": "Leiloeirospcom Br",
+      "website": "https://www.leiloeirospcom.br"
+    },
+    {
+      "id": "84",
+      "name": "Leiloeiropublico",
+      "website": "https://www.leiloeiropublico.com.br"
+    },
+    {
+      "id": "279",
+      "name": "Maisleilao",
+      "website": "https://www.maisleilao.com.br"
+    },
+    {
+      "id": "35",
+      "name": "Nossoleilao",
+      "website": "https://www.nossoleilao.com.br"
+    },
+    {
+      "id": "113",
+      "name": "Zaccariasleiloes",
+      "website": "https://www.zaccariasleiloes.com.br"
+    },
+    {
+      "id": "30",
+      "name": "Leilaoinvestment",
+      "website": "https://www.leilaoinvestment.com.br"
+    },
+    {
+      "id": "282",
+      "name": "Tribunaleiloes",
+      "website": "https://www.tribunaleiloes.com.br"
+    },
+    {
+      "id": "lb_leiloes",
+      "name": "LB Leilões",
+      "website": "https://www.lbleiloes.com.br"
+    },
+    {
+      "id": "globo_leiloes",
+      "name": "Globo Leilões",
+      "website": "https://globoleiloes.com.br"
+    },
+    {
+      "id": "trustbid_leiloes",
+      "name": "TrustBid Leilões",
+      "website": "https://www.trustbid.com.br"
+    },
+    {
+      "id": "central_sul_de_leiloes",
+      "name": "Central Sul de Leilões",
+      "website": "https://www.centralsuldeleiloes.com.br"
+    },
+    {
+      "id": "joyce_ribeiro_leiloes",
+      "name": "Joyce Ribeiro Leilões",
+      "website": "https://www.joyceribeleiloes.com.br"
+    },
+    {
+      "id": "96",
+      "name": "Amtleiloes",
+      "website": "https://www.amtleiloes.com.br"
+    },
+    {
+      "id": "42",
+      "name": "Publicumleiloes",
+      "website": "https://www.publicumleiloes.com.br"
+    },
+    {
+      "id": "92",
+      "name": "Nortonleiloes",
+      "website": "https://www.nortonleiloes.com.br"
+    },
+    {
+      "id": "110",
+      "name": "Leiloesbonfadini",
+      "website": "https://www.leiloesbonfadini.com.br/venda"
+    },
+    {
+      "id": "115",
+      "name": "Muckleiloes",
+      "website": "https://www.muckleiloes.com.br"
+    },
+    {
+      "id": "70",
+      "name": "Silveiraleiloes",
+      "website": "https://www.silveiraleiloes.com.br"
+    },
+    {
+      "id": "89",
+      "name": "Leilaosantos",
+      "website": "https://www.leilaosantos.com.br"
+    },
+    {
+      "id": "93",
+      "name": "Pietosoleiloes",
+      "website": "https://www.pietosoleiloes.com.br"
+    },
+    {
+      "id": "99",
+      "name": "Leilaobutia",
+      "website": "https://www.leilaobutia.com.br"
+    },
+    {
+      "id": "100",
+      "name": "Scheidleiloes",
+      "website": "https://www.scheidleiloes.com.br"
+    },
+    {
+      "id": "103",
+      "name": "Mpleilao",
+      "website": "https://www.mpleilao.com.br"
+    },
+    {
+      "id": "105",
+      "name": "Scholanteleiloes",
+      "website": "https://www.scholanteleiloes.com.br"
+    },
+    {
+      "id": "112",
+      "name": "Rabuskeleiloes",
+      "website": "https://www.rabuskeleiloes.com.br"
+    },
+    {
+      "id": "43",
+      "name": "Lecapeleiloes",
+      "website": "https://www.lecapeleiloes.com.br"
+    },
+    {
+      "id": "bom_valor",
+      "name": "Bom Valor",
+      "website": "https://www.bomvalor.com.br"
+    },
+    {
+      "id": "121",
+      "name": "Santayanaleiloes",
+      "website": "https://www.santayanaleiloes.com.br"
+    },
+    {
+      "id": "122",
+      "name": "Zuccalmaglioleiloes",
+      "website": "https://www.zuccalmaglioleiloes.com.br"
+    },
+    {
+      "id": "126",
+      "name": "Marceloleiloeiro",
+      "website": "https://www.marceloleiloeiro.com.br"
+    },
+    {
+      "id": "d1_lance",
+      "name": "D1 Lance",
+      "website": "https://www.d1lance.com.br"
+    },
+    {
+      "id": "130",
+      "name": "Vidalleiloes",
+      "website": "https://www.vidalleiloes.com.br"
+    },
+    {
+      "id": "144",
+      "name": "Alexsandroleiloes",
+      "website": "https://www.alexsandroleiloes.com.br/busca"
+    },
+    {
+      "id": "143",
+      "name": "Tonialleiloes",
+      "website": "https://www.tonialleiloes.com.br"
+    },
+    {
+      "id": "135",
+      "name": "Ruipintoleiloeiro",
+      "website": "https://www.ruipintoleiloeiro.com.br"
+    },
+    {
+      "id": "138",
+      "name": "Leiloeirobarbieri",
+      "website": "https://www.leiloeirobarbieri.com.br"
+    },
+    {
+      "id": "139",
+      "name": "Michellileiloes",
+      "website": "https://www.michellileiloes.com.br"
+    },
+    {
+      "id": "joney_marcelo_lopes_ferreira",
+      "name": "Joney Marcelo Lopes Ferreira",
+      "website": "https://www.joneyleiloes.com.br"
+    },
+    {
+      "id": "juliana_vettorazzo_leiloes",
+      "name": "Juliana Vettorazzo Leilões",
+      "website": "https://www.julianavettorazzo.com.br"
+    },
+    {
+      "id": "kron_leiloes",
+      "name": "Kron Leilões",
+      "website": "https://www.kronleiloes.com.br"
+    },
+    {
+      "id": "leiloes_ja",
+      "name": "Leilões JA",
+      "website": "https://www.leiloesja.com.br"
+    },
+    {
+      "id": "151",
+      "name": "Szortykaleiloes",
+      "website": "https://www.szortykaleiloes.com.br"
+    },
+    {
+      "id": "47",
+      "name": "Glleiloes",
+      "website": "https://www.glleiloes.com.br"
+    },
+    {
+      "id": "154",
+      "name": "Utzigleiloes",
+      "website": "https://www.utzigleiloes.com.br"
+    },
+    {
+      "id": "124",
+      "name": "Zagoleiloes",
+      "website": "https://www.zagoleiloes.com.br"
+    },
+    {
+      "id": "127",
+      "name": "Raotaleiloes",
+      "website": "https://www.raotaleiloes.com.br"
+    },
+    {
+      "id": "133",
+      "name": "Mgleiloes-Rs",
+      "website": "https://www.mgleiloes-rs.com.br"
+    },
+    {
+      "id": "136",
+      "name": "Rechleiloes",
+      "website": "https://www.rechleiloes.com.br"
+    },
+    {
+      "id": "140",
+      "name": "Trevisanleiloes",
+      "website": "https://www.trevisanleiloes.com.br"
+    },
+    {
+      "id": "146",
+      "name": "Backleiloes",
+      "website": "https://www.backleiloes.com.br"
+    },
+    {
+      "id": "pulse_leiloes",
+      "name": "Pulse Leilões",
+      "website": "https://www.pulseleiloes.com.br"
+    },
+    {
+      "id": "victor_dorta_leiloes",
+      "name": "Victor Dorta Leilões",
+      "website": "https://www.victordortaleiloes.com.br"
+    },
+    {
+      "id": "leje_leiloes",
+      "name": "Leje Leilões",
+      "website": "https://www.leje.com.br"
+    },
+    {
+      "id": "giordano_leiloes",
+      "name": "Giordano Leilões",
+      "website": "https://www.giordanoleiloes.com.br"
+    },
+    {
+      "id": "paulo_botelho_leiloeiro",
+      "name": "Paulo Botelho Leiloeiro",
+      "website": "https://www.paulobotelho.com.br"
+    },
+    {
+      "id": "leilao_eletronico",
+      "name": "Leilão Eletrônico",
+      "website": "https://www.leilaoeletronico.com.br"
+    },
+    {
+      "id": "rmoyses_leiloes",
+      "name": "Rmoysés Leilões",
+      "website": "https://www.rmoysesleiloes.com.br"
+    },
+    {
+      "id": "construbem_leiloes",
+      "name": "Construbem Leilões",
+      "website": "https://www.construbemleiloes.com.br"
+    },
+    {
+      "id": "saraiva_leiloes",
+      "name": "Saraiva Leilões",
+      "website": "https://www.saraivaleiloes.com.br"
+    },
+    {
+      "id": "rymer_leiloes",
+      "name": "Rymer Leilões",
+      "website": "https://www.rymerleiloes.com.br"
+    },
+    {
+      "id": "deonizia_leiloes",
+      "name": "Deonizia Leilões",
+      "website": "https://www.deonizialeiloes.com.br"
+    },
+    {
+      "id": "ns_leiloes",
+      "name": "NS Leilões",
+      "website": "https://www.nsleiloes.com.br"
+    },
+    {
+      "id": "hidirlene_duszeiko_leiloes",
+      "name": "Hidirlene Duszeiko Leiloes",
+      "website": "https://www.hidirlene.com.br"
+    },
+    {
+      "id": "rafael_coutinho_leiloeiro",
+      "name": "Rafael Coutinho Leiloeiro",
+      "website": "https://www.rafaelcoutinho.com.br"
+    },
+    {
+      "id": "rio_leiloes",
+      "name": "Rio Leiloes",
+      "website": "https://www.rioleiloes.com.br"
+    },
+    {
+      "id": "portal_bayit",
+      "name": "Portal Bayit",
+      "website": "https://www.portalbayit.com.br"
+    },
+    {
+      "id": "norte_leiloes",
+      "name": "Norte Leilões",
+      "website": "https://www.norteleiloes.com.br"
+    },
+    {
+      "id": "teles_e_lima_leiloes",
+      "name": "Teles e Lima Leilões",
+      "website": "https://www.teleselimaleiloes.com.br"
+    },
+    {
+      "id": "luthero_leiloes",
+      "name": "Luthero Leilões",
+      "website": "https://www.lutheroleiloes.com.br"
+    },
+    {
+      "id": "damiani_leiloes",
+      "name": "Damiani Leilões",
+      "website": "https://www.damianileiloes.com.br"
+    },
+    {
+      "id": "wms_leiloes",
+      "name": "WMS Leilões",
+      "website": "https://www.wmsleiloes.com.br"
+    },
+    {
+      "id": "oro_leiloes",
+      "name": "Oro Leilões",
+      "website": "https://www.oroleiloes.com.br"
+    },
+    {
+      "id": "zalli_leiloes",
+      "name": "Zalli Leilões",
+      "website": "https://www.zallileiloes.com.br"
+    },
+    {
+      "id": "vecchi_leiloes",
+      "name": "Vecchi Leiloes",
+      "website": "https://www.vecchileiloes.com.br"
+    },
+    {
+      "id": "santander_leiloes",
+      "name": "Santander Leilões",
+      "website": "https://www.santander.com.br/leiloes"
+    },
+    {
+      "id": "muller_leiloes",
+      "name": "Muller Leilões",
+      "website": "https://www.mullerleiloes.com.br"
+    },
+    {
+      "id": "vendas_judiciais",
+      "name": "Vendas Judiciais",
+      "website": "https://www.vendasjudiciais.com.br"
+    },
+    {
+      "id": "apice_leiloes",
+      "name": "Apice Leilões",
+      "website": "https://www.apiceleiloes.com.br"
+    },
+    {
+      "id": "joao_honor_coirollo_de_souza",
+      "name": "João Honor Coirollo de Souza",
+      "website": "https://www.joaohonor.com.br"
+    },
+    {
+      "id": "atrio_leiloes",
+      "name": "Atrio Leilões",
+      "website": "https://www.atrioleiloes.com.br"
+    },
+    {
+      "id": "marco_antonio_leiloeiro",
+      "name": "Marco Antônio Leiloeiro",
+      "website": "https://www.marcoantonio.com.br"
+    },
+    {
+      "id": "norte_nordeste_leiloes",
+      "name": "Norte Nordeste Leiloes",
+      "website": "https://www.nortenordeste.com.br"
+    },
+    {
+      "id": "peterlongo_leiloes",
+      "name": "Peterlongo Leilões",
+      "website": "https://www.peterlongoleiloes.com.br"
+    },
+    {
+      "id": "silas_e_anderson_leiloes",
+      "name": "Silas e Anderson Leilões",
+      "website": "https://www.silaseanderson.com.br"
+    },
+    {
+      "id": "leilao_net",
+      "name": "Leilao Net",
+      "website": "https://www.leilaonet.com.br"
+    },
+    {
+      "id": "alberto_macedo_leiloes",
+      "name": "Alberto Macedo Leilões",
+      "website": "https://www.albertomacedo.com.br"
+    },
+    {
+      "id": "silva_leiloes",
+      "name": "Silva Leilões",
+      "website": "https://www.silvaleiloes.com.br"
+    },
+    {
+      "id": "nrn_leiloes",
+      "name": "NRN Leilões",
+      "website": "https://www.nrnleiloes.com.br"
+    },
+    {
+      "id": "leilao_oficial_online",
+      "name": "Leilão Oficial Online",
+      "website": "https://www.leilaooficialonline.com.br"
+    },
+    {
+      "id": "flares_aguiar_leiloes",
+      "name": "Flares Aguiar Leilões",
+      "website": "https://www.flaresaguiar.com.br"
+    },
+    {
+      "id": "jd_leiloes",
+      "name": "JD Leiloes",
+      "website": "https://www.jdleiloes.com.br"
+    },
+    {
+      "id": "thais_teixeira_leiloes",
+      "name": "Thais Teixeira Leilões",
+      "website": "https://www.thaisteixeira.com.br"
+    },
+    {
+      "id": "select_leiloeiro",
+      "name": "Select Leiloeiro",
+      "website": "https://www.selectleiloeiro.com.br"
+    },
+    {
+      "id": "alessandra_leiloes",
+      "name": "Alessandra Leilões",
+      "website": "https://www.alessandraleiloes.com.br"
+    },
+    {
+      "id": "de_paula_leiloes",
+      "name": "De Paula Leiloes",
+      "website": "https://www.depaulaleiloes.com.br"
+    },
+    {
+      "id": "maria_filomena_leiloes",
+      "name": "Maria Filomena Leilões",
+      "website": "https://www.mariafilomena.com.br"
+    },
+    {
+      "id": "lance_se_leiloes",
+      "name": "Lance SE Leilões",
+      "website": "https://www.lancese.com.br"
+    },
+    {
+      "id": "sued_peter_leiloes",
+      "name": "Sued Peter Leilões",
+      "website": "https://www.suedpeter.com.br"
+    },
+    {
+      "id": "mercado_leiloes",
+      "name": "Mercado Leilões",
+      "website": "https://www.mercadoleiloes.com.br"
+    },
+    {
+      "id": "leilao_pernambuco",
+      "name": "Leilão Pernambuco",
+      "website": "https://www.leilaopernambuco.com.br"
+    },
+    {
+      "id": "alessandro_teixeira_leiloes",
+      "name": "Alessandro Teixeira Leiloes",
+      "website": "https://www.alessandroteixeira.com.br"
+    },
+    {
+      "id": "cris_leiloes",
+      "name": "Cris Leilões",
+      "website": "https://www.crisleiloes.com.br"
+    },
+    {
+      "id": "cravo_leiloes",
+      "name": "Cravo Leilões",
+      "website": "https://www.cravoleiloes.com.br"
+    },
+    {
+      "id": "leiloes_judiciais_bahia",
+      "name": "Leiloes Judiciais Bahia",
+      "website": "https://www.leiloesjudiciaisbahia.com.br"
+    },
+    {
+      "id": "jikal_leiloes",
+      "name": "Jikal Leilões",
+      "website": "https://www.jikalleiloes.com.br"
+    },
+    {
+      "id": "maria_fixer_leiloes",
+      "name": "Maria Fixer Leiloes",
+      "website": "https://www.mariafixer.com.br"
+    },
+    {
+      "id": "positivo_leiloes",
+      "name": "Positivo Leilões",
+      "website": "https://www.positivoleiloes.com.br"
+    },
+    {
+      "id": "camila_presotto_leiloes",
+      "name": "Camila Presotto Leilões",
+      "website": "https://www.camilapresotto.com.br"
+    },
+    {
+      "id": "valerio_iamin_leiloes",
+      "name": "Valerio Iamin Leilões",
+      "website": "https://www.valerioimain.com.br"
+    },
+    {
+      "id": "portella_leiloes",
+      "name": "Portella Leilões",
+      "website": "https://www.portellaleiloes.com.br"
+    },
+    {
+      "id": "casa_reis_leiloes",
+      "name": "Casa Reis Leilões",
+      "website": "https://www.casareis.com.br"
+    },
+    {
+      "id": "balbo_leiloes",
+      "name": "Balbo Leilões",
+      "website": "https://www.balboleiloes.com.br"
+    },
+    {
+      "id": "marca_leiloes",
+      "name": "Marca Leilões",
+      "website": "https://www.marcaleiloes.com.br"
+    },
+    {
+      "id": "_123_leiloes",
+      "name": "123 Leilões",
+      "website": "https://www.123leiloes.com.br"
+    },
+    {
+      "id": "multiplique_leiloes",
+      "name": "Multiplique Leilões",
+      "website": "https://www.multipliqueleiloes.com.br"
+    },
+    {
+      "id": "leiloaria_smart",
+      "name": "Leiloaria Smart",
+      "website": "https://www.leiloariasmart.com.br"
+    },
+    {
+      "id": "hammer_leiloes",
+      "name": "Hammer Leilões",
+      "website": "https://www.hammerleiloes.com.br"
+    },
+    {
+      "id": "franklin_leiloes",
+      "name": "Franklin Leilões",
+      "website": "https://www.franklinleiloes.com.br"
+    },
+    {
+      "id": "barreto_leiloes",
+      "name": "Barreto Leilões",
+      "website": "https://www.barretoleiloes.com.br"
+    },
+    {
+      "id": "amazonas_leiloes",
+      "name": "Amazonas Leilões",
+      "website": "https://www.amazonasleiloes.com.br"
+    },
+    {
+      "id": "mv_leiloes",
+      "name": "MV Leilões",
+      "website": "https://www.mvleiloes.com.br"
+    },
+    {
+      "id": "marcelo_schonardie_leiloeiro",
+      "name": "Marcelo Schonardie Leiloeiro",
+      "website": "https://www.marceloschonardie.com.br"
+    },
+    {
+      "id": "ch_barbosa_leiloes",
+      "name": "CH Barbosa Leilões",
+      "website": "https://www.chbarbosa.com.br"
+    },
+    {
+      "id": "bsp_leiloes",
+      "name": "BSP Leiloes",
+      "website": "https://www.bspleiloes.com.br"
+    },
+    {
+      "id": "fidelis_leiloes",
+      "name": "Fidelis Leiloes",
+      "website": "https://www.fidelisleiloes.com.br"
+    },
+    {
+      "id": "vinco_leiloes",
+      "name": "Vinco Leilões",
+      "website": "https://www.vincoleiloes.com.br"
+    },
+    {
+      "id": "valdinei_silveira_leiloes",
+      "name": "Valdinei Silveira Leilões",
+      "website": "https://www.valdineisilveira.com.br"
+    },
+    {
+      "id": "luis_leiloeiro",
+      "name": "Luis Leiloeiro",
+      "website": "https://www.luisleiloeiro.com.br"
+    },
+    {
+      "id": "danyllo_maia_leiloes",
+      "name": "Danyllo Maia Leiloes",
+      "website": "https://www.danyllomaia.com.br"
+    },
+    {
+      "id": "brasil_sul_leiloes",
+      "name": "Brasil Sul Leilões",
+      "website": "https://www.brasilsulleiloes.com.br"
+    },
+    {
+      "id": "gsp_leiloes",
+      "name": "GSP Leilões",
+      "website": "https://www.gspleiloes.com.br"
+    },
+    {
+      "id": "sicoob_vale_do_vinho",
+      "name": "Sicoob Vale do Vinho",
+      "website": "https://www.sicoobvaledovinho.com.br"
+    },
+    {
+      "id": "scotto_leiloes",
+      "name": "Scotto Leilões",
+      "website": "https://www.scottoleiloes.com.br"
+    },
+    {
+      "id": "duarte_leiloes",
+      "name": "Duarte Leilões",
+      "website": "https://www.duarteleiloes.com.br"
+    },
+    {
+      "id": "adriano_apolinario_leiloes",
+      "name": "Adriano Apolinario Leilões",
+      "website": "https://www.adrianoapolinario.com.br"
+    },
+    {
+      "id": "miranda_carvalho_leiloes",
+      "name": "Miranda Carvalho Leilões",
+      "website": "https://www.mirandacarvalho.com.br"
+    },
+    {
+      "id": "schulmann_leiloes",
+      "name": "Schulmann Leiloes",
+      "website": "https://www.schulmannleiloes.com.br"
+    },
+    {
+      "id": "innvest_leilao",
+      "name": "Innvest Leilão",
+      "website": "https://www.innvestleilao.com.br"
+    },
+    {
+      "id": "capital_valor_leiloes",
+      "name": "Capital Valor Leiloes",
+      "website": "https://www.capitalvalor.com.br"
+    },
+    {
+      "id": "casa_leiloeira_leiloes",
+      "name": "Casa Leiloeira Leilões",
+      "website": "https://www.casaleiloeira.com.br"
+    },
+    {
+      "id": "e_lance_leiloes",
+      "name": "E-Lance Leilões",
+      "website": "https://www.elanceleiloes.com.br"
+    },
+    {
+      "id": "gestor_de_leiloes",
+      "name": "Gestor de Leilões",
+      "website": "https://www.gestordeleiloes.com.br"
+    },
+    {
+      "id": "mazzolli_leiloes",
+      "name": "Mazzolli Leilões",
+      "website": "https://www.mazzollileiloes.com.br"
+    },
+    {
+      "id": "mario_ricart_leiloeiro",
+      "name": "Mario Ricart Leiloeiro",
+      "website": "https://www.marioricart.com.br"
+    },
+    {
+      "id": "leiloador_leiloes",
+      "name": "Leiloador Leilões",
+      "website": "https://www.leiloador.com.br"
+    },
+    {
+      "id": "verde_amarelo_leiloes",
+      "name": "Verde Amarelo Leilões",
+      "website": "https://www.verdeamarelo.com.br"
+    },
+    {
+      "id": "carstens_leiloeiros",
+      "name": "Carstens Leiloeiros",
+      "website": "https://www.carstensleiloeiros.com.br"
+    },
+    {
+      "id": "bringel_leiloes",
+      "name": "Bringel Leilões",
+      "website": "https://www.bringelleiloes.com.br"
+    },
+    {
+      "id": "angela_bechara_leiloes",
+      "name": "Angela Bechara Leilões",
+      "website": "https://www.angelabechara.com.br"
+    },
+    {
+      "id": "brame_leiloes",
+      "name": "Brame Leilões",
+      "website": "https://www.brameleiloes.com.br"
+    },
+    {
+      "id": "eckert_assessoria",
+      "name": "Eckert Assessoria",
+      "website": "https://www.eckertassessoria.com.br"
+    },
+    {
+      "id": "leomar_kirinus_leiloes",
+      "name": "Leomar Kirinus Leilões",
+      "website": "https://www.leomarkirinus.com.br"
+    },
+    {
+      "id": "impacto_leiloes",
+      "name": "Impacto Leilões",
+      "website": "https://www.impactoleiloes.com.br"
+    },
+    {
+      "id": "gustavo_leiloeiro",
+      "name": "Gustavo Leiloeiro",
+      "website": "https://www.gustavoleiloeiro.com.br"
+    },
+    {
+      "id": "gabriel_rosa_leiloes",
+      "name": "Gabriel Rosa Leilões",
+      "website": "https://www.gabrielrosa.com.br"
+    },
+    {
+      "id": "top_leiloes",
+      "name": "Top Leilões",
+      "website": "https://www.topleiloes.com.br"
+    },
+    {
+      "id": "de_lucca_leiloes",
+      "name": "De Lucca Leilões",
+      "website": "https://www.deluccaleiloes.com.br"
+    },
+    {
+      "id": "mt_leiloes",
+      "name": "MT Leiloes",
+      "website": "https://www.mtleiloes.com.br"
+    },
+    {
+      "id": "dr_leiloes",
+      "name": "Dr Leilões",
+      "website": "https://www.drleiloes.com.br"
+    },
+    {
+      "id": "vegas_leiloes",
+      "name": "Vegas Leilões",
+      "website": "https://www.vegasleiloes.com.br"
+    },
+    {
+      "id": "plano_leiloes",
+      "name": "Plano Leilões",
+      "website": "https://www.planoleiloes.com.br"
+    },
+    {
+      "id": "stefanelli_leiloes",
+      "name": "Stefanelli Leiloes",
+      "website": "https://www.stefanellileiloes.com.br"
+    },
+    {
+      "id": "roberta_zago_leiloes",
+      "name": "Roberta Zago Leilões",
+      "website": "https://www.robertazago.com.br"
+    },
+    {
+      "id": "golden_leiloes",
+      "name": "Golden Leilões",
+      "website": "https://www.goldenleiloes.com.br"
+    },
+    {
+      "id": "ferreira_leiloes",
+      "name": "Ferreira Leilões",
+      "website": "https://www.ferreiraleiloes.com.br"
+    },
+    {
+      "id": "tassiana_menezes_leiloes",
+      "name": "Tassiana Menezes Leilões",
+      "website": "https://www.tassianamenezes.com.br"
+    },
+    {
+      "id": "italo_leiloes",
+      "name": "Italo Leilões",
+      "website": "https://www.italoleiloes.com.br"
+    },
+    {
+      "id": "judiciali_leiloes",
+      "name": "Judiciali Leilões",
+      "website": "https://www.judiciali.com.br"
+    },
+    {
+      "id": "insigne_leiloes",
+      "name": "Insigne Leilões",
+      "website": "https://www.insigneleiloes.com.br"
+    },
+    {
+      "id": "supera_leiloes",
+      "name": "Supera Leilões",
+      "website": "https://www.superaleiloes.com.br"
+    },
+    {
+      "id": "gaia_leiloes",
+      "name": "Gaia Leilões",
+      "website": "https://www.gaialeiloes.com.br"
+    },
+    {
+      "id": "arnaldo_leiloes",
+      "name": "Arnaldo Leilões",
+      "website": "https://www.arnaldoleiloes.com.br"
+    },
+    {
+      "id": "donizette_leiloes",
+      "name": "Donizette Leilões",
+      "website": "https://www.donizetteleiloes.com.br"
+    },
+    {
+      "id": "alexandre_costa_leiloes",
+      "name": "Alexandre Costa Leilões",
+      "website": "https://www.alexandrecosta.com.br"
+    },
+    {
+      "id": "krobel_leiloes",
+      "name": "Krobel Leilões",
+      "website": "https://www.krobelleiloes.com.br"
+    },
+    {
+      "id": "brancalliao_leiloes",
+      "name": "Brancalliao Leilões",
+      "website": "https://www.brancalliaoleiloes.com.br"
+    },
+    {
+      "id": "viana_leiloes",
+      "name": "Viana Leilões",
+      "website": "https://www.vianaleiloes.com.br"
+    },
+    {
+      "id": "mauro_marcello_leiloes",
+      "name": "Mauro Marcello Leilões",
+      "website": "https://www.mauromarcello.com.br"
+    },
+    {
+      "id": "grace_leiloes",
+      "name": "Grace Leilões",
+      "website": "https://www.graceleiloes.com.br"
+    },
+    {
+      "id": "colodete_leiloes",
+      "name": "Colodete Leilões",
+      "website": "https://www.colodeteleiloes.com.br"
+    },
+    {
+      "id": "creditas_leiloes",
+      "name": "Creditas Leilões",
+      "website": "https://www.creditas.com.br/leiloes"
+    },
+    {
+      "id": "capital_leiloes",
+      "name": "Capital Leilões",
+      "website": "https://www.capitalleiloes.com.br"
+    },
+    {
+      "id": "tonon_leiloes",
+      "name": "Tonon Leilões",
+      "website": "https://www.tononleiloes.com.br"
+    },
+    {
+      "id": "atlantico_leiloes",
+      "name": "Atlantico Leilões",
+      "website": "https://www.atlanticoleiloes.com.br"
+    },
+    {
+      "id": "muniz_leiloes",
+      "name": "Muniz Leilões",
+      "website": "https://www.munizleiloes.com.br"
+    },
+    {
+      "id": "rapidao_vende",
+      "name": "Rapidao Vende",
+      "website": "https://www.rapidaovende.com.br"
+    },
+    {
+      "id": "galvani_leiloes",
+      "name": "Galvani Leiloes",
+      "website": "https://www.galvanileiloes.com.br"
+    },
+    {
+      "id": "rodrigo_costa_leiloeiro",
+      "name": "Rodrigo Costa Leiloeiro",
+      "website": "https://www.rodrigocosta.com.br"
+    },
+    {
+      "id": "blm_leiloes",
+      "name": "BLM Leilões",
+      "website": "https://www.blmleiloes.com.br"
+    },
+    {
+      "id": "leiloes_pb",
+      "name": "Leilões PB",
+      "website": "https://www.leiloespb.com.br"
+    },
+    {
+      "id": "formula_leiloes",
+      "name": "Formula Leilões",
+      "website": "https://www.formulaleiloes.com.br"
+    },
+    {
+      "id": "rogerio_menezes_leiloes",
+      "name": "Rogerio Menezes Leilões",
+      "website": "https://www.rogeriomenezes.com.br"
+    },
+    {
+      "id": "bezerra_leiloes",
+      "name": "Bezerra Leilões",
+      "website": "https://www.bezerraleiloes.com.br"
+    },
+    {
+      "id": "pedro_castro_leiloes",
+      "name": "Pedro Castro Leilões",
+      "website": "https://www.pedrocastro.com.br"
+    },
+    {
+      "id": "poliana_mikejevs_leiloes",
+      "name": "Poliana Mikejevs Leilões",
+      "website": "https://www.polianamikejevs.com.br"
+    },
+    {
+      "id": "correa_quinhones_leiloes",
+      "name": "Correa Quinhones Leilões",
+      "website": "https://www.correaquinhones.com.br"
+    },
+    {
+      "id": "fernanda_jose_da_silva_freire",
+      "name": "Fernanda Jose Da Silva Freire",
+      "website": "https://www.fernandafreire.com.br"
+    },
+    {
+      "id": "garcia_leiloes",
+      "name": "Garcia Leilões",
+      "website": "https://www.garcialeiloes.com.br"
+    },
+    {
+      "id": "mato_grosso_leiloes",
+      "name": "Mato Grosso Leilões",
+      "website": "https://www.matogrossoleiloes.com.br"
+    },
+    {
+      "id": "dionir_bianchi_leiloes",
+      "name": "Dionir Bianchi Leilões",
+      "website": "https://www.dinirbianchi.com.br"
+    },
+    {
+      "id": "saulo_julio_leiloes",
+      "name": "Saulo Julio Leilões",
+      "website": "https://www.saulojulio.com.br"
+    },
+    {
+      "id": "master_leiloes",
+      "name": "Master Leilões",
+      "website": "https://www.masterleiloes.com.br"
+    },
+    {
+      "id": "mais_ativo_judicial",
+      "name": "Mais Ativo Judicial",
+      "website": "https://www.maisativojudicial.com.br"
+    },
+    {
+      "id": "alexandre_pedrosa_leiloeiro",
+      "name": "Alexandre Pedrosa Leiloeiro",
+      "website": "https://www.alexandrepedrosa.com.br"
+    },
+    {
+      "id": "pw_leiloes",
+      "name": "PW Leilões",
+      "website": "https://www.pwleiloes.com.br"
+    },
+    {
+      "id": "plus_leiloes",
+      "name": "Plus Leilões",
+      "website": "https://www.plusleiloes.com.br"
+    },
+    {
+      "id": "lottermann_leiloes",
+      "name": "Lottermann Leilões",
+      "website": "https://www.lottermannleiloes.com.br"
+    },
+    {
+      "id": "ramos_leiloes",
+      "name": "Ramos Leilões",
+      "website": "https://www.ramosleiloes.com.br"
+    },
+    {
+      "id": "cencin_leiloes",
+      "name": "Cencin Leilões",
+      "website": "https://www.cencinleiloes.com.br"
+    },
+    {
+      "id": "serpa_leilao",
+      "name": "Serpa Leilão",
+      "website": "https://www.serpaleilao.com.br"
+    },
+    {
+      "id": "pinheiro_leiloes",
+      "name": "Pinheiro Leilões",
+      "website": "https://www.pinheiroleiloes.com.br"
+    },
+    {
+      "id": "dbs_leiloes",
+      "name": "DBS Leilões",
+      "website": "https://www.dbsleiloes.com.br"
+    },
+    {
+      "id": "sevidanes_leiloeira",
+      "name": "Sevidanes Leiloeira",
+      "website": "https://www.sevidanes.com.br"
+    },
+    {
+      "id": "tulio_leiloes",
+      "name": "Tulio Leilões",
+      "website": "https://www.tulioleiloes.com.br"
+    },
+    {
+      "id": "agili_leiloes",
+      "name": "Agili Leilões",
+      "website": "https://www.agilileiloes.com.br"
+    },
+    {
+      "id": "ubaldo_leiloes",
+      "name": "Ubaldo Leilões",
+      "website": "https://www.ubaldoleiloes.com.br"
+    },
+    {
+      "id": "nelci_leiloes",
+      "name": "Nelci Leilões",
+      "website": "https://www.nelcileiloes.com.br"
+    },
+    {
+      "id": "delta_leiloes",
+      "name": "Delta Leilões",
+      "website": "https://www.deltaleiloes.com.br"
+    },
+    {
+      "id": "frederico_krausegg_leiloes",
+      "name": "Frederico Krausegg Leilões",
+      "website": "https://www.fredericokrausegg.com.br"
+    },
+    {
+      "id": "iniciativa_br",
+      "name": "Iniciativa BR",
+      "website": "https://www.iniciativabr.com.br"
+    },
+    {
+      "id": "gr_leiloes",
+      "name": "GR Leilões",
+      "website": "https://www.grleiloes.com.br"
+    },
+    {
+      "id": "planalto_leiloes",
+      "name": "Planalto Leiloes",
+      "website": "https://www.planaltoleiloes.com.br"
+    },
+    {
+      "id": "giuliano_ferronato_leiloes",
+      "name": "Giuliano Ferronato Leilões",
+      "website": "https://www.giulianoferronato.com.br"
+    },
+    {
+      "id": "mauricio_kronemberg_leiloes",
+      "name": "Mauricio Kronemberg Leilões",
+      "website": "https://www.mauriciokronemberg.com.br"
+    },
+    {
+      "id": "62",
+      "name": "Centraljudicial",
+      "website": "https://www.centraljudicial.com.br"
+    },
+    {
+      "id": "226",
+      "name": "Marangonileiloes",
+      "website": "https://www.marangonileiloes.com.br"
+    },
+    {
+      "id": "91",
+      "name": "Moraesleiloes",
+      "website": "https://www.moraesleiloes.com.br"
+    },
+    {
+      "id": "223",
+      "name": "Hastalegal",
+      "website": "https://www.hastalegal.com.br"
+    },
+    {
+      "id": "218",
+      "name": "Oreidosleiloes",
+      "website": "https://www.oreidosleiloes.com.br"
+    },
+    {
+      "id": "271",
+      "name": "Arenaleiloes",
+      "website": "https://www.arenaleiloes.com.br"
+    },
+    {
+      "id": "250",
+      "name": "Odarlicanezinleiloes",
+      "website": "https://www.odarlicanezinleiloes.com.br"
+    },
+    {
+      "id": "29",
+      "name": "Tezaleiloes",
+      "website": "https://www.teza.com.br/"
+    },
+    {
+      "id": "74",
+      "name": "Kronbergleiloes",
+      "website": "https://www.kronbergleiloes.com.br"
+    },
+    {
+      "id": "95",
+      "name": "Santamarialeiloes",
+      "website": "https://www.santamarialeiloes.com.br"
+    },
+    {
+      "id": "66",
+      "name": "Argonetworkleiloes",
+      "website": "https://www.argonetworkleiloes.com.br"
+    },
+    {
+      "id": "64",
+      "name": "Bcoleiloes",
+      "website": "https://www.bcoleiloes.com.br"
+    },
+    {
+      "id": "67",
+      "name": "Conceitoleiloes",
+      "website": "https://www.conceitoleiloes.com.br"
+    },
+    {
+      "id": "278",
+      "name": "Desantileiloes",
+      "website": "https://www.desantileiloes.com.br"
+    },
+    {
+      "id": "31",
+      "name": "Destakleiloes",
+      "website": "https://www.destakleiloes.com.br"
+    },
+    {
+      "id": "69",
+      "name": "Judhastas",
+      "website": "https://www.judhastas.com.br"
+    },
+    {
+      "id": "268",
+      "name": "Ktzleiloes",
+      "website": "https://www.ktzleiloes.com.br"
+    },
+    {
+      "id": "286",
+      "name": "Leffaleiloes",
+      "website": "https://www.leffaleiloes.com.br"
+    },
+    {
+      "id": "44",
+      "name": "Legisleiloes",
+      "website": "https://www.legisleiloes.com.br"
+    },
+    {
+      "id": "267",
+      "name": "Rocketleiloes",
+      "website": "https://www.rocketleiloes.com.br"
+    }
+  ]
+}

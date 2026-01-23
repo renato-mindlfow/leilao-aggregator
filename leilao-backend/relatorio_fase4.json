@@ -1,0 +1,225 @@
+{
+  "fase": "FASE 4 - Garantir Paginacao Completa",
+  "data_execucao": "2026-01-22T22:59:23.211629",
+  "acoes_executadas": [
+    "[22:59:23] === 4.1 Analisando top 20 leiloeiros ===",
+    "[22:59:24] Top 20 leiloeiros identificados",
+    "[22:59:24] Top 20 representam: 36881 imoveis (69.6% do total)",
+    "[22:59:24] \n=== 4.2 Verificando distribuicao de imoveis ===",
+    "[22:59:24] Total de leiloeiros com imoveis: 104",
+    "[22:59:24] \n=== 4.3 Analisando potencial de crescimento ===",
+    "[22:59:24] Encontrados 22 leiloeiros com 1-50 imoveis",
+    "[22:59:24] Estes podem ter paginacao incompleta (pegando so 1a pagina)",
+    "[22:59:24] Potencial conservador: +1100 imoveis com paginacao completa",
+    "[22:59:24] \n=== 4.4 Recomendando acoes ===",
+    "[22:59:24] \n=== Verificando criterios de sucesso ===",
+    "[22:59:25] Total de imoveis: 52989",
+    "[22:59:25] Meta 20%: 63600 - NAO ATINGIDA",
+    "[22:59:25] Gerando relatorio RELATORIO_PAGINACAO.md",
+    "[22:59:25] Relatorio gerado com sucesso"
+  ],
+  "top_leiloeiros": [
+    {
+      "id": "caixa_federal",
+      "name": "Caixa Econômica Federal",
+      "website": "https://venda-imoveis.caixa.gov.br",
+      "property_count": 32547,
+      "scrape_status": "success",
+      "last_scrape": "2026-01-11T06:35:44.278026"
+    },
+    {
+      "id": "megaleiloes",
+      "name": "Mega Leilões",
+      "website": "https://www.megaleiloes.com.br",
+      "property_count": 1000,
+      "scrape_status": "success",
+      "last_scrape": "2026-01-18T06:28:31.889455"
+    },
+    {
+      "id": "166",
+      "name": "Turanileiloes",
+      "website": "https://www.turanileiloes.com.br",
+      "property_count": 394,
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T13:54:54.89275"
+    },
+    {
+      "id": "284",
+      "name": "Dhleiloes",
+      "website": "https://www.dhleiloes.com.br",
+      "property_count": 300,
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T13:16:25.064392"
+    },
+    {
+      "id": "220",
+      "name": "Natalialeiloes",
+      "website": "https://www.natalialeiloes.com.br",
+      "property_count": 297,
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T15:35:57.46851"
+    },
+    {
+      "id": "88",
+      "name": "Cristianoescolaleiloes",
+      "website": "https://www.cristianoescolaleiloes.com.br",
+      "property_count": 250,
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T15:14:00.937456"
+    },
+    {
+      "id": "22",
+      "name": "Hastapublica",
+      "website": "https://www.hastapublica.com.br/leiloes",
+      "property_count": 250,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T15:52:17.500755"
+    },
+    {
+      "id": "281",
+      "name": "Cardosoleiloes",
+      "website": "https://www.cardosoleiloes.com.br",
+      "property_count": 250,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T12:18:00.092476"
+    },
+    {
+      "id": "39",
+      "name": "Allianceleiloes",
+      "website": "https://www.allianceleiloes.com.br",
+      "property_count": 200,
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T16:22:40.207268"
+    },
+    {
+      "id": "59",
+      "name": "Picellileiloes",
+      "website": "https://www.picellileiloes.com.br",
+      "property_count": 200,
+      "scrape_status": "needs_playwright",
+      "last_scrape": "2026-01-03T16:35:48.391627"
+    },
+    {
+      "id": "1",
+      "name": "Portalzuk",
+      "website": "https://www.portalzuk.com.br/leilao-de-imoveis",
+      "property_count": 166,
+      "scrape_status": "success",
+      "last_scrape": "2025-12-23T18:26:51.383745"
+    },
+    {
+      "id": "256",
+      "name": "Vargasepintoleiloes",
+      "website": "https://www.vargasepintoleiloes.com.br",
+      "property_count": 159,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T15:46:54.937821"
+    },
+    {
+      "id": "79",
+      "name": "Pbcastro",
+      "website": "https://www.pbcastro.com.br",
+      "property_count": 150,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T16:05:44.563765"
+    },
+    {
+      "id": "219",
+      "name": "Leiloesfederal",
+      "website": "https://www.leiloesfederal.com.br",
+      "property_count": 150,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T16:16:04.678151"
+    },
+    {
+      "id": "15",
+      "name": "Hastavip",
+      "website": "https://www.hastavip.com.br/imoveis",
+      "property_count": 142,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T17:03:17.823701"
+    },
+    {
+      "id": "125",
+      "name": "Benedettoleiloes",
+      "website": "https://www.benedettoleiloes.com.br/leiloes",
+      "property_count": 136,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T18:53:42.530303"
+    },
+    {
+      "id": "158",
+      "name": "Casaforteleiloes",
+      "website": "https://www.casaforteleiloes.com.br",
+      "property_count": 100,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T17:12:40.761941"
+    },
+    {
+      "id": "150",
+      "name": "Trileiloes",
+      "website": "https://www.trileiloes.com.br",
+      "property_count": 81,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T04:33:54.819671"
+    },
+    {
+      "id": "237",
+      "name": "Machadoleiloeiro",
+      "website": "https://www.machadoleiloeiro.com.br",
+      "property_count": 59,
+      "scrape_status": "error",
+      "last_scrape": "2026-01-03T18:06:48.336529"
+    },
+    {
+      "id": "183",
+      "name": "Inovaleilao",
+      "website": "https://www.inovaleilao.com.br",
+      "property_count": 50,
+      "scrape_status": "pending",
+      "last_scrape": "2026-01-03T10:24:33.460057"
+    }
+  ],
+  "analise_paginacao": {
+    "total_top20": 36881,
+    "percentual_top20": 69.6,
+    "distribuicao": {
+      "1000+": 2,
+      "500-999": 0,
+      "100-499": 15,
+      "50-99": 5,
+      "10-49": 31,
+      "1-9": 51
+    },
+    "leiloeiros_com_imoveis": 104,
+    "candidatos_paginacao": 22,
+    "potencial_crescimento": 1100,
+    "recomendacoes": [
+      {
+        "prioridade": "ALTA",
+        "acao": "Melhorar scraper Caixa Federal",
+        "impacto": "32547 imoveis (maior leiloeiro)",
+        "detalhes": "Ja existe script sync_caixa.py - otimizar paginacao"
+      },
+      {
+        "prioridade": "ALTA",
+        "acao": "Verificar paginacao completa no Top 10",
+        "impacto": "33861 imoveis atuais",
+        "detalhes": "Garantir que pegam todas as paginas, nao so a primeira"
+      },
+      {
+        "prioridade": "MEDIA",
+        "acao": "Implementar scrapers para leiloeiros conhecidos pendentes",
+        "impacto": "Potencial de +5.000 a 10.000 imoveis",
+        "detalhes": "348 leiloeiros pendentes - focar nos 20 maiores"
+      }
+    ]
+  },
+  "criterios_sucesso": {
+    "total_imoveis_atual": 52989,
+    "meta_20_pct": 63600,
+    "atingiu_meta_20pct": false,
+    "top20_analisados": true,
+    "recomendacoes_geradas": true
+  }
+}

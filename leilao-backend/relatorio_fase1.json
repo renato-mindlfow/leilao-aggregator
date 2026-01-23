@@ -1,0 +1,48 @@
+{
+  "fase": "FASE 1 - Auditoria e Limpeza do Banco",
+  "data_execucao": "2026-01-22T22:42:26.942991",
+  "acoes_executadas": [
+    "[22:42:26] Coletando métricas iniciais do banco",
+    "[22:42:29] Métricas iniciais coletadas - 52989 imóveis, 499 leiloeiros",
+    "[22:42:29] === 1.1 Identificando duplicatas de leiloeiros ===",
+    "[22:42:29] Nenhuma duplicata encontrada",
+    "[22:42:29] Nada para consolidar",
+    "[22:42:29] === 1.2 Identificando imóveis órfãos ===",
+    "[22:42:29]   Processados 10000 imóveis...",
+    "[22:42:29] Total de auctioneer_ids únicos: 22",
+    "[22:42:31] IDs válidos: 22",
+    "[22:42:31] IDs órfãos: 0",
+    "[22:42:31] Total de imóveis órfãos: 0",
+    "[22:42:31] Nenhum imóvel órfão para corrigir",
+    "[22:42:31] === 1.3 Limpando dados inválidos ===",
+    "[22:42:31] Corrigindo estados inválidos (XX, comprimento != 2)...",
+    "[22:42:31]   Estados 'XX' corrigidos",
+    "[22:42:31]   0 estados com comprimento inválido corrigidos",
+    "[22:42:31] Corrigindo preços inválidos (negativos ou zero)...",
+    "[22:42:34]   Preços inválidos corrigidos",
+    "[22:42:34] Corrigindo áreas inválidas (<=0 ou >100000)...",
+    "[22:42:34]   Áreas inválidas corrigidas",
+    "[22:42:34] Coletando métricas finais",
+    "[22:42:40] Métricas finais coletadas - 52989 imóveis, 499 leiloeiros",
+    "[22:42:40] Gerando relatório RELATORIO_AUDITORIA_BANCO.md",
+    "[22:42:40] Relatório gerado com sucesso"
+  ],
+  "metricas_antes": {
+    "total_imoveis": 52989,
+    "total_leiloeiros": 499,
+    "estados_invalidos": 0,
+    "duplicatas_leiloeiros": 0,
+    "imoveis_orfaos": 0,
+    "ids_orfaos": 0
+  },
+  "metricas_depois": {
+    "total_imoveis": 52989,
+    "total_leiloeiros": 499
+  },
+  "problemas_corrigidos": 0,
+  "criterios_sucesso": {
+    "zero_duplicatas": true,
+    "zero_orfaos": true,
+    "zero_estados_invalidos": true
+  }
+}

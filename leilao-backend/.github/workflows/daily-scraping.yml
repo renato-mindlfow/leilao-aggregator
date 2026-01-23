@@ -1,0 +1,36 @@
+name: Daily Scraping
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 3:00 AM BRT (UTC-3 = 06:00 UTC)
+  workflow_dispatch:  # Permite execucao manual
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          cd leilao-backend
+          pip install -r requirements.txt
+      
+      - name: Run daily maintenance
+        run: |
+          cd leilao-backend
+          python daily_maintenance.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      
+      - name: Notify on failure
+        if: failure()
+        run: echo "Manutencao diaria falhou - verificar logs"
