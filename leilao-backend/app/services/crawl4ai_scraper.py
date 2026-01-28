@@ -22,7 +22,7 @@ import asyncio
 import logging
 from typing import List, Dict, Optional, Any
 from datetime import datetime
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -150,9 +150,12 @@ class Crawl4AIScraper:
             config = CrawlerRunConfig(
                 delay_before_return_html=3,  # 3 segundos de espera para JS
                 wait_for="body",
+                # Nota: Mantemos script/style para permitir extração de fotos via regex
+                # que muitas vezes estão em JSON-LD ou blocos de estilo.
+                # O LLM lidará com o conteúdo relevante via extraction_strategy.
                 excluded_tags=[
                     "nav", "footer", "header", "aside",
-                    "script", "style", "noscript", "iframe"
+                    "noscript", "iframe"
                 ],
             )
             
@@ -172,15 +175,18 @@ class Crawl4AIScraper:
                 imoveis = self._parse_result(result.extracted_content)
                 
                 # Extrair fotos via regex (mais confiável que LLM para URLs)
-                fotos = self._extract_fotos_regex(result.html)
+                # Nota: Usamos o HTML bruto se disponível para garantir captura total
+                html_for_photos = result.html or ""
+                fotos = self._extrair_fotos_do_html(html_for_photos, url)
                 
                 # Normalizar e enriquecer dados
                 normalized = []
                 for i, imovel in enumerate(imoveis):
                     prop = self._normalize_property(imovel, auctioneer_id, auctioneer_name, url)
                     
-                    # Adicionar foto se disponível
-                    if i < len(fotos) and not prop.get('image_url'):
+                    # Tentar associar foto se o LLM não extraiu
+                    # Estratégia: Usar foto correspondente ao índice se disponível
+                    if not prop.get('image_url') and i < len(fotos):
                         prop['image_url'] = fotos[i]
                     
                     normalized.append(prop)
@@ -206,37 +212,74 @@ class Crawl4AIScraper:
             logger.warning(f"Erro ao parsear JSON: {e}")
             return []
     
-    def _extract_fotos_regex(self, html: str) -> List[str]:
+    def _extrair_fotos_do_html(self, html: str, base_url: str) -> List[str]:
         """
-        Extrai URLs de fotos via regex.
-        Mais confiável que LLM para URLs de imagens.
+        Extrai URLs de fotos via regex de forma robusta.
+        Lida com URLs escapadas, relativas e diversos atributos HTML.
         """
         if not html:
             return []
         
-        # Padrões comuns de URLs de fotos de imóveis
+        # 1. Pré-processamento: Lidar com URLs escapadas em JSON (ex: https:\/\/...)
+        html_decoded = html.replace('\\/', '/')
+
+        # 2. Padrões de busca aprimorados
         patterns = [
-            r'https?://[^\s"\'<>]+\.(?:jpg|jpeg|png|webp)(?:\?[^\s"\'<>]*)?',
-            r'https?://cdn[^\s"\'<>]+\.(?:jpg|jpeg|png|webp)',
-            r'https?://[^\s"\'<>]*imovel[^\s"\'<>]*\.(?:jpg|jpeg|png|webp)',
+            # URLs absolutas com extensões comuns
+            r'https?://[^\s"\'<>]+?\.(?:jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)(?:\?[^\s"\'<>]*?)?',
+
+            # Conteúdo de src, data-src, etc. (captura relativas e absolutas)
+            r'(?:src|data-src|data-lazy|data-original|content|href)=["\']([^"\']+\.(?:jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)[^"\']*)["\']',
+
+            # URLs em JSON ou scripts
+            r'["\'](https?://[^\s"\'<>]+?\.(?:jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)[^\s"\'<>]*?)["\']'
         ]
         
-        fotos = set()
+        fotos = []
+        seen = set()
+        
         for pattern in patterns:
-            matches = re.findall(pattern, html, re.IGNORECASE)
-            fotos.update(matches)
+            matches = re.findall(pattern, html_decoded)
+            for match in matches:
+                url = match.strip()
+
+                # Converter relativa para absoluta
+                if url.startswith('//'):
+                    url = 'https:' + url
+                elif url.startswith('/') or not url.startswith('http'):
+                    if not url.startswith('data:'): # Ignorar base64
+                        url = urljoin(base_url, url)
+
+                # Validar e filtrar
+                if url.startswith('http') and url not in seen:
+                    # Filtro mais inteligente de blacklist
+                    blacklist = ['logo', 'icon', 'favicon', 'avatar', 'marker', 'btn', 'button', 'sprite', 'loading', 'placeholder']
+                    # Só filtra se a palavra estiver "solta" ou for parte de caminhos comuns de assets
+                    # mas permite se tiver 'imovel', 'foto', 'lote' no nome
+                    url_lower = url.lower()
+                    is_bad = any(x in url_lower for x in blacklist)
+                    is_good = any(x in url_lower for x in ['imovel', 'foto', 'lote', 'property', 'asset', 'imagem'])
+
+                    if not is_bad or is_good:
+                        fotos.append(url)
+                        seen.add(url)
         
-        # Filtrar logos e placeholders
-        fotos_filtradas = [
-            f for f in fotos 
-            if not any(x in f.lower() for x in ['logo', 'banner', 'placeholder', 'icon', 'avatar'])
-        ]
-        
-        return list(fotos_filtradas)[:20]  # Limitar a 20 fotos
+        logger.debug(f"Fotos encontradas via regex: {len(fotos)}")
+        return fotos[:50] # Aumentado limite para 50
     
     def _normalize_property(self, imovel: Dict, auctioneer_id: str, auctioneer_name: str, source_url: str) -> Dict:
         """Normaliza dados do imóvel para o formato do banco."""
         
+        # Garantir que a imagem seja uma URL absoluta
+        image_url = imovel.get('imagem')
+        if image_url:
+            image_url = image_url.strip()
+            if image_url.startswith('//'):
+                image_url = 'https:' + image_url
+            elif image_url.startswith('/') or (image_url and not image_url.startswith('http')):
+                if not image_url.startswith('data:'):
+                    image_url = urljoin(source_url, image_url)
+
         # Inferir auctioneer_id da URL se não fornecido
         if not auctioneer_id:
             domain = urlparse(source_url).netloc
@@ -268,7 +311,7 @@ class Crawl4AIScraper:
             'auction_type': self._normalize_modalidade(imovel.get('modalidade', '')),
             
             # Imagem
-            'image_url': imovel.get('imagem'),
+            'image_url': image_url,
             
             # Metadata
             'created_at': datetime.now().isoformat(),
