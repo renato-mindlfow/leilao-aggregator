@@ -82,6 +82,16 @@ VALID_SORT_FIELDS = [
     'state'
 ]
 
+# Mapeamento de sort do frontend para campos do banco
+SORT_MAPPING = {
+    'recent': ('created_at', 'desc'),
+    'price_desc': ('first_auction_value', 'desc'),
+    'price_asc': ('first_auction_value', 'asc'),
+    'date_asc': ('first_auction_date', 'asc'),
+    'date_desc': ('first_auction_date', 'desc'),
+    'discount_desc': ('discount_percentage', 'desc'),
+}
+
 # Categorias válidas
 VALID_CATEGORIES = ['Apartamento', 'Casa', 'Terreno', 'Comercial', 'Outros']
 
@@ -89,8 +99,9 @@ VALID_CATEGORIES = ['Apartamento', 'Casa', 'Terreno', 'Comercial', 'Outros']
 async def list_properties(
     # Paginação
     page: int = Query(1, ge=1, description="Número da página"),
+    limit: int = Query(None, ge=1, le=100, description="Alias para page_size (compatibilidade frontend)"),
     page_size: int = Query(20, ge=1, le=100, description="Itens por página"),
-    
+
     # Filtros
     category: Optional[str] = Query(None, description="Filtrar por categoria"),
     state: Optional[str] = Query(None, description="Filtrar por estado (sigla)"),
@@ -100,37 +111,40 @@ async def list_properties(
     max_value: Optional[float] = Query(None, description="Valor máximo"),
     min_discount: Optional[float] = Query(None, description="Desconto mínimo (%)"),
     auctioneer_id: Optional[str] = Query(None, description="Filtrar por leiloeiro"),
-    
-    # Ordenação
-    sort_by: str = Query('first_auction_date', description="Campo para ordenação"),
+
+    # Ordenação (compatível com frontend)
+    sort: Optional[str] = Query(None, description="Tipo de ordenação do frontend (recent, price_desc, etc)"),
+    sort_by: str = Query('created_at', description="Campo para ordenação"),
     order: str = Query('desc', description="Direção: asc ou desc"),
-    
+
     # Busca
     search: Optional[str] = Query(None, description="Busca no título")
 ):
     """
     Lista propriedades com filtros, ordenação e paginação.
     """
-    
+
     if not supabase:
         raise HTTPException(
             status_code=503,
             detail="Supabase não configurado. Configure SUPABASE_URL e SUPABASE_KEY."
         )
-    
+
+    # Usa limit se fornecido (compatibilidade frontend)
+    actual_page_size = limit if limit else page_size
+
+    # Mapeia sort do frontend para sort_by/order
+    if sort and sort in SORT_MAPPING:
+        sort_by, order = SORT_MAPPING[sort]
+
     # Valida campo de ordenação
     if sort_by not in VALID_SORT_FIELDS:
-        raise HTTPException(
-            status_code=400,
-            detail=f"Campo de ordenação inválido. Válidos: {VALID_SORT_FIELDS}"
-        )
-    
+        # Fallback para created_at se campo inválido
+        sort_by = 'created_at'
+
     # Valida direção
     if order.lower() not in ['asc', 'desc']:
-        raise HTTPException(
-            status_code=400,
-            detail="Direção de ordenação deve ser 'asc' ou 'desc'"
-        )
+        order = 'desc'
     
     # Monta query base
     query = supabase.table('properties').select(
@@ -179,21 +193,21 @@ async def list_properties(
     query = query.order(sort_by, desc=(order.lower() == 'desc'))
     
     # Aplica paginação
-    offset = (page - 1) * page_size
-    query = query.range(offset, offset + page_size - 1)
-    
+    offset = (page - 1) * actual_page_size
+    query = query.range(offset, offset + actual_page_size - 1)
+
     # Executa query
     response = query.execute()
-    
+
     # Calcula total de páginas
     total = response.count or 0
-    total_pages = (total + page_size - 1) // page_size if total > 0 else 0
-    
+    total_pages = (total + actual_page_size - 1) // actual_page_size if total > 0 else 0
+
     return PaginatedResponse(
         data=response.data,
         total=total,
         page=page,
-        page_size=page_size,
+        page_size=actual_page_size,
         total_pages=total_pages
     )
 
