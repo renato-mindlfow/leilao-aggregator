@@ -35,6 +35,7 @@ from app.api.properties import router as properties_router
 from app.api.sync import router as sync_router
 from app.api.geocoding import router as geocoding_router
 from app.api.diagnostics import router as diagnostics_router
+from app.api.auctioneers import router as auctioneers_router
 from app.services.background_geocoding import (
     init_geocoding_service,
     get_geocoding_service,
@@ -76,6 +77,9 @@ app.include_router(geocoding_router)
 
 # Registrar router de diagnostics (Diagnóstico de scrapers)
 app.include_router(diagnostics_router)
+
+# Registrar router de auctioneers (Estatisticas de leiloeiros)
+app.include_router(auctioneers_router)
 
 @app.get("/healthz")
 async def healthz():
