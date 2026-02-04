@@ -1,97 +1,62 @@
 """
-API de sincronização.
+API de sincronizacao.
+
+IMPORTANTE: Endpoints de INSERT estao DESABILITADOS.
+Este servico e apenas de LEITURA.
+Use leilohub-scraper-final para inserir dados (possui validacao completa).
 """
 
-from fastapi import APIRouter, BackgroundTasks, HTTPException
-from typing import Optional
+from fastapi import APIRouter, HTTPException
 import logging
-
-from app.services.sync_service import get_sync_service, SyncReport
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/sync", tags=["sync"])
 
-# Estado da sincronização
+# Estado da sincronizacao (mantido para compatibilidade)
 _sync_status = {
     'is_running': False,
-    'last_report': None
+    'last_report': {"message": "Sync desabilitado - use leilohub-scraper-final"}
 }
 
+
 @router.post("/start")
-async def start_sync(
-    background_tasks: BackgroundTasks,
-    include_caixa: bool = True,
-    include_auctioneers: bool = True,
-    auctioneer_limit: Optional[int] = None
-):
+async def start_sync():
     """
-    Inicia sincronização em background.
+    DESABILITADO - Use leilohub-scraper-final para sincronizacao.
+
+    Este endpoint foi desabilitado porque o aggregator nao possui
+    validacao completa de qualidade de dados.
     """
-    if _sync_status['is_running']:
-        raise HTTPException(
-            status_code=409,
-            detail="Sincronização já está em andamento"
-        )
-    
-    async def run_sync():
-        global _sync_status
-        _sync_status['is_running'] = True
-        
-        try:
-            service = get_sync_service()
-            report = await service.sync_all(
-                include_caixa=include_caixa,
-                include_auctioneers=include_auctioneers,
-                auctioneer_limit=auctioneer_limit
-            )
-            _sync_status['last_report'] = report.to_dict()
-        except Exception as e:
-            logger.error(f"Erro na sincronização: {e}")
-            _sync_status['last_report'] = {'error': str(e)}
-        finally:
-            _sync_status['is_running'] = False
-    
-    background_tasks.add_task(run_sync)
-    
-    return {"status": "started", "message": "Sincronização iniciada em background"}
+    logger.warning("Tentativa de usar endpoint /api/sync/start (DESABILITADO)")
+    raise HTTPException(
+        status_code=501,
+        detail="Endpoint desabilitado. Use leilohub-scraper-final para sincronizacao (possui validacao completa)."
+    )
+
 
 @router.post("/caixa")
-async def sync_caixa_only(background_tasks: BackgroundTasks):
+async def sync_caixa_only():
     """
-    Sincroniza apenas dados da Caixa.
+    DESABILITADO - Use leilohub-scraper-final para sincronizacao da Caixa.
     """
-    if _sync_status['is_running']:
-        raise HTTPException(
-            status_code=409,
-            detail="Sincronização já está em andamento"
-        )
-    
-    async def run_caixa_sync():
-        global _sync_status
-        _sync_status['is_running'] = True
-        
-        try:
-            service = get_sync_service()
-            report = await service.sync_caixa_only()
-            _sync_status['last_report'] = report.to_dict()
-        except Exception as e:
-            logger.error(f"Erro na sincronização Caixa: {e}")
-            _sync_status['last_report'] = {'error': str(e)}
-        finally:
-            _sync_status['is_running'] = False
-    
-    background_tasks.add_task(run_caixa_sync)
-    
-    return {"status": "started", "message": "Sincronização da Caixa iniciada"}
+    logger.warning("Tentativa de usar endpoint /api/sync/caixa (DESABILITADO)")
+    raise HTTPException(
+        status_code=501,
+        detail="Endpoint desabilitado. Use leilohub-scraper-final para sincronizacao (possui validacao completa)."
+    )
+
 
 @router.get("/status")
 async def get_sync_status():
     """
-    Retorna status da sincronização.
+    Retorna status da sincronizacao.
+
+    NOTA: Sincronizacao esta desabilitada neste servico.
     """
     return {
-        "is_running": _sync_status['is_running'],
-        "last_report": _sync_status['last_report']
+        "is_running": False,
+        "last_report": _sync_status['last_report'],
+        "message": "Sincronizacao desabilitada neste servico. Use leilohub-scraper-final."
     }
 

@@ -288,136 +288,20 @@ class PostgresDatabase:
     
     # Property methods
     def add_property(self, prop: Property, upsert: bool = True) -> Property:
-        """Add or update a property."""
-        # TODO: Implementar Layer de Auditoria de Qualidade IA antes do commit final
-        # Ver documentação: ESTRATEGIA_AUDITORIA_QUALIDADE_IA.md
-        # Validações necessárias:
-        # - Datas de leilão lógicas e cronológicas
-        # - Valores de 1ª e 2ª praça respeitando regra de desconto
-        # - Campo 'Estado' não pode ser 'XX' ou inválido
-        
-        # Limpar e validar image_url
-        prop.image_url = clean_image_url(prop.image_url)
-        
-        # Validar e limpar source_url
-        prop.source_url = get_source_url_or_fallback(prop.source_url, prop.auctioneer_url)
-        
-        # Normalizar cidade e bairro
-        prop.city = normalize_city_name(prop.city)
-        prop.neighborhood = normalize_neighborhood(prop.neighborhood)
-        
-        if self._offline_mode:
-            logger.debug(f"Modo Offline: add_property({prop.id}) ignorado - propriedade não salva")
-            return prop
-        
-        try:
-            with self._get_connection() as conn:
-                with conn.cursor() as cur:
-                    if upsert:
-                        # Use INSERT ... ON CONFLICT for upsert
-                        cur.execute("""
-                            INSERT INTO properties (
-                                id, title, category, auction_type, state, city, neighborhood, address,
-                                description, area_total, area_privativa, evaluation_value,
-                                first_auction_value, first_auction_date, second_auction_value, second_auction_date,
-                                discount_percentage, image_url, auctioneer_id, source_url,
-                                accepts_financing, accepts_fgts, accepts_installments, occupation_status,
-                                pending_debts, auctioneer_name, auctioneer_url, source, latitude, longitude,
-                                created_at, updated_at, dedup_key, is_duplicate, original_id,
-                                is_active, last_seen_at, deactivated_at, value_changed_at,
-                                previous_first_auction_value, previous_second_auction_value
-                            ) VALUES (
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
-                            )
-                            ON CONFLICT (id) DO UPDATE SET
-                                title = EXCLUDED.title,
-                                category = EXCLUDED.category,
-                                auction_type = EXCLUDED.auction_type,
-                                state = EXCLUDED.state,
-                                city = EXCLUDED.city,
-                                neighborhood = EXCLUDED.neighborhood,
-                                address = EXCLUDED.address,
-                                description = EXCLUDED.description,
-                                area_total = EXCLUDED.area_total,
-                                area_privativa = EXCLUDED.area_privativa,
-                                evaluation_value = EXCLUDED.evaluation_value,
-                                first_auction_value = EXCLUDED.first_auction_value,
-                                first_auction_date = EXCLUDED.first_auction_date,
-                                second_auction_value = EXCLUDED.second_auction_value,
-                                second_auction_date = EXCLUDED.second_auction_date,
-                                discount_percentage = EXCLUDED.discount_percentage,
-                                image_url = EXCLUDED.image_url,
-                                source_url = EXCLUDED.source_url,
-                                accepts_financing = EXCLUDED.accepts_financing,
-                                accepts_fgts = EXCLUDED.accepts_fgts,
-                                accepts_installments = EXCLUDED.accepts_installments,
-                                occupation_status = EXCLUDED.occupation_status,
-                                pending_debts = EXCLUDED.pending_debts,
-                                auctioneer_name = EXCLUDED.auctioneer_name,
-                                auctioneer_url = EXCLUDED.auctioneer_url,
-                                source = EXCLUDED.source,
-                                latitude = EXCLUDED.latitude,
-                                longitude = EXCLUDED.longitude,
-                                updated_at = CURRENT_TIMESTAMP,
-                                is_active = EXCLUDED.is_active,
-                                last_seen_at = EXCLUDED.last_seen_at
-                        """, (
-                            prop.id, prop.title, prop.category.value if prop.category else None,
-                            prop.auction_type.value if prop.auction_type else None,
-                            prop.state, prop.city, prop.neighborhood, prop.address,
-                            prop.description, prop.area_total, prop.area_privativa, prop.evaluation_value,
-                            prop.first_auction_value, prop.first_auction_date,
-                            prop.second_auction_value, prop.second_auction_date,
-                            prop.discount_percentage, prop.image_url, prop.auctioneer_id, prop.source_url,
-                            prop.accepts_financing, prop.accepts_fgts, prop.accepts_installments,
-                            prop.occupation_status, prop.pending_debts, prop.auctioneer_name,
-                            prop.auctioneer_url, prop.source, prop.latitude, prop.longitude,
-                            prop.created_at, prop.updated_at, prop.dedup_key, prop.is_duplicate,
-                            prop.original_id, prop.is_active, prop.last_seen_at, prop.deactivated_at,
-                            prop.value_changed_at, prop.previous_first_auction_value,
-                            prop.previous_second_auction_value
-                        ))
-                    else:
-                        # Simple insert
-                        cur.execute("""
-                            INSERT INTO properties (
-                                id, title, category, auction_type, state, city, neighborhood, address,
-                                description, area_total, area_privativa, evaluation_value,
-                                first_auction_value, first_auction_date, second_auction_value, second_auction_date,
-                                discount_percentage, image_url, auctioneer_id, source_url,
-                                accepts_financing, accepts_fgts, accepts_installments, occupation_status,
-                                pending_debts, auctioneer_name, auctioneer_url, source, latitude, longitude,
-                                created_at, updated_at, dedup_key, is_duplicate, original_id,
-                                is_active, last_seen_at, deactivated_at, value_changed_at,
-                                previous_first_auction_value, previous_second_auction_value
-                            ) VALUES (
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
-                            )
-                        """, (
-                            prop.id, prop.title, prop.category.value if prop.category else None,
-                            prop.auction_type.value if prop.auction_type else None,
-                            prop.state, prop.city, prop.neighborhood, prop.address,
-                            prop.description, prop.area_total, prop.area_privativa, prop.evaluation_value,
-                            prop.first_auction_value, prop.first_auction_date,
-                            prop.second_auction_value, prop.second_auction_date,
-                            prop.discount_percentage, prop.image_url, prop.auctioneer_id, prop.source_url,
-                            prop.accepts_financing, prop.accepts_fgts, prop.accepts_installments,
-                            prop.occupation_status, prop.pending_debts, prop.auctioneer_name,
-                            prop.auctioneer_url, prop.source, prop.latitude, prop.longitude,
-                            prop.created_at, prop.updated_at, prop.dedup_key, prop.is_duplicate,
-                            prop.original_id, prop.is_active, prop.last_seen_at, prop.deactivated_at,
-                            prop.value_changed_at, prop.previous_first_auction_value,
-                            prop.previous_second_auction_value
-                        ))
-                conn.commit()
-            return prop
-        except Exception as e:
-            logger.error(f"Error adding property {prop.id}: {e}")
-            raise
+        """
+        DESABILITADO - INSERT deve ser feito pelo scraper (leilohub-scraper-final)
+        que possui validacao completa de qualidade.
+
+        Este aggregator e apenas API de leitura.
+
+        Raises:
+            NotImplementedError: Sempre, pois INSERT esta desabilitado neste servico.
+        """
+        logger.warning(f"add_property() DESABILITADO - Tentativa de inserir property {prop.id}")
+        raise NotImplementedError(
+            "INSERT desabilitado neste servico. "
+            "Use leilohub-scraper-final para inserir dados (possui validacao completa)."
+        )
     
     def get_property(self, prop_id: str) -> Optional[Property]:
         """Get a property by ID."""
